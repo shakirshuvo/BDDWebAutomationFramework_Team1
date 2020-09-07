@@ -5,67 +5,79 @@
       {
         "name": "I am on Amazon homepage",
         "aggregatedDurations": {
-          "median": 10.3666894,
-          "average": 10.3666894
+          "median": 5.83502375,
+          "average": 5.83502375
         },
         "durations": [
           {
-            "duration": 10.3666894,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:5"
+            "duration": 6.3520472,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:4"
+          },
+          {
+            "duration": 5.3180003,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:4"
           }
         ]
       }
     ]
   },
   {
-    "source": "I enter {string} in search field",
+    "source": "I enter {string} and submit in the search field.",
     "steps": [
       {
-        "name": "I enter \"Hand Sanitizer\" in search field",
+        "name": "I enter \"Matcha Green Tea\" and submit in the search field.",
         "aggregatedDurations": {
-          "median": 10.315687,
-          "average": 10.315687
+          "median": 12.7815171,
+          "average": 12.7815171
         },
         "durations": [
           {
-            "duration": 10.315687,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:6"
+            "duration": 12.7815171,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:14"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"Rage Against The Machine\" and submit in the search field.",
+        "aggregatedDurations": {
+          "median": 12.0775115,
+          "average": 12.0775115
+        },
+        "durations": [
+          {
+            "duration": 12.0775115,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:14"
           }
         ]
       }
     ]
   },
   {
-    "source": "I submit search field",
+    "source": "I verify items with {string}.",
     "steps": [
       {
-        "name": "I submit search field",
+        "name": "I verify items with \"Amazon.com : Matcha Green Tea\".",
         "aggregatedDurations": {
-          "median": 13.0812395,
-          "average": 13.0812395
+          "median": 0.127,
+          "average": 0.127
         },
         "durations": [
           {
-            "duration": 13.0812395,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:7"
+            "duration": 0.127,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:15"
           }
         ]
-      }
-    ]
-  },
-  {
-    "source": "I verify page title as {string}",
-    "steps": [
+      },
       {
-        "name": "I verify page title as \"Amazon.ca : hand sanitizers\"",
+        "name": "I verify items with \"Amazon.com : Rage Against The Machine\".",
         "aggregatedDurations": {
-          "median": 0.0169967,
-          "average": 0.0169967
+          "median": 0.048001,
+          "average": 0.048001
         },
         "durations": [
           {
-            "duration": 0.0169967,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:8"
+            "duration": 0.048001,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:15"
           }
         ]
       }

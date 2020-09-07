@@ -46,4 +46,14 @@ public class SearchStepDefinition extends CommonAPI {
     public void i_verify_page_title_as(String string) {
         validateByTitle("Amazon.com : Hand Sanitizer");
     }
+
+    @When("I enter {string} and submit in the search field.")
+    public void i_enter_and_submit_in_the_search_field(String item) {
+        typeOnElementNEnter(searchFieldIDWebElement, item);
+    }
+
+    @Then("I verify items with {string}.")
+    public void i_verify_items_with(String title) {
+        validateByTitle(title);
+    }
 }

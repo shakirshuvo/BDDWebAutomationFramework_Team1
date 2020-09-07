@@ -1,7 +1,12 @@
 
-@SmokeTest
-Scenario: Amazon search field functionality check with valid data # src/test/java/features/Search.feature:4
-  Given I am on Amazon homepage                                   # stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()
-  And I enter "Hand Sanitizer" in search field                    # stepDefinitions.SearchStepDefinition.i_enter_in_search_field(java.lang.String)
-  When I submit search field                                      # stepDefinitions.SearchStepDefinition.i_submit_search_field()
-  Then I verify page title as "Amazon.ca : hand sanitizers"       # stepDefinitions.SearchStepDefinition.i_verify_page_title_as(java.lang.String)
+@MyTest
+Scenario Outline: Amazon search field functionality check with two items # src/test/java/features/Search.feature:18
+  Given I am on Amazon homepage                                          # stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()
+  When I enter "Matcha Green Tea" and submit in the search field.        # stepDefinitions.SearchStepDefinition.i_enter_and_submit_in_the_search_field(java.lang.String)
+  Then I verify items with "Amazon.com : Matcha Green Tea".              # stepDefinitions.SearchStepDefinition.i_verify_items_with(java.lang.String)
+
+@MyTest
+Scenario Outline: Amazon search field functionality check with two items  # src/test/java/features/Search.feature:19
+  Given I am on Amazon homepage                                           # stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()
+  When I enter "Rage Against The Machine" and submit in the search field. # stepDefinitions.SearchStepDefinition.i_enter_and_submit_in_the_search_field(java.lang.String)
+  Then I verify items with "Amazon.com : Rage Against The Machine".       # stepDefinitions.SearchStepDefinition.i_verify_items_with(java.lang.String)

@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="36.068">
-    <testcase classname="Amazon search functionality check" name="Amazon search field functionality check with valid data" time="35.402">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="39.245">
+    <testcase classname="Amazon search functionality check" name="Amazon search field functionality check with two items" time="20.283">
         <system-out>
             <![CDATA[Given I am on Amazon homepage...............................................passed
-And I enter "Hand Sanitizer" in search field................................passed
-When I submit search field..................................................passed
-Then I verify page title as "Amazon.ca : hand sanitizers"...................passed
+When I enter "Matcha Green Tea" and submit in the search field..............passed
+Then I verify items with "Amazon.com : Matcha Green Tea"....................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Amazon search functionality check" name="Amazon search field functionality check with two items 2" time="18.451">
+        <system-out>
+            <![CDATA[Given I am on Amazon homepage...............................................passed
+When I enter "Rage Against The Machine" and submit in the search field......passed
+Then I verify items with "Amazon.com : Rage Against The Machine"............passed
 ]]>
         </system-out>
     </testcase>

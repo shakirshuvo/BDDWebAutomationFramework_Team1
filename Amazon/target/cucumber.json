@@ -3,15 +3,47 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-09-07T03:10:53.018Z",
-        "line": 4,
-        "name": "Amazon search field functionality check with valid data",
+        "line": 3,
+        "name": "",
         "description": "",
-        "id": "amazon-search-functionality-check;amazon-search-field-functionality-check-with-valid-data",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6352047200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 37002600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "I am on Amazon homepage",
+            "match": {
+              "location": "stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-07T05:09:30.942Z",
+        "line": 18,
+        "name": "Amazon search field functionality check with two items",
+        "description": "",
+        "id": "amazon-search-functionality-check;amazon-search-field-functionality-check-with-two-items;;2",
         "after": [
           {
             "result": {
-              "duration": 1341051000,
+              "duration": 881998400,
               "status": "passed"
             },
             "match": {
@@ -20,17 +52,17 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 10366689400,
+              "duration": 12781517100,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 51997300,
+                  "duration": 996200,
                   "status": "passed"
                 },
                 "match": {
@@ -38,73 +70,28 @@
                 }
               }
             ],
-            "line": 5,
-            "name": "I am on Amazon homepage",
-            "match": {
-              "location": "stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 10315687000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 999000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 6,
-            "name": "I enter \"Hand Sanitizer\" in search field",
+            "line": 14,
+            "name": "I enter \"Matcha Green Tea\" and submit in the search field.",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Hand Sanitizer\"",
+                  "val": "\"Matcha Green Tea\"",
                   "offset": 8
                 }
               ],
-              "location": "stepDefinitions.SearchStepDefinition.i_enter_in_search_field(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 13081239500,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 7,
-            "name": "I submit search field",
-            "match": {
-              "location": "stepDefinitions.SearchStepDefinition.i_submit_search_field()"
+              "location": "stepDefinitions.SearchStepDefinition.i_enter_and_submit_in_the_search_field(java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 16996700,
+              "duration": 127000000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1001700,
+                  "duration": 1001800,
                   "status": "passed"
                 },
                 "match": {
@@ -112,23 +99,138 @@
                 }
               }
             ],
-            "line": 8,
-            "name": "I verify page title as \"Amazon.ca : hand sanitizers\"",
+            "line": 15,
+            "name": "I verify items with \"Amazon.com : Matcha Green Tea\".",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Amazon.ca : hand sanitizers\"",
-                  "offset": 23
+                  "val": "\"Amazon.com : Matcha Green Tea\"",
+                  "offset": 20
                 }
               ],
-              "location": "stepDefinitions.SearchStepDefinition.i_verify_page_title_as(java.lang.String)"
+              "location": "stepDefinitions.SearchStepDefinition.i_verify_items_with(java.lang.String)"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@SmokeTest"
+            "name": "@MyTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5318000300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 997400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "I am on Amazon homepage",
+            "match": {
+              "location": "stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-07T05:09:51.252Z",
+        "line": 19,
+        "name": "Amazon search field functionality check with two items",
+        "description": "",
+        "id": "amazon-search-functionality-check;amazon-search-field-functionality-check-with-two-items;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 997521100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.SearchStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12077511500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 14,
+            "name": "I enter \"Rage Against The Machine\" and submit in the search field.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Rage Against The Machine\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepDefinitions.SearchStepDefinition.i_enter_and_submit_in_the_search_field(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 48001000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 15,
+            "name": "I verify items with \"Amazon.com : Rage Against The Machine\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Amazon.com : Rage Against The Machine\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinitions.SearchStepDefinition.i_verify_items_with(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MyTest"
           }
         ]
       }

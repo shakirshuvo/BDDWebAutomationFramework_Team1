@@ -230,10 +230,10 @@ public class CommonAPI {
 
     public void typeOnElement(String locator, String value) {
         try {
-            driver.findElement(By.xpath(locator)).sendKeys(value);
+            driver.findElement(By.id(locator)).sendKeys(value);
         } catch (Exception ex) {
             try {
-                driver.findElement(By.id(locator)).sendKeys(value);
+                driver.findElement(By.xpath(locator)).sendKeys(value);
             } catch (Exception ex2) {
                 try {
                     driver.findElement(By.cssSelector(locator)).sendKeys(value);
