@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="36.068">
-    <testcase classname="Amazon search functionality check" name="Amazon search field functionality check with valid data" time="35.402">
-        <system-out>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="26.938">
+    <testcase classname="Amazon search functionality check" name="Amazon search field functionality check with valid data" time="26.536">
+        <failure message="expected:&lt;...com : Hand Sanitizer[]&gt; but was:&lt;...com : Hand Sanitizer[1]&gt;" type="org.junit.ComparisonFailure">
             <![CDATA[Given I am on Amazon homepage...............................................passed
 And I enter "Hand Sanitizer" in search field................................passed
 When I submit search field..................................................passed
-Then I verify page title as "Amazon.ca : hand sanitizers"...................passed
+Then I verify page title as "Amazon.ca : hand sanitizers"...................failed
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<...com : Hand Sanitizer[]> but was:<...com : Hand Sanitizer[1]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at base.CommonAPI.validateByTitle(CommonAPI.java:568)
+	at stepDefinitions.SearchStepDefinition.i_verify_page_title_as(SearchStepDefinition.java:47)
+	at ✽.I verify page title as "Amazon.ca : hand sanitizers"(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:8)
 ]]>
-        </system-out>
+        </failure>
     </testcase>
 </testsuite>

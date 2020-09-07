@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-09-07T03:10:53.018Z",
+        "start_timestamp": "2020-09-07T04:16:03.605Z",
         "line": 4,
         "name": "Amazon search field functionality check with valid data",
         "description": "",
@@ -11,7 +11,7 @@
         "after": [
           {
             "result": {
-              "duration": 1341051000,
+              "duration": 184170000,
               "status": "passed"
             },
             "match": {
@@ -24,13 +24,13 @@
         "steps": [
           {
             "result": {
-              "duration": 10366689400,
+              "duration": 4053659000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 51997300,
+                  "duration": 48370000,
                   "status": "passed"
                 },
                 "match": {
@@ -47,13 +47,13 @@
           },
           {
             "result": {
-              "duration": 10315687000,
+              "duration": 10290956000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 999000,
+                  "duration": 1609000,
                   "status": "passed"
                 },
                 "match": {
@@ -76,12 +76,13 @@
           },
           {
             "result": {
-              "duration": 13081239500,
+              "duration": 11785983000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
+                  "duration": 821000,
                   "status": "passed"
                 },
                 "match": {
@@ -98,13 +99,14 @@
           },
           {
             "result": {
-              "duration": 16996700,
-              "status": "passed"
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c...com : Hand Sanitizer[]\u003e but was:\u003c...com : Hand Sanitizer[1]\u003e\n\tat org.junit.Assert.assertEquals(Assert.java:117)\n\tat org.junit.Assert.assertEquals(Assert.java:146)\n\tat base.CommonAPI.validateByTitle(CommonAPI.java:568)\n\tat stepDefinitions.SearchStepDefinition.i_verify_page_title_as(SearchStepDefinition.java:47)\n\tat ✽.I verify page title as \"Amazon.ca : hand sanitizers\"(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:8)\n",
+              "duration": 37593000,
+              "status": "failed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1001700,
+                  "duration": 532000,
                   "status": "passed"
                 },
                 "match": {

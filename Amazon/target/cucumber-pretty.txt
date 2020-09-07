@@ -5,3 +5,10 @@ Scenario: Amazon search field functionality check with valid data # src/test/jav
   And I enter "Hand Sanitizer" in search field                    # stepDefinitions.SearchStepDefinition.i_enter_in_search_field(java.lang.String)
   When I submit search field                                      # stepDefinitions.SearchStepDefinition.i_submit_search_field()
   Then I verify page title as "Amazon.ca : hand sanitizers"       # stepDefinitions.SearchStepDefinition.i_verify_page_title_as(java.lang.String)
+      org.junit.ComparisonFailure: expected:<...com : Hand Sanitizer[]> but was:<...com : Hand Sanitizer[1]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at base.CommonAPI.validateByTitle(CommonAPI.java:568)
+	at stepDefinitions.SearchStepDefinition.i_verify_page_title_as(SearchStepDefinition.java:47)
+	at ✽.I verify page title as "Amazon.ca : hand sanitizers"(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:8)
+

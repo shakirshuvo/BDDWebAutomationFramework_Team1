@@ -5,13 +5,13 @@
       {
         "name": "I am on Amazon homepage",
         "aggregatedDurations": {
-          "median": 10.3666894,
-          "average": 10.3666894
+          "median": 4.053659,
+          "average": 4.053659
         },
         "durations": [
           {
-            "duration": 10.3666894,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:5"
+            "duration": 4.053659,
+            "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:5"
           }
         ]
       }
@@ -23,13 +23,13 @@
       {
         "name": "I enter \"Hand Sanitizer\" in search field",
         "aggregatedDurations": {
-          "median": 10.315687,
-          "average": 10.315687
+          "median": 10.290956,
+          "average": 10.290956
         },
         "durations": [
           {
-            "duration": 10.315687,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:6"
+            "duration": 10.290956,
+            "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:6"
           }
         ]
       }
@@ -41,31 +41,13 @@
       {
         "name": "I submit search field",
         "aggregatedDurations": {
-          "median": 13.0812395,
-          "average": 13.0812395
+          "median": 11.785983,
+          "average": 11.785983
         },
         "durations": [
           {
-            "duration": 13.0812395,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:7"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "I verify page title as {string}",
-    "steps": [
-      {
-        "name": "I verify page title as \"Amazon.ca : hand sanitizers\"",
-        "aggregatedDurations": {
-          "median": 0.0169967,
-          "average": 0.0169967
-        },
-        "durations": [
-          {
-            "duration": 0.0169967,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:8"
+            "duration": 11.785983,
+            "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:7"
           }
         ]
       }

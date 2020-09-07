@@ -44,6 +44,6 @@ public class SearchStepDefinition extends CommonAPI {
 
     @Then("I verify page title as {string}")
     public void i_verify_page_title_as(String string) {
-        validateByTitle("Amazon.com : Hand Sanitizer");
+        validateByTitle("Amazon.com : Hand Sanitizer1");
     }
 }
