@@ -1,0 +1,7 @@
+
+@SmokeTest
+Scenario: Amazon search field functionality check with valid data # src/test/java/features/Search.feature:4
+  Given I am on Amazon homepage                                   # stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()
+  And I enter "Hand Sanitizer" in search field                    # stepDefinitions.SearchStepDefinition.i_enter_in_search_field(java.lang.String)
+  When I submit search field                                      # stepDefinitions.SearchStepDefinition.i_submit_search_field()
+  Then I verify page title as "Amazon.ca : hand sanitizers"       # stepDefinitions.SearchStepDefinition.i_verify_page_title_as(java.lang.String)
