@@ -1,5 +1,9 @@
 
 @MyTest
-Scenario: Check that Amazon homepage loads using title # src/test/java/features/Home.feature:4
-  Given I am on Amazon homepage                        # stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()
-  Then I verify Amazon homepage with title             # stepDefinitions.HomeStepDefinition.i_verify_amazon_homepage_with_title()
+Scenario: Check that user can navigate to 'Computers & Tablets' page and select 'HP' from 'Featured Brands' selection. # src/test/java/features/Home.feature:64
+  Given I am on Amazon homepage                                                                                        # stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()
+  When I click on Shop By Category burger button                                                                       # stepDefinitions.HomeStepDefinition.i_click_on_shop_by_category_burger_button()
+  And I click on Computers                                                                                             # stepDefinitions.HomeStepDefinition.i_click_on_computers()
+  And I click on Computers & Tablets                                                                                   # stepDefinitions.HomeStepDefinition.i_click_on_computers_tablets()
+  And I click on HP checkbox from Featured Brands selection                                                            # stepDefinitions.HomeStepDefinition.i_click_on_hp_checkbox_from_featured_brands_selection()
+  Then I verify that HP checkbox is selected.                                                                          # stepDefinitions.HomeStepDefinition.i_verify_that_hp_checkbox_is_selected()

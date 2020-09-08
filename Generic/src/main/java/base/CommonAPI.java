@@ -217,12 +217,20 @@ public class CommonAPI {
             driver.findElement(By.xpath(locator)).click();
         } catch (Exception ex) {
             try {
-                driver.findElement(By.className(locator)).click();
+                driver.findElement(By.cssSelector(locator)).click();
             } catch (Exception ex2) {
                 try {
                     driver.findElement(By.id(locator)).click();
                 } catch (Exception ex3) {
-                    driver.findElement(By.cssSelector(locator)).click();
+                    try {
+                    driver.findElement(By.className(locator)).click();
+                } catch (Exception ex4) {
+                        try {
+                            driver.findElement(By.linkText(locator)).click();
+                        } catch (Exception ex5) {
+
+                        }
+                    }
                 }
             }
         }
@@ -565,7 +573,77 @@ public class CommonAPI {
 
     //Validate by title
     public void validateByTitle(String title) {
-        Assert.assertEquals(driver.getTitle(), title);
+        Assert.assertEquals(title, driver.getTitle());
+    }
+
+    //Validate by test
+    public void validateByText(String element, String text) {
+        Assert.assertEquals(text, driver.findElement(By.xpath(element)).getText());
+    }
+
+    //Validate by URL
+    public void validateByURL(String url) {
+        Assert.assertEquals(url, driver.getCurrentUrl());
+    }
+
+    public boolean elementIsDisplayed(String element) {
+        try {
+            driver.findElement(By.xpath(element)).isDisplayed();
+        } catch (Exception ex1) {
+            try {
+                System.out.println("First Attempt was not successful");
+                driver.findElement(By.id(element)).isDisplayed();
+            } catch (Exception ex2) {
+                try {
+                    System.out.println("Second Attempt was not successful");
+                    driver.findElement(By.cssSelector(element)).isDisplayed();
+                } catch (Exception ex3) {
+                    System.out.println("Third Attempt was not successful");
+                    driver.findElement(By.className(element)).isDisplayed();
+                }
+            }
+        }
+        return true;
+    }
+
+    public boolean elementIsSelected(String element) {
+        try {
+            driver.findElement(By.xpath(element)).isSelected();
+        } catch (Exception ex1) {
+            try {
+                System.out.println("First Attempt was not successful");
+                driver.findElement(By.id(element)).isSelected();
+            } catch (Exception ex2) {
+                try {
+                    System.out.println("Second Attempt was not successful");
+                    driver.findElement(By.cssSelector(element)).isSelected();
+                } catch (Exception ex3) {
+                    System.out.println("Third Attempt was not successful");
+                    driver.findElement(By.className(element)).isSelected();
+                }
+            }
+        }
+        return true;
+    }
+
+    public boolean elementIsEnabled(String element) {
+        try {
+            driver.findElement(By.xpath(element)).isEnabled();
+        } catch (Exception ex1) {
+            try {
+                System.out.println("First Attempt was not successful");
+                driver.findElement(By.id(element)).isEnabled();
+            } catch (Exception ex2) {
+                try {
+                    System.out.println("Second Attempt was not successful");
+                    driver.findElement(By.cssSelector(element)).isEnabled();
+                } catch (Exception ex3) {
+                    System.out.println("Third Attempt was not successful");
+                    driver.findElement(By.className(element)).isEnabled();
+                }
+            }
+        }
+        return true;
     }
 
 

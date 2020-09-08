@@ -3,15 +3,56 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-09-08T00:21:23.000Z",
-        "line": 4,
-        "name": "Check that Amazon homepage loads using title",
+        "line": 3,
+        "name": "",
         "description": "",
-        "id": "amazon-homepage-functionality-check;check-that-amazon-homepage-loads-using-title",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8059001700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 124996500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1998100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "I am on Amazon homepage",
+            "match": {
+              "location": "stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-08T06:03:42.251Z",
+        "line": 64,
+        "name": "Check that user can navigate to \u0027Computers \u0026 Tablets\u0027 page and select \u0027HP\u0027 from \u0027Featured Brands\u0027 selection.",
+        "description": "",
+        "id": "amazon-homepage-functionality-check;check-that-user-can-navigate-to--computers-\u0026-tablets--page-and-select--hp--from--featured-brands--selection.",
         "after": [
           {
             "result": {
-              "duration": 804998300,
+              "duration": 852997000,
               "status": "passed"
             },
             "match": {
@@ -20,7 +61,6 @@
           },
           {
             "result": {
-              "duration": 999700,
               "status": "passed"
             },
             "match": {
@@ -33,13 +73,13 @@
         "steps": [
           {
             "result": {
-              "duration": 6488000000,
+              "duration": 793000300,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 39001000,
+                  "duration": 1998900,
                   "status": "passed"
                 },
                 "match": {
@@ -48,7 +88,7 @@
               },
               {
                 "result": {
-                  "duration": 3000900,
+                  "duration": 997300,
                   "status": "passed"
                 },
                 "match": {
@@ -56,22 +96,22 @@
                 }
               }
             ],
-            "line": 5,
-            "name": "I am on Amazon homepage",
+            "line": 65,
+            "name": "I click on Shop By Category burger button",
             "match": {
-              "location": "stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()"
+              "location": "stepDefinitions.HomeStepDefinition.i_click_on_shop_by_category_burger_button()"
             },
-            "keyword": "Given "
+            "keyword": "When "
           },
           {
             "result": {
-              "duration": 41999500,
+              "duration": 401000000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1993500,
+                  "duration": 2998100,
                   "status": "passed"
                 },
                 "match": {
@@ -80,7 +120,7 @@
               },
               {
                 "result": {
-                  "duration": 999600,
+                  "duration": 1999100,
                   "status": "passed"
                 },
                 "match": {
@@ -88,10 +128,105 @@
                 }
               }
             ],
-            "line": 6,
-            "name": "I verify Amazon homepage with title",
+            "line": 66,
+            "name": "I click on Computers",
             "match": {
-              "location": "stepDefinitions.HomeStepDefinition.i_verify_amazon_homepage_with_title()"
+              "location": "stepDefinitions.HomeStepDefinition.i_click_on_computers()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 840002600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 3003100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1001700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 67,
+            "name": "I click on Computers \u0026 Tablets",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.i_click_on_computers_tablets()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1689999600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1998400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 998400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 68,
+            "name": "I click on HP checkbox from Featured Brands selection",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.i_click_on_hp_checkbox_from_featured_brands_selection()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 543997000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1001500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 69,
+            "name": "I verify that HP checkbox is selected.",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.i_verify_that_hp_checkbox_is_selected()"
             },
             "keyword": "Then "
           }

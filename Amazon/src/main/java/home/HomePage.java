@@ -12,17 +12,17 @@ import static home.HomePageWebElements.*;
 
 public class HomePage extends CommonAPI {
 
-    @FindBy(how = How.LINK_TEXT, using = todaysDealTabTextWebElement)
+    @FindBy(how = How.LINK_TEXT, using = todaysDealTabXpathWebElement)
     public WebElement todaysDeaTab;
     @FindBy(how = How.XPATH, using = todaysDealPromotionsTextXPathWebElement)
     public WebElement todaysDealPromotionsText;
-    @FindBy(how = How.LINK_TEXT, using = customerServiceTabTextWebElement)
+    @FindBy(how = How.LINK_TEXT, using = customerServiceTabXpathWebElement)
     public WebElement customerServiceTab;
     @FindBy(how = How.XPATH, using = customerServiceVerificationTextXPathWebElement)
     public WebElement customerServiceVerificationText;
     @FindBy(how = How.XPATH, using = giftCardsTabXPathWebElement)
     public WebElement giftCardsTab;
-    @FindBy(how = How.LINK_TEXT, using = giftCardsVerificationTextLinkTextWebElement)
+    @FindBy(how = How.LINK_TEXT, using = giftCardsVerificationTextXpathWebElement)
     public WebElement GiftCardsVerificationText;
     @FindBy(how = How.XPATH, using = registryTabXPathWebElement)
     public WebElement registryTab;

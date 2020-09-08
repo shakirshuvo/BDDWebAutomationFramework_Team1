@@ -5,31 +5,103 @@
       {
         "name": "I am on Amazon homepage",
         "aggregatedDurations": {
-          "median": 6.488,
-          "average": 6.488
+          "median": 8.0590017,
+          "average": 8.0590017
         },
         "durations": [
           {
-            "duration": 6.488,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:5"
+            "duration": 8.0590017,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:4"
           }
         ]
       }
     ]
   },
   {
-    "source": "I verify Amazon homepage with title",
+    "source": "I click on Shop By Category burger button",
     "steps": [
       {
-        "name": "I verify Amazon homepage with title",
+        "name": "I click on Shop By Category burger button",
         "aggregatedDurations": {
-          "median": 0.0419995,
-          "average": 0.0419995
+          "median": 0.7930003,
+          "average": 0.7930003
         },
         "durations": [
           {
-            "duration": 0.0419995,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:6"
+            "duration": 0.7930003,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:65"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Computers",
+    "steps": [
+      {
+        "name": "I click on Computers",
+        "aggregatedDurations": {
+          "median": 0.401,
+          "average": 0.401
+        },
+        "durations": [
+          {
+            "duration": 0.401,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:66"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Computers \u0026 Tablets",
+    "steps": [
+      {
+        "name": "I click on Computers \u0026 Tablets",
+        "aggregatedDurations": {
+          "median": 0.8400026,
+          "average": 0.8400026
+        },
+        "durations": [
+          {
+            "duration": 0.8400026,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:67"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on HP checkbox from Featured Brands selection",
+    "steps": [
+      {
+        "name": "I click on HP checkbox from Featured Brands selection",
+        "aggregatedDurations": {
+          "median": 1.6899996,
+          "average": 1.6899996
+        },
+        "durations": [
+          {
+            "duration": 1.6899996,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:68"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify that HP checkbox is selected.",
+    "steps": [
+      {
+        "name": "I verify that HP checkbox is selected.",
+        "aggregatedDurations": {
+          "median": 0.543997,
+          "average": 0.543997
+        },
+        "durations": [
+          {
+            "duration": 0.543997,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:69"
           }
         ]
       }

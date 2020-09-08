@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="7.986">
-    <testcase classname="Amazon homepage functionality check" name="Check that Amazon homepage loads using title" time="7.491">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="14.532">
+    <testcase classname="Amazon homepage functionality check" name="Check that user can navigate to 'Computers &amp; Tablets' page and select 'HP' from 'Featured Brands' selection." time="13.632">
         <system-out>
             <![CDATA[Given I am on Amazon homepage...............................................passed
-Then I verify Amazon homepage with title....................................passed
+When I click on Shop By Category burger button..............................passed
+And I click on Computers....................................................passed
+And I click on Computers & Tablets..........................................passed
+And I click on HP checkbox from Featured Brands selection...................passed
+Then I verify that HP checkbox is selected..................................passed
 ]]>
         </system-out>
     </testcase>
