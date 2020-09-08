@@ -5,79 +5,31 @@
       {
         "name": "I am on Amazon homepage",
         "aggregatedDurations": {
-          "median": 5.83502375,
-          "average": 5.83502375
+          "median": 6.488,
+          "average": 6.488
         },
         "durations": [
           {
-            "duration": 6.3520472,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:4"
-          },
-          {
-            "duration": 5.3180003,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:4"
+            "duration": 6.488,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:5"
           }
         ]
       }
     ]
   },
   {
-    "source": "I enter {string} and submit in the search field.",
+    "source": "I verify Amazon homepage with title",
     "steps": [
       {
-        "name": "I enter \"Matcha Green Tea\" and submit in the search field.",
+        "name": "I verify Amazon homepage with title",
         "aggregatedDurations": {
-          "median": 12.7815171,
-          "average": 12.7815171
+          "median": 0.0419995,
+          "average": 0.0419995
         },
         "durations": [
           {
-            "duration": 12.7815171,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:14"
-          }
-        ]
-      },
-      {
-        "name": "I enter \"Rage Against The Machine\" and submit in the search field.",
-        "aggregatedDurations": {
-          "median": 12.0775115,
-          "average": 12.0775115
-        },
-        "durations": [
-          {
-            "duration": 12.0775115,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:14"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "I verify items with {string}.",
-    "steps": [
-      {
-        "name": "I verify items with \"Amazon.com : Matcha Green Tea\".",
-        "aggregatedDurations": {
-          "median": 0.127,
-          "average": 0.127
-        },
-        "durations": [
-          {
-            "duration": 0.127,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:15"
-          }
-        ]
-      },
-      {
-        "name": "I verify items with \"Amazon.com : Rage Against The Machine\".",
-        "aggregatedDurations": {
-          "median": 0.048001,
-          "average": 0.048001
-        },
-        "durations": [
-          {
-            "duration": 0.048001,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:15"
+            "duration": 0.0419995,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:6"
           }
         ]
       }

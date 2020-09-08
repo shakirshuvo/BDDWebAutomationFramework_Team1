@@ -14,6 +14,6 @@ Feature: Amazon search functionality check
     When I enter "<itemName>" and submit in the search field.
     Then I verify items with "<pageTitle>".
     Examples:
-      | itemName                 | pageTitle                      |
-      | Matcha Green Tea         | Amazon.com : Matcha Green Tea    |
+      | itemName                 | pageTitle                             |
+      | Matcha Green Tea         | Amazon.com : Matcha Green Tea         |
       | Rage Against The Machine | Amazon.com : Rage Against The Machine |
