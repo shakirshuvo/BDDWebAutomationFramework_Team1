@@ -37,4 +37,4 @@ Feature: Amazon cart functionality check
     And I navigate back to previous window.
     And I click on 'Add to Cart'
     And I click on cart button
-    Then I verify that the the text, Subtotal (2 items):, is displayed
+    Then I verify that for Subtotal "2 items" is displayed

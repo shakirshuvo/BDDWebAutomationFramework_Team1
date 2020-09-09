@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="96.23">
-    <testcase classname="Amazon cart functionality check" name="Check that user can delete an item from the cart by verifying that 'Your Amazon Cart is empty'" time="95.61">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="29.515">
+    <testcase classname="Amazon cart functionality check" name="Check that user can delete an item from the cart by verifying that 'Your Amazon Cart is empty'" time="29.036">
         <system-out>
             <![CDATA[Given I am on Amazon homepage...............................................passed
 When I enter "WD 5TB My Passport" and submit in the search field............passed
@@ -9,7 +9,7 @@ And I click on 'Add to Cart'................................................pass
 And I navigate back to previous window......................................passed
 And I click on 'Add to Cart'................................................passed
 And I click on cart button..................................................passed
-Then I verify that the the text, Subtotal (2 items):, is displayed..........passed
+Then I verify that for Subtotal "2 items" is displayed......................passed
 ]]>
         </system-out>
     </testcase>

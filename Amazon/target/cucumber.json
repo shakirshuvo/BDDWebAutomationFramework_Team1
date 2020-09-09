@@ -11,13 +11,13 @@
         "steps": [
           {
             "result": {
-              "duration": 5950842000,
+              "duration": 6335877400,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 43997800,
+                  "duration": 43999100,
                   "status": "passed"
                 },
                 "match": {
@@ -26,7 +26,7 @@
               },
               {
                 "result": {
-                  "duration": 2001600,
+                  "duration": 2000300,
                   "status": "passed"
                 },
                 "match": {
@@ -44,7 +44,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-09T06:50:48.679Z",
+        "start_timestamp": "2020-09-09T07:14:12.762Z",
         "line": 32,
         "name": "Check that user can delete an item from the cart by verifying that \u0027Your Amazon Cart is empty\u0027",
         "description": "  is displayed",
@@ -52,7 +52,7 @@
         "after": [
           {
             "result": {
-              "duration": 805007800,
+              "duration": 826999800,
               "status": "passed"
             },
             "match": {
@@ -61,7 +61,7 @@
           },
           {
             "result": {
-              "duration": 995800,
+              "duration": 1001100,
               "status": "passed"
             },
             "match": {
@@ -74,13 +74,13 @@
         "steps": [
           {
             "result": {
-              "duration": 11707002700,
+              "duration": 1753960400,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 3001400,
+                  "duration": 1994600,
                   "status": "passed"
                 },
                 "match": {
@@ -89,6 +89,7 @@
               },
               {
                 "result": {
+                  "duration": 999000,
                   "status": "passed"
                 },
                 "match": {
@@ -111,7 +112,7 @@
           },
           {
             "result": {
-              "duration": 2208998300,
+              "duration": 1488094500,
               "status": "passed"
             },
             "before": [
@@ -126,7 +127,7 @@
               },
               {
                 "result": {
-                  "duration": 1993100,
+                  "duration": 2000000,
                   "status": "passed"
                 },
                 "match": {
@@ -149,12 +150,13 @@
           },
           {
             "result": {
-              "duration": 21217304400,
+              "duration": 2531000200,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
+                  "duration": 996500,
                   "status": "passed"
                 },
                 "match": {
@@ -185,13 +187,13 @@
           },
           {
             "result": {
-              "duration": 819999100,
+              "duration": 1334109600,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 999900,
+                  "duration": 1999600,
                   "status": "passed"
                 },
                 "match": {
@@ -216,13 +218,13 @@
           },
           {
             "result": {
-              "duration": 21192288600,
+              "duration": 3231588000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1000400,
+                  "duration": 1003600,
                   "status": "passed"
                 },
                 "match": {
@@ -231,7 +233,7 @@
               },
               {
                 "result": {
-                  "duration": 1002100,
+                  "duration": 996000,
                   "status": "passed"
                 },
                 "match": {
@@ -254,13 +256,13 @@
           },
           {
             "result": {
-              "duration": 21389431000,
+              "duration": 1262141400,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1001900,
+                  "duration": 998900,
                   "status": "passed"
                 },
                 "match": {
@@ -285,13 +287,13 @@
           },
           {
             "result": {
-              "duration": 10087532300,
+              "duration": 10102038700,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1000300,
+                  "duration": 1001100,
                   "status": "passed"
                 },
                 "match": {
@@ -300,6 +302,7 @@
               },
               {
                 "result": {
+                  "duration": 986800,
                   "status": "passed"
                 },
                 "match": {
@@ -308,15 +311,15 @@
               }
             ],
             "line": 40,
-            "name": "I verify that the the text, Subtotal (2 items):, is displayed",
+            "name": "I verify that for Subtotal \"2 items\" is displayed",
             "match": {
               "arguments": [
                 {
-                  "val": "2",
-                  "offset": 38
+                  "val": "\"2 items\"",
+                  "offset": 27
                 }
               ],
-              "location": "stepDefinitions.CartStepDefinition.i_verify_that_the_the_text_subtotal_items_is_displayed(java.lang.Integer)"
+              "location": "stepDefinitions.CartStepDefinition.iVerifyThatForSubtotalIsDisplayed(java.lang.String)"
             },
             "keyword": "Then "
           }

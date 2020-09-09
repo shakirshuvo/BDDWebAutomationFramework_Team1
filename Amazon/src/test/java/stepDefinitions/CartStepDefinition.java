@@ -14,8 +14,9 @@ public class CartStepDefinition extends CommonAPI {
     }
 
     @When("I click on {string}")
-    public void i_click_on(String string) {
-        clickOnElement(addToCartIDWebElement);
+    public void i_click_on(String string) throws InterruptedException {
+        sleepFor(1);
+        clickOnElementByID(addToCartIDWebElement);
     }
 
     @Then("I verify that the item has been added with {string} text")
@@ -25,7 +26,7 @@ public class CartStepDefinition extends CommonAPI {
 
     @When("I click on cart button")
     public void i_click_on_cart_button() {
-        clickOnElement(cartIDWebElement);
+        clickOnElementByID(cartIDWebElement);
     }
 
     @Then("I verify that the item has been added by confirming that the item is displayed in the cart")
@@ -48,8 +49,9 @@ public class CartStepDefinition extends CommonAPI {
         navigateBack();
     }
 
-    @Then("I verify that the the text, Subtotal \\({int} items):, is displayed")
-    public void i_verify_that_the_the_text_subtotal_items_is_displayed(Integer int1) {
-validateByText(subtotalIDWebElement, "Subtotal (2 items):");
+
+    @Then("I verify that for Subtotal {string} is displayed")
+    public void iVerifyThatForSubtotalIsDisplayed(String arg0) {
+        validateByText(subtotalIDWebElement, "Subtotal (2 items):");
     }
 }

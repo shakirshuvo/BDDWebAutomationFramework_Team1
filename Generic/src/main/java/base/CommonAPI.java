@@ -212,6 +212,11 @@ public class CommonAPI {
 
 
     //helper methods
+
+    public void clickOnElementByID(String locator) {
+        driver.findElement(By.id(locator)).click();
+    }
+
     public void clickOnElement(String locator) {
         try {
             driver.findElement(By.xpath(locator)).click();
@@ -266,6 +271,10 @@ public class CommonAPI {
                 }
             }
         }
+    }
+
+    public static void typeOnElementNEnterByID(String locator, String value) {
+        driver.findElement(By.id(locator)).sendKeys(value, Keys.ENTER);
     }
 
     public static void typeOnElementNEnter(String locator, String value) {

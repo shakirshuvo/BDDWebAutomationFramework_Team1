@@ -8,4 +8,4 @@ Scenario: Check that user can delete an item from the cart by verifying that 'Yo
   And I navigate back to previous window.                                                                  # stepDefinitions.CartStepDefinition.i_navigate_back_to_previous_window()
   And I click on 'Add to Cart'                                                                             # stepDefinitions.CartStepDefinition.i_click_on(java.lang.String)
   And I click on cart button                                                                               # stepDefinitions.CartStepDefinition.i_click_on_cart_button()
-  Then I verify that the the text, Subtotal (2 items):, is displayed                                       # stepDefinitions.CartStepDefinition.i_verify_that_the_the_text_subtotal_items_is_displayed(java.lang.Integer)
+  Then I verify that for Subtotal "2 items" is displayed                                                   # stepDefinitions.CartStepDefinition.iVerifyThatForSubtotalIsDisplayed(java.lang.String)

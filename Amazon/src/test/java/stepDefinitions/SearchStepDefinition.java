@@ -49,7 +49,7 @@ public class SearchStepDefinition extends CommonAPI {
 
     @When("I enter {string} and submit in the search field.")
     public void i_enter_and_submit_in_the_search_field(String item) {
-        typeOnElementNEnter(searchFieldIDWebElement, item);
+        typeOnElementNEnterByID(searchFieldIDWebElement, item);
     }
 
     @Then("I verify items with {string}.")
