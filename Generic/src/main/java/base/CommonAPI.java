@@ -578,7 +578,19 @@ public class CommonAPI {
 
     //Validate by test
     public void validateByText(String element, String text) {
-        Assert.assertEquals(text, driver.findElement(By.xpath(element)).getText());
+        try {
+            Assert.assertEquals(text, driver.findElement(By.xpath(element)).getText());
+        } catch (Exception ex) {
+            try {
+                Assert.assertEquals(text, driver.findElement(By.id(element)).getText());
+            } catch (Exception ex2) {
+                try {
+                    Assert.assertEquals(text, driver.findElement(By.cssSelector(element)).getText());
+                } catch (Exception ex3) {
+                    Assert.assertEquals(text, driver.findElement(By.name(element)).getText());
+                }
+            }
+        }
     }
 
     //Validate by URL

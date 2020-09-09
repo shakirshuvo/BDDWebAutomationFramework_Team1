@@ -5,103 +5,125 @@
       {
         "name": "I am on Amazon homepage",
         "aggregatedDurations": {
-          "median": 8.0590017,
-          "average": 8.0590017
+          "median": 5.950842,
+          "average": 5.950842
         },
         "durations": [
           {
-            "duration": 8.0590017,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:4"
+            "duration": 5.950842,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:4"
           }
         ]
       }
     ]
   },
   {
-    "source": "I click on Shop By Category burger button",
+    "source": "I enter {string} and submit in the search field.",
     "steps": [
       {
-        "name": "I click on Shop By Category burger button",
+        "name": "I enter \"WD 5TB My Passport\" and submit in the search field.",
         "aggregatedDurations": {
-          "median": 0.7930003,
-          "average": 0.7930003
+          "median": 11.7070027,
+          "average": 11.7070027
         },
         "durations": [
           {
-            "duration": 0.7930003,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:65"
+            "duration": 11.7070027,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:34"
           }
         ]
       }
     ]
   },
   {
-    "source": "I click on Computers",
+    "source": "I click on the product {string}",
     "steps": [
       {
-        "name": "I click on Computers",
+        "name": "I click on the product \u0027WD 5TB My Passport Portable External Hard Drive, Black - WDBPKJ0050BBK-WESN\u0027",
         "aggregatedDurations": {
-          "median": 0.401,
-          "average": 0.401
+          "median": 2.2089983,
+          "average": 2.2089983
         },
         "durations": [
           {
-            "duration": 0.401,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:66"
+            "duration": 2.2089983,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:35"
           }
         ]
       }
     ]
   },
   {
-    "source": "I click on Computers \u0026 Tablets",
+    "source": "I click on {string}",
     "steps": [
       {
-        "name": "I click on Computers \u0026 Tablets",
+        "name": "I click on \u0027Add to Cart\u0027",
         "aggregatedDurations": {
-          "median": 0.8400026,
-          "average": 0.8400026
+          "median": 21.2047965,
+          "average": 21.2047965
         },
         "durations": [
           {
-            "duration": 0.8400026,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:67"
+            "duration": 21.2173044,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:36"
+          },
+          {
+            "duration": 21.1922886,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:38"
           }
         ]
       }
     ]
   },
   {
-    "source": "I click on HP checkbox from Featured Brands selection",
+    "source": "I navigate back to previous window.",
     "steps": [
       {
-        "name": "I click on HP checkbox from Featured Brands selection",
+        "name": "I navigate back to previous window.",
         "aggregatedDurations": {
-          "median": 1.6899996,
-          "average": 1.6899996
+          "median": 0.8199991,
+          "average": 0.8199991
         },
         "durations": [
           {
-            "duration": 1.6899996,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:68"
+            "duration": 0.8199991,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:37"
           }
         ]
       }
     ]
   },
   {
-    "source": "I verify that HP checkbox is selected.",
+    "source": "I click on cart button",
     "steps": [
       {
-        "name": "I verify that HP checkbox is selected.",
+        "name": "I click on cart button",
         "aggregatedDurations": {
-          "median": 0.543997,
-          "average": 0.543997
+          "median": 21.389431,
+          "average": 21.389431
         },
         "durations": [
           {
-            "duration": 0.543997,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:69"
+            "duration": 21.389431,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:39"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify that the the text, Subtotal \\({int} items):, is displayed",
+    "steps": [
+      {
+        "name": "I verify that the the text, Subtotal (2 items):, is displayed",
+        "aggregatedDurations": {
+          "median": 10.0875323,
+          "average": 10.0875323
+        },
+        "durations": [
+          {
+            "duration": 10.0875323,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:40"
           }
         ]
       }

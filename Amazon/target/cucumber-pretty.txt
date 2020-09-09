@@ -1,9 +1,11 @@
 
 @MyTest
-Scenario: Check that user can navigate to 'Computers & Tablets' page and select 'HP' from 'Featured Brands' selection. # src/test/java/features/Home.feature:64
-  Given I am on Amazon homepage                                                                                        # stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()
-  When I click on Shop By Category burger button                                                                       # stepDefinitions.HomeStepDefinition.i_click_on_shop_by_category_burger_button()
-  And I click on Computers                                                                                             # stepDefinitions.HomeStepDefinition.i_click_on_computers()
-  And I click on Computers & Tablets                                                                                   # stepDefinitions.HomeStepDefinition.i_click_on_computers_tablets()
-  And I click on HP checkbox from Featured Brands selection                                                            # stepDefinitions.HomeStepDefinition.i_click_on_hp_checkbox_from_featured_brands_selection()
-  Then I verify that HP checkbox is selected.                                                                          # stepDefinitions.HomeStepDefinition.i_verify_that_hp_checkbox_is_selected()
+Scenario: Check that user can delete an item from the cart by verifying that 'Your Amazon Cart is empty'   # src/test/java/features/Cart.feature:32
+  Given I am on Amazon homepage                                                                            # stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()
+  When I enter "WD 5TB My Passport" and submit in the search field.                                        # stepDefinitions.SearchStepDefinition.i_enter_and_submit_in_the_search_field(java.lang.String)
+  And I click on the product 'WD 5TB My Passport Portable External Hard Drive, Black - WDBPKJ0050BBK-WESN' # stepDefinitions.CartStepDefinition.i_click_on_the_product(java.lang.String)
+  And I click on 'Add to Cart'                                                                             # stepDefinitions.CartStepDefinition.i_click_on(java.lang.String)
+  And I navigate back to previous window.                                                                  # stepDefinitions.CartStepDefinition.i_navigate_back_to_previous_window()
+  And I click on 'Add to Cart'                                                                             # stepDefinitions.CartStepDefinition.i_click_on(java.lang.String)
+  And I click on cart button                                                                               # stepDefinitions.CartStepDefinition.i_click_on_cart_button()
+  Then I verify that the the text, Subtotal (2 items):, is displayed                                       # stepDefinitions.CartStepDefinition.i_verify_that_the_the_text_subtotal_items_is_displayed(java.lang.Integer)

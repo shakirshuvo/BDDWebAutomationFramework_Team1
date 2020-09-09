@@ -60,7 +60,7 @@ Feature: Amazon homepage functionality check
     And I click on Computers & Tablets
     Then I verify Computers & Tablets page with ASUS on 'Featured Brand' selection
 
-  @MyTest
+  @SmokeTest
   Scenario: Check that user can navigate to 'Computers & Tablets' page and select 'HP' from 'Featured Brands' selection.
     When I click on Shop By Category burger button
     And I click on Computers

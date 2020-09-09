@@ -11,13 +11,13 @@
         "steps": [
           {
             "result": {
-              "duration": 8059001700,
+              "duration": 5950842000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 124996500,
+                  "duration": 43997800,
                   "status": "passed"
                 },
                 "match": {
@@ -26,7 +26,7 @@
               },
               {
                 "result": {
-                  "duration": 1998100,
+                  "duration": 2001600,
                   "status": "passed"
                 },
                 "match": {
@@ -44,15 +44,15 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-08T06:03:42.251Z",
-        "line": 64,
-        "name": "Check that user can navigate to \u0027Computers \u0026 Tablets\u0027 page and select \u0027HP\u0027 from \u0027Featured Brands\u0027 selection.",
-        "description": "",
-        "id": "amazon-homepage-functionality-check;check-that-user-can-navigate-to--computers-\u0026-tablets--page-and-select--hp--from--featured-brands--selection.",
+        "start_timestamp": "2020-09-09T06:50:48.679Z",
+        "line": 32,
+        "name": "Check that user can delete an item from the cart by verifying that \u0027Your Amazon Cart is empty\u0027",
+        "description": "  is displayed",
+        "id": "amazon-cart-functionality-check;check-that-user-can-delete-an-item-from-the-cart-by-verifying-that--your-amazon-cart-is-empty-",
         "after": [
           {
             "result": {
-              "duration": 852997000,
+              "duration": 805007800,
               "status": "passed"
             },
             "match": {
@@ -61,6 +61,7 @@
           },
           {
             "result": {
+              "duration": 995800,
               "status": "passed"
             },
             "match": {
@@ -73,13 +74,13 @@
         "steps": [
           {
             "result": {
-              "duration": 793000300,
+              "duration": 11707002700,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1998900,
+                  "duration": 3001400,
                   "status": "passed"
                 },
                 "match": {
@@ -88,7 +89,6 @@
               },
               {
                 "result": {
-                  "duration": 997300,
                   "status": "passed"
                 },
                 "match": {
@@ -96,22 +96,28 @@
                 }
               }
             ],
-            "line": 65,
-            "name": "I click on Shop By Category burger button",
+            "line": 34,
+            "name": "I enter \"WD 5TB My Passport\" and submit in the search field.",
             "match": {
-              "location": "stepDefinitions.HomeStepDefinition.i_click_on_shop_by_category_burger_button()"
+              "arguments": [
+                {
+                  "val": "\"WD 5TB My Passport\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepDefinitions.SearchStepDefinition.i_enter_and_submit_in_the_search_field(java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 401000000,
+              "duration": 2208998300,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 2998100,
+                  "duration": 1000900,
                   "status": "passed"
                 },
                 "match": {
@@ -120,7 +126,7 @@
               },
               {
                 "result": {
-                  "duration": 1999100,
+                  "duration": 1993100,
                   "status": "passed"
                 },
                 "match": {
@@ -128,22 +134,27 @@
                 }
               }
             ],
-            "line": 66,
-            "name": "I click on Computers",
+            "line": 35,
+            "name": "I click on the product \u0027WD 5TB My Passport Portable External Hard Drive, Black - WDBPKJ0050BBK-WESN\u0027",
             "match": {
-              "location": "stepDefinitions.HomeStepDefinition.i_click_on_computers()"
+              "arguments": [
+                {
+                  "val": "\u0027WD 5TB My Passport Portable External Hard Drive, Black - WDBPKJ0050BBK-WESN\u0027",
+                  "offset": 23
+                }
+              ],
+              "location": "stepDefinitions.CartStepDefinition.i_click_on_the_product(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 840002600,
+              "duration": 21217304400,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 3003100,
                   "status": "passed"
                 },
                 "match": {
@@ -152,7 +163,6 @@
               },
               {
                 "result": {
-                  "duration": 1001700,
                   "status": "passed"
                 },
                 "match": {
@@ -160,22 +170,28 @@
                 }
               }
             ],
-            "line": 67,
-            "name": "I click on Computers \u0026 Tablets",
+            "line": 36,
+            "name": "I click on \u0027Add to Cart\u0027",
             "match": {
-              "location": "stepDefinitions.HomeStepDefinition.i_click_on_computers_tablets()"
+              "arguments": [
+                {
+                  "val": "\u0027Add to Cart\u0027",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinitions.CartStepDefinition.i_click_on(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 1689999600,
+              "duration": 819999100,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1998400,
+                  "duration": 999900,
                   "status": "passed"
                 },
                 "match": {
@@ -184,7 +200,6 @@
               },
               {
                 "result": {
-                  "duration": 998400,
                   "status": "passed"
                 },
                 "match": {
@@ -192,22 +207,60 @@
                 }
               }
             ],
-            "line": 68,
-            "name": "I click on HP checkbox from Featured Brands selection",
+            "line": 37,
+            "name": "I navigate back to previous window.",
             "match": {
-              "location": "stepDefinitions.HomeStepDefinition.i_click_on_hp_checkbox_from_featured_brands_selection()"
+              "location": "stepDefinitions.CartStepDefinition.i_navigate_back_to_previous_window()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 543997000,
+              "duration": 21192288600,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1001500,
+                  "duration": 1000400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1002100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 38,
+            "name": "I click on \u0027Add to Cart\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Add to Cart\u0027",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinitions.CartStepDefinition.i_click_on(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21389431000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1001900,
                   "status": "passed"
                 },
                 "match": {
@@ -223,10 +276,47 @@
                 }
               }
             ],
-            "line": 69,
-            "name": "I verify that HP checkbox is selected.",
+            "line": 39,
+            "name": "I click on cart button",
             "match": {
-              "location": "stepDefinitions.HomeStepDefinition.i_verify_that_hp_checkbox_is_selected()"
+              "location": "stepDefinitions.CartStepDefinition.i_click_on_cart_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10087532300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 40,
+            "name": "I verify that the the text, Subtotal (2 items):, is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 38
+                }
+              ],
+              "location": "stepDefinitions.CartStepDefinition.i_verify_that_the_the_text_subtotal_items_is_displayed(java.lang.Integer)"
             },
             "keyword": "Then "
           }
@@ -238,11 +328,11 @@
         ]
       }
     ],
-    "name": "Amazon homepage functionality check",
+    "name": "Amazon cart functionality check",
     "description": "",
-    "id": "amazon-homepage-functionality-check",
+    "id": "amazon-cart-functionality-check",
     "keyword": "Feature",
-    "uri": "file:src/test/java/features/Home.feature",
+    "uri": "file:src/test/java/features/Cart.feature",
     "tags": []
   }
 ]

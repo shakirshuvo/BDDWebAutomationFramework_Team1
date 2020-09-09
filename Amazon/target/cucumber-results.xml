@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="14.532">
-    <testcase classname="Amazon homepage functionality check" name="Check that user can navigate to 'Computers &amp; Tablets' page and select 'HP' from 'Featured Brands' selection." time="13.632">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="96.23">
+    <testcase classname="Amazon cart functionality check" name="Check that user can delete an item from the cart by verifying that 'Your Amazon Cart is empty'" time="95.61">
         <system-out>
             <![CDATA[Given I am on Amazon homepage...............................................passed
-When I click on Shop By Category burger button..............................passed
-And I click on Computers....................................................passed
-And I click on Computers & Tablets..........................................passed
-And I click on HP checkbox from Featured Brands selection...................passed
-Then I verify that HP checkbox is selected..................................passed
+When I enter "WD 5TB My Passport" and submit in the search field............passed
+And I click on the product 'WD 5TB My Passport Portable External Hard Drive, Black - WDBPKJ0050BBK-WESN'.passed
+And I click on 'Add to Cart'................................................passed
+And I navigate back to previous window......................................passed
+And I click on 'Add to Cart'................................................passed
+And I click on cart button..................................................passed
+Then I verify that the the text, Subtotal (2 items):, is displayed..........passed
 ]]>
         </system-out>
     </testcase>
