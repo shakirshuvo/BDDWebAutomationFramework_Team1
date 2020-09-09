@@ -1,0 +1,76 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-09T17:34:37.045Z",
+        "line": 4,
+        "name": "Delta Sign In functionality check with valid data",
+        "description": "",
+        "id": "delta-home-functionality-check;delta-sign-in-functionality-check-with-valid-data",
+        "after": [
+          {
+            "result": {
+              "duration": 716667000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.closeBroser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8028331400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on Delta homepage",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.i_am_on_delta_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1763127300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on Log In",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.i_click_on_log_in()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 394470500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I verify Log In page with title",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.i_verify_log_in_page_with_title()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Delta home functionality check",
+    "description": "",
+    "id": "delta-home-functionality-check",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/HomePage.feature",
+    "tags": []
+  }
+]

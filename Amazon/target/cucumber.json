@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-09-07T03:10:53.018Z",
+        "start_timestamp": "2020-09-08T06:34:50.351Z",
         "line": 4,
         "name": "Amazon search field functionality check with valid data",
         "description": "",
@@ -11,7 +11,7 @@
         "after": [
           {
             "result": {
-              "duration": 1341051000,
+              "duration": 834225100,
               "status": "passed"
             },
             "match": {
@@ -24,13 +24,13 @@
         "steps": [
           {
             "result": {
-              "duration": 10366689400,
+              "duration": 6978181800,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 51997300,
+                  "duration": 45553400,
                   "status": "passed"
                 },
                 "match": {
@@ -47,13 +47,13 @@
           },
           {
             "result": {
-              "duration": 10315687000,
+              "duration": 10305930800,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 999000,
+                  "duration": 1208400,
                   "status": "passed"
                 },
                 "match": {
@@ -76,12 +76,13 @@
           },
           {
             "result": {
-              "duration": 13081239500,
+              "duration": 12447108300,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
+                  "duration": 996500,
                   "status": "passed"
                 },
                 "match": {
@@ -98,13 +99,13 @@
           },
           {
             "result": {
-              "duration": 16996700,
+              "duration": 151828800,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1001700,
+                  "duration": 1412100,
                   "status": "passed"
                 },
                 "match": {

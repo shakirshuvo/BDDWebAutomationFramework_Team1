@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="11.423">
+    <testcase classname="Delta home functionality check" name="Delta Sign In functionality check with valid data" time="11.027">
+        <system-out>
+            <![CDATA[Given I am on Delta homepage................................................passed
+When I click on Log In......................................................passed
+Then I verify Log In page with title........................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

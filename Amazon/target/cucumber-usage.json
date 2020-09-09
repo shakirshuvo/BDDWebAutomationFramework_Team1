@@ -5,13 +5,13 @@
       {
         "name": "I am on Amazon homepage",
         "aggregatedDurations": {
-          "median": 10.3666894,
-          "average": 10.3666894
+          "median": 6.9781818,
+          "average": 6.9781818
         },
         "durations": [
           {
-            "duration": 10.3666894,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:5"
+            "duration": 6.9781818,
+            "location": "file:///C:/Users/15029/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:5"
           }
         ]
       }
@@ -23,13 +23,13 @@
       {
         "name": "I enter \"Hand Sanitizer\" in search field",
         "aggregatedDurations": {
-          "median": 10.315687,
-          "average": 10.315687
+          "median": 10.3059308,
+          "average": 10.3059308
         },
         "durations": [
           {
-            "duration": 10.315687,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:6"
+            "duration": 10.3059308,
+            "location": "file:///C:/Users/15029/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:6"
           }
         ]
       }
@@ -41,13 +41,13 @@
       {
         "name": "I submit search field",
         "aggregatedDurations": {
-          "median": 13.0812395,
-          "average": 13.0812395
+          "median": 12.4471083,
+          "average": 12.4471083
         },
         "durations": [
           {
-            "duration": 13.0812395,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:7"
+            "duration": 12.4471083,
+            "location": "file:///C:/Users/15029/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:7"
           }
         ]
       }
@@ -59,13 +59,13 @@
       {
         "name": "I verify page title as \"Amazon.ca : hand sanitizers\"",
         "aggregatedDurations": {
-          "median": 0.0169967,
-          "average": 0.0169967
+          "median": 0.1518288,
+          "average": 0.1518288
         },
         "durations": [
           {
-            "duration": 0.0169967,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:8"
+            "duration": 0.1518288,
+            "location": "file:///C:/Users/15029/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:8"
           }
         ]
       }

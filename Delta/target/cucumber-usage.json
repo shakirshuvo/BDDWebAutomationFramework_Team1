@@ -1,0 +1,56 @@
+[
+  {
+    "source": "I am on Delta homepage",
+    "steps": [
+      {
+        "name": "I am on Delta homepage",
+        "aggregatedDurations": {
+          "median": 8.0283314,
+          "average": 8.0283314
+        },
+        "durations": [
+          {
+            "duration": 8.0283314,
+            "location": "file:///C:/Users/15029/IdeaProjects/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/HomePage.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Log In",
+    "steps": [
+      {
+        "name": "I click on Log In",
+        "aggregatedDurations": {
+          "median": 1.7631273,
+          "average": 1.7631273
+        },
+        "durations": [
+          {
+            "duration": 1.7631273,
+            "location": "file:///C:/Users/15029/IdeaProjects/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/HomePage.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Log In page with title",
+    "steps": [
+      {
+        "name": "I verify Log In page with title",
+        "aggregatedDurations": {
+          "median": 0.3944705,
+          "average": 0.3944705
+        },
+        "durations": [
+          {
+            "duration": 0.3944705,
+            "location": "file:///C:/Users/15029/IdeaProjects/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/HomePage.feature:7"
+          }
+        ]
+      }
+    ]
+  }
+]
