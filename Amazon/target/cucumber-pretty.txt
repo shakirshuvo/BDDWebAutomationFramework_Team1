@@ -1,11 +1,7 @@
 
 @MyTest
-Scenario: Check that user can delete an item from the cart by verifying that 'Your Amazon Cart is empty'   # src/test/java/features/Cart.feature:32
-  Given I am on Amazon homepage                                                                            # stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()
-  When I enter "WD 5TB My Passport" and submit in the search field.                                        # stepDefinitions.SearchStepDefinition.i_enter_and_submit_in_the_search_field(java.lang.String)
-  And I click on the product 'WD 5TB My Passport Portable External Hard Drive, Black - WDBPKJ0050BBK-WESN' # stepDefinitions.CartStepDefinition.i_click_on_the_product(java.lang.String)
-  And I click on 'Add to Cart'                                                                             # stepDefinitions.CartStepDefinition.i_click_on(java.lang.String)
-  And I navigate back to previous window.                                                                  # stepDefinitions.CartStepDefinition.i_navigate_back_to_previous_window()
-  And I click on 'Add to Cart'                                                                             # stepDefinitions.CartStepDefinition.i_click_on(java.lang.String)
-  And I click on cart button                                                                               # stepDefinitions.CartStepDefinition.i_click_on_cart_button()
-  Then I verify that for Subtotal "2 items" is displayed                                                   # stepDefinitions.CartStepDefinition.iVerifyThatForSubtotalIsDisplayed(java.lang.String)
+Scenario Outline: Amazon 'All' dropdown search functionality check with 'Computers' department    # src/test/java/features/Search.feature:28
+  Given I am on Amazon homepage                                                                   # stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()
+  When I select "Computers" from 'All' dropdown                                                   # stepDefinitions.SearchStepDefinition.i_select_from_dropdown(java.lang.String,java.lang.String)
+  And I submit search field                                                                       # stepDefinitions.SearchStepDefinition.i_submit_search_field()
+  Then I verify that I am in 'Computers' department with "Computers, Tablets and IT Accessories". # stepDefinitions.SearchStepDefinition.i_verify_that_i_am_in_department_with(java.lang.String,java.lang.String)

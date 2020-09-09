@@ -5,125 +5,67 @@
       {
         "name": "I am on Amazon homepage",
         "aggregatedDurations": {
-          "median": 6.3358774,
-          "average": 6.3358774
+          "median": 5.7485169,
+          "average": 5.7485169
         },
         "durations": [
           {
-            "duration": 6.3358774,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:4"
+            "duration": 5.7485169,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:4"
           }
         ]
       }
     ]
   },
   {
-    "source": "I enter {string} and submit in the search field.",
+    "source": "I select {string} from {string} dropdown",
     "steps": [
       {
-        "name": "I enter \"WD 5TB My Passport\" and submit in the search field.",
+        "name": "I select \"Computers\" from \u0027All\u0027 dropdown",
         "aggregatedDurations": {
-          "median": 1.7539604,
-          "average": 1.7539604
+          "median": 0.3589995,
+          "average": 0.3589995
         },
         "durations": [
           {
-            "duration": 1.7539604,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:34"
+            "duration": 0.3589995,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:23"
           }
         ]
       }
     ]
   },
   {
-    "source": "I click on the product {string}",
+    "source": "I submit search field",
     "steps": [
       {
-        "name": "I click on the product \u0027WD 5TB My Passport Portable External Hard Drive, Black - WDBPKJ0050BBK-WESN\u0027",
+        "name": "I submit search field",
         "aggregatedDurations": {
-          "median": 1.4880945,
-          "average": 1.4880945
+          "median": 2.3570006,
+          "average": 2.3570006
         },
         "durations": [
           {
-            "duration": 1.4880945,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:35"
+            "duration": 2.3570006,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:24"
           }
         ]
       }
     ]
   },
   {
-    "source": "I click on {string}",
+    "source": "I verify that I am in {string} department with {string}.",
     "steps": [
       {
-        "name": "I click on \u0027Add to Cart\u0027",
+        "name": "I verify that I am in \u0027Computers\u0027 department with \"Computers, Tablets and IT Accessories\".",
         "aggregatedDurations": {
-          "median": 2.8812941,
-          "average": 2.8812941
+          "median": 0.1749994,
+          "average": 0.1749994
         },
         "durations": [
           {
-            "duration": 2.5310002,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:36"
-          },
-          {
-            "duration": 3.231588,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:38"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "I navigate back to previous window.",
-    "steps": [
-      {
-        "name": "I navigate back to previous window.",
-        "aggregatedDurations": {
-          "median": 1.3341096,
-          "average": 1.3341096
-        },
-        "durations": [
-          {
-            "duration": 1.3341096,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:37"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "I click on cart button",
-    "steps": [
-      {
-        "name": "I click on cart button",
-        "aggregatedDurations": {
-          "median": 1.2621414,
-          "average": 1.2621414
-        },
-        "durations": [
-          {
-            "duration": 1.2621414,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:39"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "I verify that for Subtotal {string} is displayed",
-    "steps": [
-      {
-        "name": "I verify that for Subtotal \"2 items\" is displayed",
-        "aggregatedDurations": {
-          "median": 10.1020387,
-          "average": 10.1020387
-        },
-        "durations": [
-          {
-            "duration": 10.1020387,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:40"
+            "duration": 0.1749994,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:25"
           }
         ]
       }

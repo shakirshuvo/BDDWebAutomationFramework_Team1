@@ -228,8 +228,8 @@ public class CommonAPI {
                     driver.findElement(By.id(locator)).click();
                 } catch (Exception ex3) {
                     try {
-                    driver.findElement(By.className(locator)).click();
-                } catch (Exception ex4) {
+                        driver.findElement(By.className(locator)).click();
+                    } catch (Exception ex4) {
                         try {
                             driver.findElement(By.linkText(locator)).click();
                         } catch (Exception ex5) {
@@ -252,22 +252,6 @@ public class CommonAPI {
                     driver.findElement(By.cssSelector(locator)).sendKeys(value);
                 } catch (Exception ex3) {
                     driver.findElement(By.className(locator)).sendKeys(value);
-                }
-            }
-        }
-    }
-
-    public void submitOnElement(String locator) {
-        try {
-            driver.findElement(By.xpath(locator)).submit();
-        } catch (Exception ex) {
-            try {
-                driver.findElement(By.id(locator)).submit();
-            } catch (Exception ex2) {
-                try {
-                    driver.findElement(By.cssSelector(locator)).submit();
-                } catch (Exception ex3) {
-                    driver.findElement(By.className(locator)).submit();
                 }
             }
         }
@@ -310,6 +294,26 @@ public class CommonAPI {
                 } catch (Exception ex3) {
                     System.out.println("Third Attempt was not successful");
                     driver1.findElement(By.xpath(locator)).sendKeys(value, Keys.ENTER);
+                }
+            }
+        }
+    }
+
+    public void submitOnElementByID(String locator){
+        driver.findElement(By.id(locator)).submit();
+    }
+
+    public void submitOnElement(String locator) {
+        try {
+            driver.findElement(By.xpath(locator)).submit();
+        } catch (Exception ex) {
+            try {
+                driver.findElement(By.id(locator)).submit();
+            } catch (Exception ex2) {
+                try {
+                    driver.findElement(By.cssSelector(locator)).submit();
+                } catch (Exception ex3) {
+                    driver.findElement(By.className(locator)).submit();
                 }
             }
         }
@@ -451,9 +455,37 @@ public class CommonAPI {
         return items;
     }
 
-    public void selectOptionByVisibleText(WebElement element, String value) {
+    public void selectOptionByVisibleTextByWebElement(WebElement element, String value) {
         Select select = new Select(element);
         select.selectByVisibleText(value);
+    }
+
+    public void selectOptionByVisibleTextByID(String element, String text) {
+        Select select = new Select(driver.findElement(By.id(element)));
+        select.selectByVisibleText(text);
+    }
+
+    public void selectOptionByVisibleText(String element, String text) {
+        try {
+            Select select = new Select(driver.findElement(By.cssSelector(element)));
+            select.selectByVisibleText(text);
+        } catch (Exception ex1) {
+            try {
+                System.out.println("First Attempt was not successful");
+                Select select = new Select(driver.findElement(By.xpath(element)));
+                select.selectByVisibleText(text);
+            } catch (Exception ex2) {
+                try {
+                    System.out.println("Second Attempt was not successful");
+                    Select select = new Select(driver.findElement(By.id(element)));
+                    select.selectByVisibleText(text);
+                } catch (Exception ex3) {
+                    System.out.println("Third Attempt was not successful");
+                    Select select = new Select(driver.findElement(By.className(element)));
+                    select.selectByVisibleText(text);
+                }
+            }
+        }
     }
 
     public static void sleepFor(int sec) throws InterruptedException {

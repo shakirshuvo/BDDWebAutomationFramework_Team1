@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="29.515">
-    <testcase classname="Amazon cart functionality check" name="Check that user can delete an item from the cart by verifying that 'Your Amazon Cart is empty'" time="29.036">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="10.244">
+    <testcase classname="Amazon search functionality check" name="Amazon 'All' dropdown search functionality check with 'Computers' department" time="9.687">
         <system-out>
             <![CDATA[Given I am on Amazon homepage...............................................passed
-When I enter "WD 5TB My Passport" and submit in the search field............passed
-And I click on the product 'WD 5TB My Passport Portable External Hard Drive, Black - WDBPKJ0050BBK-WESN'.passed
-And I click on 'Add to Cart'................................................passed
-And I navigate back to previous window......................................passed
-And I click on 'Add to Cart'................................................passed
-And I click on cart button..................................................passed
-Then I verify that for Subtotal "2 items" is displayed......................passed
+When I select "Computers" from 'All' dropdown...............................passed
+And I submit search field...................................................passed
+Then I verify that I am in 'Computers' department with "Computers, Tablets and IT Accessories"..passed
 ]]>
         </system-out>
     </testcase>

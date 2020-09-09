@@ -28,7 +28,7 @@ Feature: Amazon cart functionality check
     And I click on 'Delete' button
     Then I verify that the the text 'Your Amazon Cart is empty' is displayed
 
-  @MyTest
+  @SmokeTest
   Scenario: Check that user can delete an item from the cart by verifying that 'Your Amazon Cart is empty'
   is displayed
     When I enter "WD 5TB My Passport" and submit in the search field.
