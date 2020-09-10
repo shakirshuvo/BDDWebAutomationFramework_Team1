@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="23.065">
-    <testcase classname="Amazon Sign In functionality check" name="Check that alert message is displayed when user can navigate to 'Forgot your password?' page" time="22.433">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="11.315">
+    <testcase classname="Amazon Registration functionality check" name="Check that if user does not provide a name when registering, an alert message" time="10.574">
         <system-out>
             <![CDATA[Given I am on Amazon homepage...............................................passed
 When I hover over 'Hello, Sign in' button...................................passed
-And I click on 'Sign in' button under Hello, Sign in........................passed
-And I enter a valid "shakir.jahangir83@gmail.com" on 'Email (phone for mobile accounts) field.passed
-And I click on 'Continue' button below 'Email (phone for mobile accounts) field.passed
-And I click on 'Forgot your password?' link.................................passed
-And I clear the 'Email or mobile phone number' field........................passed
-And I enter an "bogusemail9183@bogus.com" on Forgot your password? page.....passed
-And I click on 'Continue' button on 'Forgot your password?' page............passed
-Then I verify by "Please solve this puzzle so we know you're a real person" or an "We're sorry. We weren't able to identify you given the information provided.".passed
+And I click on 'Start here' link on homepage................................passed
+And I enter a random email address in the 'Email' field.....................passed
+And I enter a random password in the 'Password' field.......................passed
+And I Re-enter the password in the 'Re-enter password field.................passed
+And I click on 'Create you Amazon account' button on the Registration page..passed
+Then I verify "Enter your name" is displayed................................passed
 ]]>
         </system-out>
     </testcase>

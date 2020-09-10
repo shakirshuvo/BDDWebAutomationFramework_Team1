@@ -1,13 +1,11 @@
 
 @MyTest
-Scenario Outline: Check that alert message is displayed when user can navigate to 'Forgot your password?' page                                                     # src/test/java/features/SignIn.feature:104
-  Given I am on Amazon homepage                                                                                                                                    # stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()
-  When I hover over 'Hello, Sign in' button                                                                                                                        # stepDefinitions.SignInStepDefinition.i_hover_over_button(java.lang.String)
-  And I click on 'Sign in' button under Hello, Sign in                                                                                                             # stepDefinitions.SignInStepDefinition.i_click_on_button_under_hello_sign_in(java.lang.String)
-  And I enter a valid "shakir.jahangir83@gmail.com" on 'Email (phone for mobile accounts) field                                                                    # stepDefinitions.SignInStepDefinition.i_enter_a_valid_on_email_phone_for_mobile_accounts_field(java.lang.String)
-  And I click on 'Continue' button below 'Email (phone for mobile accounts) field                                                                                  # stepDefinitions.SignInStepDefinition.i_click_on_button_below_email_phone_for_mobile_accounts_field(java.lang.String)
-  And I click on 'Forgot your password?' link                                                                                                                      # stepDefinitions.SignInStepDefinition.i_click_on_link(java.lang.String)
-  And I clear the 'Email or mobile phone number' field                                                                                                             # stepDefinitions.SignInStepDefinition.i_clear_the_field(java.lang.String)
-  And I enter an "bogusemail9183@bogus.com" on Forgot your password? page                                                                                          # stepDefinitions.SignInStepDefinition.i_enter_an_on_forgot_your_password_page(java.lang.String)
-  And I click on 'Continue' button on 'Forgot your password?' page                                                                                                 # stepDefinitions.SignInStepDefinition.i_click_on_button_on_page(java.lang.String,java.lang.String)
-  Then I verify by "Please solve this puzzle so we know you're a real person" or an "We're sorry. We weren't able to identify you given the information provided." # stepDefinitions.SignInStepDefinition.i_verify_by_or_an(java.lang.String,java.lang.String)
+Scenario Outline: Check that if user does not provide a name when registering, an alert message # src/test/java/features/Registration.feature:25
+  Given I am on Amazon homepage                                                                 # stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()
+  When I hover over 'Hello, Sign in' button                                                     # stepDefinitions.SignInStepDefinition.i_hover_over_button(java.lang.String)
+  And I click on 'Start here' link on homepage                                                  # stepDefinitions.RegistrationDefinition.i_click_on_link_on_homepage(java.lang.String)
+  And I enter a random email address in the 'Email' field                                       # stepDefinitions.RegistrationDefinition.i_enter_a_random_email_address_in_the_field(java.lang.String)
+  And I enter a random password in the 'Password' field                                         # stepDefinitions.RegistrationDefinition.i_enter_a_random_password_in_the_field(java.lang.String)
+  And I Re-enter the password in the 'Re-enter password field                                   # stepDefinitions.RegistrationDefinition.i_re_enter_the_password_in_the_re_enter_password_field()
+  And I click on 'Create you Amazon account' button on the Registration page                    # stepDefinitions.RegistrationDefinition.i_click_on_button_on_the_registration_page(java.lang.String)
+  Then I verify "Enter your name" is displayed                                                  # stepDefinitions.RegistrationDefinition.i_verify_is_displayed(java.lang.String)

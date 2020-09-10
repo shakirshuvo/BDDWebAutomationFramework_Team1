@@ -5,13 +5,13 @@
       {
         "name": "I am on Amazon homepage",
         "aggregatedDurations": {
-          "median": 5.877331,
-          "average": 5.877331
+          "median": 7.0905205,
+          "average": 7.0905205
         },
         "durations": [
           {
-            "duration": 5.877331,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:4"
+            "duration": 7.0905205,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:4"
           }
         ]
       }
@@ -23,157 +23,121 @@
       {
         "name": "I hover over \u0027Hello, Sign in\u0027 button",
         "aggregatedDurations": {
-          "median": 0.2029975,
-          "average": 0.2029975
+          "median": 0.3660011,
+          "average": 0.3660011
         },
         "durations": [
           {
-            "duration": 0.2029975,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:5"
+            "duration": 0.3660011,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:5"
           }
         ]
       }
     ]
   },
   {
-    "source": "I click on {string} button under Hello, Sign in",
+    "source": "I click on {string} link on homepage",
     "steps": [
       {
-        "name": "I click on \u0027Sign in\u0027 button under Hello, Sign in",
+        "name": "I click on \u0027Start here\u0027 link on homepage",
         "aggregatedDurations": {
-          "median": 0.8360009,
-          "average": 0.8360009
+          "median": 0.6320005,
+          "average": 0.6320005
         },
         "durations": [
           {
-            "duration": 0.8360009,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:6"
+            "duration": 0.6320005,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:6"
           }
         ]
       }
     ]
   },
   {
-    "source": "I enter a valid {string} on \u0027Email \\(phone for mobile accounts) field",
+    "source": "I enter a random email address in the {string} field",
     "steps": [
       {
-        "name": "I enter a valid \"shakir.jahangir83@gmail.com\" on \u0027Email (phone for mobile accounts) field",
+        "name": "I enter a random email address in the \u0027Email\u0027 field",
         "aggregatedDurations": {
-          "median": 2.2760345,
-          "average": 2.2760345
+          "median": 0.7615516,
+          "average": 0.7615516
         },
         "durations": [
           {
-            "duration": 2.2760345,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:95"
+            "duration": 0.7615516,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:18"
           }
         ]
       }
     ]
   },
   {
-    "source": "I click on {string} button below \u0027Email \\(phone for mobile accounts) field",
+    "source": "I enter a random password in the {string} field",
     "steps": [
       {
-        "name": "I click on \u0027Continue\u0027 button below \u0027Email (phone for mobile accounts) field",
+        "name": "I enter a random password in the \u0027Password\u0027 field",
         "aggregatedDurations": {
-          "median": 2.8858325,
-          "average": 2.8858325
+          "median": 0.1019969,
+          "average": 0.1019969
         },
         "durations": [
           {
-            "duration": 2.8858325,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:96"
+            "duration": 0.1019969,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:19"
           }
         ]
       }
     ]
   },
   {
-    "source": "I click on {string} link",
+    "source": "I Re-enter the password in the \u0027Re-enter password field",
     "steps": [
       {
-        "name": "I click on \u0027Forgot your password?\u0027 link",
+        "name": "I Re-enter the password in the \u0027Re-enter password field",
         "aggregatedDurations": {
-          "median": 2.3603323,
-          "average": 2.3603323
+          "median": 0.0955212,
+          "average": 0.0955212
         },
         "durations": [
           {
-            "duration": 2.3603323,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:97"
+            "duration": 0.0955212,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:20"
           }
         ]
       }
     ]
   },
   {
-    "source": "I clear the {string} field",
+    "source": "I click on {string} button on the Registration page",
     "steps": [
       {
-        "name": "I clear the \u0027Email or mobile phone number\u0027 field",
+        "name": "I click on \u0027Create you Amazon account\u0027 button on the Registration page",
         "aggregatedDurations": {
-          "median": 2.0551957,
-          "average": 2.0551957
+          "median": 0.4810045,
+          "average": 0.4810045
         },
         "durations": [
           {
-            "duration": 2.0551957,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:98"
+            "duration": 0.4810045,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:21"
           }
         ]
       }
     ]
   },
   {
-    "source": "I enter an {string} on Forgot your password? page",
+    "source": "I verify {string} is displayed",
     "steps": [
       {
-        "name": "I enter an \"bogusemail9183@bogus.com\" on Forgot your password? page",
+        "name": "I verify \"Enter your name\" is displayed",
         "aggregatedDurations": {
-          "median": 2.1369957,
-          "average": 2.1369957
+          "median": 0.0249961,
+          "average": 0.0249961
         },
         "durations": [
           {
-            "duration": 2.1369957,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:99"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "I click on {string} button on {string} page",
-    "steps": [
-      {
-        "name": "I click on \u0027Continue\u0027 button on \u0027Forgot your password?\u0027 page",
-        "aggregatedDurations": {
-          "median": 2.682345,
-          "average": 2.682345
-        },
-        "durations": [
-          {
-            "duration": 2.682345,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:100"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "I verify by {string} or an {string}",
-    "steps": [
-      {
-        "name": "I verify by \"Please solve this puzzle so we know you\u0027re a real person\" or an \"We\u0027re sorry. We weren\u0027t able to identify you given the information provided.\"",
-        "aggregatedDurations": {
-          "median": 0.1119927,
-          "average": 0.1119927
-        },
-        "durations": [
-          {
-            "duration": 0.1119927,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:101"
+            "duration": 0.0249961,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:22"
           }
         ]
       }

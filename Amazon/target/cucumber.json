@@ -11,13 +11,13 @@
         "steps": [
           {
             "result": {
-              "duration": 5877331000,
+              "duration": 7090520500,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 31000600,
+                  "duration": 38999900,
                   "status": "passed"
                 },
                 "match": {
@@ -26,7 +26,16 @@
               },
               {
                 "result": {
-                  "duration": 2001200,
+                  "duration": 1999200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 2001600,
                   "status": "passed"
                 },
                 "match": {
@@ -35,7 +44,7 @@
               },
               {
                 "result": {
-                  "duration": 1005600,
+                  "duration": 2002300,
                   "status": "passed"
                 },
                 "match": {
@@ -52,13 +61,13 @@
           },
           {
             "result": {
-              "duration": 202997500,
+              "duration": 366001100,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1003200,
+                  "duration": 1999800,
                   "status": "passed"
                 },
                 "match": {
@@ -70,12 +79,21 @@
                   "status": "passed"
                 },
                 "match": {
+                  "location": "stepDefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1000600,
+                  "status": "passed"
+                },
+                "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
                 }
               },
               {
                 "result": {
-                  "duration": 1001000,
+                  "duration": 999100,
                   "status": "passed"
                 },
                 "match": {
@@ -98,17 +116,25 @@
           },
           {
             "result": {
-              "duration": 836000900,
+              "duration": 632000500,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 2001800,
+                  "duration": 996800,
                   "status": "passed"
                 },
                 "match": {
                   "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.RegistrationDefinition.getInit()"
                 }
               },
               {
@@ -121,7 +147,6 @@
               },
               {
                 "result": {
-                  "duration": 1000000,
                   "status": "passed"
                 },
                 "match": {
@@ -130,30 +155,30 @@
               }
             ],
             "line": 6,
-            "name": "I click on \u0027Sign in\u0027 button under Hello, Sign in",
+            "name": "I click on \u0027Start here\u0027 link on homepage",
             "match": {
               "arguments": [
                 {
-                  "val": "\u0027Sign in\u0027",
+                  "val": "\u0027Start here\u0027",
                   "offset": 11
                 }
               ],
-              "location": "stepDefinitions.SignInStepDefinition.i_click_on_button_under_hello_sign_in(java.lang.String)"
+              "location": "stepDefinitions.RegistrationDefinition.i_click_on_link_on_homepage(java.lang.String)"
             },
             "keyword": "And "
           }
         ]
       },
       {
-        "start_timestamp": "2020-09-10T08:33:08.036Z",
-        "line": 104,
-        "name": "Check that alert message is displayed when user can navigate to \u0027Forgot your password?\u0027 page",
-        "description": "  and enter invalid email address",
-        "id": "amazon-sign-in-functionality-check;check-that-alert-message-is-displayed-when-user-can-navigate-to--forgot-your-password?--page;;2",
+        "start_timestamp": "2020-09-10T09:42:37.704Z",
+        "line": 25,
+        "name": "Check that if user does not provide a name when registering, an alert message",
+        "description": "  \"Enter your name\" will be displayed",
+        "id": "amazon-registration-functionality-check;check-that-if-user-does-not-provide-a-name-when-registering--an-alert-message;;2",
         "after": [
           {
             "result": {
-              "duration": 823557300,
+              "duration": 825010600,
               "status": "passed"
             },
             "match": {
@@ -162,10 +187,19 @@
           },
           {
             "result": {
+              "duration": 993700,
               "status": "passed"
             },
             "match": {
               "location": "stepDefinitions.SearchStepDefinition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.RegistrationDefinition.closeBrowser()"
             }
           },
           {
@@ -182,13 +216,13 @@
         "steps": [
           {
             "result": {
-              "duration": 2276034500,
+              "duration": 761551600,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1998400,
+                  "duration": 1000800,
                   "status": "passed"
                 },
                 "match": {
@@ -200,12 +234,20 @@
                   "status": "passed"
                 },
                 "match": {
+                  "location": "stepDefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 998000,
+                  "status": "passed"
+                },
+                "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
                 }
               },
               {
                 "result": {
-                  "duration": 1001100,
                   "status": "passed"
                 },
                 "match": {
@@ -213,32 +255,142 @@
                 }
               }
             ],
-            "line": 95,
-            "name": "I enter a valid \"shakir.jahangir83@gmail.com\" on \u0027Email (phone for mobile accounts) field",
+            "line": 18,
+            "name": "I enter a random email address in the \u0027Email\u0027 field",
             "match": {
               "arguments": [
                 {
-                  "val": "\"shakir.jahangir83@gmail.com\"",
-                  "offset": 16
+                  "val": "\u0027Email\u0027",
+                  "offset": 38
                 }
               ],
-              "location": "stepDefinitions.SignInStepDefinition.i_enter_a_valid_on_email_phone_for_mobile_accounts_field(java.lang.String)"
+              "location": "stepDefinitions.RegistrationDefinition.i_enter_a_random_email_address_in_the_field(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 2885832500,
+              "duration": 101996900,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 963300,
+                  "duration": 1001300,
                   "status": "passed"
                 },
                 "match": {
                   "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1003500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SignInStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 19,
+            "name": "I enter a random password in the \u0027Password\u0027 field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Password\u0027",
+                  "offset": 33
+                }
+              ],
+              "location": "stepDefinitions.RegistrationDefinition.i_enter_a_random_password_in_the_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 95521200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 308900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 687400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SignInStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 20,
+            "name": "I Re-enter the password in the \u0027Re-enter password field",
+            "match": {
+              "location": "stepDefinitions.RegistrationDefinition.i_re_enter_the_password_in_the_re_enter_password_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 481004500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1001300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.RegistrationDefinition.getInit()"
                 }
               },
               {
@@ -258,32 +410,40 @@
                 }
               }
             ],
-            "line": 96,
-            "name": "I click on \u0027Continue\u0027 button below \u0027Email (phone for mobile accounts) field",
+            "line": 21,
+            "name": "I click on \u0027Create you Amazon account\u0027 button on the Registration page",
             "match": {
               "arguments": [
                 {
-                  "val": "\u0027Continue\u0027",
+                  "val": "\u0027Create you Amazon account\u0027",
                   "offset": 11
                 }
               ],
-              "location": "stepDefinitions.SignInStepDefinition.i_click_on_button_below_email_phone_for_mobile_accounts_field(java.lang.String)"
+              "location": "stepDefinitions.RegistrationDefinition.i_click_on_button_on_the_registration_page(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 2360332300,
+              "duration": 24996100,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 675200,
+                  "duration": 993900,
                   "status": "passed"
                 },
                 "match": {
                   "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.RegistrationDefinition.getInit()"
                 }
               },
               {
@@ -303,209 +463,16 @@
                 }
               }
             ],
-            "line": 97,
-            "name": "I click on \u0027Forgot your password?\u0027 link",
+            "line": 22,
+            "name": "I verify \"Enter your name\" is displayed",
             "match": {
               "arguments": [
                 {
-                  "val": "\u0027Forgot your password?\u0027",
-                  "offset": 11
+                  "val": "\"Enter your name\"",
+                  "offset": 9
                 }
               ],
-              "location": "stepDefinitions.SignInStepDefinition.i_click_on_link(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2055195700,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 998500,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SignInStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 98,
-            "name": "I clear the \u0027Email or mobile phone number\u0027 field",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\u0027Email or mobile phone number\u0027",
-                  "offset": 12
-                }
-              ],
-              "location": "stepDefinitions.SignInStepDefinition.i_clear_the_field(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2136995700,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 1798300,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 1051300,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 954900,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SignInStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 99,
-            "name": "I enter an \"bogusemail9183@bogus.com\" on Forgot your password? page",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"bogusemail9183@bogus.com\"",
-                  "offset": 11
-                }
-              ],
-              "location": "stepDefinitions.SignInStepDefinition.i_enter_an_on_forgot_your_password_page(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2682345000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 1992100,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 999900,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 1001600,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SignInStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 100,
-            "name": "I click on \u0027Continue\u0027 button on \u0027Forgot your password?\u0027 page",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\u0027Continue\u0027",
-                  "offset": 11
-                },
-                {
-                  "val": "\u0027Forgot your password?\u0027",
-                  "offset": 32
-                }
-              ],
-              "location": "stepDefinitions.SignInStepDefinition.i_click_on_button_on_page(java.lang.String,java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 111992700,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 4000000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 1000500,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SignInStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 101,
-            "name": "I verify by \"Please solve this puzzle so we know you\u0027re a real person\" or an \"We\u0027re sorry. We weren\u0027t able to identify you given the information provided.\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Please solve this puzzle so we know you\u0027re a real person\"",
-                  "offset": 12
-                },
-                {
-                  "val": "\"We\u0027re sorry. We weren\u0027t able to identify you given the information provided.\"",
-                  "offset": 77
-                }
-              ],
-              "location": "stepDefinitions.SignInStepDefinition.i_verify_by_or_an(java.lang.String,java.lang.String)"
+              "location": "stepDefinitions.RegistrationDefinition.i_verify_is_displayed(java.lang.String)"
             },
             "keyword": "Then "
           }
@@ -517,11 +484,11 @@
         ]
       }
     ],
-    "name": "Amazon Sign In functionality check",
+    "name": "Amazon Registration functionality check",
     "description": "",
-    "id": "amazon-sign-in-functionality-check",
+    "id": "amazon-registration-functionality-check",
     "keyword": "Feature",
-    "uri": "file:src/test/java/features/SignIn.feature",
+    "uri": "file:src/test/java/features/Registration.feature",
     "tags": []
   }
 ]

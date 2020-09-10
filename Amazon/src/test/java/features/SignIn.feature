@@ -89,7 +89,7 @@ Feature: Amazon Sign In functionality check
       | email address               | page title                 |
       | shakir.jahangir83@gmail.com | Amazon Password Assistance |
 
-  @MyTest
+  @SmokeTest
   Scenario Outline: Check that alert message is displayed when user can navigate to 'Forgot your password?' page
   and enter invalid email address
     And I enter a valid "<email address>" on 'Email (phone for mobile accounts) field
