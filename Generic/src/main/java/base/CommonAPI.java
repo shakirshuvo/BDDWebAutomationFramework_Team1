@@ -335,8 +335,16 @@ public class CommonAPI {
         }
     }
 
-    public void clearField(String locator) {
+    public void clearInputFieldID(String locator) {
         driver.findElement(By.id(locator)).clear();
+    }
+
+    public void clearInputFieldCSS(String locator) {
+        driver.findElement(By.cssSelector(locator)).clear();
+    }
+
+    public void clearInputBoxByWebElement(WebElement webElement) {
+        webElement.clear();
     }
 
     public void navigateBack() {
@@ -378,10 +386,6 @@ public class CommonAPI {
 
     public void takeEnterKeys(String locator) {
         driver.findElement(By.cssSelector(locator)).sendKeys(Keys.ENTER);
-    }
-
-    public void clearInputField(String locator) {
-        driver.findElement(By.cssSelector(locator)).clear();
     }
 
     public List<WebElement> getListOfWebElementsById(String locator) {
@@ -598,10 +602,6 @@ public class CommonAPI {
          */
     }
 
-    public void clearInput(String locator) {
-        driver.findElement(By.cssSelector(locator)).clear();
-    }
-
     public void keysInput(String locator) {
         driver.findElement(By.cssSelector(locator)).sendKeys(Keys.ENTER);
     }
@@ -684,6 +684,11 @@ public class CommonAPI {
 
     public boolean elementIsDisplayedByID(String element) {
         driver.findElement(By.id(element)).isDisplayed();
+        return true;
+    }
+
+    public boolean elementIsDisplayedByClass(String element) {
+        driver.findElement(By.className(element)).isDisplayed();
         return true;
     }
 
@@ -782,10 +787,6 @@ public class CommonAPI {
 
         webElement.sendKeys(value + Keys.ENTER);
 
-    }
-
-    public void clearInputBox(WebElement webElement) {
-        webElement.clear();
     }
 
     public String getTextByWebElement(WebElement webElement) {

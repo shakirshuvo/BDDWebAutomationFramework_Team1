@@ -1,9 +1,13 @@
 
 @MyTest
-Scenario Outline: Check that an alert message is displayed when user tries to login with an invalid phone number # src/test/java/features/SignIn.feature:28
-  Given I am on Amazon homepage                                                                                  # stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()
-  When I hover over 'Hello, Sign in' button                                                                      # stepDefinitions.SignInStepDefinition.i_hover_over_button(java.lang.String)
-  And I click on 'Sign in' button under Hello, Sign in                                                           # stepDefinitions.SignInStepDefinition.i_click_on_button_under_hello_sign_in(java.lang.String)
-  And I enter an invalid "8399283899" on 'Email (phone for mobile accounts) field                                # stepDefinitions.SignInStepDefinition.i_enter_an_invalid_on_email_phone_for_mobile_accounts_field(java.lang.String)
-  And I click on 'Continue' button below 'Email (phone for mobile accounts) field                                # stepDefinitions.SignInStepDefinition.i_click_on_button_below_email_phone_for_mobile_accounts_field(java.lang.String)
-  Then I verify that the "We cannot find an account with that mobile number" is displayed                        # stepDefinitions.SignInStepDefinition.i_verify_that_the_is_displayed(java.lang.String)
+Scenario Outline: Check that alert message is displayed when user can navigate to 'Forgot your password?' page                                                     # src/test/java/features/SignIn.feature:104
+  Given I am on Amazon homepage                                                                                                                                    # stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()
+  When I hover over 'Hello, Sign in' button                                                                                                                        # stepDefinitions.SignInStepDefinition.i_hover_over_button(java.lang.String)
+  And I click on 'Sign in' button under Hello, Sign in                                                                                                             # stepDefinitions.SignInStepDefinition.i_click_on_button_under_hello_sign_in(java.lang.String)
+  And I enter a valid "shakir.jahangir83@gmail.com" on 'Email (phone for mobile accounts) field                                                                    # stepDefinitions.SignInStepDefinition.i_enter_a_valid_on_email_phone_for_mobile_accounts_field(java.lang.String)
+  And I click on 'Continue' button below 'Email (phone for mobile accounts) field                                                                                  # stepDefinitions.SignInStepDefinition.i_click_on_button_below_email_phone_for_mobile_accounts_field(java.lang.String)
+  And I click on 'Forgot your password?' link                                                                                                                      # stepDefinitions.SignInStepDefinition.i_click_on_link(java.lang.String)
+  And I clear the 'Email or mobile phone number' field                                                                                                             # stepDefinitions.SignInStepDefinition.i_clear_the_field(java.lang.String)
+  And I enter an "bogusemail9183@bogus.com" on Forgot your password? page                                                                                          # stepDefinitions.SignInStepDefinition.i_enter_an_on_forgot_your_password_page(java.lang.String)
+  And I click on 'Continue' button on 'Forgot your password?' page                                                                                                 # stepDefinitions.SignInStepDefinition.i_click_on_button_on_page(java.lang.String,java.lang.String)
+  Then I verify by "Please solve this puzzle so we know you're a real person" or an "We're sorry. We weren't able to identify you given the information provided." # stepDefinitions.SignInStepDefinition.i_verify_by_or_an(java.lang.String,java.lang.String)

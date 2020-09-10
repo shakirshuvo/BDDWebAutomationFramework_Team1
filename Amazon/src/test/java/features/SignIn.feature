@@ -78,3 +78,27 @@ Feature: Amazon Sign In functionality check
     Examples:
       | email address               | alert message       |
       | shakir.jahangir83@gmail.com | Enter your password |
+
+  @SmokeTest
+  Scenario Outline: Check that user can navigate to 'Forgot your password?' page
+    And I enter a valid "<email address>" on 'Email (phone for mobile accounts) field
+    And I click on 'Continue' button below 'Email (phone for mobile accounts) field
+    And I click on 'Forgot your password?' link
+    Then I verify "<page title>"
+    Examples:
+      | email address               | page title                 |
+      | shakir.jahangir83@gmail.com | Amazon Password Assistance |
+
+  @MyTest
+  Scenario Outline: Check that alert message is displayed when user can navigate to 'Forgot your password?' page
+  and enter invalid email address
+    And I enter a valid "<email address>" on 'Email (phone for mobile accounts) field
+    And I click on 'Continue' button below 'Email (phone for mobile accounts) field
+    And I click on 'Forgot your password?' link
+    And I clear the 'Email or mobile phone number' field
+    And I enter an "<invalid email address>" on Forgot your password? page
+    And I click on 'Continue' button on 'Forgot your password?' page
+    Then I verify by "<captcha>" or an "<alert text>"
+    Examples:
+      | email address               | invalid email address    | captcha                                                  | alert text                                                                   |
+      | shakir.jahangir83@gmail.com | bogusemail9183@bogus.com | Please solve this puzzle so we know you're a real person | We're sorry. We weren't able to identify you given the information provided. |

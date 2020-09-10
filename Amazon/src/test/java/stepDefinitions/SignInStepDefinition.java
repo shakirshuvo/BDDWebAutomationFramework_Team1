@@ -40,8 +40,9 @@ public class SignInStepDefinition extends CommonAPI {
     }
 
     @When("I click on {string} button below 'Email \\(phone for mobile accounts) field")
-    public void i_click_on_button_below_email_phone_for_mobile_accounts_field(String string) {
+    public void i_click_on_button_below_email_phone_for_mobile_accounts_field(String string) throws InterruptedException {
         clickOnElementByClass(continueButtonAfterEmailClassWebElement);
+        sleepFor(2);
     }
 
     @Then("I verify that the {string} is displayed")
@@ -99,6 +100,40 @@ public class SignInStepDefinition extends CommonAPI {
     @Then("I verify that the missing password {string} is displayed")
     public void i_verify_that_the_missing_password_is_displayed(String passwordAlert) {
         validateByText(passwordMissingAlertTextXpathWebElement, passwordAlert);
+    }
+
+    @When("I click on {string} link")
+    public void i_click_on_link(String string) throws InterruptedException {
+        clickOnElementByID(forgotYourPasswordLinkIDWebElement);
+        sleepFor(2);
+    }
+
+    @Then("I verify {string}")
+    public void i_verify(String pageTitle) {
+        validateByTitle(pageTitle);
+    }
+
+    @When("I click on {string} button on {string} page")
+    public void i_click_on_button_on_page(String string, String string2) throws InterruptedException {
+        clickOnElementByCSS(continueButtonCSSWebElement);
+        sleepFor(2);
+    }
+
+    @Then("I verify by {string} or an {string}")
+    public void i_verify_by_or_an(String captcha, String alertText) {
+        signIn.validateForgotYourPasswordAlert(captcha, alertText);
+    }
+
+    @When("I clear the {string} field")
+    public void i_clear_the_field(String string) throws InterruptedException {
+        clearInputFieldCSS(emailFieldCSSWebElement);
+        sleepFor(2);
+    }
+
+    @When("I enter an {string} on Forgot your password? page")
+    public void i_enter_an_on_forgot_your_password_page(String string) throws InterruptedException {
+        typeOnElementByCSS(emailFieldCSSWebElement, string);
+        sleepFor(2);
     }
 
 }

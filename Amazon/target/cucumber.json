@@ -11,13 +11,13 @@
         "steps": [
           {
             "result": {
-              "duration": 5831491500,
+              "duration": 5877331000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 44997200,
+                  "duration": 31000600,
                   "status": "passed"
                 },
                 "match": {
@@ -26,7 +26,7 @@
               },
               {
                 "result": {
-                  "duration": 3999800,
+                  "duration": 2001200,
                   "status": "passed"
                 },
                 "match": {
@@ -35,7 +35,7 @@
               },
               {
                 "result": {
-                  "duration": 998500,
+                  "duration": 1005600,
                   "status": "passed"
                 },
                 "match": {
@@ -52,13 +52,13 @@
           },
           {
             "result": {
-              "duration": 372998900,
+              "duration": 202997500,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1001000,
+                  "duration": 1003200,
                   "status": "passed"
                 },
                 "match": {
@@ -75,6 +75,7 @@
               },
               {
                 "result": {
+                  "duration": 1001000,
                   "status": "passed"
                 },
                 "match": {
@@ -97,13 +98,13 @@
           },
           {
             "result": {
-              "duration": 725998300,
+              "duration": 836000900,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 998900,
+                  "duration": 2001800,
                   "status": "passed"
                 },
                 "match": {
@@ -120,6 +121,7 @@
               },
               {
                 "result": {
+                  "duration": 1000000,
                   "status": "passed"
                 },
                 "match": {
@@ -143,15 +145,15 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-10T05:59:12.337Z",
-        "line": 28,
-        "name": "Check that an alert message is displayed when user tries to login with an invalid phone number",
-        "description": "",
-        "id": "amazon-sign-in-functionality-check;check-that-an-alert-message-is-displayed-when-user-tries-to-login-with-an-invalid-phone-number;;2",
+        "start_timestamp": "2020-09-10T08:33:08.036Z",
+        "line": 104,
+        "name": "Check that alert message is displayed when user can navigate to \u0027Forgot your password?\u0027 page",
+        "description": "  and enter invalid email address",
+        "id": "amazon-sign-in-functionality-check;check-that-alert-message-is-displayed-when-user-can-navigate-to--forgot-your-password?--page;;2",
         "after": [
           {
             "result": {
-              "duration": 738001000,
+              "duration": 823557300,
               "status": "passed"
             },
             "match": {
@@ -160,7 +162,6 @@
           },
           {
             "result": {
-              "duration": 2997900,
               "status": "passed"
             },
             "match": {
@@ -181,13 +182,13 @@
         "steps": [
           {
             "result": {
-              "duration": 109997500,
+              "duration": 2276034500,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 997900,
+                  "duration": 1998400,
                   "status": "passed"
                 },
                 "match": {
@@ -196,7 +197,6 @@
               },
               {
                 "result": {
-                  "duration": 1000500,
                   "status": "passed"
                 },
                 "match": {
@@ -205,6 +205,7 @@
               },
               {
                 "result": {
+                  "duration": 1001100,
                   "status": "passed"
                 },
                 "match": {
@@ -212,27 +213,28 @@
                 }
               }
             ],
-            "line": 23,
-            "name": "I enter an invalid \"8399283899\" on \u0027Email (phone for mobile accounts) field",
+            "line": 95,
+            "name": "I enter a valid \"shakir.jahangir83@gmail.com\" on \u0027Email (phone for mobile accounts) field",
             "match": {
               "arguments": [
                 {
-                  "val": "\"8399283899\"",
-                  "offset": 19
+                  "val": "\"shakir.jahangir83@gmail.com\"",
+                  "offset": 16
                 }
               ],
-              "location": "stepDefinitions.SignInStepDefinition.i_enter_an_invalid_on_email_phone_for_mobile_accounts_field(java.lang.String)"
+              "location": "stepDefinitions.SignInStepDefinition.i_enter_a_valid_on_email_phone_for_mobile_accounts_field(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 486000800,
+              "duration": 2885832500,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
+                  "duration": 963300,
                   "status": "passed"
                 },
                 "match": {
@@ -241,7 +243,6 @@
               },
               {
                 "result": {
-                  "duration": 999200,
                   "status": "passed"
                 },
                 "match": {
@@ -257,7 +258,7 @@
                 }
               }
             ],
-            "line": 24,
+            "line": 96,
             "name": "I click on \u0027Continue\u0027 button below \u0027Email (phone for mobile accounts) field",
             "match": {
               "arguments": [
@@ -272,13 +273,201 @@
           },
           {
             "result": {
-              "duration": 28998500,
+              "duration": 2360332300,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 2000800,
+                  "duration": 675200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SignInStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 97,
+            "name": "I click on \u0027Forgot your password?\u0027 link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Forgot your password?\u0027",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinitions.SignInStepDefinition.i_click_on_link(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2055195700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 998500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SignInStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 98,
+            "name": "I clear the \u0027Email or mobile phone number\u0027 field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Email or mobile phone number\u0027",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.SignInStepDefinition.i_clear_the_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2136995700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1798300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1051300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 954900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SignInStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 99,
+            "name": "I enter an \"bogusemail9183@bogus.com\" on Forgot your password? page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bogusemail9183@bogus.com\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinitions.SignInStepDefinition.i_enter_an_on_forgot_your_password_page(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2682345000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1992100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1001600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SignInStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 100,
+            "name": "I click on \u0027Continue\u0027 button on \u0027Forgot your password?\u0027 page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Continue\u0027",
+                  "offset": 11
+                },
+                {
+                  "val": "\u0027Forgot your password?\u0027",
+                  "offset": 32
+                }
+              ],
+              "location": "stepDefinitions.SignInStepDefinition.i_click_on_button_on_page(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111992700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 4000000,
                   "status": "passed"
                 },
                 "match": {
@@ -303,16 +492,20 @@
                 }
               }
             ],
-            "line": 25,
-            "name": "I verify that the \"We cannot find an account with that mobile number\" is displayed",
+            "line": 101,
+            "name": "I verify by \"Please solve this puzzle so we know you\u0027re a real person\" or an \"We\u0027re sorry. We weren\u0027t able to identify you given the information provided.\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"We cannot find an account with that mobile number\"",
-                  "offset": 18
+                  "val": "\"Please solve this puzzle so we know you\u0027re a real person\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"We\u0027re sorry. We weren\u0027t able to identify you given the information provided.\"",
+                  "offset": 77
                 }
               ],
-              "location": "stepDefinitions.SignInStepDefinition.i_verify_that_the_is_displayed(java.lang.String)"
+              "location": "stepDefinitions.SignInStepDefinition.i_verify_by_or_an(java.lang.String,java.lang.String)"
             },
             "keyword": "Then "
           }
