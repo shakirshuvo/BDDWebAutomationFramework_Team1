@@ -36,4 +36,6 @@ public class SignInWebElements {
     public static final String notNowLinkIDWebElement = "ap-account-fixup-phone-skip-link";
     public static final String shakirsAmazonTextXpathWebElement = "//span[text()='Shakir']";
     public static final String usersAmazonTextClassWebElement = "nav-shortened-name";
+    public static final String emailMissingAlertTextXpathWebElement = "//div[@id='auth-email-missing-alert']/div/div";
+    public static final String passwordMissingAlertTextXpathWebElement = "//div[@id='auth-password-missing-alert']/div/div";
 }

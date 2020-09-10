@@ -11,13 +11,13 @@
         "steps": [
           {
             "result": {
-              "duration": 5978000200,
+              "duration": 5831491500,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 51000000,
+                  "duration": 44997200,
                   "status": "passed"
                 },
                 "match": {
@@ -26,7 +26,7 @@
               },
               {
                 "result": {
-                  "duration": 3996900,
+                  "duration": 3999800,
                   "status": "passed"
                 },
                 "match": {
@@ -35,7 +35,7 @@
               },
               {
                 "result": {
-                  "duration": 3000400,
+                  "duration": 998500,
                   "status": "passed"
                 },
                 "match": {
@@ -52,753 +52,29 @@
           },
           {
             "result": {
-              "duration": 211996100,
+              "duration": 372998900,
               "status": "passed"
             },
             "before": [
-              {
-                "result": {
-                  "duration": 1994500,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 999700,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SignInStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 5,
-            "name": "I hover over \u0027Hello, Sign in\u0027 button",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\u0027Hello, Sign in\u0027",
-                  "offset": 13
-                }
-              ],
-              "location": "stepDefinitions.SignInStepDefinition.i_hover_over_button(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 742998200,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SignInStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 6,
-            "name": "I click on \u0027Sign in\u0027 button under Hello, Sign in",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\u0027Sign in\u0027",
-                  "offset": 11
-                }
-              ],
-              "location": "stepDefinitions.SignInStepDefinition.i_click_on_button_under_hello_sign_in(java.lang.String)"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-09-10T05:00:47.446Z",
-        "line": 52,
-        "name": "Check that two users can successfully log into Amazon consecutively",
-        "description": "",
-        "id": "amazon-sign-in-functionality-check;check-that-two-users-can-successfully-log-into-amazon-consecutively;;2",
-        "after": [
-          {
-            "result": {
-              "duration": 760000400,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.SignInStepDefinition.closeBrowser()"
-            }
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.SearchStepDefinition.closeBrowser()"
-            }
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.HomeStepDefinition.closeBrowser()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2216994400,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 998700,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 1000100,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SignInStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 45,
-            "name": "I enter a valid \"shakir.jahangir83@gmail.com\" on \u0027Email (phone for mobile accounts) field",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"shakir.jahangir83@gmail.com\"",
-                  "offset": 16
-                }
-              ],
-              "location": "stepDefinitions.SignInStepDefinition.i_enter_a_valid_on_email_phone_for_mobile_accounts_field(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 849002100,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 1004300,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 1000600,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SignInStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 46,
-            "name": "I click on \u0027Continue\u0027 button below \u0027Email (phone for mobile accounts) field",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\u0027Continue\u0027",
-                  "offset": 11
-                }
-              ],
-              "location": "stepDefinitions.SignInStepDefinition.i_click_on_button_below_email_phone_for_mobile_accounts_field(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2068220300,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 1001500,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SignInStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 47,
-            "name": "I enter a valid \"BugBusters\" on the Password field",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"BugBusters\"",
-                  "offset": 16
-                }
-              ],
-              "location": "stepDefinitions.SignInStepDefinition.i_enter_a_valid_on_the_password_field(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1376372000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 985200,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 996000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 1002900,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SignInStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 48,
-            "name": "I click on \u0027Sign-in\u0027 button after password",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\u0027Sign-in\u0027",
-                  "offset": 11
-                }
-              ],
-              "location": "stepDefinitions.SignInStepDefinition.i_click_on_button_after_password(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 58996900,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 1000000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SignInStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 49,
-            "name": "I verify that \"Shakir\" is displayed",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Shakir\"",
-                  "offset": 14
-                }
-              ],
-              "location": "stepDefinitions.SignInStepDefinition.i_verify_that_is_displayed(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@MyTest"
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 4790257500,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SignInStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 4,
-            "name": "I am on Amazon homepage",
-            "match": {
-              "location": "stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 225993300,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 1000100,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 1002800,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SignInStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 5,
-            "name": "I hover over \u0027Hello, Sign in\u0027 button",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\u0027Hello, Sign in\u0027",
-                  "offset": 13
-                }
-              ],
-              "location": "stepDefinitions.SignInStepDefinition.i_hover_over_button(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 637005300,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 999900,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SignInStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 6,
-            "name": "I click on \u0027Sign in\u0027 button under Hello, Sign in",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\u0027Sign in\u0027",
-                  "offset": 11
-                }
-              ],
-              "location": "stepDefinitions.SignInStepDefinition.i_click_on_button_under_hello_sign_in(java.lang.String)"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-09-10T05:01:01.970Z",
-        "line": 53,
-        "name": "Check that two users can successfully log into Amazon consecutively",
-        "description": "",
-        "id": "amazon-sign-in-functionality-check;check-that-two-users-can-successfully-log-into-amazon-consecutively;;3",
-        "after": [
-          {
-            "result": {
-              "duration": 791224800,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.SignInStepDefinition.closeBrowser()"
-            }
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.SearchStepDefinition.closeBrowser()"
-            }
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.HomeStepDefinition.closeBrowser()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2169238100,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 995700,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 1001100,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SignInStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 45,
-            "name": "I enter a valid \"zarria@xhanimatedm.com\" on \u0027Email (phone for mobile accounts) field",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"zarria@xhanimatedm.com\"",
-                  "offset": 16
-                }
-              ],
-              "location": "stepDefinitions.SignInStepDefinition.i_enter_a_valid_on_email_phone_for_mobile_accounts_field(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 764991500,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 2952500,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 1003000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 998200,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SignInStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 46,
-            "name": "I click on \u0027Continue\u0027 button below \u0027Email (phone for mobile accounts) field",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\u0027Continue\u0027",
-                  "offset": 11
-                }
-              ],
-              "location": "stepDefinitions.SignInStepDefinition.i_click_on_button_below_email_phone_for_mobile_accounts_field(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2073227300,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 992100,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 1004800,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 995300,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SignInStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 47,
-            "name": "I enter a valid \"BugBusters\" on the Password field",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"BugBusters\"",
-                  "offset": 16
-                }
-              ],
-              "location": "stepDefinitions.SignInStepDefinition.i_enter_a_valid_on_the_password_field(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2134000500,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SignInStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 48,
-            "name": "I click on \u0027Sign-in\u0027 button after password",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\u0027Sign-in\u0027",
-                  "offset": 11
-                }
-              ],
-              "location": "stepDefinitions.SignInStepDefinition.i_click_on_button_after_password(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 54998600,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 1002500,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
-                }
-              },
               {
                 "result": {
                   "duration": 1001000,
                   "status": "passed"
                 },
                 "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
                 }
               },
               {
                 "result": {
-                  "duration": 999400,
                   "status": "passed"
                 },
                 "match": {
@@ -806,16 +82,237 @@
                 }
               }
             ],
-            "line": 49,
-            "name": "I verify that \"Phong\" is displayed",
+            "line": 5,
+            "name": "I hover over \u0027Hello, Sign in\u0027 button",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Phong\"",
-                  "offset": 14
+                  "val": "\u0027Hello, Sign in\u0027",
+                  "offset": 13
                 }
               ],
-              "location": "stepDefinitions.SignInStepDefinition.i_verify_that_is_displayed(java.lang.String)"
+              "location": "stepDefinitions.SignInStepDefinition.i_hover_over_button(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 725998300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 998900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SignInStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "I click on \u0027Sign in\u0027 button under Hello, Sign in",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Sign in\u0027",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinitions.SignInStepDefinition.i_click_on_button_under_hello_sign_in(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-10T05:59:12.337Z",
+        "line": 28,
+        "name": "Check that an alert message is displayed when user tries to login with an invalid phone number",
+        "description": "",
+        "id": "amazon-sign-in-functionality-check;check-that-an-alert-message-is-displayed-when-user-tries-to-login-with-an-invalid-phone-number;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 738001000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.SignInStepDefinition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2997900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.SearchStepDefinition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 109997500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 997900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1000500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SignInStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 23,
+            "name": "I enter an invalid \"8399283899\" on \u0027Email (phone for mobile accounts) field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"8399283899\"",
+                  "offset": 19
+                }
+              ],
+              "location": "stepDefinitions.SignInStepDefinition.i_enter_an_invalid_on_email_phone_for_mobile_accounts_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 486000800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SignInStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 24,
+            "name": "I click on \u0027Continue\u0027 button below \u0027Email (phone for mobile accounts) field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Continue\u0027",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinitions.SignInStepDefinition.i_click_on_button_below_email_phone_for_mobile_accounts_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28998500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2000800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1000500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SignInStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 25,
+            "name": "I verify that the \"We cannot find an account with that mobile number\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"We cannot find an account with that mobile number\"",
+                  "offset": 18
+                }
+              ],
+              "location": "stepDefinitions.SignInStepDefinition.i_verify_that_the_is_displayed(java.lang.String)"
             },
             "keyword": "Then "
           }

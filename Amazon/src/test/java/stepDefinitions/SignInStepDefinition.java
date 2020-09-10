@@ -91,4 +91,14 @@ public class SignInStepDefinition extends CommonAPI {
         validateByTextByClass(usersAmazonTextClassWebElement, string);
     }
 
+    @Then("I verify that the missing email or phone {string} is displayed")
+    public void i_verify_that_the_missing_email_or_phone_is_displayed(String string) {
+        validateByText(emailMissingAlertTextXpathWebElement, string);
+    }
+
+    @Then("I verify that the missing password {string} is displayed")
+    public void i_verify_that_the_missing_password_is_displayed(String passwordAlert) {
+        validateByText(passwordMissingAlertTextXpathWebElement, passwordAlert);
+    }
+
 }

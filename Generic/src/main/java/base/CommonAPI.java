@@ -644,6 +644,10 @@ public class CommonAPI {
     }
 
     //Validate by text
+    public void validateByTextByID(String element, String text) {
+        Assert.assertEquals(text, driver.findElement(By.id(element)).getText());
+    }
+
     public void validateByTextByClass(String element, String text) {
         Assert.assertEquals(text, driver.findElement(By.className(element)).getText());
     }
