@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="15.28">
-    <testcase classname="Amazon Sign In functionality check" name="Check that an alert message is displayed when user tries to login with an invalid password" time="14.776">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="29.587">
+    <testcase classname="Amazon Sign In functionality check" name="Check that two users can successfully log into Amazon consecutively" time="15.085">
         <system-out>
             <![CDATA[Given I am on Amazon homepage...............................................passed
 When I hover over 'Hello, Sign in' button...................................passed
@@ -10,6 +10,19 @@ And I click on 'Continue' button below 'Email (phone for mobile accounts) field.
 And I enter a valid "BugBusters" on the Password field......................passed
 And I click on 'Sign-in' button after password..............................passed
 Then I verify that "Shakir" is displayed....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Amazon Sign In functionality check" name="Check that two users can successfully log into Amazon consecutively 2" time="13.837">
+        <system-out>
+            <![CDATA[Given I am on Amazon homepage...............................................passed
+When I hover over 'Hello, Sign in' button...................................passed
+And I click on 'Sign in' button under Hello, Sign in........................passed
+And I enter a valid "zarria@xhanimatedm.com" on 'Email (phone for mobile accounts) field.passed
+And I click on 'Continue' button below 'Email (phone for mobile accounts) field.passed
+And I enter a valid "BugBusters" on the Password field......................passed
+And I click on 'Sign-in' button after password..............................passed
+Then I verify that "Phong" is displayed.....................................passed
 ]]>
         </system-out>
     </testcase>

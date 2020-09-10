@@ -33,8 +33,8 @@ Feature: Amazon Sign In functionality check
       | email address            | password        | alert message1             | alert message2                                                                                                                    |
       | ciara105@xhanimatedm.com | InvalidPass123! | Your password is incorrect | To better protect your account, please re-enter your password and then enter the characters as they are shown in the image below. |
 
-  @MyTest
-  Scenario Outline: Check that an alert message is displayed when user tries to login with an invalid password
+  @SmokeTest
+  Scenario Outline: Check that an user can successfully log into Amazon
     When I hover over 'Hello, Sign in' button
     And I click on 'Sign in' button under Hello, Sign in
     And I enter a valid "<email address>" on 'Email (phone for mobile accounts) field
@@ -45,3 +45,17 @@ Feature: Amazon Sign In functionality check
     Examples:
       | email address               | password   | user's name |
       | shakir.jahangir83@gmail.com | BugBusters | Shakir      |
+
+  @MyTest
+  Scenario Outline: Check that two users can successfully log into Amazon consecutively
+    When I hover over 'Hello, Sign in' button
+    And I click on 'Sign in' button under Hello, Sign in
+    And I enter a valid "<email address>" on 'Email (phone for mobile accounts) field
+    And I click on 'Continue' button below 'Email (phone for mobile accounts) field
+    And I enter a valid "<password>" on the Password field
+    And I click on 'Sign-in' button after password
+    Then I verify that "<user's name>" is displayed
+    Examples:
+      | email address               | password   | user's name |
+      | shakir.jahangir83@gmail.com | BugBusters | Shakir      |
+      | zarria@xhanimatedm.com      | BugBusters | Phong       |

@@ -88,7 +88,7 @@ public class SignInStepDefinition extends CommonAPI {
 
     @Then("I verify that {string} is displayed")
     public void i_verify_that_is_displayed(String string) {
-       validateByText(shakirsAmazonTextXpathWebElement, string);
+        validateByTextByClass(usersAmazonTextClassWebElement, string);
     }
 
 }
