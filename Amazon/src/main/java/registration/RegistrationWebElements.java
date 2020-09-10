@@ -35,4 +35,5 @@ public class RegistrationWebElements {
     public static final String startASellingAccountLinkXpathWebElement = "//span[text()='Start a Selling Account']";
     public static final String amazonSellerSignUpTabIDWebElement = "Sign_up_n";
     public static final String amazonSellerSignUpPageTitle = "Amazon Next";
+    public static final String emailAddressAlreadyInUseAlertXpathWebElement = "//h4[text()='Email address already in use']";
 }

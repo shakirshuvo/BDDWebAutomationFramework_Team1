@@ -18,6 +18,9 @@ import org.junit.runner.RunWith;
         tags = "@MyTest"
 //        tags = "@CartTest"
 //        tags = "@HomeTest"
+//        tags = "@RegistrationTest"
+//        tags = "@SearchTest"
+//        tags = "@SignInTest"
 )
 
 public class TestRunner {

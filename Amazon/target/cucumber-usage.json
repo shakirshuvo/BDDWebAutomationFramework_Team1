@@ -5,12 +5,12 @@
       {
         "name": "I am on Amazon homepage",
         "aggregatedDurations": {
-          "median": 5.8508623,
-          "average": 5.8508623
+          "median": 5.4610065,
+          "average": 5.4610065
         },
         "durations": [
           {
-            "duration": 5.8508623,
+            "duration": 5.4610065,
             "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:4"
           }
         ]
@@ -23,12 +23,12 @@
       {
         "name": "I hover over \u0027Hello, Sign in\u0027 button",
         "aggregatedDurations": {
-          "median": 0.6169989,
-          "average": 0.6169989
+          "median": 0.526,
+          "average": 0.526
         },
         "durations": [
           {
-            "duration": 0.6169989,
+            "duration": 0.526,
             "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:5"
           }
         ]
@@ -41,12 +41,12 @@
       {
         "name": "I click on \u0027Start here\u0027 link on homepage",
         "aggregatedDurations": {
-          "median": 0.8920055,
-          "average": 0.8920055
+          "median": 0.6110003,
+          "average": 0.6110003
         },
         "durations": [
           {
-            "duration": 0.8920055,
+            "duration": 0.6110003,
             "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:6"
           }
         ]
@@ -59,49 +59,67 @@
       {
         "name": "I enter a random \u0027name\u0027",
         "aggregatedDurations": {
-          "median": 0.4430485,
-          "average": 0.4430485
+          "median": 0.5480011,
+          "average": 0.5480011
         },
         "durations": [
           {
-            "duration": 0.4430485,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:73"
+            "duration": 0.5480011,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:86"
           }
         ]
       }
     ]
   },
   {
-    "source": "I enter a random email address in the {string} field",
+    "source": "I enter an {string} address that\u0027s already in use in the \u0027Email\u0027 field",
     "steps": [
       {
-        "name": "I enter a random email address in the \u0027Email\u0027 field",
+        "name": "I enter an \"ciara105@xhanimatedm.com\" address that\u0027s already in use in the \u0027Email\u0027 field",
         "aggregatedDurations": {
-          "median": 0.2539965,
-          "average": 0.2539965
+          "median": 0.2249966,
+          "average": 0.2249966
         },
         "durations": [
           {
-            "duration": 0.2539965,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:74"
+            "duration": 0.2249966,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:87"
           }
         ]
       }
     ]
   },
   {
-    "source": "I enter a random five character long password in the {string} field",
+    "source": "I enter a random password in the {string} field",
     "steps": [
       {
-        "name": "I enter a random five character long password in the \u0027Password\u0027 field",
+        "name": "I enter a random password in the \u0027Password\u0027 field",
         "aggregatedDurations": {
-          "median": 0.0830015,
-          "average": 0.0830015
+          "median": 0.1030388,
+          "average": 0.1030388
         },
         "durations": [
           {
-            "duration": 0.0830015,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:75"
+            "duration": 0.1030388,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:88"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Re-enter the password in the `Re-enter password` field",
+    "steps": [
+      {
+        "name": "I Re-enter the password in the `Re-enter password` field",
+        "aggregatedDurations": {
+          "median": 0.0949996,
+          "average": 0.0949996
+        },
+        "durations": [
+          {
+            "duration": 0.0949996,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:89"
           }
         ]
       }
@@ -113,49 +131,31 @@
       {
         "name": "I click on \u0027Create you Amazon account\u0027 button on the Registration page",
         "aggregatedDurations": {
-          "median": 0.4500122,
-          "average": 0.4500122
+          "median": 0.9685172,
+          "average": 0.9685172
         },
         "durations": [
           {
-            "duration": 0.4500122,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:76"
+            "duration": 0.9685172,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:90"
           }
         ]
       }
     ]
   },
   {
-    "source": "I verify {string} is displayed under `Password` field for not meeting the password criteria",
+    "source": "I verify {string} is displayed for proving an email address that\u0027s already in use",
     "steps": [
       {
-        "name": "I verify \"Passwords must be at least 6 characters.\" is displayed under `Password` field for not meeting the password criteria",
+        "name": "I verify \"Email address already in use\" is displayed for proving an email address that\u0027s already in use",
         "aggregatedDurations": {
-          "median": 0.0299976,
-          "average": 0.0299976
+          "median": 0.0279964,
+          "average": 0.0279964
         },
         "durations": [
           {
-            "duration": 0.0299976,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:77"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "I verify {string} is displayed under `Re-Enter password` field",
-    "steps": [
-      {
-        "name": "I verify \"Type your password again\" is displayed under `Re-Enter password` field",
-        "aggregatedDurations": {
-          "median": 0.0280001,
-          "average": 0.0280001
-        },
-        "durations": [
-          {
-            "duration": 0.0280001,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:78"
+            "duration": 0.0279964,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:91"
           }
         ]
       }

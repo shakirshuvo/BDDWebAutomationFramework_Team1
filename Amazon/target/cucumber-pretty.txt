@@ -1,12 +1,12 @@
 
 @MyTest
-Scenario Outline: Check that if user does not provide a password that is at least 6 characters long                                  # src/test/java/features/Registration.feature:81
-  Given I am on Amazon homepage                                                                                                      # stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()
-  When I hover over 'Hello, Sign in' button                                                                                          # stepDefinitions.SignInStepDefinition.i_hover_over_button(java.lang.String)
-  And I click on 'Start here' link on homepage                                                                                       # stepDefinitions.RegistrationDefinition.i_click_on_link_on_homepage(java.lang.String)
-  And I enter a random 'name'                                                                                                        # stepDefinitions.RegistrationDefinition.i_enter_a_random(java.lang.String)
-  And I enter a random email address in the 'Email' field                                                                            # stepDefinitions.RegistrationDefinition.i_enter_a_random_email_address_in_the_field(java.lang.String)
-  And I enter a random five character long password in the 'Password' field                                                          # stepDefinitions.RegistrationDefinition.i_enter_a_random_five_character_long_password_in_the_field(java.lang.String)
-  And I click on 'Create you Amazon account' button on the Registration page                                                         # stepDefinitions.RegistrationDefinition.i_click_on_button_on_the_registration_page(java.lang.String)
-  Then I verify "Passwords must be at least 6 characters." is displayed under `Password` field for not meeting the password criteria # stepDefinitions.RegistrationDefinition.i_verify_is_displayed_under_password_field_for_not_meeting_the_password_criteria(java.lang.String)
-  And I verify "Type your password again" is displayed under `Re-Enter password` field                                               # stepDefinitions.RegistrationDefinition.i_verify_is_displayed_under_re_enter_password_field(java.lang.String)
+Scenario Outline: Check that if user tries to register with an email that already has been used to create an   # src/test/java/features/Registration.feature:94
+  Given I am on Amazon homepage                                                                                # stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()
+  When I hover over 'Hello, Sign in' button                                                                    # stepDefinitions.SignInStepDefinition.i_hover_over_button(java.lang.String)
+  And I click on 'Start here' link on homepage                                                                 # stepDefinitions.RegistrationDefinition.i_click_on_link_on_homepage(java.lang.String)
+  And I enter a random 'name'                                                                                  # stepDefinitions.RegistrationDefinition.i_enter_a_random(java.lang.String)
+  And I enter an "ciara105@xhanimatedm.com" address that's already in use in the 'Email' field                 # stepDefinitions.RegistrationDefinition.i_enter_an_address_that_s_already_in_use_in_the_email_field(java.lang.String)
+  And I enter a random password in the 'Password' field                                                        # stepDefinitions.RegistrationDefinition.i_enter_a_random_password_in_the_field(java.lang.String)
+  And I Re-enter the password in the `Re-enter password` field                                                 # stepDefinitions.RegistrationDefinition.i_re_enter_the_password_in_the_re_enter_password_field()
+  And I click on 'Create you Amazon account' button on the Registration page                                   # stepDefinitions.RegistrationDefinition.i_click_on_button_on_the_registration_page(java.lang.String)
+  Then I verify "Email address already in use" is displayed for proving an email address that's already in use # stepDefinitions.RegistrationDefinition.i_verify_is_displayed_for_proving_an_email_address_that_s_already_in_use(java.lang.String)

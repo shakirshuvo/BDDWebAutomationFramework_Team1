@@ -99,4 +99,14 @@ public class RegistrationDefinition extends CommonAPI {
     public void i_verify_is_displayed_under_password_field_for_not_meeting_the_password_criteria(String alert) {
         validateByTextByID(passwordMustBeAtLeast6CharacterAlertIDWebElement, alert);
     }
+
+    @When("I enter an {string} address that's already in use in the 'Email' field")
+    public void i_enter_an_address_that_s_already_in_use_in_the_email_field(String email) {
+        typeByCss(yourEmailFieldCSSWebElement, email);
+    }
+
+    @Then("I verify {string} is displayed for proving an email address that's already in use")
+    public void i_verify_is_displayed_for_proving_an_email_address_that_s_already_in_use(String alert) {
+        validateByText(emailAddressAlreadyInUseAlertXpathWebElement, alert);
+    }
 }
