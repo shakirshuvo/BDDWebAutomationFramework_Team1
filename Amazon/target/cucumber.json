@@ -11,13 +11,13 @@
         "steps": [
           {
             "result": {
-              "duration": 5857568800,
+              "duration": 5978000200,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 60003700,
+                  "duration": 51000000,
                   "status": "passed"
                 },
                 "match": {
@@ -26,7 +26,7 @@
               },
               {
                 "result": {
-                  "duration": 6010800,
+                  "duration": 3996900,
                   "status": "passed"
                 },
                 "match": {
@@ -35,7 +35,7 @@
               },
               {
                 "result": {
-                  "duration": 3988200,
+                  "duration": 3000400,
                   "status": "passed"
                 },
                 "match": {
@@ -49,19 +49,109 @@
               "location": "stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()"
             },
             "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 211996100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1994500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SignInStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "I hover over \u0027Hello, Sign in\u0027 button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Hello, Sign in\u0027",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinitions.SignInStepDefinition.i_hover_over_button(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 742998200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SignInStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "I click on \u0027Sign in\u0027 button under Hello, Sign in",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Sign in\u0027",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinitions.SignInStepDefinition.i_click_on_button_under_hello_sign_in(java.lang.String)"
+            },
+            "keyword": "And "
           }
         ]
       },
       {
-        "start_timestamp": "2020-09-10T04:56:00.464Z",
-        "line": 60,
+        "start_timestamp": "2020-09-10T05:00:47.446Z",
+        "line": 52,
         "name": "Check that two users can successfully log into Amazon consecutively",
         "description": "",
         "id": "amazon-sign-in-functionality-check;check-that-two-users-can-successfully-log-into-amazon-consecutively;;2",
         "after": [
           {
             "result": {
-              "duration": 734004500,
+              "duration": 760000400,
               "status": "passed"
             },
             "match": {
@@ -90,13 +180,13 @@
         "steps": [
           {
             "result": {
-              "duration": 410999400,
+              "duration": 2216994400,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1000400,
+                  "duration": 998700,
                   "status": "passed"
                 },
                 "match": {
@@ -105,6 +195,7 @@
               },
               {
                 "result": {
+                  "duration": 1000100,
                   "status": "passed"
                 },
                 "match": {
@@ -120,100 +211,7 @@
                 }
               }
             ],
-            "line": 51,
-            "name": "I hover over \u0027Hello, Sign in\u0027 button",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\u0027Hello, Sign in\u0027",
-                  "offset": 13
-                }
-              ],
-              "location": "stepDefinitions.SignInStepDefinition.i_hover_over_button(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 731993900,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 999700,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 998300,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 996900,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SignInStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 52,
-            "name": "I click on \u0027Sign in\u0027 button under Hello, Sign in",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\u0027Sign in\u0027",
-                  "offset": 11
-                }
-              ],
-              "location": "stepDefinitions.SignInStepDefinition.i_click_on_button_under_hello_sign_in(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2222997300,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 996200,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 1001200,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SignInStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 53,
+            "line": 45,
             "name": "I enter a valid \"shakir.jahangir83@gmail.com\" on \u0027Email (phone for mobile accounts) field",
             "match": {
               "arguments": [
@@ -228,13 +226,13 @@
           },
           {
             "result": {
-              "duration": 1005998900,
+              "duration": 849002100,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1006200,
+                  "duration": 1004300,
                   "status": "passed"
                 },
                 "match": {
@@ -251,7 +249,7 @@
               },
               {
                 "result": {
-                  "duration": 997400,
+                  "duration": 1000600,
                   "status": "passed"
                 },
                 "match": {
@@ -259,7 +257,7 @@
                 }
               }
             ],
-            "line": 54,
+            "line": 46,
             "name": "I click on \u0027Continue\u0027 button below \u0027Email (phone for mobile accounts) field",
             "match": {
               "arguments": [
@@ -274,13 +272,13 @@
           },
           {
             "result": {
-              "duration": 2111267900,
+              "duration": 2068220300,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 998200,
+                  "duration": 1001500,
                   "status": "passed"
                 },
                 "match": {
@@ -289,7 +287,6 @@
               },
               {
                 "result": {
-                  "duration": 1003300,
                   "status": "passed"
                 },
                 "match": {
@@ -298,7 +295,6 @@
               },
               {
                 "result": {
-                  "duration": 998400,
                   "status": "passed"
                 },
                 "match": {
@@ -306,7 +302,7 @@
                 }
               }
             ],
-            "line": 55,
+            "line": 47,
             "name": "I enter a valid \"BugBusters\" on the Password field",
             "match": {
               "arguments": [
@@ -321,13 +317,118 @@
           },
           {
             "result": {
-              "duration": 1711395600,
+              "duration": 1376372000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 661400,
+                  "duration": 985200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 996000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1002900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SignInStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 48,
+            "name": "I click on \u0027Sign-in\u0027 button after password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Sign-in\u0027",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinitions.SignInStepDefinition.i_click_on_button_after_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 58996900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SignInStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 49,
+            "name": "I verify that \"Shakir\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Shakir\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepDefinitions.SignInStepDefinition.i_verify_that_is_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MyTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4790257500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
                   "status": "passed"
                 },
                 "match": {
@@ -351,22 +452,62 @@
                 }
               }
             ],
-            "line": 56,
-            "name": "I click on \u0027Sign-in\u0027 button after password",
+            "line": 4,
+            "name": "I am on Amazon homepage",
             "match": {
-              "arguments": [
-                {
-                  "val": "\u0027Sign-in\u0027",
-                  "offset": 11
-                }
-              ],
-              "location": "stepDefinitions.SignInStepDefinition.i_click_on_button_after_password(java.lang.String)"
+              "location": "stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()"
             },
-            "keyword": "And "
+            "keyword": "Given "
           },
           {
             "result": {
-              "duration": 56997300,
+              "duration": 225993300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1002800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SignInStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "I hover over \u0027Hello, Sign in\u0027 button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Hello, Sign in\u0027",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinitions.SignInStepDefinition.i_hover_over_button(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 637005300,
               "status": "passed"
             },
             "before": [
@@ -396,85 +537,31 @@
                 }
               }
             ],
-            "line": 57,
-            "name": "I verify that \"Shakir\" is displayed",
+            "line": 6,
+            "name": "I click on \u0027Sign in\u0027 button under Hello, Sign in",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Shakir\"",
-                  "offset": 14
+                  "val": "\u0027Sign in\u0027",
+                  "offset": 11
                 }
               ],
-              "location": "stepDefinitions.SignInStepDefinition.i_verify_that_is_displayed(java.lang.String)"
+              "location": "stepDefinitions.SignInStepDefinition.i_click_on_button_under_hello_sign_in(java.lang.String)"
             },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@MyTest"
+            "keyword": "And "
           }
         ]
       },
       {
-        "line": 3,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 4345621300,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 997800,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 989700,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SignInStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 4,
-            "name": "I am on Amazon homepage",
-            "match": {
-              "location": "stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-09-10T04:56:15.622Z",
-        "line": 61,
+        "start_timestamp": "2020-09-10T05:01:01.970Z",
+        "line": 53,
         "name": "Check that two users can successfully log into Amazon consecutively",
         "description": "",
         "id": "amazon-sign-in-functionality-check;check-that-two-users-can-successfully-log-into-amazon-consecutively;;3",
         "after": [
           {
             "result": {
-              "duration": 737109900,
+              "duration": 791224800,
               "status": "passed"
             },
             "match": {
@@ -483,7 +570,6 @@
           },
           {
             "result": {
-              "duration": 895700,
               "status": "passed"
             },
             "match": {
@@ -504,58 +590,13 @@
         "steps": [
           {
             "result": {
-              "duration": 1136998300,
+              "duration": 2169238100,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1005300,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 997000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SignInStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 51,
-            "name": "I hover over \u0027Hello, Sign in\u0027 button",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\u0027Hello, Sign in\u0027",
-                  "offset": 13
-                }
-              ],
-              "location": "stepDefinitions.SignInStepDefinition.i_hover_over_button(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 735998600,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
+                  "duration": 995700,
                   "status": "passed"
                 },
                 "match": {
@@ -572,6 +613,7 @@
               },
               {
                 "result": {
+                  "duration": 1001100,
                   "status": "passed"
                 },
                 "match": {
@@ -579,51 +621,7 @@
                 }
               }
             ],
-            "line": 52,
-            "name": "I click on \u0027Sign in\u0027 button under Hello, Sign in",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\u0027Sign in\u0027",
-                  "offset": 11
-                }
-              ],
-              "location": "stepDefinitions.SignInStepDefinition.i_click_on_button_under_hello_sign_in(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2211109800,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SignInStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 53,
+            "line": 45,
             "name": "I enter a valid \"zarria@xhanimatedm.com\" on \u0027Email (phone for mobile accounts) field",
             "match": {
               "arguments": [
@@ -638,13 +636,13 @@
           },
           {
             "result": {
-              "duration": 794444200,
+              "duration": 764991500,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 2009200,
+                  "duration": 2952500,
                   "status": "passed"
                 },
                 "match": {
@@ -653,6 +651,7 @@
               },
               {
                 "result": {
+                  "duration": 1003000,
                   "status": "passed"
                 },
                 "match": {
@@ -661,6 +660,7 @@
               },
               {
                 "result": {
+                  "duration": 998200,
                   "status": "passed"
                 },
                 "match": {
@@ -668,7 +668,7 @@
                 }
               }
             ],
-            "line": 54,
+            "line": 46,
             "name": "I click on \u0027Continue\u0027 button below \u0027Email (phone for mobile accounts) field",
             "match": {
               "arguments": [
@@ -683,12 +683,13 @@
           },
           {
             "result": {
-              "duration": 2089382300,
+              "duration": 2073227300,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
+                  "duration": 992100,
                   "status": "passed"
                 },
                 "match": {
@@ -697,6 +698,7 @@
               },
               {
                 "result": {
+                  "duration": 1004800,
                   "status": "passed"
                 },
                 "match": {
@@ -705,6 +707,7 @@
               },
               {
                 "result": {
+                  "duration": 995300,
                   "status": "passed"
                 },
                 "match": {
@@ -712,7 +715,7 @@
                 }
               }
             ],
-            "line": 55,
+            "line": 47,
             "name": "I enter a valid \"BugBusters\" on the Password field",
             "match": {
               "arguments": [
@@ -727,13 +730,12 @@
           },
           {
             "result": {
-              "duration": 1699610100,
+              "duration": 2134000500,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 795800,
                   "status": "passed"
                 },
                 "match": {
@@ -757,7 +759,7 @@
                 }
               }
             ],
-            "line": 56,
+            "line": 48,
             "name": "I click on \u0027Sign-in\u0027 button after password",
             "match": {
               "arguments": [
@@ -772,13 +774,13 @@
           },
           {
             "result": {
-              "duration": 62000000,
+              "duration": 54998600,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1005600,
+                  "duration": 1002500,
                   "status": "passed"
                 },
                 "match": {
@@ -787,6 +789,7 @@
               },
               {
                 "result": {
+                  "duration": 1001000,
                   "status": "passed"
                 },
                 "match": {
@@ -795,6 +798,7 @@
               },
               {
                 "result": {
+                  "duration": 999400,
                   "status": "passed"
                 },
                 "match": {
@@ -802,7 +806,7 @@
                 }
               }
             ],
-            "line": 57,
+            "line": 49,
             "name": "I verify that \"Phong\" is displayed",
             "match": {
               "arguments": [

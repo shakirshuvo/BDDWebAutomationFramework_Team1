@@ -2,17 +2,15 @@ Feature: Amazon Sign In functionality check
 
   Background:
     Given I am on Amazon homepage
+    When I hover over 'Hello, Sign in' button
+    And I click on 'Sign in' button under Hello, Sign in
 
   @SmokeTest
   Scenario: Check that user can navigate from homepage to Sign In page using title
-    When I hover over 'Hello, Sign in' button
-    And I click on 'Sign in' button under Hello, Sign in
     Then I verify page title as "Amazon Sign-In"
 
   @SmokeTest
   Scenario Outline: Check that an alert message is displayed when user tries to login with an invalid email
-    When I hover over 'Hello, Sign in' button
-    And I click on 'Sign in' button under Hello, Sign in
     And I enter an invalid "<email address>" on 'Email (phone for mobile accounts) field
     And I click on 'Continue' button below 'Email (phone for mobile accounts) field
     Then I verify that the "<alert message>" is displayed
@@ -22,8 +20,6 @@ Feature: Amazon Sign In functionality check
 
   @SmokeTest
   Scenario Outline: Check that an alert message is displayed when user tries to login with an invalid password
-    When I hover over 'Hello, Sign in' button
-    And I click on 'Sign in' button under Hello, Sign in
     And I enter a valid "<email address>" on 'Email (phone for mobile accounts) field
     And I click on 'Continue' button below 'Email (phone for mobile accounts) field
     And I enter an invalid "<password>" on the 'Password' field
@@ -35,8 +31,6 @@ Feature: Amazon Sign In functionality check
 
   @SmokeTest
   Scenario Outline: Check that an user can successfully log into Amazon
-    When I hover over 'Hello, Sign in' button
-    And I click on 'Sign in' button under Hello, Sign in
     And I enter a valid "<email address>" on 'Email (phone for mobile accounts) field
     And I click on 'Continue' button below 'Email (phone for mobile accounts) field
     And I enter a valid "<password>" on the Password field
@@ -48,8 +42,6 @@ Feature: Amazon Sign In functionality check
 
   @MyTest
   Scenario Outline: Check that two users can successfully log into Amazon consecutively
-    When I hover over 'Hello, Sign in' button
-    And I click on 'Sign in' button under Hello, Sign in
     And I enter a valid "<email address>" on 'Email (phone for mobile accounts) field
     And I click on 'Continue' button below 'Email (phone for mobile accounts) field
     And I enter a valid "<password>" on the Password field
@@ -59,3 +51,4 @@ Feature: Amazon Sign In functionality check
       | email address               | password   | user's name |
       | shakir.jahangir83@gmail.com | BugBusters | Shakir      |
       | zarria@xhanimatedm.com      | BugBusters | Phong       |
+

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="29.587">
-    <testcase classname="Amazon Sign In functionality check" name="Check that two users can successfully log into Amazon consecutively" time="15.085">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="28.824">
+    <testcase classname="Amazon Sign In functionality check" name="Check that two users can successfully log into Amazon consecutively" time="14.479">
         <system-out>
             <![CDATA[Given I am on Amazon homepage...............................................passed
 When I hover over 'Hello, Sign in' button...................................passed
@@ -13,7 +13,7 @@ Then I verify that "Shakir" is displayed....................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Amazon Sign In functionality check" name="Check that two users can successfully log into Amazon consecutively 2" time="13.837">
+    <testcase classname="Amazon Sign In functionality check" name="Check that two users can successfully log into Amazon consecutively 2" time="13.668">
         <system-out>
             <![CDATA[Given I am on Amazon homepage...............................................passed
 When I hover over 'Hello, Sign in' button...................................passed

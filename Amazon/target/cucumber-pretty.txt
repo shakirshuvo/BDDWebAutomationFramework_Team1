@@ -1,6 +1,6 @@
 
 @MyTest
-Scenario Outline: Check that two users can successfully log into Amazon consecutively           # src/test/java/features/SignIn.feature:60
+Scenario Outline: Check that two users can successfully log into Amazon consecutively           # src/test/java/features/SignIn.feature:52
   Given I am on Amazon homepage                                                                 # stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()
   When I hover over 'Hello, Sign in' button                                                     # stepDefinitions.SignInStepDefinition.i_hover_over_button(java.lang.String)
   And I click on 'Sign in' button under Hello, Sign in                                          # stepDefinitions.SignInStepDefinition.i_click_on_button_under_hello_sign_in(java.lang.String)
@@ -11,7 +11,7 @@ Scenario Outline: Check that two users can successfully log into Amazon consecut
   Then I verify that "Shakir" is displayed                                                      # stepDefinitions.SignInStepDefinition.i_verify_that_is_displayed(java.lang.String)
 
 @MyTest
-Scenario Outline: Check that two users can successfully log into Amazon consecutively      # src/test/java/features/SignIn.feature:61
+Scenario Outline: Check that two users can successfully log into Amazon consecutively      # src/test/java/features/SignIn.feature:53
   Given I am on Amazon homepage                                                            # stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()
   When I hover over 'Hello, Sign in' button                                                # stepDefinitions.SignInStepDefinition.i_hover_over_button(java.lang.String)
   And I click on 'Sign in' button under Hello, Sign in                                     # stepDefinitions.SignInStepDefinition.i_click_on_button_under_hello_sign_in(java.lang.String)

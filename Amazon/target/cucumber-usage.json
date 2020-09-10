@@ -5,16 +5,16 @@
       {
         "name": "I am on Amazon homepage",
         "aggregatedDurations": {
-          "median": 5.10159505,
-          "average": 5.10159505
+          "median": 5.38412885,
+          "average": 5.38412885
         },
         "durations": [
           {
-            "duration": 5.8575688,
+            "duration": 5.9780002,
             "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:4"
           },
           {
-            "duration": 4.3456213,
+            "duration": 4.7902575,
             "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:4"
           }
         ]
@@ -27,17 +27,17 @@
       {
         "name": "I hover over \u0027Hello, Sign in\u0027 button",
         "aggregatedDurations": {
-          "median": 0.77399885,
-          "average": 0.77399885
+          "median": 0.2189947,
+          "average": 0.2189947
         },
         "durations": [
           {
-            "duration": 0.4109994,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:51"
+            "duration": 0.2119961,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:5"
           },
           {
-            "duration": 1.1369983,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:51"
+            "duration": 0.2259933,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:5"
           }
         ]
       }
@@ -49,17 +49,17 @@
       {
         "name": "I click on \u0027Sign in\u0027 button under Hello, Sign in",
         "aggregatedDurations": {
-          "median": 0.73399625,
-          "average": 0.73399625
+          "median": 0.69000175,
+          "average": 0.69000175
         },
         "durations": [
           {
-            "duration": 0.7319939,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:52"
+            "duration": 0.7429982,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:6"
           },
           {
-            "duration": 0.7359986,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:52"
+            "duration": 0.6370053,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:6"
           }
         ]
       }
@@ -71,26 +71,26 @@
       {
         "name": "I enter a valid \"shakir.jahangir83@gmail.com\" on \u0027Email (phone for mobile accounts) field",
         "aggregatedDurations": {
-          "median": 2.2229973,
-          "average": 2.2229973
+          "median": 2.2169944,
+          "average": 2.2169944
         },
         "durations": [
           {
-            "duration": 2.2229973,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:53"
+            "duration": 2.2169944,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:45"
           }
         ]
       },
       {
         "name": "I enter a valid \"zarria@xhanimatedm.com\" on \u0027Email (phone for mobile accounts) field",
         "aggregatedDurations": {
-          "median": 2.2111098,
-          "average": 2.2111098
+          "median": 2.1692381,
+          "average": 2.1692381
         },
         "durations": [
           {
-            "duration": 2.2111098,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:53"
+            "duration": 2.1692381,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:45"
           }
         ]
       }
@@ -102,17 +102,17 @@
       {
         "name": "I click on \u0027Continue\u0027 button below \u0027Email (phone for mobile accounts) field",
         "aggregatedDurations": {
-          "median": 0.90022155,
-          "average": 0.90022155
+          "median": 0.8069968,
+          "average": 0.8069968
         },
         "durations": [
           {
-            "duration": 1.0059989,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:54"
+            "duration": 0.8490021,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:46"
           },
           {
-            "duration": 0.7944442,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:54"
+            "duration": 0.7649915,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:46"
           }
         ]
       }
@@ -124,17 +124,17 @@
       {
         "name": "I enter a valid \"BugBusters\" on the Password field",
         "aggregatedDurations": {
-          "median": 2.1003251,
-          "average": 2.1003251
+          "median": 2.0707238,
+          "average": 2.0707238
         },
         "durations": [
           {
-            "duration": 2.1112679,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:55"
+            "duration": 2.0682203,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:47"
           },
           {
-            "duration": 2.0893823,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:55"
+            "duration": 2.0732273,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:47"
           }
         ]
       }
@@ -146,17 +146,17 @@
       {
         "name": "I click on \u0027Sign-in\u0027 button after password",
         "aggregatedDurations": {
-          "median": 1.70550285,
-          "average": 1.70550285
+          "median": 1.75518625,
+          "average": 1.75518625
         },
         "durations": [
           {
-            "duration": 1.7113956,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:56"
+            "duration": 1.376372,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:48"
           },
           {
-            "duration": 1.6996101,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:56"
+            "duration": 2.1340005,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:48"
           }
         ]
       }
@@ -168,26 +168,26 @@
       {
         "name": "I verify that \"Shakir\" is displayed",
         "aggregatedDurations": {
-          "median": 0.0569973,
-          "average": 0.0569973
+          "median": 0.0589969,
+          "average": 0.0589969
         },
         "durations": [
           {
-            "duration": 0.0569973,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:57"
+            "duration": 0.0589969,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:49"
           }
         ]
       },
       {
         "name": "I verify that \"Phong\" is displayed",
         "aggregatedDurations": {
-          "median": 0.062,
-          "average": 0.062
+          "median": 0.0549986,
+          "average": 0.0549986
         },
         "durations": [
           {
-            "duration": 0.062,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:57"
+            "duration": 0.0549986,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:49"
           }
         ]
       }
