@@ -39,9 +39,9 @@ Feature: Amazon Sign In functionality check
     And I click on 'Sign in' button under Hello, Sign in
     And I enter a valid "<email address>" on 'Email (phone for mobile accounts) field
     And I click on 'Continue' button below 'Email (phone for mobile accounts) field
-    And I enter a valid "<password>" on the 'Password' field
+    And I enter a valid "<password>" on the Password field
     And I click on 'Sign-in' button after password
-    Then I verify that the "<alert message>" is displayed
+    Then I verify that "<user's name>" is displayed
     Examples:
-      | email address               | password  | alert message              |
-      | shakir.jahangir83@gmail.com | BugBuster | Your password is incorrect |
+      | email address               | password   | user's name |
+      | shakir.jahangir83@gmail.com | BugBusters | Shakir      |

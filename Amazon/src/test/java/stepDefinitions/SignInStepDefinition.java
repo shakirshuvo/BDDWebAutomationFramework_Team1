@@ -64,14 +64,16 @@ public class SignInStepDefinition extends CommonAPI {
         typeOnElementByCSS(passwordFieldCSSWebElement, password);
     }
 
-    @When("I enter a valid {string} on the {string} field")
-    public void i_enter_a_valid_on_the_field(String string, String password) {
-        typeOnElementByCSS(emailFieldCSSWebElement, password);
+    @When("I enter a valid {string} on the Password field")
+    public void i_enter_a_valid_on_the_password_field(String string) throws InterruptedException {
+        typeOnElementByCSS(passwordFieldCSSWebElement, password);
+        sleepFor(2);
     }
 
     @When("I enter a valid {string} on 'Email \\(phone for mobile accounts) field")
-    public void i_enter_a_valid_on_email_phone_for_mobile_accounts_field(String emailAddress) {
+    public void i_enter_a_valid_on_email_phone_for_mobile_accounts_field(String emailAddress) throws InterruptedException {
         typeOnElementByCSS(emailFieldCSSWebElement, emailAddress);
+        sleepFor(2);
     }
 
     @When("I enter an invalid password on the {string} field")
@@ -82,6 +84,11 @@ public class SignInStepDefinition extends CommonAPI {
     @When("I click on {string} button after password")
     public void i_click_on_button_after_password(String string) {
         clickOnElementByID(signInAfterPasswordIDWebElement);
+    }
+
+    @Then("I verify that {string} is displayed")
+    public void i_verify_that_is_displayed(String string) {
+       validateByText(shakirsAmazonTextXpathWebElement, string);
     }
 
 }

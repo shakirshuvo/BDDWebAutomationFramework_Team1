@@ -33,4 +33,6 @@ public class SignInWebElements {
     public static final String forgotYourPasswordTitleString = "Amazon Password Assistance";
     public static final String alertMessageClassWebElement = "a-alert-heading";
     public static final String alertMessageFullClassWebElement = "a-list-item";
+    public static final String notNowLinkIDWebElement = "ap-account-fixup-phone-skip-link";
+    public static final String shakirsAmazonTextXpathWebElement = "//span[text()='Shakir']";
 }

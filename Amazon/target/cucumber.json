@@ -11,13 +11,13 @@
         "steps": [
           {
             "result": {
-              "duration": 6132525600,
+              "duration": 5784616700,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 48002900,
+                  "duration": 32997900,
                   "status": "passed"
                 },
                 "match": {
@@ -26,7 +26,7 @@
               },
               {
                 "result": {
-                  "duration": 1997000,
+                  "duration": 1993300,
                   "status": "passed"
                 },
                 "match": {
@@ -35,7 +35,7 @@
               },
               {
                 "result": {
-                  "duration": 1006100,
+                  "duration": 999300,
                   "status": "passed"
                 },
                 "match": {
@@ -53,15 +53,15 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-10T01:53:32.547Z",
-        "line": 34,
+        "start_timestamp": "2020-09-10T04:44:13.831Z",
+        "line": 47,
         "name": "Check that an alert message is displayed when user tries to login with an invalid password",
         "description": "",
         "id": "amazon-sign-in-functionality-check;check-that-an-alert-message-is-displayed-when-user-tries-to-login-with-an-invalid-password;;2",
         "after": [
           {
             "result": {
-              "duration": 751005700,
+              "duration": 763994800,
               "status": "passed"
             },
             "match": {
@@ -70,7 +70,7 @@
           },
           {
             "result": {
-              "duration": 1001400,
+              "duration": 1003300,
               "status": "passed"
             },
             "match": {
@@ -91,13 +91,13 @@
         "steps": [
           {
             "result": {
-              "duration": 631000300,
+              "duration": 290997700,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1994800,
+                  "duration": 1997000,
                   "status": "passed"
                 },
                 "match": {
@@ -106,7 +106,6 @@
               },
               {
                 "result": {
-                  "duration": 1002100,
                   "status": "passed"
                 },
                 "match": {
@@ -115,7 +114,6 @@
               },
               {
                 "result": {
-                  "duration": 998500,
                   "status": "passed"
                 },
                 "match": {
@@ -123,7 +121,7 @@
                 }
               }
             ],
-            "line": 25,
+            "line": 38,
             "name": "I hover over \u0027Hello, Sign in\u0027 button",
             "match": {
               "arguments": [
@@ -138,13 +136,13 @@
           },
           {
             "result": {
-              "duration": 690002300,
+              "duration": 721998600,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1001000,
+                  "duration": 999000,
                   "status": "passed"
                 },
                 "match": {
@@ -153,7 +151,6 @@
               },
               {
                 "result": {
-                  "duration": 994900,
                   "status": "passed"
                 },
                 "match": {
@@ -162,7 +159,6 @@
               },
               {
                 "result": {
-                  "duration": 1002700,
                   "status": "passed"
                 },
                 "match": {
@@ -170,7 +166,7 @@
                 }
               }
             ],
-            "line": 26,
+            "line": 39,
             "name": "I click on \u0027Sign in\u0027 button under Hello, Sign in",
             "match": {
               "arguments": [
@@ -185,13 +181,13 @@
           },
           {
             "result": {
-              "duration": 198000700,
+              "duration": 2208707400,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 998000,
+                  "duration": 997700,
                   "status": "passed"
                 },
                 "match": {
@@ -200,6 +196,7 @@
               },
               {
                 "result": {
+                  "duration": 1001100,
                   "status": "passed"
                 },
                 "match": {
@@ -208,7 +205,7 @@
               },
               {
                 "result": {
-                  "duration": 993600,
+                  "duration": 1000000,
                   "status": "passed"
                 },
                 "match": {
@@ -216,12 +213,12 @@
                 }
               }
             ],
-            "line": 27,
-            "name": "I enter a valid \"ciara105@xhanimatedm.com\" on \u0027Email (phone for mobile accounts) field",
+            "line": 40,
+            "name": "I enter a valid \"shakir.jahangir83@gmail.com\" on \u0027Email (phone for mobile accounts) field",
             "match": {
               "arguments": [
                 {
-                  "val": "\"ciara105@xhanimatedm.com\"",
+                  "val": "\"shakir.jahangir83@gmail.com\"",
                   "offset": 16
                 }
               ],
@@ -231,13 +228,13 @@
           },
           {
             "result": {
-              "duration": 612004700,
+              "duration": 801929600,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1000900,
+                  "duration": 1945600,
                   "status": "passed"
                 },
                 "match": {
@@ -246,6 +243,7 @@
               },
               {
                 "result": {
+                  "duration": 1005900,
                   "status": "passed"
                 },
                 "match": {
@@ -254,6 +252,7 @@
               },
               {
                 "result": {
+                  "duration": 994700,
                   "status": "passed"
                 },
                 "match": {
@@ -261,7 +260,7 @@
                 }
               }
             ],
-            "line": 28,
+            "line": 41,
             "name": "I click on \u0027Continue\u0027 button below \u0027Email (phone for mobile accounts) field",
             "match": {
               "arguments": [
@@ -276,13 +275,13 @@
           },
           {
             "result": {
-              "duration": 152001900,
+              "duration": 2080011100,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1999900,
+                  "duration": 1001300,
                   "status": "passed"
                 },
                 "match": {
@@ -291,7 +290,6 @@
               },
               {
                 "result": {
-                  "duration": 1002500,
                   "status": "passed"
                 },
                 "match": {
@@ -300,6 +298,7 @@
               },
               {
                 "result": {
+                  "duration": 1001100,
                   "status": "passed"
                 },
                 "match": {
@@ -307,32 +306,28 @@
                 }
               }
             ],
-            "line": 29,
-            "name": "I enter an invalid \"InvalidPass123!\" on the \u0027Password\u0027 field",
+            "line": 42,
+            "name": "I enter a valid \"BugBusters\" on the Password field",
             "match": {
               "arguments": [
                 {
-                  "val": "\"InvalidPass123!\"",
-                  "offset": 19
-                },
-                {
-                  "val": "\u0027Password\u0027",
-                  "offset": 44
+                  "val": "\"BugBusters\"",
+                  "offset": 16
                 }
               ],
-              "location": "stepDefinitions.SignInStepDefinition.i_enter_an_invalid_on_the_field(java.lang.String,java.lang.String)"
+              "location": "stepDefinitions.SignInStepDefinition.i_enter_a_valid_on_the_password_field(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 717998000,
+              "duration": 1789992300,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 996700,
+                  "duration": 1008600,
                   "status": "passed"
                 },
                 "match": {
@@ -341,6 +336,7 @@
               },
               {
                 "result": {
+                  "duration": 993800,
                   "status": "passed"
                 },
                 "match": {
@@ -356,7 +352,7 @@
                 }
               }
             ],
-            "line": 30,
+            "line": 43,
             "name": "I click on \u0027Sign-in\u0027 button after password",
             "match": {
               "arguments": [
@@ -371,13 +367,13 @@
           },
           {
             "result": {
-              "duration": 57001400,
+              "duration": 152997500,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1000000,
+                  "duration": 1002700,
                   "status": "passed"
                 },
                 "match": {
@@ -394,7 +390,7 @@
               },
               {
                 "result": {
-                  "duration": 1998400,
+                  "duration": 999600,
                   "status": "passed"
                 },
                 "match": {
@@ -402,20 +398,16 @@
                 }
               }
             ],
-            "line": 31,
-            "name": "I verify that the \"Your password is incorrect\" or \"To better protect your account, please re-enter your password and then enter the characters as they are shown in the image below.\" is displayed",
+            "line": 44,
+            "name": "I verify that \"Shakir\" is displayed",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Your password is incorrect\"",
-                  "offset": 18
-                },
-                {
-                  "val": "\"To better protect your account, please re-enter your password and then enter the characters as they are shown in the image below.\"",
-                  "offset": 50
+                  "val": "\"Shakir\"",
+                  "offset": 14
                 }
               ],
-              "location": "stepDefinitions.SignInStepDefinition.i_verify_that_the_or_is_displayed(java.lang.String,java.lang.String)"
+              "location": "stepDefinitions.SignInStepDefinition.i_verify_that_is_displayed(java.lang.String)"
             },
             "keyword": "Then "
           }

@@ -678,6 +678,11 @@ public class CommonAPI {
         Assert.assertEquals(url, driver.getCurrentUrl());
     }
 
+    public boolean elementIsDisplayedByID(String element) {
+        driver.findElement(By.id(element)).isDisplayed();
+        return true;
+    }
+
     public boolean elementIsDisplayed(String element) {
         try {
             driver.findElement(By.xpath(element)).isDisplayed();
