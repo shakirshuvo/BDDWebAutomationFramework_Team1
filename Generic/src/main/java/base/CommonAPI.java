@@ -217,6 +217,18 @@ public class CommonAPI {
         driver.findElement(By.id(locator)).click();
     }
 
+    public void clickOnElementByXpath(String locator) {
+        driver.findElement(By.xpath(locator)).click();
+    }
+
+    public void clickOnElementByCSS(String locator) {
+        driver.findElement(By.cssSelector(locator)).click();
+    }
+
+    public void clickOnElementByClass(String locator) {
+        driver.findElement(By.className(locator)).click();
+    }
+
     public void clickOnElement(String locator) {
         try {
             driver.findElement(By.xpath(locator)).click();
@@ -239,6 +251,10 @@ public class CommonAPI {
                 }
             }
         }
+    }
+
+    public void typeOnElementByCSS(String locator, String value) {
+        driver.findElement(By.cssSelector(locator)).sendKeys(value);
     }
 
     public void typeOnElement(String locator, String value) {
@@ -299,7 +315,7 @@ public class CommonAPI {
         }
     }
 
-    public void submitOnElementByID(String locator){
+    public void submitOnElementByID(String locator) {
         driver.findElement(By.id(locator)).submit();
     }
 
@@ -346,10 +362,6 @@ public class CommonAPI {
             driver.findElement(By.id(locator)).sendKeys(value);
         }
 
-    }
-
-    public void clickByXpath(String locator) {
-        driver.findElement(By.xpath(locator)).click();
     }
 
     public void typeByCss(String locator, String value) {
@@ -505,17 +517,31 @@ public class CommonAPI {
         }
     }
 
+//    public void mouseHoverByXpath(String locator) {
+//        try {
+//            WebElement element = driver.findElement(By.xpath(locator));
+//            Actions action = new Actions(driver);
+//            Actions hover = action.moveToElement(element);
+//        } catch (Exception ex) {
+//            System.out.println("First attempt has been done, This is second try");
+//            WebElement element = driver.findElement(By.xpath(locator));
+//            Actions action = new Actions(driver);
+//            action.moveToElement(element).perform();
+//        }
+//    }
+
     public void mouseHoverByXpath(String locator) {
-        try {
-            WebElement element = driver.findElement(By.xpath(locator));
-            Actions action = new Actions(driver);
-            Actions hover = action.moveToElement(element);
-        } catch (Exception ex) {
-            System.out.println("First attempt has been done, This is second try");
-            WebElement element = driver.findElement(By.xpath(locator));
-            Actions action = new Actions(driver);
-            action.moveToElement(element).perform();
-        }
+        WebElement element = driver.findElement(By.xpath(locator));
+        Actions actions = new Actions(driver);
+        WebElement features = element;
+        actions.moveToElement(features).build().perform();
+    }
+
+    public void mouseHoverByID(String locator) {
+        WebElement element = driver.findElement(By.id(locator));
+        Actions actions = new Actions(driver);
+        WebElement features = element;
+        actions.moveToElement(features).build().perform();
     }
 
     //handling Alert
@@ -617,7 +643,20 @@ public class CommonAPI {
         Assert.assertEquals(title, driver.getTitle());
     }
 
-    //Validate by test
+    //Validate by text
+    public void validateByTextByClass(String element, String text) {
+        Assert.assertEquals(text, driver.findElement(By.className(element)).getText());
+    }
+
+    public void validateByTwoTextByClass(String element, String text1, String text2) {
+        if (text1 == driver.findElement(By.className(element)).getText()) {
+            Assert.assertEquals(text1, driver.findElement(By.className(element)).getText());
+        } else if (text2 == driver.findElement(By.className(element)).getText()){
+            Assert.assertEquals(text2, driver.findElement(By.className(element)).getText());
+        }
+    }
+
+
     public void validateByText(String element, String text) {
         try {
             Assert.assertEquals(text, driver.findElement(By.xpath(element)).getText());
@@ -743,6 +782,11 @@ public class CommonAPI {
     public String getTextByWebElement(WebElement webElement) {
         String text = webElement.getText();
         return text;
+    }
+
+    public static void scrollUpDownByHeight() {
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
     }
 
 

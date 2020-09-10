@@ -11,13 +11,13 @@
         "steps": [
           {
             "result": {
-              "duration": 5748516900,
+              "duration": 6132525600,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 27997000,
+                  "duration": 48002900,
                   "status": "passed"
                 },
                 "match": {
@@ -26,11 +26,20 @@
               },
               {
                 "result": {
-                  "duration": 2000900,
+                  "duration": 1997000,
                   "status": "passed"
                 },
                 "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1006100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SignInStepDefinition.getInit()"
                 }
               }
             ],
@@ -44,15 +53,24 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-09T08:43:57.532Z",
-        "line": 28,
-        "name": "Amazon \u0027All\u0027 dropdown search functionality check with \u0027Computers\u0027 department",
+        "start_timestamp": "2020-09-10T01:53:32.547Z",
+        "line": 34,
+        "name": "Check that an alert message is displayed when user tries to login with an invalid password",
         "description": "",
-        "id": "amazon-search-functionality-check;amazon--all--dropdown-search-functionality-check-with--computers--department;;2",
+        "id": "amazon-sign-in-functionality-check;check-that-an-alert-message-is-displayed-when-user-tries-to-login-with-an-invalid-password;;2",
         "after": [
           {
             "result": {
-              "duration": 920071900,
+              "duration": 751005700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.SignInStepDefinition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1001400,
               "status": "passed"
             },
             "match": {
@@ -61,7 +79,6 @@
           },
           {
             "result": {
-              "duration": 995200,
               "status": "passed"
             },
             "match": {
@@ -74,13 +91,13 @@
         "steps": [
           {
             "result": {
-              "duration": 358999500,
+              "duration": 631000300,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1998800,
+                  "duration": 1994800,
                   "status": "passed"
                 },
                 "match": {
@@ -89,40 +106,45 @@
               },
               {
                 "result": {
-                  "duration": 994700,
+                  "duration": 1002100,
                   "status": "passed"
                 },
                 "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
                 }
+              },
+              {
+                "result": {
+                  "duration": 998500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SignInStepDefinition.getInit()"
+                }
               }
             ],
-            "line": 23,
-            "name": "I select \"Computers\" from \u0027All\u0027 dropdown",
+            "line": 25,
+            "name": "I hover over \u0027Hello, Sign in\u0027 button",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Computers\"",
-                  "offset": 9
-                },
-                {
-                  "val": "\u0027All\u0027",
-                  "offset": 26
+                  "val": "\u0027Hello, Sign in\u0027",
+                  "offset": 13
                 }
               ],
-              "location": "stepDefinitions.SearchStepDefinition.i_select_from_dropdown(java.lang.String,java.lang.String)"
+              "location": "stepDefinitions.SignInStepDefinition.i_hover_over_button(java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 2357000600,
+              "duration": 690002300,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1999200,
+                  "duration": 1001000,
                   "status": "passed"
                 },
                 "match": {
@@ -131,30 +153,45 @@
               },
               {
                 "result": {
-                  "duration": 2004900,
+                  "duration": 994900,
                   "status": "passed"
                 },
                 "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
                 }
+              },
+              {
+                "result": {
+                  "duration": 1002700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SignInStepDefinition.getInit()"
+                }
               }
             ],
-            "line": 24,
-            "name": "I submit search field",
+            "line": 26,
+            "name": "I click on \u0027Sign in\u0027 button under Hello, Sign in",
             "match": {
-              "location": "stepDefinitions.SearchStepDefinition.i_submit_search_field()"
+              "arguments": [
+                {
+                  "val": "\u0027Sign in\u0027",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinitions.SignInStepDefinition.i_click_on_button_under_hello_sign_in(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 174999400,
+              "duration": 198000700,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 999000,
+                  "duration": 998000,
                   "status": "passed"
                 },
                 "match": {
@@ -168,22 +205,217 @@
                 "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
                 }
+              },
+              {
+                "result": {
+                  "duration": 993600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SignInStepDefinition.getInit()"
+                }
               }
             ],
-            "line": 25,
-            "name": "I verify that I am in \u0027Computers\u0027 department with \"Computers, Tablets and IT Accessories\".",
+            "line": 27,
+            "name": "I enter a valid \"ciara105@xhanimatedm.com\" on \u0027Email (phone for mobile accounts) field",
             "match": {
               "arguments": [
                 {
-                  "val": "\u0027Computers\u0027",
-                  "offset": 22
+                  "val": "\"ciara105@xhanimatedm.com\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinitions.SignInStepDefinition.i_enter_a_valid_on_email_phone_for_mobile_accounts_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 612004700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SignInStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 28,
+            "name": "I click on \u0027Continue\u0027 button below \u0027Email (phone for mobile accounts) field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Continue\u0027",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinitions.SignInStepDefinition.i_click_on_button_below_email_phone_for_mobile_accounts_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 152001900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1999900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1002500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SignInStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 29,
+            "name": "I enter an invalid \"InvalidPass123!\" on the \u0027Password\u0027 field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"InvalidPass123!\"",
+                  "offset": 19
                 },
                 {
-                  "val": "\"Computers, Tablets and IT Accessories\"",
+                  "val": "\u0027Password\u0027",
+                  "offset": 44
+                }
+              ],
+              "location": "stepDefinitions.SignInStepDefinition.i_enter_an_invalid_on_the_field(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 717998000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 996700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SignInStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 30,
+            "name": "I click on \u0027Sign-in\u0027 button after password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Sign-in\u0027",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinitions.SignInStepDefinition.i_click_on_button_after_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 57001400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1998400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SignInStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 31,
+            "name": "I verify that the \"Your password is incorrect\" or \"To better protect your account, please re-enter your password and then enter the characters as they are shown in the image below.\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Your password is incorrect\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"To better protect your account, please re-enter your password and then enter the characters as they are shown in the image below.\"",
                   "offset": 50
                 }
               ],
-              "location": "stepDefinitions.SearchStepDefinition.i_verify_that_i_am_in_department_with(java.lang.String,java.lang.String)"
+              "location": "stepDefinitions.SignInStepDefinition.i_verify_that_the_or_is_displayed(java.lang.String,java.lang.String)"
             },
             "keyword": "Then "
           }
@@ -195,11 +427,11 @@
         ]
       }
     ],
-    "name": "Amazon search functionality check",
+    "name": "Amazon Sign In functionality check",
     "description": "",
-    "id": "amazon-search-functionality-check",
+    "id": "amazon-sign-in-functionality-check",
     "keyword": "Feature",
-    "uri": "file:src/test/java/features/Search.feature",
+    "uri": "file:src/test/java/features/SignIn.feature",
     "tags": []
   }
 ]

@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="10.244">
-    <testcase classname="Amazon search functionality check" name="Amazon 'All' dropdown search functionality check with 'Computers' department" time="9.687">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="10.788">
+    <testcase classname="Amazon Sign In functionality check" name="Check that an alert message is displayed when user tries to login with an invalid password" time="10.15">
         <system-out>
             <![CDATA[Given I am on Amazon homepage...............................................passed
-When I select "Computers" from 'All' dropdown...............................passed
-And I submit search field...................................................passed
-Then I verify that I am in 'Computers' department with "Computers, Tablets and IT Accessories"..passed
+When I hover over 'Hello, Sign in' button...................................passed
+And I click on 'Sign in' button under Hello, Sign in........................passed
+And I enter a valid "ciara105@xhanimatedm.com" on 'Email (phone for mobile accounts) field.passed
+And I click on 'Continue' button below 'Email (phone for mobile accounts) field.passed
+And I enter an invalid "InvalidPass123!" on the 'Password' field............passed
+And I click on 'Sign-in' button after password..............................passed
+Then I verify that the "Your password is incorrect" or "To better protect your account, please re-enter your password and then enter the characters as they are shown in the image below." is displayed.passed
 ]]>
         </system-out>
     </testcase>

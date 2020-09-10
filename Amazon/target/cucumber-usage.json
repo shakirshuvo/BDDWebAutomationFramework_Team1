@@ -5,67 +5,139 @@
       {
         "name": "I am on Amazon homepage",
         "aggregatedDurations": {
-          "median": 5.7485169,
-          "average": 5.7485169
+          "median": 6.1325256,
+          "average": 6.1325256
         },
         "durations": [
           {
-            "duration": 5.7485169,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:4"
+            "duration": 6.1325256,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:4"
           }
         ]
       }
     ]
   },
   {
-    "source": "I select {string} from {string} dropdown",
+    "source": "I hover over {string} button",
     "steps": [
       {
-        "name": "I select \"Computers\" from \u0027All\u0027 dropdown",
+        "name": "I hover over \u0027Hello, Sign in\u0027 button",
         "aggregatedDurations": {
-          "median": 0.3589995,
-          "average": 0.3589995
+          "median": 0.6310003,
+          "average": 0.6310003
         },
         "durations": [
           {
-            "duration": 0.3589995,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:23"
+            "duration": 0.6310003,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:25"
           }
         ]
       }
     ]
   },
   {
-    "source": "I submit search field",
+    "source": "I click on {string} button under Hello, Sign in",
     "steps": [
       {
-        "name": "I submit search field",
+        "name": "I click on \u0027Sign in\u0027 button under Hello, Sign in",
         "aggregatedDurations": {
-          "median": 2.3570006,
-          "average": 2.3570006
+          "median": 0.6900023,
+          "average": 0.6900023
         },
         "durations": [
           {
-            "duration": 2.3570006,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:24"
+            "duration": 0.6900023,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:26"
           }
         ]
       }
     ]
   },
   {
-    "source": "I verify that I am in {string} department with {string}.",
+    "source": "I enter a valid {string} on \u0027Email \\(phone for mobile accounts) field",
     "steps": [
       {
-        "name": "I verify that I am in \u0027Computers\u0027 department with \"Computers, Tablets and IT Accessories\".",
+        "name": "I enter a valid \"ciara105@xhanimatedm.com\" on \u0027Email (phone for mobile accounts) field",
         "aggregatedDurations": {
-          "median": 0.1749994,
-          "average": 0.1749994
+          "median": 0.1980007,
+          "average": 0.1980007
         },
         "durations": [
           {
-            "duration": 0.1749994,
-            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:25"
+            "duration": 0.1980007,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:27"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on {string} button below \u0027Email \\(phone for mobile accounts) field",
+    "steps": [
+      {
+        "name": "I click on \u0027Continue\u0027 button below \u0027Email (phone for mobile accounts) field",
+        "aggregatedDurations": {
+          "median": 0.6120047,
+          "average": 0.6120047
+        },
+        "durations": [
+          {
+            "duration": 0.6120047,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:28"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter an invalid {string} on the {string} field",
+    "steps": [
+      {
+        "name": "I enter an invalid \"InvalidPass123!\" on the \u0027Password\u0027 field",
+        "aggregatedDurations": {
+          "median": 0.1520019,
+          "average": 0.1520019
+        },
+        "durations": [
+          {
+            "duration": 0.1520019,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:29"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on {string} button after password",
+    "steps": [
+      {
+        "name": "I click on \u0027Sign-in\u0027 button after password",
+        "aggregatedDurations": {
+          "median": 0.717998,
+          "average": 0.717998
+        },
+        "durations": [
+          {
+            "duration": 0.717998,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:30"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify that the {string} or {string} is displayed",
+    "steps": [
+      {
+        "name": "I verify that the \"Your password is incorrect\" or \"To better protect your account, please re-enter your password and then enter the characters as they are shown in the image below.\" is displayed",
+        "aggregatedDurations": {
+          "median": 0.0570014,
+          "average": 0.0570014
+        },
+        "durations": [
+          {
+            "duration": 0.0570014,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:31"
           }
         ]
       }

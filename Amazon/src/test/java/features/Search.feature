@@ -18,7 +18,7 @@ Feature: Amazon search functionality check
       | Matcha Green Tea         | Amazon.com : Matcha Green Tea         |
       | Rage Against The Machine | Amazon.com : Rage Against The Machine |
 
-  @MyTest
+  @SmokeTest
   Scenario Outline: Amazon 'All' dropdown search functionality check with 'Computers' department
     When I select "<department>" from 'All' dropdown
     And I submit search field
@@ -27,7 +27,7 @@ Feature: Amazon search functionality check
       | department | pageText                              |
       | Computers  | Computers, Tablets and IT Accessories |
 
-#  @MyTest
+  @SmokeTest
   Scenario Outline: Amazon 'All' dropdown search functionality check by selecting each department and validating
     with page text
     When I select "<department>" from 'All' dropdown
