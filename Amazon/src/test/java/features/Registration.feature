@@ -12,15 +12,73 @@ Feature: Amazon Registration functionality check
       | title               |
       | Amazon Registration |
 
-  @MyTest
-  Scenario Outline: Check that if user does not provide a name when registering, an alert message
+  @SmokeTest
+  Scenario: Check that if user does not provide a name when registering, an alert message
   "Enter your name" will be displayed
     And I enter a random email address in the 'Email' field
     And I enter a random password in the 'Password' field
-    And I Re-enter the password in the 'Re-enter password field
+    And I Re-enter the password in the `Re-enter password` field
     And I click on 'Create you Amazon account' button on the Registration page
-    Then I verify "<alert>" is displayed
+    Then I verify 'Enter your name' alert is displayed under `Your name` field
+
+  @SmokeTest
+  Scenario: Check that if user does not provide a email when registering, an alert message
+  "Enter your email" will be displayed
+    And I enter a random 'name'
+    And I enter a random password in the 'Password' field
+    And I Re-enter the password in the `Re-enter password` field
+    And I click on 'Create you Amazon account' button on the Registration page
+    Then I verify 'Enter your email' alert is displayed under `Email` field
+
+  @SmokeTest
+  Scenario Outline: Check that if user does not provide a valid email format when registering, an alert message
+  "Enter your email" will be displayed
+    And I enter a random 'name'
+    And I enter an "<invalid email>" address in the `Email` field
+    And I enter a random password in the 'Password' field
+    And I Re-enter the password in the `Re-enter password` field
+    And I click on 'Create you Amazon account' button on the Registration page
+    Then I verify "<alert>" is displayed under `Email` field
     Examples:
-      | alert           |
-      | Enter your name |
+      | alert                       | invalid email  |
+      | Enter a valid email address | invalid@email. |
+
+  @SmokeTest
+  Scenario Outline: Check that if user does not provide a password when registering, an alert message
+  "Enter your password" will be displayed
+    And I enter a random 'name'
+    And I enter a random email address in the 'Email' field
+    And I click on 'Create you Amazon account' button on the Registration page
+    Then I verify "<alert>" is displayed under `Password` field
+    Examples:
+      | alert               |
+      | Enter your password |
+
+  @SmokeTest
+  Scenario Outline: Check that if user does not re-enter a password when registering, an alert message
+  "Type your password again" will be displayed
+    And I enter a random 'name'
+    And I enter a random email address in the 'Email' field
+    And I enter a random password in the 'Password' field
+    And I click on 'Create you Amazon account' button on the Registration page
+    Then I verify "<alert>" is displayed under `Re-Enter password` field
+    Examples:
+      | alert                    |
+      | Type your password again |
+
+  @MyTest
+  Scenario Outline: Check that if user does not provide a password that is at least 6 characters long
+  when registering, two alert messages "Passwords must be at least 6 characters." and
+  "Type your password again" will be displayed
+    And I enter a random 'name'
+    And I enter a random email address in the 'Email' field
+    And I enter a random five character long password in the 'Password' field
+    And I click on 'Create you Amazon account' button on the Registration page
+    Then I verify "<Password alert>" is displayed under `Password` field for not meeting the password criteria
+    And I verify "<Re-enter password alert>" is displayed under `Re-Enter password` field
+    Examples:
+      | Password alert                           | Re-enter password alert  |
+      | Passwords must be at least 6 characters. | Type your password again |
+
+
 

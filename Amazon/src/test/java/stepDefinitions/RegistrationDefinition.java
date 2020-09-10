@@ -45,7 +45,7 @@ public class RegistrationDefinition extends CommonAPI {
         typeByCss(passwordFieldCSSWebElement, randomPasswordLength6to8);
     }
 
-    @When("I Re-enter the password in the 'Re-enter password field")
+    @When("I Re-enter the password in the `Re-enter password` field")
     public void i_re_enter_the_password_in_the_re_enter_password_field() {
         typeByCss(passwordReEnterFieldCSSWebElement, randomPasswordLength6to8);
     }
@@ -55,10 +55,48 @@ public class RegistrationDefinition extends CommonAPI {
         clickOnElementByCSS(createYourAmazonAccountButtonCSSWebElement);
     }
 
-    @Then("I verify {string} is displayed")
-    public void i_verify_is_displayed(String alert) {
-        validateByTextByID(enterYourNameAlertIDWebElement, alert);
+    @Then("I verify {string} alert is displayed under `Your name` field")
+    public void i_verify_alert_is_displayed_under_your_name_field(String Namealert) {
+        validateByTextByID(enterYourNameAlertIDWebElement, Namealert);
     }
 
+    @When("I enter a random {string}")
+    public void i_enter_a_random(String string) {
+        typeByCss(yourNameFieldCSSWebElement, randomName);
+    }
 
+    @Then("I verify {string} alert is displayed under `Email` field")
+    public void i_verify_alert_is_displayed_under_email_field(String emailAlert) {
+        validateByTextByID(enterYourEmailAlertIDWebElement, emailAlert);
+    }
+
+    @When("I enter an {string} address in the `Email` field")
+    public void i_enter_an_address_in_the_email_field(String invalidEmail) {
+        typeByCss(yourEmailFieldCSSWebElement, invalidEmail);
+    }
+
+    @Then("I verify {string} is displayed under `Email` field")
+    public void i_verify_is_displayed_under_email_field(String alert) {
+        validateByTextByID(enterAValidEmailAddressAlertIDWebElement, alert);
+    }
+
+    @Then("I verify {string} is displayed under `Password` field")
+    public void i_verify_is_displayed_under_password_field(String alert) {
+        validateByTextByID(enterYourPasswordAlertIDWebElement, alert);
+    }
+
+    @Then("I verify {string} is displayed under `Re-Enter password` field")
+    public void i_verify_is_displayed_under_re_enter_password_field(String alert) {
+        validateByTextByID(typeYourPasswordAgainIDWebElement, alert);
+    }
+
+    @When("I enter a random five character long password in the {string} field")
+    public void i_enter_a_random_five_character_long_password_in_the_field(String string) {
+        typeByCss(passwordFieldCSSWebElement, randomPasswordLength4to5);
+    }
+
+    @Then("I verify {string} is displayed under `Password` field for not meeting the password criteria")
+    public void i_verify_is_displayed_under_password_field_for_not_meeting_the_password_criteria(String alert) {
+        validateByTextByID(passwordMustBeAtLeast6CharacterAlertIDWebElement, alert);
+    }
 }

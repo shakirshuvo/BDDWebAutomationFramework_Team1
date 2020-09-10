@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="11.315">
-    <testcase classname="Amazon Registration functionality check" name="Check that if user does not provide a name when registering, an alert message" time="10.574">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="10.883">
+    <testcase classname="Amazon Registration functionality check" name="Check that if user does not provide a password that is at least 6 characters long" time="10.194">
         <system-out>
             <![CDATA[Given I am on Amazon homepage...............................................passed
 When I hover over 'Hello, Sign in' button...................................passed
 And I click on 'Start here' link on homepage................................passed
+And I enter a random 'name'.................................................passed
 And I enter a random email address in the 'Email' field.....................passed
-And I enter a random password in the 'Password' field.......................passed
-And I Re-enter the password in the 'Re-enter password field.................passed
+And I enter a random five character long password in the 'Password' field...passed
 And I click on 'Create you Amazon account' button on the Registration page..passed
-Then I verify "Enter your name" is displayed................................passed
+Then I verify "Passwords must be at least 6 characters." is displayed under `Password` field for not meeting the password criteria.passed
+And I verify "Type your password again" is displayed under `Re-Enter password` field.passed
 ]]>
         </system-out>
     </testcase>
