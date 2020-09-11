@@ -5,49 +5,67 @@
       {
         "name": "I am on Delta homepage",
         "aggregatedDurations": {
-          "median": 8.0283314,
-          "average": 8.0283314
+          "median": 11.3418309,
+          "average": 11.3418309
         },
         "durations": [
           {
-            "duration": 8.0283314,
-            "location": "file:///C:/Users/15029/IdeaProjects/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/HomePage.feature:5"
+            "duration": 11.3418309,
+            "location": "file:///C:/Users/15029/IdeaProjects/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/HomePage.feature:4"
           }
         ]
       }
     ]
   },
   {
-    "source": "I click on Log In",
+    "source": "I click on {string} tab",
     "steps": [
       {
-        "name": "I click on Log In",
+        "name": "I click on \u0027Need Help?\u0027 tab",
         "aggregatedDurations": {
-          "median": 1.7631273,
-          "average": 1.7631273
+          "median": 0.4274636,
+          "average": 0.4274636
         },
         "durations": [
           {
-            "duration": 1.7631273,
-            "location": "file:///C:/Users/15029/IdeaProjects/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/HomePage.feature:6"
+            "duration": 0.4274636,
+            "location": "file:///C:/Users/15029/IdeaProjects/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/HomePage.feature:15"
           }
         ]
       }
     ]
   },
   {
-    "source": "I verify Log In page with title",
+    "source": "I click on {string} link",
     "steps": [
       {
-        "name": "I verify Log In page with title",
+        "name": "I click on \u0027Certificates \u0026 eCredits\u0027 link",
         "aggregatedDurations": {
-          "median": 0.3944705,
-          "average": 0.3944705
+          "median": 3.8816617,
+          "average": 3.8816617
         },
         "durations": [
           {
-            "duration": 0.3944705,
-            "location": "file:///C:/Users/15029/IdeaProjects/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/HomePage.feature:7"
+            "duration": 3.8816617,
+            "location": "file:///C:/Users/15029/IdeaProjects/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/HomePage.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify page {string}",
+    "steps": [
+      {
+        "name": "I verify page \"View or Redeem Multiple Certificates or Ecredits or Gift Cards : Delta Air Lines\"",
+        "aggregatedDurations": {
+          "median": 0.4075073,
+          "average": 0.4075073
+        },
+        "durations": [
+          {
+            "duration": 0.4075073,
+            "location": "file:///C:/Users/15029/IdeaProjects/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/HomePage.feature:17"
           }
         ]
       }

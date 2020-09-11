@@ -3,15 +3,36 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-09-09T17:34:37.045Z",
-        "line": 4,
-        "name": "Delta Sign In functionality check with valid data",
+        "line": 3,
+        "name": "",
         "description": "",
-        "id": "delta-home-functionality-check;delta-sign-in-functionality-check-with-valid-data",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11341830900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on Delta homepage",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.i_am_on_delta_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-11T08:11:10.370Z",
+        "line": 20,
+        "name": "Check that user can navigate to \u0027Certificates \u0026 eCredits\u0027 page",
+        "description": "",
+        "id": "delta-homepage-functionality-check;check-that-user-can-navigate-to--certificates-\u0026-ecredits--page;;2",
         "after": [
           {
             "result": {
-              "duration": 716667000,
+              "duration": 765983800,
               "status": "passed"
             },
             "match": {
@@ -20,55 +41,76 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 8028331400,
+              "duration": 427463600,
               "status": "passed"
             },
-            "line": 5,
-            "name": "I am on Delta homepage",
+            "line": 15,
+            "name": "I click on \u0027Need Help?\u0027 tab",
             "match": {
-              "location": "stepDefinitions.HomeStepDefinition.i_am_on_delta_homepage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1763127300,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "I click on Log In",
-            "match": {
-              "location": "stepDefinitions.HomeStepDefinition.i_click_on_log_in()"
+              "arguments": [
+                {
+                  "val": "\u0027Need Help?\u0027",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinitions.HomeStepDefinition.i_click_on_tab(java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 394470500,
+              "duration": 3881661700,
               "status": "passed"
             },
-            "line": 7,
-            "name": "I verify Log In page with title",
+            "line": 16,
+            "name": "I click on \u0027Certificates \u0026 eCredits\u0027 link",
             "match": {
-              "location": "stepDefinitions.HomeStepDefinition.i_verify_log_in_page_with_title()"
+              "arguments": [
+                {
+                  "val": "\u0027Certificates \u0026 eCredits\u0027",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinitions.HomeStepDefinition.i_click_on_link(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 407507300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I verify page \"View or Redeem Multiple Certificates or Ecredits or Gift Cards : Delta Air Lines\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"View or Redeem Multiple Certificates or Ecredits or Gift Cards : Delta Air Lines\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepDefinitions.HomeStepDefinition.i_verify_page(java.lang.String)"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
+            "name": "@MyTest"
+          },
+          {
             "name": "@SmokeTest"
           }
         ]
       }
     ],
-    "name": "Delta home functionality check",
+    "name": "Delta homepage functionality check",
     "description": "",
-    "id": "delta-home-functionality-check",
+    "id": "delta-homepage-functionality-check",
     "keyword": "Feature",
     "uri": "file:src/test/java/features/HomePage.feature",
     "tags": []

@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit;
 import static home.HomePageWebElements.*;
 import static org.testng.Assert.assertEquals;
 
-public class HomePage extends CommonAPI {
+public class Home extends CommonAPI {
 
 
     @FindBy (how = How.XPATH, using =webelementSignUpXPATH )
@@ -286,6 +286,12 @@ public void validateCommonCheeckedBaggageFees(){
         String actual=driver.getTitle();
         String expected="https://www.delta.com/us/en/need-help/support-other-information#receipts";
         Assert.assertEquals(actual,expected);
+    }
+    public  void validateSkyMilesHelp(){
+        String actual=driver.getTitle();
+        String expected="SkyMiles Help : Delta Air Lines";
+        Assert.assertEquals(actual,expected);
+
     }
 }
 

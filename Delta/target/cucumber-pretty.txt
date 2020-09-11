@@ -1,6 +1,7 @@
 
-@SmokeTest
-Scenario: Delta Sign In functionality check with valid data # src/test/java/features/HomePage.feature:4
-  Given I am on Delta homepage                              # stepDefinitions.HomeStepDefinition.i_am_on_delta_homepage()
-  When I click on Log In                                    # stepDefinitions.HomeStepDefinition.i_click_on_log_in()
-  Then I verify Log In page with title                      # stepDefinitions.HomeStepDefinition.i_verify_log_in_page_with_title()
+@MyTest @SmokeTest
+Scenario Outline: Check that user can navigate to 'Certificates & eCredits' page                        # src/test/java/features/HomePage.feature:20
+  Given I am on Delta homepage                                                                          # stepDefinitions.HomeStepDefinition.i_am_on_delta_homepage()
+  When I click on 'Need Help?' tab                                                                      # stepDefinitions.HomeStepDefinition.i_click_on_tab(java.lang.String)
+  And I click on 'Certificates & eCredits' link                                                         # stepDefinitions.HomeStepDefinition.i_click_on_link(java.lang.String)
+  Then I verify page "View or Redeem Multiple Certificates or Ecredits or Gift Cards : Delta Air Lines" # stepDefinitions.HomeStepDefinition.i_verify_page(java.lang.String)
