@@ -1,0 +1,3 @@
+
+@MyTest @SmokeTest
+Scenario Outline: Check that user can navigate to 'Certificates & eCredits' page                        # src/test/java/features/HomePage.feature:20

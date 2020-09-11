@@ -129,7 +129,7 @@ public class CommonAPI {
     public String saucelabs_accesskey = "";
 
     public void openBrowser() throws IOException {
-        setUp(false, "browserstack", "windows", "10", "chrome", "85", "https://www.amazon.com");
+        setUp(false, "browserstack", "windows", "10", "chrome", "85", "https://www.delta.com");
     }
 
     @Parameters({"useCloudEnv", "cloudEnvName", "os", "os_version", "browserName", "browserVersion", "url"})
@@ -619,6 +619,11 @@ public class CommonAPI {
         boolean value = driver1.findElement(By.cssSelector(locator)).isDisplayed();
         return value;
     }
+    public static boolean isPopUpWindowDisplayedByXpath(WebDriver driver1, String locator) {
+        boolean value = driver1.findElement(By.xpath(locator)).isDisplayed();
+        return value;
+    }
+
 
     public void typeOnInputBox(String locator, String value) {
         try {
