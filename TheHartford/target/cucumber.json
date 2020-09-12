@@ -1,1 +1,399 @@
-[]
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8387374900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 6005000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.GetAQuoteAutoStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1002400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "I am on The Hartford homepage",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.i_am_on_the_hartford_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 127008400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1002300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.GetAQuoteAutoStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "I enter a valid zip code on the Auto Zip Code field",
+            "match": {
+              "location": "stepDefinitions.GetAQuoteAutoStepDefinition.i_enter_a_valid_zip_code_on_the_auto_zip_code_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2227525300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 990900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.GetAQuoteAutoStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "I click on Start Quote button",
+            "match": {
+              "location": "stepDefinitions.GetAQuoteAutoStepDefinition.i_click_on_start_quote_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-12T07:45:03.589Z",
+        "line": 28,
+        "name": "Check that user can fill out \u0027About You\u0027 form. After filling out the form, the user",
+        "description": "  should be able to see \u0027Need Help? 1-800-333-9238\u0027on the following page.",
+        "id": "the-hartford--get-a-quote-auto--functionality-check;check-that-user-can-fill-out--about-you--form.-after-filling-out-the-form--the-user;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 914134300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.GetAQuoteAutoStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2058007100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.GetAQuoteAutoStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 19,
+            "name": "I enter a \"Shakir\" on `First Name` field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Shakir\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepDefinitions.GetAQuoteAutoStepDefinition.i_enter_a_on_first_name_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 264001900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.GetAQuoteAutoStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1000700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 20,
+            "name": "I enter a \"Jahangir\" on `Last Name` field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Jahangir\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepDefinitions.GetAQuoteAutoStepDefinition.i_enter_a_on_last_name_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 557997300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.GetAQuoteAutoStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 21,
+            "name": "I enter a \"1604 Spring Hill Rd\" on the `Street Address` field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1604 Spring Hill Rd\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepDefinitions.GetAQuoteAutoStepDefinition.i_enter_a_on_the_street_address_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 161000900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1003900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.GetAQuoteAutoStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 995800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 22,
+            "name": "I enter a \"302\" number on `Apt or Suite` field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"302\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepDefinitions.GetAQuoteAutoStepDefinition.iEnterANumberOnAptOrSuiteField(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 224000100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.GetAQuoteAutoStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 23,
+            "name": "I enter a \"03/16/1983\" on the `Date of Birth` field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"03/16/1983\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepDefinitions.GetAQuoteAutoStepDefinition.i_enter_a_on_the_date_of_birth_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 284998300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.GetAQuoteAutoStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 24,
+            "name": "I click on `Next: Add Your Vehicle` button",
+            "match": {
+              "location": "stepDefinitions.GetAQuoteAutoStepDefinition.i_click_on_next_add_your_vehicle_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23297081000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.GetAQuoteAutoStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 25,
+            "name": "I verify thank you text",
+            "match": {
+              "location": "stepDefinitions.GetAQuoteAutoStepDefinition.i_verify_thank_you_text()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@GetAQuoteAutoTest"
+          },
+          {
+            "name": "@MyTest"
+          }
+        ]
+      }
+    ],
+    "name": "The Hartford \u0027Get a Quote Auto\u0027 functionality check",
+    "description": "",
+    "id": "the-hartford--get-a-quote-auto--functionality-check",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/GetAQuoteAuto.feature",
+    "tags": []
+  }
+]

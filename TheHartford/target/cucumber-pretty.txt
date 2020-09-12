@@ -1,0 +1,13 @@
+
+@GetAQuoteAutoTest @MyTest
+Scenario Outline: Check that user can fill out 'About You' form. After filling out the form, the user # src/test/java/features/GetAQuoteAuto.feature:28
+  Given I am on The Hartford homepage                                                                 # stepDefinitions.HomeStepDefinition.i_am_on_the_hartford_homepage()
+  When I enter a valid zip code on the Auto Zip Code field                                            # stepDefinitions.GetAQuoteAutoStepDefinition.i_enter_a_valid_zip_code_on_the_auto_zip_code_field()
+  And I click on Start Quote button                                                                   # stepDefinitions.GetAQuoteAutoStepDefinition.i_click_on_start_quote_button()
+  And I enter a "Shakir" on `First Name` field                                                        # stepDefinitions.GetAQuoteAutoStepDefinition.i_enter_a_on_first_name_field(java.lang.String)
+  And I enter a "Jahangir" on `Last Name` field                                                       # stepDefinitions.GetAQuoteAutoStepDefinition.i_enter_a_on_last_name_field(java.lang.String)
+  And I enter a "1604 Spring Hill Rd" on the `Street Address` field                                   # stepDefinitions.GetAQuoteAutoStepDefinition.i_enter_a_on_the_street_address_field(java.lang.String)
+  And I enter a "302" number on `Apt or Suite` field                                                  # stepDefinitions.GetAQuoteAutoStepDefinition.iEnterANumberOnAptOrSuiteField(java.lang.String)
+  And I enter a "03/16/1983" on the `Date of Birth` field                                             # stepDefinitions.GetAQuoteAutoStepDefinition.i_enter_a_on_the_date_of_birth_field(java.lang.String)
+  And I click on `Next: Add Your Vehicle` button                                                      # stepDefinitions.GetAQuoteAutoStepDefinition.i_click_on_next_add_your_vehicle_button()
+  Then I verify thank you text                                                                        # stepDefinitions.GetAQuoteAutoStepDefinition.i_verify_thank_you_text()

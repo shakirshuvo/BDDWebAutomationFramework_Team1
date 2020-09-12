@@ -129,7 +129,7 @@ public class CommonAPI {
     public String saucelabs_accesskey = "";
 
     public void openBrowser() throws IOException {
-        setUp(false, "browserstack", "windows", "10", "chrome", "85", "https://www.delta.com");
+        setUp(false, "browserstack", "windows", "10", "chrome-options", "85", "https://www.thehartford.com/");
     }
 
     @Parameters({"useCloudEnv", "cloudEnvName", "os", "os_version", "browserName", "browserVersion", "url"})
@@ -255,6 +255,10 @@ public class CommonAPI {
 
     public void typeOnElementByCSS(String locator, String value) {
         driver.findElement(By.cssSelector(locator)).sendKeys(value);
+    }
+
+    public void typeOnElementByXpath(String locator, String value) {
+        driver.findElement(By.xpath(locator)).sendKeys(value);
     }
 
     public void typeOnElement(String locator, String value) {
@@ -499,6 +503,57 @@ public class CommonAPI {
                     System.out.println("Third Attempt was not successful");
                     Select select = new Select(driver.findElement(By.className(element)));
                     select.selectByVisibleText(text);
+                }
+            }
+        }
+    }
+
+    public void selectOptionByValue(String element, String value) {
+        try {
+            Select vehicleYear = new Select(driver.findElement(By.cssSelector(element)));
+            vehicleYear.selectByValue(value);
+        } catch (Exception ex1) {
+            try {
+                System.out.println("First Attempt was not successful");
+                Select vehicleYear = new Select(driver.findElement(By.xpath(element)));
+                vehicleYear.selectByValue(value);
+            } catch (Exception ex2) {
+                try {
+                    System.out.println("Second Attempt was not successful");
+                    Select vehicleYear = new Select(driver.findElement(By.id(element)));
+                    vehicleYear.selectByValue(value);
+                } catch (Exception ex3) {
+                    System.out.println("Third Attempt was not successful");
+                    Select vehicleYear = new Select(driver.findElement(By.className(element)));
+                    vehicleYear.selectByValue(value);
+                }
+            }
+        }
+    }
+
+    public void selectOptionByIndexByXpath(String element, int indexNumber) {
+        Select select = new Select(driver.findElement(By.xpath(element)));
+        select.selectByIndex(indexNumber);
+    }
+
+    public void selectOptionByIndex(String element, int indexNumber) {
+        try {
+            Select select = new Select(driver.findElement(By.xpath(element)));
+            select.selectByIndex(indexNumber);
+        } catch (Exception ex1) {
+            try {
+                System.out.println("First Attempt was not successful");
+                Select select = new Select(driver.findElement(By.cssSelector(element)));
+                select.selectByIndex(indexNumber);
+            } catch (Exception ex2) {
+                try {
+                    System.out.println("Second Attempt was not successful");
+                    Select select = new Select(driver.findElement(By.id(element)));
+                    select.selectByIndex(indexNumber);
+                } catch (Exception ex3) {
+                    System.out.println("Third Attempt was not successful");
+                    Select select = new Select(driver.findElement(By.className(element)));
+                    select.selectByIndex(indexNumber);
                 }
             }
         }

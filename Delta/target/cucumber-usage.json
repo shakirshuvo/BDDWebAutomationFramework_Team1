@@ -1,0 +1,20 @@
+[
+  {
+    "source": "I am on Delta homepage",
+    "steps": [
+      {
+        "name": "I am on Delta homepage",
+        "aggregatedDurations": {
+          "median": 312.8355189,
+          "average": 312.8355189
+        },
+        "durations": [
+          {
+            "duration": 312.8355189,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/HomePage.feature:4"
+          }
+        ]
+      }
+    ]
+  }
+]
