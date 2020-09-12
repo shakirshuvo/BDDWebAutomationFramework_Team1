@@ -15,8 +15,6 @@ import org.junit.runner.RunWith;
         publish = true,
         dryRun = false,
         tags = "(@SmokeTest or Regression) and (not @pending)"
-
 )
-
 public class TestRunner {
 }

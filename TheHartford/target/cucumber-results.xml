@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="19" time="86.341">
+    <testcase classname="The Hartford Home Page Functionality Check" name="Check Report Claim Web element is functional" time="6.182">
+        <system-out>
+            <![CDATA[Given I on The Heart Fort Homepage..........................................passed
+When I Click on Report Claim Web Element....................................passed
+Then I Verify Report Claim page title.......................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="The Hartford Home Page Functionality Check" name="The Hartford SearchBox Functionality check" time="5.561">
+        <system-out>
+            <![CDATA[Given I on The Heart Fort Homepage..........................................passed
+And I enter "Life Insurance" in searchBox...................................passed
+When I click searchButton...................................................passed
+Then I verify "\"Life Insurance\"" is appear properly.......................passed
+And I verify page title as Life Insurance...................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="The Hartford Home Page Functionality Check" name="Check Find Agent Web element is functional" time="4.383">
+        <system-out>
+            <![CDATA[Given I on The Heart Fort Homepage..........................................passed
+When I Click on Find Agent Web Element......................................passed
+Then I Verify Find Agent page title.........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="The Hartford Home Page Functionality Check" name="Check Home Web element is functional" time="4.242">
+        <system-out>
+            <![CDATA[Given I on The Heart Fort Homepage..........................................passed
+When I Click on Home Web Element............................................passed
+Then I Verify Home page title...............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="The Hartford Home Page Functionality Check" name="Check Business Web element is functional" time="4.224">
+        <system-out>
+            <![CDATA[Given I on The Heart Fort Homepage..........................................passed
+When I Click on Business Web Element........................................passed
+Then I Verify Business page title...........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="The Hartford Home Page Functionality Check" name="Check The HartFord Home Image Web element is functional" time="3.92">
+        <system-out>
+            <![CDATA[Given I on The Heart Fort Homepage..........................................passed
+When I Click on The HartFord Home Image Web Element.........................passed
+Then I Verify The HartFord Home Image page title............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="The Hartford Home Page Functionality Check" name="Check About Us Web element is functional" time="6.818">
+        <failure message="expected [Business, Home &amp; Car Insurance Quotes | The Hartford Insurance] but found [About Us | Learn About The Hartford]" type="java.lang.AssertionError">
+            <![CDATA[Given I on The Heart Fort Homepage..........................................passed
+When I Click on About Us Web Element........................................passed
+Then I Verify TAbout Us page title..........................................failed
+
+StackTrace:
+java.lang.AssertionError: expected [Business, Home & Car Insurance Quotes | The Hartford Insurance] but found [About Us | Learn About The Hartford]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at search.Search.validateAboutUs(Search.java:200)
+	at stepDefinitions.HomeStepDefinition.iVerifyTAboutUsPageTitle(HomeStepDefinition.java:115)
+	at ✽.I Verify TAbout Us page title(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:46)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="The Hartford Home Page Functionality Check" name="Check Agent and Producers Web element is functional" time="5.166">
+        <system-out>
+            <![CDATA[Given I on The Heart Fort Homepage..........................................passed
+When I Click on Agent and Producers Web Element.............................passed
+Then I Verify Agent and Producers page title................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="The Hartford Home Page Functionality Check" name="Check Contact Us Web element is functional" time="3.731">
+        <system-out>
+            <![CDATA[Given I on The Heart Fort Homepage..........................................passed
+When I Click on Contact Us Web Element......................................passed
+Then I Verify Contact Us page title.........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="The Hartford Home Page Functionality Check" name="Check Mobile App Web element is functional" time="4.104">
+        <system-out>
+            <![CDATA[Given I on The Heart Fort Homepage..........................................passed
+When I Click on Mobile App Web Element......................................passed
+Then I Verify Mobile App page title.........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="The Hartford Home Page Functionality Check" name="Check Small Business Web element is functional" time="3.877">
+        <system-out>
+            <![CDATA[Given I on The Heart Fort Homepage..........................................passed
+When I Click on Small Business Web Element..................................passed
+Then I Verify MSmall Business page title....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="The Hartford Home Page Functionality Check" name="Check Privacy Policy Web element is functional" time="4.035">
+        <system-out>
+            <![CDATA[Given I on The Heart Fort Homepage..........................................passed
+When I Click on Privacy Policy Web Element..................................passed
+Then I Verify Privacy Policy page title.....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="The Hartford Home Page Functionality Check" name="Check Legal Notice Web element is functional" time="4.097">
+        <system-out>
+            <![CDATA[Given I on The Heart Fort Homepage..........................................passed
+When I Click on Legal Notice Web Element....................................passed
+Then I Verify Legal Notice page title.......................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="The Hartford Home Page Functionality Check" name="Check Accessibility Statement Web element is functional" time="3.717">
+        <system-out>
+            <![CDATA[Given I on The Heart Fort Homepage..........................................passed
+When I Click on Accessibility Statement Web Element.........................passed
+Then I Verify Accessibility Statement page title............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="The Hartford Home Page Functionality Check" name="Check Producers Compensations Web element is functional" time="4.395">
+        <system-out>
+            <![CDATA[Given I on The Heart Fort Homepage..........................................passed
+When I Click on Producers Compensations Web Element.........................passed
+Then I Verify Producers Compensations page title............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="The Hartford Home Page Functionality Check" name="Check EEO Web element is functional" time="4.718">
+        <system-out>
+            <![CDATA[Given I on The Heart Fort Homepage..........................................passed
+When I Click on EEO Web Element.............................................passed
+Then I Verify EEO page title................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="The Hartford Home Page Functionality Check" name="Check Car Insurance Web element is functional" time="4.398">
+        <system-out>
+            <![CDATA[Given I on The Heart Fort Homepage..........................................passed
+When I Click on Car Insurance Web Element...................................passed
+Then I Verify Car Insurance page title......................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="The Hartford Home Page Functionality Check" name="Check Car Insurance Web element is functional 2" time="4.38">
+        <system-out>
+            <![CDATA[Given I on The Heart Fort Homepage..........................................passed
+When I Click on Car Insurance Web Element...................................passed
+Then I Verify Car Insurance page title......................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="The Hartford Home Page Functionality Check" name="Check Home Insurance Web element is functional" time="3.9">
+        <system-out>
+            <![CDATA[Given I on The Heart Fort Homepage..........................................passed
+When I Click on Home Insurance Web Element..................................passed
+Then I Verify Home Insurance page title.....................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

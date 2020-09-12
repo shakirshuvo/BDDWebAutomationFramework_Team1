@@ -129,7 +129,8 @@ public class CommonAPI {
     public String saucelabs_accesskey = "";
 
     public void openBrowser() throws IOException {
-        setUp(false, "browserstack", "OS X", "catlina", "chrome", "85", "https://www.amazon.com");
+        //setUp(false, "browserstack", "OS X", "catlina", "chrome", "85", "https://www.amazon.com");
+        setUp(false, "browserstack", "OS X", "catlina", "chrome", "85", "https://www.thehartford.com/");
     }
 
     @Parameters({"useCloudEnv", "cloudEnvName", "os", "os_version", "browserName", "browserVersion", "url"})

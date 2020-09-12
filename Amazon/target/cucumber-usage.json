@@ -5,49 +5,13 @@
       {
         "name": "I am on Amazon homepage",
         "aggregatedDurations": {
-          "median": 4.053659,
-          "average": 4.053659
+          "median": 4.51657,
+          "average": 4.51657
         },
         "durations": [
           {
-            "duration": 4.053659,
+            "duration": 4.51657,
             "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:5"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "I enter {string} in search field",
-    "steps": [
-      {
-        "name": "I enter \"Hand Sanitizer\" in search field",
-        "aggregatedDurations": {
-          "median": 10.290956,
-          "average": 10.290956
-        },
-        "durations": [
-          {
-            "duration": 10.290956,
-            "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:6"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "I submit search field",
-    "steps": [
-      {
-        "name": "I submit search field",
-        "aggregatedDurations": {
-          "median": 11.785983,
-          "average": 11.785983
-        },
-        "durations": [
-          {
-            "duration": 11.785983,
-            "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:7"
           }
         ]
       }
