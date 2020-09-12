@@ -1,7 +1,426 @@
 
 @SmokeTest
-Scenario: Amazon search field functionality check with valid data # src/test/java/features/Search.feature:4
-  Given I am on Amazon homepage                                   # stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()
-  And I enter "Hand Sanitizer" in search field                    # stepDefinitions.SearchStepDefinition.i_enter_in_search_field(java.lang.String)
-  When I submit search field                                      # stepDefinitions.SearchStepDefinition.i_submit_search_field()
-  Then I verify page title as "Amazon.ca : hand sanitizers"       # stepDefinitions.SearchStepDefinition.i_verify_page_title_as(java.lang.String)
+Scenario: Best Sellers Functionality Check        # src/test/java/features/HomePage.feature:5
+  Given I am on Amazon Homepage                   # stepDefinitions.HomeStepDefinition.i_am_on_amazon_homepage()
+  When I click on Best sellers a new page appears # stepDefinitions.HomeStepDefinition.i_click_on_best_sellers_a_new_page_appears()
+  Then I validate the test1 by page title         # stepDefinitions.HomeStepDefinition.i_validate_the_test1_by_page_title()
+
+@SmokeTest
+Scenario: Customer Service Functionality Check        # src/test/java/features/HomePage.feature:9
+  Given I am on Amazon Homepage                       # stepDefinitions.HomeStepDefinition.i_am_on_amazon_homepage()
+  When I click on Customer Service a new page appears # stepDefinitions.HomeStepDefinition.i_click_on_customer_service_a_new_page_appears()
+  Then I validate the test2 by page title             # stepDefinitions.HomeStepDefinition.i_validate_the_test2_by_page_title()
+      java.lang.AssertionError: failed expected [
+Amazon.com Help: Help & Customer Service] but found [Amazon.com Help: Help & Customer Service]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at home.HomePage.validateCustomerService(HomePage.java:32)
+	at stepDefinitions.HomeStepDefinition.i_validate_the_test2_by_page_title(HomeStepDefinition.java:47)
+	at ✽.I validate the test2 by page title(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePage.feature:11)
+
+
+@SmokeTest
+Scenario: Todays Deal Functionality Check        # src/test/java/features/HomePage.feature:13
+  Given I am on Amazon Homepage                  # stepDefinitions.HomeStepDefinition.i_am_on_amazon_homepage()
+  When I click on Todays Deal a new page appears # stepDefinitions.HomeStepDefinition.i_click_on_todays_deal_a_new_page_appears()
+      org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="/gp/goldbox?ref_=nav_cs_gb" class="nav-a  " tabindex="51">...</a> is not clickable at point (627, 79). Other element would receive the click: <span class="nav-action-inner">...</span>
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-F75O7MS', ip: '192.168.1.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\debna\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54557}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a5ea3c726c17dcb01c031b5ad66678d6
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at base.CommonAPI.clickByLinkText(CommonAPI.java:810)
+	at stepDefinitions.HomeStepDefinition.i_click_on_todays_deal_a_new_page_appears(HomeStepDefinition.java:51)
+	at ✽.I click on Todays Deal a new page appears(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePage.feature:14)
+
+  Then I validate the test3 by page title        # stepDefinitions.HomeStepDefinition.i_validate_the_test3_by_page_title()
+
+@SmokeTest
+Scenario: New Releases Functionality Check        # src/test/java/features/HomePage.feature:17
+  Given I am on Amazon Homepage                   # stepDefinitions.HomeStepDefinition.i_am_on_amazon_homepage()
+  When I click on New Releases a new page appears # stepDefinitions.HomeStepDefinition.i_click_on_new_releases_a_new_page_appears()
+  Then I validate the test4 by page title         # stepDefinitions.HomeStepDefinition.i_validate_the_test4_by_page_title()
+
+@SmokeTest
+Scenario: Find a Gift Functionality Check        # src/test/java/features/HomePage.feature:21
+  Given I am on Amazon Homepage                  # stepDefinitions.HomeStepDefinition.i_am_on_amazon_homepage()
+  When I click on Find a Gift a new page appears # stepDefinitions.HomeStepDefinition.i_click_on_find_a_gift_a_new_page_appears()
+      org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="/gcx/Gifts-for-Everyone/gfhz/?ref_=nav_cs_giftfinder" class="nav-a  " tabindex="52">...</a> is not clickable at point (747, 79). Other element would receive the click: <div class="nav-signin-tt nav-flyout" style="display: block; position: absolute; top: -4px; left: 585.656px; opacity: 1;">...</div>
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-F75O7MS', ip: '192.168.1.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\debna\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54682}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: eb70e034c115c82c560d21b6753f4aab
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at base.CommonAPI.clickByLinkText(CommonAPI.java:810)
+	at stepDefinitions.HomeStepDefinition.i_click_on_find_a_gift_a_new_page_appears(HomeStepDefinition.java:69)
+	at ✽.I click on Find a Gift a new page appears(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePage.feature:22)
+
+  Then I validate the test5 by page title        # stepDefinitions.HomeStepDefinition.i_validate_the_test5_by_page_title()
+
+@SmokeTest
+Scenario: Whole Foods Functionality Check        # src/test/java/features/HomePage.feature:25
+  Given I am on Amazon Homepage                  # stepDefinitions.HomeStepDefinition.i_am_on_amazon_homepage()
+  When I click on Whole Foods a new page appears # stepDefinitions.HomeStepDefinition.i_click_on_whole_foods_a_new_page_appears()
+  Then I validate the test6 by page title        # stepDefinitions.HomeStepDefinition.i_validate_the_test6_by_page_title()
+      java.lang.AssertionError: failed expected [Whole Foods Market @ Amazon.com] but found [Amazon.com: Whole Foods Market]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at home.HomePage.validateWholeFoods(HomePage.java:53)
+	at stepDefinitions.HomeStepDefinition.i_validate_the_test6_by_page_title(HomeStepDefinition.java:83)
+	at ✽.I validate the test6 by page title(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePage.feature:27)
+
+
+@SmokeTest
+Scenario: Gift Cards Functionality Check        # src/test/java/features/HomePage.feature:29
+  Given I am on Amazon Homepage                 # stepDefinitions.HomeStepDefinition.i_am_on_amazon_homepage()
+  When I click on Gift Cards a new page appears # stepDefinitions.HomeStepDefinition.i_click_on_gift_cards_a_new_page_appears()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Gift Cards"}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-F75O7MS', ip: '192.168.1.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\debna\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54795}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 79b078d615534ed93ee17902aa2e9233
+*** Element info: {Using=link text, value=Gift Cards}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at base.CommonAPI.clickByLinkText(CommonAPI.java:810)
+	at stepDefinitions.HomeStepDefinition.i_click_on_gift_cards_a_new_page_appears(HomeStepDefinition.java:87)
+	at ✽.I click on Gift Cards a new page appears(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePage.feature:30)
+
+  Then I validate the test7 by page title       # stepDefinitions.HomeStepDefinition.i_validate_the_test7_by_page_title()
+
+@SmokeTest
+Scenario: Free Shipping Functionality Check        # src/test/java/features/HomePage.feature:33
+  Given I am on Amazon Homepage                    # stepDefinitions.HomeStepDefinition.i_am_on_amazon_homepage()
+  When I click on Free Shipping a new page appears # stepDefinitions.HomeStepDefinition.i_click_on_free_shipping_a_new_page_appears()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Free Shipping"}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-F75O7MS', ip: '192.168.1.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\debna\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54878}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: bc2772e46bae8c2ec8a4dc8b8defd605
+*** Element info: {Using=link text, value=Free Shipping}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at base.CommonAPI.clickByLinkText(CommonAPI.java:810)
+	at stepDefinitions.HomeStepDefinition.i_click_on_free_shipping_a_new_page_appears(HomeStepDefinition.java:96)
+	at ✽.I click on Free Shipping a new page appears(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePage.feature:34)
+
+  Then I validate the test8 by page title          # stepDefinitions.HomeStepDefinition.i_validate_the_test8_by_page_title()
+
+@SmokeTest
+Scenario: Registry Functionality Check        # src/test/java/features/HomePage.feature:37
+  Given I am on Amazon Homepage               # stepDefinitions.HomeStepDefinition.i_am_on_amazon_homepage()
+  When I click on Registry a new page appears # stepDefinitions.HomeStepDefinition.i_click_on_registry_a_new_page_appears()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Registry"}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-F75O7MS', ip: '192.168.1.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\debna\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54964}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5d5cdd55487b74c062956a41e3a0a198
+*** Element info: {Using=link text, value=Registry}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at base.CommonAPI.clickByLinkText(CommonAPI.java:810)
+	at stepDefinitions.HomeStepDefinition.i_click_on_registry_a_new_page_appears(HomeStepDefinition.java:105)
+	at ✽.I click on Registry a new page appears(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePage.feature:38)
+
+  Then I validate the test9 by page title     # null
+
+@SmokeTest
+Scenario: Sell Functionality Check         # src/test/java/features/HomePage.feature:41
+  Given I am on Amazon Homepage            # stepDefinitions.HomeStepDefinition.i_am_on_amazon_homepage()
+  When I click on Sell a new page appears  # stepDefinitions.HomeStepDefinition.i_click_on_sell_a_new_page_appears()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Sell"}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-F75O7MS', ip: '192.168.1.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\debna\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55046}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 4a6cb58435dd0fe75add4f442427808d
+*** Element info: {Using=link text, value=Sell}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at base.CommonAPI.clickByLinkText(CommonAPI.java:810)
+	at stepDefinitions.HomeStepDefinition.i_click_on_sell_a_new_page_appears(HomeStepDefinition.java:114)
+	at ✽.I click on Sell a new page appears(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePage.feature:42)
+
+  Then I validate the test10 by page title # stepDefinitions.HomeStepDefinition.i_validate_the_test10_by_page_title()
+
+@SmokeTest
+Scenario: Coupons Functionality Check        # src/test/java/features/HomePage.feature:45
+  Given I am on Amazon Homepage              # stepDefinitions.HomeStepDefinition.i_am_on_amazon_homepage()
+  When I click on Coupons a new page appears # stepDefinitions.HomeStepDefinition.i_click_on_coupons_a_new_page_appears()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Coupons"}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-F75O7MS', ip: '192.168.1.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\debna\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55129}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ea8c9747fd81dafa8b4ea252a7ce775a
+*** Element info: {Using=link text, value=Coupons}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at base.CommonAPI.clickByLinkText(CommonAPI.java:810)
+	at stepDefinitions.HomeStepDefinition.i_click_on_coupons_a_new_page_appears(HomeStepDefinition.java:123)
+	at ✽.I click on Coupons a new page appears(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePage.feature:46)
+
+  Then I validate the test11 by page title   # stepDefinitions.HomeStepDefinition.i_validate_the_test11_by_page_title()
+
+@SmokeTest
+Scenario: Amazon Basics Functionality Check        # src/test/java/features/HomePage.feature:49
+  Given I am on Amazon Homepage                    # stepDefinitions.HomeStepDefinition.i_am_on_amazon_homepage()
+  When I click on Amazon Basics a new page appears # stepDefinitions.HomeStepDefinition.i_click_on_amazon_basics_a_new_page_appears()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"AmazonBasics"}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-F75O7MS', ip: '192.168.1.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\debna\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55212}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e303118ccaa98657c1f81e210c9d9368
+*** Element info: {Using=link text, value=AmazonBasics}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at base.CommonAPI.clickByLinkText(CommonAPI.java:810)
+	at stepDefinitions.HomeStepDefinition.i_click_on_amazon_basics_a_new_page_appears(HomeStepDefinition.java:132)
+	at ✽.I click on Amazon Basics a new page appears(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePage.feature:50)
+
+  Then I validate the test12 by page title         # stepDefinitions.HomeStepDefinition.i_validate_the_test12_by_page_title()
+
+@SmokeTest
+Scenario: Found It On Amazon Functionality Check        # src/test/java/features/HomePage.feature:53
+  Given I am on Amazon Homepage                         # stepDefinitions.HomeStepDefinition.i_am_on_amazon_homepage()
+  When I click on Found It On Amazon a new page appears # stepDefinitions.HomeStepDefinition.i_click_on_found_it_on_amazon_a_new_page_appears()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"#FoundItOnAmazon"}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-F75O7MS', ip: '192.168.1.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\debna\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55294}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: be8aaabf4922222e37f90625ea039019
+*** Element info: {Using=link text, value=#FoundItOnAmazon}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at base.CommonAPI.clickByLinkText(CommonAPI.java:810)
+	at stepDefinitions.HomeStepDefinition.i_click_on_found_it_on_amazon_a_new_page_appears(HomeStepDefinition.java:141)
+	at ✽.I click on Found It On Amazon a new page appears(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePage.feature:54)
+
+  Then I validate the test13 by page title              # stepDefinitions.HomeStepDefinition.i_validate_the_test13_by_page_title()
+
+@SmokeTest
+Scenario: Account Lists Functionality Check        # src/test/java/features/HomePage.feature:57
+  Given I am on Amazon Homepage                    # stepDefinitions.HomeStepDefinition.i_am_on_amazon_homepage()
+  When I click on Account Lists a new page appears # stepDefinitions.HomeStepDefinition.i_click_on_account_lists_a_new_page_appears()
+  Then I validate the test14 by page title         # stepDefinitions.HomeStepDefinition.i_validate_the_test14_by_page_title()
+      org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-F75O7MS', ip: '192.168.1.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\debna\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55378}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f38b158f6fa544a028c911855b5bb5ad
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)
+	at home.HomePage.validateAccountLists(HomePage.java:91)
+	at stepDefinitions.HomeStepDefinition.i_validate_the_test14_by_page_title(HomeStepDefinition.java:155)
+	at ✽.I validate the test14 by page title(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePage.feature:59)
+
+
+@SmokeTest
+Scenario: Orders Functionality Check        # src/test/java/features/HomePage.feature:61
+  Given I am on Amazon Homepage             # stepDefinitions.HomeStepDefinition.i_am_on_amazon_homepage()
+  When I click on Orders a new page appears # stepDefinitions.HomeStepDefinition.i_click_on_orders_a_new_page_appears()
+  Then I validate the test15 by page title  # stepDefinitions.HomeStepDefinition.i_validate_the_test15_by_page_title()
+      org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-F75O7MS', ip: '192.168.1.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\debna\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55470}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3a85e1a166be8805e9d3ae3073292cbc
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)
+	at home.HomePage.validateOrders(HomePage.java:96)
+	at stepDefinitions.HomeStepDefinition.i_validate_the_test15_by_page_title(HomeStepDefinition.java:164)
+	at ✽.I validate the test15 by page title(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePage.feature:63)
+
+
+@SmokeTest
+Scenario: Try Prime Functionality Check        # src/test/java/features/HomePage.feature:65
+  Given I am on Amazon Homepage                # stepDefinitions.HomeStepDefinition.i_am_on_amazon_homepage()
+  When I click on Try Prime a new page appears # stepDefinitions.HomeStepDefinition.i_click_on_try_prime_a_new_page_appears()
+  Then I validate the test16 by page title     # stepDefinitions.HomeStepDefinition.i_validate_the_test16_by_page_title()
+      org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-F75O7MS', ip: '192.168.1.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\debna\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55500}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2105085f76600db7e6f4f646005366a9
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)
+	at home.HomePage.validateTryPrimes(HomePage.java:101)
+	at stepDefinitions.HomeStepDefinition.i_validate_the_test16_by_page_title(HomeStepDefinition.java:173)
+	at ✽.I validate the test16 by page title(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePage.feature:67)
+
+
+@SmokeTest
+Scenario: Cart Functionality Check         # src/test/java/features/HomePage.feature:69
+  Given I am on Amazon Homepage            # stepDefinitions.HomeStepDefinition.i_am_on_amazon_homepage()

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="21" time="1.67">
+    <testcase classname="Bank of America homepage functionality check" name="Check that user receives an error message when put invalid enrollment information" time="0.325">
+        <system-out>
+            <![CDATA[When I click on enroll button...............................................skipped
+And I enter invalid six digits account number in card/account box...........skipped
+And I enter invalid social security number in social security box...........skipped
+And I click on continue button..............................................skipped
+Then I validate the test by the error message "We're unable to complete your request at this time.".skipped
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Bank of America homepage functionality check" name="Checking functionality check" time="0.007">
+        <system-out>
+            <![CDATA[When I click on checking button.............................................skipped
+Then I validate the test by checking whether clickingIsEnable or not........skipped
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Bank of America homepage functionality check" name="Saving functionality check" time="0.005">
+        <system-out>
+            <![CDATA[When I click on saving button...............................................skipped
+Then I validate the test by checking whether clickingIsEnable...............skipped
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Bank of America homepage functionality check" name="Credit Cards functionality check" time="0.002">
+        <system-out>
+            <![CDATA[When I click on CreditCard button...........................................skipped
+Then I validate the test by checking clickingIsEnable.......................skipped
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Bank of America homepage functionality check" name="Home Loans functionality check" time="0.006">
+        <system-out>
+            <![CDATA[When I click on Home Loans button...........................................skipped
+Then I validate the test by checking homeloan is clickable..................skipped
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Bank of America homepage functionality check" name="Auto Loans functionality check" time="0.002">
+        <system-out>
+            <![CDATA[When I click on Auto Loans button...........................................skipped
+Then I validate the test by checking autoloan is clickable..................skipped
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Bank of America homepage functionality check" name="Investing functionality check" time="0.005">
+        <system-out>
+            <![CDATA[When I click on Investing button............................................skipped
+Then I validate the test by checking investing is clickable.................skipped
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Bank of America homepage functionality check" name="Better Money functionality check" time="0.004">
+        <system-out>
+            <![CDATA[When I click on Better Money button.........................................skipped
+Then I validate the test by checking better money is clickable..............skipped
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Bank of America homepage functionality check" name="Small Business functionality check" time="0.004">
+        <system-out>
+            <![CDATA[When I click on Small Business button.......................................skipped
+Then I validate the test by checking small business is clickable............skipped
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Bank of America homepage functionality check" name="Wealth Management functionality check" time="0.003">
+        <system-out>
+            <![CDATA[When I click on Wealth Management button....................................skipped
+Then I validate the test by checking wealth management is clickable.........skipped
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Bank of America homepage functionality check" name="Business and Institutions functionality check" time="0.006">
+        <system-out>
+            <![CDATA[When I click on Business and Institutions button............................skipped
+Then I validate the test by checking business and institutions is clickable.skipped
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Bank of America homepage functionality check" name="Security functionality check" time="0.006">
+        <system-out>
+            <![CDATA[When I click on Security button.............................................skipped
+Then I validate the test by checking security is clickable..................skipped
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Bank of America homepage functionality check" name="About Us functionality check" time="0.003">
+        <system-out>
+            <![CDATA[When I click on About Us button.............................................skipped
+Then I validate the test by checking about us is clickable..................skipped
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Bank of America homepage functionality check" name="En Espanol functionality check" time="0.003">
+        <system-out>
+            <![CDATA[When I click on En Espanol button...........................................skipped
+Then I validate the test by checking en espanol is clickable................skipped
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Bank of America homepage functionality check" name="Contact Us functionality check" time="0.005">
+        <system-out>
+            <![CDATA[When I click on Contact Us button...........................................skipped
+Then I validate the test by checking contact us is clickable................skipped
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Bank of America homepage functionality check" name="Help functionality check" time="0.003">
+        <system-out>
+            <![CDATA[When I click on Help button.................................................skipped
+Then I validate the test by checking help is clickable......................skipped
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Bank of America homepage functionality check" name="Find Closest Location  functionality check" time="0.002">
+        <system-out>
+            <![CDATA[When I click on Find Closest Location button................................skipped
+Then I validate the test by checking find closest location is clickable.....skipped
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Bank of America homepage functionality check" name="Schedule Appointment functionality check" time="0.003">
+        <system-out>
+            <![CDATA[When I click on Schedule Appointment button.................................skipped
+Then I validate the test by checking schedule appointment is clickable......skipped
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Bank of America homepage functionality check" name="Deals All Day functionality check" time="0.002">
+        <system-out>
+            <![CDATA[When I click on Deals All Day button........................................skipped
+Then I validate the test by checking deals all day is clickable.............skipped
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Bank of America homepage functionality check" name="Checking With Right Features  functionality check" time="0.002">
+        <system-out>
+            <![CDATA[When I click on Checking With Right Features button.........................skipped
+Then I validate the test by "checking with right features"  is clickable....skipped
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Bank of America homepage functionality check" name="Life Services functionality check" time="0.004">
+        <system-out>
+            <![CDATA[When I click on Life Services button........................................skipped
+Then I validate the test by checking life services is clickable.............skipped
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

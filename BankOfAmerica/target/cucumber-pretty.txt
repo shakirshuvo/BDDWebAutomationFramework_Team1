@@ -1,0 +1,108 @@
+
+@SmokeTest
+Scenario: Check that user receives an error message when put invalid enrollment information           # src/test/java/features/HomePage.feature:4
+  When I click on enroll button                                                                       # stepDefinitions.HomeStepDefinition.i_click_on_enroll_button()
+  And I enter invalid six digits account number in card/account box                                   # stepDefinitions.HomeStepDefinition.i_enter_invalid_six_digits_account_number_in_card_account_box()
+  And I enter invalid social security number in social security box                                   # stepDefinitions.HomeStepDefinition.i_enter_invalid_social_security_number_in_social_security_box()
+  And I click on continue button                                                                      # stepDefinitions.HomeStepDefinition.i_click_on_continue_button()
+  Then I validate the test by the error message "We're unable to complete your request at this time." # stepDefinitions.HomeStepDefinition.i_validate_the_test_by_the_error_message(java.lang.String)
+
+@SmokeTest
+Scenario: Checking functionality check                                 # src/test/java/features/HomePage.feature:12
+  When I click on checking button                                      # stepDefinitions.HomeStepDefinition.i_click_on_checking_button()
+  Then I validate the test by checking whether clickingIsEnable or not # stepDefinitions.HomeStepDefinition.i_validate_the_test_by_checking_whether_clicking_is_enable_or_not()
+
+@SmokeTest
+Scenario: Saving functionality check                            # src/test/java/features/HomePage.feature:16
+  When I click on saving button                                 # stepDefinitions.HomeStepDefinition.i_click_on_saving_button()
+  Then I validate the test by checking whether clickingIsEnable # stepDefinitions.HomeStepDefinition.i_validate_the_test_by_checking_whether_clicking_is_enable()
+
+@SmokeTest
+Scenario: Credit Cards functionality check              # src/test/java/features/HomePage.feature:20
+  When I click on CreditCard button                     # stepDefinitions.HomeStepDefinition.i_click_on_credit_card_button()
+  Then I validate the test by checking clickingIsEnable # stepDefinitions.HomeStepDefinition.i_validate_the_test_by_checking_clicking_is_enable()
+
+@SmokeTest
+Scenario: Home Loans functionality check                     # src/test/java/features/HomePage.feature:24
+  When I click on Home Loans button                          # stepDefinitions.HomeStepDefinition.i_click_on_home_loans_button()
+  Then I validate the test by checking homeloan is clickable # stepDefinitions.HomeStepDefinition.i_validate_the_test_by_checking_homeloan_is_clickable()
+
+@SmokeTest
+Scenario: Auto Loans functionality check                     # src/test/java/features/HomePage.feature:28
+  When I click on Auto Loans button                          # stepDefinitions.HomeStepDefinition.i_click_on_auto_loans_button()
+  Then I validate the test by checking autoloan is clickable # stepDefinitions.HomeStepDefinition.i_validate_the_test_by_checking_autoloan_is_clickable()
+
+@SmokeTest
+Scenario: Investing functionality check                       # src/test/java/features/HomePage.feature:32
+  When I click on Investing button                            # stepDefinitions.HomeStepDefinition.i_click_on_investing_button()
+  Then I validate the test by checking investing is clickable # stepDefinitions.HomeStepDefinition.i_validate_the_test_by_checking_investing_is_clickable()
+
+@SmokeTest
+Scenario: Better Money functionality check                       # src/test/java/features/HomePage.feature:36
+  When I click on Better Money button                            # stepDefinitions.HomeStepDefinition.i_click_on_better_money_button()
+  Then I validate the test by checking better money is clickable # stepDefinitions.HomeStepDefinition.i_validate_the_test_by_checking_better_money_is_clickable()
+
+@SmokeTest
+Scenario: Small Business functionality check                       # src/test/java/features/HomePage.feature:40
+  When I click on Small Business button                            # stepDefinitions.HomeStepDefinition.i_click_on_small_business_button()
+  Then I validate the test by checking small business is clickable # stepDefinitions.HomeStepDefinition.i_validate_the_test_by_checking_small_business_is_clickable()
+
+@SmokeTest
+Scenario: Wealth Management functionality check                       # src/test/java/features/HomePage.feature:44
+  When I click on Wealth Management button                            # stepDefinitions.HomeStepDefinition.i_click_on_wealth_management_button()
+  Then I validate the test by checking wealth management is clickable # stepDefinitions.HomeStepDefinition.i_validate_the_test_by_checking_wealth_management_is_clickable()
+
+@SmokeTest
+Scenario: Business and Institutions functionality check                       # src/test/java/features/HomePage.feature:48
+  When I click on Business and Institutions button                            # null
+  Then I validate the test by checking business and institutions is clickable # stepDefinitions.HomeStepDefinition.i_validate_the_test_by_checking_business_and_institutions_is_clickable()
+
+@SmokeTest
+Scenario: Security functionality check                       # src/test/java/features/HomePage.feature:52
+  When I click on Security button                            # stepDefinitions.HomeStepDefinition.i_click_on_security_button()
+  Then I validate the test by checking security is clickable # stepDefinitions.HomeStepDefinition.i_validate_the_test_by_checking_security_is_clickable()
+
+@SmokeTest
+Scenario: About Us functionality check                       # src/test/java/features/HomePage.feature:56
+  When I click on About Us button                            # stepDefinitions.HomeStepDefinition.i_click_on_about_us_button()
+  Then I validate the test by checking about us is clickable # stepDefinitions.HomeStepDefinition.i_validate_the_test_by_checking_about_us_is_clickable()
+
+@SmokeTest
+Scenario: En Espanol functionality check                       # src/test/java/features/HomePage.feature:60
+  When I click on En Espanol button                            # stepDefinitions.HomeStepDefinition.i_click_on_en_spanol_button()
+  Then I validate the test by checking en espanol is clickable # stepDefinitions.HomeStepDefinition.i_validate_the_test_by_checking_en_espanol_is_clickable()
+
+@SmokeTest
+Scenario: Contact Us functionality check                       # src/test/java/features/HomePage.feature:64
+  When I click on Contact Us button                            # stepDefinitions.HomeStepDefinition.i_click_on_contact_us_button()
+  Then I validate the test by checking contact us is clickable # stepDefinitions.HomeStepDefinition.i_validate_the_test_by_checking_contact_us_is_clickable()
+
+@SmokeTest
+Scenario: Help functionality check                       # src/test/java/features/HomePage.feature:68
+  When I click on Help button                            # stepDefinitions.HomeStepDefinition.i_click_on_help_button()
+  Then I validate the test by checking help is clickable # stepDefinitions.HomeStepDefinition.i_validate_the_test_by_checking_help_is_clickable()
+
+@SmokeTest
+Scenario: Find Closest Location  functionality check                      # src/test/java/features/HomePage.feature:72
+  When I click on Find Closest Location button                            # stepDefinitions.HomeStepDefinition.i_click_on_find_closest_location_loans_button()
+  Then I validate the test by checking find closest location is clickable # stepDefinitions.HomeStepDefinition.i_validate_the_test_by_checking_find_closest_location_is_clickable()
+
+@SmokeTest
+Scenario: Schedule Appointment functionality check                       # src/test/java/features/HomePage.feature:76
+  When I click on Schedule Appointment button                            # stepDefinitions.HomeStepDefinition.i_click_on_schedule_appointment_button()
+  Then I validate the test by checking schedule appointment is clickable # stepDefinitions.HomeStepDefinition.i_validate_the_test_by_checking_schedule_appointment_is_clickable()
+
+@SmokeTest
+Scenario: Deals All Day functionality check                       # src/test/java/features/HomePage.feature:80
+  When I click on Deals All Day button                            # stepDefinitions.HomeStepDefinition.i_click_on_deals_all_day_button()
+  Then I validate the test by checking deals all day is clickable # stepDefinitions.HomeStepDefinition.i_validate_the_test_by_checking_deals_all_day_is_clickable()
+
+@SmokeTest
+Scenario: Checking With Right Features  functionality check                # src/test/java/features/HomePage.feature:84
+  When I click on Checking With Right Features button                      # stepDefinitions.HomeStepDefinition.i_click_on_checking_with_right_features_loans_button()
+  Then I validate the test by "checking with right features"  is clickable # null
+
+@SmokeTest
+Scenario: Life Services functionality check                       # src/test/java/features/HomePage.feature:88
+  When I click on Life Services button                            # stepDefinitions.HomeStepDefinition.i_click_on_life_services_button()
+  Then I validate the test by checking life services is clickable # stepDefinitions.HomeStepDefinition.i_validate_the_test_by_checking_life_services_is_clickable()
