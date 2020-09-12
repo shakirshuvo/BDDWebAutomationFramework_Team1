@@ -19,8 +19,7 @@ public class SearchStepDefinition extends CommonAPI {
 
     @BeforeStep
     public static void getInit() {
-        search = PageFactory.initElements(driver, Search.class);
-    }
+        search = PageFactory.initElements(driver, Search.class);}
 
     @After
     public void closeBrowser() {

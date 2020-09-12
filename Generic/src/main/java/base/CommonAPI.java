@@ -129,7 +129,7 @@ public class CommonAPI {
     public String saucelabs_accesskey = "";
 
     public void openBrowser() throws IOException {
-        setUp(false, "browserstack", "windows", "10", "chrome", "85", "https://www.amazon.com");
+        setUp(false, "browserstack", "OS X", "catalina", "chrome", "85", "https://www.newyorktimes.com");
     }
 
     @Parameters({"useCloudEnv", "cloudEnvName", "os", "os_version", "browserName", "browserVersion", "url"})
@@ -150,7 +150,7 @@ public class CommonAPI {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         //driver.manage().timeouts().pageLoadTimeout(25, TimeUnit.SECONDS);
         driver.get(url);
-        //driver.manage().window().maximize();
+        driver.manage().window().maximize();
     }
 
     public WebDriver getLocalDriver(@Optional("mac") String OS, String browserName) {
