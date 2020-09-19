@@ -38,7 +38,8 @@ public class HomeStepDefinition extends CommonAPI {
     }
     @Given("I on The Heart Fort Homepage")
     public void i_on_the_heart_fort_homepage() throws IOException {
-        openBrowser();
+        openBrowser("https://www.thehartford.com/");
+
     }
     @When("I Click on Report Claim Web Element")
     public void i_click_on_report_claim_web_element() throws InterruptedException {

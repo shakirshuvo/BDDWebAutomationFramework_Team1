@@ -1,7 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: testRunner.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 19, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 99.311 s <<< FAILURE! - in testRunner.TestRunner
-The Hartford Home Page Functionality Check.Check About Us Web element is functional  Time elapsed: 6.833 s  <<< FAILURE!
-java.lang.AssertionError: expected [Business, Home & Car Insurance Quotes | The Hartford Insurance] but found [About Us | Learn About The Hartford]
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.346 s - in testRunner.TestRunner

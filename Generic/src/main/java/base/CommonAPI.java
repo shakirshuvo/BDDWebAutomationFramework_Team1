@@ -128,9 +128,18 @@ public class CommonAPI {
     public String saucelabs_username = "";
     public String saucelabs_accesskey = "";
 
-    public void openBrowser() throws IOException {
-        //setUp(false, "browserstack", "OS X", "catlina", "chrome", "85", "https://www.amazon.com");
-        setUp(false, "browserstack", "OS X", "catlina", "chrome", "85", "https://www.thehartford.com/");
+    public void openBrowser(String url) throws IOException {
+        String mac = "OS X";
+        String windows = "windows";
+
+        try {
+            setUp(false, "browserstack", "OS X", "catalina", "chrome", "85", url);
+
+        } catch (Exception e) {
+            System.out.println("Let's try Windows");
+            setUp(false, "browserstack", "windows", "10", "chrome", "85", url);
+
+        }
     }
 
     @Parameters({"useCloudEnv", "cloudEnvName", "os", "os_version", "browserName", "browserVersion", "url"})
@@ -600,6 +609,69 @@ public class CommonAPI {
         }
     }
 
+    public boolean elementIsDisplayed(String element) {
+        try {
+            driver.findElement(By.xpath(element)).isDisplayed();
+        } catch (Exception ex1) {
+            try {
+                System.out.println("First Attempt was not successful");
+                driver.findElement(By.id(element)).isDisplayed();
+            } catch (Exception ex2) {
+                try {
+                    System.out.println("Second Attempt was not successful");
+                    driver.findElement(By.cssSelector(element)).isDisplayed();
+                } catch (Exception ex3) {
+                    System.out.println("Third Attempt was not successful");
+                    driver.findElement(By.className(element)).isDisplayed();
+                }
+            }
+        }
+        return true;
+    }
+
+    public void selectOptionByValue(String element, String value) {
+        try {
+            Select vehicleYear = new Select(driver.findElement(By.cssSelector(element)));
+            vehicleYear.selectByValue(value);
+        } catch (Exception ex1) {
+            try {
+                System.out.println("First Attempt was not successful");
+                Select vehicleYear = new Select(driver.findElement(By.xpath(element)));
+                vehicleYear.selectByValue(value);
+            } catch (Exception ex2) {
+                try {
+                    System.out.println("Second Attempt was not successful");
+                    Select vehicleYear = new Select(driver.findElement(By.id(element)));
+                    vehicleYear.selectByValue(value);
+                } catch (Exception ex3) {
+                    System.out.println("Third Attempt was not successful");
+                    Select vehicleYear = new Select(driver.findElement(By.className(element)));
+                    vehicleYear.selectByValue(value);
+                }
+            }
+        }
+    }
+
+    public boolean elementIsSelected(String element) {
+        try {
+            driver.findElement(By.xpath(element)).isSelected();
+        } catch (Exception ex1) {
+            try {
+                System.out.println("First Attempt was not successful");
+                driver.findElement(By.id(element)).isSelected();
+            } catch (Exception ex2) {
+                try {
+                    System.out.println("Second Attempt was not successful");
+                    driver.findElement(By.cssSelector(element)).isSelected();
+                } catch (Exception ex3) {
+                    System.out.println("Third Attempt was not successful");
+                    driver.findElement(By.className(element)).isSelected();
+                }
+            }
+        }
+        return true;
+    }
+
     public void inputValueInTextBoxByWebElement(WebElement webElement, String value) {
 
         webElement.sendKeys(value + Keys.ENTER);
@@ -614,6 +686,5 @@ public class CommonAPI {
         String text = webElement.getText();
         return text;
     }
-
 
 }

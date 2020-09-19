@@ -1,6 +1,7 @@
 package search;
 
 import base.CommonAPI;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
@@ -77,6 +78,8 @@ public class Search extends CommonAPI {
     public WebElement homeInsurance;
     @FindBy(how=How.XPATH,using = validateFeedBackXpath)
     public WebElement feedBackValidateText;
+
+//     WebElement element = driver.findElement(By.xpath(searchFieldWebElementXPATH));
 
 
 

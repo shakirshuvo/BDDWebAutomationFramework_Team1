@@ -29,7 +29,7 @@ public class SearchStepDefinition extends CommonAPI {
 
     @Given("I am on Amazon homepage")
     public void i_am_on_amazon_homepage() throws IOException {
-        openBrowser();
+        openBrowser("https://www.amazon.com/");
     }
 
     @Given("I enter {string} in search field")
@@ -44,6 +44,6 @@ public class SearchStepDefinition extends CommonAPI {
 
     @Then("I verify page title as {string}")
     public void i_verify_page_title_as(String string) {
-        validateByTitle("Amazon.com : Hand Sanitizer1");
+        validateByTitle("Amazon.com : Hand Sanitizer");
     }
 }
