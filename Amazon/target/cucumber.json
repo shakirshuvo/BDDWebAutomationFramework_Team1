@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-09-07T03:10:53.018Z",
+        "start_timestamp": "2020-09-20T21:30:43.729Z",
         "line": 4,
         "name": "Amazon search field functionality check with valid data",
         "description": "",
@@ -11,7 +11,7 @@
         "after": [
           {
             "result": {
-              "duration": 1341051000,
+              "duration": 753639700,
               "status": "passed"
             },
             "match": {
@@ -24,13 +24,13 @@
         "steps": [
           {
             "result": {
-              "duration": 10366689400,
+              "duration": 30341983800,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 51997300,
+                  "duration": 24932800,
                   "status": "passed"
                 },
                 "match": {
@@ -47,13 +47,13 @@
           },
           {
             "result": {
-              "duration": 10315687000,
+              "duration": 10161044100,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 999000,
+                  "duration": 995300,
                   "status": "passed"
                 },
                 "match": {
@@ -76,7 +76,7 @@
           },
           {
             "result": {
-              "duration": 13081239500,
+              "duration": 13564740800,
               "status": "passed"
             },
             "before": [
@@ -98,13 +98,12 @@
           },
           {
             "result": {
-              "duration": 16996700,
+              "duration": 56847500,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1001700,
                   "status": "passed"
                 },
                 "match": {

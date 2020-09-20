@@ -128,9 +128,14 @@ public class CommonAPI {
     public String saucelabs_username = "";
     public String saucelabs_accesskey = "";
 
-    public void openBrowser() throws IOException {
-        setUp(false, "browserstack", "windows", "10", "chrome", "85", "https://www.marriott.com/default.mi");
-    }
+    public void openBrowser(String url) throws IOException {
+       try{
+           setUp(false, "browserstack", "OS X", "catlina", "chrome", "85", url);
+       }
+        catch(Exception e) {
+            setUp(false, "browserstack", "windows", "10", "chrome", "85", url);
+        }
+        }
 
     @Parameters({"useCloudEnv", "cloudEnvName", "os", "os_version", "browserName", "browserVersion", "url"})
     @BeforeMethod

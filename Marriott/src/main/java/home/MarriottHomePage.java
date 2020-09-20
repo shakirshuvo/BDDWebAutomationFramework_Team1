@@ -59,10 +59,10 @@ public class MarriottHomePage extends CommonAPI {
      * Waqas
      */
     public void validateFindNReserve(){
-       clickOnFindNReserve();
-       String expectedText = destination.getText();
+       //clickOnFindNReserve();
+       String expectedText = "Hotels & Resorts | Book your Hotel directly with Marriott";
         String actual  = driver.getTitle();
-       Assert.assertEquals(actual, destinationExpectedText);
+       Assert.assertEquals(actual, expectedText);
     }
 
     /**

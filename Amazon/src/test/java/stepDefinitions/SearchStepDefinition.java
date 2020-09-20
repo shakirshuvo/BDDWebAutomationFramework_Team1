@@ -29,7 +29,7 @@ public class SearchStepDefinition extends CommonAPI {
 
     @Given("I am on Amazon homepage")
     public void i_am_on_amazon_homepage() throws IOException {
-        openBrowser();
+        openBrowser("https://www.amazon.com/");
     }
 
     @Given("I enter {string} in search field")
