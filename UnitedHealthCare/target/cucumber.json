@@ -1,0 +1,2370 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 14320292000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 248455000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in United Health Care homepage",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.user_is_in_united_health_care_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T20:34:52.810Z",
+        "line": 7,
+        "name": "Successful redirecting after clicking Medicare tab",
+        "description": "",
+        "id": "united-health-care-homepage-tab-functionality-tests;successful-redirecting-after-clicking-medicare-tab",
+        "after": [
+          {
+            "result": {
+              "duration": 385421000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 823799000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 6996000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "User clicks on Medicare tab",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.user_clicks_on_medicare_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 172737000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 5858000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "User is directed to Medicare page",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.user_is_directed_to_medicare_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 14822325000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 8692000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in United Health Care homepage",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.user_is_in_united_health_care_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T20:35:09.301Z",
+        "line": 12,
+        "name": "Successful redirecting after clicking ForProviders tab",
+        "description": "",
+        "id": "united-health-care-homepage-tab-functionality-tests;successful-redirecting-after-clicking-forproviders-tab",
+        "after": [
+          {
+            "result": {
+              "duration": 183515000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d85.0.4183.102)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Farjanas-Air\u0027, ip: \u00272604:2000:1700:1c:4143:d7d5:c558:1f9c%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.13.6\u0027, java.version: \u002711.0.6\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/27/nmfyzmzj1c7...}, goog:chromeOptions: {debuggerAddress: localhost:59208}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 5ab9644e59bdf57dd331f2c10d9807be\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\n\tat com.sun.proxy.$Proxy25.click(Unknown Source)\n\tat home.UHCHomePage.checkForProviders(UHCHomePage.java:101)\n\tat stepDefinitions.HomeStepDefinition.user_clicks_on_for_providers_tab(HomeStepDefinition.java:56)\n\tat ✽.User clicks on ForProviders tab(file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:13)\n",
+              "duration": 10253903000,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 10079000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 13,
+            "name": "User clicks on ForProviders tab",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.user_clicks_on_for_providers_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 971000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1016000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 14,
+            "name": "User is directed to ForProviders page",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.user_is_directed_to_for_providers_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8612166000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 11556000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in United Health Care homepage",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.user_is_in_united_health_care_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T20:35:34.916Z",
+        "line": 17,
+        "name": "Successful redirecting after clicking ForEmployers tab",
+        "description": "",
+        "id": "united-health-care-homepage-tab-functionality-tests;successful-redirecting-after-clicking-foremployers-tab",
+        "after": [
+          {
+            "result": {
+              "duration": 319500000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1050889000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 5884000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 18,
+            "name": "User clicks on ForEmployers tab",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.user_clicks_on_for_employers_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 19075000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2926000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 19,
+            "name": "User is directed to ForEmployers page",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.user_is_directed_to_for_employers_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7562621000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2631000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in United Health Care homepage",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.user_is_in_united_health_care_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T20:35:45.079Z",
+        "line": 22,
+        "name": "Successful redirecting after clicking ForBrokers tab",
+        "description": "",
+        "id": "united-health-care-homepage-tab-functionality-tests;successful-redirecting-after-clicking-forbrokers-tab",
+        "after": [
+          {
+            "result": {
+              "duration": 412134000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7284528000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 19631000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 23,
+            "name": "User clicks on ForBrokers tab",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.user_clicks_on_for_brokers_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5619000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 5075000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 24,
+            "name": "User is directed to ForBrokers page",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.user_is_directed_to_for_brokers_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9793764000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 34192000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in United Health Care homepage",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.user_is_in_united_health_care_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T20:36:00.519Z",
+        "line": 27,
+        "name": "Successful redirecting after clicking LanguageChange tab",
+        "description": "",
+        "id": "united-health-care-homepage-tab-functionality-tests;successful-redirecting-after-clicking-languagechange-tab",
+        "after": [
+          {
+            "result": {
+              "duration": 218865000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2724056000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 5188000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 28,
+            "name": "User clicks on LanguageChange tab",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.user_clicks_on_language_change_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24615000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2207000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 29,
+            "name": "User is directed to LanguageChange page",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.user_is_directed_to_language_change_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8148093000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 778000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in United Health Care homepage",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.user_is_in_united_health_care_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T20:36:13.571Z",
+        "line": 32,
+        "name": "Successful redirecting after clicking  tab",
+        "description": "",
+        "id": "united-health-care-homepage-tab-functionality-tests;successful-redirecting-after-clicking--tab",
+        "after": [
+          {
+            "result": {
+              "duration": 362997000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2345203000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 11922000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 33,
+            "name": "User clicks on FindADoctor tab",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.user_clicks_on_find_a_doctor_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15329000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1451000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 34,
+            "name": "User is directed to FindADoctor page",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.user_is_directed_to_find_a_doctor_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8018314000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 745000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in United Health Care homepage",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.user_is_in_united_health_care_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T20:36:24.536Z",
+        "line": 37,
+        "name": "Successful redirecting after clicking  tab",
+        "description": "",
+        "id": "united-health-care-homepage-tab-functionality-tests;successful-redirecting-after-clicking--tab",
+        "after": [
+          {
+            "result": {
+              "duration": 341513000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1438341000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 24153000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 38,
+            "name": "User clicks on FindYourPlan tab",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.user_clicks_on_find_your_plan_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7896000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1290000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 39,
+            "name": "User is directed to FindYourPlan page",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.user_is_directed_to_find_your_plan_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10985063000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 10759000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in United Health Care homepage",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.user_is_in_united_health_care_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T20:36:34.450Z",
+        "line": 42,
+        "name": "Successful redirecting after clicking  tab",
+        "description": "",
+        "id": "united-health-care-homepage-tab-functionality-tests;successful-redirecting-after-clicking--tab",
+        "after": [
+          {
+            "result": {
+              "duration": 379646000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 532601000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 8298000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 43,
+            "name": "User clicks on IndividualAndFamilyHealthPlan tab",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.userClicksOnIndividualAndFamilyHealthPlanTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 277587000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2529000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 44,
+            "name": "User is directed to IndividualAndFamilyHealthPlan page",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.userIsDirectedToIndividualAndFamilyHealthPlanPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 15150955000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1565000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in United Health Care homepage",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.user_is_in_united_health_care_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T20:36:46.787Z",
+        "line": 47,
+        "name": "Successful redirecting after clicking  tab",
+        "description": "",
+        "id": "united-health-care-homepage-tab-functionality-tests;successful-redirecting-after-clicking--tab",
+        "after": [
+          {
+            "result": {
+              "duration": 542919000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3076720000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 12373000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 48,
+            "name": "User clicks on MedicareHealthPlan tab",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.userClicksOnMedicareHealthPlanTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12872000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1165000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 49,
+            "name": "User is directed to MedicareHealthPlan page",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.userIsDirectedToMedicareHealthPlanPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6508456000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1250000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in United Health Care homepage",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.user_is_in_united_health_care_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T20:37:05.672Z",
+        "line": 52,
+        "name": "Successful redirecting after clicking  tab",
+        "description": "",
+        "id": "united-health-care-homepage-tab-functionality-tests;successful-redirecting-after-clicking--tab",
+        "after": [
+          {
+            "result": {
+              "duration": 361109000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3358681000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 997000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 53,
+            "name": "User clicks on SmallBusinessHealthPlan tab",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.userClicksOnSmallBusinessHealthPlanTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8670000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1142000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 54,
+            "name": "User is directed to SmallBusinessHealthPlan page",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.userIsDirectedToSmallBusinessHealthPlanPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8513141000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1062000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in United Health Care homepage",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.user_is_in_united_health_care_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T20:37:15.949Z",
+        "line": 57,
+        "name": "Successful redirecting after clicking  tab",
+        "description": "",
+        "id": "united-health-care-homepage-tab-functionality-tests;successful-redirecting-after-clicking--tab",
+        "after": [
+          {
+            "result": {
+              "duration": 755223000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2918236000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 27234000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 58,
+            "name": "User clicks on ShortTermInsurenceHealthPlan tab",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.userClicksOnShortTermInsurenceHealthPlanTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 35929000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 986000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 59,
+            "name": "User is directed to ShortTermInsurenceHealthPlan page",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.userIsDirectedToShortTermInsurenceHealthPlanPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12771760000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 642000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in United Health Care homepage",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.user_is_in_united_health_care_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T20:37:28.372Z",
+        "line": 62,
+        "name": "Successful redirecting after clicking  tab",
+        "description": "",
+        "id": "united-health-care-homepage-tab-functionality-tests;successful-redirecting-after-clicking--tab",
+        "after": [
+          {
+            "result": {
+              "duration": 361189000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2897437000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 5151000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 63,
+            "name": "User clicks on MedicaidHealthPlan tab",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.userClicksOnMedicaidHealthPlanTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 38915000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 64,
+            "name": "User is directed to MedicaidHealthPlan page",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.userIsDirectedToMedicaidHealthPlanPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6089113000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 811000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in United Health Care homepage",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.user_is_in_united_health_care_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T20:37:44.534Z",
+        "line": 67,
+        "name": "Successful redirecting after clicking  tab",
+        "description": "",
+        "id": "united-health-care-homepage-tab-functionality-tests;successful-redirecting-after-clicking--tab",
+        "after": [
+          {
+            "result": {
+              "duration": 411474000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2038402000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1210000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 68,
+            "name": "User clicks on DentalHealthPlan tab",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.userClicksOnDentalHealthPlanTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4871000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1016000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 69,
+            "name": "User is directed to DentalHealthPlan page",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.userIsDirectedToDentalHealthPlanPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9876768000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 986000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in United Health Care homepage",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.user_is_in_united_health_care_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T20:37:53.110Z",
+        "line": 72,
+        "name": "Successful redirecting after clicking  tab",
+        "description": "",
+        "id": "united-health-care-homepage-tab-functionality-tests;successful-redirecting-after-clicking--tab",
+        "after": [
+          {
+            "result": {
+              "duration": 565450000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1815201000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 4005000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 73,
+            "name": "User clicks on ContactUs tab",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.userClicksOnContactUsTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7283000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2374000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 74,
+            "name": "User is directed to ContactUs page",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.userIsDirectedToContactUsPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7737248000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1474000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in United Health Care homepage",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.user_is_in_united_health_care_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T20:38:05.455Z",
+        "line": 77,
+        "name": "Successful redirecting after clicking  tab",
+        "description": "",
+        "id": "united-health-care-homepage-tab-functionality-tests;successful-redirecting-after-clicking--tab",
+        "after": [
+          {
+            "result": {
+              "duration": 483794000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5428979000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1308000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 78,
+            "name": "User clicks on Career tab",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.userClicksOnCareerTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8173000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 7736000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 79,
+            "name": "User is directed to Career page",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.userIsDirectedToCareerPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8465879000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1074000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in United Health Care homepage",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.user_is_in_united_health_care_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T20:38:19.196Z",
+        "line": 82,
+        "name": "Successful redirecting after clicking  tab",
+        "description": "",
+        "id": "united-health-care-homepage-tab-functionality-tests;successful-redirecting-after-clicking--tab",
+        "after": [
+          {
+            "result": {
+              "duration": 510363000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4802863000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1532000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 83,
+            "name": "User clicks on NewsRoom tab",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.userClicksOnNewsRoomTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 202403000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1257000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 84,
+            "name": "User is directed to NewsRoom page",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.userIsDirectedToNewsRoomPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6709749000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 3041000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in United Health Care homepage",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.user_is_in_united_health_care_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T20:38:33.235Z",
+        "line": 87,
+        "name": "Successful redirecting after clicking  tab",
+        "description": "",
+        "id": "united-health-care-homepage-tab-functionality-tests;successful-redirecting-after-clicking--tab",
+        "after": [
+          {
+            "result": {
+              "duration": 291383000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1585969000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1755000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 88,
+            "name": "User clicks on AboutUs tab",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.userClicksOnAboutUsTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5732000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 12857000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 89,
+            "name": "User is directed to AboutUs page",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.userIsDirectedToAboutUsPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9331473000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1201000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in United Health Care homepage",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.user_is_in_united_health_care_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T20:38:41.919Z",
+        "line": 92,
+        "name": "Successful redirecting after clicking  tab",
+        "description": "",
+        "id": "united-health-care-homepage-tab-functionality-tests;successful-redirecting-after-clicking--tab",
+        "after": [
+          {
+            "result": {
+              "duration": 386267000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1667787000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1317000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 93,
+            "name": "User clicks on Accessibility tab",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.userClicksOnAccessibilityTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13014000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 745000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 94,
+            "name": "User is directed to Accessibility page",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.userIsDirectedToAccessibilityPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8104212000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 945000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in United Health Care homepage",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.user_is_in_united_health_care_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T20:38:53.379Z",
+        "line": 97,
+        "name": "Successful redirecting after clicking  tab",
+        "description": "",
+        "id": "united-health-care-homepage-tab-functionality-tests;successful-redirecting-after-clicking--tab",
+        "after": [
+          {
+            "result": {
+              "duration": 294066000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1341165000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 969000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 98,
+            "name": "User clicks on Legal tab",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.userClicksOnLegalTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5771000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1104000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 99,
+            "name": "User is directed to Legal page",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.userIsDirectedToLegalPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6033008000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1827000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in United Health Care homepage",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.user_is_in_united_health_care_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T20:39:03.150Z",
+        "line": 102,
+        "name": "Successful redirecting after clicking  tab",
+        "description": "",
+        "id": "united-health-care-homepage-tab-functionality-tests;successful-redirecting-after-clicking--tab",
+        "after": [
+          {
+            "result": {
+              "duration": 249976000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1203549000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 779000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 103,
+            "name": "User clicks on Privacy tab",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.userClicksOnPrivacyTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7353000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1080000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 104,
+            "name": "User is directed to Privacy page",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.userIsDirectedToPrivacyPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6154002000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1272000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in United Health Care homepage",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.user_is_in_united_health_care_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T20:39:10.716Z",
+        "line": 108,
+        "name": "Negetiv testing for myuhc sign in with invalid user name and password",
+        "description": "",
+        "id": "united-health-care-homepage-tab-functionality-tests;negetiv-testing-for-myuhc-sign-in-with-invalid-user-name-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 317069000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id\u003d\"globalAlertContainer\"]/button\"}\n  (Session info: chrome\u003d85.0.4183.102)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Farjanas-Air\u0027, ip: \u00272604:2000:1700:1c:4143:d7d5:c558:1f9c%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.13.6\u0027, java.version: \u002711.0.6\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/27/nmfyzmzj1c7...}, goog:chromeOptions: {debuggerAddress: localhost:61867}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: d26bb89bf6a1b297e7deb7b29ebd93e2\n*** Element info: {Using\u003dxpath, value\u003d//*[@id\u003d\"globalAlertContainer\"]/button}\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy25.click(Unknown Source)\n\tat home.UHCHomePage.clickSignInButton(UHCHomePage.java:423)\n\tat stepDefinitions.HomeStepDefinition.userClicksOnSignInTab(HomeStepDefinition.java:248)\n\tat ✽.User clicks on sign in tab(file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:109)\n",
+              "duration": 10050448000,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2235000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 109,
+            "name": "User clicks on sign in tab",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.userClicksOnSignInTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 210000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 121000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 110,
+            "name": "selects Plan Through You Employer?",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.selectsPlanThroughYouEmployer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 79000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 74000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 111,
+            "name": "clicks signin button",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.clicksSigninButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 100000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 71000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 112,
+            "name": "User enters \"Donald Trump\" in user name box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Donald Trump\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.HomeStepDefinition.userEntersInUserNameBox(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 141000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 102000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 113,
+            "name": "enters \"nancyPelosi\" in password box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"nancyPelosi\"",
+                  "offset": 7
+                }
+              ],
+              "location": "stepDefinitions.HomeStepDefinition.entersInPasswordBox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 191000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 155000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 114,
+            "name": "User clicks on remember me check box",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.userClicksOnRememberMeCheckBox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 82000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 97000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 115,
+            "name": "finally clicks Signin button",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.finallyClicksSigninButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 90000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 88000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 116,
+            "name": "User validae signin error message",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.userValidaeSigninErrorMessage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "United Health Care homepage tab functionality tests",
+    "description": "",
+    "id": "united-health-care-homepage-tab-functionality-tests",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/HomePage.feature",
+    "tags": []
+  }
+]

@@ -128,9 +128,38 @@ public class CommonAPI {
     public String saucelabs_username = "";
     public String saucelabs_accesskey = "";
 
-    public void openBrowser() throws IOException {
-        setUp(false, "browserstack", "OS X", "high sierra", "chrome", "85", "https://www.amazon.com");
+//*****************************
+
+    public void openBrowser(String url) throws IOException {
+        String mac = "OS X";
+        String windows = "windows";
+
+        try {
+            setUp(false, "browserstack", "OS X", "catlina", "chrome", "85", url);
+
+        } catch (Exception e){
+            setUp(false, "browserstack", "windows", "10", "chrome", "85", url);
+        }
     }
+
+    //***********************
+
+//    public void openBrowser(String url, String os) throws IOException {
+//        String mac = "OS X";
+//        String windows = "windows";
+//
+//        if (os.equalsIgnoreCase(mac)) {
+//            setUp(false, "browserstack", "OS X", "catlina", "chrome", "85", url);
+//
+//        } else if (os.equalsIgnoreCase(windows)) {
+//            setUp(false, "browserstack", "windows", "10", "chrome", "85", url);
+//        }
+//    }
+
+
+//    public void openBrowser() throws IOException {
+//        setUp(false, "browserstack", "OS X", "high sierra", "chrome", "85", "https://www.uhc.com");
+//    }
 
     @Parameters({"useCloudEnv", "cloudEnvName", "os", "os_version", "browserName", "browserVersion", "url"})
     @BeforeMethod
@@ -466,6 +495,34 @@ public class CommonAPI {
             WebElement element = driver.findElement(By.xpath(locator));
             Actions action = new Actions(driver);
             action.moveToElement(element).perform();
+        }
+    }
+
+    public void selectOptionByIndexByXpath(String element, int indexNumber) {
+        Select select = new Select(driver.findElement(By.xpath(element)));
+        select.selectByIndex(indexNumber);
+    }
+
+    public void selectOptionByIndex(String element, int indexNumber) {
+        try {
+            Select select = new Select(driver.findElement(By.xpath(element)));
+            select.selectByIndex(indexNumber);
+        } catch (Exception ex1) {
+            try {
+                System.out.println("First Attempt was not successful");
+                Select select = new Select(driver.findElement(By.cssSelector(element)));
+                select.selectByIndex(indexNumber);
+            } catch (Exception ex2) {
+                try {
+                    System.out.println("Second Attempt was not successful");
+                    Select select = new Select(driver.findElement(By.id(element)));
+                    select.selectByIndex(indexNumber);
+                } catch (Exception ex3) {
+                    System.out.println("Third Attempt was not successful");
+                    Select select = new Select(driver.findElement(By.className(element)));
+                    select.selectByIndex(indexNumber);
+                }
+            }
         }
     }
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="32.714">
-    <testcase classname="Amazon search functionality check" name="Amazon search field functionality check with valid data" time="31.983">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="34.688">
+    <testcase classname="Amazon search functionality check" name="Amazon search field functionality check with valid data" time="34.22">
         <system-out>
             <![CDATA[Given I am on Amazon homepage...............................................passed
 And I enter "Hand Sanitizer" in search field................................passed

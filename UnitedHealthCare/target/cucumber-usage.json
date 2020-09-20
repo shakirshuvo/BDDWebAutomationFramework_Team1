@@ -1,0 +1,784 @@
+[
+  {
+    "source": "User is in United Health Care homepage",
+    "steps": [
+      {
+        "name": "User is in United Health Care homepage",
+        "aggregatedDurations": {
+          "median": 8.465879,
+          "average": 9.224209619
+        },
+        "durations": [
+          {
+            "duration": 14.320292,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 14.822325,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 8.612166,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 7.562621,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 9.793764,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 8.148093,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 8.018314,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 10.985063,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 15.150955,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 6.508456,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 8.513141,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 12.77176,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 6.089113,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 9.876768,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 7.737248,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 8.465879,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 6.709749,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 9.331473,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 8.104212,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 6.033008,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 6.154002,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on Medicare tab",
+    "steps": [
+      {
+        "name": "User clicks on Medicare tab",
+        "aggregatedDurations": {
+          "median": 0.823799,
+          "average": 0.823799
+        },
+        "durations": [
+          {
+            "duration": 0.823799,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to Medicare page",
+    "steps": [
+      {
+        "name": "User is directed to Medicare page",
+        "aggregatedDurations": {
+          "median": 0.172737,
+          "average": 0.172737
+        },
+        "durations": [
+          {
+            "duration": 0.172737,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on ForEmployers tab",
+    "steps": [
+      {
+        "name": "User clicks on ForEmployers tab",
+        "aggregatedDurations": {
+          "median": 1.050889,
+          "average": 1.050889
+        },
+        "durations": [
+          {
+            "duration": 1.050889,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to ForEmployers page",
+    "steps": [
+      {
+        "name": "User is directed to ForEmployers page",
+        "aggregatedDurations": {
+          "median": 0.019075,
+          "average": 0.019075
+        },
+        "durations": [
+          {
+            "duration": 0.019075,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on ForBrokers tab",
+    "steps": [
+      {
+        "name": "User clicks on ForBrokers tab",
+        "aggregatedDurations": {
+          "median": 7.284528,
+          "average": 7.284528
+        },
+        "durations": [
+          {
+            "duration": 7.284528,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:23"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to ForBrokers page",
+    "steps": [
+      {
+        "name": "User is directed to ForBrokers page",
+        "aggregatedDurations": {
+          "median": 0.005619,
+          "average": 0.005619
+        },
+        "durations": [
+          {
+            "duration": 0.005619,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:24"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on LanguageChange tab",
+    "steps": [
+      {
+        "name": "User clicks on LanguageChange tab",
+        "aggregatedDurations": {
+          "median": 2.724056,
+          "average": 2.724056
+        },
+        "durations": [
+          {
+            "duration": 2.724056,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:28"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to LanguageChange page",
+    "steps": [
+      {
+        "name": "User is directed to LanguageChange page",
+        "aggregatedDurations": {
+          "median": 0.024615,
+          "average": 0.024615
+        },
+        "durations": [
+          {
+            "duration": 0.024615,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:29"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on FindADoctor tab",
+    "steps": [
+      {
+        "name": "User clicks on FindADoctor tab",
+        "aggregatedDurations": {
+          "median": 2.345203,
+          "average": 2.345203
+        },
+        "durations": [
+          {
+            "duration": 2.345203,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:33"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to FindADoctor page",
+    "steps": [
+      {
+        "name": "User is directed to FindADoctor page",
+        "aggregatedDurations": {
+          "median": 0.015329,
+          "average": 0.015329
+        },
+        "durations": [
+          {
+            "duration": 0.015329,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:34"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on FindYourPlan tab",
+    "steps": [
+      {
+        "name": "User clicks on FindYourPlan tab",
+        "aggregatedDurations": {
+          "median": 1.438341,
+          "average": 1.438341
+        },
+        "durations": [
+          {
+            "duration": 1.438341,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:38"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to FindYourPlan page",
+    "steps": [
+      {
+        "name": "User is directed to FindYourPlan page",
+        "aggregatedDurations": {
+          "median": 0.007896,
+          "average": 0.007896
+        },
+        "durations": [
+          {
+            "duration": 0.007896,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:39"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on IndividualAndFamilyHealthPlan tab",
+    "steps": [
+      {
+        "name": "User clicks on IndividualAndFamilyHealthPlan tab",
+        "aggregatedDurations": {
+          "median": 0.532601,
+          "average": 0.532601
+        },
+        "durations": [
+          {
+            "duration": 0.532601,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:43"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to IndividualAndFamilyHealthPlan page",
+    "steps": [
+      {
+        "name": "User is directed to IndividualAndFamilyHealthPlan page",
+        "aggregatedDurations": {
+          "median": 0.277587,
+          "average": 0.277587
+        },
+        "durations": [
+          {
+            "duration": 0.277587,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:44"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on MedicareHealthPlan tab",
+    "steps": [
+      {
+        "name": "User clicks on MedicareHealthPlan tab",
+        "aggregatedDurations": {
+          "median": 3.07672,
+          "average": 3.07672
+        },
+        "durations": [
+          {
+            "duration": 3.07672,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:48"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to MedicareHealthPlan page",
+    "steps": [
+      {
+        "name": "User is directed to MedicareHealthPlan page",
+        "aggregatedDurations": {
+          "median": 0.012872,
+          "average": 0.012872
+        },
+        "durations": [
+          {
+            "duration": 0.012872,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:49"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on SmallBusinessHealthPlan tab",
+    "steps": [
+      {
+        "name": "User clicks on SmallBusinessHealthPlan tab",
+        "aggregatedDurations": {
+          "median": 3.358681,
+          "average": 3.358681
+        },
+        "durations": [
+          {
+            "duration": 3.358681,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:53"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to SmallBusinessHealthPlan page",
+    "steps": [
+      {
+        "name": "User is directed to SmallBusinessHealthPlan page",
+        "aggregatedDurations": {
+          "median": 0.00867,
+          "average": 0.00867
+        },
+        "durations": [
+          {
+            "duration": 0.00867,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:54"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on ShortTermInsurenceHealthPlan tab",
+    "steps": [
+      {
+        "name": "User clicks on ShortTermInsurenceHealthPlan tab",
+        "aggregatedDurations": {
+          "median": 2.918236,
+          "average": 2.918236
+        },
+        "durations": [
+          {
+            "duration": 2.918236,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:58"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to ShortTermInsurenceHealthPlan page",
+    "steps": [
+      {
+        "name": "User is directed to ShortTermInsurenceHealthPlan page",
+        "aggregatedDurations": {
+          "median": 0.035929,
+          "average": 0.035929
+        },
+        "durations": [
+          {
+            "duration": 0.035929,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:59"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on MedicaidHealthPlan tab",
+    "steps": [
+      {
+        "name": "User clicks on MedicaidHealthPlan tab",
+        "aggregatedDurations": {
+          "median": 2.897437,
+          "average": 2.897437
+        },
+        "durations": [
+          {
+            "duration": 2.897437,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:63"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to MedicaidHealthPlan page",
+    "steps": [
+      {
+        "name": "User is directed to MedicaidHealthPlan page",
+        "aggregatedDurations": {
+          "median": 0.038915,
+          "average": 0.038915
+        },
+        "durations": [
+          {
+            "duration": 0.038915,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:64"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on DentalHealthPlan tab",
+    "steps": [
+      {
+        "name": "User clicks on DentalHealthPlan tab",
+        "aggregatedDurations": {
+          "median": 2.038402,
+          "average": 2.038402
+        },
+        "durations": [
+          {
+            "duration": 2.038402,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:68"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to DentalHealthPlan page",
+    "steps": [
+      {
+        "name": "User is directed to DentalHealthPlan page",
+        "aggregatedDurations": {
+          "median": 0.004871,
+          "average": 0.004871
+        },
+        "durations": [
+          {
+            "duration": 0.004871,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:69"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on ContactUs tab",
+    "steps": [
+      {
+        "name": "User clicks on ContactUs tab",
+        "aggregatedDurations": {
+          "median": 1.815201,
+          "average": 1.815201
+        },
+        "durations": [
+          {
+            "duration": 1.815201,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:73"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to ContactUs page",
+    "steps": [
+      {
+        "name": "User is directed to ContactUs page",
+        "aggregatedDurations": {
+          "median": 0.007283,
+          "average": 0.007283
+        },
+        "durations": [
+          {
+            "duration": 0.007283,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:74"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on Career tab",
+    "steps": [
+      {
+        "name": "User clicks on Career tab",
+        "aggregatedDurations": {
+          "median": 5.428979,
+          "average": 5.428979
+        },
+        "durations": [
+          {
+            "duration": 5.428979,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:78"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to Career page",
+    "steps": [
+      {
+        "name": "User is directed to Career page",
+        "aggregatedDurations": {
+          "median": 0.008173,
+          "average": 0.008173
+        },
+        "durations": [
+          {
+            "duration": 0.008173,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:79"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on NewsRoom tab",
+    "steps": [
+      {
+        "name": "User clicks on NewsRoom tab",
+        "aggregatedDurations": {
+          "median": 4.802863,
+          "average": 4.802863
+        },
+        "durations": [
+          {
+            "duration": 4.802863,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:83"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to NewsRoom page",
+    "steps": [
+      {
+        "name": "User is directed to NewsRoom page",
+        "aggregatedDurations": {
+          "median": 0.202403,
+          "average": 0.202403
+        },
+        "durations": [
+          {
+            "duration": 0.202403,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:84"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on AboutUs tab",
+    "steps": [
+      {
+        "name": "User clicks on AboutUs tab",
+        "aggregatedDurations": {
+          "median": 1.585969,
+          "average": 1.585969
+        },
+        "durations": [
+          {
+            "duration": 1.585969,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:88"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to AboutUs page",
+    "steps": [
+      {
+        "name": "User is directed to AboutUs page",
+        "aggregatedDurations": {
+          "median": 0.005732,
+          "average": 0.005732
+        },
+        "durations": [
+          {
+            "duration": 0.005732,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:89"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on Accessibility tab",
+    "steps": [
+      {
+        "name": "User clicks on Accessibility tab",
+        "aggregatedDurations": {
+          "median": 1.667787,
+          "average": 1.667787
+        },
+        "durations": [
+          {
+            "duration": 1.667787,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:93"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to Accessibility page",
+    "steps": [
+      {
+        "name": "User is directed to Accessibility page",
+        "aggregatedDurations": {
+          "median": 0.013014,
+          "average": 0.013014
+        },
+        "durations": [
+          {
+            "duration": 0.013014,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:94"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on Legal tab",
+    "steps": [
+      {
+        "name": "User clicks on Legal tab",
+        "aggregatedDurations": {
+          "median": 1.341165,
+          "average": 1.341165
+        },
+        "durations": [
+          {
+            "duration": 1.341165,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:98"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to Legal page",
+    "steps": [
+      {
+        "name": "User is directed to Legal page",
+        "aggregatedDurations": {
+          "median": 0.005771,
+          "average": 0.005771
+        },
+        "durations": [
+          {
+            "duration": 0.005771,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:99"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on Privacy tab",
+    "steps": [
+      {
+        "name": "User clicks on Privacy tab",
+        "aggregatedDurations": {
+          "median": 1.203549,
+          "average": 1.203549
+        },
+        "durations": [
+          {
+            "duration": 1.203549,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:103"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to Privacy page",
+    "steps": [
+      {
+        "name": "User is directed to Privacy page",
+        "aggregatedDurations": {
+          "median": 0.007353,
+          "average": 0.007353
+        },
+        "durations": [
+          {
+            "duration": 0.007353,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:104"
+          }
+        ]
+      }
+    ]
+  }
+]
