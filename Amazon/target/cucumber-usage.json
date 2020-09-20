@@ -5,67 +5,13 @@
       {
         "name": "I am on Amazon homepage",
         "aggregatedDurations": {
-          "median": 3.852224,
-          "average": 3.852224
+          "median": 3.822534,
+          "average": 3.822534
         },
         "durations": [
           {
-            "duration": 3.852224,
+            "duration": 3.822534,
             "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:5"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "I enter {string} in search field",
-    "steps": [
-      {
-        "name": "I enter \"Hand Sanitizer\" in search field",
-        "aggregatedDurations": {
-          "median": 10.196529,
-          "average": 10.196529
-        },
-        "durations": [
-          {
-            "duration": 10.196529,
-            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:6"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "I submit search field",
-    "steps": [
-      {
-        "name": "I submit search field",
-        "aggregatedDurations": {
-          "median": 11.458129,
-          "average": 11.458129
-        },
-        "durations": [
-          {
-            "duration": 11.458129,
-            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:7"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "I verify page title as {string}",
-    "steps": [
-      {
-        "name": "I verify page title as \"Amazon.ca : hand sanitizers\"",
-        "aggregatedDurations": {
-          "median": 0.07059,
-          "average": 0.07059
-        },
-        "durations": [
-          {
-            "duration": 0.07059,
-            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:8"
           }
         ]
       }

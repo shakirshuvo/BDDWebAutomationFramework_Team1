@@ -8,6 +8,7 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import io.cucumber.java.en_scouse.An;
 import org.openqa.selenium.support.PageFactory;
 import home.HomePage;
 
@@ -227,6 +228,89 @@ public class HomeStepDefinition  extends CommonAPI {
     public void i_verify_best_seller_page_as(String string){validateByTitle("Best Sellers - The New York Times");
 
     }
+    //check ByTheBook page
+
+    @When("I click on books button1")
+    public void i_click_on_books_button1() throws InterruptedException {
+        homePage.booksButton.click();
+        sleepFor(3);
+    }
+    @And("I click on ByTheBooks")
+    public void i_click_on_by_the_books() throws InterruptedException {
+        homePage.byTheBook.click();
+        sleepFor(3);
+    }
+    @Then("I verify ByTheBooks page as {string}")
+    public void i_verify_by_the_books_page_as(String string) throws InterruptedException {validateByTitle("By the Book - The New York Times");
+    sleepFor(3);
+    }
+    // check the crime page
+    @When("I click on books button2")
+    public void i_click_on_books_button2() throws InterruptedException {
+        homePage.booksButton2.click();
+        sleepFor(3);
+    }
+    @And("I click om crime button")
+    public void i_click_om_crime_button() throws InterruptedException {
+        homePage.crimeButton.click();
+        sleepFor(3);
+    }
+    @Then("I verify crime page as {string}")
+    public void i_verify_crime_page_as(String string) {validateByTitle("Crime - The New York Times");
+
+    }
+    // check children's book page
+    @When("I click on children's book")
+    public void i_click_on_children_s_book() throws InterruptedException {
+        homePage.booksButton.click();
+        sleepFor(3);
+        homePage.childrenBookButton.click();
+        sleepFor(3);
+    }
+    @Then("I verify children's book page as {string}")
+    public void i_verify_children_s_book_page_as(String string) {validateByTitle("Children’s Books - The New York Times");
+    }
+
+    // check bookReviewPodcast page
+    @When("I click on bookReviewPodcast")
+    public void i_click_on_book_review_podcast() throws InterruptedException {
+        homePage.booksButton.click();
+        sleepFor(3);
+        homePage.booksReviewPodcast.click();
+    }
+    @Then("I verify bookReviewPodcast page as {string}")
+    public void i_verify_book_review_podcast_page_as(String string) {validateByTitle("The Book Review Podcast - The New York Times");
+    }
+    // check Now Read This
+    @When("I click on Now read this")
+    public void i_click_on_now_read_this() throws InterruptedException {
+        homePage.booksButton.click();
+        sleepFor(3);
+        homePage.nowReadThisButton.click();
+        sleepFor(3);
+    }
+    @Then("I verify NowReadThis page as {string}")
+    public void i_verify_now_read_this_page_as(String string) {validateByTitle("Now Read This - The New York Times");
+    }
+
+    //check fashion page
+    @When("I click on style button")
+    public void i_click_on_style_button() throws InterruptedException {
+        homePage.styleButton.click();
+        sleepFor(2);
+    }
+    @And("I click on fashion button")
+    public void i_click_on_fashion_button() throws InterruptedException {
+        homePage.fashionButton.click();
+        sleepFor(3);
+    }
+    @Then("I validate fashion page as {string}")
+    public void i_validate_fashion_page_as(String string) {validateByTitle("Fashion - The New York Times");
+
+    }
+
+
+
 
 
 }

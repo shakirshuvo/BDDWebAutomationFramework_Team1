@@ -53,6 +53,33 @@ public static final String booksReviewCSS="#collection-books > header > nav > ol
 public static final String bestSellersCSS="#collection-book-review > header > nav > ol > li:nth-child(1) > a";
 public static final String bestSellerValidationXP="//h1[@class='css-68u1tu']";
 
+public static final String BooksButton1XP="//*[@id=\"app\"]/div[2]/div[2]/header/div[4]/ul/li[12]/a";
+public static final String byTheBookCSS="#collection-books > header > nav > ol > li:nth-child(3) > a";
+public static final String byTheBookVerificationXP="//h1[@class='css-x1hvf9 e1bbdwbz0']";
+
+public static final String BooksButton2XP="//*[@id=\"app\"]/div[2]/div[2]/header/div[4]/ul/li[12]/a";
+public static final String crimeButtonXP="//*[@id=\"collection-books\"]/header/nav/ol/li[4]/a";
+public static final String crimePageValidationXP="//h1[@class='css-x1hvf9 e1bbdwbz0']";
+
+public static final String childrenBookButtonXP="//*[@id=\"collection-books\"]/header/nav/ol/li[5]/a";
+public static final String childrenBookValidationXP="//h1[@class='css-x1hvf9 e1bbdwbz0']";
+
+public static final String booksReviewPodcastXP="//*[@id=\"collection-books\"]/header/nav/ol/li[6]/a";
+public static final String booksReviewPodcastValidationXP="//h1[@class='css-27xwe6 e1bbdwbz0']";
+
+public static final String nowReadThisButtonCSS="#collection-books > header > nav > ol > li:nth-child(7) > a";
+public static final String NowReadThisValidationXP="//h1[@class='css-x1hvf9 e1bbdwbz0']";
+
+public static final String styleButtonXP="//*[@id=\"app\"]/div[2]/div[2]/header/div[4]/ul/li[13]/a";
+public static final String fashionButtonCSS="#collection-style > header > nav > ol > li:nth-child(1) > a";
+public static final String fashionButtonValidationClass="css-ju59rg e1bbdwbz0";
+
+
+
+
+
+
+
 
 
 

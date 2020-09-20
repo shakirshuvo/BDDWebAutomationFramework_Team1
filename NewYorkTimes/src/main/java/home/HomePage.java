@@ -2,6 +2,8 @@ package home;
 
 
 import base.CommonAPI;
+import com.mysql.cj.util.DnsSrv;
+import org.hamcrest.xml.HasXPath;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
@@ -100,6 +102,45 @@ public class HomePage extends CommonAPI {
     @FindBy(how = How.XPATH,using = bestSellerValidationXP)
     public WebElement bestSellerValidation;
 
+    @FindBy(how = How.XPATH,using =BooksButton1XP)
+    public WebElement BooksButton1;
+    @FindBy(how = How.CSS,using = byTheBookCSS)
+    public WebElement byTheBook;
+    @FindBy(how = How.XPATH,using = byTheBookVerificationXP)
+    public WebElement byTheBookVerification;
+
+    @FindBy(how = How.XPATH,using = BooksButton2XP)
+    public WebElement booksButton2;
+    @FindBy(how = How.XPATH,using = crimeButtonXP)
+    public WebElement crimeButton;
+    @FindBy(how = How.XPATH,using = crimePageValidationXP)
+    public WebElement crimePageValidation;
+
+    @FindBy(how = How.XPATH,using = childrenBookButtonXP)
+    public WebElement childrenBookButton;
+    @FindBy(how = How.XPATH,using = childrenBookValidationXP)
+    public WebElement childrenBookValidation;
+
+    @FindBy(how = How.XPATH,using = booksReviewPodcastXP)
+    public WebElement booksReviewPodcast;
+    @FindBy(how = How.XPATH,using = booksReviewPodcastValidationXP)
+    public WebElement booksReviewPodcastValidation;
+
+    @FindBy(how = How.CSS,using = nowReadThisButtonCSS)
+    public WebElement nowReadThisButton;
+    @FindBy(how = How.XPATH,using = NowReadThisValidationXP)
+    public WebElement NowReadThisValidation;
+
+    @FindBy(how = How.XPATH,using = styleButtonXP)
+    public WebElement styleButton;
+    @FindBy(how = How.CSS,using = fashionButtonCSS)
+    public WebElement fashionButton;
+    @FindBy(how = How.CLASS_NAME,using = fashionButtonValidationClass)
+    public WebElement fashionButtonValidation;
+
+
+
+
     public void validateWorldButton(){
         driver.manage().window().maximize();
         String actualText=worldValidation.getText();
@@ -174,7 +215,36 @@ public class HomePage extends CommonAPI {
         driver.manage().window().maximize();
         String actualResult=bestSellerValidation.getText();
         Assert.assertEquals(actualResult,expectedResult,"text doesn't match");
-
+    }
+    public void setByTheBookVerification(String expectedResult){
+        driver.manage().window().maximize();
+        String actualResult=byTheBookVerification.getText();
+        Assert.assertEquals(actualResult,expectedResult,"*******test failed**********");
+    }
+    public void setCrimePageValidation(String expectedResult){
+        driver.manage().window().maximize();
+        String actualResult=crimePageValidation.getText();
+        Assert.assertEquals(actualResult,expectedResult,"*********test failed*******");
+    }
+    public void setChildrenBookValidation(String expectedResult){
+        driver.manage().window().maximize();
+        String actualResult=childrenBookValidation.getText();
+        Assert.assertEquals(actualResult,expectedResult,"*********test failed*******");
+    }
+    public void setBooksReviewPodcast(String expectedResult){
+        driver.manage().window().maximize();
+        String actualResult=booksReviewPodcastValidation.getText();
+        Assert.assertEquals(actualResult,expectedResult,"**********result failed**********");
+    }
+    public void setNowReadThisValidation(String expectedResult){
+        driver.manage().window().maximize();
+        String actualResult= NowReadThisValidation.getText();
+        Assert.assertEquals(actualResult,expectedResult,"********test failed*********");
+    }
+    public void setFashionButtonValidation(String expectedResult){
+        driver.manage().window().maximize();
+        String actualResult=fashionButtonValidation.getText();
+        Assert.assertEquals(actualResult,expectedResult,"**********test failed**********");
     }
 
 

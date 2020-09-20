@@ -5,53 +5,61 @@
       {
         "name": "I am in newYorkTimes homepage",
         "aggregatedDurations": {
-          "median": 2.415009,
-          "average": 2.699859454
+          "median": 3.381485,
+          "average": 3.397789769
         },
         "durations": [
           {
-            "duration": 2.607774,
-            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:15"
+            "duration": 3.58776,
+            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:17"
           },
           {
-            "duration": 2.178075,
-            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:15"
+            "duration": 3.212911,
+            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:17"
           },
           {
-            "duration": 2.327875,
-            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:15"
+            "duration": 5.326795,
+            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:17"
           },
           {
-            "duration": 2.459822,
-            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:15"
+            "duration": 3.869192,
+            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:17"
           },
           {
-            "duration": 2.053707,
-            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:15"
+            "duration": 3.801033,
+            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:17"
           },
           {
-            "duration": 2.415009,
-            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:15"
+            "duration": 2.062236,
+            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:17"
           },
           {
-            "duration": 4.426273,
-            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:15"
+            "duration": 3.381485,
+            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:17"
           },
           {
-            "duration": 2.079173,
-            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:15"
+            "duration": 3.249801,
+            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:17"
           },
           {
-            "duration": 2.323628,
-            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:15"
+            "duration": 2.559364,
+            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:17"
           },
           {
-            "duration": 3.544376,
-            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:15"
+            "duration": 2.938364,
+            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:17"
           },
           {
-            "duration": 3.282742,
-            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:15"
+            "duration": 2.373779,
+            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:17"
+          },
+          {
+            "duration": 3.639023,
+            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:17"
+          },
+          {
+            "duration": 4.169524,
+            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:17"
           }
         ]
       }
@@ -63,13 +71,13 @@
       {
         "name": "I click on worldButton",
         "aggregatedDurations": {
-          "median": 2.124004,
-          "average": 2.124004
+          "median": 0.972143,
+          "average": 0.972143
         },
         "durations": [
           {
-            "duration": 2.124004,
-            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:19"
+            "duration": 0.972143,
+            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:21"
           }
         ]
       }
@@ -81,13 +89,13 @@
       {
         "name": "I verify page title as \"World News - The New York Times\"",
         "aggregatedDurations": {
-          "median": 0.218493,
-          "average": 0.218493
+          "median": 0.176275,
+          "average": 0.176275
         },
         "durations": [
           {
-            "duration": 0.218493,
-            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:20"
+            "duration": 0.176275,
+            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:22"
           }
         ]
       }
@@ -99,13 +107,31 @@
       {
         "name": "I click on US button",
         "aggregatedDurations": {
-          "median": 2.077419,
-          "average": 2.077419
+          "median": 3.172013,
+          "average": 3.172013
         },
         "durations": [
           {
-            "duration": 2.077419,
-            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:24"
+            "duration": 3.172013,
+            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:26"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify page title1 as {string}",
+    "steps": [
+      {
+        "name": "I verify page title1 as \"The New York Times - Breaking News, World News \u0026 Multimedia\"",
+        "aggregatedDurations": {
+          "median": 0.225404,
+          "average": 0.225404
+        },
+        "durations": [
+          {
+            "duration": 0.225404,
+            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:27"
           }
         ]
       }
@@ -117,13 +143,13 @@
       {
         "name": "I click on politics button",
         "aggregatedDurations": {
-          "median": 2.667972,
-          "average": 2.667972
+          "median": 1.937651,
+          "average": 1.937651
         },
         "durations": [
           {
-            "duration": 2.667972,
-            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:29"
+            "duration": 1.937651,
+            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:31"
           }
         ]
       }
@@ -135,13 +161,13 @@
       {
         "name": "I verify page title2 as \"Politics - The New York Times\"",
         "aggregatedDurations": {
-          "median": 0.681145,
-          "average": 0.681145
+          "median": 0.425152,
+          "average": 0.425152
         },
         "durations": [
           {
-            "duration": 0.681145,
-            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:30"
+            "duration": 0.425152,
+            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:32"
           }
         ]
       }
@@ -153,13 +179,13 @@
       {
         "name": "I click on NY button",
         "aggregatedDurations": {
-          "median": 2.024488,
-          "average": 2.024488
+          "median": 0.083622,
+          "average": 0.083622
         },
         "durations": [
           {
-            "duration": 2.024488,
-            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:34"
+            "duration": 0.083622,
+            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:36"
           }
         ]
       }
@@ -171,13 +197,13 @@
       {
         "name": "I verify page Title3 as \"New York - The New York Times\"",
         "aggregatedDurations": {
-          "median": 0.128558,
-          "average": 0.128558
+          "median": 0.327194,
+          "average": 0.327194
         },
         "durations": [
           {
-            "duration": 0.128558,
-            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:35"
+            "duration": 0.327194,
+            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:37"
           }
         ]
       }
@@ -189,13 +215,31 @@
       {
         "name": "I click business button",
         "aggregatedDurations": {
-          "median": 2.430356,
-          "average": 2.430356
+          "median": 1.821569,
+          "average": 1.821569
         },
         "durations": [
           {
-            "duration": 2.430356,
-            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:39"
+            "duration": 1.821569,
+            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:41"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify business page title as {string}",
+    "steps": [
+      {
+        "name": "I verify business page title as \"Business - The New York Times\"",
+        "aggregatedDurations": {
+          "median": 0.411613,
+          "average": 0.411613
+        },
+        "durations": [
+          {
+            "duration": 0.411613,
+            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:42"
           }
         ]
       }
@@ -207,13 +251,13 @@
       {
         "name": "I click opinion button",
         "aggregatedDurations": {
-          "median": 1.822606,
-          "average": 1.822606
+          "median": 1.315148,
+          "average": 1.315148
         },
         "durations": [
           {
-            "duration": 1.822606,
-            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:44"
+            "duration": 1.315148,
+            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:46"
           }
         ]
       }
@@ -225,13 +269,13 @@
       {
         "name": "I Verify opinion page title as \"Opinion - The New York Times\"",
         "aggregatedDurations": {
-          "median": 0.721215,
-          "average": 0.721215
+          "median": 0.120503,
+          "average": 0.120503
         },
         "durations": [
           {
-            "duration": 0.721215,
-            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:45"
+            "duration": 0.120503,
+            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:47"
           }
         ]
       }
@@ -243,13 +287,13 @@
       {
         "name": "I click technology button",
         "aggregatedDurations": {
-          "median": 3.56623,
-          "average": 3.56623
+          "median": 1.025262,
+          "average": 1.025262
         },
         "durations": [
           {
-            "duration": 3.56623,
-            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:49"
+            "duration": 1.025262,
+            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:51"
           }
         ]
       }
@@ -261,13 +305,13 @@
       {
         "name": "I verify technology page title as \"Technology - The New York Times\"",
         "aggregatedDurations": {
-          "median": 0.309805,
-          "average": 0.309805
+          "median": 0.39764,
+          "average": 0.39764
         },
         "durations": [
           {
-            "duration": 0.309805,
-            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:50"
+            "duration": 0.39764,
+            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:52"
           }
         ]
       }
@@ -279,13 +323,13 @@
       {
         "name": "I click on science button",
         "aggregatedDurations": {
-          "median": 2.161113,
-          "average": 2.161113
+          "median": 0.385388,
+          "average": 0.385388
         },
         "durations": [
           {
-            "duration": 2.161113,
-            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:54"
+            "duration": 0.385388,
+            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:56"
           }
         ]
       }
@@ -297,13 +341,13 @@
       {
         "name": "I click on climate",
         "aggregatedDurations": {
-          "median": 0.868879,
-          "average": 0.868879
+          "median": 0.763717,
+          "average": 0.763717
         },
         "durations": [
           {
-            "duration": 0.868879,
-            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:55"
+            "duration": 0.763717,
+            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:57"
           }
         ]
       }
@@ -315,13 +359,13 @@
       {
         "name": "I verify science page title as \"Climate and Environment - The New York Times\"",
         "aggregatedDurations": {
-          "median": 3.225231,
-          "average": 3.225231
+          "median": 3.145337,
+          "average": 3.145337
         },
         "durations": [
           {
-            "duration": 3.225231,
-            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:56"
+            "duration": 3.145337,
+            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:58"
           }
         ]
       }
@@ -333,13 +377,13 @@
       {
         "name": "I navigate back to the science page",
         "aggregatedDurations": {
-          "median": 3.320951,
-          "average": 3.320951
+          "median": 3.175991,
+          "average": 3.175991
         },
         "durations": [
           {
-            "duration": 3.320951,
-            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:57"
+            "duration": 3.175991,
+            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:59"
           }
         ]
       }
@@ -351,13 +395,13 @@
       {
         "name": "I click on space and cosmos",
         "aggregatedDurations": {
-          "median": 3.429754,
-          "average": 3.429754
+          "median": 3.503589,
+          "average": 3.503589
         },
         "durations": [
           {
-            "duration": 3.429754,
-            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:58"
+            "duration": 3.503589,
+            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:60"
           }
         ]
       }
@@ -369,13 +413,13 @@
       {
         "name": "I click on health button",
         "aggregatedDurations": {
-          "median": 6.498661,
-          "average": 6.498661
+          "median": 5.064137,
+          "average": 5.064137
         },
         "durations": [
           {
-            "duration": 6.498661,
-            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:62"
+            "duration": 5.064137,
+            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:64"
           }
         ]
       }
@@ -387,13 +431,13 @@
       {
         "name": "I click on health policy",
         "aggregatedDurations": {
-          "median": 6.265799,
-          "average": 6.265799
+          "median": 5.889297,
+          "average": 5.889297
         },
         "durations": [
           {
-            "duration": 6.265799,
-            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:63"
+            "duration": 5.889297,
+            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:65"
           }
         ]
       }
@@ -405,13 +449,13 @@
       {
         "name": "I click on global health",
         "aggregatedDurations": {
-          "median": 5.472965,
-          "average": 5.472965
+          "median": 4.585205,
+          "average": 4.585205
         },
         "durations": [
           {
-            "duration": 5.472965,
-            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:64"
+            "duration": 4.585205,
+            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:66"
           }
         ]
       }
@@ -423,13 +467,13 @@
       {
         "name": "I click on the new old age",
         "aggregatedDurations": {
-          "median": 5.383502,
-          "average": 5.383502
+          "median": 6.030681,
+          "average": 6.030681
         },
         "durations": [
           {
-            "duration": 5.383502,
-            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:65"
+            "duration": 6.030681,
+            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:67"
           }
         ]
       }
@@ -441,13 +485,13 @@
       {
         "name": "I verify health page title as \"Health - The New York Times\"",
         "aggregatedDurations": {
-          "median": 0.915855,
-          "average": 0.915855
+          "median": 0.098972,
+          "average": 0.098972
         },
         "durations": [
           {
-            "duration": 0.915855,
-            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:66"
+            "duration": 0.098972,
+            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:68"
           }
         ]
       }
@@ -459,13 +503,13 @@
       {
         "name": "I click on sport button",
         "aggregatedDurations": {
-          "median": 3.058892,
-          "average": 3.058892
+          "median": 3.553287,
+          "average": 3.553287
         },
         "durations": [
           {
-            "duration": 3.058892,
-            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:70"
+            "duration": 3.553287,
+            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:72"
           }
         ]
       }
@@ -477,13 +521,13 @@
       {
         "name": "I click on baseball",
         "aggregatedDurations": {
-          "median": 3.632875,
-          "average": 3.632875
+          "median": 4.386161,
+          "average": 4.386161
         },
         "durations": [
           {
-            "duration": 3.632875,
-            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:71"
+            "duration": 4.386161,
+            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:73"
           }
         ]
       }
@@ -495,13 +539,13 @@
       {
         "name": "I click on NFL",
         "aggregatedDurations": {
-          "median": 4.300554,
-          "average": 4.300554
+          "median": 4.799428,
+          "average": 4.799428
         },
         "durations": [
           {
-            "duration": 4.300554,
-            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:72"
+            "duration": 4.799428,
+            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:74"
           }
         ]
       }
@@ -513,13 +557,13 @@
       {
         "name": "I click on soccer",
         "aggregatedDurations": {
-          "median": 4.756056,
-          "average": 4.756056
+          "median": 6.25411,
+          "average": 6.25411
         },
         "durations": [
           {
-            "duration": 4.756056,
-            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:73"
+            "duration": 6.25411,
+            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:75"
           }
         ]
       }
@@ -531,13 +575,13 @@
       {
         "name": "I click on NBA",
         "aggregatedDurations": {
-          "median": 5.048261,
-          "average": 5.048261
+          "median": 5.147553,
+          "average": 5.147553
         },
         "durations": [
           {
-            "duration": 5.048261,
-            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:74"
+            "duration": 5.147553,
+            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:76"
           }
         ]
       }
@@ -549,13 +593,13 @@
       {
         "name": "I click on tennis",
         "aggregatedDurations": {
-          "median": 12.030854,
-          "average": 12.030854
+          "median": 6.021538,
+          "average": 6.021538
         },
         "durations": [
           {
-            "duration": 12.030854,
-            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:75"
+            "duration": 6.021538,
+            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:77"
           }
         ]
       }
@@ -567,13 +611,13 @@
       {
         "name": "I verify sport page title as \"Sports - The New York Times\"",
         "aggregatedDurations": {
-          "median": 0.143283,
-          "average": 0.143283
+          "median": 0.130188,
+          "average": 0.130188
         },
         "durations": [
           {
-            "duration": 0.143283,
-            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:76"
+            "duration": 0.130188,
+            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:78"
           }
         ]
       }
@@ -585,13 +629,13 @@
       {
         "name": "I click on Arts button",
         "aggregatedDurations": {
-          "median": 3.060756,
-          "average": 3.060756
+          "median": 6.073298,
+          "average": 6.073298
         },
         "durations": [
           {
-            "duration": 3.060756,
-            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:80"
+            "duration": 6.073298,
+            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:82"
           }
         ]
       }
@@ -603,13 +647,13 @@
       {
         "name": "I click on books",
         "aggregatedDurations": {
-          "median": 11.835165,
-          "average": 11.835165
+          "median": 3.825798,
+          "average": 3.825798
         },
         "durations": [
           {
-            "duration": 11.835165,
-            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:81"
+            "duration": 3.825798,
+            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:83"
           }
         ]
       }
@@ -621,13 +665,13 @@
       {
         "name": "I click on dance",
         "aggregatedDurations": {
-          "median": 4.730563,
-          "average": 4.730563
+          "median": 4.301198,
+          "average": 4.301198
         },
         "durations": [
           {
-            "duration": 4.730563,
-            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:82"
+            "duration": 4.301198,
+            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:84"
           }
         ]
       }
@@ -639,13 +683,13 @@
       {
         "name": "I click on movies",
         "aggregatedDurations": {
-          "median": 4.557601,
-          "average": 4.557601
+          "median": 5.768789,
+          "average": 5.768789
         },
         "durations": [
           {
-            "duration": 4.557601,
-            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:83"
+            "duration": 5.768789,
+            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:85"
           }
         ]
       }
@@ -657,13 +701,139 @@
       {
         "name": "I verify Arts page title as \"Arts - The New York Times\"",
         "aggregatedDurations": {
-          "median": 0.776407,
-          "average": 0.776407
+          "median": 0.083401,
+          "average": 0.083401
         },
         "durations": [
           {
-            "duration": 0.776407,
-            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:84"
+            "duration": 0.083401,
+            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:86"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Books button",
+    "steps": [
+      {
+        "name": "I click on Books button",
+        "aggregatedDurations": {
+          "median": 4.286987,
+          "average": 4.286987
+        },
+        "durations": [
+          {
+            "duration": 4.286987,
+            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:90"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on bookReview",
+    "steps": [
+      {
+        "name": "I click on bookReview",
+        "aggregatedDurations": {
+          "median": 3.099084,
+          "average": 3.099084
+        },
+        "durations": [
+          {
+            "duration": 3.099084,
+            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:91"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on bestSeller",
+    "steps": [
+      {
+        "name": "I click on bestSeller",
+        "aggregatedDurations": {
+          "median": 3.538508,
+          "average": 3.538508
+        },
+        "durations": [
+          {
+            "duration": 3.538508,
+            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:92"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify best seller page as {string}",
+    "steps": [
+      {
+        "name": "I verify best seller page as \"Best Sellers - The New York Times\"",
+        "aggregatedDurations": {
+          "median": 0.010442,
+          "average": 0.010442
+        },
+        "durations": [
+          {
+            "duration": 0.010442,
+            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:93"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on books button1",
+    "steps": [
+      {
+        "name": "I click on books button1",
+        "aggregatedDurations": {
+          "median": 3.819768,
+          "average": 3.819768
+        },
+        "durations": [
+          {
+            "duration": 3.819768,
+            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:97"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on ByTheBooks",
+    "steps": [
+      {
+        "name": "I click on ByTheBooks",
+        "aggregatedDurations": {
+          "median": 4.153886,
+          "average": 4.153886
+        },
+        "durations": [
+          {
+            "duration": 4.153886,
+            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:98"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify ByTheBooks page as {string}",
+    "steps": [
+      {
+        "name": "I verify ByTheBooks page as \"By the Book - The New York Times\"",
+        "aggregatedDurations": {
+          "median": 3.02359,
+          "average": 3.02359
+        },
+        "durations": [
+          {
+            "duration": 3.02359,
+            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:99"
           }
         ]
       }
@@ -675,12 +845,12 @@
       {
         "name": "I am in new York Times homepage",
         "aggregatedDurations": {
-          "median": 2.430745,
-          "average": 2.430745
+          "median": 4.155539,
+          "average": 4.155539
         },
         "durations": [
           {
-            "duration": 2.430745,
+            "duration": 4.155539,
             "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/SearchPage.feature:6"
           }
         ]
@@ -693,13 +863,67 @@
       {
         "name": "I click on searchButton",
         "aggregatedDurations": {
-          "median": 3.316173,
-          "average": 3.316173
+          "median": 3.265775,
+          "average": 3.265775
         },
         "durations": [
           {
-            "duration": 3.316173,
+            "duration": 3.265775,
             "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/SearchPage.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} in search field",
+    "steps": [
+      {
+        "name": "I enter \"today\u0027s news\" in search field",
+        "aggregatedDurations": {
+          "median": 2.161519,
+          "average": 2.161519
+        },
+        "durations": [
+          {
+            "duration": 2.161519,
+            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/SearchPage.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I submit search field",
+    "steps": [
+      {
+        "name": "I submit search field",
+        "aggregatedDurations": {
+          "median": 1.311362,
+          "average": 1.311362
+        },
+        "durations": [
+          {
+            "duration": 1.311362,
+            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/SearchPage.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify search page title as {string}",
+    "steps": [
+      {
+        "name": "I verify search page title as \"The New York Times - Search\"",
+        "aggregatedDurations": {
+          "median": 0.347829,
+          "average": 0.347829
+        },
+        "durations": [
+          {
+            "duration": 0.347829,
+            "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/SearchPage.feature:10"
           }
         ]
       }

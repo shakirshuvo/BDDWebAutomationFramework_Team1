@@ -10,6 +10,11 @@ Feature: New york Times world page functionality
   New york times sport page functionality
   New york times arts page functionality
   New york Books page functionality
+  New york times page by the book functionality
+  New York times page crime functionality
+  New York times page children's book functionality
+  New york times page nowReadThis functionality
+  New york times page style functionality
 
 
   Background:
@@ -84,12 +89,46 @@ Feature: New york Times world page functionality
     And  I click on movies
     Then I verify Arts page title as "Arts - The New York Times"
 
-    @SmokeTest
-    Scenario: New york times Books functionality with data
-      When I click on Books button
-      And  I click on bookReview
-      And  I click on bestSeller
-      Then I verify best seller page as "Best Sellers - The New York Times"
+  @SmokeTest
+  Scenario: New york times Books functionality with data
+    When I click on Books button
+    And  I click on bookReview
+    And  I click on bestSeller
+    Then I verify best seller page as "Best Sellers - The New York Times"
+
+  @SmokeTest
+  Scenario: New York times byTheBook functionality with data
+    When I click on books button1
+    And  I click on ByTheBooks
+    Then I verify ByTheBooks page as "By the Book - The New York Times"
+
+  @SmokeTest
+  Scenario: New York Times crime page functionality
+    When I click on books button2
+    And  I click om crime button
+    Then I verify crime page as "Crime - The New York Times"
+
+  @SmokeTest
+  Scenario: New York times children's book page functionality
+    When I click on children's book
+    Then I verify children's book page as "Children’s Books - The New York Times"
+
+  @SmokeTest
+  Scenario: New york times book review podcast page functionality
+    When I click on bookReviewPodcast
+    Then I verify bookReviewPodcast page as "The Book Review Podcast - The New York Times"
+
+  @SmokeTest
+  Scenario: New york times nowReadThis page functionality
+    When I click on Now read this
+    Then I verify NowReadThis page as "Now Read This - The New York Times"
+
+  @SmokeTest
+  Scenario: new york times style page Functionality
+    When I click on style button
+    And  I click on fashion button
+    Then I validate fashion page as "Fashion - The New York Times"
+
 
 
 
