@@ -5,12 +5,12 @@
       {
         "name": "I am on Amazon homepage",
         "aggregatedDurations": {
-          "median": 7.316597,
-          "average": 7.316597
+          "median": 6.171442,
+          "average": 6.171442
         },
         "durations": [
           {
-            "duration": 7.316597,
+            "duration": 6.171442,
             "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:5"
           }
         ]
@@ -23,12 +23,12 @@
       {
         "name": "I enter \"Hand Sanitizer\" in search field",
         "aggregatedDurations": {
-          "median": 10.272896,
-          "average": 10.272896
+          "median": 10.269484,
+          "average": 10.269484
         },
         "durations": [
           {
-            "duration": 10.272896,
+            "duration": 10.269484,
             "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:6"
           }
         ]
@@ -41,12 +41,12 @@
       {
         "name": "I submit search field",
         "aggregatedDurations": {
-          "median": 14.751893,
-          "average": 14.751893
+          "median": 13.793438,
+          "average": 13.793438
         },
         "durations": [
           {
-            "duration": 14.751893,
+            "duration": 13.793438,
             "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:7"
           }
         ]
@@ -59,12 +59,12 @@
       {
         "name": "I verify page title as \"Amazon.ca : hand sanitizers\"",
         "aggregatedDurations": {
-          "median": 0.040191,
-          "average": 0.040191
+          "median": 0.065015,
+          "average": 0.065015
         },
         "durations": [
           {
-            "duration": 0.040191,
+            "duration": 0.065015,
             "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:8"
           }
         ]

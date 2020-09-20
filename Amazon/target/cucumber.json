@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-09-19T04:53:11.771Z",
+        "start_timestamp": "2020-09-20T21:20:26.135Z",
         "line": 4,
         "name": "Amazon search field functionality check with valid data",
         "description": "",
@@ -11,7 +11,7 @@
         "after": [
           {
             "result": {
-              "duration": 224644000,
+              "duration": 317139000,
               "status": "passed"
             },
             "match": {
@@ -24,13 +24,13 @@
         "steps": [
           {
             "result": {
-              "duration": 7316597000,
+              "duration": 6171442000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 29469000,
+                  "duration": 38695000,
                   "status": "passed"
                 },
                 "match": {
@@ -47,13 +47,13 @@
           },
           {
             "result": {
-              "duration": 10272896000,
+              "duration": 10269484000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1110000,
+                  "duration": 1427000,
                   "status": "passed"
                 },
                 "match": {
@@ -76,13 +76,13 @@
           },
           {
             "result": {
-              "duration": 14751893000,
+              "duration": 13793438000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 817000,
+                  "duration": 543000,
                   "status": "passed"
                 },
                 "match": {
@@ -99,13 +99,13 @@
           },
           {
             "result": {
-              "duration": 40191000,
+              "duration": 65015000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 840000,
+                  "duration": 506000,
                   "status": "passed"
                 },
                 "match": {
