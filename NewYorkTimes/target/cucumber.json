@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "line": 16,
+        "line": 20,
         "name": "",
         "description": "",
         "type": "background",
@@ -11,13 +11,13 @@
         "steps": [
           {
             "result": {
-              "duration": 3587760000,
+              "duration": 4720973000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 35366000,
+                  "duration": 17971000,
                   "status": "passed"
                 },
                 "match": {
@@ -26,7 +26,7 @@
               },
               {
                 "result": {
-                  "duration": 1722000,
+                  "duration": 774000,
                   "status": "passed"
                 },
                 "match": {
@@ -34,7 +34,7 @@
                 }
               }
             ],
-            "line": 17,
+            "line": 21,
             "name": "I am in newYorkTimes homepage",
             "match": {
               "location": "stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage()"
@@ -44,15 +44,15 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-19T16:37:52.749Z",
-        "line": 20,
+        "start_timestamp": "2020-09-20T20:42:56.101Z",
+        "line": 24,
         "name": "New york times world page functionality checked with valid data",
         "description": "",
         "id": "new-york-times-world-page-functionality;new-york-times-world-page-functionality-checked-with-valid-data",
         "after": [
           {
             "result": {
-              "duration": 102454000,
+              "duration": 162709000,
               "status": "passed"
             },
             "match": {
@@ -61,7 +61,7 @@
           },
           {
             "result": {
-              "duration": 195000,
+              "duration": 152000,
               "status": "passed"
             },
             "match": {
@@ -74,13 +74,13 @@
         "steps": [
           {
             "result": {
-              "duration": 972143000,
+              "duration": 193551000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1934000,
+                  "duration": 4041000,
                   "status": "passed"
                 },
                 "match": {
@@ -89,7 +89,7 @@
               },
               {
                 "result": {
-                  "duration": 358000,
+                  "duration": 715000,
                   "status": "passed"
                 },
                 "match": {
@@ -97,7 +97,7 @@
                 }
               }
             ],
-            "line": 21,
+            "line": 25,
             "name": "I click on worldButton",
             "match": {
               "location": "stepDefinitions.HomeStepDefinition.i_click_on_world_button()"
@@ -106,13 +106,13 @@
           },
           {
             "result": {
-              "duration": 176275000,
+              "duration": 897355000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1411000,
+                  "duration": 2624000,
                   "status": "passed"
                 },
                 "match": {
@@ -121,7 +121,7 @@
               },
               {
                 "result": {
-                  "duration": 2126000,
+                  "duration": 1176000,
                   "status": "passed"
                 },
                 "match": {
@@ -129,7 +129,7 @@
                 }
               }
             ],
-            "line": 22,
+            "line": 26,
             "name": "I verify page title as \"World News - The New York Times\"",
             "match": {
               "arguments": [
@@ -150,7 +150,7 @@
         ]
       },
       {
-        "line": 16,
+        "line": 20,
         "name": "",
         "description": "",
         "type": "background",
@@ -158,13 +158,13 @@
         "steps": [
           {
             "result": {
-              "duration": 3212911000,
+              "duration": 2231117000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1232000,
+                  "duration": 1217000,
                   "status": "passed"
                 },
                 "match": {
@@ -173,7 +173,7 @@
               },
               {
                 "result": {
-                  "duration": 337000,
+                  "duration": 251000,
                   "status": "passed"
                 },
                 "match": {
@@ -181,7 +181,7 @@
                 }
               }
             ],
-            "line": 17,
+            "line": 21,
             "name": "I am in newYorkTimes homepage",
             "match": {
               "location": "stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage()"
@@ -191,15 +191,15 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-19T16:37:57.765Z",
-        "line": 25,
+        "start_timestamp": "2020-09-20T20:43:02.178Z",
+        "line": 29,
         "name": "New York times US page functionality checked with valid data",
         "description": "",
         "id": "new-york-times-world-page-functionality;new-york-times-us-page-functionality-checked-with-valid-data",
         "after": [
           {
             "result": {
-              "duration": 116530000,
+              "duration": 152623000,
               "status": "passed"
             },
             "match": {
@@ -208,7 +208,7 @@
           },
           {
             "result": {
-              "duration": 127000,
+              "duration": 112000,
               "status": "passed"
             },
             "match": {
@@ -221,13 +221,13 @@
         "steps": [
           {
             "result": {
-              "duration": 3172013000,
+              "duration": 1985602000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1271000,
+                  "duration": 1398000,
                   "status": "passed"
                 },
                 "match": {
@@ -236,7 +236,7 @@
               },
               {
                 "result": {
-                  "duration": 262000,
+                  "duration": 272000,
                   "status": "passed"
                 },
                 "match": {
@@ -244,7 +244,7 @@
                 }
               }
             ],
-            "line": 26,
+            "line": 30,
             "name": "I click on US button",
             "match": {
               "location": "stepDefinitions.HomeStepDefinition.iClickOnUSButton()"
@@ -253,13 +253,13 @@
           },
           {
             "result": {
-              "duration": 225404000,
+              "duration": 460426000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1096000,
+                  "duration": 1449000,
                   "status": "passed"
                 },
                 "match": {
@@ -268,7 +268,7 @@
               },
               {
                 "result": {
-                  "duration": 353000,
+                  "duration": 302000,
                   "status": "passed"
                 },
                 "match": {
@@ -276,7 +276,7 @@
                 }
               }
             ],
-            "line": 27,
+            "line": 31,
             "name": "I verify page title1 as \"The New York Times - Breaking News, World News \u0026 Multimedia\"",
             "match": {
               "arguments": [
@@ -297,7 +297,7 @@
         ]
       },
       {
-        "line": 16,
+        "line": 20,
         "name": "",
         "description": "",
         "type": "background",
@@ -305,13 +305,13 @@
         "steps": [
           {
             "result": {
-              "duration": 5326795000,
+              "duration": 2381874000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1621000,
+                  "duration": 1094000,
                   "status": "passed"
                 },
                 "match": {
@@ -320,7 +320,7 @@
               },
               {
                 "result": {
-                  "duration": 343000,
+                  "duration": 219000,
                   "status": "passed"
                 },
                 "match": {
@@ -328,7 +328,7 @@
                 }
               }
             ],
-            "line": 17,
+            "line": 21,
             "name": "I am in newYorkTimes homepage",
             "match": {
               "location": "stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage()"
@@ -338,15 +338,15 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-19T16:38:04.517Z",
-        "line": 30,
+        "start_timestamp": "2020-09-20T20:43:07.032Z",
+        "line": 34,
         "name": "New York Times politics page functionality with valid data",
         "description": "",
         "id": "new-york-times-world-page-functionality;new-york-times-politics-page-functionality-with-valid-data",
         "after": [
           {
             "result": {
-              "duration": 117491000,
+              "duration": 109824000,
               "status": "passed"
             },
             "match": {
@@ -355,7 +355,7 @@
           },
           {
             "result": {
-              "duration": 118000,
+              "duration": 139000,
               "status": "passed"
             },
             "match": {
@@ -368,13 +368,13 @@
         "steps": [
           {
             "result": {
-              "duration": 1937651000,
+              "duration": 1880127000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 848000,
+                  "duration": 1186000,
                   "status": "passed"
                 },
                 "match": {
@@ -383,7 +383,7 @@
               },
               {
                 "result": {
-                  "duration": 176000,
+                  "duration": 223000,
                   "status": "passed"
                 },
                 "match": {
@@ -391,7 +391,7 @@
                 }
               }
             ],
-            "line": 31,
+            "line": 35,
             "name": "I click on politics button",
             "match": {
               "location": "stepDefinitions.HomeStepDefinition.i_click_on_politics_button()"
@@ -400,13 +400,13 @@
           },
           {
             "result": {
-              "duration": 425152000,
+              "duration": 169546000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 858000,
+                  "duration": 681000,
                   "status": "passed"
                 },
                 "match": {
@@ -415,7 +415,7 @@
               },
               {
                 "result": {
-                  "duration": 513000,
+                  "duration": 380000,
                   "status": "passed"
                 },
                 "match": {
@@ -423,7 +423,7 @@
                 }
               }
             ],
-            "line": 32,
+            "line": 36,
             "name": "I verify page title2 as \"Politics - The New York Times\"",
             "match": {
               "arguments": [
@@ -444,7 +444,7 @@
         ]
       },
       {
-        "line": 16,
+        "line": 20,
         "name": "",
         "description": "",
         "type": "background",
@@ -452,13 +452,13 @@
         "steps": [
           {
             "result": {
-              "duration": 3869192000,
+              "duration": 2757516000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 839000,
+                  "duration": 1335000,
                   "status": "passed"
                 },
                 "match": {
@@ -467,7 +467,7 @@
               },
               {
                 "result": {
-                  "duration": 298000,
+                  "duration": 245000,
                   "status": "passed"
                 },
                 "match": {
@@ -475,7 +475,7 @@
                 }
               }
             ],
-            "line": 17,
+            "line": 21,
             "name": "I am in newYorkTimes homepage",
             "match": {
               "location": "stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage()"
@@ -485,15 +485,15 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-19T16:38:12.353Z",
-        "line": 35,
+        "start_timestamp": "2020-09-20T20:43:11.594Z",
+        "line": 39,
         "name": "New York Times NY page functionality with valid data",
         "description": "",
         "id": "new-york-times-world-page-functionality;new-york-times-ny-page-functionality-with-valid-data",
         "after": [
           {
             "result": {
-              "duration": 103073000,
+              "duration": 153270000,
               "status": "passed"
             },
             "match": {
@@ -502,7 +502,7 @@
           },
           {
             "result": {
-              "duration": 114000,
+              "duration": 162000,
               "status": "passed"
             },
             "match": {
@@ -515,13 +515,13 @@
         "steps": [
           {
             "result": {
-              "duration": 83622000,
+              "duration": 1338029000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 712000,
+                  "duration": 542000,
                   "status": "passed"
                 },
                 "match": {
@@ -530,7 +530,7 @@
               },
               {
                 "result": {
-                  "duration": 161000,
+                  "duration": 191000,
                   "status": "passed"
                 },
                 "match": {
@@ -538,7 +538,7 @@
                 }
               }
             ],
-            "line": 36,
+            "line": 40,
             "name": "I click on NY button",
             "match": {
               "location": "stepDefinitions.HomeStepDefinition.i_click_on_ny_button()"
@@ -547,13 +547,13 @@
           },
           {
             "result": {
-              "duration": 327194000,
+              "duration": 162174000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 905000,
+                  "duration": 774000,
                   "status": "passed"
                 },
                 "match": {
@@ -562,7 +562,7 @@
               },
               {
                 "result": {
-                  "duration": 384000,
+                  "duration": 227000,
                   "status": "passed"
                 },
                 "match": {
@@ -570,7 +570,7 @@
                 }
               }
             ],
-            "line": 37,
+            "line": 41,
             "name": "I verify page Title3 as \"New York - The New York Times\"",
             "match": {
               "arguments": [
@@ -591,7 +591,7 @@
         ]
       },
       {
-        "line": 16,
+        "line": 20,
         "name": "",
         "description": "",
         "type": "background",
@@ -599,13 +599,13 @@
         "steps": [
           {
             "result": {
-              "duration": 3801033000,
+              "duration": 2806736000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 810000,
+                  "duration": 528000,
                   "status": "passed"
                 },
                 "match": {
@@ -614,7 +614,7 @@
               },
               {
                 "result": {
-                  "duration": 194000,
+                  "duration": 134000,
                   "status": "passed"
                 },
                 "match": {
@@ -622,7 +622,7 @@
                 }
               }
             ],
-            "line": 17,
+            "line": 21,
             "name": "I am in newYorkTimes homepage",
             "match": {
               "location": "stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage()"
@@ -632,15 +632,15 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-19T16:38:16.764Z",
-        "line": 40,
+        "start_timestamp": "2020-09-20T20:43:16.023Z",
+        "line": 44,
         "name": "New York times business page functionality with valid data",
         "description": "",
         "id": "new-york-times-world-page-functionality;new-york-times-business-page-functionality-with-valid-data",
         "after": [
           {
             "result": {
-              "duration": 125430000,
+              "duration": 124695000,
               "status": "passed"
             },
             "match": {
@@ -649,7 +649,7 @@
           },
           {
             "result": {
-              "duration": 118000,
+              "duration": 84000,
               "status": "passed"
             },
             "match": {
@@ -662,13 +662,13 @@
         "steps": [
           {
             "result": {
-              "duration": 1821569000,
+              "duration": 1268103000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 490000,
+                  "duration": 424000,
                   "status": "passed"
                 },
                 "match": {
@@ -677,7 +677,7 @@
               },
               {
                 "result": {
-                  "duration": 118000,
+                  "duration": 113000,
                   "status": "passed"
                 },
                 "match": {
@@ -685,7 +685,7 @@
                 }
               }
             ],
-            "line": 41,
+            "line": 45,
             "name": "I click business button",
             "match": {
               "location": "stepDefinitions.HomeStepDefinition.i_click_business_button()"
@@ -694,13 +694,14 @@
           },
           {
             "result": {
-              "duration": 411613000,
-              "status": "passed"
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[The New York Times - Breaking News, World News \u0026 Multimedia]\u003e but was:\u003c[Business - The New York Times]\u003e\n\tat org.junit.Assert.assertEquals(Assert.java:117)\n\tat org.junit.Assert.assertEquals(Assert.java:146)\n\tat base.CommonAPI.validateByTitle(CommonAPI.java:568)\n\tat stepDefinitions.HomeStepDefinition.i_verify_business_page_title_as(HomeStepDefinition.java:74)\n\tat ✽.I verify business page title as \"Business - The New York Times\"(file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:46)\n",
+              "duration": 19918000,
+              "status": "failed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 589000,
+                  "duration": 907000,
                   "status": "passed"
                 },
                 "match": {
@@ -709,7 +710,7 @@
               },
               {
                 "result": {
-                  "duration": 200000,
+                  "duration": 396000,
                   "status": "passed"
                 },
                 "match": {
@@ -717,7 +718,7 @@
                 }
               }
             ],
-            "line": 42,
+            "line": 46,
             "name": "I verify business page title as \"Business - The New York Times\"",
             "match": {
               "arguments": [
@@ -738,7 +739,7 @@
         ]
       },
       {
-        "line": 16,
+        "line": 20,
         "name": "",
         "description": "",
         "type": "background",
@@ -746,13 +747,13 @@
         "steps": [
           {
             "result": {
-              "duration": 2062236000,
+              "duration": 2860645000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1248000,
+                  "duration": 770000,
                   "status": "passed"
                 },
                 "match": {
@@ -761,7 +762,7 @@
               },
               {
                 "result": {
-                  "duration": 712000,
+                  "duration": 387000,
                   "status": "passed"
                 },
                 "match": {
@@ -769,7 +770,7 @@
                 }
               }
             ],
-            "line": 17,
+            "line": 21,
             "name": "I am in newYorkTimes homepage",
             "match": {
               "location": "stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage()"
@@ -779,15 +780,15 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-19T16:38:22.940Z",
-        "line": 45,
+        "start_timestamp": "2020-09-20T20:43:20.268Z",
+        "line": 49,
         "name": "",
         "description": "",
         "id": "new-york-times-world-page-functionality;",
         "after": [
           {
             "result": {
-              "duration": 101923000,
+              "duration": 88272000,
               "status": "passed"
             },
             "match": {
@@ -796,7 +797,7 @@
           },
           {
             "result": {
-              "duration": 169000,
+              "duration": 67000,
               "status": "passed"
             },
             "match": {
@@ -809,13 +810,13 @@
         "steps": [
           {
             "result": {
-              "duration": 1315148000,
+              "duration": 309341000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 688000,
+                  "duration": 1179000,
                   "status": "passed"
                 },
                 "match": {
@@ -824,7 +825,7 @@
               },
               {
                 "result": {
-                  "duration": 169000,
+                  "duration": 239000,
                   "status": "passed"
                 },
                 "match": {
@@ -832,7 +833,7 @@
                 }
               }
             ],
-            "line": 46,
+            "line": 50,
             "name": "I click opinion button",
             "match": {
               "location": "stepDefinitions.HomeStepDefinition.i_click_opinion_button()"
@@ -841,13 +842,13 @@
           },
           {
             "result": {
-              "duration": 120503000,
+              "duration": 3339000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 385000,
+                  "duration": 478000,
                   "status": "passed"
                 },
                 "match": {
@@ -856,7 +857,7 @@
               },
               {
                 "result": {
-                  "duration": 101000,
+                  "duration": 107000,
                   "status": "passed"
                 },
                 "match": {
@@ -864,7 +865,7 @@
                 }
               }
             ],
-            "line": 47,
+            "line": 51,
             "name": "I Verify opinion page title as \"Opinion - The New York Times\"",
             "match": {
               "arguments": [
@@ -885,7 +886,7 @@
         ]
       },
       {
-        "line": 16,
+        "line": 20,
         "name": "",
         "description": "",
         "type": "background",
@@ -893,13 +894,13 @@
         "steps": [
           {
             "result": {
-              "duration": 3381485000,
+              "duration": 2264557000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 655000,
+                  "duration": 412000,
                   "status": "passed"
                 },
                 "match": {
@@ -908,7 +909,7 @@
               },
               {
                 "result": {
-                  "duration": 210000,
+                  "duration": 120000,
                   "status": "passed"
                 },
                 "match": {
@@ -916,7 +917,7 @@
                 }
               }
             ],
-            "line": 17,
+            "line": 21,
             "name": "I am in newYorkTimes homepage",
             "match": {
               "location": "stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage()"
@@ -926,15 +927,15 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-19T16:38:26.554Z",
-        "line": 50,
+        "start_timestamp": "2020-09-20T20:43:23.543Z",
+        "line": 54,
         "name": "New York times technology page functionality with valid data",
         "description": "",
         "id": "new-york-times-world-page-functionality;new-york-times-technology-page-functionality-with-valid-data",
         "after": [
           {
             "result": {
-              "duration": 112512000,
+              "duration": 87495000,
               "status": "passed"
             },
             "match": {
@@ -943,7 +944,7 @@
           },
           {
             "result": {
-              "duration": 87000,
+              "duration": 59000,
               "status": "passed"
             },
             "match": {
@@ -956,13 +957,13 @@
         "steps": [
           {
             "result": {
-              "duration": 1025262000,
+              "duration": 1076847000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 504000,
+                  "duration": 411000,
                   "status": "passed"
                 },
                 "match": {
@@ -971,7 +972,7 @@
               },
               {
                 "result": {
-                  "duration": 142000,
+                  "duration": 102000,
                   "status": "passed"
                 },
                 "match": {
@@ -979,7 +980,7 @@
                 }
               }
             ],
-            "line": 51,
+            "line": 55,
             "name": "I click technology button",
             "match": {
               "location": "stepDefinitions.HomeStepDefinition.i_click_technology_button()"
@@ -988,13 +989,13 @@
           },
           {
             "result": {
-              "duration": 397640000,
+              "duration": 38937000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 547000,
+                  "duration": 440000,
                   "status": "passed"
                 },
                 "match": {
@@ -1003,7 +1004,7 @@
               },
               {
                 "result": {
-                  "duration": 152000,
+                  "duration": 106000,
                   "status": "passed"
                 },
                 "match": {
@@ -1011,7 +1012,7 @@
                 }
               }
             ],
-            "line": 52,
+            "line": 56,
             "name": "I verify technology page title as \"Technology - The New York Times\"",
             "match": {
               "arguments": [
@@ -1032,7 +1033,7 @@
         ]
       },
       {
-        "line": 16,
+        "line": 20,
         "name": "",
         "description": "",
         "type": "background",
@@ -1040,13 +1041,13 @@
         "steps": [
           {
             "result": {
-              "duration": 3249801000,
+              "duration": 2036625000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 932000,
+                  "duration": 374000,
                   "status": "passed"
                 },
                 "match": {
@@ -1055,7 +1056,7 @@
               },
               {
                 "result": {
-                  "duration": 447000,
+                  "duration": 98000,
                   "status": "passed"
                 },
                 "match": {
@@ -1063,7 +1064,7 @@
                 }
               }
             ],
-            "line": 17,
+            "line": 21,
             "name": "I am in newYorkTimes homepage",
             "match": {
               "location": "stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage()"
@@ -1073,15 +1074,15 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-19T16:38:31.486Z",
-        "line": 55,
+        "start_timestamp": "2020-09-20T20:43:27.022Z",
+        "line": 59,
         "name": "New York times science page functionality with data",
         "description": "",
         "id": "new-york-times-world-page-functionality;new-york-times-science-page-functionality-with-data",
         "after": [
           {
             "result": {
-              "duration": 157049000,
+              "duration": 133265000,
               "status": "passed"
             },
             "match": {
@@ -1090,7 +1091,7 @@
           },
           {
             "result": {
-              "duration": 76000,
+              "duration": 81000,
               "status": "passed"
             },
             "match": {
@@ -1103,115 +1104,13 @@
         "steps": [
           {
             "result": {
-              "duration": 385388000,
+              "duration": 1867934000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 609000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 194000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 56,
-            "name": "I click on science button",
-            "match": {
-              "location": "stepDefinitions.HomeStepDefinition.i_click_on_science_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 763717000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 418000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 94000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 57,
-            "name": "I click on climate",
-            "match": {
-              "location": "stepDefinitions.HomeStepDefinition.i_click_on_climate()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 3145337000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 430000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 110000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 58,
-            "name": "I verify science page title as \"Climate and Environment - The New York Times\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Climate and Environment - The New York Times\"",
-                  "offset": 31
-                }
-              ],
-              "location": "stepDefinitions.HomeStepDefinition.i_verify_science_page_title_as(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 3175991000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 376000,
+                  "duration": 370000,
                   "status": "passed"
                 },
                 "match": {
@@ -1228,22 +1127,22 @@
                 }
               }
             ],
-            "line": 59,
-            "name": "I navigate back to the science page",
+            "line": 60,
+            "name": "I click on science button",
             "match": {
-              "location": "stepDefinitions.HomeStepDefinition.iNavigateBackToTheSciencePage()"
+              "location": "stepDefinitions.HomeStepDefinition.i_click_on_science_button()"
             },
-            "keyword": "Then "
+            "keyword": "When "
           },
           {
             "result": {
-              "duration": 3503589000,
+              "duration": 397504000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 560000,
+                  "duration": 672000,
                   "status": "passed"
                 },
                 "match": {
@@ -1252,7 +1151,7 @@
               },
               {
                 "result": {
-                  "duration": 141000,
+                  "duration": 132000,
                   "status": "passed"
                 },
                 "match": {
@@ -1260,7 +1159,109 @@
                 }
               }
             ],
-            "line": 60,
+            "line": 61,
+            "name": "I click on climate",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.i_click_on_climate()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3074803000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 410000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 101000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 62,
+            "name": "I verify science page title as \"Climate and Environment - The New York Times\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Climate and Environment - The New York Times\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefinitions.HomeStepDefinition.i_verify_science_page_title_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3700198000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 660000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 156000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 63,
+            "name": "I navigate back to the science page",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.iNavigateBackToTheSciencePage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3332813000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 564000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 153000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 64,
             "name": "I click on space and cosmos",
             "match": {
               "location": "stepDefinitions.HomeStepDefinition.iClickOnSpaceAndCosmos()"
@@ -1275,7 +1276,7 @@
         ]
       },
       {
-        "line": 16,
+        "line": 20,
         "name": "",
         "description": "",
         "type": "background",
@@ -1283,172 +1284,13 @@
         "steps": [
           {
             "result": {
-              "duration": 2559364000,
+              "duration": 2909619000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 528000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 135000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 17,
-            "name": "I am in newYorkTimes homepage",
-            "match": {
-              "location": "stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-09-19T16:38:45.886Z",
-        "line": 63,
-        "name": "New York times health page functionality with data",
-        "description": "",
-        "id": "new-york-times-world-page-functionality;new-york-times-health-page-functionality-with-data",
-        "after": [
-          {
-            "result": {
-              "duration": 188471000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.SearchStepDefinition.closeBrowser()"
-            }
-          },
-          {
-            "result": {
-              "duration": 66000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.HomeStepDefinition.closeBrowser()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 5064137000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 764000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 130000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 64,
-            "name": "I click on health button",
-            "match": {
-              "location": "stepDefinitions.HomeStepDefinition.i_click_on_health_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 5889297000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 467000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 342000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 65,
-            "name": "I click on health policy",
-            "match": {
-              "location": "stepDefinitions.HomeStepDefinition.i_click_on_health_policy()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 4585205000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 397000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 113000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 66,
-            "name": "I click on global health",
-            "match": {
-              "location": "stepDefinitions.HomeStepDefinition.i_click_on_global_health()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 6030681000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 366000,
+                  "duration": 379000,
                   "status": "passed"
                 },
                 "match": {
@@ -1465,22 +1307,53 @@
                 }
               }
             ],
-            "line": 67,
-            "name": "I click on the new old age",
+            "line": 21,
+            "name": "I am in newYorkTimes homepage",
             "match": {
-              "location": "stepDefinitions.HomeStepDefinition.i_click_on_the_new_old_age()"
+              "location": "stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage()"
             },
-            "keyword": "And "
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T20:43:41.584Z",
+        "line": 67,
+        "name": "New York times health page functionality with data",
+        "description": "",
+        "id": "new-york-times-world-page-functionality;new-york-times-health-page-functionality-with-data",
+        "after": [
+          {
+            "result": {
+              "duration": 178583000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.SearchStepDefinition.closeBrowser()"
+            }
           },
           {
             "result": {
-              "duration": 98972000,
+              "duration": 93000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4558399000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 455000,
+                  "duration": 441000,
                   "status": "passed"
                 },
                 "match": {
@@ -1489,7 +1362,7 @@
               },
               {
                 "result": {
-                  "duration": 92000,
+                  "duration": 106000,
                   "status": "passed"
                 },
                 "match": {
@@ -1498,6 +1371,135 @@
               }
             ],
             "line": 68,
+            "name": "I click on health button",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.i_click_on_health_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4951200000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 869000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 266000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 69,
+            "name": "I click on health policy",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.i_click_on_health_policy()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[contains(text(),\u0027Global Health\u0027)]\"}\n  (Session info: chrome\u003d85.0.4183.102)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027MacBook-Pro-2.home\u0027, ip: \u0027fd4b:8d38:69ba:1:ad36:a996:c23e:f247%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.6\u0027, java.version: \u002714.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/wz/dgqm41w90yg...}, goog:chromeOptions: {debuggerAddress: localhost:63982}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: ee5a3fd871d20818d5a817237476cf83\n*** Element info: {Using\u003dxpath, value\u003d//a[contains(text(),\u0027Global Health\u0027)]}\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy25.click(Unknown Source)\n\tat stepDefinitions.HomeStepDefinition.i_click_on_global_health(HomeStepDefinition.java:128)\n\tat ✽.I click on global health(file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:70)\n",
+              "duration": 10032486000,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 384000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 87000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 70,
+            "name": "I click on global health",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.i_click_on_global_health()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 41000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 80000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 34000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 71,
+            "name": "I click on the new old age",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.i_click_on_the_new_old_age()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 36000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 33000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 72,
             "name": "I verify health page title as \"Health - The New York Times\"",
             "match": {
               "arguments": [
@@ -1518,7 +1520,7 @@
         ]
       },
       {
-        "line": 16,
+        "line": 20,
         "name": "",
         "description": "",
         "type": "background",
@@ -1526,13 +1528,13 @@
         "steps": [
           {
             "result": {
-              "duration": 2938364000,
+              "duration": 3166258000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 830000,
+                  "duration": 381000,
                   "status": "passed"
                 },
                 "match": {
@@ -1541,7 +1543,7 @@
               },
               {
                 "result": {
-                  "duration": 216000,
+                  "duration": 99000,
                   "status": "passed"
                 },
                 "match": {
@@ -1549,7 +1551,7 @@
                 }
               }
             ],
-            "line": 17,
+            "line": 21,
             "name": "I am in newYorkTimes homepage",
             "match": {
               "location": "stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage()"
@@ -1559,925 +1561,15 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-19T16:39:10.320Z",
-        "line": 71,
+        "start_timestamp": "2020-09-20T20:44:04.231Z",
+        "line": 75,
         "name": "New york times sport page functionality with data",
         "description": "",
         "id": "new-york-times-world-page-functionality;new-york-times-sport-page-functionality-with-data",
         "after": [
           {
             "result": {
-              "duration": 252412000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.SearchStepDefinition.closeBrowser()"
-            }
-          },
-          {
-            "result": {
-              "duration": 74000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.HomeStepDefinition.closeBrowser()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 3553287000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 441000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 172000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 72,
-            "name": "I click on sport button",
-            "match": {
-              "location": "stepDefinitions.HomeStepDefinition.i_click_on_sport_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 4386161000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 417000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 118000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 73,
-            "name": "I click on baseball",
-            "match": {
-              "location": "stepDefinitions.HomeStepDefinition.i_click_on_baseball()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 4799428000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 383000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 180000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 74,
-            "name": "I click on NFL",
-            "match": {
-              "location": "stepDefinitions.HomeStepDefinition.i_click_on_nfl()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 6254110000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 311000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 87000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 75,
-            "name": "I click on soccer",
-            "match": {
-              "location": "stepDefinitions.HomeStepDefinition.iClickOnSoccer()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 5147553000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 489000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 128000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 76,
-            "name": "I click on NBA",
-            "match": {
-              "location": "stepDefinitions.HomeStepDefinition.i_click_on_nba()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 6021538000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 404000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 127000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 77,
-            "name": "I click on tennis",
-            "match": {
-              "location": "stepDefinitions.HomeStepDefinition.i_click_on_tennis()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 130188000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 504000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 214000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 78,
-            "name": "I verify sport page title as \"Sports - The New York Times\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Sports - The New York Times\"",
-                  "offset": 29
-                }
-              ],
-              "location": "stepDefinitions.HomeStepDefinition.i_verify_sport_page_title_as(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@SmokeTest"
-          }
-        ]
-      },
-      {
-        "line": 16,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 2373779000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 366000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 125000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 17,
-            "name": "I am in newYorkTimes homepage",
-            "match": {
-              "location": "stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-09-19T16:39:43.824Z",
-        "line": 81,
-        "name": "New york times Arts functionality with data",
-        "description": "",
-        "id": "new-york-times-world-page-functionality;new-york-times-arts-functionality-with-data",
-        "after": [
-          {
-            "result": {
-              "duration": 199477000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.SearchStepDefinition.closeBrowser()"
-            }
-          },
-          {
-            "result": {
-              "duration": 83000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.HomeStepDefinition.closeBrowser()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 6073298000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 429000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 83000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 82,
-            "name": "I click on Arts button",
-            "match": {
-              "location": "stepDefinitions.HomeStepDefinition.i_click_on_arts_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 3825798000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 353000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 82000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 83,
-            "name": "I click on books",
-            "match": {
-              "location": "stepDefinitions.HomeStepDefinition.i_click_on_books()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 4301198000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 660000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 153000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 84,
-            "name": "I click on dance",
-            "match": {
-              "location": "stepDefinitions.HomeStepDefinition.i_click_on_dance()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 5768789000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 366000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 190000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 85,
-            "name": "I click on movies",
-            "match": {
-              "location": "stepDefinitions.HomeStepDefinition.i_click_on_movies()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 83401000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 555000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 309000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 86,
-            "name": "I verify Arts page title as \"Arts - The New York Times\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Arts - The New York Times\"",
-                  "offset": 28
-                }
-              ],
-              "location": "stepDefinitions.HomeStepDefinition.iVerifyArtsPageTitleAs(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@SmokeTest"
-          }
-        ]
-      },
-      {
-        "line": 16,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 3639023000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 684000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 323000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 17,
-            "name": "I am in newYorkTimes homepage",
-            "match": {
-              "location": "stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-09-19T16:40:06.468Z",
-        "line": 89,
-        "name": "New york times Books functionality with data",
-        "description": "",
-        "id": "new-york-times-world-page-functionality;new-york-times-books-functionality-with-data",
-        "after": [
-          {
-            "result": {
-              "duration": 165043000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.SearchStepDefinition.closeBrowser()"
-            }
-          },
-          {
-            "result": {
-              "duration": 80000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.HomeStepDefinition.closeBrowser()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 4286987000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 358000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 91000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 90,
-            "name": "I click on Books button",
-            "match": {
-              "location": "stepDefinitions.HomeStepDefinition.i_click_on_books_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 3099084000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 547000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 99000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 91,
-            "name": "I click on bookReview",
-            "match": {
-              "location": "stepDefinitions.HomeStepDefinition.i_click_on_book_review()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 3538508000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 654000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 156000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 92,
-            "name": "I click on bestSeller",
-            "match": {
-              "location": "stepDefinitions.HomeStepDefinition.iClickOnBestSeller()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 10442000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 408000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 105000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 93,
-            "name": "I verify best seller page as \"Best Sellers - The New York Times\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Best Sellers - The New York Times\"",
-                  "offset": 29
-                }
-              ],
-              "location": "stepDefinitions.HomeStepDefinition.i_verify_best_seller_page_as(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@SmokeTest"
-          }
-        ]
-      },
-      {
-        "line": 16,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 4169524000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 494000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 155000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 17,
-            "name": "I am in newYorkTimes homepage",
-            "match": {
-              "location": "stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-09-19T16:40:21.220Z",
-        "line": 96,
-        "name": "New times byTheBook functionality with data",
-        "description": "",
-        "id": "new-york-times-world-page-functionality;new-times-bythebook-functionality-with-data",
-        "after": [
-          {
-            "result": {
-              "duration": 163218000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.SearchStepDefinition.closeBrowser()"
-            }
-          },
-          {
-            "result": {
-              "duration": 70000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.HomeStepDefinition.closeBrowser()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 3819768000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 332000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 99000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 97,
-            "name": "I click on books button1",
-            "match": {
-              "location": "stepDefinitions.HomeStepDefinition.i_click_on_books_button1()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 4153886000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 394000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 100000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 98,
-            "name": "I click on ByTheBooks",
-            "match": {
-              "location": "stepDefinitions.HomeStepDefinition.i_click_on_by_the_books()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 3023590000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 379000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 94000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 99,
-            "name": "I verify ByTheBooks page as \"By the Book - The New York Times\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"By the Book - The New York Times\"",
-                  "offset": 28
-                }
-              ],
-              "location": "stepDefinitions.HomeStepDefinition.i_verify_by_the_books_page_as(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@SmokeTest"
-          }
-        ]
-      }
-    ],
-    "name": "New york Times world page functionality",
-    "description": "  New york Times US page functionality\n  New york Times politics page functionality\n  New york times NY page functionality\n  New york times business page functionality\n  New york times opinion page functionality\n  New york times technology page functionality\n  New york times science page functionality\n  New york times health page functionality\n  New york times sport page functionality\n  New york times arts page functionality\n  New york Books page functionality\n  New york times page by the book functionality",
-    "id": "new-york-times-world-page-functionality",
-    "keyword": "Feature",
-    "uri": "file:src/test/java/features/HomePage.feature",
-    "tags": []
-  },
-  {
-    "line": 1,
-    "elements": [
-      {
-        "start_timestamp": "2020-09-19T16:40:36.564Z",
-        "line": 5,
-        "name": "",
-        "description": "",
-        "id": "new-york-times-search-functionality-check;",
-        "after": [
-          {
-            "result": {
-              "duration": 116699000,
+              "duration": 208449000,
               "status": "passed"
             },
             "match": {
@@ -2499,13 +1591,13 @@
         "steps": [
           {
             "result": {
-              "duration": 4155539000,
+              "duration": 4099648000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 405000,
+                  "duration": 557000,
                   "status": "passed"
                 },
                 "match": {
@@ -2514,7 +1606,1717 @@
               },
               {
                 "result": {
-                  "duration": 112000,
+                  "duration": 139000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 76,
+            "name": "I click on sport button",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.i_click_on_sport_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4474517000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 486000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 140000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 77,
+            "name": "I click on baseball",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.i_click_on_baseball()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4401669000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 418000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 119000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 78,
+            "name": "I click on NFL",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.i_click_on_nfl()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4495977000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 454000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 107000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 79,
+            "name": "I click on soccer",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.iClickOnSoccer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4913880000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 426000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 92000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 80,
+            "name": "I click on NBA",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.i_click_on_nba()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4598655000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 443000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 119000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 81,
+            "name": "I click on tennis",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.i_click_on_tennis()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13284000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 513000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 124000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 82,
+            "name": "I verify sport page title as \"Sports - The New York Times\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sports - The New York Times\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepDefinitions.HomeStepDefinition.i_verify_sport_page_title_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2280501000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 381000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 102000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 21,
+            "name": "I am in newYorkTimes homepage",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T20:44:34.620Z",
+        "line": 85,
+        "name": "New york times Arts functionality with data",
+        "description": "",
+        "id": "new-york-times-world-page-functionality;new-york-times-arts-functionality-with-data",
+        "after": [
+          {
+            "result": {
+              "duration": 138802000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.SearchStepDefinition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 69000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5319860000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 353000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 85000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 86,
+            "name": "I click on Arts button",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.i_click_on_arts_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7348751000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 412000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 106000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 87,
+            "name": "I click on books",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.i_click_on_books()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4350482000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 370000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 95000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 88,
+            "name": "I click on dance",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.i_click_on_dance()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4121749000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 320000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 96000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 89,
+            "name": "I click on movies",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.i_click_on_movies()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[The New York Times - Breaking News, World News \u0026 Multimedia]\u003e but was:\u003c[Arts - The New York Times]\u003e\n\tat org.junit.Assert.assertEquals(Assert.java:117)\n\tat org.junit.Assert.assertEquals(Assert.java:146)\n\tat base.CommonAPI.validateByTitle(CommonAPI.java:568)\n\tat stepDefinitions.HomeStepDefinition.iVerifyArtsPageTitleAs(HomeStepDefinition.java:207)\n\tat ✽.I verify Arts page title as \"Arts - The New York Times\"(file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:90)\n",
+              "duration": 137332000,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 402000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 94000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 90,
+            "name": "I verify Arts page title as \"Arts - The New York Times\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Arts - The New York Times\"",
+                  "offset": 28
+                }
+              ],
+              "location": "stepDefinitions.HomeStepDefinition.iVerifyArtsPageTitleAs(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2773421000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 422000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 97000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 21,
+            "name": "I am in newYorkTimes homepage",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T20:44:58.330Z",
+        "line": 93,
+        "name": "New york times Books functionality with data",
+        "description": "",
+        "id": "new-york-times-world-page-functionality;new-york-times-books-functionality-with-data",
+        "after": [
+          {
+            "result": {
+              "duration": 142281000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.SearchStepDefinition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 75000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6796396000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 387000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 99000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 94,
+            "name": "I click on Books button",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.i_click_on_books_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3386105000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 805000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 157000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 95,
+            "name": "I click on bookReview",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.i_click_on_book_review()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3567664000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 782000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 132000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 96,
+            "name": "I click on bestSeller",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.iClickOnBestSeller()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11540000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 728000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 146000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 97,
+            "name": "I verify best seller page as \"Best Sellers - The New York Times\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Best Sellers - The New York Times\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepDefinitions.HomeStepDefinition.i_verify_best_seller_page_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2992787000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 321000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 87000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 21,
+            "name": "I am in newYorkTimes homepage",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T20:45:15.020Z",
+        "line": 100,
+        "name": "New York times byTheBook functionality with data",
+        "description": "",
+        "id": "new-york-times-world-page-functionality;new-york-times-bythebook-functionality-with-data",
+        "after": [
+          {
+            "result": {
+              "duration": 135254000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.SearchStepDefinition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 85000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6866273000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 377000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 96000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 101,
+            "name": "I click on books button1",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.i_click_on_books_button1()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3313024000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 336000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 84000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 102,
+            "name": "I click on ByTheBooks",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.i_click_on_by_the_books()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3031416000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 393000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 96000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 103,
+            "name": "I verify ByTheBooks page as \"By the Book - The New York Times\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"By the Book - The New York Times\"",
+                  "offset": 28
+                }
+              ],
+              "location": "stepDefinitions.HomeStepDefinition.i_verify_by_the_books_page_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2281594000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 347000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 90000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 21,
+            "name": "I am in newYorkTimes homepage",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T20:45:31.369Z",
+        "line": 106,
+        "name": "New York Times crime page functionality",
+        "description": "",
+        "id": "new-york-times-world-page-functionality;new-york-times-crime-page-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 150161000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.SearchStepDefinition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 54000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4522095000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 342000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 81000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 107,
+            "name": "I click on books button2",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.i_click_on_books_button2()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3079700000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 467000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 116000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 108,
+            "name": "I click om crime button",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.i_click_om_crime_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 36724000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 542000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 143000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 109,
+            "name": "I verify crime page as \"Crime - The New York Times\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Crime - The New York Times\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepDefinitions.HomeStepDefinition.i_verify_crime_page_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2154597000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 352000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 99000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 21,
+            "name": "I am in newYorkTimes homepage",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T20:45:41.452Z",
+        "line": 112,
+        "name": "New York times children\u0027s book page functionality",
+        "description": "",
+        "id": "new-york-times-world-page-functionality;new-york-times-children-s-book-page-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 138461000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.SearchStepDefinition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 58000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7877233000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 826000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 258000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 113,
+            "name": "I click on children\u0027s book",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.i_click_on_children_s_book()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21928000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 514000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 141000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 114,
+            "name": "I verify children\u0027s book page as \"Children’s Books - The New York Times\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Children’s Books - The New York Times\"",
+                  "offset": 33
+                }
+              ],
+              "location": "stepDefinitions.HomeStepDefinition.i_verify_children_s_book_page_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3288503000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 561000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 222000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 21,
+            "name": "I am in newYorkTimes homepage",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T20:45:51.653Z",
+        "line": 117,
+        "name": "New york times book review podcast page functionality",
+        "description": "",
+        "id": "new-york-times-world-page-functionality;new-york-times-book-review-podcast-page-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 123429000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.SearchStepDefinition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 297000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5002573000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 705000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 177000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 118,
+            "name": "I click on bookReviewPodcast",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.i_click_on_book_review_podcast()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 213484000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 359000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 89000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 119,
+            "name": "I verify bookReviewPodcast page as \"The Book Review Podcast - The New York Times\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"The Book Review Podcast - The New York Times\"",
+                  "offset": 35
+                }
+              ],
+              "location": "stepDefinitions.HomeStepDefinition.i_verify_book_review_podcast_page_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4663860000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 462000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 133000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 21,
+            "name": "I am in newYorkTimes homepage",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T20:46:00.290Z",
+        "line": 122,
+        "name": "New york times nowReadThis page functionality",
+        "description": "",
+        "id": "new-york-times-world-page-functionality;new-york-times-nowreadthis-page-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 147485000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.SearchStepDefinition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 81000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6384789000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 583000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 121000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 123,
+            "name": "I click on Now read this",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.i_click_on_now_read_this()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17927000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 516000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 144000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 124,
+            "name": "I verify NowReadThis page as \"Now Read This - The New York Times\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Now Read This - The New York Times\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepDefinitions.HomeStepDefinition.i_verify_now_read_this_page_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3425655000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 391000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 101000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 21,
+            "name": "I am in newYorkTimes homepage",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T20:46:11.513Z",
+        "line": 127,
+        "name": "new york times style page Functionality",
+        "description": "",
+        "id": "new-york-times-world-page-functionality;new-york-times-style-page-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 157115000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.SearchStepDefinition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 76000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3901023000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 644000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 155000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 128,
+            "name": "I click on style button",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.i_click_on_style_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3975028000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 319000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 76000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 129,
+            "name": "I click on fashion button",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.i_click_on_fashion_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18651000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 548000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 195000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 130,
+            "name": "I validate fashion page as \"Fashion - The New York Times\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Fashion - The New York Times\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepDefinitions.HomeStepDefinition.i_validate_fashion_page_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "New york Times world page functionality",
+    "description": "  New york Times US page functionality\n  New york Times politics page functionality\n  New york times NY page functionality\n  New york times business page functionality\n  New york times opinion page functionality\n  New york times technology page functionality\n  New york times science page functionality\n  New york times health page functionality\n  New york times sport page functionality\n  New york times arts page functionality\n  New york Books page functionality\n  New york times page by the book functionality\n  New York times page crime functionality\n  New York times page children\u0027s book functionality\n  New york times page nowReadThis functionality\n  New york times page style functionality",
+    "id": "new-york-times-world-page-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/HomePage.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-20T20:46:23.003Z",
+        "line": 5,
+        "name": "",
+        "description": "",
+        "id": "new-york-times-search-functionality-check;",
+        "after": [
+          {
+            "result": {
+              "duration": 128594000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.SearchStepDefinition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 62000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3753903000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 355000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 88000,
                   "status": "passed"
                 },
                 "match": {
@@ -2531,13 +3333,13 @@
           },
           {
             "result": {
-              "duration": 3265775000,
+              "duration": 3340594000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 418000,
+                  "duration": 335000,
                   "status": "passed"
                 },
                 "match": {
@@ -2546,7 +3348,7 @@
               },
               {
                 "result": {
-                  "duration": 194000,
+                  "duration": 82000,
                   "status": "passed"
                 },
                 "match": {
@@ -2563,13 +3365,13 @@
           },
           {
             "result": {
-              "duration": 2161519000,
+              "duration": 2156869000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 730000,
+                  "duration": 477000,
                   "status": "passed"
                 },
                 "match": {
@@ -2578,7 +3380,7 @@
               },
               {
                 "result": {
-                  "duration": 102000,
+                  "duration": 134000,
                   "status": "passed"
                 },
                 "match": {
@@ -2601,13 +3403,13 @@
           },
           {
             "result": {
-              "duration": 1311362000,
+              "duration": 1232885000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 498000,
+                  "duration": 658000,
                   "status": "passed"
                 },
                 "match": {
@@ -2616,7 +3418,7 @@
               },
               {
                 "result": {
-                  "duration": 112000,
+                  "duration": 140000,
                   "status": "passed"
                 },
                 "match": {
@@ -2633,13 +3435,13 @@
           },
           {
             "result": {
-              "duration": 347829000,
+              "duration": 324728000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 427000,
+                  "duration": 411000,
                   "status": "passed"
                 },
                 "match": {

@@ -1,48 +1,55 @@
 
 @SmokeTest
-Scenario: New york times world page functionality checked with valid data # src/test/java/features/HomePage.feature:20
+Scenario: New york times world page functionality checked with valid data # src/test/java/features/HomePage.feature:24
   Given I am in newYorkTimes homepage                                     # stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage()
   When I click on worldButton                                             # stepDefinitions.HomeStepDefinition.i_click_on_world_button()
   Then I verify page title as "World News - The New York Times"           # stepDefinitions.HomeStepDefinition.i_verify_page_title_as(java.lang.String)
 
 @SmokeTest
-Scenario: New York times US page functionality checked with valid data                       # src/test/java/features/HomePage.feature:25
+Scenario: New York times US page functionality checked with valid data                       # src/test/java/features/HomePage.feature:29
   Given I am in newYorkTimes homepage                                                        # stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage()
   When I click on US button                                                                  # stepDefinitions.HomeStepDefinition.iClickOnUSButton()
   Then I verify page title1 as "The New York Times - Breaking News, World News & Multimedia" # stepDefinitions.HomeStepDefinition.i_verify_page_title1_as(java.lang.String)
 
 @SmokeTest
-Scenario: New York Times politics page functionality with valid data # src/test/java/features/HomePage.feature:30
+Scenario: New York Times politics page functionality with valid data # src/test/java/features/HomePage.feature:34
   Given I am in newYorkTimes homepage                                # stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage()
   When I click on politics button                                    # stepDefinitions.HomeStepDefinition.i_click_on_politics_button()
   Then I verify page title2 as "Politics - The New York Times"       # stepDefinitions.HomeStepDefinition.i_verify_page_title2_as(java.lang.String)
 
 @SmokeTest
-Scenario: New York Times NY page functionality with valid data # src/test/java/features/HomePage.feature:35
+Scenario: New York Times NY page functionality with valid data # src/test/java/features/HomePage.feature:39
   Given I am in newYorkTimes homepage                          # stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage()
   When I click on NY button                                    # stepDefinitions.HomeStepDefinition.i_click_on_ny_button()
   Then I verify page Title3 as "New York - The New York Times" # stepDefinitions.HomeStepDefinition.i_verify_page_title3_as(java.lang.String)
 
 @SmokeTest
-Scenario: New York times business page functionality with valid data   # src/test/java/features/HomePage.feature:40
+Scenario: New York times business page functionality with valid data   # src/test/java/features/HomePage.feature:44
   Given I am in newYorkTimes homepage                                  # stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage()
   When I click business button                                         # stepDefinitions.HomeStepDefinition.i_click_business_button()
   Then I verify business page title as "Business - The New York Times" # stepDefinitions.HomeStepDefinition.i_verify_business_page_title_as(java.lang.String)
+      org.junit.ComparisonFailure: expected:<[The New York Times - Breaking News, World News & Multimedia]> but was:<[Business - The New York Times]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at base.CommonAPI.validateByTitle(CommonAPI.java:568)
+	at stepDefinitions.HomeStepDefinition.i_verify_business_page_title_as(HomeStepDefinition.java:74)
+	at ✽.I verify business page title as "Business - The New York Times"(file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:46)
+
 
 @SmokeTest
-Scenario:                                                            # src/test/java/features/HomePage.feature:45
+Scenario:                                                            # src/test/java/features/HomePage.feature:49
   Given I am in newYorkTimes homepage                                # stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage()
   When I click opinion button                                        # stepDefinitions.HomeStepDefinition.i_click_opinion_button()
   Then I Verify opinion page title as "Opinion - The New York Times" # stepDefinitions.HomeStepDefinition.i_verify_opinion_page_title_as(java.lang.String)
 
 @SmokeTest
-Scenario: New York times technology page functionality with valid data     # src/test/java/features/HomePage.feature:50
+Scenario: New York times technology page functionality with valid data     # src/test/java/features/HomePage.feature:54
   Given I am in newYorkTimes homepage                                      # stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage()
   When I click technology button                                           # stepDefinitions.HomeStepDefinition.i_click_technology_button()
   Then I verify technology page title as "Technology - The New York Times" # stepDefinitions.HomeStepDefinition.i_verify_technology_page_title_as(java.lang.String)
 
 @SmokeTest
-Scenario: New York times science page functionality with data                       # src/test/java/features/HomePage.feature:55
+Scenario: New York times science page functionality with data                       # src/test/java/features/HomePage.feature:59
   Given I am in newYorkTimes homepage                                               # stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage()
   When I click on science button                                                    # stepDefinitions.HomeStepDefinition.i_click_on_science_button()
   And I click on climate                                                            # stepDefinitions.HomeStepDefinition.i_click_on_climate()
@@ -51,16 +58,46 @@ Scenario: New York times science page functionality with data                   
   And I click on space and cosmos                                                   # stepDefinitions.HomeStepDefinition.iClickOnSpaceAndCosmos()
 
 @SmokeTest
-Scenario: New York times health page functionality with data       # src/test/java/features/HomePage.feature:63
+Scenario: New York times health page functionality with data       # src/test/java/features/HomePage.feature:67
   Given I am in newYorkTimes homepage                              # stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage()
   When I click on health button                                    # stepDefinitions.HomeStepDefinition.i_click_on_health_button()
   And I click on health policy                                     # stepDefinitions.HomeStepDefinition.i_click_on_health_policy()
   And I click on global health                                     # stepDefinitions.HomeStepDefinition.i_click_on_global_health()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Global Health')]"}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-2.home', ip: 'fd4b:8d38:69ba:1:ad36:a996:c23e:f247%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/wz/dgqm41w90yg...}, goog:chromeOptions: {debuggerAddress: localhost:63982}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ee5a3fd871d20818d5a817237476cf83
+*** Element info: {Using=xpath, value=//a[contains(text(),'Global Health')]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at stepDefinitions.HomeStepDefinition.i_click_on_global_health(HomeStepDefinition.java:128)
+	at ✽.I click on global health(file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:70)
+
   And I click on the new old age                                   # stepDefinitions.HomeStepDefinition.i_click_on_the_new_old_age()
   Then I verify health page title as "Health - The New York Times" # stepDefinitions.HomeStepDefinition.i_verify_health_page_title_as(java.lang.String)
 
 @SmokeTest
-Scenario: New york times sport page functionality with data       # src/test/java/features/HomePage.feature:71
+Scenario: New york times sport page functionality with data       # src/test/java/features/HomePage.feature:75
   Given I am in newYorkTimes homepage                             # stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage()
   When I click on sport button                                    # stepDefinitions.HomeStepDefinition.i_click_on_sport_button()
   And I click on baseball                                         # stepDefinitions.HomeStepDefinition.i_click_on_baseball()
@@ -71,16 +108,23 @@ Scenario: New york times sport page functionality with data       # src/test/jav
   Then I verify sport page title as "Sports - The New York Times" # stepDefinitions.HomeStepDefinition.i_verify_sport_page_title_as(java.lang.String)
 
 @SmokeTest
-Scenario: New york times Arts functionality with data          # src/test/java/features/HomePage.feature:81
+Scenario: New york times Arts functionality with data          # src/test/java/features/HomePage.feature:85
   Given I am in newYorkTimes homepage                          # stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage()
   When I click on Arts button                                  # stepDefinitions.HomeStepDefinition.i_click_on_arts_button()
   And I click on books                                         # stepDefinitions.HomeStepDefinition.i_click_on_books()
   And I click on dance                                         # stepDefinitions.HomeStepDefinition.i_click_on_dance()
   And I click on movies                                        # stepDefinitions.HomeStepDefinition.i_click_on_movies()
   Then I verify Arts page title as "Arts - The New York Times" # stepDefinitions.HomeStepDefinition.iVerifyArtsPageTitleAs(java.lang.String)
+      org.junit.ComparisonFailure: expected:<[The New York Times - Breaking News, World News & Multimedia]> but was:<[Arts - The New York Times]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at base.CommonAPI.validateByTitle(CommonAPI.java:568)
+	at stepDefinitions.HomeStepDefinition.iVerifyArtsPageTitleAs(HomeStepDefinition.java:207)
+	at ✽.I verify Arts page title as "Arts - The New York Times"(file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:90)
+
 
 @SmokeTest
-Scenario: New york times Books functionality with data                  # src/test/java/features/HomePage.feature:89
+Scenario: New york times Books functionality with data                  # src/test/java/features/HomePage.feature:93
   Given I am in newYorkTimes homepage                                   # stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage()
   When I click on Books button                                          # stepDefinitions.HomeStepDefinition.i_click_on_books_button()
   And I click on bookReview                                             # stepDefinitions.HomeStepDefinition.i_click_on_book_review()
@@ -88,11 +132,43 @@ Scenario: New york times Books functionality with data                  # src/te
   Then I verify best seller page as "Best Sellers - The New York Times" # stepDefinitions.HomeStepDefinition.i_verify_best_seller_page_as(java.lang.String)
 
 @SmokeTest
-Scenario: New times byTheBook functionality with data                 # src/test/java/features/HomePage.feature:96
+Scenario: New York times byTheBook functionality with data            # src/test/java/features/HomePage.feature:100
   Given I am in newYorkTimes homepage                                 # stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage()
   When I click on books button1                                       # stepDefinitions.HomeStepDefinition.i_click_on_books_button1()
   And I click on ByTheBooks                                           # stepDefinitions.HomeStepDefinition.i_click_on_by_the_books()
   Then I verify ByTheBooks page as "By the Book - The New York Times" # stepDefinitions.HomeStepDefinition.i_verify_by_the_books_page_as(java.lang.String)
+
+@SmokeTest
+Scenario: New York Times crime page functionality          # src/test/java/features/HomePage.feature:106
+  Given I am in newYorkTimes homepage                      # stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage()
+  When I click on books button2                            # stepDefinitions.HomeStepDefinition.i_click_on_books_button2()
+  And I click om crime button                              # stepDefinitions.HomeStepDefinition.i_click_om_crime_button()
+  Then I verify crime page as "Crime - The New York Times" # stepDefinitions.HomeStepDefinition.i_verify_crime_page_as(java.lang.String)
+
+@SmokeTest
+Scenario: New York times children's book page functionality                     # src/test/java/features/HomePage.feature:112
+  Given I am in newYorkTimes homepage                                           # stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage()
+  When I click on children's book                                               # stepDefinitions.HomeStepDefinition.i_click_on_children_s_book()
+  Then I verify children's book page as "Children’s Books - The New York Times" # stepDefinitions.HomeStepDefinition.i_verify_children_s_book_page_as(java.lang.String)
+
+@SmokeTest
+Scenario: New york times book review podcast page functionality                          # src/test/java/features/HomePage.feature:117
+  Given I am in newYorkTimes homepage                                                    # stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage()
+  When I click on bookReviewPodcast                                                      # stepDefinitions.HomeStepDefinition.i_click_on_book_review_podcast()
+  Then I verify bookReviewPodcast page as "The Book Review Podcast - The New York Times" # stepDefinitions.HomeStepDefinition.i_verify_book_review_podcast_page_as(java.lang.String)
+
+@SmokeTest
+Scenario: New york times nowReadThis page functionality                  # src/test/java/features/HomePage.feature:122
+  Given I am in newYorkTimes homepage                                    # stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage()
+  When I click on Now read this                                          # stepDefinitions.HomeStepDefinition.i_click_on_now_read_this()
+  Then I verify NowReadThis page as "Now Read This - The New York Times" # stepDefinitions.HomeStepDefinition.i_verify_now_read_this_page_as(java.lang.String)
+
+@SmokeTest
+Scenario: new york times style page Functionality                # src/test/java/features/HomePage.feature:127
+  Given I am in newYorkTimes homepage                            # stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage()
+  When I click on style button                                   # stepDefinitions.HomeStepDefinition.i_click_on_style_button()
+  And I click on fashion button                                  # stepDefinitions.HomeStepDefinition.i_click_on_fashion_button()
+  Then I validate fashion page as "Fashion - The New York Times" # stepDefinitions.HomeStepDefinition.i_validate_fashion_page_as(java.lang.String)
 
 @SmokeTest
 Scenario:                                                          # src/test/java/features/SearchPage.feature:5
