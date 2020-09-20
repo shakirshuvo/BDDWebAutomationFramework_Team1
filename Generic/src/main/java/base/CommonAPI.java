@@ -128,9 +128,33 @@ public class CommonAPI {
     public String saucelabs_username = "";
     public String saucelabs_accesskey = "";
 
-    public void openBrowser() throws IOException {
-        setUp(false, "browserstack", "windows", "10", "chrome-options", "85", "https://www.thehartford.com/");
+//    public void openBrowser(String url, String os) throws IOException {
+////        setUp(false, "browserstack", "windows", "10", "chrome-options", "85", url);
+////        setUp(false, "browserstack", "windows", "10", "chrome-options", "85", "https://www.amazon.com/");
+//        String mac = "OS X";
+//        String windows = "Windows";
+//        if (os.equalsIgnoreCase(mac)) {
+//            setUp(false, "browserstack", "OS X", "10", "chrome-options", "85", url);
+//
+//        } else if (os.equalsIgnoreCase(windows)) {
+//            setUp(false, "browserstack", "windows", "10", "chrome-options", "85", url);
+//
+//        }
+//
+//    }
+
+    public void openBrowser(String url) throws IOException {
+        String mac = "OS X";
+        String windows = "windows";
+
+        try {
+            setUp(false, "browserstack", "windows", "10", "chrome", "85", url);
+        } catch (Exception e) {
+            System.out.println("Let's try Mac");
+            setUp(false, "browserstack", "OS X", "catalina", "chrome-options", "85", url);
+        }
     }
+
 
     @Parameters({"useCloudEnv", "cloudEnvName", "os", "os_version", "browserName", "browserVersion", "url"})
     @BeforeMethod
@@ -674,6 +698,7 @@ public class CommonAPI {
         boolean value = driver1.findElement(By.cssSelector(locator)).isDisplayed();
         return value;
     }
+
     public static boolean isPopUpWindowDisplayedByXpath(WebDriver driver1, String locator) {
         boolean value = driver1.findElement(By.xpath(locator)).isDisplayed();
         return value;
@@ -715,7 +740,7 @@ public class CommonAPI {
     public void validateByTwoTextByClass(String element, String text1, String text2) {
         if (text1 == driver.findElement(By.className(element)).getText()) {
             Assert.assertEquals(text1, driver.findElement(By.className(element)).getText());
-        } else if (text2 == driver.findElement(By.className(element)).getText()){
+        } else if (text2 == driver.findElement(By.className(element)).getText()) {
             Assert.assertEquals(text2, driver.findElement(By.className(element)).getText());
         }
     }

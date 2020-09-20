@@ -26,7 +26,6 @@ public class RegistrationDefinition extends CommonAPI {
 
     @When("I click on {string} link on homepage")
     public void i_click_on_link_on_homepage(String title) {
-        System.out.println(title);
         clickOnElement(startHereXPathWebElement);
     }
 

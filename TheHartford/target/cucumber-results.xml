@@ -1,18 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="39.053">
-    <testcase classname="The Hartford 'Get a Quote Auto' functionality check" name="Check that user can fill out 'About You' form. After filling out the form, the user" time="38.611">
-        <system-out>
-            <![CDATA[Given I am on The Hartford homepage.........................................passed
-When I enter a valid zip code on the Auto Zip Code field....................passed
-And I click on Start Quote button...........................................passed
-And I enter a "Shakir" on `First Name` field................................passed
-And I enter a "Jahangir" on `Last Name` field...............................passed
-And I enter a "1604 Spring Hill Rd" on the `Street Address` field...........passed
-And I enter a "302" number on `Apt or Suite` field..........................passed
-And I enter a "03/16/1983" on the `Date of Birth` field.....................passed
-And I click on `Next: Add Your Vehicle` button..............................passed
-Then I verify thank you text................................................passed
-]]>
-        </system-out>
-    </testcase>
-</testsuite>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" time="0.009"/>

@@ -27,7 +27,7 @@ Feature: Amazon search functionality check
       | department | pageText                              |
       | Computers  | Computers, Tablets and IT Accessories |
 
-  @SearchTest @SmokeTest
+  @SearchTest @SmokeTest @MyTest
   Scenario Outline: Amazon 'All' dropdown search functionality check by selecting each department and validating
     with page text
     When I select "<department>" from 'All' dropdown

@@ -16,8 +16,8 @@ import org.junit.runner.RunWith;
         dryRun = false,
 //        tags = "(@SmokeTest or @Regression) and (not @pending)"
 //        tags = "@HomeTest"
-        tags = "@MyTest"
-
+//        tags = "@MyTest"
+        tags = "@DummyTest"
 )
 
 public class TestRunner {
