@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
         strict = true,
         monochrome = true,
         publish = true,
-        dryRun = true,
+        dryRun = false,
         tags = "(@SmokeTest or @Regression) and (not @pending)"
 
 )

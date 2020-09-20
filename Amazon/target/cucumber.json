@@ -1,0 +1,1660 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 3,
+            "name": "I am on Amazon Homepage",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T21:25:00.999Z",
+        "line": 5,
+        "name": "Best Sellers Functionality Check",
+        "description": "",
+        "id": "amazon-homepage-functionality-check;best-sellers-functionality-check",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 998200,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "I click on Best sellers a new page appears",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "I validate the test1 by page title",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 3,
+            "name": "I am on Amazon Homepage",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T21:25:01.233Z",
+        "line": 9,
+        "name": "Customer Service Functionality Check",
+        "description": "",
+        "id": "amazon-homepage-functionality-check;customer-service-functionality-check",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000800,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I click on Customer Service a new page appears",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 998800,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I validate the test2 by page title",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 3,
+            "name": "I am on Amazon Homepage",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T21:25:01.269Z",
+        "line": 13,
+        "name": "Todays Deal Functionality Check",
+        "description": "",
+        "id": "amazon-homepage-functionality-check;todays-deal-functionality-check",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5995400,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I click on Todays Deal a new page appears",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I validate the test3 by page title",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 3,
+            "name": "I am on Amazon Homepage",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T21:25:01.300Z",
+        "line": 17,
+        "name": "New Releases Functionality Check",
+        "description": "",
+        "id": "amazon-homepage-functionality-check;new-releases-functionality-check",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "I click on New Releases a new page appears",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 999000,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "I validate the test4 by page title",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 3,
+            "name": "I am on Amazon Homepage",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T21:25:01.315Z",
+        "line": 21,
+        "name": "Find a Gift Functionality Check",
+        "description": "",
+        "id": "amazon-homepage-functionality-check;find-a-gift-functionality-check",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "I click on Find a Gift a new page appears",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 999400,
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "I validate the test5 by page title",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 3,
+            "name": "I am on Amazon Homepage",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T21:25:01.328Z",
+        "line": 25,
+        "name": "Whole Foods Functionality Check",
+        "description": "",
+        "id": "amazon-homepage-functionality-check;whole-foods-functionality-check",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "I click on Whole Foods a new page appears",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "I validate the test6 by page title",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 3,
+            "name": "I am on Amazon Homepage",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T21:25:01.348Z",
+        "line": 29,
+        "name": "Gift Cards Functionality Check",
+        "description": "",
+        "id": "amazon-homepage-functionality-check;gift-cards-functionality-check",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4997100,
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "I click on Gift Cards a new page appears",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "I validate the test7 by page title",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 3,
+            "name": "I am on Amazon Homepage",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T21:25:01.387Z",
+        "line": 33,
+        "name": "Free Shipping Functionality Check",
+        "description": "",
+        "id": "amazon-homepage-functionality-check;free-shipping-functionality-check",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "I click on Free Shipping a new page appears",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "I validate the test8 by page title",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 3,
+            "name": "I am on Amazon Homepage",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T21:25:01.420Z",
+        "line": 37,
+        "name": "Registry Functionality Check",
+        "description": "",
+        "id": "amazon-homepage-functionality-check;registry-functionality-check",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 998900,
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "I click on Registry a new page appears",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 39,
+            "name": "I validate the test9 by page title",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 3,
+            "name": "I am on Amazon Homepage",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T21:25:01.439Z",
+        "line": 41,
+        "name": "Sell Functionality Check",
+        "description": "",
+        "id": "amazon-homepage-functionality-check;sell-functionality-check",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 42,
+            "name": "I click on Sell a new page appears",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 999200,
+              "status": "skipped"
+            },
+            "line": 43,
+            "name": "I validate the test10 by page title",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 3,
+            "name": "I am on Amazon Homepage",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T21:25:01.451Z",
+        "line": 45,
+        "name": "Coupons Functionality Check",
+        "description": "",
+        "id": "amazon-homepage-functionality-check;coupons-functionality-check",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 46,
+            "name": "I click on Coupons a new page appears",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 47,
+            "name": "I validate the test11 by page title",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 3,
+            "name": "I am on Amazon Homepage",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T21:25:01.461Z",
+        "line": 49,
+        "name": "Amazon Basics Functionality Check",
+        "description": "",
+        "id": "amazon-homepage-functionality-check;amazon-basics-functionality-check",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 50,
+            "name": "I click on Amazon Basics a new page appears",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 999800,
+              "status": "skipped"
+            },
+            "line": 51,
+            "name": "I validate the test12 by page title",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 3,
+            "name": "I am on Amazon Homepage",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T21:25:01.480Z",
+        "line": 53,
+        "name": "Found It On Amazon Functionality Check",
+        "description": "",
+        "id": "amazon-homepage-functionality-check;found-it-on-amazon-functionality-check",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 54,
+            "name": "I click on Found It On Amazon a new page appears",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 55,
+            "name": "I validate the test13 by page title",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 3,
+            "name": "I am on Amazon Homepage",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T21:25:01.506Z",
+        "line": 57,
+        "name": "Account Lists Functionality Check",
+        "description": "",
+        "id": "amazon-homepage-functionality-check;account-lists-functionality-check",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 58,
+            "name": "I click on Account Lists a new page appears",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 59,
+            "name": "I validate the test14 by page title",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 3,
+            "name": "I am on Amazon Homepage",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T21:25:01.522Z",
+        "line": 61,
+        "name": "Orders Functionality Check",
+        "description": "",
+        "id": "amazon-homepage-functionality-check;orders-functionality-check",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1998600,
+              "status": "skipped"
+            },
+            "line": 62,
+            "name": "I click on Orders a new page appears",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 63,
+            "name": "I validate the test15 by page title",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 3,
+            "name": "I am on Amazon Homepage",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T21:25:01.546Z",
+        "line": 65,
+        "name": "Try Prime Functionality Check",
+        "description": "",
+        "id": "amazon-homepage-functionality-check;try-prime-functionality-check",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 999400,
+              "status": "skipped"
+            },
+            "line": 66,
+            "name": "I click on Try Prime a new page appears",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 67,
+            "name": "I validate the test16 by page title",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 3,
+            "name": "I am on Amazon Homepage",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T21:25:01.577Z",
+        "line": 69,
+        "name": "Cart Functionality Check",
+        "description": "",
+        "id": "amazon-homepage-functionality-check;cart-functionality-check",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 70,
+            "name": "I click on Cart a new page appears",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 999200,
+              "status": "skipped"
+            },
+            "line": 71,
+            "name": "I validate the test17 by page title",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 3,
+            "name": "I am on Amazon Homepage",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T21:25:01.597Z",
+        "line": 73,
+        "name": "Select Your Address Functionality Check",
+        "description": "",
+        "id": "amazon-homepage-functionality-check;select-your-address-functionality-check",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 74,
+            "name": "I click on Select Your Address a new page appears",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 75,
+            "name": "I validate the test18 by page title",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 3,
+            "name": "I am on Amazon Homepage",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T21:25:01.611Z",
+        "line": 77,
+        "name": "Careers Functionality Check",
+        "description": "",
+        "id": "amazon-homepage-functionality-check;careers-functionality-check",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 78,
+            "name": "I click on Careers a new page appears",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 79,
+            "name": "I validate the test19 by page title",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 3,
+            "name": "I am on Amazon Homepage",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T21:25:01.619Z",
+        "line": 81,
+        "name": "Blog Functionality Check",
+        "description": "",
+        "id": "amazon-homepage-functionality-check;blog-functionality-check",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 82,
+            "name": "I click on Blog a new page appears",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 83,
+            "name": "I validate the test20 by page title",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 3,
+            "name": "I am on Amazon Homepage",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T21:25:01.634Z",
+        "line": 85,
+        "name": "Amazon Devices Functionality Check",
+        "description": "",
+        "id": "amazon-homepage-functionality-check;amazon-devices-functionality-check",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 999700,
+              "status": "skipped"
+            },
+            "line": 86,
+            "name": "I click on Amazon Devices a new page appears",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 999500,
+              "status": "skipped"
+            },
+            "line": 87,
+            "name": "I validate the test21 by page title",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 3,
+            "name": "I am on Amazon Homepage",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T21:25:01.663Z",
+        "line": 89,
+        "name": "Press Center Functionality Check",
+        "description": "",
+        "id": "amazon-homepage-functionality-check;press-center-functionality-check",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 999400,
+              "status": "skipped"
+            },
+            "line": 90,
+            "name": "I click on Press Center a new page appears",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 91,
+            "name": "I validate the test22 by page title",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 3,
+            "name": "I am on Amazon Homepage",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T21:25:01.681Z",
+        "line": 93,
+        "name": "Amazon Tours Functionality Check",
+        "description": "",
+        "id": "amazon-homepage-functionality-check;amazon-tours-functionality-check",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 999900,
+              "status": "skipped"
+            },
+            "line": 94,
+            "name": "I click on Amazon Tours a new page appears",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 95,
+            "name": "I validate the test23 by page title",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 3,
+            "name": "I am on Amazon Homepage",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T21:25:01.691Z",
+        "line": 97,
+        "name": "Sell On Amazon Functionality Check",
+        "description": "",
+        "id": "amazon-homepage-functionality-check;sell-on-amazon-functionality-check",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 999600,
+              "status": "skipped"
+            },
+            "line": 98,
+            "name": "I click on Sell On Amazon a new page appears",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 99,
+            "name": "I validate the test24 by page title",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 3,
+            "name": "I am on Amazon Homepage",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T21:25:01.711Z",
+        "line": 101,
+        "name": "Become Affiliate Functionality Check",
+        "description": "",
+        "id": "amazon-homepage-functionality-check;become-affiliate-functionality-check",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 102,
+            "name": "I click on Become Affiliate a new page appears",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 103,
+            "name": "I validate the test25 by page title",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 3,
+            "name": "I am on Amazon Homepage",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T21:25:01.722Z",
+        "line": 105,
+        "name": "Advertise Products Functionality Check",
+        "description": "",
+        "id": "amazon-homepage-functionality-check;advertise-products-functionality-check",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1999200,
+              "status": "skipped"
+            },
+            "line": 106,
+            "name": "I click on Advertise Products a new page appears",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 999000,
+              "status": "skipped"
+            },
+            "line": 107,
+            "name": "I validate the test26 by page title",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 3,
+            "name": "I am on Amazon Homepage",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T21:25:01.733Z",
+        "line": 109,
+        "name": "Amazon Store Card Functionality Check",
+        "description": "",
+        "id": "amazon-homepage-functionality-check;amazon-store-card-functionality-check",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 110,
+            "name": "I click on Amazon Store Card a new page appears",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 999000,
+              "status": "skipped"
+            },
+            "line": 111,
+            "name": "I validate the test27 by page title",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 3,
+            "name": "I am on Amazon Homepage",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T21:25:01.746Z",
+        "line": 113,
+        "name": "Shop With Points Functionality Check",
+        "description": "",
+        "id": "amazon-homepage-functionality-check;shop-with-points-functionality-check",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 114,
+            "name": "I click on Shop With Points a new page appears",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 115,
+            "name": "I validate the test28 by page title",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 3,
+            "name": "I am on Amazon Homepage",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T21:25:01.757Z",
+        "line": 117,
+        "name": "Currency Converter Functionality Check",
+        "description": "",
+        "id": "amazon-homepage-functionality-check;currency-converter-functionality-check",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 998700,
+              "status": "skipped"
+            },
+            "line": 118,
+            "name": "I click on Currency Converter a new page appears",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 119,
+            "name": "I validate the test29 by page title",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 3,
+            "name": "I am on Amazon Homepage",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T21:25:01.821Z",
+        "line": 121,
+        "name": "Credit Card Market Place Functionality Check",
+        "description": "",
+        "id": "amazon-homepage-functionality-check;credit-card-market-place-functionality-check",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 122,
+            "name": "I click on Credit Card Market Place a new page appears",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 999900,
+              "status": "skipped"
+            },
+            "line": 123,
+            "name": "I validate the test by30 page title",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Amazon Homepage Functionality Check",
+    "description": "",
+    "id": "amazon-homepage-functionality-check",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/HomePage.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-20T21:25:01.884Z",
+        "line": 4,
+        "name": "Amazon search field functionality check with valid data",
+        "description": "",
+        "id": "amazon-search-functionality-check;amazon-search-field-functionality-check-with-valid-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "I am on Amazon homepage",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "I enter \"Hand Sanitizer\" in search field",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4997200,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "I submit search field",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I verify page title as \"Amazon.ca : hand sanitizers\"",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Amazon search functionality check",
+    "description": "",
+    "id": "amazon-search-functionality-check",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Search.feature",
+    "tags": []
+  }
+]

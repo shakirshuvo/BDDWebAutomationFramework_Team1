@@ -1,0 +1,784 @@
+-------------------------------------------------------------------------------
+Test set: testRunner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 31, Failures: 0, Errors: 31, Skipped: 0, Time elapsed: 4.242 s <<< FAILURE! - in testRunner.TestRunner
+Amazon Homepage Functionality Check.Best Sellers Functionality Check  Time elapsed: 0.539 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "I am on Amazon Homepage" is undefined. You can implement it using the snippet(s) below:
+
+@Given("I am on Amazon Homepage")
+public void i_am_on_amazon_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When("I click on Best sellers a new page appears")
+public void i_click_on_best_sellers_a_new_page_appears() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I validate the test1 by page title")
+public void i_validate_the_test1_by_page_title() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Amazon Homepage Functionality Check.Customer Service Functionality Check  Time elapsed: 0.03 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "I am on Amazon Homepage" is undefined. You can implement it using the snippet(s) below:
+
+@Given("I am on Amazon Homepage")
+public void i_am_on_amazon_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When("I click on Customer Service a new page appears")
+public void i_click_on_customer_service_a_new_page_appears() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I validate the test2 by page title")
+public void i_validate_the_test2_by_page_title() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Amazon Homepage Functionality Check.Todays Deal Functionality Check  Time elapsed: 0.031 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "I am on Amazon Homepage" is undefined. You can implement it using the snippet(s) below:
+
+@Given("I am on Amazon Homepage")
+public void i_am_on_amazon_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When("I click on Todays Deal a new page appears")
+public void i_click_on_todays_deal_a_new_page_appears() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I validate the test3 by page title")
+public void i_validate_the_test3_by_page_title() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Amazon Homepage Functionality Check.New Releases Functionality Check  Time elapsed: 0.018 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "I am on Amazon Homepage" is undefined. You can implement it using the snippet(s) below:
+
+@Given("I am on Amazon Homepage")
+public void i_am_on_amazon_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When("I click on New Releases a new page appears")
+public void i_click_on_new_releases_a_new_page_appears() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I validate the test4 by page title")
+public void i_validate_the_test4_by_page_title() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Amazon Homepage Functionality Check.Find a Gift Functionality Check  Time elapsed: 0.01 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "I am on Amazon Homepage" is undefined. You can implement it using the snippet(s) below:
+
+@Given("I am on Amazon Homepage")
+public void i_am_on_amazon_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When("I click on Find a Gift a new page appears")
+public void i_click_on_find_a_gift_a_new_page_appears() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I validate the test5 by page title")
+public void i_validate_the_test5_by_page_title() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Amazon Homepage Functionality Check.Whole Foods Functionality Check  Time elapsed: 0.011 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "I am on Amazon Homepage" is undefined. You can implement it using the snippet(s) below:
+
+@Given("I am on Amazon Homepage")
+public void i_am_on_amazon_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When("I click on Whole Foods a new page appears")
+public void i_click_on_whole_foods_a_new_page_appears() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I validate the test6 by page title")
+public void i_validate_the_test6_by_page_title() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Amazon Homepage Functionality Check.Gift Cards Functionality Check  Time elapsed: 0.026 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "I am on Amazon Homepage" is undefined. You can implement it using the snippet(s) below:
+
+@Given("I am on Amazon Homepage")
+public void i_am_on_amazon_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When("I click on Gift Cards a new page appears")
+public void i_click_on_gift_cards_a_new_page_appears() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I validate the test7 by page title")
+public void i_validate_the_test7_by_page_title() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Amazon Homepage Functionality Check.Free Shipping Functionality Check  Time elapsed: 0.02 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "I am on Amazon Homepage" is undefined. You can implement it using the snippet(s) below:
+
+@Given("I am on Amazon Homepage")
+public void i_am_on_amazon_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When("I click on Free Shipping a new page appears")
+public void i_click_on_free_shipping_a_new_page_appears() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I validate the test8 by page title")
+public void i_validate_the_test8_by_page_title() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Amazon Homepage Functionality Check.Registry Functionality Check  Time elapsed: 0.023 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "I am on Amazon Homepage" is undefined. You can implement it using the snippet(s) below:
+
+@Given("I am on Amazon Homepage")
+public void i_am_on_amazon_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When("I click on Registry a new page appears")
+public void i_click_on_registry_a_new_page_appears() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I validate the test9 by page title")
+public void i_validate_the_test9_by_page_title() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Amazon Homepage Functionality Check.Sell Functionality Check  Time elapsed: 0.015 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "I am on Amazon Homepage" is undefined. You can implement it using the snippet(s) below:
+
+@Given("I am on Amazon Homepage")
+public void i_am_on_amazon_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When("I click on Sell a new page appears")
+public void i_click_on_sell_a_new_page_appears() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I validate the test10 by page title")
+public void i_validate_the_test10_by_page_title() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Amazon Homepage Functionality Check.Coupons Functionality Check  Time elapsed: 0.009 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "I am on Amazon Homepage" is undefined. You can implement it using the snippet(s) below:
+
+@Given("I am on Amazon Homepage")
+public void i_am_on_amazon_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When("I click on Coupons a new page appears")
+public void i_click_on_coupons_a_new_page_appears() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I validate the test11 by page title")
+public void i_validate_the_test11_by_page_title() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Amazon Homepage Functionality Check.Amazon Basics Functionality Check  Time elapsed: 0.01 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "I am on Amazon Homepage" is undefined. You can implement it using the snippet(s) below:
+
+@Given("I am on Amazon Homepage")
+public void i_am_on_amazon_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When("I click on Amazon Basics a new page appears")
+public void i_click_on_amazon_basics_a_new_page_appears() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I validate the test12 by page title")
+public void i_validate_the_test12_by_page_title() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Amazon Homepage Functionality Check.Found It On Amazon Functionality Check  Time elapsed: 0.024 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "I am on Amazon Homepage" is undefined. You can implement it using the snippet(s) below:
+
+@Given("I am on Amazon Homepage")
+public void i_am_on_amazon_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When("I click on Found It On Amazon a new page appears")
+public void i_click_on_found_it_on_amazon_a_new_page_appears() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I validate the test13 by page title")
+public void i_validate_the_test13_by_page_title() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Amazon Homepage Functionality Check.Account Lists Functionality Check  Time elapsed: 0.015 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "I am on Amazon Homepage" is undefined. You can implement it using the snippet(s) below:
+
+@Given("I am on Amazon Homepage")
+public void i_am_on_amazon_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When("I click on Account Lists a new page appears")
+public void i_click_on_account_lists_a_new_page_appears() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I validate the test14 by page title")
+public void i_validate_the_test14_by_page_title() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Amazon Homepage Functionality Check.Orders Functionality Check  Time elapsed: 0.018 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "I am on Amazon Homepage" is undefined. You can implement it using the snippet(s) below:
+
+@Given("I am on Amazon Homepage")
+public void i_am_on_amazon_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When("I click on Orders a new page appears")
+public void i_click_on_orders_a_new_page_appears() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I validate the test15 by page title")
+public void i_validate_the_test15_by_page_title() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Amazon Homepage Functionality Check.Try Prime Functionality Check  Time elapsed: 0.026 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "I am on Amazon Homepage" is undefined. You can implement it using the snippet(s) below:
+
+@Given("I am on Amazon Homepage")
+public void i_am_on_amazon_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When("I click on Try Prime a new page appears")
+public void i_click_on_try_prime_a_new_page_appears() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I validate the test16 by page title")
+public void i_validate_the_test16_by_page_title() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Amazon Homepage Functionality Check.Cart Functionality Check  Time elapsed: 0.012 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "I am on Amazon Homepage" is undefined. You can implement it using the snippet(s) below:
+
+@Given("I am on Amazon Homepage")
+public void i_am_on_amazon_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When("I click on Cart a new page appears")
+public void i_click_on_cart_a_new_page_appears() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I validate the test17 by page title")
+public void i_validate_the_test17_by_page_title() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Amazon Homepage Functionality Check.Select Your Address Functionality Check  Time elapsed: 0.017 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "I am on Amazon Homepage" is undefined. You can implement it using the snippet(s) below:
+
+@Given("I am on Amazon Homepage")
+public void i_am_on_amazon_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When("I click on Select Your Address a new page appears")
+public void i_click_on_select_your_address_a_new_page_appears() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I validate the test18 by page title")
+public void i_validate_the_test18_by_page_title() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Amazon Homepage Functionality Check.Careers Functionality Check  Time elapsed: 0.009 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "I am on Amazon Homepage" is undefined. You can implement it using the snippet(s) below:
+
+@Given("I am on Amazon Homepage")
+public void i_am_on_amazon_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When("I click on Careers a new page appears")
+public void i_click_on_careers_a_new_page_appears() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I validate the test19 by page title")
+public void i_validate_the_test19_by_page_title() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Amazon Homepage Functionality Check.Blog Functionality Check  Time elapsed: 0.008 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "I am on Amazon Homepage" is undefined. You can implement it using the snippet(s) below:
+
+@Given("I am on Amazon Homepage")
+public void i_am_on_amazon_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When("I click on Blog a new page appears")
+public void i_click_on_blog_a_new_page_appears() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I validate the test20 by page title")
+public void i_validate_the_test20_by_page_title() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Amazon Homepage Functionality Check.Amazon Devices Functionality Check  Time elapsed: 0.017 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "I am on Amazon Homepage" is undefined. You can implement it using the snippet(s) below:
+
+@Given("I am on Amazon Homepage")
+public void i_am_on_amazon_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When("I click on Amazon Devices a new page appears")
+public void i_click_on_amazon_devices_a_new_page_appears() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I validate the test21 by page title")
+public void i_validate_the_test21_by_page_title() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Amazon Homepage Functionality Check.Press Center Functionality Check  Time elapsed: 0.022 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "I am on Amazon Homepage" is undefined. You can implement it using the snippet(s) below:
+
+@Given("I am on Amazon Homepage")
+public void i_am_on_amazon_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When("I click on Press Center a new page appears")
+public void i_click_on_press_center_a_new_page_appears() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I validate the test22 by page title")
+public void i_validate_the_test22_by_page_title() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Amazon Homepage Functionality Check.Amazon Tours Functionality Check  Time elapsed: 0.014 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "I am on Amazon Homepage" is undefined. You can implement it using the snippet(s) below:
+
+@Given("I am on Amazon Homepage")
+public void i_am_on_amazon_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When("I click on Amazon Tours a new page appears")
+public void i_click_on_amazon_tours_a_new_page_appears() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I validate the test23 by page title")
+public void i_validate_the_test23_by_page_title() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Amazon Homepage Functionality Check.Sell On Amazon Functionality Check  Time elapsed: 0.012 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "I am on Amazon Homepage" is undefined. You can implement it using the snippet(s) below:
+
+@Given("I am on Amazon Homepage")
+public void i_am_on_amazon_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When("I click on Sell On Amazon a new page appears")
+public void i_click_on_sell_on_amazon_a_new_page_appears() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I validate the test24 by page title")
+public void i_validate_the_test24_by_page_title() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Amazon Homepage Functionality Check.Become Affiliate Functionality Check  Time elapsed: 0.013 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "I am on Amazon Homepage" is undefined. You can implement it using the snippet(s) below:
+
+@Given("I am on Amazon Homepage")
+public void i_am_on_amazon_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When("I click on Become Affiliate a new page appears")
+public void i_click_on_become_affiliate_a_new_page_appears() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I validate the test25 by page title")
+public void i_validate_the_test25_by_page_title() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Amazon Homepage Functionality Check.Advertise Products Functionality Check  Time elapsed: 0.009 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "I am on Amazon Homepage" is undefined. You can implement it using the snippet(s) below:
+
+@Given("I am on Amazon Homepage")
+public void i_am_on_amazon_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When("I click on Advertise Products a new page appears")
+public void i_click_on_advertise_products_a_new_page_appears() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I validate the test26 by page title")
+public void i_validate_the_test26_by_page_title() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Amazon Homepage Functionality Check.Amazon Store Card Functionality Check  Time elapsed: 0.009 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "I am on Amazon Homepage" is undefined. You can implement it using the snippet(s) below:
+
+@Given("I am on Amazon Homepage")
+public void i_am_on_amazon_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When("I click on Amazon Store Card a new page appears")
+public void i_click_on_amazon_store_card_a_new_page_appears() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I validate the test27 by page title")
+public void i_validate_the_test27_by_page_title() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Amazon Homepage Functionality Check.Shop With Points Functionality Check  Time elapsed: 0.01 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "I am on Amazon Homepage" is undefined. You can implement it using the snippet(s) below:
+
+@Given("I am on Amazon Homepage")
+public void i_am_on_amazon_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When("I click on Shop With Points a new page appears")
+public void i_click_on_shop_with_points_a_new_page_appears() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I validate the test28 by page title")
+public void i_validate_the_test28_by_page_title() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Amazon Homepage Functionality Check.Currency Converter Functionality Check  Time elapsed: 0.028 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "I am on Amazon Homepage" is undefined. You can implement it using the snippet(s) below:
+
+@Given("I am on Amazon Homepage")
+public void i_am_on_amazon_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When("I click on Currency Converter a new page appears")
+public void i_click_on_currency_converter_a_new_page_appears() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I validate the test29 by page title")
+public void i_validate_the_test29_by_page_title() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Amazon Homepage Functionality Check.Credit Card Market Place Functionality Check  Time elapsed: 0.02 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "I am on Amazon Homepage" is undefined. You can implement it using the snippet(s) below:
+
+@Given("I am on Amazon Homepage")
+public void i_am_on_amazon_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When("I click on Credit Card Market Place a new page appears")
+public void i_click_on_credit_card_market_place_a_new_page_appears() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I validate the test by30 page title")
+public void i_validate_the_test_by30_page_title() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Amazon search functionality check.Amazon search field functionality check with valid data  Time elapsed: 0.067 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "I am on Amazon homepage" is undefined. You can implement it using the snippet(s) below:
+
+@Given("I am on Amazon homepage")
+public void i_am_on_amazon_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@Given("I enter {string} in search field")
+public void i_enter_in_search_field(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I submit search field")
+public void i_submit_search_field() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I verify page title as {string}")
+public void i_verify_page_title_as(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+

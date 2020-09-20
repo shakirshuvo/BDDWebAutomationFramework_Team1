@@ -25,7 +25,7 @@ public class HomeStepDefinition extends CommonAPI {
 
     @Given("I am on Bank of America Homepage")
     public void i_am_on_bank_of_america_homepage() throws IOException {
-        openBrowser();
+        openBrowser("https://www.bankofamerica.com/");
     }
 
     @When("I click on enroll button")
@@ -135,9 +135,14 @@ public class HomeStepDefinition extends CommonAPI {
     public void i_validate_the_test_by_checking_wealth_management_is_clickable() {
         homePage.verifyWealthManagement();
     }
-    @When("I click on Business And Institutions button")
-    public void i_click_on_business_and_institutions_button() {
+//    @When("I click on Business And Institutions button")
+//    public void i_click_on_business_and_institutions_button() {
+//        homePage.clickOnElement(businessAndInstitutionsWebElementsCSS);
+//    }
+    @When("I click on Business and Institutions button")
+    public void iClickOnBusinessAndInstitutionsButton() {
         homePage.clickOnElement(businessAndInstitutionsWebElementsCSS);
+
     }
 
     @Then("I validate the test by checking business and institutions is clickable")
@@ -533,6 +538,8 @@ public class HomeStepDefinition extends CommonAPI {
     public void iValidateByText() {
         validateByText(validateLoanCalculatorByID, "450");
     }
+
+
 }
 
 

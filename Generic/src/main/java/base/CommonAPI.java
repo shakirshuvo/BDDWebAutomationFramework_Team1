@@ -127,9 +127,23 @@ public class CommonAPI {
     public String browserstack_accesskey = "dGpR3twU2pLPLgXZxmSa";
     public String saucelabs_username = "";
     public String saucelabs_accesskey = "";
+//
+//    public void openBrowser() throws IOException {
+//        setUp(false, "browserstack", "windows", "10", "chrome", "85", "https://www.bankofamerica.com/");
+//    }
 
-    public void openBrowser() throws IOException {
-        setUp(false, "browserstack", "windows", "10", "chrome", "85", "https://www.nytimes.com/");
+    public void openBrowser(String url) throws IOException {
+        String mac = "OS X";
+        String windows = "windows";
+
+        try {
+            setUp(false, "browserstack", "OS X", "catalina", "chrome-options", "85", url);
+
+        } catch (Exception e) {
+            System.out.println("Let's try Windows");
+            setUp(false, "browserstack", "windows", "10", "chrome", "85", url);
+
+        }
     }
 
     @Parameters({"useCloudEnv", "cloudEnvName", "os", "os_version", "browserName", "browserVersion", "url"})

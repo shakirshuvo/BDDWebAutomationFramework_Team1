@@ -1,1 +1,110 @@
-[]
+[
+  {
+    "source": "I am on Bank of America Homepage",
+    "steps": [
+      {
+        "name": "I am on Bank of America Homepage",
+        "aggregatedDurations": {
+          "median": 26.2399906,
+          "average": 26.2399906
+        },
+        "durations": [
+          {
+            "duration": 26.2399906,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/HomePage.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on enroll button",
+    "steps": [
+      {
+        "name": "I click on enroll button",
+        "aggregatedDurations": {
+          "median": 5.7091438,
+          "average": 5.7091438
+        },
+        "durations": [
+          {
+            "duration": 5.7091438,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/HomePage.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter invalid six digits account number {string} in card account box",
+    "steps": [
+      {
+        "name": "I enter invalid six digits account number \"123456\" in card account box",
+        "aggregatedDurations": {
+          "median": 3.1643171,
+          "average": 3.1643171
+        },
+        "durations": [
+          {
+            "duration": 3.1643171,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/HomePage.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter invalid social security number in social security box",
+    "steps": [
+      {
+        "name": "I enter invalid social security number in social security box",
+        "aggregatedDurations": {
+          "median": 10.3380344,
+          "average": 10.3380344
+        },
+        "durations": [
+          {
+            "duration": 10.3380344,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/HomePage.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on continue button",
+    "steps": [
+      {
+        "name": "I click on continue button",
+        "aggregatedDurations": {
+          "median": 20.1743024,
+          "average": 20.1743024
+        },
+        "durations": [
+          {
+            "duration": 20.1743024,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/HomePage.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate the test by the error message {string}",
+    "steps": [
+      {
+        "name": "I validate the test by the error message \"We\u0027re unable to complete your request at this time.\"",
+        "aggregatedDurations": {
+          "median": 0.1399198,
+          "average": 0.1399198
+        },
+        "durations": [
+          {
+            "duration": 0.1399198,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/HomePage.feature:12"
+          }
+        ]
+      }
+    ]
+  }
+]
