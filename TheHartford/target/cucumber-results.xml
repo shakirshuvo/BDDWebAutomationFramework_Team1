@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="18" time="120.719">
-    <testcase classname="The Hartford Home Page Functionality Check" name="Check Find Agent Web element is functional" time="10.234">
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="18" time="117.997">
+    <testcase classname="The Hartford Home Page Functionality Check" name="Check Find Agent Web element is functional" time="9.183">
         <system-out>
             <![CDATA[Given I on The Heart Fort Homepage..........................................passed
 When I Click on Find Agent Web Element......................................passed
@@ -8,7 +8,7 @@ Then I Verify Find Agent page title.........................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="The Hartford Home Page Functionality Check" name="Check Home Web element is functional" time="5.218">
+    <testcase classname="The Hartford Home Page Functionality Check" name="Check Home Web element is functional" time="4.371">
         <system-out>
             <![CDATA[Given I on The Heart Fort Homepage..........................................passed
 When I Click on Home Web Element............................................passed
@@ -16,26 +16,15 @@ Then I Verify Home page title...............................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="The Hartford Home Page Functionality Check" name="Check Business Web element is functional" time="8.041">
-        <failure message="expected [Business, Home &amp; Car Insurance Quotes | The Hartford Insurance] but found [Business Insurance | Insurance for Business Owners | The Hartford]" type="java.lang.AssertionError">
+    <testcase classname="The Hartford Home Page Functionality Check" name="Check Business Web element is functional" time="4.482">
+        <system-out>
             <![CDATA[Given I on The Heart Fort Homepage..........................................passed
 When I Click on Business Web Element........................................passed
-Then I Verify Business page title...........................................failed
-
-StackTrace:
-java.lang.AssertionError: expected [Business, Home & Car Insurance Quotes | The Hartford Insurance] but found [Business Insurance | Insurance for Business Owners | The Hartford]
-	at org.testng.Assert.fail(Assert.java:97)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
-	at org.testng.Assert.assertEquals(Assert.java:118)
-	at org.testng.Assert.assertEquals(Assert.java:575)
-	at org.testng.Assert.assertEquals(Assert.java:585)
-	at search.Search.validateBusinessTab(Search.java:154)
-	at stepDefinitions.HomeStepDefinition.iVerifyBusinessPageTitle(HomeStepDefinition.java:92)
-	at ✽.I Verify Business page title(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:31)
+Then I Verify Business page title...........................................passed
 ]]>
-        </failure>
+        </system-out>
     </testcase>
-    <testcase classname="The Hartford Home Page Functionality Check" name="Check The HartFord Home Image Web element is functional" time="5.823">
+    <testcase classname="The Hartford Home Page Functionality Check" name="Check The HartFord Home Image Web element is functional" time="5.595">
         <system-out>
             <![CDATA[Given I on The Heart Fort Homepage..........................................passed
 When I Click on The HartFord Home Image Web Element.........................passed
@@ -43,7 +32,7 @@ Then I Verify The HartFord Home Image page title............................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="The Hartford Home Page Functionality Check" name="Check About Us Web element is functional" time="4.869">
+    <testcase classname="The Hartford Home Page Functionality Check" name="Check About Us Web element is functional" time="5.488">
         <system-out>
             <![CDATA[Given I on The Heart Fort Homepage..........................................passed
 When I Click on About Us Web Element........................................passed
@@ -51,7 +40,7 @@ Then I Verify TAbout Us page title..........................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="The Hartford Home Page Functionality Check" name="Check Agent and Producers Web element is functional" time="5.404">
+    <testcase classname="The Hartford Home Page Functionality Check" name="Check Agent and Producers Web element is functional" time="6.408">
         <system-out>
             <![CDATA[Given I on The Heart Fort Homepage..........................................passed
 When I Click on Agent and Producers Web Element.............................passed
@@ -59,7 +48,7 @@ Then I Verify Agent and Producers page title................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="The Hartford Home Page Functionality Check" name="Check Contact Us Web element is functional" time="5.358">
+    <testcase classname="The Hartford Home Page Functionality Check" name="Check Contact Us Web element is functional" time="5.594">
         <system-out>
             <![CDATA[Given I on The Heart Fort Homepage..........................................passed
 When I Click on Contact Us Web Element......................................passed
@@ -67,7 +56,7 @@ Then I Verify Contact Us page title.........................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="The Hartford Home Page Functionality Check" name="Check Mobile App Web element is functional" time="5.515">
+    <testcase classname="The Hartford Home Page Functionality Check" name="Check Mobile App Web element is functional" time="5.878">
         <system-out>
             <![CDATA[Given I on The Heart Fort Homepage..........................................passed
 When I Click on Mobile App Web Element......................................passed
@@ -75,7 +64,7 @@ Then I Verify Mobile App page title.........................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="The Hartford Home Page Functionality Check" name="Check Small Business Web element is functional" time="4.669">
+    <testcase classname="The Hartford Home Page Functionality Check" name="Check Small Business Web element is functional" time="5.407">
         <system-out>
             <![CDATA[Given I on The Heart Fort Homepage..........................................passed
 When I Click on Small Business Web Element..................................passed
@@ -83,7 +72,7 @@ Then I Verify MSmall Business page title....................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="The Hartford Home Page Functionality Check" name="Check Privacy Policy Web element is functional" time="5.826">
+    <testcase classname="The Hartford Home Page Functionality Check" name="Check Privacy Policy Web element is functional" time="6.37">
         <system-out>
             <![CDATA[Given I on The Heart Fort Homepage..........................................passed
 When I Click on Privacy Policy Web Element..................................passed
@@ -91,7 +80,7 @@ Then I Verify Privacy Policy page title.....................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="The Hartford Home Page Functionality Check" name="Check Legal Notice Web element is functional" time="8.255">
+    <testcase classname="The Hartford Home Page Functionality Check" name="Check Legal Notice Web element is functional" time="6.734">
         <system-out>
             <![CDATA[Given I on The Heart Fort Homepage..........................................passed
 When I Click on Legal Notice Web Element....................................passed
@@ -99,7 +88,7 @@ Then I Verify Legal Notice page title.......................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="The Hartford Home Page Functionality Check" name="Check Accessibility Statement Web element is functional" time="6.215">
+    <testcase classname="The Hartford Home Page Functionality Check" name="Check Accessibility Statement Web element is functional" time="5.89">
         <system-out>
             <![CDATA[Given I on The Heart Fort Homepage..........................................passed
 When I Click on Accessibility Statement Web Element.........................passed
@@ -107,7 +96,7 @@ Then I Verify Accessibility Statement page title............................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="The Hartford Home Page Functionality Check" name="Check Producers Compensations Web element is functional" time="5.378">
+    <testcase classname="The Hartford Home Page Functionality Check" name="Check Producers Compensations Web element is functional" time="6.257">
         <system-out>
             <![CDATA[Given I on The Heart Fort Homepage..........................................passed
 When I Click on Producers Compensations Web Element.........................passed
@@ -115,7 +104,7 @@ Then I Verify Producers Compensations page title............................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="The Hartford Home Page Functionality Check" name="Check EEO Web element is functional" time="5.611">
+    <testcase classname="The Hartford Home Page Functionality Check" name="Check EEO Web element is functional" time="6.093">
         <system-out>
             <![CDATA[Given I on The Heart Fort Homepage..........................................passed
 When I Click on EEO Web Element.............................................passed
@@ -123,8 +112,8 @@ Then I Verify EEO page title................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="The Hartford Home Page Functionality Check" name="Check FeedBack Web element is functional" time="18.035">
-        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;liveForm&quot;]/div/div[2]/div[1]/div/div/div[2]/div/div/p/p/span/span/strong&quot;}&#10;  (Session info: chrome=85.0.4183.102)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:58227}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 88a319925fa38269af2a95a7da8d5a61&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;liveForm&quot;]/div/div[2]/div[1]/div/div/div[2]/div/div/p/p/span/span/strong}" type="org.openqa.selenium.NoSuchElementException">
+    <testcase classname="The Hartford Home Page Functionality Check" name="Check FeedBack Web element is functional" time="18.128">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;liveForm&quot;]/div/div[2]/div[1]/div/div/div[2]/div/div/p/p/span/span/strong&quot;}&#10;  (Session info: chrome=85.0.4183.102)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:62470}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 9502bff491f261f7043bcc5b545db18e&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;liveForm&quot;]/div/div[2]/div[1]/div/div/div[2]/div/div/p/p/span/span/strong}" type="org.openqa.selenium.NoSuchElementException">
             <![CDATA[Given I on The Heart Fort Homepage..........................................passed
 When I Click on FeedBack Web Element........................................passed
 Then I Verify FeedBack page title...........................................failed
@@ -136,8 +125,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:58227}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 88a319925fa38269af2a95a7da8d5a61
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:62470}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9502bff491f261f7043bcc5b545db18e
 *** Element info: {Using=xpath, value=//*[@id="liveForm"]/div/div[2]/div[1]/div/div/div[2]/div/div/p/p/span/span/strong}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -156,14 +145,14 @@ Session ID: 88a319925fa38269af2a95a7da8d5a61
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at com.sun.proxy.$Proxy24.getText(Unknown Source)
-	at base.CommonAPI.getTextByWebElement(CommonAPI.java:686)
+	at base.CommonAPI.getTextByWebElement(CommonAPI.java:878)
 	at search.Search.validateFeedBack(Search.java:374)
 	at stepDefinitions.HomeStepDefinition.iVerifyFeedBackPageTitle(HomeStepDefinition.java:197)
 	at ✽.I Verify FeedBack page title(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:96)
 ]]>
         </failure>
     </testcase>
-    <testcase classname="The Hartford Home Page Functionality Check" name="Check Car Insurance Web element is functional" time="4.652">
+    <testcase classname="The Hartford Home Page Functionality Check" name="Check Car Insurance Web element is functional" time="5.542">
         <system-out>
             <![CDATA[Given I on The Heart Fort Homepage..........................................passed
 When I Click on Car Insurance Web Element...................................passed
@@ -171,7 +160,7 @@ Then I Verify Car Insurance page title......................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="The Hartford Home Page Functionality Check" name="Check Car Insurance Web element is functional 2" time="5.031">
+    <testcase classname="The Hartford Home Page Functionality Check" name="Check Car Insurance Web element is functional 2" time="5.147">
         <system-out>
             <![CDATA[Given I on The Heart Fort Homepage..........................................passed
 When I Click on Car Insurance Web Element...................................passed
@@ -179,7 +168,7 @@ Then I Verify Car Insurance page title......................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="The Hartford Home Page Functionality Check" name="Check Home Insurance Web element is functional" time="5.815">
+    <testcase classname="The Hartford Home Page Functionality Check" name="Check Home Insurance Web element is functional" time="4.627">
         <system-out>
             <![CDATA[Given I on The Heart Fort Homepage..........................................passed
 When I Click on Home Insurance Web Element..................................passed
