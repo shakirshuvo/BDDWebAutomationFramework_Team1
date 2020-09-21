@@ -193,7 +193,11 @@
                 <artifactId>cucumber-junit</artifactId>
                 <version>6.6.0</version>
             </dependency>
+<<<<<<< HEAD
+            <!--            Faker for generating random username, password, phone number, etc.-->
+=======
 <!--            Faker for generating random username, password, phone number, etc.-->
+>>>>>>> 9e0b88e76ccc7ab00b63dfabaf8878a400e34f17
             <dependency>
                 <groupId>com.github.javafaker</groupId>
                 <artifactId>javafaker</artifactId>
@@ -229,7 +233,7 @@
                     <configuration>
                         <testFailureIgnore>true</testFailureIgnore>
                         <suiteXmlFiles>
-<!--                            <suiteXmlFile>target/test-classes/AmazonTestRunner.xml</suiteXmlFile>-->
+                            <!--                            <suiteXmlFile>target/test-classes/AmazonTestRunner.xml</suiteXmlFile>-->
                             <!--                            <suiteXmlFile></suiteXmlFile>-->
                             <!--                            <suiteXmlFile></suiteXmlFile>-->
                         </suiteXmlFiles>

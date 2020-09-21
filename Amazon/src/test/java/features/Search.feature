@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 Feature: Amazon search functionality check
 
   Background:
@@ -38,3 +40,4 @@ Feature: Amazon search functionality check
       | Computers  | Computers, Tablets and IT Accessories |
 
 
+>>>>>>> 9e0b88e76ccc7ab00b63dfabaf8878a400e34f17

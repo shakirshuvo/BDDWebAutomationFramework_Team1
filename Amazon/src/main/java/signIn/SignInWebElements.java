@@ -42,4 +42,8 @@ public class SignInWebElements {
     public static final String emailMissingAlertTextXpathWebElement = "//div[@id='auth-email-missing-alert']/div/div";
     public static final String passwordMissingAlertTextXpathWebElement = "//div[@id='auth-password-missing-alert']/div/div";
 
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 9e0b88e76ccc7ab00b63dfabaf8878a400e34f17

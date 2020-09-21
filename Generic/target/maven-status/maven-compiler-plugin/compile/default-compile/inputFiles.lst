@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+C:\Users\Waqas\IdeaProjects\BDDWebAutomationFramework_Team1\Generic\src\main\java\utility\WriteExcelFile.java
+C:\Users\Waqas\IdeaProjects\BDDWebAutomationFramework_Team1\Generic\src\main\java\databases\ConnectToMongoDB.java
+C:\Users\Waqas\IdeaProjects\BDDWebAutomationFramework_Team1\Generic\src\main\java\base\CommonAPI.java
+C:\Users\Waqas\IdeaProjects\BDDWebAutomationFramework_Team1\Generic\src\main\java\utility\DataReader.java
+C:\Users\Waqas\IdeaProjects\BDDWebAutomationFramework_Team1\Generic\src\main\java\utility\ReadExcel.java
+C:\Users\Waqas\IdeaProjects\BDDWebAutomationFramework_Team1\Generic\src\main\java\databases\Student.java
+C:\Users\Waqas\IdeaProjects\BDDWebAutomationFramework_Team1\Generic\src\main\java\databases\ConnectToSqlDB.java
+C:\Users\Waqas\IdeaProjects\BDDWebAutomationFramework_Team1\Generic\src\main\java\reporting\ExtentManager.java
+C:\Users\Waqas\IdeaProjects\BDDWebAutomationFramework_Team1\Generic\src\main\java\reporting\TestLogger.java
+C:\Users\Waqas\IdeaProjects\BDDWebAutomationFramework_Team1\Generic\src\main\java\databases\User.java
+C:\Users\Waqas\IdeaProjects\BDDWebAutomationFramework_Team1\Generic\src\main\java\reporting\ApplicationLog.java
+C:\Users\Waqas\IdeaProjects\BDDWebAutomationFramework_Team1\Generic\src\main\java\reporting\ExtentTestManager.java
+=======
 /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Generic/src/main/java/base/CommonAPI.java
 /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Generic/src/main/java/reporting/ExtentManager.java
 /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Generic/src/main/java/utility/WriteExcelFile.java
@@ -10,3 +24,4 @@
 /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Generic/src/main/java/reporting/ExtentTestManager.java
 /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Generic/src/main/java/databases/User.java
 /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Generic/src/main/java/databases/Student.java
+>>>>>>> 9e0b88e76ccc7ab00b63dfabaf8878a400e34f17
