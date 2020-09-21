@@ -1,7 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<<<<<<< HEAD
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" time="0.003"/>
-=======
 <testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="18" time="117.997">
     <testcase classname="The Hartford Home Page Functionality Check" name="Check Find Agent Web element is functional" time="9.183">
         <system-out>
@@ -180,4 +177,3 @@ Then I Verify Home Insurance page title.....................................pass
         </system-out>
     </testcase>
 </testsuite>
->>>>>>> 9e0b88e76ccc7ab00b63dfabaf8878a400e34f17
