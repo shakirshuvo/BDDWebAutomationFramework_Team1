@@ -1,1 +1,690 @@
-[]
+[
+  {
+    "source": "I on The Heart Fort Homepage",
+    "steps": [
+      {
+        "name": "I on The Heart Fort Homepage",
+        "aggregatedDurations": {
+          "median": 4.345895,
+          "average": 4.472355
+        },
+        "durations": [
+          {
+            "duration": 7.331349,
+            "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 3.260653,
+            "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 3.640218,
+            "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 4.286554,
+            "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 4.46619,
+            "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 4.214843,
+            "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 4.027577,
+            "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 4.161665,
+            "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 4.557039,
+            "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 4.405236,
+            "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 5.337927,
+            "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 4.464272,
+            "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 4.785683,
+            "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 4.213675,
+            "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 5.029783,
+            "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 4.5658,
+            "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 4.239419,
+            "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 3.514507,
+            "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Click on Find Agent Web Element",
+    "steps": [
+      {
+        "name": "I Click on Find Agent Web Element",
+        "aggregatedDurations": {
+          "median": 1.558827,
+          "average": 1.558827
+        },
+        "durations": [
+          {
+            "duration": 1.558827,
+            "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Verify Find Agent page title",
+    "steps": [
+      {
+        "name": "I Verify Find Agent page title",
+        "aggregatedDurations": {
+          "median": 0.037186,
+          "average": 0.037186
+        },
+        "durations": [
+          {
+            "duration": 0.037186,
+            "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:21"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Click on Home Web Element",
+    "steps": [
+      {
+        "name": "I Click on Home Web Element",
+        "aggregatedDurations": {
+          "median": 0.790015,
+          "average": 0.790015
+        },
+        "durations": [
+          {
+            "duration": 0.790015,
+            "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:25"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Verify Home page title",
+    "steps": [
+      {
+        "name": "I Verify Home page title",
+        "aggregatedDurations": {
+          "median": 0.185,
+          "average": 0.185
+        },
+        "durations": [
+          {
+            "duration": 0.185,
+            "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:26"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Click on Business Web Element",
+    "steps": [
+      {
+        "name": "I Click on Business Web Element",
+        "aggregatedDurations": {
+          "median": 0.483134,
+          "average": 0.483134
+        },
+        "durations": [
+          {
+            "duration": 0.483134,
+            "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:30"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Verify Business page title",
+    "steps": [
+      {
+        "name": "I Verify Business page title",
+        "aggregatedDurations": {
+          "median": 0.228306,
+          "average": 0.228306
+        },
+        "durations": [
+          {
+            "duration": 0.228306,
+            "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:31"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Click on The HartFord Home Image Web Element",
+    "steps": [
+      {
+        "name": "I Click on The HartFord Home Image Web Element",
+        "aggregatedDurations": {
+          "median": 1.015886,
+          "average": 1.015886
+        },
+        "durations": [
+          {
+            "duration": 1.015886,
+            "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:40"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Verify The HartFord Home Image page title",
+    "steps": [
+      {
+        "name": "I Verify The HartFord Home Image page title",
+        "aggregatedDurations": {
+          "median": 0.177059,
+          "average": 0.177059
+        },
+        "durations": [
+          {
+            "duration": 0.177059,
+            "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:41"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Click on About Us Web Element",
+    "steps": [
+      {
+        "name": "I Click on About Us Web Element",
+        "aggregatedDurations": {
+          "median": 0.699159,
+          "average": 0.699159
+        },
+        "durations": [
+          {
+            "duration": 0.699159,
+            "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:45"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Verify TAbout Us page title",
+    "steps": [
+      {
+        "name": "I Verify TAbout Us page title",
+        "aggregatedDurations": {
+          "median": 0.196424,
+          "average": 0.196424
+        },
+        "durations": [
+          {
+            "duration": 0.196424,
+            "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:46"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Click on Agent and Producers Web Element",
+    "steps": [
+      {
+        "name": "I Click on Agent and Producers Web Element",
+        "aggregatedDurations": {
+          "median": 1.497525,
+          "average": 1.497525
+        },
+        "durations": [
+          {
+            "duration": 1.497525,
+            "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:50"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Verify Agent and Producers page title",
+    "steps": [
+      {
+        "name": "I Verify Agent and Producers page title",
+        "aggregatedDurations": {
+          "median": 0.560561,
+          "average": 0.560561
+        },
+        "durations": [
+          {
+            "duration": 0.560561,
+            "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:51"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Click on Contact Us Web Element",
+    "steps": [
+      {
+        "name": "I Click on Contact Us Web Element",
+        "aggregatedDurations": {
+          "median": 1.130313,
+          "average": 1.130313
+        },
+        "durations": [
+          {
+            "duration": 1.130313,
+            "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:55"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Verify Contact Us page title",
+    "steps": [
+      {
+        "name": "I Verify Contact Us page title",
+        "aggregatedDurations": {
+          "median": 0.312582,
+          "average": 0.312582
+        },
+        "durations": [
+          {
+            "duration": 0.312582,
+            "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:56"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Click on Mobile App Web Element",
+    "steps": [
+      {
+        "name": "I Click on Mobile App Web Element",
+        "aggregatedDurations": {
+          "median": 1.545237,
+          "average": 1.545237
+        },
+        "durations": [
+          {
+            "duration": 1.545237,
+            "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:60"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Verify Mobile App page title",
+    "steps": [
+      {
+        "name": "I Verify Mobile App page title",
+        "aggregatedDurations": {
+          "median": 0.055562,
+          "average": 0.055562
+        },
+        "durations": [
+          {
+            "duration": 0.055562,
+            "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:61"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Click on Small Business Web Element",
+    "steps": [
+      {
+        "name": "I Click on Small Business Web Element",
+        "aggregatedDurations": {
+          "median": 0.598816,
+          "average": 0.598816
+        },
+        "durations": [
+          {
+            "duration": 0.598816,
+            "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:65"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Verify MSmall Business page title",
+    "steps": [
+      {
+        "name": "I Verify MSmall Business page title",
+        "aggregatedDurations": {
+          "median": 0.125818,
+          "average": 0.125818
+        },
+        "durations": [
+          {
+            "duration": 0.125818,
+            "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:66"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Click on Privacy Policy Web Element",
+    "steps": [
+      {
+        "name": "I Click on Privacy Policy Web Element",
+        "aggregatedDurations": {
+          "median": 1.543691,
+          "average": 1.543691
+        },
+        "durations": [
+          {
+            "duration": 1.543691,
+            "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:70"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Verify Privacy Policy page title",
+    "steps": [
+      {
+        "name": "I Verify Privacy Policy page title",
+        "aggregatedDurations": {
+          "median": 0.233917,
+          "average": 0.233917
+        },
+        "durations": [
+          {
+            "duration": 0.233917,
+            "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:71"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Click on Legal Notice Web Element",
+    "steps": [
+      {
+        "name": "I Click on Legal Notice Web Element",
+        "aggregatedDurations": {
+          "median": 1.224602,
+          "average": 1.224602
+        },
+        "durations": [
+          {
+            "duration": 1.224602,
+            "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:75"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Verify Legal Notice page title",
+    "steps": [
+      {
+        "name": "I Verify Legal Notice page title",
+        "aggregatedDurations": {
+          "median": 0.05184,
+          "average": 0.05184
+        },
+        "durations": [
+          {
+            "duration": 0.05184,
+            "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:76"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Click on Accessibility Statement Web Element",
+    "steps": [
+      {
+        "name": "I Click on Accessibility Statement Web Element",
+        "aggregatedDurations": {
+          "median": 1.151668,
+          "average": 1.151668
+        },
+        "durations": [
+          {
+            "duration": 1.151668,
+            "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:80"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Verify Accessibility Statement page title",
+    "steps": [
+      {
+        "name": "I Verify Accessibility Statement page title",
+        "aggregatedDurations": {
+          "median": 0.154327,
+          "average": 0.154327
+        },
+        "durations": [
+          {
+            "duration": 0.154327,
+            "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:81"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Click on Producers Compensations Web Element",
+    "steps": [
+      {
+        "name": "I Click on Producers Compensations Web Element",
+        "aggregatedDurations": {
+          "median": 1.141521,
+          "average": 1.141521
+        },
+        "durations": [
+          {
+            "duration": 1.141521,
+            "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:85"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Verify Producers Compensations page title",
+    "steps": [
+      {
+        "name": "I Verify Producers Compensations page title",
+        "aggregatedDurations": {
+          "median": 0.211723,
+          "average": 0.211723
+        },
+        "durations": [
+          {
+            "duration": 0.211723,
+            "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:86"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Click on EEO Web Element",
+    "steps": [
+      {
+        "name": "I Click on EEO Web Element",
+        "aggregatedDurations": {
+          "median": 1.584065,
+          "average": 1.584065
+        },
+        "durations": [
+          {
+            "duration": 1.584065,
+            "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:90"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Verify EEO page title",
+    "steps": [
+      {
+        "name": "I Verify EEO page title",
+        "aggregatedDurations": {
+          "median": 0.17275,
+          "average": 0.17275
+        },
+        "durations": [
+          {
+            "duration": 0.17275,
+            "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:91"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Click on FeedBack Web Element",
+    "steps": [
+      {
+        "name": "I Click on FeedBack Web Element",
+        "aggregatedDurations": {
+          "median": 1.689693,
+          "average": 1.689693
+        },
+        "durations": [
+          {
+            "duration": 1.689693,
+            "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:95"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Click on Car Insurance Web Element",
+    "steps": [
+      {
+        "name": "I Click on Car Insurance Web Element",
+        "aggregatedDurations": {
+          "median": 0.7825175,
+          "average": 0.7825175
+        },
+        "durations": [
+          {
+            "duration": 0.810497,
+            "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:100"
+          },
+          {
+            "duration": 0.754538,
+            "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:105"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Verify Car Insurance page title",
+    "steps": [
+      {
+        "name": "I Verify Car Insurance page title",
+        "aggregatedDurations": {
+          "median": 0.0421825,
+          "average": 0.0421825
+        },
+        "durations": [
+          {
+            "duration": 0.044044,
+            "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:101"
+          },
+          {
+            "duration": 0.040321,
+            "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:106"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Click on Home Insurance Web Element",
+    "steps": [
+      {
+        "name": "I Click on Home Insurance Web Element",
+        "aggregatedDurations": {
+          "median": 0.950987,
+          "average": 0.950987
+        },
+        "durations": [
+          {
+            "duration": 0.950987,
+            "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:110"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Verify Home Insurance page title",
+    "steps": [
+      {
+        "name": "I Verify Home Insurance page title",
+        "aggregatedDurations": {
+          "median": 0.039044,
+          "average": 0.039044
+        },
+        "durations": [
+          {
+            "duration": 0.039044,
+            "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:111"
+          }
+        ]
+      }
+    ]
+  }
+]

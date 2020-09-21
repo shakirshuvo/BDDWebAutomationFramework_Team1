@@ -148,7 +148,7 @@ public class CommonAPI {
         String windows = "windows";
 
         try {
-            setUp(false, "browserstack", "windows", "10", "chrome", "85", url);
+            setUp(false, "browserstack", "windows", "10", "chrome-options", "85", url);
         } catch (Exception e) {
             System.out.println("Let's try Mac");
             setUp(false, "browserstack", "OS X", "catalina", "chrome-options", "85", url);
