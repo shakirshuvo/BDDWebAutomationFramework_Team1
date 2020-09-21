@@ -1,2 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" time="0.003"/>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="14.108">
+    <testcase classname="Marriott HomePage" name="check language selector on homepage" time="13.837">
+        <system-out>
+            <![CDATA[Given I am on Marriott Homepage.............................................passed
+When I click on language selector...........................................passed
+Then I should be to verify language selector................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
