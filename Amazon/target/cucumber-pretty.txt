@@ -5,6 +5,33 @@ Scenario: Check that user can add an item into the cart and verify it using 'Add
   When I enter "WD 5TB My Passport" and submit in the search field.                                        # stepDefinitions.SearchStepDefinition.i_enter_and_submit_in_the_search_field(java.lang.String)
   And I click on the product 'WD 5TB My Passport Portable External Hard Drive, Black - WDBPKJ0050BBK-WESN' # stepDefinitions.CartStepDefinition.i_click_on_the_product(java.lang.String)
   And I click on 'Add to Cart'                                                                             # stepDefinitions.CartStepDefinition.i_click_on(java.lang.String)
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#add\-to\-cart\-button"}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:49662}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 910181071edad5c24032ca7b282e79cb
+*** Element info: {Using=id, value=add-to-cart-button}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at base.CommonAPI.clickOnElementByID(CommonAPI.java:241)
+	at stepDefinitions.CartStepDefinition.i_click_on(CartStepDefinition.java:19)
+	at ✽.I click on 'Add to Cart'(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:7)
+
   Then I verify that the item has been added with 'Added to Cart' text                                     # stepDefinitions.CartStepDefinition.i_verify_that_the_item_has_been_added_with_text(java.lang.String)
 
 @CartTest @SmokeTest
@@ -15,6 +42,33 @@ Scenario: Check that user can add an item into the cart by verifying that the it
   And I click on 'Add to Cart'                                                                             # stepDefinitions.CartStepDefinition.i_click_on(java.lang.String)
   And I click on cart button                                                                               # stepDefinitions.CartStepDefinition.i_click_on_cart_button()
   Then I verify that the item has been added by confirming that the item is displayed in the cart          # stepDefinitions.CartStepDefinition.i_verify_that_the_item_has_been_added_by_confirming_that_the_item_is_displayed_in_the_cart()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".\/\/span\[contains\(text\(\)\,\'WDBPKJ0050BBK\'\)\]"}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:49748}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 80139c19f3de9681c6bd16c282a0f262
+*** Element info: {Using=class name, value=//span[contains(text(),'WDBPKJ0050BBK')]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at base.CommonAPI.elementIsDisplayed(CommonAPI.java:793)
+	at stepDefinitions.CartStepDefinition.i_verify_that_the_item_has_been_added_by_confirming_that_the_item_is_displayed_in_the_cart(CartStepDefinition.java:34)
+	at ✽.I verify that the item has been added by confirming that the item is displayed in the cart(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:16)
+
 
 @CartTest @SmokeTest
 Scenario: Check that user can delete an item from the cart by verifying that 'Your Amazon Cart is empty'   # src/test/java/features/Cart.feature:19
@@ -36,6 +90,33 @@ Scenario: Check that user can delete an item from the cart by verifying that 'Yo
   And I click on 'Add to Cart'                                                                             # stepDefinitions.CartStepDefinition.i_click_on(java.lang.String)
   And I click on cart button                                                                               # stepDefinitions.CartStepDefinition.i_click_on_cart_button()
   Then I verify that for Subtotal "2 items" is displayed                                                   # stepDefinitions.CartStepDefinition.iVerifyThatForSubtotalIsDisplayed(java.lang.String)
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='sc-subtotal-label-activecart']"}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:49896}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: da055d2730e98f6e3a42080bbecdf9f9
+*** Element info: {Using=name, value=sc-subtotal-label-activecart}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at base.CommonAPI.validateByText(CommonAPI.java:759)
+	at stepDefinitions.CartStepDefinition.iVerifyThatForSubtotalIsDisplayed(CartStepDefinition.java:55)
+	at ✽.I verify that for Subtotal "2 items" is displayed(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:31)
+
 
 @HomeTest @SmokeTest
 Scenario: Check that Amazon homepage loads using title # src/test/java/features/Home.feature:7
@@ -86,13 +167,6 @@ Scenario: Check that 'Music' link is functional using URL and title             
   Given I am on Amazon homepage                                                                     # stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()
   When I click on Music link                                                                        # stepDefinitions.HomeStepDefinition.i_click_on_music_link()
   Then I verify Music link with with URL 'https://music.amazon.com/home?ref=dm_aff_amz_com'         # stepDefinitions.HomeStepDefinition.i_verify_music_link_with_with_url(java.lang.String)
-      org.junit.ComparisonFailure: expected:<...://music.amazon.com/[home]?ref=dm_aff_amz_com> but was:<...://music.amazon.com/[]?ref=dm_aff_amz_com>
-	at org.junit.Assert.assertEquals(Assert.java:117)
-	at org.junit.Assert.assertEquals(Assert.java:146)
-	at base.CommonAPI.validateByURL(CommonAPI.java:767)
-	at stepDefinitions.HomeStepDefinition.i_verify_music_link_with_with_url(HomeStepDefinition.java:110)
-	at ✽.I verify Music link with with URL 'https://music.amazon.com/home?ref=dm_aff_amz_com'(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:46)
-
   And I verify Music link with title 'Amazon Music Unlimited - Stream 60 million songs online now.' # stepDefinitions.HomeStepDefinition.i_verify_music_link_with_title(java.lang.String)
 
 @HomeTest @SmokeTest
@@ -100,15 +174,35 @@ Scenario: Check that 'Advertise Your Product' link is functional using title, UR
   Given I am on Amazon homepage                                                                                     # stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()
   When I click on Advertise Your Product link                                                                       # stepDefinitions.HomeStepDefinition.i_click_on_advertise_your_product_link()
   Then I verify Advertise Your Product link with title 'Amazon Advertising: Online advertising on Amazon'           # stepDefinitions.HomeStepDefinition.i_verify_advertise_your_product_link_with_title(java.lang.String)
-      org.junit.ComparisonFailure: expected:<Amazon[ Advertising: Online advertising on Amazon]> but was:<Amazon[.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more]>
-	at org.junit.Assert.assertEquals(Assert.java:117)
-	at org.junit.Assert.assertEquals(Assert.java:146)
-	at base.CommonAPI.validateByTitle(CommonAPI.java:728)
-	at stepDefinitions.HomeStepDefinition.i_verify_advertise_your_product_link_with_title(HomeStepDefinition.java:125)
-	at ✽.I verify Advertise Your Product link with title 'Amazon Advertising: Online advertising on Amazon'(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:52)
-
   And I verify Advertise Your Product link with URL 'https://advertising.amazon.com/'                               # stepDefinitions.HomeStepDefinition.i_verify_advertise_your_product_link_with_url(java.lang.String)
   And I verify Advertise Your Product link with text 'Amazon Music Unlimited - Stream 60 million songs online now.' # stepDefinitions.HomeStepDefinition.i_verify_advertise_your_product_link_with_text(java.lang.String)
+      org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:50311}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 69fef798bbd1625eec0b11633158f3be
+*** Element info: {Using=name, value=//h1[text()='Advertise with intent']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at base.CommonAPI.validateByText(CommonAPI.java:759)
+	at stepDefinitions.HomeStepDefinition.i_verify_advertise_your_product_link_with_text(HomeStepDefinition.java:136)
+	at ✽.I verify Advertise Your Product link with text 'Amazon Music Unlimited - Stream 60 million songs online now.'(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:54)
+
 
 @HomeTest @SmokeTest
 Scenario: Check that user can navigate to 'Computers & Tablets' page using 'Shop By Category' burger button # src/test/java/features/Home.feature:57
@@ -259,13 +353,6 @@ Scenario: Check that user can navigate from homepage to Sign In page using title
   When I hover over 'Hello, Sign in' button                                      # stepDefinitions.SignInStepDefinition.i_hover_over_button(java.lang.String)
   And I click on 'Sign in' button under Hello, Sign in                           # stepDefinitions.SignInStepDefinition.i_click_on_button_under_hello_sign_in(java.lang.String)
   Then I verify page title as "Amazon Sign-In"                                   # stepDefinitions.SearchStepDefinition.i_verify_page_title_as(java.lang.String)
-      org.junit.ComparisonFailure: expected:<Amazon[ Sign-In]> but was:<Amazon[.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more]>
-	at org.junit.Assert.assertEquals(Assert.java:117)
-	at org.junit.Assert.assertEquals(Assert.java:146)
-	at base.CommonAPI.validateByTitle(CommonAPI.java:728)
-	at stepDefinitions.SearchStepDefinition.i_verify_page_title_as(SearchStepDefinition.java:47)
-	at ✽.I verify page title as "Amazon Sign-In"(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:10)
-
 
 @SignInTest @SmokeTest
 Scenario Outline: Check that an alert message is displayed when user tries to login with an invalid email # src/test/java/features/SignIn.feature:19
@@ -275,6 +362,33 @@ Scenario Outline: Check that an alert message is displayed when user tries to lo
   And I enter an invalid "invalidEmail@invalidEmail.com" on 'Email (phone for mobile accounts) field      # stepDefinitions.SignInStepDefinition.i_enter_an_invalid_on_email_phone_for_mobile_accounts_field(java.lang.String)
   And I click on 'Continue' button below 'Email (phone for mobile accounts) field                         # stepDefinitions.SignInStepDefinition.i_click_on_button_below_email_phone_for_mobile_accounts_field(java.lang.String)
   Then I verify that the "We cannot find an account with that email address" is displayed                 # stepDefinitions.SignInStepDefinition.i_verify_that_the_is_displayed(java.lang.String)
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".a\-list\-item"}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:50948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c11a5b1d1b4830ef5cef240c76616de2
+*** Element info: {Using=class name, value=a-list-item}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at base.CommonAPI.validateByTextByClass(CommonAPI.java:737)
+	at stepDefinitions.SignInStepDefinition.i_verify_that_the_is_displayed(SignInStepDefinition.java:50)
+	at ✽.I verify that the "We cannot find an account with that email address" is displayed(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:16)
+
 
 @SignInTest @SmokeTest
 Scenario Outline: Check that an alert message is displayed when user tries to login with an invalid phone number # src/test/java/features/SignIn.feature:28
@@ -293,28 +407,15 @@ Scenario Outline: Check that an alert message is displayed when user tries to lo
   And I enter a valid "ciara105@xhanimatedm.com" on 'Email (phone for mobile accounts) field                                                                                                              # stepDefinitions.SignInStepDefinition.i_enter_a_valid_on_email_phone_for_mobile_accounts_field(java.lang.String)
   And I click on 'Continue' button below 'Email (phone for mobile accounts) field                                                                                                                         # stepDefinitions.SignInStepDefinition.i_click_on_button_below_email_phone_for_mobile_accounts_field(java.lang.String)
   And I enter an invalid "InvalidPass123!" on the 'Password' field                                                                                                                                        # stepDefinitions.SignInStepDefinition.i_enter_an_invalid_on_the_field(java.lang.String,java.lang.String)
-  And I click on 'Sign-in' button after password                                                                                                                                                          # stepDefinitions.SignInStepDefinition.i_click_on_button_after_password(java.lang.String)
-  Then I verify that the "Your password is incorrect" or "To better protect your account, please re-enter your password and then enter the characters as they are shown in the image below." is displayed # stepDefinitions.SignInStepDefinition.i_verify_that_the_or_is_displayed(java.lang.String,java.lang.String)
-
-@SignInTest @SmokeTest
-Scenario Outline: Check that an user can successfully log into Amazon                           # src/test/java/features/SignIn.feature:50
-  Given I am on Amazon homepage                                                                 # stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()
-  When I hover over 'Hello, Sign in' button                                                     # stepDefinitions.SignInStepDefinition.i_hover_over_button(java.lang.String)
-  And I click on 'Sign in' button under Hello, Sign in                                          # stepDefinitions.SignInStepDefinition.i_click_on_button_under_hello_sign_in(java.lang.String)
-  And I enter a valid "shakir.jahangir83@gmail.com" on 'Email (phone for mobile accounts) field # stepDefinitions.SignInStepDefinition.i_enter_a_valid_on_email_phone_for_mobile_accounts_field(java.lang.String)
-  And I click on 'Continue' button below 'Email (phone for mobile accounts) field               # stepDefinitions.SignInStepDefinition.i_click_on_button_below_email_phone_for_mobile_accounts_field(java.lang.String)
-  And I enter a valid "BugBusters" on the Password field                                        # stepDefinitions.SignInStepDefinition.i_enter_a_valid_on_the_password_field(java.lang.String)
-  And I click on 'Sign-in' button after password                                                # stepDefinitions.SignInStepDefinition.i_click_on_button_after_password(java.lang.String)
-  Then I verify that "Shakir" is displayed                                                      # stepDefinitions.SignInStepDefinition.i_verify_that_is_displayed(java.lang.String)
-      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".nav\-shortened\-name"}
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#ap_password"}
   (Session info: chrome=85.0.4183.102)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:55292}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 06b064e2cb790c36417a10875640cedc
-*** Element info: {Using=class name, value=nav-shortened-name}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:51025}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9c5613fbb80770c5342da4e016867e30
+*** Element info: {Using=css selector, value=#ap_password}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -326,13 +427,52 @@ Session ID: 06b064e2cb790c36417a10875640cedc
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
-	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at base.CommonAPI.validateByTextByClass(CommonAPI.java:737)
-	at stepDefinitions.SignInStepDefinition.i_verify_that_is_displayed(SignInStepDefinition.java:92)
-	at ✽.I verify that "Shakir" is displayed(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:47)
+	at base.CommonAPI.typeOnElementByCSS(CommonAPI.java:281)
+	at stepDefinitions.SignInStepDefinition.i_enter_an_invalid_on_the_field(SignInStepDefinition.java:65)
+	at ✽.I enter an invalid "InvalidPass123!" on the 'Password' field(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:34)
 
+  And I click on 'Sign-in' button after password                                                                                                                                                          # stepDefinitions.SignInStepDefinition.i_click_on_button_after_password(java.lang.String)
+  Then I verify that the "Your password is incorrect" or "To better protect your account, please re-enter your password and then enter the characters as they are shown in the image below." is displayed # stepDefinitions.SignInStepDefinition.i_verify_that_the_or_is_displayed(java.lang.String,java.lang.String)
+
+@SignInTest @SmokeTest
+Scenario Outline: Check that an user can successfully log into Amazon                           # src/test/java/features/SignIn.feature:50
+  Given I am on Amazon homepage                                                                 # stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()
+  When I hover over 'Hello, Sign in' button                                                     # stepDefinitions.SignInStepDefinition.i_hover_over_button(java.lang.String)
+  And I click on 'Sign in' button under Hello, Sign in                                          # stepDefinitions.SignInStepDefinition.i_click_on_button_under_hello_sign_in(java.lang.String)
+  And I enter a valid "shakir.jahangir83@gmail.com" on 'Email (phone for mobile accounts) field # stepDefinitions.SignInStepDefinition.i_enter_a_valid_on_email_phone_for_mobile_accounts_field(java.lang.String)
+  And I click on 'Continue' button below 'Email (phone for mobile accounts) field               # stepDefinitions.SignInStepDefinition.i_click_on_button_below_email_phone_for_mobile_accounts_field(java.lang.String)
+  And I enter a valid "BugBusters" on the Password field                                        # stepDefinitions.SignInStepDefinition.i_enter_a_valid_on_the_password_field(java.lang.String)
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#ap_password"}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:51078}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f7aeae59153907eb5e9afdc8e683d58f
+*** Element info: {Using=css selector, value=#ap_password}
+	at jdk.internal.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at base.CommonAPI.typeOnElementByCSS(CommonAPI.java:281)
+	at stepDefinitions.SignInStepDefinition.i_enter_a_valid_on_the_password_field(SignInStepDefinition.java:70)
+	at ✽.I enter a valid "BugBusters" on the Password field(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:45)
+
+  And I click on 'Sign-in' button after password                                                # stepDefinitions.SignInStepDefinition.i_click_on_button_after_password(java.lang.String)
+  Then I verify that "Shakir" is displayed                                                      # stepDefinitions.SignInStepDefinition.i_verify_that_is_displayed(java.lang.String)
 
 @SignInTest @SmokeTest
 Scenario Outline: Check that two users can successfully log into Amazon consecutively           # src/test/java/features/SignIn.feature:61
@@ -348,11 +488,10 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:55324}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 921a2efc980575fc040d2826fa4349b0
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:51136}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: fb8048a3c01581f0e64915685f1e45c7
 *** Element info: {Using=css selector, value=#ap_password}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at jdk.internal.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
@@ -382,33 +521,6 @@ Scenario Outline: Check that two users can successfully log into Amazon consecut
   And I enter a valid "BugBusters" on the Password field                                   # stepDefinitions.SignInStepDefinition.i_enter_a_valid_on_the_password_field(java.lang.String)
   And I click on 'Sign-in' button after password                                           # stepDefinitions.SignInStepDefinition.i_click_on_button_after_password(java.lang.String)
   Then I verify that "Phong" is displayed                                                  # stepDefinitions.SignInStepDefinition.i_verify_that_is_displayed(java.lang.String)
-      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".nav\-shortened\-name"}
-  (Session info: chrome=85.0.4183.102)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:55370}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 62be1c852a4a8f172f58ea2f1b934a69
-*** Element info: {Using=class name, value=nav-shortened-name}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
-	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at base.CommonAPI.validateByTextByClass(CommonAPI.java:737)
-	at stepDefinitions.SignInStepDefinition.i_verify_that_is_displayed(SignInStepDefinition.java:92)
-	at ✽.I verify that "Phong" is displayed(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:58)
-
 
 @SignInTest @SmokeTest
 Scenario Outline: Check that an alert message is displayed when user tries to login without an email or phone number # src/test/java/features/SignIn.feature:70
@@ -417,6 +529,13 @@ Scenario Outline: Check that an alert message is displayed when user tries to lo
   And I click on 'Sign in' button under Hello, Sign in                                                               # stepDefinitions.SignInStepDefinition.i_click_on_button_under_hello_sign_in(java.lang.String)
   And I click on 'Continue' button below 'Email (phone for mobile accounts) field                                    # stepDefinitions.SignInStepDefinition.i_click_on_button_below_email_phone_for_mobile_accounts_field(java.lang.String)
   Then I verify that the missing email or phone "Enter your email or mobile phone number" is displayed               # stepDefinitions.SignInStepDefinition.i_verify_that_the_missing_email_or_phone_is_displayed(java.lang.String)
+      org.junit.ComparisonFailure: expected:<[Enter your email or mobile phone number]> but was:<[]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at base.CommonAPI.validateByText(CommonAPI.java:751)
+	at stepDefinitions.SignInStepDefinition.i_verify_that_the_missing_email_or_phone_is_displayed(SignInStepDefinition.java:97)
+	at ✽.I verify that the missing email or phone "Enter your email or mobile phone number" is displayed(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:67)
+
 
 @SignInTest @SmokeTest
 Scenario Outline: Check that an alert message is displayed when user tries to login without a password # src/test/java/features/SignIn.feature:80
@@ -426,33 +545,6 @@ Scenario Outline: Check that an alert message is displayed when user tries to lo
   And I enter a valid "shakir.jahangir83@gmail.com" on 'Email (phone for mobile accounts) field        # stepDefinitions.SignInStepDefinition.i_enter_a_valid_on_email_phone_for_mobile_accounts_field(java.lang.String)
   And I click on 'Continue' button below 'Email (phone for mobile accounts) field                      # stepDefinitions.SignInStepDefinition.i_click_on_button_below_email_phone_for_mobile_accounts_field(java.lang.String)
   And I click on 'Sign-in' button after password                                                       # stepDefinitions.SignInStepDefinition.i_click_on_button_after_password(java.lang.String)
-      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#signInSubmit"}
-  (Session info: chrome=85.0.4183.102)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:55436}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: eeafc586cc39b81498954eb4c56c28b2
-*** Element info: {Using=id, value=signInSubmit}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-	at org.openqa.selenium.By$ById.findElement(By.java:188)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at base.CommonAPI.clickOnElementByID(CommonAPI.java:241)
-	at stepDefinitions.SignInStepDefinition.i_click_on_button_after_password(SignInStepDefinition.java:87)
-	at ✽.I click on 'Sign-in' button after password(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:76)
-
   Then I verify that the missing password "Enter your password" is displayed                           # stepDefinitions.SignInStepDefinition.i_verify_that_the_missing_password_is_displayed(java.lang.String)
 
 @SignInTest @SmokeTest
@@ -463,29 +555,6 @@ Scenario Outline: Check that user can navigate to 'Forgot your password?' page  
   And I enter a valid "shakir.jahangir83@gmail.com" on 'Email (phone for mobile accounts) field # stepDefinitions.SignInStepDefinition.i_enter_a_valid_on_email_phone_for_mobile_accounts_field(java.lang.String)
   And I click on 'Continue' button below 'Email (phone for mobile accounts) field               # stepDefinitions.SignInStepDefinition.i_click_on_button_below_email_phone_for_mobile_accounts_field(java.lang.String)
   And I click on 'Forgot your password?' link                                                   # stepDefinitions.SignInStepDefinition.i_click_on_link(java.lang.String)
-      org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=85.0.4183.102)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:55485}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: b68d5bb6a983b455d3fe1d8131da7fcc
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at base.CommonAPI.clickOnElementByID(CommonAPI.java:241)
-	at stepDefinitions.SignInStepDefinition.i_click_on_link(SignInStepDefinition.java:107)
-	at ✽.I click on 'Forgot your password?' link(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:86)
-
   Then I verify "Amazon Password Assistance"                                                    # stepDefinitions.SignInStepDefinition.i_verify(java.lang.String)
 
 @SignInTest @SmokeTest
@@ -496,29 +565,6 @@ Scenario Outline: Check that alert message is displayed when user can navigate t
   And I enter a valid "shakir.jahangir83@gmail.com" on 'Email (phone for mobile accounts) field                                                                    # stepDefinitions.SignInStepDefinition.i_enter_a_valid_on_email_phone_for_mobile_accounts_field(java.lang.String)
   And I click on 'Continue' button below 'Email (phone for mobile accounts) field                                                                                  # stepDefinitions.SignInStepDefinition.i_click_on_button_below_email_phone_for_mobile_accounts_field(java.lang.String)
   And I click on 'Forgot your password?' link                                                                                                                      # stepDefinitions.SignInStepDefinition.i_click_on_link(java.lang.String)
-      org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=85.0.4183.102)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:55538}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 2690753ed906e39476b373e30994973c
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at base.CommonAPI.clickOnElementByID(CommonAPI.java:241)
-	at stepDefinitions.SignInStepDefinition.i_click_on_link(SignInStepDefinition.java:107)
-	at ✽.I click on 'Forgot your password?' link(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:97)
-
   And I clear the 'Email or mobile phone number' field                                                                                                             # stepDefinitions.SignInStepDefinition.i_clear_the_field(java.lang.String)
   And I enter an "bogusemail9183@bogus.com" on Forgot your password? page                                                                                          # stepDefinitions.SignInStepDefinition.i_enter_an_on_forgot_your_password_page(java.lang.String)
   And I click on 'Continue' button on 'Forgot your password?' page                                                                                                 # stepDefinitions.SignInStepDefinition.i_click_on_button_on_page(java.lang.String,java.lang.String)

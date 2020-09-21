@@ -1,27 +1,83 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="10" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="39" time="502.021">
-    <testcase classname="Amazon cart functionality check" name="Check that user can add an item into the cart and verify it using 'Added to Cart' text" time="23.299">
-        <system-out>
+<testsuite errors="0" failures="10" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="39" time="582.852">
+    <testcase classname="Amazon cart functionality check" name="Check that user can add an item into the cart and verify it using 'Added to Cart' text" time="57.663">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#add\-to\-cart\-button&quot;}&#10;  (Session info: chrome=85.0.4183.102)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:49662}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 910181071edad5c24032ca7b282e79cb&#10;*** Element info: {Using=id, value=add-to-cart-button}" type="org.openqa.selenium.NoSuchElementException">
             <![CDATA[Given I am on Amazon homepage...............................................passed
 When I enter "WD 5TB My Passport" and submit in the search field............passed
 And I click on the product 'WD 5TB My Passport Portable External Hard Drive, Black - WDBPKJ0050BBK-WESN'.passed
-And I click on 'Add to Cart'................................................passed
-Then I verify that the item has been added with 'Added to Cart' text........passed
+And I click on 'Add to Cart'................................................failed
+Then I verify that the item has been added with 'Added to Cart' text........skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#add\-to\-cart\-button"}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:49662}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 910181071edad5c24032ca7b282e79cb
+*** Element info: {Using=id, value=add-to-cart-button}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at base.CommonAPI.clickOnElementByID(CommonAPI.java:241)
+	at stepDefinitions.CartStepDefinition.i_click_on(CartStepDefinition.java:19)
+	at ✽.I click on 'Add to Cart'(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:7)
 ]]>
-        </system-out>
+        </failure>
     </testcase>
-    <testcase classname="Amazon cart functionality check" name="Check that user can add an item into the cart by verifying that the item exists in the cart" time="15.081">
-        <system-out>
+    <testcase classname="Amazon cart functionality check" name="Check that user can add an item into the cart by verifying that the item exists in the cart" time="43.826">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.\/\/span\[contains\(text\(\)\,\'WDBPKJ0050BBK\'\)\]&quot;}&#10;  (Session info: chrome=85.0.4183.102)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:49748}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 80139c19f3de9681c6bd16c282a0f262&#10;*** Element info: {Using=class name, value=//span[contains(text(),'WDBPKJ0050BBK')]}" type="org.openqa.selenium.NoSuchElementException">
             <![CDATA[Given I am on Amazon homepage...............................................passed
 When I enter "WD 5TB My Passport" and submit in the search field............passed
 And I click on the product 'WD 5TB My Passport Portable External Hard Drive, Black - WDBPKJ0050BBK-WESN'.passed
 And I click on 'Add to Cart'................................................passed
 And I click on cart button..................................................passed
-Then I verify that the item has been added by confirming that the item is displayed in the cart.passed
+Then I verify that the item has been added by confirming that the item is displayed in the cart.failed
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".\/\/span\[contains\(text\(\)\,\'WDBPKJ0050BBK\'\)\]"}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:49748}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 80139c19f3de9681c6bd16c282a0f262
+*** Element info: {Using=class name, value=//span[contains(text(),'WDBPKJ0050BBK')]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at base.CommonAPI.elementIsDisplayed(CommonAPI.java:793)
+	at stepDefinitions.CartStepDefinition.i_verify_that_the_item_has_been_added_by_confirming_that_the_item_is_displayed_in_the_cart(CartStepDefinition.java:34)
+	at ✽.I verify that the item has been added by confirming that the item is displayed in the cart(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:16)
 ]]>
-        </system-out>
+        </failure>
     </testcase>
-    <testcase classname="Amazon cart functionality check" name="Check that user can delete an item from the cart by verifying that 'Your Amazon Cart is empty'" time="15.792">
+    <testcase classname="Amazon cart functionality check" name="Check that user can delete an item from the cart by verifying that 'Your Amazon Cart is empty'" time="16.852">
         <system-out>
             <![CDATA[Given I am on Amazon homepage...............................................passed
 When I enter "WD 5TB My Passport" and submit in the search field............passed
@@ -33,8 +89,8 @@ Then I verify that the the text 'Your Amazon Cart is empty' is displayed....pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Amazon cart functionality check" name="Check that user can delete an item from the cart by verifying that 'Your Amazon Cart is empty' 2" time="32.936">
-        <system-out>
+    <testcase classname="Amazon cart functionality check" name="Check that user can delete an item from the cart by verifying that 'Your Amazon Cart is empty' 2" time="57.489">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[name='sc-subtotal-label-activecart']&quot;}&#10;  (Session info: chrome=85.0.4183.102)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:49896}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: da055d2730e98f6e3a42080bbecdf9f9&#10;*** Element info: {Using=name, value=sc-subtotal-label-activecart}" type="org.openqa.selenium.NoSuchElementException">
             <![CDATA[Given I am on Amazon homepage...............................................passed
 When I enter "WD 5TB My Passport" and submit in the search field............passed
 And I click on the product 'WD 5TB My Passport Portable External Hard Drive, Black - WDBPKJ0050BBK-WESN'.passed
@@ -42,18 +98,46 @@ And I click on 'Add to Cart'................................................pass
 And I navigate back to previous window......................................passed
 And I click on 'Add to Cart'................................................passed
 And I click on cart button..................................................passed
-Then I verify that for Subtotal "2 items" is displayed......................passed
+Then I verify that for Subtotal "2 items" is displayed......................failed
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='sc-subtotal-label-activecart']"}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:49896}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: da055d2730e98f6e3a42080bbecdf9f9
+*** Element info: {Using=name, value=sc-subtotal-label-activecart}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at base.CommonAPI.validateByText(CommonAPI.java:759)
+	at stepDefinitions.CartStepDefinition.iVerifyThatForSubtotalIsDisplayed(CartStepDefinition.java:55)
+	at ✽.I verify that for Subtotal "2 items" is displayed(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:31)
 ]]>
-        </system-out>
+        </failure>
     </testcase>
-    <testcase classname="Amazon homepage functionality check" name="Check that Amazon homepage loads using title" time="6.992">
+    <testcase classname="Amazon homepage functionality check" name="Check that Amazon homepage loads using title" time="4.352">
         <system-out>
             <![CDATA[Given I am on Amazon homepage...............................................passed
 Then I verify Amazon homepage with title....................................passed
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Amazon homepage functionality check" name="Check that 'Today's Deal' tab is functional using title" time="7.382">
+    <testcase classname="Amazon homepage functionality check" name="Check that 'Today's Deal' tab is functional using title" time="6.485">
         <system-out>
             <![CDATA[Given I am on Amazon homepage...............................................passed
 When I click on 'Today's Deal' tab..........................................passed
@@ -61,7 +145,7 @@ Then I verify 'Today's Deal' with title.....................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Amazon homepage functionality check" name="Check that 'Today's Deal' tab is functional using 'Deals and Promotions' text" time="6.83">
+    <testcase classname="Amazon homepage functionality check" name="Check that 'Today's Deal' tab is functional using 'Deals and Promotions' text" time="6.383">
         <system-out>
             <![CDATA[Given I am on Amazon homepage...............................................passed
 When I click on 'Today's Deal' tab..........................................passed
@@ -69,7 +153,7 @@ Then I verify 'Today's Deal' with 'Deals and Promotions' text being displayed.pa
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Amazon homepage functionality check" name="Check that 'Customer Service' tab is functional using title" time="6.702">
+    <testcase classname="Amazon homepage functionality check" name="Check that 'Customer Service' tab is functional using title" time="10.448">
         <system-out>
             <![CDATA[Given I am on Amazon homepage...............................................passed
 When I click on 'Customer Service' tab......................................passed
@@ -78,7 +162,7 @@ And I verify 'Customer Service' with 'Hello. What can we help you with?' text.pa
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Amazon homepage functionality check" name="Check that 'Gift Cards' tab is functional using title and text" time="8.019">
+    <testcase classname="Amazon homepage functionality check" name="Check that 'Gift Cards' tab is functional using title and text" time="9.596">
         <system-out>
             <![CDATA[Given I am on Amazon homepage...............................................passed
 When I click on Gift Cards tab..............................................passed
@@ -87,7 +171,7 @@ And I verify Gift Cards with 'Hello. What can we help you with?' text.......pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Amazon homepage functionality check" name="Check that 'Registry' tab is functional using title" time="6.229">
+    <testcase classname="Amazon homepage functionality check" name="Check that 'Registry' tab is functional using title" time="5.808">
         <system-out>
             <![CDATA[Given I am on Amazon homepage...............................................passed
 When I click on Registry tab................................................passed
@@ -95,7 +179,7 @@ Then I verify Registry tab with with title 'Amazon.com: : Registry'.........pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Amazon homepage functionality check" name="Check that 'Sell' tab is functional using title" time="10.566">
+    <testcase classname="Amazon homepage functionality check" name="Check that 'Sell' tab is functional using title" time="10.29">
         <system-out>
             <![CDATA[Given I am on Amazon homepage...............................................passed
 When I click on Sell tab....................................................passed
@@ -104,42 +188,54 @@ And I verify Sell tab with 'Become an Amazon seller' text...................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Amazon homepage functionality check" name="Check that 'Music' link is functional using URL and title" time="7.401">
-        <failure message="expected:&lt;...://music.amazon.com/[home]?ref=dm_aff_amz_com&gt; but was:&lt;...://music.amazon.com/[]?ref=dm_aff_amz_com&gt;" type="org.junit.ComparisonFailure">
+    <testcase classname="Amazon homepage functionality check" name="Check that 'Music' link is functional using URL and title" time="8.843">
+        <system-out>
             <![CDATA[Given I am on Amazon homepage...............................................passed
 When I click on Music link..................................................passed
-Then I verify Music link with with URL 'https://music.amazon.com/home?ref=dm_aff_amz_com'.failed
-And I verify Music link with title 'Amazon Music Unlimited - Stream 60 million songs online now.'.skipped
-
-StackTrace:
-org.junit.ComparisonFailure: expected:<...://music.amazon.com/[home]?ref=dm_aff_amz_com> but was:<...://music.amazon.com/[]?ref=dm_aff_amz_com>
-	at org.junit.Assert.assertEquals(Assert.java:117)
-	at org.junit.Assert.assertEquals(Assert.java:146)
-	at base.CommonAPI.validateByURL(CommonAPI.java:767)
-	at stepDefinitions.HomeStepDefinition.i_verify_music_link_with_with_url(HomeStepDefinition.java:110)
-	at ✽.I verify Music link with with URL 'https://music.amazon.com/home?ref=dm_aff_amz_com'(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:46)
+Then I verify Music link with with URL 'https://music.amazon.com/home?ref=dm_aff_amz_com'.passed
+And I verify Music link with title 'Amazon Music Unlimited - Stream 60 million songs online now.'.passed
 ]]>
-        </failure>
+        </system-out>
     </testcase>
-    <testcase classname="Amazon homepage functionality check" name="Check that 'Advertise Your Product' link is functional using title, URL, and text" time="4.598">
-        <failure message="expected:&lt;Amazon[ Advertising: Online advertising on Amazon]&gt; but was:&lt;Amazon[.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs &amp; more]&gt;" type="org.junit.ComparisonFailure">
+    <testcase classname="Amazon homepage functionality check" name="Check that 'Advertise Your Product' link is functional using title, URL, and text" time="31.033">
+        <failure message="invalid selector: An invalid or illegal selector was specified&#10;  (Session info: chrome=85.0.4183.102)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:50311}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 69fef798bbd1625eec0b11633158f3be&#10;*** Element info: {Using=name, value=//h1[text()='Advertise with intent']}" type="org.openqa.selenium.InvalidSelectorException">
             <![CDATA[Given I am on Amazon homepage...............................................passed
 When I click on Advertise Your Product link.................................passed
-Then I verify Advertise Your Product link with title 'Amazon Advertising: Online advertising on Amazon'.failed
-And I verify Advertise Your Product link with URL 'https://advertising.amazon.com/'.skipped
-And I verify Advertise Your Product link with text 'Amazon Music Unlimited - Stream 60 million songs online now.'.skipped
+Then I verify Advertise Your Product link with title 'Amazon Advertising: Online advertising on Amazon'.passed
+And I verify Advertise Your Product link with URL 'https://advertising.amazon.com/'.passed
+And I verify Advertise Your Product link with text 'Amazon Music Unlimited - Stream 60 million songs online now.'.failed
 
 StackTrace:
-org.junit.ComparisonFailure: expected:<Amazon[ Advertising: Online advertising on Amazon]> but was:<Amazon[.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more]>
-	at org.junit.Assert.assertEquals(Assert.java:117)
-	at org.junit.Assert.assertEquals(Assert.java:146)
-	at base.CommonAPI.validateByTitle(CommonAPI.java:728)
-	at stepDefinitions.HomeStepDefinition.i_verify_advertise_your_product_link_with_title(HomeStepDefinition.java:125)
-	at ✽.I verify Advertise Your Product link with title 'Amazon Advertising: Online advertising on Amazon'(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:52)
+org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:50311}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 69fef798bbd1625eec0b11633158f3be
+*** Element info: {Using=name, value=//h1[text()='Advertise with intent']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at base.CommonAPI.validateByText(CommonAPI.java:759)
+	at stepDefinitions.HomeStepDefinition.i_verify_advertise_your_product_link_with_text(HomeStepDefinition.java:136)
+	at ✽.I verify Advertise Your Product link with text 'Amazon Music Unlimited - Stream 60 million songs online now.'(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:54)
 ]]>
         </failure>
     </testcase>
-    <testcase classname="Amazon homepage functionality check" name="Check that user can navigate to 'Computers &amp; Tablets' page using 'Shop By Category' burger button" time="6.8">
+    <testcase classname="Amazon homepage functionality check" name="Check that user can navigate to 'Computers &amp; Tablets' page using 'Shop By Category' burger button" time="6.866">
         <system-out>
             <![CDATA[Given I am on Amazon homepage...............................................passed
 When I click on Shop By Category burger button..............................passed
@@ -149,7 +245,7 @@ Then I verify Computers & Tablets page with ASUS on 'Featured Brand' selection.p
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Amazon homepage functionality check" name="Check that user can navigate to 'Computers &amp; Tablets' page and select 'HP' from 'Featured Brands' selection." time="8.581">
+    <testcase classname="Amazon homepage functionality check" name="Check that user can navigate to 'Computers &amp; Tablets' page and select 'HP' from 'Featured Brands' selection." time="8.787">
         <system-out>
             <![CDATA[Given I am on Amazon homepage...............................................passed
 When I click on Shop By Category burger button..............................passed
@@ -160,7 +256,7 @@ Then I verify that HP checkbox is selected..................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Amazon Registration functionality check" name="Check that user can navigate to the Registration page using title" time="5.863">
+    <testcase classname="Amazon Registration functionality check" name="Check that user can navigate to the Registration page using title" time="7.311">
         <system-out>
             <![CDATA[Given I am on Amazon homepage...............................................passed
 When I hover over 'Hello, Sign in' button...................................passed
@@ -169,7 +265,7 @@ Then I verify page "Amazon Registration"....................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Amazon Registration functionality check" name="Check that if user does not provide a name when registering, an alert message" time="7.24">
+    <testcase classname="Amazon Registration functionality check" name="Check that if user does not provide a name when registering, an alert message" time="6.581">
         <system-out>
             <![CDATA[Given I am on Amazon homepage...............................................passed
 When I hover over 'Hello, Sign in' button...................................passed
@@ -182,7 +278,7 @@ Then I verify 'Enter your name' alert is displayed under `Your name` field..pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Amazon Registration functionality check" name="Check that if user does not provide a email when registering, an alert message" time="10.474">
+    <testcase classname="Amazon Registration functionality check" name="Check that if user does not provide a email when registering, an alert message" time="5.576">
         <system-out>
             <![CDATA[Given I am on Amazon homepage...............................................passed
 When I hover over 'Hello, Sign in' button...................................passed
@@ -195,7 +291,7 @@ Then I verify 'Enter your email' alert is displayed under `Email` field.....pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Amazon Registration functionality check" name="Check that if user does not provide a valid email format when registering, an alert message" time="8.632">
+    <testcase classname="Amazon Registration functionality check" name="Check that if user does not provide a valid email format when registering, an alert message" time="6.157">
         <system-out>
             <![CDATA[Given I am on Amazon homepage...............................................passed
 When I hover over 'Hello, Sign in' button...................................passed
@@ -209,7 +305,7 @@ Then I verify "Enter a valid email address" is displayed under `Email` field.pas
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Amazon Registration functionality check" name="Check that if user does not provide a password when registering, an alert message" time="6.819">
+    <testcase classname="Amazon Registration functionality check" name="Check that if user does not provide a password when registering, an alert message" time="7.4">
         <system-out>
             <![CDATA[Given I am on Amazon homepage...............................................passed
 When I hover over 'Hello, Sign in' button...................................passed
@@ -221,7 +317,7 @@ Then I verify "Enter your password" is displayed under `Password` field.....pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Amazon Registration functionality check" name="Check that if user does not re-enter a password when registering, an alert message" time="7.053">
+    <testcase classname="Amazon Registration functionality check" name="Check that if user does not re-enter a password when registering, an alert message" time="7.272">
         <system-out>
             <![CDATA[Given I am on Amazon homepage...............................................passed
 When I hover over 'Hello, Sign in' button...................................passed
@@ -234,7 +330,7 @@ Then I verify "Type your password again" is displayed under `Re-Enter password` 
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Amazon Registration functionality check" name="Check that if user does not provide a password that is at least 6 characters long" time="4.57">
+    <testcase classname="Amazon Registration functionality check" name="Check that if user does not provide a password that is at least 6 characters long" time="6.319">
         <system-out>
             <![CDATA[Given I am on Amazon homepage...............................................passed
 When I hover over 'Hello, Sign in' button...................................passed
@@ -248,7 +344,7 @@ And I verify "Type your password again" is displayed under `Re-Enter password` f
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Amazon Registration functionality check" name="Check that if user tries to register with an email that already has been used to create an" time="9.521">
+    <testcase classname="Amazon Registration functionality check" name="Check that if user tries to register with an email that already has been used to create an" time="7.215">
         <system-out>
             <![CDATA[Given I am on Amazon homepage...............................................passed
 When I hover over 'Hello, Sign in' button...................................passed
@@ -262,7 +358,7 @@ Then I verify "Email address already in use" is displayed for proving an email a
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Amazon search functionality check" name="Amazon search field functionality check with one item using title" time="5.244">
+    <testcase classname="Amazon search functionality check" name="Amazon search field functionality check with one item using title" time="11.329">
         <failure message="expected:&lt;Amazon.com : [hand sanitizers]&gt; but was:&lt;Amazon.com : [Hand Sanitizer]&gt;" type="org.junit.ComparisonFailure">
             <![CDATA[Given I am on Amazon homepage...............................................passed
 And I enter "Hand Sanitizer" in search field................................passed
@@ -279,7 +375,7 @@ org.junit.ComparisonFailure: expected:<Amazon.com : [hand sanitizers]> but was:<
 ]]>
         </failure>
     </testcase>
-    <testcase classname="Amazon search functionality check" name="Amazon search field functionality check with two items" time="6.139">
+    <testcase classname="Amazon search functionality check" name="Amazon search field functionality check with two items" time="11.042">
         <system-out>
             <![CDATA[Given I am on Amazon homepage...............................................passed
 When I enter "Matcha Green Tea" and submit in the search field..............passed
@@ -287,7 +383,7 @@ Then I verify items with "Amazon.com : Matcha Green Tea"....................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Amazon search functionality check" name="Amazon search field functionality check with two items 2" time="5.095">
+    <testcase classname="Amazon search functionality check" name="Amazon search field functionality check with two items 2" time="10.777">
         <system-out>
             <![CDATA[Given I am on Amazon homepage...............................................passed
 When I enter "Rage Against The Machine" and submit in the search field......passed
@@ -295,7 +391,7 @@ Then I verify items with "Amazon.com : Rage Against The Machine"............pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Amazon search functionality check" name="Amazon 'All' dropdown search functionality check with 'Computers' department" time="5.478">
+    <testcase classname="Amazon search functionality check" name="Amazon 'All' dropdown search functionality check with 'Computers' department" time="6.567">
         <system-out>
             <![CDATA[Given I am on Amazon homepage...............................................passed
 When I select "Computers" from 'All' dropdown...............................passed
@@ -304,7 +400,7 @@ Then I verify that I am in 'Computers' department with "Computers, Tablets and I
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Amazon search functionality check" name="Amazon 'All' dropdown search functionality check by selecting each department and validating" time="5.244">
+    <testcase classname="Amazon search functionality check" name="Amazon 'All' dropdown search functionality check by selecting each department and validating" time="7.932">
         <system-out>
             <![CDATA[Given I am on Amazon homepage...............................................passed
 When I select "Computers" from 'All' dropdown...............................passed
@@ -313,79 +409,34 @@ Then I verify that I am in 'Computers' department with "Computers, Tablets and I
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Amazon Sign In functionality check" name="Check that user can navigate from homepage to Sign In page using title" time="43.249">
-        <failure message="expected:&lt;Amazon[ Sign-In]&gt; but was:&lt;Amazon[.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs &amp; more]&gt;" type="org.junit.ComparisonFailure">
+    <testcase classname="Amazon Sign In functionality check" name="Check that user can navigate from homepage to Sign In page using title" time="5.822">
+        <system-out>
             <![CDATA[Given I am on Amazon homepage...............................................passed
 When I hover over 'Hello, Sign in' button...................................passed
 And I click on 'Sign in' button under Hello, Sign in........................passed
-Then I verify page title as "Amazon Sign-In"................................failed
-
-StackTrace:
-org.junit.ComparisonFailure: expected:<Amazon[ Sign-In]> but was:<Amazon[.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more]>
-	at org.junit.Assert.assertEquals(Assert.java:117)
-	at org.junit.Assert.assertEquals(Assert.java:146)
-	at base.CommonAPI.validateByTitle(CommonAPI.java:728)
-	at stepDefinitions.SearchStepDefinition.i_verify_page_title_as(SearchStepDefinition.java:47)
-	at ✽.I verify page title as "Amazon Sign-In"(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:10)
+Then I verify page title as "Amazon Sign-In"................................passed
 ]]>
-        </failure>
+        </system-out>
     </testcase>
-    <testcase classname="Amazon Sign In functionality check" name="Check that an alert message is displayed when user tries to login with an invalid email" time="11.32">
-        <system-out>
+    <testcase classname="Amazon Sign In functionality check" name="Check that an alert message is displayed when user tries to login with an invalid email" time="18.684">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.a\-list\-item&quot;}&#10;  (Session info: chrome=85.0.4183.102)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:50948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: c11a5b1d1b4830ef5cef240c76616de2&#10;*** Element info: {Using=class name, value=a-list-item}" type="org.openqa.selenium.NoSuchElementException">
             <![CDATA[Given I am on Amazon homepage...............................................passed
 When I hover over 'Hello, Sign in' button...................................passed
 And I click on 'Sign in' button under Hello, Sign in........................passed
 And I enter an invalid "invalidEmail@invalidEmail.com" on 'Email (phone for mobile accounts) field.passed
 And I click on 'Continue' button below 'Email (phone for mobile accounts) field.passed
-Then I verify that the "We cannot find an account with that email address" is displayed.passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="Amazon Sign In functionality check" name="Check that an alert message is displayed when user tries to login with an invalid phone number" time="9.986">
-        <system-out>
-            <![CDATA[Given I am on Amazon homepage...............................................passed
-When I hover over 'Hello, Sign in' button...................................passed
-And I click on 'Sign in' button under Hello, Sign in........................passed
-And I enter an invalid "8399283899" on 'Email (phone for mobile accounts) field.passed
-And I click on 'Continue' button below 'Email (phone for mobile accounts) field.passed
-Then I verify that the "We cannot find an account with that mobile number" is displayed.passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="Amazon Sign In functionality check" name="Check that an alert message is displayed when user tries to login with an invalid password" time="15.143">
-        <system-out>
-            <![CDATA[Given I am on Amazon homepage...............................................passed
-When I hover over 'Hello, Sign in' button...................................passed
-And I click on 'Sign in' button under Hello, Sign in........................passed
-And I enter a valid "ciara105@xhanimatedm.com" on 'Email (phone for mobile accounts) field.passed
-And I click on 'Continue' button below 'Email (phone for mobile accounts) field.passed
-And I enter an invalid "InvalidPass123!" on the 'Password' field............passed
-And I click on 'Sign-in' button after password..............................passed
-Then I verify that the "Your password is incorrect" or "To better protect your account, please re-enter your password and then enter the characters as they are shown in the image below." is displayed.passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="Amazon Sign In functionality check" name="Check that an user can successfully log into Amazon" time="24.757">
-        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.nav\-shortened\-name&quot;}&#10;  (Session info: chrome=85.0.4183.102)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:55292}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 06b064e2cb790c36417a10875640cedc&#10;*** Element info: {Using=class name, value=nav-shortened-name}" type="org.openqa.selenium.NoSuchElementException">
-            <![CDATA[Given I am on Amazon homepage...............................................passed
-When I hover over 'Hello, Sign in' button...................................passed
-And I click on 'Sign in' button under Hello, Sign in........................passed
-And I enter a valid "shakir.jahangir83@gmail.com" on 'Email (phone for mobile accounts) field.passed
-And I click on 'Continue' button below 'Email (phone for mobile accounts) field.passed
-And I enter a valid "BugBusters" on the Password field......................passed
-And I click on 'Sign-in' button after password..............................passed
-Then I verify that "Shakir" is displayed....................................failed
+Then I verify that the "We cannot find an account with that email address" is displayed.failed
 
 StackTrace:
-org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".nav\-shortened\-name"}
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".a\-list\-item"}
   (Session info: chrome=85.0.4183.102)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:55292}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 06b064e2cb790c36417a10875640cedc
-*** Element info: {Using=class name, value=nav-shortened-name}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:50948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c11a5b1d1b4830ef5cef240c76616de2
+*** Element info: {Using=class name, value=a-list-item}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -401,13 +452,65 @@ Session ID: 06b064e2cb790c36417a10875640cedc
 	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 	at base.CommonAPI.validateByTextByClass(CommonAPI.java:737)
-	at stepDefinitions.SignInStepDefinition.i_verify_that_is_displayed(SignInStepDefinition.java:92)
-	at ✽.I verify that "Shakir" is displayed(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:47)
+	at stepDefinitions.SignInStepDefinition.i_verify_that_the_is_displayed(SignInStepDefinition.java:50)
+	at ✽.I verify that the "We cannot find an account with that email address" is displayed(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:16)
 ]]>
         </failure>
     </testcase>
-    <testcase classname="Amazon Sign In functionality check" name="Check that two users can successfully log into Amazon consecutively" time="26.615">
-        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#ap_password&quot;}&#10;  (Session info: chrome=85.0.4183.102)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:55324}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 921a2efc980575fc040d2826fa4349b0&#10;*** Element info: {Using=css selector, value=#ap_password}" type="org.openqa.selenium.NoSuchElementException">
+    <testcase classname="Amazon Sign In functionality check" name="Check that an alert message is displayed when user tries to login with an invalid phone number" time="8.836">
+        <system-out>
+            <![CDATA[Given I am on Amazon homepage...............................................passed
+When I hover over 'Hello, Sign in' button...................................passed
+And I click on 'Sign in' button under Hello, Sign in........................passed
+And I enter an invalid "8399283899" on 'Email (phone for mobile accounts) field.passed
+And I click on 'Continue' button below 'Email (phone for mobile accounts) field.passed
+Then I verify that the "We cannot find an account with that mobile number" is displayed.passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Amazon Sign In functionality check" name="Check that an alert message is displayed when user tries to login with an invalid password" time="28.891">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#ap_password&quot;}&#10;  (Session info: chrome=85.0.4183.102)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:51025}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 9c5613fbb80770c5342da4e016867e30&#10;*** Element info: {Using=css selector, value=#ap_password}" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given I am on Amazon homepage...............................................passed
+When I hover over 'Hello, Sign in' button...................................passed
+And I click on 'Sign in' button under Hello, Sign in........................passed
+And I enter a valid "ciara105@xhanimatedm.com" on 'Email (phone for mobile accounts) field.passed
+And I click on 'Continue' button below 'Email (phone for mobile accounts) field.passed
+And I enter an invalid "InvalidPass123!" on the 'Password' field............failed
+And I click on 'Sign-in' button after password..............................skipped
+Then I verify that the "Your password is incorrect" or "To better protect your account, please re-enter your password and then enter the characters as they are shown in the image below." is displayed.skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#ap_password"}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:51025}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9c5613fbb80770c5342da4e016867e30
+*** Element info: {Using=css selector, value=#ap_password}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at base.CommonAPI.typeOnElementByCSS(CommonAPI.java:281)
+	at stepDefinitions.SignInStepDefinition.i_enter_an_invalid_on_the_field(SignInStepDefinition.java:65)
+	at ✽.I enter an invalid "InvalidPass123!" on the 'Password' field(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:34)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Amazon Sign In functionality check" name="Check that an user can successfully log into Amazon" time="28.256">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#ap_password&quot;}&#10;  (Session info: chrome=85.0.4183.102)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:51078}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: f7aeae59153907eb5e9afdc8e683d58f&#10;*** Element info: {Using=css selector, value=#ap_password}" type="org.openqa.selenium.NoSuchElementException">
             <![CDATA[Given I am on Amazon homepage...............................................passed
 When I hover over 'Hello, Sign in' button...................................passed
 And I click on 'Sign in' button under Hello, Sign in........................passed
@@ -424,11 +527,50 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:55324}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 921a2efc980575fc040d2826fa4349b0
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:51078}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f7aeae59153907eb5e9afdc8e683d58f
 *** Element info: {Using=css selector, value=#ap_password}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at jdk.internal.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at base.CommonAPI.typeOnElementByCSS(CommonAPI.java:281)
+	at stepDefinitions.SignInStepDefinition.i_enter_a_valid_on_the_password_field(SignInStepDefinition.java:70)
+	at ✽.I enter a valid "BugBusters" on the Password field(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:45)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Amazon Sign In functionality check" name="Check that two users can successfully log into Amazon consecutively" time="27.707">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#ap_password&quot;}&#10;  (Session info: chrome=85.0.4183.102)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:51136}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: fb8048a3c01581f0e64915685f1e45c7&#10;*** Element info: {Using=css selector, value=#ap_password}" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given I am on Amazon homepage...............................................passed
+When I hover over 'Hello, Sign in' button...................................passed
+And I click on 'Sign in' button under Hello, Sign in........................passed
+And I enter a valid "shakir.jahangir83@gmail.com" on 'Email (phone for mobile accounts) field.passed
+And I click on 'Continue' button below 'Email (phone for mobile accounts) field.passed
+And I enter a valid "BugBusters" on the Password field......................failed
+And I click on 'Sign-in' button after password..............................skipped
+Then I verify that "Shakir" is displayed....................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#ap_password"}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:51136}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: fb8048a3c01581f0e64915685f1e45c7
+*** Element info: {Using=css selector, value=#ap_password}
+	at jdk.internal.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
@@ -447,8 +589,8 @@ Session ID: 921a2efc980575fc040d2826fa4349b0
 ]]>
         </failure>
     </testcase>
-    <testcase classname="Amazon Sign In functionality check" name="Check that two users can successfully log into Amazon consecutively 2" time="26.15">
-        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.nav\-shortened\-name&quot;}&#10;  (Session info: chrome=85.0.4183.102)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:55370}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 62be1c852a4a8f172f58ea2f1b934a69&#10;*** Element info: {Using=class name, value=nav-shortened-name}" type="org.openqa.selenium.NoSuchElementException">
+    <testcase classname="Amazon Sign In functionality check" name="Check that two users can successfully log into Amazon consecutively 2" time="17.404">
+        <system-out>
             <![CDATA[Given I am on Amazon homepage...............................................passed
 When I hover over 'Hello, Sign in' button...................................passed
 And I click on 'Sign in' button under Hello, Sign in........................passed
@@ -456,161 +598,65 @@ And I enter a valid "zarria@xhanimatedm.com" on 'Email (phone for mobile account
 And I click on 'Continue' button below 'Email (phone for mobile accounts) field.passed
 And I enter a valid "BugBusters" on the Password field......................passed
 And I click on 'Sign-in' button after password..............................passed
-Then I verify that "Phong" is displayed.....................................failed
+Then I verify that "Phong" is displayed.....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Amazon Sign In functionality check" name="Check that an alert message is displayed when user tries to login without an email or phone number" time="7.813">
+        <failure message="expected:&lt;[Enter your email or mobile phone number]&gt; but was:&lt;[]&gt;" type="org.junit.ComparisonFailure">
+            <![CDATA[Given I am on Amazon homepage...............................................passed
+When I hover over 'Hello, Sign in' button...................................passed
+And I click on 'Sign in' button under Hello, Sign in........................passed
+And I click on 'Continue' button below 'Email (phone for mobile accounts) field.passed
+Then I verify that the missing email or phone "Enter your email or mobile phone number" is displayed.failed
 
 StackTrace:
-org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".nav\-shortened\-name"}
-  (Session info: chrome=85.0.4183.102)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:55370}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 62be1c852a4a8f172f58ea2f1b934a69
-*** Element info: {Using=class name, value=nav-shortened-name}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
-	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at base.CommonAPI.validateByTextByClass(CommonAPI.java:737)
-	at stepDefinitions.SignInStepDefinition.i_verify_that_is_displayed(SignInStepDefinition.java:92)
-	at ✽.I verify that "Phong" is displayed(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:58)
+org.junit.ComparisonFailure: expected:<[Enter your email or mobile phone number]> but was:<[]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at base.CommonAPI.validateByText(CommonAPI.java:751)
+	at stepDefinitions.SignInStepDefinition.i_verify_that_the_missing_email_or_phone_is_displayed(SignInStepDefinition.java:97)
+	at ✽.I verify that the missing email or phone "Enter your email or mobile phone number" is displayed(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:67)
 ]]>
         </failure>
     </testcase>
-    <testcase classname="Amazon Sign In functionality check" name="Check that an alert message is displayed when user tries to login without an email or phone number" time="8.742">
+    <testcase classname="Amazon Sign In functionality check" name="Check that an alert message is displayed when user tries to login without a password" time="14.498">
         <system-out>
             <![CDATA[Given I am on Amazon homepage...............................................passed
 When I hover over 'Hello, Sign in' button...................................passed
 And I click on 'Sign in' button under Hello, Sign in........................passed
+And I enter a valid "shakir.jahangir83@gmail.com" on 'Email (phone for mobile accounts) field.passed
 And I click on 'Continue' button below 'Email (phone for mobile accounts) field.passed
-Then I verify that the missing email or phone "Enter your email or mobile phone number" is displayed.passed
+And I click on 'Sign-in' button after password..............................passed
+Then I verify that the missing password "Enter your password" is displayed..passed
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Amazon Sign In functionality check" name="Check that an alert message is displayed when user tries to login without a password" time="26.376">
-        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#signInSubmit&quot;}&#10;  (Session info: chrome=85.0.4183.102)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:55436}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: eeafc586cc39b81498954eb4c56c28b2&#10;*** Element info: {Using=id, value=signInSubmit}" type="org.openqa.selenium.NoSuchElementException">
+    <testcase classname="Amazon Sign In functionality check" name="Check that user can navigate to 'Forgot your password?' page" time="14.34">
+        <system-out>
             <![CDATA[Given I am on Amazon homepage...............................................passed
 When I hover over 'Hello, Sign in' button...................................passed
 And I click on 'Sign in' button under Hello, Sign in........................passed
 And I enter a valid "shakir.jahangir83@gmail.com" on 'Email (phone for mobile accounts) field.passed
 And I click on 'Continue' button below 'Email (phone for mobile accounts) field.passed
-And I click on 'Sign-in' button after password..............................failed
-Then I verify that the missing password "Enter your password" is displayed..skipped
-
-StackTrace:
-org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#signInSubmit"}
-  (Session info: chrome=85.0.4183.102)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:55436}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: eeafc586cc39b81498954eb4c56c28b2
-*** Element info: {Using=id, value=signInSubmit}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-	at org.openqa.selenium.By$ById.findElement(By.java:188)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at base.CommonAPI.clickOnElementByID(CommonAPI.java:241)
-	at stepDefinitions.SignInStepDefinition.i_click_on_button_after_password(SignInStepDefinition.java:87)
-	at ✽.I click on 'Sign-in' button after password(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:76)
+And I click on 'Forgot your password?' link.................................passed
+Then I verify "Amazon Password Assistance"..................................passed
 ]]>
-        </failure>
+        </system-out>
     </testcase>
-    <testcase classname="Amazon Sign In functionality check" name="Check that user can navigate to 'Forgot your password?' page" time="27.326">
-        <failure message="element not interactable&#10;  (Session info: chrome=85.0.4183.102)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:55485}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: b68d5bb6a983b455d3fe1d8131da7fcc" type="org.openqa.selenium.ElementNotInteractableException">
+    <testcase classname="Amazon Sign In functionality check" name="Check that alert message is displayed when user can navigate to 'Forgot your password?' page" time="22.952">
+        <system-out>
             <![CDATA[Given I am on Amazon homepage...............................................passed
 When I hover over 'Hello, Sign in' button...................................passed
 And I click on 'Sign in' button under Hello, Sign in........................passed
 And I enter a valid "shakir.jahangir83@gmail.com" on 'Email (phone for mobile accounts) field.passed
 And I click on 'Continue' button below 'Email (phone for mobile accounts) field.passed
-And I click on 'Forgot your password?' link.................................failed
-Then I verify "Amazon Password Assistance"..................................skipped
-
-StackTrace:
-org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=85.0.4183.102)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:55485}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: b68d5bb6a983b455d3fe1d8131da7fcc
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at base.CommonAPI.clickOnElementByID(CommonAPI.java:241)
-	at stepDefinitions.SignInStepDefinition.i_click_on_link(SignInStepDefinition.java:107)
-	at ✽.I click on 'Forgot your password?' link(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:86)
+And I click on 'Forgot your password?' link.................................passed
+And I clear the 'Email or mobile phone number' field........................passed
+And I enter an "bogusemail9183@bogus.com" on Forgot your password? page.....passed
+And I click on 'Continue' button on 'Forgot your password?' page............passed
+Then I verify by "Please solve this puzzle so we know you're a real person" or an "We're sorry. We weren't able to identify you given the information provided.".passed
 ]]>
-        </failure>
-    </testcase>
-    <testcase classname="Amazon Sign In functionality check" name="Check that alert message is displayed when user can navigate to 'Forgot your password?' page" time="26.227">
-        <failure message="element not interactable&#10;  (Session info: chrome=85.0.4183.102)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:55538}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 2690753ed906e39476b373e30994973c" type="org.openqa.selenium.ElementNotInteractableException">
-            <![CDATA[Given I am on Amazon homepage...............................................passed
-When I hover over 'Hello, Sign in' button...................................passed
-And I click on 'Sign in' button under Hello, Sign in........................passed
-And I enter a valid "shakir.jahangir83@gmail.com" on 'Email (phone for mobile accounts) field.passed
-And I click on 'Continue' button below 'Email (phone for mobile accounts) field.passed
-And I click on 'Forgot your password?' link.................................failed
-And I clear the 'Email or mobile phone number' field........................skipped
-And I enter an "bogusemail9183@bogus.com" on Forgot your password? page.....skipped
-And I click on 'Continue' button on 'Forgot your password?' page............skipped
-Then I verify by "Please solve this puzzle so we know you're a real person" or an "We're sorry. We weren't able to identify you given the information provided.".skipped
-
-StackTrace:
-org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=85.0.4183.102)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:55538}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 2690753ed906e39476b373e30994973c
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at base.CommonAPI.clickOnElementByID(CommonAPI.java:241)
-	at stepDefinitions.SignInStepDefinition.i_click_on_link(SignInStepDefinition.java:107)
-	at ✽.I click on 'Forgot your password?' link(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:97)
-]]>
-        </failure>
+        </system-out>
     </testcase>
 </testsuite>
