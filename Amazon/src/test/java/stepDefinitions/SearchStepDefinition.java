@@ -39,11 +39,31 @@ public class SearchStepDefinition extends CommonAPI {
 
     @When("I submit search field")
     public void i_submit_search_field() {
-        submitOnElement(searchFieldIDWebElement);
+        submitOnElementByID(searchFieldIDWebElement);
     }
 
     @Then("I verify page title as {string}")
     public void i_verify_page_title_as(String string) {
-        validateByTitle("Amazon.com : Hand Sanitizer");
+        validateByTitle(string);
+    }
+
+    @When("I enter {string} and submit in the search field.")
+    public void i_enter_and_submit_in_the_search_field(String item) {
+        typeOnElementNEnterByID(searchFieldIDWebElement, item);
+    }
+
+    @Then("I verify items with {string}.")
+    public void i_verify_items_with(String title) {
+        validateByTitle(title);
+    }
+
+    @When("I select {string} from {string} dropdown")
+    public void i_select_from_dropdown(String string, String string2) {
+        selectOptionByVisibleTextByID(allDropDownSearchIDWebElement, string);
+    }
+
+    @Then("I verify that I am in {string} department with {string}.")
+    public void i_verify_that_i_am_in_department_with(String string, String string2) {
+        validateByText(departmentTextXpathWebElement, string2);
     }
 }

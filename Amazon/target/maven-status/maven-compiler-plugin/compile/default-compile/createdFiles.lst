@@ -1,2 +1,10 @@
-search/Search.class
-search/SearchWebElements.class
+home\HomePage.class
+cart\CartWebElements.class
+signIn\SignInWebElements.class
+search\Search.class
+home\HomePageWebElements.class
+cart\Cart.class
+registration\RegistrationPage.class
+registration\RegistrationWebElements.class
+signIn\SignIn.class
+search\SearchWebElements.class

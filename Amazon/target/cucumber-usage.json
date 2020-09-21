@@ -5,13 +5,1433 @@
       {
         "name": "I am on Amazon homepage",
         "aggregatedDurations": {
-          "median": 6.171442,
-          "average": 6.171442
+          "median": 5.6537835,
+          "average": 6.097753638
         },
         "durations": [
           {
-            "duration": 6.171442,
-            "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:5"
+            "duration": 6.5993339,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:4"
+          },
+          {
+            "duration": 5.1908285,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:4"
+          },
+          {
+            "duration": 5.8128656,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:4"
+          },
+          {
+            "duration": 5.7009651,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:4"
+          },
+          {
+            "duration": 5.4052748,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:4"
+          },
+          {
+            "duration": 5.4917153,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:4"
+          },
+          {
+            "duration": 5.5678301,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:4"
+          },
+          {
+            "duration": 5.4405218,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:4"
+          },
+          {
+            "duration": 6.1115951,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:4"
+          },
+          {
+            "duration": 5.3584013,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:4"
+          },
+          {
+            "duration": 5.2298114,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:4"
+          },
+          {
+            "duration": 5.5298526,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:4"
+          },
+          {
+            "duration": 6.3895968,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:4"
+          },
+          {
+            "duration": 5.8054485,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:4"
+          },
+          {
+            "duration": 5.9369968,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:4"
+          },
+          {
+            "duration": 5.8528758,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:4"
+          },
+          {
+            "duration": 5.7994538,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:4"
+          },
+          {
+            "duration": 5.5744083,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:4"
+          },
+          {
+            "duration": 5.927713,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:4"
+          },
+          {
+            "duration": 5.6215591,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:4"
+          },
+          {
+            "duration": 6.495762,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:4"
+          },
+          {
+            "duration": 5.6160845,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:4"
+          },
+          {
+            "duration": 5.8165797,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:4"
+          },
+          {
+            "duration": 5.6537835,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:4"
+          },
+          {
+            "duration": 5.8150171,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:4"
+          },
+          {
+            "duration": 5.9043767,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:4"
+          },
+          {
+            "duration": 5.9352663,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:4"
+          },
+          {
+            "duration": 21.2238578,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:4"
+          },
+          {
+            "duration": 5.7982047,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:4"
+          },
+          {
+            "duration": 5.6344441,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:4"
+          },
+          {
+            "duration": 5.6171728,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:4"
+          },
+          {
+            "duration": 5.5710304,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:4"
+          },
+          {
+            "duration": 5.7547042,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:4"
+          },
+          {
+            "duration": 5.7445353,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:4"
+          },
+          {
+            "duration": 5.4378052,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:4"
+          },
+          {
+            "duration": 5.542999,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:4"
+          },
+          {
+            "duration": 5.4348206,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:4"
+          },
+          {
+            "duration": 5.1596568,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:4"
+          },
+          {
+            "duration": 5.3092436,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} and submit in the search field.",
+    "steps": [
+      {
+        "name": "I enter \"WD 5TB My Passport\" and submit in the search field.",
+        "aggregatedDurations": {
+          "median": 2.3064981,
+          "average": 2.93416155
+        },
+        "durations": [
+          {
+            "duration": 5.2736512,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:5"
+          },
+          {
+            "duration": 2.1139989,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:5"
+          },
+          {
+            "duration": 1.8499988,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:5"
+          },
+          {
+            "duration": 2.4989973,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:5"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"Matcha Green Tea\" and submit in the search field.",
+        "aggregatedDurations": {
+          "median": 2.9870363,
+          "average": 2.9870363
+        },
+        "durations": [
+          {
+            "duration": 2.9870363,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:14"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"Rage Against The Machine\" and submit in the search field.",
+        "aggregatedDurations": {
+          "median": 2.0440499,
+          "average": 2.0440499
+        },
+        "durations": [
+          {
+            "duration": 2.0440499,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on the product {string}",
+    "steps": [
+      {
+        "name": "I click on the product \u0027WD 5TB My Passport Portable External Hard Drive, Black - WDBPKJ0050BBK-WESN\u0027",
+        "aggregatedDurations": {
+          "median": 2.14258695,
+          "average": 1.81007985
+        },
+        "durations": [
+          {
+            "duration": 2.281146,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:6"
+          },
+          {
+            "duration": 2.0740533,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:6"
+          },
+          {
+            "duration": 2.2111206,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:6"
+          },
+          {
+            "duration": 0.6739995,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on {string}",
+    "steps": [
+      {
+        "name": "I click on \u0027Add to Cart\u0027",
+        "aggregatedDurations": {
+          "median": 3.1130018,
+          "average": 3.06256356
+        },
+        "durations": [
+          {
+            "duration": 3.1952433,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:7"
+          },
+          {
+            "duration": 3.4225162,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:7"
+          },
+          {
+            "duration": 3.1130018,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:7"
+          },
+          {
+            "duration": 2.576022,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:7"
+          },
+          {
+            "duration": 3.0060345,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:29"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify that the item has been added with {string} text",
+    "steps": [
+      {
+        "name": "I verify that the item has been added with \u0027Added to Cart\u0027 text",
+        "aggregatedDurations": {
+          "median": 10.5001975,
+          "average": 10.5001975
+        },
+        "durations": [
+          {
+            "duration": 10.5001975,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on cart button",
+    "steps": [
+      {
+        "name": "I click on cart button",
+        "aggregatedDurations": {
+          "median": 1.2670022,
+          "average": 1.1789444
+        },
+        "durations": [
+          {
+            "duration": 1.4394032,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:15"
+          },
+          {
+            "duration": 1.2670022,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:21"
+          },
+          {
+            "duration": 0.8304278,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:30"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify that the item has been added by confirming that the item is displayed in the cart",
+    "steps": [
+      {
+        "name": "I verify that the item has been added by confirming that the item is displayed in the cart",
+        "aggregatedDurations": {
+          "median": 0.3149992,
+          "average": 0.3149992
+        },
+        "durations": [
+          {
+            "duration": 0.3149992,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on {string} button",
+    "steps": [
+      {
+        "name": "I click on \u0027Delete\u0027 button",
+        "aggregatedDurations": {
+          "median": 0.5320031,
+          "average": 0.5320031
+        },
+        "durations": [
+          {
+            "duration": 0.5320031,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:22"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify that the the text {string} is displayed",
+    "steps": [
+      {
+        "name": "I verify that the the text \u0027Your Amazon Cart is empty\u0027 is displayed",
+        "aggregatedDurations": {
+          "median": 0.6230001,
+          "average": 0.6230001
+        },
+        "durations": [
+          {
+            "duration": 0.6230001,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:23"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I navigate back to previous window.",
+    "steps": [
+      {
+        "name": "I navigate back to previous window.",
+        "aggregatedDurations": {
+          "median": 0.8309939,
+          "average": 0.8309939
+        },
+        "durations": [
+          {
+            "duration": 0.8309939,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:28"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify that for Subtotal {string} is displayed",
+    "steps": [
+      {
+        "name": "I verify that for Subtotal \"2 items\" is displayed",
+        "aggregatedDurations": {
+          "median": 10.0784482,
+          "average": 10.0784482
+        },
+        "durations": [
+          {
+            "duration": 10.0784482,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:31"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Amazon homepage with title",
+    "steps": [
+      {
+        "name": "I verify Amazon homepage with title",
+        "aggregatedDurations": {
+          "median": 0.021999,
+          "average": 0.021999
+        },
+        "durations": [
+          {
+            "duration": 0.021999,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on \u0027Today\u0027s Deal\u0027 tab",
+    "steps": [
+      {
+        "name": "I click on \u0027Today\u0027s Deal\u0027 tab",
+        "aggregatedDurations": {
+          "median": 1.62480035,
+          "average": 1.62480035
+        },
+        "durations": [
+          {
+            "duration": 1.5000309,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:12"
+          },
+          {
+            "duration": 1.7495698,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify \u0027Today\u0027s Deal\u0027 with title",
+    "steps": [
+      {
+        "name": "I verify \u0027Today\u0027s Deal\u0027 with title",
+        "aggregatedDurations": {
+          "median": 0.0409999,
+          "average": 0.0409999
+        },
+        "durations": [
+          {
+            "duration": 0.0409999,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify \u0027Today\u0027s Deal\u0027 with \u0027Deals and Promotions\u0027 text being displayed",
+    "steps": [
+      {
+        "name": "I verify \u0027Today\u0027s Deal\u0027 with \u0027Deals and Promotions\u0027 text being displayed",
+        "aggregatedDurations": {
+          "median": 0.1989956,
+          "average": 0.1989956
+        },
+        "durations": [
+          {
+            "duration": 0.1989956,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on {string} tab",
+    "steps": [
+      {
+        "name": "I click on \u0027Customer Service\u0027 tab",
+        "aggregatedDurations": {
+          "median": 1.5352994,
+          "average": 1.5352994
+        },
+        "durations": [
+          {
+            "duration": 1.5352994,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:22"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify {string} with with title",
+    "steps": [
+      {
+        "name": "I verify \u0027Customer Service\u0027 with with title",
+        "aggregatedDurations": {
+          "median": 0.0089986,
+          "average": 0.0089986
+        },
+        "durations": [
+          {
+            "duration": 0.0089986,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:23"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify {string} with {string} text",
+    "steps": [
+      {
+        "name": "I verify \u0027Customer Service\u0027 with \u0027Hello. What can we help you with?\u0027 text",
+        "aggregatedDurations": {
+          "median": 0.0859995,
+          "average": 0.0859995
+        },
+        "durations": [
+          {
+            "duration": 0.0859995,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:24"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Gift Cards tab",
+    "steps": [
+      {
+        "name": "I click on Gift Cards tab",
+        "aggregatedDurations": {
+          "median": 2.77852,
+          "average": 2.77852
+        },
+        "durations": [
+          {
+            "duration": 2.77852,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:28"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Gift Cards tab with with title {string}",
+    "steps": [
+      {
+        "name": "I verify Gift Cards tab with with title \u0027Amazon.com Gift Cards\u0027",
+        "aggregatedDurations": {
+          "median": 0.0629992,
+          "average": 0.0629992
+        },
+        "durations": [
+          {
+            "duration": 0.0629992,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:29"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Gift Cards with {string} text",
+    "steps": [
+      {
+        "name": "I verify Gift Cards with \u0027Hello. What can we help you with?\u0027 text",
+        "aggregatedDurations": {
+          "median": 0.0949946,
+          "average": 0.0949946
+        },
+        "durations": [
+          {
+            "duration": 0.0949946,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:30"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Registry tab",
+    "steps": [
+      {
+        "name": "I click on Registry tab",
+        "aggregatedDurations": {
+          "median": 1.1815165,
+          "average": 1.1815165
+        },
+        "durations": [
+          {
+            "duration": 1.1815165,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:34"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Registry tab with with title {string}",
+    "steps": [
+      {
+        "name": "I verify Registry tab with with title \u0027Amazon.com: : Registry\u0027",
+        "aggregatedDurations": {
+          "median": 0.0910008,
+          "average": 0.0910008
+        },
+        "durations": [
+          {
+            "duration": 0.0910008,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:35"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Sell tab",
+    "steps": [
+      {
+        "name": "I click on Sell tab",
+        "aggregatedDurations": {
+          "median": 3.532523,
+          "average": 3.532523
+        },
+        "durations": [
+          {
+            "duration": 3.532523,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:39"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Sell tab with with title {string}",
+    "steps": [
+      {
+        "name": "I verify Sell tab with with title \u0027Amazon.com: Sell Products Online with Selling on Amazon.\u0027",
+        "aggregatedDurations": {
+          "median": 0.0569941,
+          "average": 0.0569941
+        },
+        "durations": [
+          {
+            "duration": 0.0569941,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:40"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Sell tab with {string} text",
+    "steps": [
+      {
+        "name": "I verify Sell tab with \u0027Become an Amazon seller\u0027 text",
+        "aggregatedDurations": {
+          "median": 0.0349976,
+          "average": 0.0349976
+        },
+        "durations": [
+          {
+            "duration": 0.0349976,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:41"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Music link",
+    "steps": [
+      {
+        "name": "I click on Music link",
+        "aggregatedDurations": {
+          "median": 2.7599991,
+          "average": 2.7599991
+        },
+        "durations": [
+          {
+            "duration": 2.7599991,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:45"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Music link with with URL {string}",
+    "steps": [
+      {
+        "name": "I verify Music link with with URL \u0027https://music.amazon.com/home?ref\u003ddm_aff_amz_com\u0027",
+        "aggregatedDurations": {
+          "median": 0.2475106,
+          "average": 0.2475106
+        },
+        "durations": [
+          {
+            "duration": 0.2475106,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:46"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Music link with title {string}",
+    "steps": [
+      {
+        "name": "I verify Music link with title \u0027Amazon Music Unlimited - Stream 60 million songs online now.\u0027",
+        "aggregatedDurations": {
+          "median": 0.0239972,
+          "average": 0.0239972
+        },
+        "durations": [
+          {
+            "duration": 0.0239972,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:47"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Advertise Your Product link",
+    "steps": [
+      {
+        "name": "I click on Advertise Your Product link",
+        "aggregatedDurations": {
+          "median": 1.7350393,
+          "average": 1.7350393
+        },
+        "durations": [
+          {
+            "duration": 1.7350393,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:51"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Advertise Your Product link with title {string}",
+    "steps": [
+      {
+        "name": "I verify Advertise Your Product link with title \u0027Amazon Advertising: Online advertising on Amazon\u0027",
+        "aggregatedDurations": {
+          "median": 0.0249987,
+          "average": 0.0249987
+        },
+        "durations": [
+          {
+            "duration": 0.0249987,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:52"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Advertise Your Product link with URL {string}",
+    "steps": [
+      {
+        "name": "I verify Advertise Your Product link with URL \u0027https://advertising.amazon.com/\u0027",
+        "aggregatedDurations": {
+          "median": 3.0170687,
+          "average": 3.0170687
+        },
+        "durations": [
+          {
+            "duration": 3.0170687,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:53"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Shop By Category burger button",
+    "steps": [
+      {
+        "name": "I click on Shop By Category burger button",
+        "aggregatedDurations": {
+          "median": 0.74949815,
+          "average": 0.74949815
+        },
+        "durations": [
+          {
+            "duration": 0.7539994,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:58"
+          },
+          {
+            "duration": 0.7449969,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:65"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Computers",
+    "steps": [
+      {
+        "name": "I click on Computers",
+        "aggregatedDurations": {
+          "median": 0.16000105,
+          "average": 0.16000105
+        },
+        "durations": [
+          {
+            "duration": 0.1949993,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:59"
+          },
+          {
+            "duration": 0.1250028,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:66"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Computers \u0026 Tablets",
+    "steps": [
+      {
+        "name": "I click on Computers \u0026 Tablets",
+        "aggregatedDurations": {
+          "median": 0.79376045,
+          "average": 0.79376045
+        },
+        "durations": [
+          {
+            "duration": 0.7555205,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:60"
+          },
+          {
+            "duration": 0.8320004,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:67"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Computers \u0026 Tablets page with ASUS on {string} selection",
+    "steps": [
+      {
+        "name": "I verify Computers \u0026 Tablets page with ASUS on \u0027Featured Brand\u0027 selection",
+        "aggregatedDurations": {
+          "median": 0.9695141,
+          "average": 0.9695141
+        },
+        "durations": [
+          {
+            "duration": 0.9695141,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:61"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on HP checkbox from Featured Brands selection",
+    "steps": [
+      {
+        "name": "I click on HP checkbox from Featured Brands selection",
+        "aggregatedDurations": {
+          "median": 0.9080019,
+          "average": 0.9080019
+        },
+        "durations": [
+          {
+            "duration": 0.9080019,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:68"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify that HP checkbox is selected.",
+    "steps": [
+      {
+        "name": "I verify that HP checkbox is selected.",
+        "aggregatedDurations": {
+          "median": 0.3369998,
+          "average": 0.3369998
+        },
+        "durations": [
+          {
+            "duration": 0.3369998,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:69"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I hover over {string} button",
+    "steps": [
+      {
+        "name": "I hover over \u0027Hello, Sign in\u0027 button",
+        "aggregatedDurations": {
+          "median": 0.3670001,
+          "average": 0.350386568
+        },
+        "durations": [
+          {
+            "duration": 0.3230075,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:5"
+          },
+          {
+            "duration": 0.4085403,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:5"
+          },
+          {
+            "duration": 0.4480003,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:5"
+          },
+          {
+            "duration": 0.3320143,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:5"
+          },
+          {
+            "duration": 0.329001,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:5"
+          },
+          {
+            "duration": 0.3715354,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:5"
+          },
+          {
+            "duration": 0.4170077,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:5"
+          },
+          {
+            "duration": 0.3990003,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:5"
+          },
+          {
+            "duration": 0.1910016,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:5"
+          },
+          {
+            "duration": 0.5141784,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:5"
+          },
+          {
+            "duration": 0.5070009,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:5"
+          },
+          {
+            "duration": 0.3929962,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:5"
+          },
+          {
+            "duration": 0.3349993,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:5"
+          },
+          {
+            "duration": 0.3670001,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:5"
+          },
+          {
+            "duration": 0.2345252,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:5"
+          },
+          {
+            "duration": 0.4049999,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:5"
+          },
+          {
+            "duration": 0.2565136,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:5"
+          },
+          {
+            "duration": 0.2020058,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:5"
+          },
+          {
+            "duration": 0.224017,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on {string} link on homepage",
+    "steps": [
+      {
+        "name": "I click on \u0027Start here\u0027 link on homepage",
+        "aggregatedDurations": {
+          "median": 0.9731087,
+          "average": 0.9487954
+        },
+        "durations": [
+          {
+            "duration": 0.9669985,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:6"
+          },
+          {
+            "duration": 1.0010428,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:6"
+          },
+          {
+            "duration": 0.9295169,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:6"
+          },
+          {
+            "duration": 1.0129783,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:6"
+          },
+          {
+            "duration": 0.9792189,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:6"
+          },
+          {
+            "duration": 0.8970342,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:6"
+          },
+          {
+            "duration": 0.8230004,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:6"
+          },
+          {
+            "duration": 0.9805732,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify page {string}",
+    "steps": [
+      {
+        "name": "I verify page \"Amazon Registration\"",
+        "aggregatedDurations": {
+          "median": 0.0179976,
+          "average": 0.0179976
+        },
+        "durations": [
+          {
+            "duration": 0.0179976,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter a random email address in the {string} field",
+    "steps": [
+      {
+        "name": "I enter a random email address in the \u0027Email\u0027 field",
+        "aggregatedDurations": {
+          "median": 0.26099405,
+          "average": 0.437130975
+        },
+        "durations": [
+          {
+            "duration": 1.0075405,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:18"
+          },
+          {
+            "duration": 0.2619905,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:50"
+          },
+          {
+            "duration": 0.2599976,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:61"
+          },
+          {
+            "duration": 0.2189953,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:74"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter a random password in the {string} field",
+    "steps": [
+      {
+        "name": "I enter a random password in the \u0027Password\u0027 field",
+        "aggregatedDurations": {
+          "median": 0.1519985,
+          "average": 0.15460732
+        },
+        "durations": [
+          {
+            "duration": 0.2029988,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:19"
+          },
+          {
+            "duration": 0.1260017,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:28"
+          },
+          {
+            "duration": 0.1519985,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:38"
+          },
+          {
+            "duration": 0.1139978,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:62"
+          },
+          {
+            "duration": 0.1780398,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:88"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Re-enter the password in the `Re-enter password` field",
+    "steps": [
+      {
+        "name": "I Re-enter the password in the `Re-enter password` field",
+        "aggregatedDurations": {
+          "median": 0.14699915,
+          "average": 0.1452487
+        },
+        "durations": [
+          {
+            "duration": 0.182996,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:20"
+          },
+          {
+            "duration": 0.1040005,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:29"
+          },
+          {
+            "duration": 0.1530003,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:39"
+          },
+          {
+            "duration": 0.140998,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:89"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on {string} button on the Registration page",
+    "steps": [
+      {
+        "name": "I click on \u0027Create you Amazon account\u0027 button on the Registration page",
+        "aggregatedDurations": {
+          "median": 0.5355556,
+          "average": 0.652211871
+        },
+        "durations": [
+          {
+            "duration": 0.6019981,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:21"
+          },
+          {
+            "duration": 0.4764132,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:30"
+          },
+          {
+            "duration": 0.5355556,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:40"
+          },
+          {
+            "duration": 0.5309998,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:51"
+          },
+          {
+            "duration": 0.5299988,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:63"
+          },
+          {
+            "duration": 0.5415222,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:76"
+          },
+          {
+            "duration": 1.3489954,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:90"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify {string} alert is displayed under `Your name` field",
+    "steps": [
+      {
+        "name": "I verify \u0027Enter your name\u0027 alert is displayed under `Your name` field",
+        "aggregatedDurations": {
+          "median": 0.0339914,
+          "average": 0.0339914
+        },
+        "durations": [
+          {
+            "duration": 0.0339914,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:22"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter a random {string}",
+    "steps": [
+      {
+        "name": "I enter a random \u0027name\u0027",
+        "aggregatedDurations": {
+          "median": 0.17799755,
+          "average": 0.1877528
+        },
+        "durations": [
+          {
+            "duration": 0.140001,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:27"
+          },
+          {
+            "duration": 0.2279992,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:36"
+          },
+          {
+            "duration": 0.2455207,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:49"
+          },
+          {
+            "duration": 0.1899969,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:60"
+          },
+          {
+            "duration": 0.1659982,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:73"
+          },
+          {
+            "duration": 0.1570008,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:86"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify {string} alert is displayed under `Email` field",
+    "steps": [
+      {
+        "name": "I verify \u0027Enter your email\u0027 alert is displayed under `Email` field",
+        "aggregatedDurations": {
+          "median": 0.0269966,
+          "average": 0.0269966
+        },
+        "durations": [
+          {
+            "duration": 0.0269966,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:31"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter an {string} address in the `Email` field",
+    "steps": [
+      {
+        "name": "I enter an \"invalid@email.\" address in the `Email` field",
+        "aggregatedDurations": {
+          "median": 0.1369981,
+          "average": 0.1369981
+        },
+        "durations": [
+          {
+            "duration": 0.1369981,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:37"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify {string} is displayed under `Email` field",
+    "steps": [
+      {
+        "name": "I verify \"Enter a valid email address\" is displayed under `Email` field",
+        "aggregatedDurations": {
+          "median": 0.0570009,
+          "average": 0.0570009
+        },
+        "durations": [
+          {
+            "duration": 0.0570009,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:41"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify {string} is displayed under `Password` field",
+    "steps": [
+      {
+        "name": "I verify \"Enter your password\" is displayed under `Password` field",
+        "aggregatedDurations": {
+          "median": 0.0439997,
+          "average": 0.0439997
+        },
+        "durations": [
+          {
+            "duration": 0.0439997,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:52"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify {string} is displayed under `Re-Enter password` field",
+    "steps": [
+      {
+        "name": "I verify \"Type your password again\" is displayed under `Re-Enter password` field",
+        "aggregatedDurations": {
+          "median": 0.0375021,
+          "average": 0.0375021
+        },
+        "durations": [
+          {
+            "duration": 0.0380014,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:64"
+          },
+          {
+            "duration": 0.0370028,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:78"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter a random five character long password in the {string} field",
+    "steps": [
+      {
+        "name": "I enter a random five character long password in the \u0027Password\u0027 field",
+        "aggregatedDurations": {
+          "median": 0.1420369,
+          "average": 0.1420369
+        },
+        "durations": [
+          {
+            "duration": 0.1420369,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:75"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify {string} is displayed under `Password` field for not meeting the password criteria",
+    "steps": [
+      {
+        "name": "I verify \"Passwords must be at least 6 characters.\" is displayed under `Password` field for not meeting the password criteria",
+        "aggregatedDurations": {
+          "median": 0.0339985,
+          "average": 0.0339985
+        },
+        "durations": [
+          {
+            "duration": 0.0339985,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:77"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter an {string} address that\u0027s already in use in the \u0027Email\u0027 field",
+    "steps": [
+      {
+        "name": "I enter an \"ciara105@xhanimatedm.com\" address that\u0027s already in use in the \u0027Email\u0027 field",
+        "aggregatedDurations": {
+          "median": 0.2060062,
+          "average": 0.2060062
+        },
+        "durations": [
+          {
+            "duration": 0.2060062,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:87"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify {string} is displayed for proving an email address that\u0027s already in use",
+    "steps": [
+      {
+        "name": "I verify \"Email address already in use\" is displayed for proving an email address that\u0027s already in use",
+        "aggregatedDurations": {
+          "median": 0.0499995,
+          "average": 0.0499995
+        },
+        "durations": [
+          {
+            "duration": 0.0499995,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:91"
           }
         ]
       }
@@ -23,13 +1443,13 @@
       {
         "name": "I enter \"Hand Sanitizer\" in search field",
         "aggregatedDurations": {
-          "median": 10.269484,
-          "average": 10.269484
+          "median": 0.3219989,
+          "average": 0.3219989
         },
         "durations": [
           {
-            "duration": 10.269484,
-            "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:6"
+            "duration": 0.3219989,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:8"
           }
         ]
       }
@@ -41,13 +1461,154 @@
       {
         "name": "I submit search field",
         "aggregatedDurations": {
-          "median": 13.793438,
-          "average": 13.793438
+          "median": 2.2080024,
+          "average": 2.226538733
         },
         "durations": [
           {
-            "duration": 13.793438,
-            "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:7"
+            "duration": 2.2080024,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:9"
+          },
+          {
+            "duration": 2.3075214,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:24"
+          },
+          {
+            "duration": 2.1640924,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:34"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify items with {string}.",
+    "steps": [
+      {
+        "name": "I verify items with \"Amazon.com : Matcha Green Tea\".",
+        "aggregatedDurations": {
+          "median": 0.0470013,
+          "average": 0.0470013
+        },
+        "durations": [
+          {
+            "duration": 0.0470013,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:15"
+          }
+        ]
+      },
+      {
+        "name": "I verify items with \"Amazon.com : Rage Against The Machine\".",
+        "aggregatedDurations": {
+          "median": 0.0279999,
+          "average": 0.0279999
+        },
+        "durations": [
+          {
+            "duration": 0.0279999,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I select {string} from {string} dropdown",
+    "steps": [
+      {
+        "name": "I select \"Computers\" from \u0027All\u0027 dropdown",
+        "aggregatedDurations": {
+          "median": 0.30249955,
+          "average": 0.30249955
+        },
+        "durations": [
+          {
+            "duration": 0.3869995,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:23"
+          },
+          {
+            "duration": 0.2179996,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:33"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify that I am in {string} department with {string}.",
+    "steps": [
+      {
+        "name": "I verify that I am in \u0027Computers\u0027 department with \"Computers, Tablets and IT Accessories\".",
+        "aggregatedDurations": {
+          "median": 0.16199535,
+          "average": 0.16199535
+        },
+        "durations": [
+          {
+            "duration": 0.1809946,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:25"
+          },
+          {
+            "duration": 0.1429961,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:35"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on {string} button under Hello, Sign in",
+    "steps": [
+      {
+        "name": "I click on \u0027Sign in\u0027 button under Hello, Sign in",
+        "aggregatedDurations": {
+          "median": 0.8290019,
+          "average": 0.869005718
+        },
+        "durations": [
+          {
+            "duration": 0.7869935,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:6"
+          },
+          {
+            "duration": 0.9000379,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:6"
+          },
+          {
+            "duration": 0.9119837,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:6"
+          },
+          {
+            "duration": 0.7870006,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:6"
+          },
+          {
+            "duration": 0.8290019,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:6"
+          },
+          {
+            "duration": 1.1259971,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:6"
+          },
+          {
+            "duration": 0.9120825,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:6"
+          },
+          {
+            "duration": 0.7779978,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:6"
+          },
+          {
+            "duration": 0.7430028,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:6"
+          },
+          {
+            "duration": 0.7859964,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:6"
+          },
+          {
+            "duration": 0.9989687,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:6"
           }
         ]
       }
@@ -57,15 +1618,470 @@
     "source": "I verify page title as {string}",
     "steps": [
       {
-        "name": "I verify page title as \"Amazon.ca : hand sanitizers\"",
+        "name": "I verify page title as \"Amazon Sign-In\"",
         "aggregatedDurations": {
-          "median": 0.065015,
-          "average": 0.065015
+          "median": 0.0150008,
+          "average": 0.0150008
         },
         "durations": [
           {
-            "duration": 0.065015,
-            "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:8"
+            "duration": 0.0150008,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter an invalid {string} on \u0027Email \\(phone for mobile accounts) field",
+    "steps": [
+      {
+        "name": "I enter an invalid \"invalidEmail@invalidEmail.com\" on \u0027Email (phone for mobile accounts) field",
+        "aggregatedDurations": {
+          "median": 0.2829987,
+          "average": 0.2829987
+        },
+        "durations": [
+          {
+            "duration": 0.2829987,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:14"
+          }
+        ]
+      },
+      {
+        "name": "I enter an invalid \"8399283899\" on \u0027Email (phone for mobile accounts) field",
+        "aggregatedDurations": {
+          "median": 0.1410065,
+          "average": 0.1410065
+        },
+        "durations": [
+          {
+            "duration": 0.1410065,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:23"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on {string} button below \u0027Email \\(phone for mobile accounts) field",
+    "steps": [
+      {
+        "name": "I click on \u0027Continue\u0027 button below \u0027Email (phone for mobile accounts) field",
+        "aggregatedDurations": {
+          "median": 3.06286745,
+          "average": 2.89625415
+        },
+        "durations": [
+          {
+            "duration": 2.6580845,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:15"
+          },
+          {
+            "duration": 2.5230116,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:24"
+          },
+          {
+            "duration": 2.9908907,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:33"
+          },
+          {
+            "duration": 3.0955147,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:44"
+          },
+          {
+            "duration": 3.0742007,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:55"
+          },
+          {
+            "duration": 3.1007971,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:55"
+          },
+          {
+            "duration": 2.1515358,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:66"
+          },
+          {
+            "duration": 3.1580644,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:75"
+          },
+          {
+            "duration": 3.1589078,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:85"
+          },
+          {
+            "duration": 3.0515342,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:96"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify that the {string} is displayed",
+    "steps": [
+      {
+        "name": "I verify that the \"We cannot find an account with that email address\" is displayed",
+        "aggregatedDurations": {
+          "median": 0.0349931,
+          "average": 0.0349931
+        },
+        "durations": [
+          {
+            "duration": 0.0349931,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:16"
+          }
+        ]
+      },
+      {
+        "name": "I verify that the \"We cannot find an account with that mobile number\" is displayed",
+        "aggregatedDurations": {
+          "median": 0.0279982,
+          "average": 0.0279982
+        },
+        "durations": [
+          {
+            "duration": 0.0279982,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:25"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter a valid {string} on \u0027Email \\(phone for mobile accounts) field",
+    "steps": [
+      {
+        "name": "I enter a valid \"ciara105@xhanimatedm.com\" on \u0027Email (phone for mobile accounts) field",
+        "aggregatedDurations": {
+          "median": 2.2880456,
+          "average": 2.2880456
+        },
+        "durations": [
+          {
+            "duration": 2.2880456,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:32"
+          }
+        ]
+      },
+      {
+        "name": "I enter a valid \"shakir.jahangir83@gmail.com\" on \u0027Email (phone for mobile accounts) field",
+        "aggregatedDurations": {
+          "median": 2.1816891,
+          "average": 2.1756872
+        },
+        "durations": [
+          {
+            "duration": 2.1932314,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:43"
+          },
+          {
+            "duration": 2.2182584,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:54"
+          },
+          {
+            "duration": 2.1816891,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:74"
+          },
+          {
+            "duration": 2.1460028,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:84"
+          },
+          {
+            "duration": 2.1392543,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:95"
+          }
+        ]
+      },
+      {
+        "name": "I enter a valid \"zarria@xhanimatedm.com\" on \u0027Email (phone for mobile accounts) field",
+        "aggregatedDurations": {
+          "median": 2.1437967,
+          "average": 2.1437967
+        },
+        "durations": [
+          {
+            "duration": 2.1437967,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:54"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter an invalid {string} on the {string} field",
+    "steps": [
+      {
+        "name": "I enter an invalid \"InvalidPass123!\" on the \u0027Password\u0027 field",
+        "aggregatedDurations": {
+          "median": 0.0750021,
+          "average": 0.0750021
+        },
+        "durations": [
+          {
+            "duration": 0.0750021,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:34"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on {string} button after password",
+    "steps": [
+      {
+        "name": "I click on \u0027Sign-in\u0027 button after password",
+        "aggregatedDurations": {
+          "median": 0.1690044,
+          "average": 0.1801886
+        },
+        "durations": [
+          {
+            "duration": 0.1690044,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:35"
+          },
+          {
+            "duration": 0.1326752,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:46"
+          },
+          {
+            "duration": 0.1272439,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:57"
+          },
+          {
+            "duration": 0.2370072,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:57"
+          },
+          {
+            "duration": 0.2350123,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:76"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify that the {string} or {string} is displayed",
+    "steps": [
+      {
+        "name": "I verify that the \"Your password is incorrect\" or \"To better protect your account, please re-enter your password and then enter the characters as they are shown in the image below.\" is displayed",
+        "aggregatedDurations": {
+          "median": 0.7795724,
+          "average": 0.7795724
+        },
+        "durations": [
+          {
+            "duration": 0.7795724,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:36"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter a valid {string} on the Password field",
+    "steps": [
+      {
+        "name": "I enter a valid \"BugBusters\" on the Password field",
+        "aggregatedDurations": {
+          "median": 2.0920012,
+          "average": 2.0927534
+        },
+        "durations": [
+          {
+            "duration": 2.0762446,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:45"
+          },
+          {
+            "duration": 2.1100144,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:56"
+          },
+          {
+            "duration": 2.0920012,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:56"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify that {string} is displayed",
+    "steps": [
+      {
+        "name": "I verify that \"Shakir\" is displayed",
+        "aggregatedDurations": {
+          "median": 1.8908528,
+          "average": 1.8908528
+        },
+        "durations": [
+          {
+            "duration": 2.0411715,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:47"
+          },
+          {
+            "duration": 1.7405341,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:58"
+          }
+        ]
+      },
+      {
+        "name": "I verify that \"Phong\" is displayed",
+        "aggregatedDurations": {
+          "median": 1.8169917,
+          "average": 1.8169917
+        },
+        "durations": [
+          {
+            "duration": 1.8169917,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:58"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify that the missing email or phone {string} is displayed",
+    "steps": [
+      {
+        "name": "I verify that the missing email or phone \"Enter your email or mobile phone number\" is displayed",
+        "aggregatedDurations": {
+          "median": 0.022991,
+          "average": 0.022991
+        },
+        "durations": [
+          {
+            "duration": 0.022991,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:67"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify that the missing password {string} is displayed",
+    "steps": [
+      {
+        "name": "I verify that the missing password \"Enter your password\" is displayed",
+        "aggregatedDurations": {
+          "median": 0.0329995,
+          "average": 0.0329995
+        },
+        "durations": [
+          {
+            "duration": 0.0329995,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:77"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on {string} link",
+    "steps": [
+      {
+        "name": "I click on \u0027Forgot your password?\u0027 link",
+        "aggregatedDurations": {
+          "median": 2.4002832,
+          "average": 2.4002832
+        },
+        "durations": [
+          {
+            "duration": 2.4095593,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:86"
+          },
+          {
+            "duration": 2.3910071,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:97"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify {string}",
+    "steps": [
+      {
+        "name": "I verify \"Amazon Password Assistance\"",
+        "aggregatedDurations": {
+          "median": 0.004995,
+          "average": 0.004995
+        },
+        "durations": [
+          {
+            "duration": 0.004995,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:87"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I clear the {string} field",
+    "steps": [
+      {
+        "name": "I clear the \u0027Email or mobile phone number\u0027 field",
+        "aggregatedDurations": {
+          "median": 2.0535366,
+          "average": 2.0535366
+        },
+        "durations": [
+          {
+            "duration": 2.0535366,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:98"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter an {string} on Forgot your password? page",
+    "steps": [
+      {
+        "name": "I enter an \"bogusemail9183@bogus.com\" on Forgot your password? page",
+        "aggregatedDurations": {
+          "median": 2.1282229,
+          "average": 2.1282229
+        },
+        "durations": [
+          {
+            "duration": 2.1282229,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:99"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on {string} button on {string} page",
+    "steps": [
+      {
+        "name": "I click on \u0027Continue\u0027 button on \u0027Forgot your password?\u0027 page",
+        "aggregatedDurations": {
+          "median": 2.988374,
+          "average": 2.988374
+        },
+        "durations": [
+          {
+            "duration": 2.988374,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:100"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify by {string} or an {string}",
+    "steps": [
+      {
+        "name": "I verify by \"Please solve this puzzle so we know you\u0027re a real person\" or an \"We\u0027re sorry. We weren\u0027t able to identify you given the information provided.\"",
+        "aggregatedDurations": {
+          "median": 0.0649997,
+          "average": 0.0649997
+        },
+        "durations": [
+          {
+            "duration": 0.0649997,
+            "location": "file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:101"
           }
         ]
       }
