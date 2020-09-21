@@ -1,3 +1,2 @@
-stepDefinitions/HomeStepDefinition.class
-testRunner/TestRunner.class
-stepDefinitions/SearchStepDefinition.class
+stepDefinitions\HomeStepDefinition.class
+testRunner\TestRunner.class

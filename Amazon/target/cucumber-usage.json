@@ -1,0 +1,2051 @@
+[
+  {
+    "source": "I am on Amazon homepage",
+    "steps": [
+      {
+        "name": "I am on Amazon homepage",
+        "aggregatedDurations": {
+          "median": 5.6547197,
+          "average": 5.737468556
+        },
+        "durations": [
+          {
+            "duration": 9.4757888,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:4"
+          },
+          {
+            "duration": 6.1652623,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:4"
+          },
+          {
+            "duration": 5.7236927,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:4"
+          },
+          {
+            "duration": 6.0710813,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:4"
+          },
+          {
+            "duration": 5.8018673,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:4"
+          },
+          {
+            "duration": 6.6049706,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:4"
+          },
+          {
+            "duration": 6.091662,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:4"
+          },
+          {
+            "duration": 5.6719177,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:4"
+          },
+          {
+            "duration": 5.3305609,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:4"
+          },
+          {
+            "duration": 6.1214575,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:4"
+          },
+          {
+            "duration": 5.3299972,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:4"
+          },
+          {
+            "duration": 5.5574885,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:4"
+          },
+          {
+            "duration": 5.6072903,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:4"
+          },
+          {
+            "duration": 5.4976164,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:4"
+          },
+          {
+            "duration": 5.3097859,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:4"
+          },
+          {
+            "duration": 5.7582137,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:4"
+          },
+          {
+            "duration": 5.6547197,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:4"
+          },
+          {
+            "duration": 5.667086,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:4"
+          },
+          {
+            "duration": 5.1631111,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:4"
+          },
+          {
+            "duration": 5.8261156,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:4"
+          },
+          {
+            "duration": 5.2242192,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:4"
+          },
+          {
+            "duration": 5.8251863,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:4"
+          },
+          {
+            "duration": 5.718867,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:4"
+          },
+          {
+            "duration": 5.3543327,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:4"
+          },
+          {
+            "duration": 5.8133611,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:4"
+          },
+          {
+            "duration": 5.4481405,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:4"
+          },
+          {
+            "duration": 5.6367391,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:4"
+          },
+          {
+            "duration": 5.4948192,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:4"
+          },
+          {
+            "duration": 5.2858132,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:4"
+          },
+          {
+            "duration": 5.7411157,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:4"
+          },
+          {
+            "duration": 5.9764739,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:4"
+          },
+          {
+            "duration": 5.2886768,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:4"
+          },
+          {
+            "duration": 5.5301772,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:4"
+          },
+          {
+            "duration": 5.5757324,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:4"
+          },
+          {
+            "duration": 5.6881941,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:4"
+          },
+          {
+            "duration": 5.3582657,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:4"
+          },
+          {
+            "duration": 5.9627459,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:4"
+          },
+          {
+            "duration": 5.2814192,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:4"
+          },
+          {
+            "duration": 5.127309,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} and submit in the search field.",
+    "steps": [
+      {
+        "name": "I enter \"WD 5TB My Passport\" and submit in the search field.",
+        "aggregatedDurations": {
+          "median": 4.02275045,
+          "average": 4.797987475
+        },
+        "durations": [
+          {
+            "duration": 8.6044032,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:5"
+          },
+          {
+            "duration": 4.7485716,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:5"
+          },
+          {
+            "duration": 2.5420458,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:5"
+          },
+          {
+            "duration": 3.2969293,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:5"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"Matcha Green Tea\" and submit in the search field.",
+        "aggregatedDurations": {
+          "median": 2.2619997,
+          "average": 2.2619997
+        },
+        "durations": [
+          {
+            "duration": 2.2619997,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:14"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"Rage Against The Machine\" and submit in the search field.",
+        "aggregatedDurations": {
+          "median": 2.2910822,
+          "average": 2.2910822
+        },
+        "durations": [
+          {
+            "duration": 2.2910822,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on the product {string}",
+    "steps": [
+      {
+        "name": "I click on the product \u0027WD 5TB My Passport Portable External Hard Drive, Black - WDBPKJ0050BBK-WESN\u0027",
+        "aggregatedDurations": {
+          "median": 1.85006405,
+          "average": 11.17012385
+        },
+        "durations": [
+          {
+            "duration": 1.8071273,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:6"
+          },
+          {
+            "duration": 40.3243684,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:6"
+          },
+          {
+            "duration": 0.6559989,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:6"
+          },
+          {
+            "duration": 1.8930008,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on {string}",
+    "steps": [
+      {
+        "name": "I click on \u0027Add to Cart\u0027",
+        "aggregatedDurations": {
+          "median": 3.32701585,
+          "average": 3.31474195
+        },
+        "durations": [
+          {
+            "duration": 4.1897852,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:7"
+          },
+          {
+            "duration": 2.4151509,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:7"
+          },
+          {
+            "duration": 4.1349971,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:7"
+          },
+          {
+            "duration": 2.5190346,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:29"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify that the item has been added with {string} text",
+    "steps": [
+      {
+        "name": "I verify that the item has been added with \u0027Added to Cart\u0027 text",
+        "aggregatedDurations": {
+          "median": 12.9233464,
+          "average": 12.9233464
+        },
+        "durations": [
+          {
+            "duration": 12.9233464,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on cart button",
+    "steps": [
+      {
+        "name": "I click on cart button",
+        "aggregatedDurations": {
+          "median": 2.98378315,
+          "average": 2.98378315
+        },
+        "durations": [
+          {
+            "duration": 2.7959988,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:21"
+          },
+          {
+            "duration": 3.1715675,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:30"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on {string} button",
+    "steps": [
+      {
+        "name": "I click on \u0027Delete\u0027 button",
+        "aggregatedDurations": {
+          "median": 0.3319999,
+          "average": 0.3319999
+        },
+        "durations": [
+          {
+            "duration": 0.3319999,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:22"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify that the the text {string} is displayed",
+    "steps": [
+      {
+        "name": "I verify that the the text \u0027Your Amazon Cart is empty\u0027 is displayed",
+        "aggregatedDurations": {
+          "median": 0.386002,
+          "average": 0.386002
+        },
+        "durations": [
+          {
+            "duration": 0.386002,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:23"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I navigate back to previous window.",
+    "steps": [
+      {
+        "name": "I navigate back to previous window.",
+        "aggregatedDurations": {
+          "median": 1.6195723,
+          "average": 1.6195723
+        },
+        "durations": [
+          {
+            "duration": 1.6195723,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:28"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify that for Subtotal {string} is displayed",
+    "steps": [
+      {
+        "name": "I verify that for Subtotal \"2 items\" is displayed",
+        "aggregatedDurations": {
+          "median": 10.0682508,
+          "average": 10.0682508
+        },
+        "durations": [
+          {
+            "duration": 10.0682508,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:31"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Amazon homepage with title",
+    "steps": [
+      {
+        "name": "I verify Amazon homepage with title",
+        "aggregatedDurations": {
+          "median": 0.1179965,
+          "average": 0.1179965
+        },
+        "durations": [
+          {
+            "duration": 0.1179965,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on \u0027Today\u0027s Deal\u0027 tab",
+    "steps": [
+      {
+        "name": "I click on \u0027Today\u0027s Deal\u0027 tab",
+        "aggregatedDurations": {
+          "median": 1.4003262,
+          "average": 1.4003262
+        },
+        "durations": [
+          {
+            "duration": 1.486074,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:12"
+          },
+          {
+            "duration": 1.3145784,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify \u0027Today\u0027s Deal\u0027 with title",
+    "steps": [
+      {
+        "name": "I verify \u0027Today\u0027s Deal\u0027 with title",
+        "aggregatedDurations": {
+          "median": 0.445002,
+          "average": 0.445002
+        },
+        "durations": [
+          {
+            "duration": 0.445002,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify \u0027Today\u0027s Deal\u0027 with \u0027Deals and Promotions\u0027 text being displayed",
+    "steps": [
+      {
+        "name": "I verify \u0027Today\u0027s Deal\u0027 with \u0027Deals and Promotions\u0027 text being displayed",
+        "aggregatedDurations": {
+          "median": 1.0030015,
+          "average": 1.0030015
+        },
+        "durations": [
+          {
+            "duration": 1.0030015,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on {string} tab",
+    "steps": [
+      {
+        "name": "I click on \u0027Customer Service\u0027 tab",
+        "aggregatedDurations": {
+          "median": 1.6399977,
+          "average": 1.6399977
+        },
+        "durations": [
+          {
+            "duration": 1.6399977,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:22"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify {string} with with title",
+    "steps": [
+      {
+        "name": "I verify \u0027Customer Service\u0027 with with title",
+        "aggregatedDurations": {
+          "median": 0.0069999,
+          "average": 0.0069999
+        },
+        "durations": [
+          {
+            "duration": 0.0069999,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:23"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify {string} with {string} text",
+    "steps": [
+      {
+        "name": "I verify \u0027Customer Service\u0027 with \u0027Hello. What can we help you with?\u0027 text",
+        "aggregatedDurations": {
+          "median": 0.0949991,
+          "average": 0.0949991
+        },
+        "durations": [
+          {
+            "duration": 0.0949991,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:24"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Gift Cards tab",
+    "steps": [
+      {
+        "name": "I click on Gift Cards tab",
+        "aggregatedDurations": {
+          "median": 2.4460435,
+          "average": 2.4460435
+        },
+        "durations": [
+          {
+            "duration": 2.4460435,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:28"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Gift Cards tab with with title {string}",
+    "steps": [
+      {
+        "name": "I verify Gift Cards tab with with title \u0027Amazon.com Gift Cards\u0027",
+        "aggregatedDurations": {
+          "median": 0.0339964,
+          "average": 0.0339964
+        },
+        "durations": [
+          {
+            "duration": 0.0339964,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:29"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Gift Cards with {string} text",
+    "steps": [
+      {
+        "name": "I verify Gift Cards with \u0027Hello. What can we help you with?\u0027 text",
+        "aggregatedDurations": {
+          "median": 0.0649996,
+          "average": 0.0649996
+        },
+        "durations": [
+          {
+            "duration": 0.0649996,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:30"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Registry tab",
+    "steps": [
+      {
+        "name": "I click on Registry tab",
+        "aggregatedDurations": {
+          "median": 1.1380007,
+          "average": 1.1380007
+        },
+        "durations": [
+          {
+            "duration": 1.1380007,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:34"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Registry tab with with title {string}",
+    "steps": [
+      {
+        "name": "I verify Registry tab with with title \u0027Amazon.com: : Registry\u0027",
+        "aggregatedDurations": {
+          "median": 0.090997,
+          "average": 0.090997
+        },
+        "durations": [
+          {
+            "duration": 0.090997,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:35"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Sell tab",
+    "steps": [
+      {
+        "name": "I click on Sell tab",
+        "aggregatedDurations": {
+          "median": 3.4170414,
+          "average": 3.4170414
+        },
+        "durations": [
+          {
+            "duration": 3.4170414,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:39"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Sell tab with with title {string}",
+    "steps": [
+      {
+        "name": "I verify Sell tab with with title \u0027Amazon.com: Sell Products Online with Selling on Amazon.\u0027",
+        "aggregatedDurations": {
+          "median": 0.058999,
+          "average": 0.058999
+        },
+        "durations": [
+          {
+            "duration": 0.058999,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:40"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Sell tab with {string} text",
+    "steps": [
+      {
+        "name": "I verify Sell tab with \u0027Become an Amazon seller\u0027 text",
+        "aggregatedDurations": {
+          "median": 0.0550169,
+          "average": 0.0550169
+        },
+        "durations": [
+          {
+            "duration": 0.0550169,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:41"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Music link",
+    "steps": [
+      {
+        "name": "I click on Music link",
+        "aggregatedDurations": {
+          "median": 2.4071,
+          "average": 2.4071
+        },
+        "durations": [
+          {
+            "duration": 2.4071,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:45"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Music link with with URL {string}",
+    "steps": [
+      {
+        "name": "I verify Music link with with URL \u0027https://music.amazon.com/home?ref\u003ddm_aff_amz_com\u0027",
+        "aggregatedDurations": {
+          "median": 0.2539983,
+          "average": 0.2539983
+        },
+        "durations": [
+          {
+            "duration": 0.2539983,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:46"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Music link with title {string}",
+    "steps": [
+      {
+        "name": "I verify Music link with title \u0027Amazon Music Unlimited - Stream 60 million songs online now.\u0027",
+        "aggregatedDurations": {
+          "median": 0.0199992,
+          "average": 0.0199992
+        },
+        "durations": [
+          {
+            "duration": 0.0199992,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:47"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Advertise Your Product link",
+    "steps": [
+      {
+        "name": "I click on Advertise Your Product link",
+        "aggregatedDurations": {
+          "median": 1.8549978,
+          "average": 1.8549978
+        },
+        "durations": [
+          {
+            "duration": 1.8549978,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:51"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Advertise Your Product link with title {string}",
+    "steps": [
+      {
+        "name": "I verify Advertise Your Product link with title \u0027Amazon Advertising: Online advertising on Amazon\u0027",
+        "aggregatedDurations": {
+          "median": 0.0210008,
+          "average": 0.0210008
+        },
+        "durations": [
+          {
+            "duration": 0.0210008,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:52"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Advertise Your Product link with URL {string}",
+    "steps": [
+      {
+        "name": "I verify Advertise Your Product link with URL \u0027https://advertising.amazon.com/\u0027",
+        "aggregatedDurations": {
+          "median": 3.0079951,
+          "average": 3.0079951
+        },
+        "durations": [
+          {
+            "duration": 3.0079951,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:53"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Shop By Category burger button",
+    "steps": [
+      {
+        "name": "I click on Shop By Category burger button",
+        "aggregatedDurations": {
+          "median": 0.746501,
+          "average": 0.746501
+        },
+        "durations": [
+          {
+            "duration": 0.7779983,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:58"
+          },
+          {
+            "duration": 0.7150037,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:65"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Computers",
+    "steps": [
+      {
+        "name": "I click on Computers",
+        "aggregatedDurations": {
+          "median": 0.18700245,
+          "average": 0.18700245
+        },
+        "durations": [
+          {
+            "duration": 0.1699993,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:59"
+          },
+          {
+            "duration": 0.2040056,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:66"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Computers \u0026 Tablets",
+    "steps": [
+      {
+        "name": "I click on Computers \u0026 Tablets",
+        "aggregatedDurations": {
+          "median": 0.7124891,
+          "average": 0.7124891
+        },
+        "durations": [
+          {
+            "duration": 0.849979,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:60"
+          },
+          {
+            "duration": 0.5749992,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:67"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Computers \u0026 Tablets page with ASUS on {string} selection",
+    "steps": [
+      {
+        "name": "I verify Computers \u0026 Tablets page with ASUS on \u0027Featured Brand\u0027 selection",
+        "aggregatedDurations": {
+          "median": 0.8379974,
+          "average": 0.8379974
+        },
+        "durations": [
+          {
+            "duration": 0.8379974,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:61"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on HP checkbox from Featured Brands selection",
+    "steps": [
+      {
+        "name": "I click on HP checkbox from Featured Brands selection",
+        "aggregatedDurations": {
+          "median": 1.5070619,
+          "average": 1.5070619
+        },
+        "durations": [
+          {
+            "duration": 1.5070619,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:68"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify that HP checkbox is selected.",
+    "steps": [
+      {
+        "name": "I verify that HP checkbox is selected.",
+        "aggregatedDurations": {
+          "median": 0.1575258,
+          "average": 0.1575258
+        },
+        "durations": [
+          {
+            "duration": 0.1575258,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:69"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I hover over {string} button",
+    "steps": [
+      {
+        "name": "I hover over \u0027Hello, Sign in\u0027 button",
+        "aggregatedDurations": {
+          "median": 0.3140056,
+          "average": 0.326659036
+        },
+        "durations": [
+          {
+            "duration": 0.2829994,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:5"
+          },
+          {
+            "duration": 0.31,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:5"
+          },
+          {
+            "duration": 0.3089936,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:5"
+          },
+          {
+            "duration": 0.3849976,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:5"
+          },
+          {
+            "duration": 0.3350078,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:5"
+          },
+          {
+            "duration": 0.2109997,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:5"
+          },
+          {
+            "duration": 0.3269966,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:5"
+          },
+          {
+            "duration": 0.3140056,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:5"
+          },
+          {
+            "duration": 0.3945211,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:5"
+          },
+          {
+            "duration": 0.338999,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:5"
+          },
+          {
+            "duration": 0.2569938,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:5"
+          },
+          {
+            "duration": 0.5819998,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:5"
+          },
+          {
+            "duration": 0.3479944,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:5"
+          },
+          {
+            "duration": 0.2489988,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:5"
+          },
+          {
+            "duration": 0.3509994,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:5"
+          },
+          {
+            "duration": 0.2810036,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:5"
+          },
+          {
+            "duration": 0.4169993,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:5"
+          },
+          {
+            "duration": 0.3030122,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:5"
+          },
+          {
+            "duration": 0.211,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on {string} link on homepage",
+    "steps": [
+      {
+        "name": "I click on \u0027Start here\u0027 link on homepage",
+        "aggregatedDurations": {
+          "median": 0.8180016,
+          "average": 0.894379637
+        },
+        "durations": [
+          {
+            "duration": 0.6860005,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:6"
+          },
+          {
+            "duration": 1.533035,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:6"
+          },
+          {
+            "duration": 0.7870029,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:6"
+          },
+          {
+            "duration": 0.7590055,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:6"
+          },
+          {
+            "duration": 0.9409961,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:6"
+          },
+          {
+            "duration": 0.7470035,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:6"
+          },
+          {
+            "duration": 0.8490003,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:6"
+          },
+          {
+            "duration": 0.8529933,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify page {string}",
+    "steps": [
+      {
+        "name": "I verify page \"Amazon Registration\"",
+        "aggregatedDurations": {
+          "median": 0.0329925,
+          "average": 0.0329925
+        },
+        "durations": [
+          {
+            "duration": 0.0329925,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter a random email address in the {string} field",
+    "steps": [
+      {
+        "name": "I enter a random email address in the \u0027Email\u0027 field",
+        "aggregatedDurations": {
+          "median": 0.19650265,
+          "average": 0.392894025
+        },
+        "durations": [
+          {
+            "duration": 1.021571,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:18"
+          },
+          {
+            "duration": 0.1960022,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:50"
+          },
+          {
+            "duration": 0.1569998,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:61"
+          },
+          {
+            "duration": 0.1970031,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:74"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter a random password in the {string} field",
+    "steps": [
+      {
+        "name": "I enter a random password in the \u0027Password\u0027 field",
+        "aggregatedDurations": {
+          "median": 0.117006,
+          "average": 0.12060278
+        },
+        "durations": [
+          {
+            "duration": 0.1670031,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:19"
+          },
+          {
+            "duration": 0.1190032,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:28"
+          },
+          {
+            "duration": 0.1099997,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:38"
+          },
+          {
+            "duration": 0.0900019,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:62"
+          },
+          {
+            "duration": 0.117006,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:88"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Re-enter the password in the `Re-enter password` field",
+    "steps": [
+      {
+        "name": "I Re-enter the password in the `Re-enter password` field",
+        "aggregatedDurations": {
+          "median": 0.1285105,
+          "average": 0.14400625
+        },
+        "durations": [
+          {
+            "duration": 0.1350207,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:20"
+          },
+          {
+            "duration": 0.1220003,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:29"
+          },
+          {
+            "duration": 0.217001,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:39"
+          },
+          {
+            "duration": 0.102003,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:89"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on {string} button on the Registration page",
+    "steps": [
+      {
+        "name": "I click on \u0027Create you Amazon account\u0027 button on the Registration page",
+        "aggregatedDurations": {
+          "median": 0.5290003,
+          "average": 0.578593442
+        },
+        "durations": [
+          {
+            "duration": 0.5290003,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:21"
+          },
+          {
+            "duration": 0.1559988,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:30"
+          },
+          {
+            "duration": 0.5189983,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:40"
+          },
+          {
+            "duration": 0.1819903,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:51"
+          },
+          {
+            "duration": 0.5949992,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:63"
+          },
+          {
+            "duration": 0.5529968,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:76"
+          },
+          {
+            "duration": 1.5161704,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:90"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify {string} alert is displayed under `Your name` field",
+    "steps": [
+      {
+        "name": "I verify \u0027Enter your name\u0027 alert is displayed under `Your name` field",
+        "aggregatedDurations": {
+          "median": 0.0359988,
+          "average": 0.0359988
+        },
+        "durations": [
+          {
+            "duration": 0.0359988,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:22"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter a random {string}",
+    "steps": [
+      {
+        "name": "I enter a random \u0027name\u0027",
+        "aggregatedDurations": {
+          "median": 0.131997,
+          "average": 0.170666116
+        },
+        "durations": [
+          {
+            "duration": 0.1580036,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:27"
+          },
+          {
+            "duration": 0.1329972,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:36"
+          },
+          {
+            "duration": 0.1239982,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:49"
+          },
+          {
+            "duration": 0.125001,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:60"
+          },
+          {
+            "duration": 0.1309968,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:73"
+          },
+          {
+            "duration": 0.3529999,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:86"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify {string} alert is displayed under `Email` field",
+    "steps": [
+      {
+        "name": "I verify \u0027Enter your email\u0027 alert is displayed under `Email` field",
+        "aggregatedDurations": {
+          "median": 0.0360384,
+          "average": 0.0360384
+        },
+        "durations": [
+          {
+            "duration": 0.0360384,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:31"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter an {string} address in the `Email` field",
+    "steps": [
+      {
+        "name": "I enter an \"invalid@email.\" address in the `Email` field",
+        "aggregatedDurations": {
+          "median": 0.1140002,
+          "average": 0.1140002
+        },
+        "durations": [
+          {
+            "duration": 0.1140002,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:37"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify {string} is displayed under `Email` field",
+    "steps": [
+      {
+        "name": "I verify \"Enter a valid email address\" is displayed under `Email` field",
+        "aggregatedDurations": {
+          "median": 0.033998,
+          "average": 0.033998
+        },
+        "durations": [
+          {
+            "duration": 0.033998,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:41"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify {string} is displayed under `Password` field",
+    "steps": [
+      {
+        "name": "I verify \"Enter your password\" is displayed under `Password` field",
+        "aggregatedDurations": {
+          "median": 0.0529978,
+          "average": 0.0529978
+        },
+        "durations": [
+          {
+            "duration": 0.0529978,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:52"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify {string} is displayed under `Re-Enter password` field",
+    "steps": [
+      {
+        "name": "I verify \"Type your password again\" is displayed under `Re-Enter password` field",
+        "aggregatedDurations": {
+          "median": 0.04499815,
+          "average": 0.04499815
+        },
+        "durations": [
+          {
+            "duration": 0.0609982,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:64"
+          },
+          {
+            "duration": 0.0289981,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:78"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter a random five character long password in the {string} field",
+    "steps": [
+      {
+        "name": "I enter a random five character long password in the \u0027Password\u0027 field",
+        "aggregatedDurations": {
+          "median": 0.082993,
+          "average": 0.082993
+        },
+        "durations": [
+          {
+            "duration": 0.082993,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:75"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify {string} is displayed under `Password` field for not meeting the password criteria",
+    "steps": [
+      {
+        "name": "I verify \"Passwords must be at least 6 characters.\" is displayed under `Password` field for not meeting the password criteria",
+        "aggregatedDurations": {
+          "median": 0.0329995,
+          "average": 0.0329995
+        },
+        "durations": [
+          {
+            "duration": 0.0329995,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:77"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter an {string} address that\u0027s already in use in the \u0027Email\u0027 field",
+    "steps": [
+      {
+        "name": "I enter an \"ciara105@xhanimatedm.com\" address that\u0027s already in use in the \u0027Email\u0027 field",
+        "aggregatedDurations": {
+          "median": 0.320997,
+          "average": 0.320997
+        },
+        "durations": [
+          {
+            "duration": 0.320997,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:87"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify {string} is displayed for proving an email address that\u0027s already in use",
+    "steps": [
+      {
+        "name": "I verify \"Email address already in use\" is displayed for proving an email address that\u0027s already in use",
+        "aggregatedDurations": {
+          "median": 0.048997,
+          "average": 0.048997
+        },
+        "durations": [
+          {
+            "duration": 0.048997,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:91"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} in search field",
+    "steps": [
+      {
+        "name": "I enter \"Hand Sanitizer\" in search field",
+        "aggregatedDurations": {
+          "median": 0.2500012,
+          "average": 0.2500012
+        },
+        "durations": [
+          {
+            "duration": 0.2500012,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I submit search field",
+    "steps": [
+      {
+        "name": "I submit search field",
+        "aggregatedDurations": {
+          "median": 2.4151024,
+          "average": 2.280697766
+        },
+        "durations": [
+          {
+            "duration": 2.0099934,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:9"
+          },
+          {
+            "duration": 2.4151024,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:24"
+          },
+          {
+            "duration": 2.4169975,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:34"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify items with {string}.",
+    "steps": [
+      {
+        "name": "I verify items with \"Amazon.com : Matcha Green Tea\".",
+        "aggregatedDurations": {
+          "median": 0.0729911,
+          "average": 0.0729911
+        },
+        "durations": [
+          {
+            "duration": 0.0729911,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:15"
+          }
+        ]
+      },
+      {
+        "name": "I verify items with \"Amazon.com : Rage Against The Machine\".",
+        "aggregatedDurations": {
+          "median": 0.019997,
+          "average": 0.019997
+        },
+        "durations": [
+          {
+            "duration": 0.019997,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I select {string} from {string} dropdown",
+    "steps": [
+      {
+        "name": "I select \"Computers\" from \u0027All\u0027 dropdown",
+        "aggregatedDurations": {
+          "median": 0.334029,
+          "average": 0.334029
+        },
+        "durations": [
+          {
+            "duration": 0.3220608,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:23"
+          },
+          {
+            "duration": 0.3459972,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:33"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify that I am in {string} department with {string}.",
+    "steps": [
+      {
+        "name": "I verify that I am in \u0027Computers\u0027 department with \"Computers, Tablets and IT Accessories\".",
+        "aggregatedDurations": {
+          "median": 0.1044973,
+          "average": 0.1044973
+        },
+        "durations": [
+          {
+            "duration": 0.0509983,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:25"
+          },
+          {
+            "duration": 0.1579963,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:35"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on {string} button under Hello, Sign in",
+    "steps": [
+      {
+        "name": "I click on \u0027Sign in\u0027 button under Hello, Sign in",
+        "aggregatedDurations": {
+          "median": 0.8660034,
+          "average": 0.905866645
+        },
+        "durations": [
+          {
+            "duration": 1.2914251,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:6"
+          },
+          {
+            "duration": 0.8660034,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:6"
+          },
+          {
+            "duration": 1.0219996,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:6"
+          },
+          {
+            "duration": 0.6919966,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:6"
+          },
+          {
+            "duration": 0.9349994,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:6"
+          },
+          {
+            "duration": 0.7830459,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:6"
+          },
+          {
+            "duration": 1.0460565,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:6"
+          },
+          {
+            "duration": 0.9059973,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:6"
+          },
+          {
+            "duration": 0.8470009,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:6"
+          },
+          {
+            "duration": 0.841,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:6"
+          },
+          {
+            "duration": 0.7350084,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify page title as {string}",
+    "steps": [
+      {
+        "name": "I verify page title as \"Amazon Sign-In\"",
+        "aggregatedDurations": {
+          "median": 0.015999,
+          "average": 0.015999
+        },
+        "durations": [
+          {
+            "duration": 0.015999,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter an invalid {string} on \u0027Email \\(phone for mobile accounts) field",
+    "steps": [
+      {
+        "name": "I enter an invalid \"invalidEmail@invalidEmail.com\" on \u0027Email (phone for mobile accounts) field",
+        "aggregatedDurations": {
+          "median": 0.1909983,
+          "average": 0.1909983
+        },
+        "durations": [
+          {
+            "duration": 0.1909983,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:14"
+          }
+        ]
+      },
+      {
+        "name": "I enter an invalid \"8399283899\" on \u0027Email (phone for mobile accounts) field",
+        "aggregatedDurations": {
+          "median": 0.1199928,
+          "average": 0.1199928
+        },
+        "durations": [
+          {
+            "duration": 0.1199928,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:23"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on {string} button below \u0027Email \\(phone for mobile accounts) field",
+    "steps": [
+      {
+        "name": "I click on \u0027Continue\u0027 button below \u0027Email (phone for mobile accounts) field",
+        "aggregatedDurations": {
+          "median": 3.0154151,
+          "average": 2.86926626
+        },
+        "durations": [
+          {
+            "duration": 2.4811758,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:15"
+          },
+          {
+            "duration": 2.5345353,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:24"
+          },
+          {
+            "duration": 3.134956,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:33"
+          },
+          {
+            "duration": 3.097455,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:44"
+          },
+          {
+            "duration": 2.9442318,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:55"
+          },
+          {
+            "duration": 3.0694331,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:55"
+          },
+          {
+            "duration": 2.2036807,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:66"
+          },
+          {
+            "duration": 3.09018,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:75"
+          },
+          {
+            "duration": 3.1756178,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:85"
+          },
+          {
+            "duration": 2.9613971,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:96"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify that the {string} is displayed",
+    "steps": [
+      {
+        "name": "I verify that the \"We cannot find an account with that email address\" is displayed",
+        "aggregatedDurations": {
+          "median": 0.031997,
+          "average": 0.031997
+        },
+        "durations": [
+          {
+            "duration": 0.031997,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:16"
+          }
+        ]
+      },
+      {
+        "name": "I verify that the \"We cannot find an account with that mobile number\" is displayed",
+        "aggregatedDurations": {
+          "median": 0.0249549,
+          "average": 0.0249549
+        },
+        "durations": [
+          {
+            "duration": 0.0249549,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:25"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter a valid {string} on \u0027Email \\(phone for mobile accounts) field",
+    "steps": [
+      {
+        "name": "I enter a valid \"ciara105@xhanimatedm.com\" on \u0027Email (phone for mobile accounts) field",
+        "aggregatedDurations": {
+          "median": 2.1780783,
+          "average": 2.1780783
+        },
+        "durations": [
+          {
+            "duration": 2.1780783,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:32"
+          }
+        ]
+      },
+      {
+        "name": "I enter a valid \"shakir.jahangir83@gmail.com\" on \u0027Email (phone for mobile accounts) field",
+        "aggregatedDurations": {
+          "median": 2.220313,
+          "average": 2.23339374
+        },
+        "durations": [
+          {
+            "duration": 2.2960953,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:43"
+          },
+          {
+            "duration": 2.3555587,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:54"
+          },
+          {
+            "duration": 2.220313,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:74"
+          },
+          {
+            "duration": 2.1439969,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:84"
+          },
+          {
+            "duration": 2.1510048,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:95"
+          }
+        ]
+      },
+      {
+        "name": "I enter a valid \"zarria@xhanimatedm.com\" on \u0027Email (phone for mobile accounts) field",
+        "aggregatedDurations": {
+          "median": 2.2860669,
+          "average": 2.2860669
+        },
+        "durations": [
+          {
+            "duration": 2.2860669,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:54"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter an invalid {string} on the {string} field",
+    "steps": [
+      {
+        "name": "I enter an invalid \"InvalidPass123!\" on the \u0027Password\u0027 field",
+        "aggregatedDurations": {
+          "median": 0.0710017,
+          "average": 0.0710017
+        },
+        "durations": [
+          {
+            "duration": 0.0710017,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:34"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on {string} button after password",
+    "steps": [
+      {
+        "name": "I click on \u0027Sign-in\u0027 button after password",
+        "aggregatedDurations": {
+          "median": 0.1420041,
+          "average": 0.15462688
+        },
+        "durations": [
+          {
+            "duration": 0.1849974,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:35"
+          },
+          {
+            "duration": 0.1379602,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:46"
+          },
+          {
+            "duration": 0.1420041,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:57"
+          },
+          {
+            "duration": 0.1311803,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:57"
+          },
+          {
+            "duration": 0.1769924,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:76"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify that the {string} or {string} is displayed",
+    "steps": [
+      {
+        "name": "I verify that the \"Your password is incorrect\" or \"To better protect your account, please re-enter your password and then enter the characters as they are shown in the image below.\" is displayed",
+        "aggregatedDurations": {
+          "median": 0.8490294,
+          "average": 0.8490294
+        },
+        "durations": [
+          {
+            "duration": 0.8490294,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:36"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter a valid {string} on the Password field",
+    "steps": [
+      {
+        "name": "I enter a valid \"BugBusters\" on the Password field",
+        "aggregatedDurations": {
+          "median": 2.1097888,
+          "average": 2.103123666
+        },
+        "durations": [
+          {
+            "duration": 2.0728935,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:45"
+          },
+          {
+            "duration": 2.1097888,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:56"
+          },
+          {
+            "duration": 2.1266887,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:56"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify that {string} is displayed",
+    "steps": [
+      {
+        "name": "I verify that \"Shakir\" is displayed",
+        "aggregatedDurations": {
+          "median": 1.9169996,
+          "average": 1.9169996
+        },
+        "durations": [
+          {
+            "duration": 1.9249992,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:47"
+          },
+          {
+            "duration": 1.909,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:58"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify that the missing email or phone {string} is displayed",
+    "steps": [
+      {
+        "name": "I verify that the missing email or phone \"Enter your email or mobile phone number\" is displayed",
+        "aggregatedDurations": {
+          "median": 0.0321206,
+          "average": 0.0321206
+        },
+        "durations": [
+          {
+            "duration": 0.0321206,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:67"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify that the missing password {string} is displayed",
+    "steps": [
+      {
+        "name": "I verify that the missing password \"Enter your password\" is displayed",
+        "aggregatedDurations": {
+          "median": 0.0319997,
+          "average": 0.0319997
+        },
+        "durations": [
+          {
+            "duration": 0.0319997,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:77"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on {string} link",
+    "steps": [
+      {
+        "name": "I click on \u0027Forgot your password?\u0027 link",
+        "aggregatedDurations": {
+          "median": 2.36770455,
+          "average": 2.36770455
+        },
+        "durations": [
+          {
+            "duration": 2.3695855,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:86"
+          },
+          {
+            "duration": 2.3658236,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:97"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify {string}",
+    "steps": [
+      {
+        "name": "I verify \"Amazon Password Assistance\"",
+        "aggregatedDurations": {
+          "median": 0.008001,
+          "average": 0.008001
+        },
+        "durations": [
+          {
+            "duration": 0.008001,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:87"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I clear the {string} field",
+    "steps": [
+      {
+        "name": "I clear the \u0027Email or mobile phone number\u0027 field",
+        "aggregatedDurations": {
+          "median": 2.049463,
+          "average": 2.049463
+        },
+        "durations": [
+          {
+            "duration": 2.049463,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:98"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter an {string} on Forgot your password? page",
+    "steps": [
+      {
+        "name": "I enter an \"bogusemail9183@bogus.com\" on Forgot your password? page",
+        "aggregatedDurations": {
+          "median": 2.1458133,
+          "average": 2.1458133
+        },
+        "durations": [
+          {
+            "duration": 2.1458133,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:99"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on {string} button on {string} page",
+    "steps": [
+      {
+        "name": "I click on \u0027Continue\u0027 button on \u0027Forgot your password?\u0027 page",
+        "aggregatedDurations": {
+          "median": 2.7974361,
+          "average": 2.7974361
+        },
+        "durations": [
+          {
+            "duration": 2.7974361,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:100"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify by {string} or an {string}",
+    "steps": [
+      {
+        "name": "I verify by \"Please solve this puzzle so we know you\u0027re a real person\" or an \"We\u0027re sorry. We weren\u0027t able to identify you given the information provided.\"",
+        "aggregatedDurations": {
+          "median": 0.06395,
+          "average": 0.06395
+        },
+        "durations": [
+          {
+            "duration": 0.06395,
+            "location": "file:///C:/Users/Shakir/Desktop/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:101"
+          }
+        ]
+      }
+    ]
+  }
+]
