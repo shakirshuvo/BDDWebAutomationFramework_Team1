@@ -148,36 +148,41 @@
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-junit</artifactId>
         </dependency>
+        <!--            Faker for generating random username, password, phone number, etc.-->
+        <dependency>
+            <groupId>com.github.javafaker</groupId>
+            <artifactId>javafaker</artifactId>
+        </dependency>
 
     </dependencies>
 
 
 
     <build>
-    <!-- To define the plugin version in your parent POM -->
-    <plugins>
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-compiler-plugin</artifactId>
-            <configuration>
-                <source>1.8</source>
-                <target>1.8</target>
-            </configuration>
-        </plugin>
+        <!-- To define the plugin version in your parent POM -->
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
 
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-surefire-plugin</artifactId>
-            <configuration>
-                <!--                        <testFailureIgnore>true</testFailureIgnore>-->
-                <suiteXmlFiles>
-                    <!--                        <suiteXmlFile>target/test-classes/AmazonTestRunner.xml</suiteXmlFile>-->
-                    <!--                        <suiteXmlFile></suiteXmlFile>-->
-                    <!--                        <suiteXmlFile></suiteXmlFile>-->
-                </suiteXmlFiles>
-            </configuration>
-        </plugin>
-    </plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <configuration>
+                    <!--                        <testFailureIgnore>true</testFailureIgnore>-->
+                    <suiteXmlFiles>
+                        <!--                        <suiteXmlFile>target/test-classes/AmazonTestRunner.xml</suiteXmlFile>-->
+                        <!--                        <suiteXmlFile></suiteXmlFile>-->
+                        <!--                        <suiteXmlFile></suiteXmlFile>-->
+                    </suiteXmlFiles>
+                </configuration>
+            </plugin>
+        </plugins>
 
     </build>
 

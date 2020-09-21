@@ -1,2 +1,6 @@
-testRunner/TestRunner.class
-stepDefinitions/SearchStepDefinition.class
+stepDefinitions\HomeStepDefinition.class
+stepDefinitions\SignInStepDefinition.class
+stepDefinitions\CartStepDefinition.class
+stepDefinitions\RegistrationDefinition.class
+testRunner\TestRunner.class
+stepDefinitions\SearchStepDefinition.class

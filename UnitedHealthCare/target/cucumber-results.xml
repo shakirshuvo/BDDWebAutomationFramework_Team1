@@ -1,197 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="21" time="275.011">
-    <testcase classname="United Health Care homepage tab functionality tests" name="Successful redirecting after clicking Medicare tab" time="16.332">
-        <system-out>
-            <![CDATA[Given User is in United Health Care homepage................................passed
-When User clicks on Medicare tab............................................passed
-Then User is directed to Medicare page......................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="United Health Care homepage tab functionality tests" name="Successful redirecting after clicking ForProviders tab" time="25.42">
-        <failure message="element not interactable&#10;  (Session info: chrome=85.0.4183.102)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Farjanas-Air', ip: '2604:2000:1700:1c:4143:d7d5:c558:1f9c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '11.0.6'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/27/nmfyzmzj1c7...}, goog:chromeOptions: {debuggerAddress: localhost:59208}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ab9644e59bdf57dd331f2c10d9807be" type="org.openqa.selenium.ElementNotInteractableException">
-            <![CDATA[Given User is in United Health Care homepage................................passed
-When User clicks on ForProviders tab........................................failed
-Then User is directed to ForProviders page..................................skipped
-
-StackTrace:
-org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=85.0.4183.102)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Farjanas-Air', ip: '2604:2000:1700:1c:4143:d7d5:c558:1f9c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '11.0.6'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/27/nmfyzmzj1c7...}, goog:chromeOptions: {debuggerAddress: localhost:59208}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 5ab9644e59bdf57dd331f2c10d9807be
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy25.click(Unknown Source)
-	at home.UHCHomePage.checkForProviders(UHCHomePage.java:101)
-	at stepDefinitions.HomeStepDefinition.user_clicks_on_for_providers_tab(HomeStepDefinition.java:56)
-	at ✽.User clicks on ForProviders tab(file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:13)
-]]>
-        </failure>
-    </testcase>
-    <testcase classname="United Health Care homepage tab functionality tests" name="Successful redirecting after clicking ForEmployers tab" time="10.044">
-        <system-out>
-            <![CDATA[Given User is in United Health Care homepage................................passed
-When User clicks on ForEmployers tab........................................passed
-Then User is directed to ForEmployers page..................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="United Health Care homepage tab functionality tests" name="Successful redirecting after clicking ForBrokers tab" time="15.33">
-        <system-out>
-            <![CDATA[Given User is in United Health Care homepage................................passed
-When User clicks on ForBrokers tab..........................................passed
-Then User is directed to ForBrokers page....................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="United Health Care homepage tab functionality tests" name="Successful redirecting after clicking LanguageChange tab" time="12.99">
-        <system-out>
-            <![CDATA[Given User is in United Health Care homepage................................passed
-When User clicks on LanguageChange tab......................................passed
-Then User is directed to LanguageChange page................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="United Health Care homepage tab functionality tests" name="Successful redirecting after clicking  tab" time="10.906">
-        <system-out>
-            <![CDATA[Given User is in United Health Care homepage................................passed
-When User clicks on FindADoctor tab.........................................passed
-Then User is directed to FindADoctor page...................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="United Health Care homepage tab functionality tests" name="Successful redirecting after clicking  tab 2" time="9.852">
-        <system-out>
-            <![CDATA[Given User is in United Health Care homepage................................passed
-When User clicks on FindYourPlan tab........................................passed
-Then User is directed to FindYourPlan page..................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="United Health Care homepage tab functionality tests" name="Successful redirecting after clicking  tab 3" time="12.246">
-        <system-out>
-            <![CDATA[Given User is in United Health Care homepage................................passed
-When User clicks on IndividualAndFamilyHealthPlan tab.......................passed
-Then User is directed to IndividualAndFamilyHealthPlan page.................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="United Health Care homepage tab functionality tests" name="Successful redirecting after clicking  tab 4" time="18.858">
-        <system-out>
-            <![CDATA[Given User is in United Health Care homepage................................passed
-When User clicks on MedicareHealthPlan tab..................................passed
-Then User is directed to MedicareHealthPlan page............................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="United Health Care homepage tab functionality tests" name="Successful redirecting after clicking  tab 5" time="10.258">
-        <system-out>
-            <![CDATA[Given User is in United Health Care homepage................................passed
-When User clicks on SmallBusinessHealthPlan tab.............................passed
-Then User is directed to SmallBusinessHealthPlan page.......................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="United Health Care homepage tab functionality tests" name="Successful redirecting after clicking  tab 6" time="12.274">
-        <system-out>
-            <![CDATA[Given User is in United Health Care homepage................................passed
-When User clicks on ShortTermInsurenceHealthPlan tab........................passed
-Then User is directed to ShortTermInsurenceHealthPlan page..................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="United Health Care homepage tab functionality tests" name="Successful redirecting after clicking  tab 7" time="16.093">
-        <system-out>
-            <![CDATA[Given User is in United Health Care homepage................................passed
-When User clicks on MedicaidHealthPlan tab..................................passed
-Then User is directed to MedicaidHealthPlan page............................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="United Health Care homepage tab functionality tests" name="Successful redirecting after clicking  tab 8" time="8.555">
-        <system-out>
-            <![CDATA[Given User is in United Health Care homepage................................passed
-When User clicks on DentalHealthPlan tab....................................passed
-Then User is directed to DentalHealthPlan page..............................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="United Health Care homepage tab functionality tests" name="Successful redirecting after clicking  tab 9" time="12.287">
-        <system-out>
-            <![CDATA[Given User is in United Health Care homepage................................passed
-When User clicks on ContactUs tab...........................................passed
-Then User is directed to ContactUs page.....................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="United Health Care homepage tab functionality tests" name="Successful redirecting after clicking  tab 10" time="13.682">
-        <system-out>
-            <![CDATA[Given User is in United Health Care homepage................................passed
-When User clicks on Career tab..............................................passed
-Then User is directed to Career page........................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="United Health Care homepage tab functionality tests" name="Successful redirecting after clicking  tab 11" time="14.001">
-        <system-out>
-            <![CDATA[Given User is in United Health Care homepage................................passed
-When User clicks on NewsRoom tab............................................passed
-Then User is directed to NewsRoom page......................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="United Health Care homepage tab functionality tests" name="Successful redirecting after clicking  tab 12" time="8.662">
-        <system-out>
-            <![CDATA[Given User is in United Health Care homepage................................passed
-When User clicks on AboutUs tab.............................................passed
-Then User is directed to AboutUs page.......................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="United Health Care homepage tab functionality tests" name="Successful redirecting after clicking  tab 13" time="11.408">
-        <system-out>
-            <![CDATA[Given User is in United Health Care homepage................................passed
-When User clicks on Accessibility tab.......................................passed
-Then User is directed to Accessibility page.................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="United Health Care homepage tab functionality tests" name="Successful redirecting after clicking  tab 14" time="9.758">
-        <system-out>
-            <![CDATA[Given User is in United Health Care homepage................................passed
-When User clicks on Legal tab...............................................passed
-Then User is directed to Legal page.........................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="United Health Care homepage tab functionality tests" name="Successful redirecting after clicking  tab 15" time="7.512">
-        <system-out>
-            <![CDATA[Given User is in United Health Care homepage................................passed
-When User clicks on Privacy tab.............................................passed
-Then User is directed to Privacy page.......................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="United Health Care homepage tab functionality tests" name="Negetiv testing for myuhc sign in with invalid user name and password" time="16.544">
-        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;globalAlertContainer&quot;]/button&quot;}&#10;  (Session info: chrome=85.0.4183.102)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Farjanas-Air', ip: '2604:2000:1700:1c:4143:d7d5:c558:1f9c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '11.0.6'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/27/nmfyzmzj1c7...}, goog:chromeOptions: {debuggerAddress: localhost:61867}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: d26bb89bf6a1b297e7deb7b29ebd93e2&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;globalAlertContainer&quot;]/button}" type="org.openqa.selenium.NoSuchElementException">
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="32.644">
+    <testcase classname="United Health Care homepage tab functionality tests" name="Negetiv testing for myuhc sign in with invalid user name and password" time="31.758">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;671978824-list1599078528739&quot;]/li[1]/a/span&quot;}&#10;  (Session info: chrome=85.0.4183.102)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Farjanas-Air', ip: '2604:2000:1700:1c:4143:d7d5:c558:1f9c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '11.0.6'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/27/nmfyzmzj1c7...}, goog:chromeOptions: {debuggerAddress: localhost:64549}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 3042f75ca417724b86c264ba724018de&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;671978824-list1599078528739&quot;]/li[1]/a/span}" type="org.openqa.selenium.NoSuchElementException">
             <![CDATA[Given User is in United Health Care homepage................................passed
 And User clicks on sign in tab..............................................failed
 And selects Plan Through You Employer?......................................skipped
@@ -203,15 +13,15 @@ And finally clicks Signin button............................................skip
 Then User validae signin error message......................................skipped
 
 StackTrace:
-org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="globalAlertContainer"]/button"}
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="671978824-list1599078528739"]/li[1]/a/span"}
   (Session info: chrome=85.0.4183.102)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'Farjanas-Air', ip: '2604:2000:1700:1c:4143:d7d5:c558:1f9c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '11.0.6'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/27/nmfyzmzj1c7...}, goog:chromeOptions: {debuggerAddress: localhost:61867}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: d26bb89bf6a1b297e7deb7b29ebd93e2
-*** Element info: {Using=xpath, value=//*[@id="globalAlertContainer"]/button}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/27/nmfyzmzj1c7...}, goog:chromeOptions: {debuggerAddress: localhost:64549}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3042f75ca417724b86c264ba724018de
+*** Element info: {Using=xpath, value=//*[@id="671978824-list1599078528739"]/li[1]/a/span}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -229,7 +39,7 @@ Session ID: d26bb89bf6a1b297e7deb7b29ebd93e2
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at com.sun.proxy.$Proxy25.click(Unknown Source)
-	at home.UHCHomePage.clickSignInButton(UHCHomePage.java:423)
+	at home.UHCHomePage.clickSignInButton(UHCHomePage.java:426)
 	at stepDefinitions.HomeStepDefinition.userClicksOnSignInTab(HomeStepDefinition.java:248)
 	at ✽.User clicks on sign in tab(file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:109)
 ]]>

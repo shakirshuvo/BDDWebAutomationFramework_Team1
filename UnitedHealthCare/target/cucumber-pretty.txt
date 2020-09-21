@@ -1,166 +1,17 @@
 
 @SmokeTest
-Scenario: Successful redirecting after clicking Medicare tab # src/test/java/features/HomePage.feature:7
-  Given User is in United Health Care homepage               # stepDefinitions.HomeStepDefinition.user_is_in_united_health_care_homepage()
-  When User clicks on Medicare tab                           # stepDefinitions.HomeStepDefinition.user_clicks_on_medicare_tab()
-  Then User is directed to Medicare page                     # stepDefinitions.HomeStepDefinition.user_is_directed_to_medicare_page()
-
-@SmokeTest
-Scenario: Successful redirecting after clicking ForProviders tab # src/test/java/features/HomePage.feature:12
-  Given User is in United Health Care homepage                   # stepDefinitions.HomeStepDefinition.user_is_in_united_health_care_homepage()
-  When User clicks on ForProviders tab                           # stepDefinitions.HomeStepDefinition.user_clicks_on_for_providers_tab()
-      org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=85.0.4183.102)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Farjanas-Air', ip: '2604:2000:1700:1c:4143:d7d5:c558:1f9c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '11.0.6'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/27/nmfyzmzj1c7...}, goog:chromeOptions: {debuggerAddress: localhost:59208}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 5ab9644e59bdf57dd331f2c10d9807be
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy25.click(Unknown Source)
-	at home.UHCHomePage.checkForProviders(UHCHomePage.java:101)
-	at stepDefinitions.HomeStepDefinition.user_clicks_on_for_providers_tab(HomeStepDefinition.java:56)
-	at ✽.User clicks on ForProviders tab(file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:13)
-
-  Then User is directed to ForProviders page                     # stepDefinitions.HomeStepDefinition.user_is_directed_to_for_providers_page()
-
-@SmokeTest
-Scenario: Successful redirecting after clicking ForEmployers tab # src/test/java/features/HomePage.feature:17
-  Given User is in United Health Care homepage                   # stepDefinitions.HomeStepDefinition.user_is_in_united_health_care_homepage()
-  When User clicks on ForEmployers tab                           # stepDefinitions.HomeStepDefinition.user_clicks_on_for_employers_tab()
-  Then User is directed to ForEmployers page                     # stepDefinitions.HomeStepDefinition.user_is_directed_to_for_employers_page()
-
-@SmokeTest
-Scenario: Successful redirecting after clicking ForBrokers tab # src/test/java/features/HomePage.feature:22
-  Given User is in United Health Care homepage                 # stepDefinitions.HomeStepDefinition.user_is_in_united_health_care_homepage()
-  When User clicks on ForBrokers tab                           # stepDefinitions.HomeStepDefinition.user_clicks_on_for_brokers_tab()
-  Then User is directed to ForBrokers page                     # stepDefinitions.HomeStepDefinition.user_is_directed_to_for_brokers_page()
-
-@SmokeTest
-Scenario: Successful redirecting after clicking LanguageChange tab # src/test/java/features/HomePage.feature:27
-  Given User is in United Health Care homepage                     # stepDefinitions.HomeStepDefinition.user_is_in_united_health_care_homepage()
-  When User clicks on LanguageChange tab                           # stepDefinitions.HomeStepDefinition.user_clicks_on_language_change_tab()
-  Then User is directed to LanguageChange page                     # stepDefinitions.HomeStepDefinition.user_is_directed_to_language_change_page()
-
-@SmokeTest
-Scenario: Successful redirecting after clicking  tab # src/test/java/features/HomePage.feature:32
-  Given User is in United Health Care homepage       # stepDefinitions.HomeStepDefinition.user_is_in_united_health_care_homepage()
-  When User clicks on FindADoctor tab                # stepDefinitions.HomeStepDefinition.user_clicks_on_find_a_doctor_tab()
-  Then User is directed to FindADoctor page          # stepDefinitions.HomeStepDefinition.user_is_directed_to_find_a_doctor_page()
-
-@SmokeTest
-Scenario: Successful redirecting after clicking  tab # src/test/java/features/HomePage.feature:37
-  Given User is in United Health Care homepage       # stepDefinitions.HomeStepDefinition.user_is_in_united_health_care_homepage()
-  When User clicks on FindYourPlan tab               # stepDefinitions.HomeStepDefinition.user_clicks_on_find_your_plan_tab()
-  Then User is directed to FindYourPlan page         # stepDefinitions.HomeStepDefinition.user_is_directed_to_find_your_plan_page()
-
-@SmokeTest
-Scenario: Successful redirecting after clicking  tab          # src/test/java/features/HomePage.feature:42
-  Given User is in United Health Care homepage                # stepDefinitions.HomeStepDefinition.user_is_in_united_health_care_homepage()
-  When User clicks on IndividualAndFamilyHealthPlan tab       # stepDefinitions.HomeStepDefinition.userClicksOnIndividualAndFamilyHealthPlanTab()
-  Then User is directed to IndividualAndFamilyHealthPlan page # stepDefinitions.HomeStepDefinition.userIsDirectedToIndividualAndFamilyHealthPlanPage()
-
-@SmokeTest
-Scenario: Successful redirecting after clicking  tab # src/test/java/features/HomePage.feature:47
-  Given User is in United Health Care homepage       # stepDefinitions.HomeStepDefinition.user_is_in_united_health_care_homepage()
-  When User clicks on MedicareHealthPlan tab         # stepDefinitions.HomeStepDefinition.userClicksOnMedicareHealthPlanTab()
-  Then User is directed to MedicareHealthPlan page   # stepDefinitions.HomeStepDefinition.userIsDirectedToMedicareHealthPlanPage()
-
-@SmokeTest
-Scenario: Successful redirecting after clicking  tab    # src/test/java/features/HomePage.feature:52
-  Given User is in United Health Care homepage          # stepDefinitions.HomeStepDefinition.user_is_in_united_health_care_homepage()
-  When User clicks on SmallBusinessHealthPlan tab       # stepDefinitions.HomeStepDefinition.userClicksOnSmallBusinessHealthPlanTab()
-  Then User is directed to SmallBusinessHealthPlan page # stepDefinitions.HomeStepDefinition.userIsDirectedToSmallBusinessHealthPlanPage()
-
-@SmokeTest
-Scenario: Successful redirecting after clicking  tab         # src/test/java/features/HomePage.feature:57
-  Given User is in United Health Care homepage               # stepDefinitions.HomeStepDefinition.user_is_in_united_health_care_homepage()
-  When User clicks on ShortTermInsurenceHealthPlan tab       # stepDefinitions.HomeStepDefinition.userClicksOnShortTermInsurenceHealthPlanTab()
-  Then User is directed to ShortTermInsurenceHealthPlan page # stepDefinitions.HomeStepDefinition.userIsDirectedToShortTermInsurenceHealthPlanPage()
-
-@SmokeTest
-Scenario: Successful redirecting after clicking  tab # src/test/java/features/HomePage.feature:62
-  Given User is in United Health Care homepage       # stepDefinitions.HomeStepDefinition.user_is_in_united_health_care_homepage()
-  When User clicks on MedicaidHealthPlan tab         # stepDefinitions.HomeStepDefinition.userClicksOnMedicaidHealthPlanTab()
-  Then User is directed to MedicaidHealthPlan page   # stepDefinitions.HomeStepDefinition.userIsDirectedToMedicaidHealthPlanPage()
-
-@SmokeTest
-Scenario: Successful redirecting after clicking  tab # src/test/java/features/HomePage.feature:67
-  Given User is in United Health Care homepage       # stepDefinitions.HomeStepDefinition.user_is_in_united_health_care_homepage()
-  When User clicks on DentalHealthPlan tab           # stepDefinitions.HomeStepDefinition.userClicksOnDentalHealthPlanTab()
-  Then User is directed to DentalHealthPlan page     # stepDefinitions.HomeStepDefinition.userIsDirectedToDentalHealthPlanPage()
-
-@SmokeTest
-Scenario: Successful redirecting after clicking  tab # src/test/java/features/HomePage.feature:72
-  Given User is in United Health Care homepage       # stepDefinitions.HomeStepDefinition.user_is_in_united_health_care_homepage()
-  When User clicks on ContactUs tab                  # stepDefinitions.HomeStepDefinition.userClicksOnContactUsTab()
-  Then User is directed to ContactUs page            # stepDefinitions.HomeStepDefinition.userIsDirectedToContactUsPage()
-
-@SmokeTest
-Scenario: Successful redirecting after clicking  tab # src/test/java/features/HomePage.feature:77
-  Given User is in United Health Care homepage       # stepDefinitions.HomeStepDefinition.user_is_in_united_health_care_homepage()
-  When User clicks on Career tab                     # stepDefinitions.HomeStepDefinition.userClicksOnCareerTab()
-  Then User is directed to Career page               # stepDefinitions.HomeStepDefinition.userIsDirectedToCareerPage()
-
-@SmokeTest
-Scenario: Successful redirecting after clicking  tab # src/test/java/features/HomePage.feature:82
-  Given User is in United Health Care homepage       # stepDefinitions.HomeStepDefinition.user_is_in_united_health_care_homepage()
-  When User clicks on NewsRoom tab                   # stepDefinitions.HomeStepDefinition.userClicksOnNewsRoomTab()
-  Then User is directed to NewsRoom page             # stepDefinitions.HomeStepDefinition.userIsDirectedToNewsRoomPage()
-
-@SmokeTest
-Scenario: Successful redirecting after clicking  tab # src/test/java/features/HomePage.feature:87
-  Given User is in United Health Care homepage       # stepDefinitions.HomeStepDefinition.user_is_in_united_health_care_homepage()
-  When User clicks on AboutUs tab                    # stepDefinitions.HomeStepDefinition.userClicksOnAboutUsTab()
-  Then User is directed to AboutUs page              # stepDefinitions.HomeStepDefinition.userIsDirectedToAboutUsPage()
-
-@SmokeTest
-Scenario: Successful redirecting after clicking  tab # src/test/java/features/HomePage.feature:92
-  Given User is in United Health Care homepage       # stepDefinitions.HomeStepDefinition.user_is_in_united_health_care_homepage()
-  When User clicks on Accessibility tab              # stepDefinitions.HomeStepDefinition.userClicksOnAccessibilityTab()
-  Then User is directed to Accessibility page        # stepDefinitions.HomeStepDefinition.userIsDirectedToAccessibilityPage()
-
-@SmokeTest
-Scenario: Successful redirecting after clicking  tab # src/test/java/features/HomePage.feature:97
-  Given User is in United Health Care homepage       # stepDefinitions.HomeStepDefinition.user_is_in_united_health_care_homepage()
-  When User clicks on Legal tab                      # stepDefinitions.HomeStepDefinition.userClicksOnLegalTab()
-  Then User is directed to Legal page                # stepDefinitions.HomeStepDefinition.userIsDirectedToLegalPage()
-
-@SmokeTest
-Scenario: Successful redirecting after clicking  tab # src/test/java/features/HomePage.feature:102
-  Given User is in United Health Care homepage       # stepDefinitions.HomeStepDefinition.user_is_in_united_health_care_homepage()
-  When User clicks on Privacy tab                    # stepDefinitions.HomeStepDefinition.userClicksOnPrivacyTab()
-  Then User is directed to Privacy page              # stepDefinitions.HomeStepDefinition.userIsDirectedToPrivacyPage()
-
-@SmokeTest
 Scenario: Negetiv testing for myuhc sign in with invalid user name and password # src/test/java/features/HomePage.feature:108
   Given User is in United Health Care homepage                                  # stepDefinitions.HomeStepDefinition.user_is_in_united_health_care_homepage()
   And User clicks on sign in tab                                                # stepDefinitions.HomeStepDefinition.userClicksOnSignInTab()
-      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="globalAlertContainer"]/button"}
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="671978824-list1599078528739"]/li[1]/a/span"}
   (Session info: chrome=85.0.4183.102)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'Farjanas-Air', ip: '2604:2000:1700:1c:4143:d7d5:c558:1f9c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '11.0.6'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/27/nmfyzmzj1c7...}, goog:chromeOptions: {debuggerAddress: localhost:61867}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: d26bb89bf6a1b297e7deb7b29ebd93e2
-*** Element info: {Using=xpath, value=//*[@id="globalAlertContainer"]/button}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/27/nmfyzmzj1c7...}, goog:chromeOptions: {debuggerAddress: localhost:64549}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3042f75ca417724b86c264ba724018de
+*** Element info: {Using=xpath, value=//*[@id="671978824-list1599078528739"]/li[1]/a/span}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -178,7 +29,7 @@ Session ID: d26bb89bf6a1b297e7deb7b29ebd93e2
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at com.sun.proxy.$Proxy25.click(Unknown Source)
-	at home.UHCHomePage.clickSignInButton(UHCHomePage.java:423)
+	at home.UHCHomePage.clickSignInButton(UHCHomePage.java:426)
 	at stepDefinitions.HomeStepDefinition.userClicksOnSignInTab(HomeStepDefinition.java:248)
 	at ✽.User clicks on sign in tab(file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:109)
 

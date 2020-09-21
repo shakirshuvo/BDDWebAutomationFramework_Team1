@@ -420,20 +420,20 @@ public class UHCHomePage extends CommonAPI {
 
     // Action Method
     public void clickSignInButton   () throws InterruptedException {
-            crossbutton.click();
+//            crossbutton.click();
         signInButton.click();
         sleepFor(5);
         myuhcSignIn.click();
 
     }
 
-    public void clickMyuhcSignIn   () throws InterruptedException {
-//        waitUntilClickAble(By.xpath(myuhcSignInXPath));
-//        waitUntilVisible(By.xpath(myuhcSignInXPath));
-
-//        myuhcSignIn.click();
-//        handleNewTab(driver);
-    }
+//    public void clickMyuhcSignIn   () throws InterruptedException {
+////        waitUntilClickAble(By.xpath(myuhcSignInXPath));
+////        waitUntilVisible(By.xpath(myuhcSignInXPath));
+//
+////        myuhcSignIn.click();
+////        handleNewTab(driver);
+//    }
 
     public void clickMyuhcSignInButton   () {
         handleNewTab(driver);
@@ -441,12 +441,12 @@ public class UHCHomePage extends CommonAPI {
     }
 
     public void insertMyuhcUserName   (String userName) {
-        clearInputBox(myuhcUserName);
+        clearInputBoxByWebElement(myuhcUserName);
         myuhcUserName.sendKeys(userName);
     }
 
     public void insertMyuhcPassword   (String password) {
-        clearInputBox(myuhcPassword);
+        clearInputBoxByWebElement(myuhcPassword);
         myuhcPassword.sendKeys(password);
 
     }
