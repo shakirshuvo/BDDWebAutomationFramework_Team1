@@ -1,0 +1,377 @@
+
+@CartTest @SmokeTest
+Scenario: Check that user can add an item into the cart and verify it using 'Added to Cart' text           # src/test/java/features/Cart.feature:10
+  Given I am on Amazon homepage                                                                            # stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()
+  When I enter "WD 5TB My Passport" and submit in the search field.                                        # stepDefinitions.SearchStepDefinition.i_enter_and_submit_in_the_search_field(java.lang.String)
+  And I click on the product 'WD 5TB My Passport Portable External Hard Drive, Black - WDBPKJ0050BBK-WESN' # stepDefinitions.CartStepDefinition.i_click_on_the_product(java.lang.String)
+  And I click on 'Add to Cart'                                                                             # stepDefinitions.CartStepDefinition.i_click_on(java.lang.String)
+  Then I verify that the item has been added with 'Added to Cart' text                                     # stepDefinitions.CartStepDefinition.i_verify_that_the_item_has_been_added_with_text(java.lang.String)
+
+@CartTest @SmokeTest
+Scenario: Check that user can add an item into the cart by verifying that the item exists in the cart      # src/test/java/features/Cart.feature:14
+  Given I am on Amazon homepage                                                                            # stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()
+  When I enter "WD 5TB My Passport" and submit in the search field.                                        # stepDefinitions.SearchStepDefinition.i_enter_and_submit_in_the_search_field(java.lang.String)
+  And I click on the product 'WD 5TB My Passport Portable External Hard Drive, Black - WDBPKJ0050BBK-WESN' # stepDefinitions.CartStepDefinition.i_click_on_the_product(java.lang.String)
+  And I click on 'Add to Cart'                                                                             # stepDefinitions.CartStepDefinition.i_click_on(java.lang.String)
+  And I click on cart button                                                                               # stepDefinitions.CartStepDefinition.i_click_on_cart_button()
+  Then I verify that the item has been added by confirming that the item is displayed in the cart          # stepDefinitions.CartStepDefinition.i_verify_that_the_item_has_been_added_by_confirming_that_the_item_is_displayed_in_the_cart()
+
+@CartTest @SmokeTest
+Scenario: Check that user can delete an item from the cart by verifying that 'Your Amazon Cart is empty'   # src/test/java/features/Cart.feature:19
+  Given I am on Amazon homepage                                                                            # stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()
+  When I enter "WD 5TB My Passport" and submit in the search field.                                        # stepDefinitions.SearchStepDefinition.i_enter_and_submit_in_the_search_field(java.lang.String)
+  And I click on the product 'WD 5TB My Passport Portable External Hard Drive, Black - WDBPKJ0050BBK-WESN' # stepDefinitions.CartStepDefinition.i_click_on_the_product(java.lang.String)
+  And I click on 'Add to Cart'                                                                             # stepDefinitions.CartStepDefinition.i_click_on(java.lang.String)
+  And I click on cart button                                                                               # stepDefinitions.CartStepDefinition.i_click_on_cart_button()
+  And I click on 'Delete' button                                                                           # stepDefinitions.CartStepDefinition.i_click_on_button(java.lang.String)
+  Then I verify that the the text 'Your Amazon Cart is empty' is displayed                                 # stepDefinitions.CartStepDefinition.i_verify_that_the_the_text_is_displayed(java.lang.String)
+
+@CartTest @SmokeTest
+Scenario: Check that user can delete an item from the cart by verifying that 'Your Amazon Cart is empty'   # src/test/java/features/Cart.feature:26
+  Given I am on Amazon homepage                                                                            # stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()
+  When I enter "WD 5TB My Passport" and submit in the search field.                                        # stepDefinitions.SearchStepDefinition.i_enter_and_submit_in_the_search_field(java.lang.String)
+  And I click on the product 'WD 5TB My Passport Portable External Hard Drive, Black - WDBPKJ0050BBK-WESN' # stepDefinitions.CartStepDefinition.i_click_on_the_product(java.lang.String)
+  And I click on 'Add to Cart'                                                                             # stepDefinitions.CartStepDefinition.i_click_on(java.lang.String)
+  And I navigate back to previous window.                                                                  # stepDefinitions.CartStepDefinition.i_navigate_back_to_previous_window()
+  And I click on 'Add to Cart'                                                                             # stepDefinitions.CartStepDefinition.i_click_on(java.lang.String)
+  And I click on cart button                                                                               # stepDefinitions.CartStepDefinition.i_click_on_cart_button()
+  Then I verify that for Subtotal "2 items" is displayed                                                   # stepDefinitions.CartStepDefinition.iVerifyThatForSubtotalIsDisplayed(java.lang.String)
+
+@HomeTest @SmokeTest
+Scenario: Check that Amazon homepage loads using title # src/test/java/features/Home.feature:7
+  Given I am on Amazon homepage                        # stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()
+  Then I verify Amazon homepage with title             # stepDefinitions.HomeStepDefinition.i_verify_amazon_homepage_with_title()
+
+@HomeTest @SmokeTest
+Scenario: Check that 'Today's Deal' tab is functional using title # src/test/java/features/Home.feature:11
+  Given I am on Amazon homepage                                   # stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()
+  When I click on 'Today's Deal' tab                              # stepDefinitions.HomeStepDefinition.i_click_on_today_s_deal_tab()
+  Then I verify 'Today's Deal' with title                         # stepDefinitions.HomeStepDefinition.i_verify_today_s_deal_with_title()
+
+@HomeTest @SmokeTest
+Scenario: Check that 'Today's Deal' tab is functional using 'Deals and Promotions' text # src/test/java/features/Home.feature:16
+  Given I am on Amazon homepage                                                         # stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()
+  When I click on 'Today's Deal' tab                                                    # stepDefinitions.HomeStepDefinition.i_click_on_today_s_deal_tab()
+  Then I verify 'Today's Deal' with 'Deals and Promotions' text being displayed         # stepDefinitions.HomeStepDefinition.i_verify_today_s_deal_with_deals_and_promotions_text_being_displayed()
+
+@HomeTest @SmokeTest
+Scenario: Check that 'Customer Service' tab is functional using title           # src/test/java/features/Home.feature:21
+  Given I am on Amazon homepage                                                 # stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()
+  When I click on 'Customer Service' tab                                        # stepDefinitions.HomeStepDefinition.i_click_on_tab(java.lang.String)
+  Then I verify 'Customer Service' with with title                              # stepDefinitions.HomeStepDefinition.i_verify_with_with_title(java.lang.String)
+  And I verify 'Customer Service' with 'Hello. What can we help you with?' text # stepDefinitions.HomeStepDefinition.i_verify_with_text(java.lang.String,java.lang.String)
+
+@HomeTest @SmokeTest
+Scenario: Check that 'Gift Cards' tab is functional using title and text # src/test/java/features/Home.feature:27
+  Given I am on Amazon homepage                                          # stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()
+  When I click on Gift Cards tab                                         # stepDefinitions.HomeStepDefinition.i_click_on_gift_cards_tab()
+  Then I verify Gift Cards tab with with title 'Amazon.com Gift Cards'   # stepDefinitions.HomeStepDefinition.i_verify_gift_cards_tab_with_with_title(java.lang.String)
+  And I verify Gift Cards with 'Hello. What can we help you with?' text  # stepDefinitions.HomeStepDefinition.i_verify_gift_cards_with_text(java.lang.String)
+
+@HomeTest @SmokeTest
+Scenario: Check that 'Registry' tab is functional using title         # src/test/java/features/Home.feature:33
+  Given I am on Amazon homepage                                       # stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()
+  When I click on Registry tab                                        # stepDefinitions.HomeStepDefinition.i_click_on_registry_tab()
+  Then I verify Registry tab with with title 'Amazon.com: : Registry' # stepDefinitions.HomeStepDefinition.i_verify_registry_tab_with_with_title(java.lang.String)
+
+@HomeTest @SmokeTest
+Scenario: Check that 'Sell' tab is functional using title                                           # src/test/java/features/Home.feature:38
+  Given I am on Amazon homepage                                                                     # stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()
+  When I click on Sell tab                                                                          # stepDefinitions.HomeStepDefinition.i_click_on_sell_tab()
+  Then I verify Sell tab with with title 'Amazon.com: Sell Products Online with Selling on Amazon.' # stepDefinitions.HomeStepDefinition.i_verify_sell_tab_with_with_title(java.lang.String)
+  And I verify Sell tab with 'Become an Amazon seller' text                                         # stepDefinitions.HomeStepDefinition.i_verify_sell_tab_with_text(java.lang.String)
+
+@HomeTest @SmokeTest
+Scenario: Check that 'Music' link is functional using URL and title                                 # src/test/java/features/Home.feature:44
+  Given I am on Amazon homepage                                                                     # stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()
+  When I click on Music link                                                                        # stepDefinitions.HomeStepDefinition.i_click_on_music_link()
+  Then I verify Music link with with URL 'https://music.amazon.com/home?ref=dm_aff_amz_com'         # stepDefinitions.HomeStepDefinition.i_verify_music_link_with_with_url(java.lang.String)
+  And I verify Music link with title 'Amazon Music Unlimited - Stream 60 million songs online now.' # stepDefinitions.HomeStepDefinition.i_verify_music_link_with_title(java.lang.String)
+
+@HomeTest @SmokeTest
+Scenario: Check that 'Advertise Your Product' link is functional using title, URL, and text                         # src/test/java/features/Home.feature:50
+  Given I am on Amazon homepage                                                                                     # stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()
+  When I click on Advertise Your Product link                                                                       # stepDefinitions.HomeStepDefinition.i_click_on_advertise_your_product_link()
+  Then I verify Advertise Your Product link with title 'Amazon Advertising: Online advertising on Amazon'           # stepDefinitions.HomeStepDefinition.i_verify_advertise_your_product_link_with_title(java.lang.String)
+  And I verify Advertise Your Product link with URL 'https://advertising.amazon.com/'                               # stepDefinitions.HomeStepDefinition.i_verify_advertise_your_product_link_with_url(java.lang.String)
+  And I verify Advertise Your Product link with text 'Amazon Music Unlimited - Stream 60 million songs online now.' # stepDefinitions.HomeStepDefinition.i_verify_advertise_your_product_link_with_text(java.lang.String)
+      org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-F15B8L7', ip: '169.254.252.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Shakir\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62634}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0e064554948781fe991e8996564bf674
+*** Element info: {Using=name, value=//h1[text()='Advertise with intent']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at base.CommonAPI.validateByText(CommonAPI.java:759)
+	at stepDefinitions.HomeStepDefinition.i_verify_advertise_your_product_link_with_text(HomeStepDefinition.java:136)
+	at ✽.I verify Advertise Your Product link with text 'Amazon Music Unlimited - Stream 60 million songs online now.'(file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:54)
+
+
+@HomeTest @SmokeTest
+Scenario: Check that user can navigate to 'Computers & Tablets' page using 'Shop By Category' burger button # src/test/java/features/Home.feature:57
+  Given I am on Amazon homepage                                                                             # stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()
+  When I click on Shop By Category burger button                                                            # stepDefinitions.HomeStepDefinition.i_click_on_shop_by_category_burger_button()
+  And I click on Computers                                                                                  # stepDefinitions.HomeStepDefinition.i_click_on_computers()
+  And I click on Computers & Tablets                                                                        # stepDefinitions.HomeStepDefinition.i_click_on_computers_tablets()
+  Then I verify Computers & Tablets page with ASUS on 'Featured Brand' selection                            # stepDefinitions.HomeStepDefinition.i_verify_computers_tablets_page_with_asus_on_selection(java.lang.String)
+
+@HomeTest @SmokeTest
+Scenario: Check that user can navigate to 'Computers & Tablets' page and select 'HP' from 'Featured Brands' selection. # src/test/java/features/Home.feature:64
+  Given I am on Amazon homepage                                                                                        # stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()
+  When I click on Shop By Category burger button                                                                       # stepDefinitions.HomeStepDefinition.i_click_on_shop_by_category_burger_button()
+  And I click on Computers                                                                                             # stepDefinitions.HomeStepDefinition.i_click_on_computers()
+  And I click on Computers & Tablets                                                                                   # stepDefinitions.HomeStepDefinition.i_click_on_computers_tablets()
+  And I click on HP checkbox from Featured Brands selection                                                            # stepDefinitions.HomeStepDefinition.i_click_on_hp_checkbox_from_featured_brands_selection()
+  Then I verify that HP checkbox is selected.                                                                          # stepDefinitions.HomeStepDefinition.i_verify_that_hp_checkbox_is_selected()
+
+@Registration @SmokeTest
+Scenario Outline: Check that user can navigate to the Registration page using title # src/test/java/features/Registration.feature:13
+  Given I am on Amazon homepage                                                     # stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()
+  When I hover over 'Hello, Sign in' button                                         # stepDefinitions.SignInStepDefinition.i_hover_over_button(java.lang.String)
+  And I click on 'Start here' link on homepage                                      # stepDefinitions.RegistrationDefinition.i_click_on_link_on_homepage(java.lang.String)
+  Then I verify page "Amazon Registration"                                          # stepDefinitions.RegistrationDefinition.i_verify_page_as(java.lang.String)
+
+@Registration @SmokeTest
+Scenario: Check that if user does not provide a name when registering, an alert message # src/test/java/features/Registration.feature:16
+  Given I am on Amazon homepage                                                         # stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()
+  When I hover over 'Hello, Sign in' button                                             # stepDefinitions.SignInStepDefinition.i_hover_over_button(java.lang.String)
+  And I click on 'Start here' link on homepage                                          # stepDefinitions.RegistrationDefinition.i_click_on_link_on_homepage(java.lang.String)
+  And I enter a random email address in the 'Email' field                               # stepDefinitions.RegistrationDefinition.i_enter_a_random_email_address_in_the_field(java.lang.String)
+  And I enter a random password in the 'Password' field                                 # stepDefinitions.RegistrationDefinition.i_enter_a_random_password_in_the_field(java.lang.String)
+  And I Re-enter the password in the `Re-enter password` field                          # stepDefinitions.RegistrationDefinition.i_re_enter_the_password_in_the_re_enter_password_field()
+  And I click on 'Create you Amazon account' button on the Registration page            # stepDefinitions.RegistrationDefinition.i_click_on_button_on_the_registration_page(java.lang.String)
+  Then I verify 'Enter your name' alert is displayed under `Your name` field            # stepDefinitions.RegistrationDefinition.i_verify_alert_is_displayed_under_your_name_field(java.lang.String)
+
+@Registration @SmokeTest
+Scenario: Check that if user does not provide a email when registering, an alert message # src/test/java/features/Registration.feature:25
+  Given I am on Amazon homepage                                                          # stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()
+  When I hover over 'Hello, Sign in' button                                              # stepDefinitions.SignInStepDefinition.i_hover_over_button(java.lang.String)
+  And I click on 'Start here' link on homepage                                           # stepDefinitions.RegistrationDefinition.i_click_on_link_on_homepage(java.lang.String)
+  And I enter a random 'name'                                                            # stepDefinitions.RegistrationDefinition.i_enter_a_random(java.lang.String)
+  And I enter a random password in the 'Password' field                                  # stepDefinitions.RegistrationDefinition.i_enter_a_random_password_in_the_field(java.lang.String)
+  And I Re-enter the password in the `Re-enter password` field                           # stepDefinitions.RegistrationDefinition.i_re_enter_the_password_in_the_re_enter_password_field()
+  And I click on 'Create you Amazon account' button on the Registration page             # stepDefinitions.RegistrationDefinition.i_click_on_button_on_the_registration_page(java.lang.String)
+  Then I verify 'Enter your email' alert is displayed under `Email` field                # stepDefinitions.RegistrationDefinition.i_verify_alert_is_displayed_under_email_field(java.lang.String)
+
+@Registration @SmokeTest
+Scenario Outline: Check that if user does not provide a valid email format when registering, an alert message # src/test/java/features/Registration.feature:44
+  Given I am on Amazon homepage                                                                               # stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()
+  When I hover over 'Hello, Sign in' button                                                                   # stepDefinitions.SignInStepDefinition.i_hover_over_button(java.lang.String)
+  And I click on 'Start here' link on homepage                                                                # stepDefinitions.RegistrationDefinition.i_click_on_link_on_homepage(java.lang.String)
+  And I enter a random 'name'                                                                                 # stepDefinitions.RegistrationDefinition.i_enter_a_random(java.lang.String)
+  And I enter an "invalid@email." address in the `Email` field                                                # stepDefinitions.RegistrationDefinition.i_enter_an_address_in_the_email_field(java.lang.String)
+  And I enter a random password in the 'Password' field                                                       # stepDefinitions.RegistrationDefinition.i_enter_a_random_password_in_the_field(java.lang.String)
+  And I Re-enter the password in the `Re-enter password` field                                                # stepDefinitions.RegistrationDefinition.i_re_enter_the_password_in_the_re_enter_password_field()
+  And I click on 'Create you Amazon account' button on the Registration page                                  # stepDefinitions.RegistrationDefinition.i_click_on_button_on_the_registration_page(java.lang.String)
+  Then I verify "Enter a valid email address" is displayed under `Email` field                                # stepDefinitions.RegistrationDefinition.i_verify_is_displayed_under_email_field(java.lang.String)
+
+@Registration @SmokeTest
+Scenario Outline: Check that if user does not provide a password when registering, an alert message # src/test/java/features/Registration.feature:55
+  Given I am on Amazon homepage                                                                     # stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()
+  When I hover over 'Hello, Sign in' button                                                         # stepDefinitions.SignInStepDefinition.i_hover_over_button(java.lang.String)
+  And I click on 'Start here' link on homepage                                                      # stepDefinitions.RegistrationDefinition.i_click_on_link_on_homepage(java.lang.String)
+  And I enter a random 'name'                                                                       # stepDefinitions.RegistrationDefinition.i_enter_a_random(java.lang.String)
+  And I enter a random email address in the 'Email' field                                           # stepDefinitions.RegistrationDefinition.i_enter_a_random_email_address_in_the_field(java.lang.String)
+  And I click on 'Create you Amazon account' button on the Registration page                        # stepDefinitions.RegistrationDefinition.i_click_on_button_on_the_registration_page(java.lang.String)
+  Then I verify "Enter your password" is displayed under `Password` field                           # stepDefinitions.RegistrationDefinition.i_verify_is_displayed_under_password_field(java.lang.String)
+
+@Registration @SmokeTest
+Scenario Outline: Check that if user does not re-enter a password when registering, an alert message # src/test/java/features/Registration.feature:67
+  Given I am on Amazon homepage                                                                      # stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()
+  When I hover over 'Hello, Sign in' button                                                          # stepDefinitions.SignInStepDefinition.i_hover_over_button(java.lang.String)
+  And I click on 'Start here' link on homepage                                                       # stepDefinitions.RegistrationDefinition.i_click_on_link_on_homepage(java.lang.String)
+  And I enter a random 'name'                                                                        # stepDefinitions.RegistrationDefinition.i_enter_a_random(java.lang.String)
+  And I enter a random email address in the 'Email' field                                            # stepDefinitions.RegistrationDefinition.i_enter_a_random_email_address_in_the_field(java.lang.String)
+  And I enter a random password in the 'Password' field                                              # stepDefinitions.RegistrationDefinition.i_enter_a_random_password_in_the_field(java.lang.String)
+  And I click on 'Create you Amazon account' button on the Registration page                         # stepDefinitions.RegistrationDefinition.i_click_on_button_on_the_registration_page(java.lang.String)
+  Then I verify "Type your password again" is displayed under `Re-Enter password` field              # stepDefinitions.RegistrationDefinition.i_verify_is_displayed_under_re_enter_password_field(java.lang.String)
+
+@Registration @SmokeTest
+Scenario Outline: Check that if user does not provide a password that is at least 6 characters long                                  # src/test/java/features/Registration.feature:81
+  Given I am on Amazon homepage                                                                                                      # stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()
+  When I hover over 'Hello, Sign in' button                                                                                          # stepDefinitions.SignInStepDefinition.i_hover_over_button(java.lang.String)
+  And I click on 'Start here' link on homepage                                                                                       # stepDefinitions.RegistrationDefinition.i_click_on_link_on_homepage(java.lang.String)
+  And I enter a random 'name'                                                                                                        # stepDefinitions.RegistrationDefinition.i_enter_a_random(java.lang.String)
+  And I enter a random email address in the 'Email' field                                                                            # stepDefinitions.RegistrationDefinition.i_enter_a_random_email_address_in_the_field(java.lang.String)
+  And I enter a random five character long password in the 'Password' field                                                          # stepDefinitions.RegistrationDefinition.i_enter_a_random_five_character_long_password_in_the_field(java.lang.String)
+  And I click on 'Create you Amazon account' button on the Registration page                                                         # stepDefinitions.RegistrationDefinition.i_click_on_button_on_the_registration_page(java.lang.String)
+  Then I verify "Passwords must be at least 6 characters." is displayed under `Password` field for not meeting the password criteria # stepDefinitions.RegistrationDefinition.i_verify_is_displayed_under_password_field_for_not_meeting_the_password_criteria(java.lang.String)
+  And I verify "Type your password again" is displayed under `Re-Enter password` field                                               # stepDefinitions.RegistrationDefinition.i_verify_is_displayed_under_re_enter_password_field(java.lang.String)
+
+@Registration @SmokeTest
+Scenario Outline: Check that if user tries to register with an email that already has been used to create an   # src/test/java/features/Registration.feature:94
+  Given I am on Amazon homepage                                                                                # stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()
+  When I hover over 'Hello, Sign in' button                                                                    # stepDefinitions.SignInStepDefinition.i_hover_over_button(java.lang.String)
+  And I click on 'Start here' link on homepage                                                                 # stepDefinitions.RegistrationDefinition.i_click_on_link_on_homepage(java.lang.String)
+  And I enter a random 'name'                                                                                  # stepDefinitions.RegistrationDefinition.i_enter_a_random(java.lang.String)
+  And I enter an "ciara105@xhanimatedm.com" address that's already in use in the 'Email' field                 # stepDefinitions.RegistrationDefinition.i_enter_an_address_that_s_already_in_use_in_the_email_field(java.lang.String)
+  And I enter a random password in the 'Password' field                                                        # stepDefinitions.RegistrationDefinition.i_enter_a_random_password_in_the_field(java.lang.String)
+  And I Re-enter the password in the `Re-enter password` field                                                 # stepDefinitions.RegistrationDefinition.i_re_enter_the_password_in_the_re_enter_password_field()
+  And I click on 'Create you Amazon account' button on the Registration page                                   # stepDefinitions.RegistrationDefinition.i_click_on_button_on_the_registration_page(java.lang.String)
+  Then I verify "Email address already in use" is displayed for proving an email address that's already in use # stepDefinitions.RegistrationDefinition.i_verify_is_displayed_for_proving_an_email_address_that_s_already_in_use(java.lang.String)
+
+@SearchTest @SmokeTest
+Scenario: Amazon search field functionality check with one item using title # src/test/java/features/Search.feature:7
+  Given I am on Amazon homepage                                             # stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()
+  And I enter "Hand Sanitizer" in search field                              # stepDefinitions.SearchStepDefinition.i_enter_in_search_field(java.lang.String)
+  When I submit search field                                                # stepDefinitions.SearchStepDefinition.i_submit_search_field()
+  Then I verify page title as "Amazon.com : hand sanitizers"                # stepDefinitions.SearchStepDefinition.i_verify_page_title_as(java.lang.String)
+      org.junit.ComparisonFailure: expected:<Amazon.com : [hand sanitizers]> but was:<Amazon.com : [Hand Sanitizer]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at base.CommonAPI.validateByTitle(CommonAPI.java:728)
+	at stepDefinitions.SearchStepDefinition.i_verify_page_title_as(SearchStepDefinition.java:47)
+	at ✽.I verify page title as "Amazon.com : hand sanitizers"(file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:10)
+
+
+@SearchTest @SmokeTest
+Scenario Outline: Amazon search field functionality check with two items # src/test/java/features/Search.feature:18
+  Given I am on Amazon homepage                                          # stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()
+  When I enter "Matcha Green Tea" and submit in the search field.        # stepDefinitions.SearchStepDefinition.i_enter_and_submit_in_the_search_field(java.lang.String)
+  Then I verify items with "Amazon.com : Matcha Green Tea".              # stepDefinitions.SearchStepDefinition.i_verify_items_with(java.lang.String)
+
+@SearchTest @SmokeTest
+Scenario Outline: Amazon search field functionality check with two items  # src/test/java/features/Search.feature:19
+  Given I am on Amazon homepage                                           # stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()
+  When I enter "Rage Against The Machine" and submit in the search field. # stepDefinitions.SearchStepDefinition.i_enter_and_submit_in_the_search_field(java.lang.String)
+  Then I verify items with "Amazon.com : Rage Against The Machine".       # stepDefinitions.SearchStepDefinition.i_verify_items_with(java.lang.String)
+
+@SearchTest @SmokeTest
+Scenario Outline: Amazon 'All' dropdown search functionality check with 'Computers' department    # src/test/java/features/Search.feature:28
+  Given I am on Amazon homepage                                                                   # stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()
+  When I select "Computers" from 'All' dropdown                                                   # stepDefinitions.SearchStepDefinition.i_select_from_dropdown(java.lang.String,java.lang.String)
+  And I submit search field                                                                       # stepDefinitions.SearchStepDefinition.i_submit_search_field()
+  Then I verify that I am in 'Computers' department with "Computers, Tablets and IT Accessories". # stepDefinitions.SearchStepDefinition.i_verify_that_i_am_in_department_with(java.lang.String,java.lang.String)
+
+@SearchTest @SmokeTest @MyTest
+Scenario Outline: Amazon 'All' dropdown search functionality check by selecting each department and validating # src/test/java/features/Search.feature:38
+  Given I am on Amazon homepage                                                                                # stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()
+  When I select "Computers" from 'All' dropdown                                                                # stepDefinitions.SearchStepDefinition.i_select_from_dropdown(java.lang.String,java.lang.String)
+  And I submit search field                                                                                    # stepDefinitions.SearchStepDefinition.i_submit_search_field()
+  Then I verify that I am in 'Computers' department with "Computers, Tablets and IT Accessories".              # stepDefinitions.SearchStepDefinition.i_verify_that_i_am_in_department_with(java.lang.String,java.lang.String)
+
+@SignInTest @SmokeTest
+Scenario: Check that user can navigate from homepage to Sign In page using title # src/test/java/features/SignIn.feature:9
+  Given I am on Amazon homepage                                                  # stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()
+  When I hover over 'Hello, Sign in' button                                      # stepDefinitions.SignInStepDefinition.i_hover_over_button(java.lang.String)
+  And I click on 'Sign in' button under Hello, Sign in                           # stepDefinitions.SignInStepDefinition.i_click_on_button_under_hello_sign_in(java.lang.String)
+  Then I verify page title as "Amazon Sign-In"                                   # stepDefinitions.SearchStepDefinition.i_verify_page_title_as(java.lang.String)
+
+@SignInTest @SmokeTest
+Scenario Outline: Check that an alert message is displayed when user tries to login with an invalid email # src/test/java/features/SignIn.feature:19
+  Given I am on Amazon homepage                                                                           # stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()
+  When I hover over 'Hello, Sign in' button                                                               # stepDefinitions.SignInStepDefinition.i_hover_over_button(java.lang.String)
+  And I click on 'Sign in' button under Hello, Sign in                                                    # stepDefinitions.SignInStepDefinition.i_click_on_button_under_hello_sign_in(java.lang.String)
+  And I enter an invalid "invalidEmail@invalidEmail.com" on 'Email (phone for mobile accounts) field      # stepDefinitions.SignInStepDefinition.i_enter_an_invalid_on_email_phone_for_mobile_accounts_field(java.lang.String)
+  And I click on 'Continue' button below 'Email (phone for mobile accounts) field                         # stepDefinitions.SignInStepDefinition.i_click_on_button_below_email_phone_for_mobile_accounts_field(java.lang.String)
+  Then I verify that the "We cannot find an account with that email address" is displayed                 # stepDefinitions.SignInStepDefinition.i_verify_that_the_is_displayed(java.lang.String)
+
+@SignInTest @SmokeTest
+Scenario Outline: Check that an alert message is displayed when user tries to login with an invalid phone number # src/test/java/features/SignIn.feature:28
+  Given I am on Amazon homepage                                                                                  # stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()
+  When I hover over 'Hello, Sign in' button                                                                      # stepDefinitions.SignInStepDefinition.i_hover_over_button(java.lang.String)
+  And I click on 'Sign in' button under Hello, Sign in                                                           # stepDefinitions.SignInStepDefinition.i_click_on_button_under_hello_sign_in(java.lang.String)
+  And I enter an invalid "8399283899" on 'Email (phone for mobile accounts) field                                # stepDefinitions.SignInStepDefinition.i_enter_an_invalid_on_email_phone_for_mobile_accounts_field(java.lang.String)
+  And I click on 'Continue' button below 'Email (phone for mobile accounts) field                                # stepDefinitions.SignInStepDefinition.i_click_on_button_below_email_phone_for_mobile_accounts_field(java.lang.String)
+  Then I verify that the "We cannot find an account with that mobile number" is displayed                        # stepDefinitions.SignInStepDefinition.i_verify_that_the_is_displayed(java.lang.String)
+
+@SignInTest @SmokeTest
+Scenario Outline: Check that an alert message is displayed when user tries to login with an invalid password                                                                                              # src/test/java/features/SignIn.feature:39
+  Given I am on Amazon homepage                                                                                                                                                                           # stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()
+  When I hover over 'Hello, Sign in' button                                                                                                                                                               # stepDefinitions.SignInStepDefinition.i_hover_over_button(java.lang.String)
+  And I click on 'Sign in' button under Hello, Sign in                                                                                                                                                    # stepDefinitions.SignInStepDefinition.i_click_on_button_under_hello_sign_in(java.lang.String)
+  And I enter a valid "ciara105@xhanimatedm.com" on 'Email (phone for mobile accounts) field                                                                                                              # stepDefinitions.SignInStepDefinition.i_enter_a_valid_on_email_phone_for_mobile_accounts_field(java.lang.String)
+  And I click on 'Continue' button below 'Email (phone for mobile accounts) field                                                                                                                         # stepDefinitions.SignInStepDefinition.i_click_on_button_below_email_phone_for_mobile_accounts_field(java.lang.String)
+  And I enter an invalid "InvalidPass123!" on the 'Password' field                                                                                                                                        # stepDefinitions.SignInStepDefinition.i_enter_an_invalid_on_the_field(java.lang.String,java.lang.String)
+  And I click on 'Sign-in' button after password                                                                                                                                                          # stepDefinitions.SignInStepDefinition.i_click_on_button_after_password(java.lang.String)
+  Then I verify that the "Your password is incorrect" or "To better protect your account, please re-enter your password and then enter the characters as they are shown in the image below." is displayed # stepDefinitions.SignInStepDefinition.i_verify_that_the_or_is_displayed(java.lang.String,java.lang.String)
+
+@SignInTest @SmokeTest
+Scenario Outline: Check that an user can successfully log into Amazon                           # src/test/java/features/SignIn.feature:50
+  Given I am on Amazon homepage                                                                 # stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()
+  When I hover over 'Hello, Sign in' button                                                     # stepDefinitions.SignInStepDefinition.i_hover_over_button(java.lang.String)
+  And I click on 'Sign in' button under Hello, Sign in                                          # stepDefinitions.SignInStepDefinition.i_click_on_button_under_hello_sign_in(java.lang.String)
+  And I enter a valid "shakir.jahangir83@gmail.com" on 'Email (phone for mobile accounts) field # stepDefinitions.SignInStepDefinition.i_enter_a_valid_on_email_phone_for_mobile_accounts_field(java.lang.String)
+  And I click on 'Continue' button below 'Email (phone for mobile accounts) field               # stepDefinitions.SignInStepDefinition.i_click_on_button_below_email_phone_for_mobile_accounts_field(java.lang.String)
+  And I enter a valid "BugBusters" on the Password field                                        # stepDefinitions.SignInStepDefinition.i_enter_a_valid_on_the_password_field(java.lang.String)
+  And I click on 'Sign-in' button after password                                                # stepDefinitions.SignInStepDefinition.i_click_on_button_after_password(java.lang.String)
+  Then I verify that "Shakir" is displayed                                                      # stepDefinitions.SignInStepDefinition.i_verify_that_is_displayed(java.lang.String)
+
+@SignInTest @SmokeTest
+Scenario Outline: Check that two users can successfully log into Amazon consecutively           # src/test/java/features/SignIn.feature:61
+  Given I am on Amazon homepage                                                                 # stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()
+  When I hover over 'Hello, Sign in' button                                                     # stepDefinitions.SignInStepDefinition.i_hover_over_button(java.lang.String)
+  And I click on 'Sign in' button under Hello, Sign in                                          # stepDefinitions.SignInStepDefinition.i_click_on_button_under_hello_sign_in(java.lang.String)
+  And I enter a valid "shakir.jahangir83@gmail.com" on 'Email (phone for mobile accounts) field # stepDefinitions.SignInStepDefinition.i_enter_a_valid_on_email_phone_for_mobile_accounts_field(java.lang.String)
+  And I click on 'Continue' button below 'Email (phone for mobile accounts) field               # stepDefinitions.SignInStepDefinition.i_click_on_button_below_email_phone_for_mobile_accounts_field(java.lang.String)
+  And I enter a valid "BugBusters" on the Password field                                        # stepDefinitions.SignInStepDefinition.i_enter_a_valid_on_the_password_field(java.lang.String)
+  And I click on 'Sign-in' button after password                                                # stepDefinitions.SignInStepDefinition.i_click_on_button_after_password(java.lang.String)
+  Then I verify that "Shakir" is displayed                                                      # stepDefinitions.SignInStepDefinition.i_verify_that_is_displayed(java.lang.String)
+
+@SignInTest @SmokeTest
+Scenario Outline: Check that two users can successfully log into Amazon consecutively      # src/test/java/features/SignIn.feature:62
+  Given I am on Amazon homepage                                                            # stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()
+  When I hover over 'Hello, Sign in' button                                                # stepDefinitions.SignInStepDefinition.i_hover_over_button(java.lang.String)
+  And I click on 'Sign in' button under Hello, Sign in                                     # stepDefinitions.SignInStepDefinition.i_click_on_button_under_hello_sign_in(java.lang.String)
+  And I enter a valid "zarria@xhanimatedm.com" on 'Email (phone for mobile accounts) field # stepDefinitions.SignInStepDefinition.i_enter_a_valid_on_email_phone_for_mobile_accounts_field(java.lang.String)
+  And I click on 'Continue' button below 'Email (phone for mobile accounts) field          # stepDefinitions.SignInStepDefinition.i_click_on_button_below_email_phone_for_mobile_accounts_field(java.lang.String)
+  And I enter a valid "BugBusters" on the Password field                                   # stepDefinitions.SignInStepDefinition.i_enter_a_valid_on_the_password_field(java.lang.String)
+  And I click on 'Sign-in' button after password                                           # stepDefinitions.SignInStepDefinition.i_click_on_button_after_password(java.lang.String)
+  Then I verify that "Phong" is displayed                                                  # stepDefinitions.SignInStepDefinition.i_verify_that_is_displayed(java.lang.String)
+
+@SignInTest @SmokeTest
+Scenario Outline: Check that an alert message is displayed when user tries to login without an email or phone number # src/test/java/features/SignIn.feature:70
+  Given I am on Amazon homepage                                                                                      # stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()
+  When I hover over 'Hello, Sign in' button                                                                          # stepDefinitions.SignInStepDefinition.i_hover_over_button(java.lang.String)
+  And I click on 'Sign in' button under Hello, Sign in                                                               # stepDefinitions.SignInStepDefinition.i_click_on_button_under_hello_sign_in(java.lang.String)
+  And I click on 'Continue' button below 'Email (phone for mobile accounts) field                                    # stepDefinitions.SignInStepDefinition.i_click_on_button_below_email_phone_for_mobile_accounts_field(java.lang.String)
+  Then I verify that the missing email or phone "Enter your email or mobile phone number" is displayed               # stepDefinitions.SignInStepDefinition.i_verify_that_the_missing_email_or_phone_is_displayed(java.lang.String)
+
+@SignInTest @SmokeTest
+Scenario Outline: Check that an alert message is displayed when user tries to login without a password # src/test/java/features/SignIn.feature:80
+  Given I am on Amazon homepage                                                                        # stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()
+  When I hover over 'Hello, Sign in' button                                                            # stepDefinitions.SignInStepDefinition.i_hover_over_button(java.lang.String)
+  And I click on 'Sign in' button under Hello, Sign in                                                 # stepDefinitions.SignInStepDefinition.i_click_on_button_under_hello_sign_in(java.lang.String)
+  And I enter a valid "shakir.jahangir83@gmail.com" on 'Email (phone for mobile accounts) field        # stepDefinitions.SignInStepDefinition.i_enter_a_valid_on_email_phone_for_mobile_accounts_field(java.lang.String)
+  And I click on 'Continue' button below 'Email (phone for mobile accounts) field                      # stepDefinitions.SignInStepDefinition.i_click_on_button_below_email_phone_for_mobile_accounts_field(java.lang.String)
+  And I click on 'Sign-in' button after password                                                       # stepDefinitions.SignInStepDefinition.i_click_on_button_after_password(java.lang.String)
+  Then I verify that the missing password "Enter your password" is displayed                           # stepDefinitions.SignInStepDefinition.i_verify_that_the_missing_password_is_displayed(java.lang.String)
+
+@SignInTest @SmokeTest
+Scenario Outline: Check that user can navigate to 'Forgot your password?' page                  # src/test/java/features/SignIn.feature:90
+  Given I am on Amazon homepage                                                                 # stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()
+  When I hover over 'Hello, Sign in' button                                                     # stepDefinitions.SignInStepDefinition.i_hover_over_button(java.lang.String)
+  And I click on 'Sign in' button under Hello, Sign in                                          # stepDefinitions.SignInStepDefinition.i_click_on_button_under_hello_sign_in(java.lang.String)
+  And I enter a valid "shakir.jahangir83@gmail.com" on 'Email (phone for mobile accounts) field # stepDefinitions.SignInStepDefinition.i_enter_a_valid_on_email_phone_for_mobile_accounts_field(java.lang.String)
+  And I click on 'Continue' button below 'Email (phone for mobile accounts) field               # stepDefinitions.SignInStepDefinition.i_click_on_button_below_email_phone_for_mobile_accounts_field(java.lang.String)
+  And I click on 'Forgot your password?' link                                                   # stepDefinitions.SignInStepDefinition.i_click_on_link(java.lang.String)
+  Then I verify "Amazon Password Assistance"                                                    # stepDefinitions.SignInStepDefinition.i_verify(java.lang.String)
+
+@SignInTest @SmokeTest
+Scenario Outline: Check that alert message is displayed when user can navigate to 'Forgot your password?' page                                                     # src/test/java/features/SignIn.feature:104
+  Given I am on Amazon homepage                                                                                                                                    # stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage()
+  When I hover over 'Hello, Sign in' button                                                                                                                        # stepDefinitions.SignInStepDefinition.i_hover_over_button(java.lang.String)
+  And I click on 'Sign in' button under Hello, Sign in                                                                                                             # stepDefinitions.SignInStepDefinition.i_click_on_button_under_hello_sign_in(java.lang.String)
+  And I enter a valid "shakir.jahangir83@gmail.com" on 'Email (phone for mobile accounts) field                                                                    # stepDefinitions.SignInStepDefinition.i_enter_a_valid_on_email_phone_for_mobile_accounts_field(java.lang.String)
+  And I click on 'Continue' button below 'Email (phone for mobile accounts) field                                                                                  # stepDefinitions.SignInStepDefinition.i_click_on_button_below_email_phone_for_mobile_accounts_field(java.lang.String)
+  And I click on 'Forgot your password?' link                                                                                                                      # stepDefinitions.SignInStepDefinition.i_click_on_link(java.lang.String)
+  And I clear the 'Email or mobile phone number' field                                                                                                             # stepDefinitions.SignInStepDefinition.i_clear_the_field(java.lang.String)
+  And I enter an "bogusemail9183@bogus.com" on Forgot your password? page                                                                                          # stepDefinitions.SignInStepDefinition.i_enter_an_on_forgot_your_password_page(java.lang.String)
+  And I click on 'Continue' button on 'Forgot your password?' page                                                                                                 # stepDefinitions.SignInStepDefinition.i_click_on_button_on_page(java.lang.String,java.lang.String)
+  Then I verify by "Please solve this puzzle so we know you're a real person" or an "We're sorry. We weren't able to identify you given the information provided." # stepDefinitions.SignInStepDefinition.i_verify_by_or_an(java.lang.String,java.lang.String)
