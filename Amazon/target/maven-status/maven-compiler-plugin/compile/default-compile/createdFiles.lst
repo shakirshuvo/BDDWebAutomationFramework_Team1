@@ -1,2 +1,15 @@
+<<<<<<< HEAD
 search\SearchWebElements.class
 search\Search.class
+=======
+signIn/SignInWebElements.class
+search/Search.class
+cart/Cart.class
+search/SearchWebElements.class
+home/HomePageWebElements.class
+signIn/SignIn.class
+home/HomePage.class
+cart/CartWebElements.class
+registration/RegistrationWebElements.class
+registration/RegistrationPage.class
+>>>>>>> 9e0b88e76ccc7ab00b63dfabaf8878a400e34f17

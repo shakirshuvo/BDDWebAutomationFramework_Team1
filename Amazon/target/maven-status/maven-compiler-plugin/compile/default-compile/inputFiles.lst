@@ -1,2 +1,15 @@
+<<<<<<< HEAD
 C:\Users\Waqas\IdeaProjects\BDDWebAutomationFramework_Team1\Amazon\src\main\java\search\Search.java
 C:\Users\Waqas\IdeaProjects\BDDWebAutomationFramework_Team1\Amazon\src\main\java\search\SearchWebElements.java
+=======
+/Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/main/java/signIn/SignInWebElements.java
+/Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/main/java/registration/RegistrationPage.java
+/Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/main/java/home/HomePageWebElements.java
+/Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/main/java/search/SearchWebElements.java
+/Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/main/java/signIn/SignIn.java
+/Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/main/java/cart/Cart.java
+/Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/main/java/cart/CartWebElements.java
+/Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/main/java/home/HomePage.java
+/Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/main/java/search/Search.java
+/Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/main/java/registration/RegistrationWebElements.java
+>>>>>>> 9e0b88e76ccc7ab00b63dfabaf8878a400e34f17

@@ -22,4 +22,8 @@ public class CartWebElements {
     public static final String signInTitleString = "Amazon Sign-In";
     public static final String subtotalIDWebElement = "sc-subtotal-label-activecart";
 
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 9e0b88e76ccc7ab00b63dfabaf8878a400e34f17
