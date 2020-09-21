@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "source": "User is in United Health Care homepage",
+    "steps": [
+      {
+        "name": "User is in United Health Care homepage",
+        "aggregatedDurations": {
+          "median": 15.535984,
+          "average": 15.535984
+        },
+        "durations": [
+          {
+            "duration": 15.535984,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:4"
+          }
+        ]
+      }
+    ]
+  }
+]

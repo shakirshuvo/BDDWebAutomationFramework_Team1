@@ -193,6 +193,12 @@
                 <artifactId>cucumber-junit</artifactId>
                 <version>6.6.0</version>
             </dependency>
+<!--            Faker for generating random username, password, phone number, etc.-->
+            <dependency>
+                <groupId>com.github.javafaker</groupId>
+                <artifactId>javafaker</artifactId>
+                <version>1.0.2</version>
+            </dependency>
 
 
         </dependencies>
