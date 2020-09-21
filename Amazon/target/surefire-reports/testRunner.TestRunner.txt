@@ -1,19 +1,84 @@
 -------------------------------------------------------------------------------
 Test set: testRunner.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 39, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 507.486 s <<< FAILURE! - in testRunner.TestRunner
-Amazon homepage functionality check.Check that 'Advertise Your Product' link is functional using title, URL, and text  Time elapsed: 32.136 s  <<< ERROR!
-org.openqa.selenium.InvalidSelectorException: 
-invalid selector: An invalid or illegal selector was specified
-  (Session info: chrome=85.0.4183.102)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-F15B8L7', ip: '169.254.252.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Shakir\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62634}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 0e064554948781fe991e8996564bf674
-*** Element info: {Using=name, value=//h1[text()='Advertise with intent']}
+Tests run: 39, Failures: 4, Errors: 6, Skipped: 0, Time elapsed: 511.204 s <<< FAILURE! - in testRunner.TestRunner
+Amazon homepage functionality check.Check that 'Music' link is functional using URL and title  Time elapsed: 7.424 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<...://music.amazon.com/[home]?ref=dm_aff_amz_com> but was:<...://music.amazon.com/[]?ref=dm_aff_amz_com>
 
-Amazon search functionality check.Amazon search field functionality check with one item using title  Time elapsed: 9.645 s  <<< FAILURE!
+Amazon homepage functionality check.Check that 'Advertise Your Product' link is functional using title, URL, and text  Time elapsed: 4.636 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<Amazon[ Advertising: Online advertising on Amazon]> but was:<Amazon[.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more]>
+
+Amazon search functionality check.Amazon search field functionality check with one item using title  Time elapsed: 5.271 s  <<< FAILURE!
 org.junit.ComparisonFailure: expected:<Amazon.com : [hand sanitizers]> but was:<Amazon.com : [Hand Sanitizer]>
+
+Amazon Sign In functionality check.Check that user can navigate from homepage to Sign In page using title  Time elapsed: 43.269 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<Amazon[ Sign-In]> but was:<Amazon[.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more]>
+
+Amazon Sign In functionality check.Check that an user can successfully log into Amazon  Time elapsed: 24.791 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":".nav\-shortened\-name"}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:55292}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 06b064e2cb790c36417a10875640cedc
+*** Element info: {Using=class name, value=nav-shortened-name}
+
+Amazon Sign In functionality check.Check that two users can successfully log into Amazon consecutively #1  Time elapsed: 26.656 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#ap_password"}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:55324}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 921a2efc980575fc040d2826fa4349b0
+*** Element info: {Using=css selector, value=#ap_password}
+
+Amazon Sign In functionality check.Check that two users can successfully log into Amazon consecutively #2  Time elapsed: 26.173 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":".nav\-shortened\-name"}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:55370}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 62be1c852a4a8f172f58ea2f1b934a69
+*** Element info: {Using=class name, value=nav-shortened-name}
+
+Amazon Sign In functionality check.Check that an alert message is displayed when user tries to login without a password  Time elapsed: 26.402 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#signInSubmit"}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:55436}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: eeafc586cc39b81498954eb4c56c28b2
+*** Element info: {Using=id, value=signInSubmit}
+
+Amazon Sign In functionality check.Check that user can navigate to 'Forgot your password?' page  Time elapsed: 27.354 s  <<< ERROR!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:55485}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b68d5bb6a983b455d3fe1d8131da7fcc
+
+Amazon Sign In functionality check.Check that alert message is displayed when user can navigate to 'Forgot your password?' page  Time elapsed: 26.252 s  <<< ERROR!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:55538}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2690753ed906e39476b373e30994973c
 

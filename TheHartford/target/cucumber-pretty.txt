@@ -70,6 +70,18 @@ Scenario: Check Accessibility Statement Web element is functional # src/test/jav
   Given I on The Heart Fort Homepage                              # stepDefinitions.HomeStepDefinition.i_on_the_heart_fort_homepage()
   When I Click on Accessibility Statement Web Element             # stepDefinitions.HomeStepDefinition.iClickOnAccessibilityStatementWebElement()
   Then I Verify Accessibility Statement page title                # stepDefinitions.HomeStepDefinition.iVerifyAccessibilityStatementPageTitle()
+      java.lang.AssertionError: +++++++++=failed++++++++++++ expected [https://www.thehartford.com/accessibility-statement] but found [https://www.thehartford.com/]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at search.Search.validateAccessibilityStat(Search.java:334)
+	at stepDefinitions.HomeStepDefinition.iVerifyAccessibilityStatementPageTitle(HomeStepDefinition.java:173)
+	at ✽.I Verify Accessibility Statement page title(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:81)
+
+
+    Embedding Demo1 [image/png 222449 bytes]
+
 
 @SmokeTest
 Scenario: Check Producers Compensations Web element is functional # src/test/java/features/HomePage.feature:84
@@ -94,8 +106,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:62470}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 9502bff491f261f7043bcc5b545db18e
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:56221}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 49f907408e77cdb720497a819e68614d
 *** Element info: {Using=xpath, value=//*[@id="liveForm"]/div/div[2]/div[1]/div/div/div[2]/div/div/p/p/span/span/strong}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)

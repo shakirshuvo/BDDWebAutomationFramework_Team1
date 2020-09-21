@@ -1,16 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: testRunner.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 21, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 286.766 s <<< FAILURE! - in testRunner.TestRunner
-United Health Care homepage tab functionality tests.Negetiv testing for myuhc sign in with invalid user name and password  Time elapsed: 19.272 s  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 32.579 s <<< FAILURE! - in testRunner.TestRunner
+United Health Care homepage tab functionality tests.Negetiv testing for myuhc sign in with invalid user name and password  Time elapsed: 26.924 s  <<< ERROR!
 org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="globalAlertContainer"]/button"}
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="671978824-list1599078528739"]/li[1]/a/span"}
   (Session info: chrome=85.0.4183.102)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Farjanas-Air', ip: '2604:2000:1700:1c:4143:d7d5:c558:1f9c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '11.0.6'
+System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/27/nmfyzmzj1c7...}, goog:chromeOptions: {debuggerAddress: localhost:50550}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: bd30f54bbd5f75860bd6d82a4210b47c
-*** Element info: {Using=xpath, value=//*[@id="globalAlertContainer"]/button}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:56421}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 19364f2f109f77b99d2604ce97ebd69b
+*** Element info: {Using=xpath, value=//*[@id="671978824-list1599078528739"]/li[1]/a/span}
 

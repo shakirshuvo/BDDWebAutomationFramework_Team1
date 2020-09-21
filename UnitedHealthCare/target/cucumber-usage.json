@@ -5,13 +5,13 @@
       {
         "name": "User is in United Health Care homepage",
         "aggregatedDurations": {
-          "median": 15.535984,
-          "average": 15.535984
+          "median": 11.115427,
+          "average": 11.115427
         },
         "durations": [
           {
-            "duration": 15.535984,
-            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:4"
+            "duration": 11.115427,
+            "location": "file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/HomePage.feature:4"
           }
         ]
       }
