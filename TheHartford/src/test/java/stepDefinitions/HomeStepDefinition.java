@@ -43,7 +43,7 @@ public class HomeStepDefinition extends CommonAPI {
     }
     @When("I Click on Report Claim Web Element")
     public void i_click_on_report_claim_web_element() throws InterruptedException {
-        clickByXpath(findReportClaimXPAT);
+        clickOnElement(findReportClaimXPAT);
     }
     @Then("I Verify Report Claim page title")
     public void i_verify_report_claim_page_title() {
