@@ -9,13 +9,11 @@ public class GetAQuoteAutoWebElements {
     public static final String randomEmailAddress = faker.internet().emailAddress();
     public static final String randomFirstName = faker.name().firstName();
     public static final String randomLastName = faker.name().lastName();
-    public static final String startQuoteButtonCSSWebElement = "#cqb-1444641621794 > article > form > button";
     public static final String enterFiveDigitZipCodeAlertXpathWebElement = "//*[text()='Enter five-digit zip code']";
     public static final String vaZipCode = "22182";
     public static final String pntVAStreetAddress = "1604 Spring Hill Rd";
     public static final String pntVASuite = "302";
     public static final String dateOfBirth = "03/16/1983";
-    public static final String thanksMessageXpathWebElement = "//p[@id='conv_win_text_message_3']/div";
     public static final String randomPhoneNumber = faker.phoneNumber().phoneNumber();
     public static final String nissan2007VinNumber = "1N4BA41E67C837695";
     public static final String zipCodeFieldXpathWebElement = "//div[@id=\"cqb-1444641621794\"]/article/form/div[2]/input";
@@ -54,7 +52,5 @@ public class GetAQuoteAutoWebElements {
     public static final String continueButtonXpathWebElement = "//div[@id='AllVehicleAddedModal']/div/div/div/div[4]/button";
     public static final String yourVehicleURL = "https://quote.thehartford.com/sales/auto/vehicle";
     public static final String pleaseSelectYourVehicleOwnershipStatusXpathWebElement = "//span[text()='Please select your vehicle ownership status.']";
-    public static final String CancelWeHaveSavedYourQuotesClassWebElement = "btn-cancel col-xs-12";
-    public static final String closeWeHaveSavedYourQuotesID = "modal_btn_icon";
-    public static final String thanksText = "Thanks, John! Click the vehicles you want on your policy. Don't see your vehicle? Click \"Add Vehicle.\"";
+
 }

@@ -38,4 +38,3 @@ Feature: Amazon search functionality check
       | Computers  | Computers, Tablets and IT Accessories |
 
 
-

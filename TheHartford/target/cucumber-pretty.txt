@@ -1,0 +1,155 @@
+
+@SmokeTest
+Scenario: Check Find Agent Web element is functional # src/test/java/features/HomePage.feature:19
+  Given I on The Heart Fort Homepage                 # stepDefinitions.HomeStepDefinition.i_on_the_heart_fort_homepage()
+  When I Click on Find Agent Web Element             # stepDefinitions.HomeStepDefinition.iClickOnFindAgentWebElement()
+  Then I Verify Find Agent page title                # stepDefinitions.HomeStepDefinition.iVerifyFindAgentPageTitle()
+
+@SmokeTest
+Scenario: Check Home Web element is functional # src/test/java/features/HomePage.feature:24
+  Given I on The Heart Fort Homepage           # stepDefinitions.HomeStepDefinition.i_on_the_heart_fort_homepage()
+  When I Click on Home Web Element             # stepDefinitions.HomeStepDefinition.iClickOnHomeWebElement()
+  Then I Verify Home page title                # stepDefinitions.HomeStepDefinition.iVerifyHomePageTitle()
+
+@SmokeTest
+Scenario: Check Business Web element is functional # src/test/java/features/HomePage.feature:29
+  Given I on The Heart Fort Homepage               # stepDefinitions.HomeStepDefinition.i_on_the_heart_fort_homepage()
+  When I Click on Business Web Element             # stepDefinitions.HomeStepDefinition.iClickOnBusinessWebElement()
+  Then I Verify Business page title                # stepDefinitions.HomeStepDefinition.iVerifyBusinessPageTitle()
+      java.lang.AssertionError: expected [Business, Home & Car Insurance Quotes | The Hartford Insurance] but found [Business Insurance | Insurance for Business Owners | The Hartford]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at search.Search.validateBusinessTab(Search.java:154)
+	at stepDefinitions.HomeStepDefinition.iVerifyBusinessPageTitle(HomeStepDefinition.java:92)
+	at ✽.I Verify Business page title(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:31)
+
+
+    Embedding Demo1 [image/png 960911 bytes]
+
+
+@SmokeTest
+Scenario: Check The HartFord Home Image Web element is functional # src/test/java/features/HomePage.feature:39
+  Given I on The Heart Fort Homepage                              # stepDefinitions.HomeStepDefinition.i_on_the_heart_fort_homepage()
+  When I Click on The HartFord Home Image Web Element             # stepDefinitions.HomeStepDefinition.iClickOnTheHartFordHomeImageWebElement()
+  Then I Verify The HartFord Home Image page title                # stepDefinitions.HomeStepDefinition.iVerifyTheHartFordHomeImagePageTitle()
+
+@SmokeTest
+Scenario: Check About Us Web element is functional # src/test/java/features/HomePage.feature:44
+  Given I on The Heart Fort Homepage               # stepDefinitions.HomeStepDefinition.i_on_the_heart_fort_homepage()
+  When I Click on About Us Web Element             # stepDefinitions.HomeStepDefinition.iClickOnAboutUsWebElement()
+  Then I Verify TAbout Us page title               # stepDefinitions.HomeStepDefinition.iVerifyTAboutUsPageTitle()
+
+@SmokeTest
+Scenario: Check Agent and Producers Web element is functional # src/test/java/features/HomePage.feature:49
+  Given I on The Heart Fort Homepage                          # stepDefinitions.HomeStepDefinition.i_on_the_heart_fort_homepage()
+  When I Click on Agent and Producers Web Element             # stepDefinitions.HomeStepDefinition.iClickOnAgentAndProducersWebElement()
+  Then I Verify Agent and Producers page title                # stepDefinitions.HomeStepDefinition.iVerifyAgentAndProducersPageTitle()
+
+@SmokeTest
+Scenario: Check Contact Us Web element is functional # src/test/java/features/HomePage.feature:54
+  Given I on The Heart Fort Homepage                 # stepDefinitions.HomeStepDefinition.i_on_the_heart_fort_homepage()
+  When I Click on Contact Us Web Element             # stepDefinitions.HomeStepDefinition.iClickOnContactUsWebElement()
+  Then I Verify Contact Us page title                # stepDefinitions.HomeStepDefinition.iVerifyContactUsPageTitle()
+
+@SmokeTest
+Scenario: Check Mobile App Web element is functional # src/test/java/features/HomePage.feature:59
+  Given I on The Heart Fort Homepage                 # stepDefinitions.HomeStepDefinition.i_on_the_heart_fort_homepage()
+  When I Click on Mobile App Web Element             # stepDefinitions.HomeStepDefinition.iClickOnMobileAppWebElement()
+  Then I Verify Mobile App page title                # stepDefinitions.HomeStepDefinition.iVerifyMobileAppPageTitle()
+
+@SmokeTest
+Scenario: Check Small Business Web element is functional # src/test/java/features/HomePage.feature:64
+  Given I on The Heart Fort Homepage                     # stepDefinitions.HomeStepDefinition.i_on_the_heart_fort_homepage()
+  When I Click on Small Business Web Element             # stepDefinitions.HomeStepDefinition.iClickOnSmallBusinessWebElement()
+  Then I Verify MSmall Business page title               # stepDefinitions.HomeStepDefinition.iVerifyMSmallBusinessPageTitle()
+
+@SmokeTest
+Scenario: Check Privacy Policy Web element is functional # src/test/java/features/HomePage.feature:69
+  Given I on The Heart Fort Homepage                     # stepDefinitions.HomeStepDefinition.i_on_the_heart_fort_homepage()
+  When I Click on Privacy Policy Web Element             # stepDefinitions.HomeStepDefinition.iClickOnPrivacyPolicyWebElement()
+  Then I Verify Privacy Policy page title                # stepDefinitions.HomeStepDefinition.iVerifyPrivacyPolicyPageTitle()
+
+@SmokeTest
+Scenario: Check Legal Notice Web element is functional # src/test/java/features/HomePage.feature:74
+  Given I on The Heart Fort Homepage                   # stepDefinitions.HomeStepDefinition.i_on_the_heart_fort_homepage()
+  When I Click on Legal Notice Web Element             # stepDefinitions.HomeStepDefinition.iClickOnLegalNoticeWebElement()
+  Then I Verify Legal Notice page title                # stepDefinitions.HomeStepDefinition.iVerifyLegalNoticePageTitle()
+
+@SmokeTest
+Scenario: Check Accessibility Statement Web element is functional # src/test/java/features/HomePage.feature:79
+  Given I on The Heart Fort Homepage                              # stepDefinitions.HomeStepDefinition.i_on_the_heart_fort_homepage()
+  When I Click on Accessibility Statement Web Element             # stepDefinitions.HomeStepDefinition.iClickOnAccessibilityStatementWebElement()
+  Then I Verify Accessibility Statement page title                # stepDefinitions.HomeStepDefinition.iVerifyAccessibilityStatementPageTitle()
+
+@SmokeTest
+Scenario: Check Producers Compensations Web element is functional # src/test/java/features/HomePage.feature:84
+  Given I on The Heart Fort Homepage                              # stepDefinitions.HomeStepDefinition.i_on_the_heart_fort_homepage()
+  When I Click on Producers Compensations Web Element             # stepDefinitions.HomeStepDefinition.iClickOnProducersCompensationsWebElement()
+  Then I Verify Producers Compensations page title                # stepDefinitions.HomeStepDefinition.iVerifyProducersCompensationsPageTitle()
+
+@SmokeTest
+Scenario: Check EEO Web element is functional # src/test/java/features/HomePage.feature:89
+  Given I on The Heart Fort Homepage          # stepDefinitions.HomeStepDefinition.i_on_the_heart_fort_homepage()
+  When I Click on EEO Web Element             # stepDefinitions.HomeStepDefinition.iClickOnEEOWebElement()
+  Then I Verify EEO page title                # stepDefinitions.HomeStepDefinition.iVerifyEEOPageTitle()
+
+@SmokeTest
+Scenario: Check FeedBack Web element is functional # src/test/java/features/HomePage.feature:94
+  Given I on The Heart Fort Homepage               # stepDefinitions.HomeStepDefinition.i_on_the_heart_fort_homepage()
+  When I Click on FeedBack Web Element             # stepDefinitions.HomeStepDefinition.iClickOnFeedBackWebElement()
+  Then I Verify FeedBack page title                # stepDefinitions.HomeStepDefinition.iVerifyFeedBackPageTitle()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="liveForm"]/div/div[2]/div[1]/div/div/div[2]/div/div/p/p/span/span/strong"}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:58227}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 88a319925fa38269af2a95a7da8d5a61
+*** Element info: {Using=xpath, value=//*[@id="liveForm"]/div/div[2]/div[1]/div/div/div[2]/div/div/p/p/span/span/strong}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy24.getText(Unknown Source)
+	at base.CommonAPI.getTextByWebElement(CommonAPI.java:686)
+	at search.Search.validateFeedBack(Search.java:374)
+	at stepDefinitions.HomeStepDefinition.iVerifyFeedBackPageTitle(HomeStepDefinition.java:197)
+	at ✽.I Verify FeedBack page title(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:96)
+
+
+    Embedding Demo1 [image/png 857756 bytes]
+
+
+@SmokeTest
+Scenario: Check Car Insurance Web element is functional # src/test/java/features/HomePage.feature:99
+  Given I on The Heart Fort Homepage                    # stepDefinitions.HomeStepDefinition.i_on_the_heart_fort_homepage()
+  When I Click on Car Insurance Web Element             # stepDefinitions.HomeStepDefinition.iClickOnCarInsuranceWebElement()
+  Then I Verify Car Insurance page title                # stepDefinitions.HomeStepDefinition.iVerifyCarInsurancePageTitle()
+
+@SmokeTest
+Scenario: Check Car Insurance Web element is functional # src/test/java/features/HomePage.feature:104
+  Given I on The Heart Fort Homepage                    # stepDefinitions.HomeStepDefinition.i_on_the_heart_fort_homepage()
+  When I Click on Car Insurance Web Element             # stepDefinitions.HomeStepDefinition.iClickOnCarInsuranceWebElement()
+  Then I Verify Car Insurance page title                # stepDefinitions.HomeStepDefinition.iVerifyCarInsurancePageTitle()
+
+@SmokeTest
+Scenario: Check Home Insurance Web element is functional # src/test/java/features/HomePage.feature:109
+  Given I on The Heart Fort Homepage                     # stepDefinitions.HomeStepDefinition.i_on_the_heart_fort_homepage()
+  When I Click on Home Insurance Web Element             # stepDefinitions.HomeStepDefinition.iClickOnHomeInsuranceWebElement()
+  Then I Verify Home Insurance page title                # stepDefinitions.HomeStepDefinition.iVerifyHomeInsurancePageTitle()
