@@ -28,13 +28,6 @@ Scenario: New York times business page functionality with valid data   # src/tes
   Given I am in newYorkTimes homepage                                  # stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage()
   When I click business button                                         # stepDefinitions.HomeStepDefinition.i_click_business_button()
   Then I verify business page title as "Business - The New York Times" # stepDefinitions.HomeStepDefinition.i_verify_business_page_title_as(java.lang.String)
-      org.junit.ComparisonFailure: expected:<[The New York Times - Breaking News, World News & Multimedia]> but was:<[Business - The New York Times]>
-	at org.junit.Assert.assertEquals(Assert.java:117)
-	at org.junit.Assert.assertEquals(Assert.java:146)
-	at base.CommonAPI.validateByTitle(CommonAPI.java:568)
-	at stepDefinitions.HomeStepDefinition.i_verify_business_page_title_as(HomeStepDefinition.java:74)
-	at ✽.I verify business page title as "Business - The New York Times"(file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:46)
-
 
 @SmokeTest
 Scenario:                                                            # src/test/java/features/HomePage.feature:49
@@ -54,6 +47,13 @@ Scenario: New York times science page functionality with data                   
   When I click on science button                                                    # stepDefinitions.HomeStepDefinition.i_click_on_science_button()
   And I click on climate                                                            # stepDefinitions.HomeStepDefinition.i_click_on_climate()
   And I verify science page title as "Climate and Environment - The New York Times" # stepDefinitions.HomeStepDefinition.i_verify_science_page_title_as(java.lang.String)
+      org.junit.ComparisonFailure: expected:<[Science] - The New York Time...> but was:<[Climate and Environment] - The New York Time...>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at base.CommonAPI.validateByTitle(CommonAPI.java:568)
+	at stepDefinitions.HomeStepDefinition.i_verify_science_page_title_as(HomeStepDefinition.java:99)
+	at ✽.I verify science page title as "Climate and Environment - The New York Times"(file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:62)
+
   Then I navigate back to the science page                                          # stepDefinitions.HomeStepDefinition.iNavigateBackToTheSciencePage()
   And I click on space and cosmos                                                   # stepDefinitions.HomeStepDefinition.iClickOnSpaceAndCosmos()
 
@@ -63,36 +63,6 @@ Scenario: New York times health page functionality with data       # src/test/ja
   When I click on health button                                    # stepDefinitions.HomeStepDefinition.i_click_on_health_button()
   And I click on health policy                                     # stepDefinitions.HomeStepDefinition.i_click_on_health_policy()
   And I click on global health                                     # stepDefinitions.HomeStepDefinition.i_click_on_global_health()
-      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Global Health')]"}
-  (Session info: chrome=85.0.4183.102)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MacBook-Pro-2.home', ip: 'fd4b:8d38:69ba:1:ad36:a996:c23e:f247%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/wz/dgqm41w90yg...}, goog:chromeOptions: {debuggerAddress: localhost:63982}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: ee5a3fd871d20818d5a817237476cf83
-*** Element info: {Using=xpath, value=//a[contains(text(),'Global Health')]}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy25.click(Unknown Source)
-	at stepDefinitions.HomeStepDefinition.i_click_on_global_health(HomeStepDefinition.java:128)
-	at ✽.I click on global health(file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:70)
-
   And I click on the new old age                                   # stepDefinitions.HomeStepDefinition.i_click_on_the_new_old_age()
   Then I verify health page title as "Health - The New York Times" # stepDefinitions.HomeStepDefinition.i_verify_health_page_title_as(java.lang.String)
 
@@ -115,13 +85,6 @@ Scenario: New york times Arts functionality with data          # src/test/java/f
   And I click on dance                                         # stepDefinitions.HomeStepDefinition.i_click_on_dance()
   And I click on movies                                        # stepDefinitions.HomeStepDefinition.i_click_on_movies()
   Then I verify Arts page title as "Arts - The New York Times" # stepDefinitions.HomeStepDefinition.iVerifyArtsPageTitleAs(java.lang.String)
-      org.junit.ComparisonFailure: expected:<[The New York Times - Breaking News, World News & Multimedia]> but was:<[Arts - The New York Times]>
-	at org.junit.Assert.assertEquals(Assert.java:117)
-	at org.junit.Assert.assertEquals(Assert.java:146)
-	at base.CommonAPI.validateByTitle(CommonAPI.java:568)
-	at stepDefinitions.HomeStepDefinition.iVerifyArtsPageTitleAs(HomeStepDefinition.java:207)
-	at ✽.I verify Arts page title as "Arts - The New York Times"(file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:90)
-
 
 @SmokeTest
 Scenario: New york times Books functionality with data                  # src/test/java/features/HomePage.feature:93
@@ -175,5 +138,33 @@ Scenario:                                                          # src/test/ja
   Given I am in new York Times homepage                            # stepDefinitions.SearchStepDefinition.i_am_in_new_york_times_homepage()
   And I click on searchButton                                      # stepDefinitions.SearchStepDefinition.i_click_on_search_button()
   And I enter "today's news" in search field                       # stepDefinitions.SearchStepDefinition.i_enter_in_search_field(java.lang.String)
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".\/\/input\[\@placeholder\=\'SEARCH\'\]"}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-2.home', ip: 'fd4b:8d38:69ba:1:ad36:a996:c23e:f247%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/wz/dgqm41w90yg...}, goog:chromeOptions: {debuggerAddress: localhost:57964}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0ecda4a660180cfe2238a2077e4c20e2
+*** Element info: {Using=class name, value=//input[@placeholder='SEARCH']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at base.CommonAPI.typeOnElement(CommonAPI.java:241)
+	at stepDefinitions.SearchStepDefinition.i_enter_in_search_field(SearchStepDefinition.java:38)
+	at ✽.I enter "today's news" in search field(file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/SearchPage.feature:8)
+
   And I submit search field                                        # stepDefinitions.SearchStepDefinition.i_submit_search_field()
   Then I verify search page title as "The New York Times - Search" # stepDefinitions.SearchStepDefinition.i_verify_search_page_title_as(java.lang.String)

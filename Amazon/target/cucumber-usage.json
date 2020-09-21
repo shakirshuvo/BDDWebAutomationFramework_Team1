@@ -5,12 +5,12 @@
       {
         "name": "I am on Amazon homepage",
         "aggregatedDurations": {
-          "median": 2.977657,
-          "average": 2.977657
+          "median": 4.96962,
+          "average": 4.96962
         },
         "durations": [
           {
-            "duration": 2.977657,
+            "duration": 4.96962,
             "location": "file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:5"
           }
         ]
