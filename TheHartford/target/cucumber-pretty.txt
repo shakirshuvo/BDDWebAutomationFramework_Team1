@@ -10,12 +10,38 @@ Scenario: Check Home Web element is functional # src/test/java/features/HomePage
   Given I on The Heart Fort Homepage           # stepDefinitions.HomeStepDefinition.i_on_the_heart_fort_homepage()
   When I Click on Home Web Element             # stepDefinitions.HomeStepDefinition.iClickOnHomeWebElement()
   Then I Verify Home page title                # stepDefinitions.HomeStepDefinition.iVerifyHomePageTitle()
+      java.lang.AssertionError: expected [Business, Home & Car Insurance Quotes | The Hartford Insurance] but found []
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at search.Search.validateSetHomeElementCheck(Search.java:137)
+	at stepDefinitions.HomeStepDefinition.iVerifyHomePageTitle(HomeStepDefinition.java:83)
+	at ✽.I Verify Home page title(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:26)
+
+
+    Embedding Demo1 [image/png 2736659 bytes]
+
 
 @SmokeTest
 Scenario: Check Business Web element is functional # src/test/java/features/HomePage.feature:29
   Given I on The Heart Fort Homepage               # stepDefinitions.HomeStepDefinition.i_on_the_heart_fort_homepage()
   When I Click on Business Web Element             # stepDefinitions.HomeStepDefinition.iClickOnBusinessWebElement()
   Then I Verify Business page title                # stepDefinitions.HomeStepDefinition.iVerifyBusinessPageTitle()
+      java.lang.AssertionError: expected [Business, Home & Car Insurance Quotes | The Hartford Insurance] but found [Business Insurance | Insurance for Business Owners | The Hartford]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at search.Search.validateBusinessTab(Search.java:154)
+	at stepDefinitions.HomeStepDefinition.iVerifyBusinessPageTitle(HomeStepDefinition.java:92)
+	at ✽.I Verify Business page title(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:31)
+
+
+    Embedding Demo1 [image/png 1178813 bytes]
+
 
 @SmokeTest
 Scenario: Check The HartFord Home Image Web element is functional # src/test/java/features/HomePage.feature:39
@@ -94,8 +120,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:62470}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 9502bff491f261f7043bcc5b545db18e
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:52085}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5e162d45cd59f3f5377249b20c476c22
 *** Element info: {Using=xpath, value=//*[@id="liveForm"]/div/div[2]/div[1]/div/div/div[2]/div/div/p/p/span/span/strong}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
