@@ -1,460 +1,1048 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="39" time="500.474">
-    <testcase classname="Amazon cart functionality check" name="Check that user can add an item into the cart and verify it using 'Added to Cart' text" time="28.918">
-        <system-out>
-            <![CDATA[Given I am on Amazon homepage...............................................passed
-When I enter "WD 5TB My Passport" and submit in the search field............passed
-And I click on the product 'WD 5TB My Passport Portable External Hard Drive, Black - WDBPKJ0050BBK-WESN'.passed
-And I click on 'Add to Cart'................................................passed
-Then I verify that the item has been added with 'Added to Cart' text........passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="Amazon cart functionality check" name="Check that user can add an item into the cart by verifying that the item exists in the cart" time="15.42">
-        <system-out>
-            <![CDATA[Given I am on Amazon homepage...............................................passed
-When I enter "WD 5TB My Passport" and submit in the search field............passed
-And I click on the product 'WD 5TB My Passport Portable External Hard Drive, Black - WDBPKJ0050BBK-WESN'.passed
-And I click on 'Add to Cart'................................................passed
-And I click on cart button..................................................passed
-Then I verify that the item has been added by confirming that the item is displayed in the cart.passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="Amazon cart functionality check" name="Check that user can delete an item from the cart by verifying that 'Your Amazon Cart is empty'" time="16.421">
-        <system-out>
-            <![CDATA[Given I am on Amazon homepage...............................................passed
-When I enter "WD 5TB My Passport" and submit in the search field............passed
-And I click on the product 'WD 5TB My Passport Portable External Hard Drive, Black - WDBPKJ0050BBK-WESN'.passed
-And I click on 'Add to Cart'................................................passed
-And I click on cart button..................................................passed
-And I click on 'Delete' button..............................................passed
-Then I verify that the the text 'Your Amazon Cart is empty' is displayed....passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="Amazon cart functionality check" name="Check that user can delete an item from the cart by verifying that 'Your Amazon Cart is empty' 2" time="27.053">
-        <system-out>
-            <![CDATA[Given I am on Amazon homepage...............................................passed
-When I enter "WD 5TB My Passport" and submit in the search field............passed
-And I click on the product 'WD 5TB My Passport Portable External Hard Drive, Black - WDBPKJ0050BBK-WESN'.passed
-And I click on 'Add to Cart'................................................passed
-And I navigate back to previous window......................................passed
-And I click on 'Add to Cart'................................................passed
-And I click on cart button..................................................passed
-Then I verify that for Subtotal "2 items" is displayed......................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="Amazon homepage functionality check" name="Check that Amazon homepage loads using title" time="6.247">
-        <system-out>
-            <![CDATA[Given I am on Amazon homepage...............................................passed
-Then I verify Amazon homepage with title....................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="Amazon homepage functionality check" name="Check that 'Today's Deal' tab is functional using title" time="7.831">
-        <system-out>
-            <![CDATA[Given I am on Amazon homepage...............................................passed
-When I click on 'Today's Deal' tab..........................................passed
-Then I verify 'Today's Deal' with title.....................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="Amazon homepage functionality check" name="Check that 'Today's Deal' tab is functional using 'Deals and Promotions' text" time="8.341">
-        <system-out>
-            <![CDATA[Given I am on Amazon homepage...............................................passed
-When I click on 'Today's Deal' tab..........................................passed
-Then I verify 'Today's Deal' with 'Deals and Promotions' text being displayed.passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="Amazon homepage functionality check" name="Check that 'Customer Service' tab is functional using title" time="8.304">
-        <system-out>
-            <![CDATA[Given I am on Amazon homepage...............................................passed
-When I click on 'Customer Service' tab......................................passed
-Then I verify 'Customer Service' with with title............................passed
-And I verify 'Customer Service' with 'Hello. What can we help you with?' text.passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="Amazon homepage functionality check" name="Check that 'Gift Cards' tab is functional using title and text" time="10.076">
-        <system-out>
-            <![CDATA[Given I am on Amazon homepage...............................................passed
-When I click on Gift Cards tab..............................................passed
-Then I verify Gift Cards tab with with title 'Amazon.com Gift Cards'........passed
-And I verify Gift Cards with 'Hello. What can we help you with?' text.......passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="Amazon homepage functionality check" name="Check that 'Registry' tab is functional using title" time="7.411">
-        <system-out>
-            <![CDATA[Given I am on Amazon homepage...............................................passed
-When I click on Registry tab................................................passed
-Then I verify Registry tab with with title 'Amazon.com: : Registry'.........passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="Amazon homepage functionality check" name="Check that 'Sell' tab is functional using title" time="10.329">
-        <system-out>
-            <![CDATA[Given I am on Amazon homepage...............................................passed
-When I click on Sell tab....................................................passed
-Then I verify Sell tab with with title 'Amazon.com: Sell Products Online with Selling on Amazon.'.passed
-And I verify Sell tab with 'Become an Amazon seller' text...................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="Amazon homepage functionality check" name="Check that 'Music' link is functional using URL and title" time="9.365">
-        <system-out>
-            <![CDATA[Given I am on Amazon homepage...............................................passed
-When I click on Music link..................................................passed
-Then I verify Music link with with URL 'https://music.amazon.com/home?ref=dm_aff_amz_com'.passed
-And I verify Music link with title 'Amazon Music Unlimited - Stream 60 million songs online now.'.passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="Amazon homepage functionality check" name="Check that 'Advertise Your Product' link is functional using title, URL, and text" time="32.112">
-        <failure message="invalid selector: An invalid or illegal selector was specified&#10;  (Session info: chrome=85.0.4183.102)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-F15B8L7', ip: '169.254.252.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Shakir\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62634}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 0e064554948781fe991e8996564bf674&#10;*** Element info: {Using=name, value=//h1[text()='Advertise with intent']}" type="org.openqa.selenium.InvalidSelectorException">
-            <![CDATA[Given I am on Amazon homepage...............................................passed
-When I click on Advertise Your Product link.................................passed
-Then I verify Advertise Your Product link with title 'Amazon Advertising: Online advertising on Amazon'.passed
-And I verify Advertise Your Product link with URL 'https://advertising.amazon.com/'.passed
-And I verify Advertise Your Product link with text 'Amazon Music Unlimited - Stream 60 million songs online now.'.failed
+<testsuite errors="0" failures="39" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="39" time="2.425">
+    <testcase classname="Amazon cart functionality check" name="Check that user can add an item into the cart and verify it using 'Added to Cart' text" time="0.202">
+        <failure message="The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver" type="java.lang.IllegalStateException">
+            <![CDATA[Given I am on Amazon homepage...............................................failed
+When I enter "WD 5TB My Passport" and submit in the search field............skipped
+And I click on the product 'WD 5TB My Passport Portable External Hard Drive, Black - WDBPKJ0050BBK-WESN'.skipped
+And I click on 'Add to Cart'................................................skipped
+Then I verify that the item has been added with 'Added to Cart' text........skipped
 
 StackTrace:
-org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
-  (Session info: chrome=85.0.4183.102)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-F15B8L7', ip: '169.254.252.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Shakir\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62634}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 0e064554948781fe991e8996564bf674
-*** Element info: {Using=name, value=//h1[text()='Advertise with intent']}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
-	at org.openqa.selenium.By$ByName.findElement(By.java:284)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at base.CommonAPI.validateByText(CommonAPI.java:759)
-	at stepDefinitions.HomeStepDefinition.i_verify_advertise_your_product_link_with_text(HomeStepDefinition.java:136)
-	at ✽.I verify Advertise Your Product link with text 'Amazon Music Unlimited - Stream 60 million songs online now.'(file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:54)
+java.lang.IllegalStateException: The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:150)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at base.CommonAPI.getLocalDriver(CommonAPI.java:196)
+	at base.CommonAPI.setUp(CommonAPI.java:172)
+	at base.CommonAPI.openBrowser(CommonAPI.java:154)
+	at stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage(SearchStepDefinition.java:32)
+	at ✽.I am on Amazon homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:4)
 ]]>
         </failure>
     </testcase>
-    <testcase classname="Amazon homepage functionality check" name="Check that user can navigate to 'Computers &amp; Tablets' page using 'Shop By Category' burger button" time="9.278">
-        <system-out>
-            <![CDATA[Given I am on Amazon homepage...............................................passed
-When I click on Shop By Category burger button..............................passed
-And I click on Computers....................................................passed
-And I click on Computers & Tablets..........................................passed
-Then I verify Computers & Tablets page with ASUS on 'Featured Brand' selection.passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="Amazon homepage functionality check" name="Check that user can navigate to 'Computers &amp; Tablets' page and select 'HP' from 'Featured Brands' selection." time="9.962">
-        <system-out>
-            <![CDATA[Given I am on Amazon homepage...............................................passed
-When I click on Shop By Category burger button..............................passed
-And I click on Computers....................................................passed
-And I click on Computers & Tablets..........................................passed
-And I click on HP checkbox from Featured Brands selection...................passed
-Then I verify that HP checkbox is selected..................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="Amazon Registration functionality check" name="Check that user can navigate to the Registration page using title" time="8.421">
-        <system-out>
-            <![CDATA[Given I am on Amazon homepage...............................................passed
-When I hover over 'Hello, Sign in' button...................................passed
-And I click on 'Start here' link on homepage................................passed
-Then I verify page "Amazon Registration"....................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="Amazon Registration functionality check" name="Check that if user does not provide a name when registering, an alert message" time="10.049">
-        <system-out>
-            <![CDATA[Given I am on Amazon homepage...............................................passed
-When I hover over 'Hello, Sign in' button...................................passed
-And I click on 'Start here' link on homepage................................passed
-And I enter a random email address in the 'Email' field.....................passed
-And I enter a random password in the 'Password' field.......................passed
-And I Re-enter the password in the `Re-enter password` field................passed
-And I click on 'Create you Amazon account' button on the Registration page..passed
-Then I verify 'Enter your name' alert is displayed under `Your name` field..passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="Amazon Registration functionality check" name="Check that if user does not provide a email when registering, an alert message" time="8.639">
-        <system-out>
-            <![CDATA[Given I am on Amazon homepage...............................................passed
-When I hover over 'Hello, Sign in' button...................................passed
-And I click on 'Start here' link on homepage................................passed
-And I enter a random 'name'.................................................passed
-And I enter a random password in the 'Password' field.......................passed
-And I Re-enter the password in the `Re-enter password` field................passed
-And I click on 'Create you Amazon account' button on the Registration page..passed
-Then I verify 'Enter your email' alert is displayed under `Email` field.....passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="Amazon Registration functionality check" name="Check that if user does not provide a valid email format when registering, an alert message" time="9.446">
-        <system-out>
-            <![CDATA[Given I am on Amazon homepage...............................................passed
-When I hover over 'Hello, Sign in' button...................................passed
-And I click on 'Start here' link on homepage................................passed
-And I enter a random 'name'.................................................passed
-And I enter an "invalid@email." address in the `Email` field................passed
-And I enter a random password in the 'Password' field.......................passed
-And I Re-enter the password in the `Re-enter password` field................passed
-And I click on 'Create you Amazon account' button on the Registration page..passed
-Then I verify "Enter a valid email address" is displayed under `Email` field.passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="Amazon Registration functionality check" name="Check that if user does not provide a password when registering, an alert message" time="9.511">
-        <system-out>
-            <![CDATA[Given I am on Amazon homepage...............................................passed
-When I hover over 'Hello, Sign in' button...................................passed
-And I click on 'Start here' link on homepage................................passed
-And I enter a random 'name'.................................................passed
-And I enter a random email address in the 'Email' field.....................passed
-And I click on 'Create you Amazon account' button on the Registration page..passed
-Then I verify "Enter your password" is displayed under `Password` field.....passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="Amazon Registration functionality check" name="Check that if user does not re-enter a password when registering, an alert message" time="9.696">
-        <system-out>
-            <![CDATA[Given I am on Amazon homepage...............................................passed
-When I hover over 'Hello, Sign in' button...................................passed
-And I click on 'Start here' link on homepage................................passed
-And I enter a random 'name'.................................................passed
-And I enter a random email address in the 'Email' field.....................passed
-And I enter a random password in the 'Password' field.......................passed
-And I click on 'Create you Amazon account' button on the Registration page..passed
-Then I verify "Type your password again" is displayed under `Re-Enter password` field.passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="Amazon Registration functionality check" name="Check that if user does not provide a password that is at least 6 characters long" time="8.788">
-        <system-out>
-            <![CDATA[Given I am on Amazon homepage...............................................passed
-When I hover over 'Hello, Sign in' button...................................passed
-And I click on 'Start here' link on homepage................................passed
-And I enter a random 'name'.................................................passed
-And I enter a random email address in the 'Email' field.....................passed
-And I enter a random five character long password in the 'Password' field...passed
-And I click on 'Create you Amazon account' button on the Registration page..passed
-Then I verify "Passwords must be at least 6 characters." is displayed under `Password` field for not meeting the password criteria.passed
-And I verify "Type your password again" is displayed under `Re-Enter password` field.passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="Amazon Registration functionality check" name="Check that if user tries to register with an email that already has been used to create an" time="10.298">
-        <system-out>
-            <![CDATA[Given I am on Amazon homepage...............................................passed
-When I hover over 'Hello, Sign in' button...................................passed
-And I click on 'Start here' link on homepage................................passed
-And I enter a random 'name'.................................................passed
-And I enter an "ciara105@xhanimatedm.com" address that's already in use in the 'Email' field.passed
-And I enter a random password in the 'Password' field.......................passed
-And I Re-enter the password in the `Re-enter password` field................passed
-And I click on 'Create you Amazon account' button on the Registration page..passed
-Then I verify "Email address already in use" is displayed for proving an email address that's already in use.passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="Amazon search functionality check" name="Amazon search field functionality check with one item using title" time="9.625">
-        <failure message="expected:&lt;Amazon.com : [hand sanitizers]&gt; but was:&lt;Amazon.com : [Hand Sanitizer]&gt;" type="org.junit.ComparisonFailure">
-            <![CDATA[Given I am on Amazon homepage...............................................passed
-And I enter "Hand Sanitizer" in search field................................passed
-When I submit search field..................................................passed
-Then I verify page title as "Amazon.com : hand sanitizers"..................failed
+    <testcase classname="Amazon cart functionality check" name="Check that user can add an item into the cart by verifying that the item exists in the cart" time="0.018">
+        <failure message="The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver" type="java.lang.IllegalStateException">
+            <![CDATA[Given I am on Amazon homepage...............................................failed
+When I enter "WD 5TB My Passport" and submit in the search field............skipped
+And I click on the product 'WD 5TB My Passport Portable External Hard Drive, Black - WDBPKJ0050BBK-WESN'.skipped
+And I click on 'Add to Cart'................................................skipped
+And I click on cart button..................................................skipped
+Then I verify that the item has been added by confirming that the item is displayed in the cart.skipped
 
 StackTrace:
-org.junit.ComparisonFailure: expected:<Amazon.com : [hand sanitizers]> but was:<Amazon.com : [Hand Sanitizer]>
-	at org.junit.Assert.assertEquals(Assert.java:117)
-	at org.junit.Assert.assertEquals(Assert.java:146)
-	at base.CommonAPI.validateByTitle(CommonAPI.java:728)
-	at stepDefinitions.SearchStepDefinition.i_verify_page_title_as(SearchStepDefinition.java:47)
-	at ✽.I verify page title as "Amazon.com : hand sanitizers"(file:///C:/Study/Selenium/Selenium/Frameworks/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:10)
+java.lang.IllegalStateException: The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:150)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at base.CommonAPI.getLocalDriver(CommonAPI.java:196)
+	at base.CommonAPI.setUp(CommonAPI.java:172)
+	at base.CommonAPI.openBrowser(CommonAPI.java:154)
+	at stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage(SearchStepDefinition.java:32)
+	at ✽.I am on Amazon homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:4)
 ]]>
         </failure>
     </testcase>
-    <testcase classname="Amazon search functionality check" name="Amazon search field functionality check with two items" time="10.153">
-        <system-out>
-            <![CDATA[Given I am on Amazon homepage...............................................passed
-When I enter "Matcha Green Tea" and submit in the search field..............passed
-Then I verify items with "Amazon.com : Matcha Green Tea"....................passed
+    <testcase classname="Amazon cart functionality check" name="Check that user can delete an item from the cart by verifying that 'Your Amazon Cart is empty'" time="0.015">
+        <failure message="The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver" type="java.lang.IllegalStateException">
+            <![CDATA[Given I am on Amazon homepage...............................................failed
+When I enter "WD 5TB My Passport" and submit in the search field............skipped
+And I click on the product 'WD 5TB My Passport Portable External Hard Drive, Black - WDBPKJ0050BBK-WESN'.skipped
+And I click on 'Add to Cart'................................................skipped
+And I click on cart button..................................................skipped
+And I click on 'Delete' button..............................................skipped
+Then I verify that the the text 'Your Amazon Cart is empty' is displayed....skipped
+
+StackTrace:
+java.lang.IllegalStateException: The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:150)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at base.CommonAPI.getLocalDriver(CommonAPI.java:196)
+	at base.CommonAPI.setUp(CommonAPI.java:172)
+	at base.CommonAPI.openBrowser(CommonAPI.java:154)
+	at stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage(SearchStepDefinition.java:32)
+	at ✽.I am on Amazon homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:4)
 ]]>
-        </system-out>
+        </failure>
     </testcase>
-    <testcase classname="Amazon search functionality check" name="Amazon search field functionality check with two items 2" time="8.911">
-        <system-out>
-            <![CDATA[Given I am on Amazon homepage...............................................passed
-When I enter "Rage Against The Machine" and submit in the search field......passed
-Then I verify items with "Amazon.com : Rage Against The Machine"............passed
+    <testcase classname="Amazon cart functionality check" name="Check that user can delete an item from the cart by verifying that 'Your Amazon Cart is empty' 2" time="0.02">
+        <failure message="The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver" type="java.lang.IllegalStateException">
+            <![CDATA[Given I am on Amazon homepage...............................................failed
+When I enter "WD 5TB My Passport" and submit in the search field............skipped
+And I click on the product 'WD 5TB My Passport Portable External Hard Drive, Black - WDBPKJ0050BBK-WESN'.skipped
+And I click on 'Add to Cart'................................................skipped
+And I navigate back to previous window......................................skipped
+And I click on 'Add to Cart'................................................skipped
+And I click on cart button..................................................skipped
+Then I verify that for Subtotal "2 items" is displayed......................skipped
+
+StackTrace:
+java.lang.IllegalStateException: The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:150)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at base.CommonAPI.getLocalDriver(CommonAPI.java:196)
+	at base.CommonAPI.setUp(CommonAPI.java:172)
+	at base.CommonAPI.openBrowser(CommonAPI.java:154)
+	at stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage(SearchStepDefinition.java:32)
+	at ✽.I am on Amazon homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Cart.feature:4)
 ]]>
-        </system-out>
+        </failure>
     </testcase>
-    <testcase classname="Amazon search functionality check" name="Amazon 'All' dropdown search functionality check with 'Computers' department" time="9.78">
-        <system-out>
-            <![CDATA[Given I am on Amazon homepage...............................................passed
-When I select "Computers" from 'All' dropdown...............................passed
-And I submit search field...................................................passed
-Then I verify that I am in 'Computers' department with "Computers, Tablets and IT Accessories"..passed
+    <testcase classname="Amazon homepage functionality check" name="Check that Amazon homepage loads using title" time="0.022">
+        <failure message="The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver" type="java.lang.IllegalStateException">
+            <![CDATA[Given I am on Amazon homepage...............................................failed
+Then I verify Amazon homepage with title....................................skipped
+
+StackTrace:
+java.lang.IllegalStateException: The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:150)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at base.CommonAPI.getLocalDriver(CommonAPI.java:196)
+	at base.CommonAPI.setUp(CommonAPI.java:172)
+	at base.CommonAPI.openBrowser(CommonAPI.java:154)
+	at stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage(SearchStepDefinition.java:32)
+	at ✽.I am on Amazon homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:4)
 ]]>
-        </system-out>
+        </failure>
     </testcase>
-    <testcase classname="Amazon search functionality check" name="Amazon 'All' dropdown search functionality check by selecting each department and validating" time="24.551">
-        <system-out>
-            <![CDATA[Given I am on Amazon homepage...............................................passed
-When I select "Computers" from 'All' dropdown...............................passed
-And I submit search field...................................................passed
-Then I verify that I am in 'Computers' department with "Computers, Tablets and IT Accessories"..passed
+    <testcase classname="Amazon homepage functionality check" name="Check that 'Today's Deal' tab is functional using title" time="0.015">
+        <failure message="The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver" type="java.lang.IllegalStateException">
+            <![CDATA[Given I am on Amazon homepage...............................................failed
+When I click on 'Today's Deal' tab..........................................skipped
+Then I verify 'Today's Deal' with title.....................................skipped
+
+StackTrace:
+java.lang.IllegalStateException: The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:150)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at base.CommonAPI.getLocalDriver(CommonAPI.java:196)
+	at base.CommonAPI.setUp(CommonAPI.java:172)
+	at base.CommonAPI.openBrowser(CommonAPI.java:154)
+	at stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage(SearchStepDefinition.java:32)
+	at ✽.I am on Amazon homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:4)
 ]]>
-        </system-out>
+        </failure>
     </testcase>
-    <testcase classname="Amazon Sign In functionality check" name="Check that user can navigate from homepage to Sign In page using title" time="7.601">
-        <system-out>
-            <![CDATA[Given I am on Amazon homepage...............................................passed
-When I hover over 'Hello, Sign in' button...................................passed
-And I click on 'Sign in' button under Hello, Sign in........................passed
-Then I verify page title as "Amazon Sign-In"................................passed
+    <testcase classname="Amazon homepage functionality check" name="Check that 'Today's Deal' tab is functional using 'Deals and Promotions' text" time="0.024">
+        <failure message="The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver" type="java.lang.IllegalStateException">
+            <![CDATA[Given I am on Amazon homepage...............................................failed
+When I click on 'Today's Deal' tab..........................................skipped
+Then I verify 'Today's Deal' with 'Deals and Promotions' text being displayed.skipped
+
+StackTrace:
+java.lang.IllegalStateException: The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:150)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at base.CommonAPI.getLocalDriver(CommonAPI.java:196)
+	at base.CommonAPI.setUp(CommonAPI.java:172)
+	at base.CommonAPI.openBrowser(CommonAPI.java:154)
+	at stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage(SearchStepDefinition.java:32)
+	at ✽.I am on Amazon homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:4)
 ]]>
-        </system-out>
+        </failure>
     </testcase>
-    <testcase classname="Amazon Sign In functionality check" name="Check that an alert message is displayed when user tries to login with an invalid email" time="10.842">
-        <system-out>
-            <![CDATA[Given I am on Amazon homepage...............................................passed
-When I hover over 'Hello, Sign in' button...................................passed
-And I click on 'Sign in' button under Hello, Sign in........................passed
-And I enter an invalid "invalidEmail@invalidEmail.com" on 'Email (phone for mobile accounts) field.passed
-And I click on 'Continue' button below 'Email (phone for mobile accounts) field.passed
-Then I verify that the "We cannot find an account with that email address" is displayed.passed
+    <testcase classname="Amazon homepage functionality check" name="Check that 'Customer Service' tab is functional using title" time="0.024">
+        <failure message="The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver" type="java.lang.IllegalStateException">
+            <![CDATA[Given I am on Amazon homepage...............................................failed
+When I click on 'Customer Service' tab......................................skipped
+Then I verify 'Customer Service' with with title............................skipped
+And I verify 'Customer Service' with 'Hello. What can we help you with?' text.skipped
+
+StackTrace:
+java.lang.IllegalStateException: The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:150)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at base.CommonAPI.getLocalDriver(CommonAPI.java:196)
+	at base.CommonAPI.setUp(CommonAPI.java:172)
+	at base.CommonAPI.openBrowser(CommonAPI.java:154)
+	at stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage(SearchStepDefinition.java:32)
+	at ✽.I am on Amazon homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:4)
 ]]>
-        </system-out>
+        </failure>
     </testcase>
-    <testcase classname="Amazon Sign In functionality check" name="Check that an alert message is displayed when user tries to login with an invalid phone number" time="10.561">
-        <system-out>
-            <![CDATA[Given I am on Amazon homepage...............................................passed
-When I hover over 'Hello, Sign in' button...................................passed
-And I click on 'Sign in' button under Hello, Sign in........................passed
-And I enter an invalid "8399283899" on 'Email (phone for mobile accounts) field.passed
-And I click on 'Continue' button below 'Email (phone for mobile accounts) field.passed
-Then I verify that the "We cannot find an account with that mobile number" is displayed.passed
+    <testcase classname="Amazon homepage functionality check" name="Check that 'Gift Cards' tab is functional using title and text" time="0.028">
+        <failure message="The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver" type="java.lang.IllegalStateException">
+            <![CDATA[Given I am on Amazon homepage...............................................failed
+When I click on Gift Cards tab..............................................skipped
+Then I verify Gift Cards tab with with title 'Amazon.com Gift Cards'........skipped
+And I verify Gift Cards with 'Hello. What can we help you with?' text.......skipped
+
+StackTrace:
+java.lang.IllegalStateException: The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:150)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at base.CommonAPI.getLocalDriver(CommonAPI.java:196)
+	at base.CommonAPI.setUp(CommonAPI.java:172)
+	at base.CommonAPI.openBrowser(CommonAPI.java:154)
+	at stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage(SearchStepDefinition.java:32)
+	at ✽.I am on Amazon homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:4)
 ]]>
-        </system-out>
+        </failure>
     </testcase>
-    <testcase classname="Amazon Sign In functionality check" name="Check that an alert message is displayed when user tries to login with an invalid password" time="13.884">
-        <system-out>
-            <![CDATA[Given I am on Amazon homepage...............................................passed
-When I hover over 'Hello, Sign in' button...................................passed
-And I click on 'Sign in' button under Hello, Sign in........................passed
-And I enter a valid "ciara105@xhanimatedm.com" on 'Email (phone for mobile accounts) field.passed
-And I click on 'Continue' button below 'Email (phone for mobile accounts) field.passed
-And I enter an invalid "InvalidPass123!" on the 'Password' field............passed
-And I click on 'Sign-in' button after password..............................passed
-Then I verify that the "Your password is incorrect" or "To better protect your account, please re-enter your password and then enter the characters as they are shown in the image below." is displayed.passed
+    <testcase classname="Amazon homepage functionality check" name="Check that 'Registry' tab is functional using title" time="0.024">
+        <failure message="The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver" type="java.lang.IllegalStateException">
+            <![CDATA[Given I am on Amazon homepage...............................................failed
+When I click on Registry tab................................................skipped
+Then I verify Registry tab with with title 'Amazon.com: : Registry'.........skipped
+
+StackTrace:
+java.lang.IllegalStateException: The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:150)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at base.CommonAPI.getLocalDriver(CommonAPI.java:196)
+	at base.CommonAPI.setUp(CommonAPI.java:172)
+	at base.CommonAPI.openBrowser(CommonAPI.java:154)
+	at stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage(SearchStepDefinition.java:32)
+	at ✽.I am on Amazon homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:4)
 ]]>
-        </system-out>
+        </failure>
     </testcase>
-    <testcase classname="Amazon Sign In functionality check" name="Check that an user can successfully log into Amazon" time="17.245">
-        <system-out>
-            <![CDATA[Given I am on Amazon homepage...............................................passed
-When I hover over 'Hello, Sign in' button...................................passed
-And I click on 'Sign in' button under Hello, Sign in........................passed
-And I enter a valid "shakir.jahangir83@gmail.com" on 'Email (phone for mobile accounts) field.passed
-And I click on 'Continue' button below 'Email (phone for mobile accounts) field.passed
-And I enter a valid "BugBusters" on the Password field......................passed
-And I click on 'Sign-in' button after password..............................passed
-Then I verify that "Shakir" is displayed....................................passed
+    <testcase classname="Amazon homepage functionality check" name="Check that 'Sell' tab is functional using title" time="0.019">
+        <failure message="The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver" type="java.lang.IllegalStateException">
+            <![CDATA[Given I am on Amazon homepage...............................................failed
+When I click on Sell tab....................................................skipped
+Then I verify Sell tab with with title 'Amazon.com: Sell Products Online with Selling on Amazon.'.skipped
+And I verify Sell tab with 'Become an Amazon seller' text...................skipped
+
+StackTrace:
+java.lang.IllegalStateException: The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:150)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at base.CommonAPI.getLocalDriver(CommonAPI.java:196)
+	at base.CommonAPI.setUp(CommonAPI.java:172)
+	at base.CommonAPI.openBrowser(CommonAPI.java:154)
+	at stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage(SearchStepDefinition.java:32)
+	at ✽.I am on Amazon homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:4)
 ]]>
-        </system-out>
+        </failure>
     </testcase>
-    <testcase classname="Amazon Sign In functionality check" name="Check that two users can successfully log into Amazon consecutively" time="17.358">
-        <system-out>
-            <![CDATA[Given I am on Amazon homepage...............................................passed
-When I hover over 'Hello, Sign in' button...................................passed
-And I click on 'Sign in' button under Hello, Sign in........................passed
-And I enter a valid "shakir.jahangir83@gmail.com" on 'Email (phone for mobile accounts) field.passed
-And I click on 'Continue' button below 'Email (phone for mobile accounts) field.passed
-And I enter a valid "BugBusters" on the Password field......................passed
-And I click on 'Sign-in' button after password..............................passed
-Then I verify that "Shakir" is displayed....................................passed
+    <testcase classname="Amazon homepage functionality check" name="Check that 'Music' link is functional using URL and title" time="0.012">
+        <failure message="The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver" type="java.lang.IllegalStateException">
+            <![CDATA[Given I am on Amazon homepage...............................................failed
+When I click on Music link..................................................skipped
+Then I verify Music link with with URL 'https://music.amazon.com/home?ref=dm_aff_amz_com'.skipped
+And I verify Music link with title 'Amazon Music Unlimited - Stream 60 million songs online now.'.skipped
+
+StackTrace:
+java.lang.IllegalStateException: The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:150)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at base.CommonAPI.getLocalDriver(CommonAPI.java:196)
+	at base.CommonAPI.setUp(CommonAPI.java:172)
+	at base.CommonAPI.openBrowser(CommonAPI.java:154)
+	at stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage(SearchStepDefinition.java:32)
+	at ✽.I am on Amazon homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:4)
 ]]>
-        </system-out>
+        </failure>
     </testcase>
-    <testcase classname="Amazon Sign In functionality check" name="Check that two users can successfully log into Amazon consecutively 2" time="16.79">
-        <system-out>
-            <![CDATA[Given I am on Amazon homepage...............................................passed
-When I hover over 'Hello, Sign in' button...................................passed
-And I click on 'Sign in' button under Hello, Sign in........................passed
-And I enter a valid "zarria@xhanimatedm.com" on 'Email (phone for mobile accounts) field.passed
-And I click on 'Continue' button below 'Email (phone for mobile accounts) field.passed
-And I enter a valid "BugBusters" on the Password field......................passed
-And I click on 'Sign-in' button after password..............................passed
-Then I verify that "Phong" is displayed.....................................passed
+    <testcase classname="Amazon homepage functionality check" name="Check that 'Advertise Your Product' link is functional using title, URL, and text" time="0.025">
+        <failure message="The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver" type="java.lang.IllegalStateException">
+            <![CDATA[Given I am on Amazon homepage...............................................failed
+When I click on Advertise Your Product link.................................skipped
+Then I verify Advertise Your Product link with title 'Amazon Advertising: Online advertising on Amazon'.skipped
+And I verify Advertise Your Product link with URL 'https://advertising.amazon.com/'.skipped
+And I verify Advertise Your Product link with text 'Amazon Music Unlimited - Stream 60 million songs online now.'.skipped
+
+StackTrace:
+java.lang.IllegalStateException: The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:150)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at base.CommonAPI.getLocalDriver(CommonAPI.java:196)
+	at base.CommonAPI.setUp(CommonAPI.java:172)
+	at base.CommonAPI.openBrowser(CommonAPI.java:154)
+	at stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage(SearchStepDefinition.java:32)
+	at ✽.I am on Amazon homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:4)
 ]]>
-        </system-out>
+        </failure>
     </testcase>
-    <testcase classname="Amazon Sign In functionality check" name="Check that an alert message is displayed when user tries to login without an email or phone number" time="9.725">
-        <system-out>
-            <![CDATA[Given I am on Amazon homepage...............................................passed
-When I hover over 'Hello, Sign in' button...................................passed
-And I click on 'Sign in' button under Hello, Sign in........................passed
-And I click on 'Continue' button below 'Email (phone for mobile accounts) field.passed
-Then I verify that the missing email or phone "Enter your email or mobile phone number" is displayed.passed
+    <testcase classname="Amazon homepage functionality check" name="Check that user can navigate to 'Computers &amp; Tablets' page using 'Shop By Category' burger button" time="0.034">
+        <failure message="The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver" type="java.lang.IllegalStateException">
+            <![CDATA[Given I am on Amazon homepage...............................................failed
+When I click on Shop By Category burger button..............................skipped
+And I click on Computers....................................................skipped
+And I click on Computers & Tablets..........................................skipped
+Then I verify Computers & Tablets page with ASUS on 'Featured Brand' selection.skipped
+
+StackTrace:
+java.lang.IllegalStateException: The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:150)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at base.CommonAPI.getLocalDriver(CommonAPI.java:196)
+	at base.CommonAPI.setUp(CommonAPI.java:172)
+	at base.CommonAPI.openBrowser(CommonAPI.java:154)
+	at stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage(SearchStepDefinition.java:32)
+	at ✽.I am on Amazon homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:4)
 ]]>
-        </system-out>
+        </failure>
     </testcase>
-    <testcase classname="Amazon Sign In functionality check" name="Check that an alert message is displayed when user tries to login without a password" time="12.843">
-        <system-out>
-            <![CDATA[Given I am on Amazon homepage...............................................passed
-When I hover over 'Hello, Sign in' button...................................passed
-And I click on 'Sign in' button under Hello, Sign in........................passed
-And I enter a valid "shakir.jahangir83@gmail.com" on 'Email (phone for mobile accounts) field.passed
-And I click on 'Continue' button below 'Email (phone for mobile accounts) field.passed
-And I click on 'Sign-in' button after password..............................passed
-Then I verify that the missing password "Enter your password" is displayed..passed
+    <testcase classname="Amazon homepage functionality check" name="Check that user can navigate to 'Computers &amp; Tablets' page and select 'HP' from 'Featured Brands' selection." time="0.028">
+        <failure message="The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver" type="java.lang.IllegalStateException">
+            <![CDATA[Given I am on Amazon homepage...............................................failed
+When I click on Shop By Category burger button..............................skipped
+And I click on Computers....................................................skipped
+And I click on Computers & Tablets..........................................skipped
+And I click on HP checkbox from Featured Brands selection...................skipped
+Then I verify that HP checkbox is selected..................................skipped
+
+StackTrace:
+java.lang.IllegalStateException: The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:150)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at base.CommonAPI.getLocalDriver(CommonAPI.java:196)
+	at base.CommonAPI.setUp(CommonAPI.java:172)
+	at base.CommonAPI.openBrowser(CommonAPI.java:154)
+	at stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage(SearchStepDefinition.java:32)
+	at ✽.I am on Amazon homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Home.feature:4)
 ]]>
-        </system-out>
+        </failure>
     </testcase>
-    <testcase classname="Amazon Sign In functionality check" name="Check that user can navigate to 'Forgot your password?' page" time="14.704">
-        <system-out>
-            <![CDATA[Given I am on Amazon homepage...............................................passed
-When I hover over 'Hello, Sign in' button...................................passed
-And I click on 'Sign in' button under Hello, Sign in........................passed
-And I enter a valid "shakir.jahangir83@gmail.com" on 'Email (phone for mobile accounts) field.passed
-And I click on 'Continue' button below 'Email (phone for mobile accounts) field.passed
-And I click on 'Forgot your password?' link.................................passed
-Then I verify "Amazon Password Assistance"..................................passed
+    <testcase classname="Amazon Registration functionality check" name="Check that user can navigate to the Registration page using title" time="0.024">
+        <failure message="The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver" type="java.lang.IllegalStateException">
+            <![CDATA[Given I am on Amazon homepage...............................................failed
+When I hover over 'Hello, Sign in' button...................................skipped
+And I click on 'Start here' link on homepage................................skipped
+Then I verify page "Amazon Registration"....................................skipped
+
+StackTrace:
+java.lang.IllegalStateException: The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:150)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at base.CommonAPI.getLocalDriver(CommonAPI.java:196)
+	at base.CommonAPI.setUp(CommonAPI.java:172)
+	at base.CommonAPI.openBrowser(CommonAPI.java:154)
+	at stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage(SearchStepDefinition.java:32)
+	at ✽.I am on Amazon homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:4)
 ]]>
-        </system-out>
+        </failure>
     </testcase>
-    <testcase classname="Amazon Sign In functionality check" name="Check that alert message is displayed when user can navigate to 'Forgot your password?' page" time="22.134">
-        <system-out>
-            <![CDATA[Given I am on Amazon homepage...............................................passed
-When I hover over 'Hello, Sign in' button...................................passed
-And I click on 'Sign in' button under Hello, Sign in........................passed
-And I enter a valid "shakir.jahangir83@gmail.com" on 'Email (phone for mobile accounts) field.passed
-And I click on 'Continue' button below 'Email (phone for mobile accounts) field.passed
-And I click on 'Forgot your password?' link.................................passed
-And I clear the 'Email or mobile phone number' field........................passed
-And I enter an "bogusemail9183@bogus.com" on Forgot your password? page.....passed
-And I click on 'Continue' button on 'Forgot your password?' page............passed
-Then I verify by "Please solve this puzzle so we know you're a real person" or an "We're sorry. We weren't able to identify you given the information provided.".passed
+    <testcase classname="Amazon Registration functionality check" name="Check that if user does not provide a name when registering, an alert message" time="0.025">
+        <failure message="The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver" type="java.lang.IllegalStateException">
+            <![CDATA[Given I am on Amazon homepage...............................................failed
+When I hover over 'Hello, Sign in' button...................................skipped
+And I click on 'Start here' link on homepage................................skipped
+And I enter a random email address in the 'Email' field.....................skipped
+And I enter a random password in the 'Password' field.......................skipped
+And I Re-enter the password in the `Re-enter password` field................skipped
+And I click on 'Create you Amazon account' button on the Registration page..skipped
+Then I verify 'Enter your name' alert is displayed under `Your name` field..skipped
+
+StackTrace:
+java.lang.IllegalStateException: The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:150)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at base.CommonAPI.getLocalDriver(CommonAPI.java:196)
+	at base.CommonAPI.setUp(CommonAPI.java:172)
+	at base.CommonAPI.openBrowser(CommonAPI.java:154)
+	at stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage(SearchStepDefinition.java:32)
+	at ✽.I am on Amazon homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:4)
 ]]>
-        </system-out>
+        </failure>
+    </testcase>
+    <testcase classname="Amazon Registration functionality check" name="Check that if user does not provide a email when registering, an alert message" time="0.026">
+        <failure message="The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver" type="java.lang.IllegalStateException">
+            <![CDATA[Given I am on Amazon homepage...............................................failed
+When I hover over 'Hello, Sign in' button...................................skipped
+And I click on 'Start here' link on homepage................................skipped
+And I enter a random 'name'.................................................skipped
+And I enter a random password in the 'Password' field.......................skipped
+And I Re-enter the password in the `Re-enter password` field................skipped
+And I click on 'Create you Amazon account' button on the Registration page..skipped
+Then I verify 'Enter your email' alert is displayed under `Email` field.....skipped
+
+StackTrace:
+java.lang.IllegalStateException: The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:150)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at base.CommonAPI.getLocalDriver(CommonAPI.java:196)
+	at base.CommonAPI.setUp(CommonAPI.java:172)
+	at base.CommonAPI.openBrowser(CommonAPI.java:154)
+	at stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage(SearchStepDefinition.java:32)
+	at ✽.I am on Amazon homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:4)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Amazon Registration functionality check" name="Check that if user does not provide a valid email format when registering, an alert message" time="0.014">
+        <failure message="The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver" type="java.lang.IllegalStateException">
+            <![CDATA[Given I am on Amazon homepage...............................................failed
+When I hover over 'Hello, Sign in' button...................................skipped
+And I click on 'Start here' link on homepage................................skipped
+And I enter a random 'name'.................................................skipped
+And I enter an "invalid@email." address in the `Email` field................skipped
+And I enter a random password in the 'Password' field.......................skipped
+And I Re-enter the password in the `Re-enter password` field................skipped
+And I click on 'Create you Amazon account' button on the Registration page..skipped
+Then I verify "Enter a valid email address" is displayed under `Email` field.skipped
+
+StackTrace:
+java.lang.IllegalStateException: The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:150)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at base.CommonAPI.getLocalDriver(CommonAPI.java:196)
+	at base.CommonAPI.setUp(CommonAPI.java:172)
+	at base.CommonAPI.openBrowser(CommonAPI.java:154)
+	at stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage(SearchStepDefinition.java:32)
+	at ✽.I am on Amazon homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:4)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Amazon Registration functionality check" name="Check that if user does not provide a password when registering, an alert message" time="0.029">
+        <failure message="The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver" type="java.lang.IllegalStateException">
+            <![CDATA[Given I am on Amazon homepage...............................................failed
+When I hover over 'Hello, Sign in' button...................................skipped
+And I click on 'Start here' link on homepage................................skipped
+And I enter a random 'name'.................................................skipped
+And I enter a random email address in the 'Email' field.....................skipped
+And I click on 'Create you Amazon account' button on the Registration page..skipped
+Then I verify "Enter your password" is displayed under `Password` field.....skipped
+
+StackTrace:
+java.lang.IllegalStateException: The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:150)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at base.CommonAPI.getLocalDriver(CommonAPI.java:196)
+	at base.CommonAPI.setUp(CommonAPI.java:172)
+	at base.CommonAPI.openBrowser(CommonAPI.java:154)
+	at stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage(SearchStepDefinition.java:32)
+	at ✽.I am on Amazon homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:4)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Amazon Registration functionality check" name="Check that if user does not re-enter a password when registering, an alert message" time="0.022">
+        <failure message="The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver" type="java.lang.IllegalStateException">
+            <![CDATA[Given I am on Amazon homepage...............................................failed
+When I hover over 'Hello, Sign in' button...................................skipped
+And I click on 'Start here' link on homepage................................skipped
+And I enter a random 'name'.................................................skipped
+And I enter a random email address in the 'Email' field.....................skipped
+And I enter a random password in the 'Password' field.......................skipped
+And I click on 'Create you Amazon account' button on the Registration page..skipped
+Then I verify "Type your password again" is displayed under `Re-Enter password` field.skipped
+
+StackTrace:
+java.lang.IllegalStateException: The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:150)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at base.CommonAPI.getLocalDriver(CommonAPI.java:196)
+	at base.CommonAPI.setUp(CommonAPI.java:172)
+	at base.CommonAPI.openBrowser(CommonAPI.java:154)
+	at stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage(SearchStepDefinition.java:32)
+	at ✽.I am on Amazon homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:4)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Amazon Registration functionality check" name="Check that if user does not provide a password that is at least 6 characters long" time="0.017">
+        <failure message="The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver" type="java.lang.IllegalStateException">
+            <![CDATA[Given I am on Amazon homepage...............................................failed
+When I hover over 'Hello, Sign in' button...................................skipped
+And I click on 'Start here' link on homepage................................skipped
+And I enter a random 'name'.................................................skipped
+And I enter a random email address in the 'Email' field.....................skipped
+And I enter a random five character long password in the 'Password' field...skipped
+And I click on 'Create you Amazon account' button on the Registration page..skipped
+Then I verify "Passwords must be at least 6 characters." is displayed under `Password` field for not meeting the password criteria.skipped
+And I verify "Type your password again" is displayed under `Re-Enter password` field.skipped
+
+StackTrace:
+java.lang.IllegalStateException: The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:150)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at base.CommonAPI.getLocalDriver(CommonAPI.java:196)
+	at base.CommonAPI.setUp(CommonAPI.java:172)
+	at base.CommonAPI.openBrowser(CommonAPI.java:154)
+	at stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage(SearchStepDefinition.java:32)
+	at ✽.I am on Amazon homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:4)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Amazon Registration functionality check" name="Check that if user tries to register with an email that already has been used to create an" time="0.024">
+        <failure message="The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver" type="java.lang.IllegalStateException">
+            <![CDATA[Given I am on Amazon homepage...............................................failed
+When I hover over 'Hello, Sign in' button...................................skipped
+And I click on 'Start here' link on homepage................................skipped
+And I enter a random 'name'.................................................skipped
+And I enter an "ciara105@xhanimatedm.com" address that's already in use in the 'Email' field.skipped
+And I enter a random password in the 'Password' field.......................skipped
+And I Re-enter the password in the `Re-enter password` field................skipped
+And I click on 'Create you Amazon account' button on the Registration page..skipped
+Then I verify "Email address already in use" is displayed for proving an email address that's already in use.skipped
+
+StackTrace:
+java.lang.IllegalStateException: The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:150)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at base.CommonAPI.getLocalDriver(CommonAPI.java:196)
+	at base.CommonAPI.setUp(CommonAPI.java:172)
+	at base.CommonAPI.openBrowser(CommonAPI.java:154)
+	at stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage(SearchStepDefinition.java:32)
+	at ✽.I am on Amazon homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Registration.feature:4)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Amazon search functionality check" name="Amazon search field functionality check with one item using title" time="0.03">
+        <failure message="The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver" type="java.lang.IllegalStateException">
+            <![CDATA[Given I am on Amazon homepage...............................................failed
+And I enter "Hand Sanitizer" in search field................................skipped
+When I submit search field..................................................skipped
+Then I verify page title as "Amazon.com : hand sanitizers"..................skipped
+
+StackTrace:
+java.lang.IllegalStateException: The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:150)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at base.CommonAPI.getLocalDriver(CommonAPI.java:196)
+	at base.CommonAPI.setUp(CommonAPI.java:172)
+	at base.CommonAPI.openBrowser(CommonAPI.java:154)
+	at stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage(SearchStepDefinition.java:32)
+	at ✽.I am on Amazon homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:4)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Amazon search functionality check" name="Amazon search field functionality check with two items" time="0.009">
+        <failure message="The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver" type="java.lang.IllegalStateException">
+            <![CDATA[Given I am on Amazon homepage...............................................failed
+When I enter "Matcha Green Tea" and submit in the search field..............skipped
+Then I verify items with "Amazon.com : Matcha Green Tea"....................skipped
+
+StackTrace:
+java.lang.IllegalStateException: The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:150)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at base.CommonAPI.getLocalDriver(CommonAPI.java:196)
+	at base.CommonAPI.setUp(CommonAPI.java:172)
+	at base.CommonAPI.openBrowser(CommonAPI.java:154)
+	at stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage(SearchStepDefinition.java:32)
+	at ✽.I am on Amazon homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:4)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Amazon search functionality check" name="Amazon search field functionality check with two items 2" time="0.007">
+        <failure message="The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver" type="java.lang.IllegalStateException">
+            <![CDATA[Given I am on Amazon homepage...............................................failed
+When I enter "Rage Against The Machine" and submit in the search field......skipped
+Then I verify items with "Amazon.com : Rage Against The Machine"............skipped
+
+StackTrace:
+java.lang.IllegalStateException: The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:150)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at base.CommonAPI.getLocalDriver(CommonAPI.java:196)
+	at base.CommonAPI.setUp(CommonAPI.java:172)
+	at base.CommonAPI.openBrowser(CommonAPI.java:154)
+	at stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage(SearchStepDefinition.java:32)
+	at ✽.I am on Amazon homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:4)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Amazon search functionality check" name="Amazon 'All' dropdown search functionality check with 'Computers' department" time="0.013">
+        <failure message="The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver" type="java.lang.IllegalStateException">
+            <![CDATA[Given I am on Amazon homepage...............................................failed
+When I select "Computers" from 'All' dropdown...............................skipped
+And I submit search field...................................................skipped
+Then I verify that I am in 'Computers' department with "Computers, Tablets and IT Accessories"..skipped
+
+StackTrace:
+java.lang.IllegalStateException: The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:150)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at base.CommonAPI.getLocalDriver(CommonAPI.java:196)
+	at base.CommonAPI.setUp(CommonAPI.java:172)
+	at base.CommonAPI.openBrowser(CommonAPI.java:154)
+	at stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage(SearchStepDefinition.java:32)
+	at ✽.I am on Amazon homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:4)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Amazon search functionality check" name="Amazon 'All' dropdown search functionality check by selecting each department and validating" time="0.02">
+        <failure message="The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver" type="java.lang.IllegalStateException">
+            <![CDATA[Given I am on Amazon homepage...............................................failed
+When I select "Computers" from 'All' dropdown...............................skipped
+And I submit search field...................................................skipped
+Then I verify that I am in 'Computers' department with "Computers, Tablets and IT Accessories"..skipped
+
+StackTrace:
+java.lang.IllegalStateException: The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:150)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at base.CommonAPI.getLocalDriver(CommonAPI.java:196)
+	at base.CommonAPI.setUp(CommonAPI.java:172)
+	at base.CommonAPI.openBrowser(CommonAPI.java:154)
+	at stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage(SearchStepDefinition.java:32)
+	at ✽.I am on Amazon homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/Search.feature:4)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Amazon Sign In functionality check" name="Check that user can navigate from homepage to Sign In page using title" time="0.027">
+        <failure message="The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver" type="java.lang.IllegalStateException">
+            <![CDATA[Given I am on Amazon homepage...............................................failed
+When I hover over 'Hello, Sign in' button...................................skipped
+And I click on 'Sign in' button under Hello, Sign in........................skipped
+Then I verify page title as "Amazon Sign-In"................................skipped
+
+StackTrace:
+java.lang.IllegalStateException: The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:150)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at base.CommonAPI.getLocalDriver(CommonAPI.java:196)
+	at base.CommonAPI.setUp(CommonAPI.java:172)
+	at base.CommonAPI.openBrowser(CommonAPI.java:154)
+	at stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage(SearchStepDefinition.java:32)
+	at ✽.I am on Amazon homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:4)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Amazon Sign In functionality check" name="Check that an alert message is displayed when user tries to login with an invalid email" time="0.021">
+        <failure message="The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver" type="java.lang.IllegalStateException">
+            <![CDATA[Given I am on Amazon homepage...............................................failed
+When I hover over 'Hello, Sign in' button...................................skipped
+And I click on 'Sign in' button under Hello, Sign in........................skipped
+And I enter an invalid "invalidEmail@invalidEmail.com" on 'Email (phone for mobile accounts) field.skipped
+And I click on 'Continue' button below 'Email (phone for mobile accounts) field.skipped
+Then I verify that the "We cannot find an account with that email address" is displayed.skipped
+
+StackTrace:
+java.lang.IllegalStateException: The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:150)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at base.CommonAPI.getLocalDriver(CommonAPI.java:196)
+	at base.CommonAPI.setUp(CommonAPI.java:172)
+	at base.CommonAPI.openBrowser(CommonAPI.java:154)
+	at stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage(SearchStepDefinition.java:32)
+	at ✽.I am on Amazon homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:4)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Amazon Sign In functionality check" name="Check that an alert message is displayed when user tries to login with an invalid phone number" time="0.009">
+        <failure message="The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver" type="java.lang.IllegalStateException">
+            <![CDATA[Given I am on Amazon homepage...............................................failed
+When I hover over 'Hello, Sign in' button...................................skipped
+And I click on 'Sign in' button under Hello, Sign in........................skipped
+And I enter an invalid "8399283899" on 'Email (phone for mobile accounts) field.skipped
+And I click on 'Continue' button below 'Email (phone for mobile accounts) field.skipped
+Then I verify that the "We cannot find an account with that mobile number" is displayed.skipped
+
+StackTrace:
+java.lang.IllegalStateException: The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:150)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at base.CommonAPI.getLocalDriver(CommonAPI.java:196)
+	at base.CommonAPI.setUp(CommonAPI.java:172)
+	at base.CommonAPI.openBrowser(CommonAPI.java:154)
+	at stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage(SearchStepDefinition.java:32)
+	at ✽.I am on Amazon homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:4)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Amazon Sign In functionality check" name="Check that an alert message is displayed when user tries to login with an invalid password" time="0.025">
+        <failure message="The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver" type="java.lang.IllegalStateException">
+            <![CDATA[Given I am on Amazon homepage...............................................failed
+When I hover over 'Hello, Sign in' button...................................skipped
+And I click on 'Sign in' button under Hello, Sign in........................skipped
+And I enter a valid "ciara105@xhanimatedm.com" on 'Email (phone for mobile accounts) field.skipped
+And I click on 'Continue' button below 'Email (phone for mobile accounts) field.skipped
+And I enter an invalid "InvalidPass123!" on the 'Password' field............skipped
+And I click on 'Sign-in' button after password..............................skipped
+Then I verify that the "Your password is incorrect" or "To better protect your account, please re-enter your password and then enter the characters as they are shown in the image below." is displayed.skipped
+
+StackTrace:
+java.lang.IllegalStateException: The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:150)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at base.CommonAPI.getLocalDriver(CommonAPI.java:196)
+	at base.CommonAPI.setUp(CommonAPI.java:172)
+	at base.CommonAPI.openBrowser(CommonAPI.java:154)
+	at stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage(SearchStepDefinition.java:32)
+	at ✽.I am on Amazon homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:4)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Amazon Sign In functionality check" name="Check that an user can successfully log into Amazon" time="0.023">
+        <failure message="The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver" type="java.lang.IllegalStateException">
+            <![CDATA[Given I am on Amazon homepage...............................................failed
+When I hover over 'Hello, Sign in' button...................................skipped
+And I click on 'Sign in' button under Hello, Sign in........................skipped
+And I enter a valid "shakir.jahangir83@gmail.com" on 'Email (phone for mobile accounts) field.skipped
+And I click on 'Continue' button below 'Email (phone for mobile accounts) field.skipped
+And I enter a valid "BugBusters" on the Password field......................skipped
+And I click on 'Sign-in' button after password..............................skipped
+Then I verify that "Shakir" is displayed....................................skipped
+
+StackTrace:
+java.lang.IllegalStateException: The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:150)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at base.CommonAPI.getLocalDriver(CommonAPI.java:196)
+	at base.CommonAPI.setUp(CommonAPI.java:172)
+	at base.CommonAPI.openBrowser(CommonAPI.java:154)
+	at stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage(SearchStepDefinition.java:32)
+	at ✽.I am on Amazon homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:4)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Amazon Sign In functionality check" name="Check that two users can successfully log into Amazon consecutively" time="0.012">
+        <failure message="The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver" type="java.lang.IllegalStateException">
+            <![CDATA[Given I am on Amazon homepage...............................................failed
+When I hover over 'Hello, Sign in' button...................................skipped
+And I click on 'Sign in' button under Hello, Sign in........................skipped
+And I enter a valid "shakir.jahangir83@gmail.com" on 'Email (phone for mobile accounts) field.skipped
+And I click on 'Continue' button below 'Email (phone for mobile accounts) field.skipped
+And I enter a valid "BugBusters" on the Password field......................skipped
+And I click on 'Sign-in' button after password..............................skipped
+Then I verify that "Shakir" is displayed....................................skipped
+
+StackTrace:
+java.lang.IllegalStateException: The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:150)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at base.CommonAPI.getLocalDriver(CommonAPI.java:196)
+	at base.CommonAPI.setUp(CommonAPI.java:172)
+	at base.CommonAPI.openBrowser(CommonAPI.java:154)
+	at stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage(SearchStepDefinition.java:32)
+	at ✽.I am on Amazon homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:4)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Amazon Sign In functionality check" name="Check that two users can successfully log into Amazon consecutively 2" time="0.021">
+        <failure message="The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver" type="java.lang.IllegalStateException">
+            <![CDATA[Given I am on Amazon homepage...............................................failed
+When I hover over 'Hello, Sign in' button...................................skipped
+And I click on 'Sign in' button under Hello, Sign in........................skipped
+And I enter a valid "zarria@xhanimatedm.com" on 'Email (phone for mobile accounts) field.skipped
+And I click on 'Continue' button below 'Email (phone for mobile accounts) field.skipped
+And I enter a valid "BugBusters" on the Password field......................skipped
+And I click on 'Sign-in' button after password..............................skipped
+Then I verify that "Phong" is displayed.....................................skipped
+
+StackTrace:
+java.lang.IllegalStateException: The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:150)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at base.CommonAPI.getLocalDriver(CommonAPI.java:196)
+	at base.CommonAPI.setUp(CommonAPI.java:172)
+	at base.CommonAPI.openBrowser(CommonAPI.java:154)
+	at stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage(SearchStepDefinition.java:32)
+	at ✽.I am on Amazon homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:4)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Amazon Sign In functionality check" name="Check that an alert message is displayed when user tries to login without an email or phone number" time="0.012">
+        <failure message="The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver" type="java.lang.IllegalStateException">
+            <![CDATA[Given I am on Amazon homepage...............................................failed
+When I hover over 'Hello, Sign in' button...................................skipped
+And I click on 'Sign in' button under Hello, Sign in........................skipped
+And I click on 'Continue' button below 'Email (phone for mobile accounts) field.skipped
+Then I verify that the missing email or phone "Enter your email or mobile phone number" is displayed.skipped
+
+StackTrace:
+java.lang.IllegalStateException: The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:150)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at base.CommonAPI.getLocalDriver(CommonAPI.java:196)
+	at base.CommonAPI.setUp(CommonAPI.java:172)
+	at base.CommonAPI.openBrowser(CommonAPI.java:154)
+	at stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage(SearchStepDefinition.java:32)
+	at ✽.I am on Amazon homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:4)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Amazon Sign In functionality check" name="Check that an alert message is displayed when user tries to login without a password" time="0.026">
+        <failure message="The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver" type="java.lang.IllegalStateException">
+            <![CDATA[Given I am on Amazon homepage...............................................failed
+When I hover over 'Hello, Sign in' button...................................skipped
+And I click on 'Sign in' button under Hello, Sign in........................skipped
+And I enter a valid "shakir.jahangir83@gmail.com" on 'Email (phone for mobile accounts) field.skipped
+And I click on 'Continue' button below 'Email (phone for mobile accounts) field.skipped
+And I click on 'Sign-in' button after password..............................skipped
+Then I verify that the missing password "Enter your password" is displayed..skipped
+
+StackTrace:
+java.lang.IllegalStateException: The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:150)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at base.CommonAPI.getLocalDriver(CommonAPI.java:196)
+	at base.CommonAPI.setUp(CommonAPI.java:172)
+	at base.CommonAPI.openBrowser(CommonAPI.java:154)
+	at stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage(SearchStepDefinition.java:32)
+	at ✽.I am on Amazon homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:4)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Amazon Sign In functionality check" name="Check that user can navigate to 'Forgot your password?' page" time="0.02">
+        <failure message="The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver" type="java.lang.IllegalStateException">
+            <![CDATA[Given I am on Amazon homepage...............................................failed
+When I hover over 'Hello, Sign in' button...................................skipped
+And I click on 'Sign in' button under Hello, Sign in........................skipped
+And I enter a valid "shakir.jahangir83@gmail.com" on 'Email (phone for mobile accounts) field.skipped
+And I click on 'Continue' button below 'Email (phone for mobile accounts) field.skipped
+And I click on 'Forgot your password?' link.................................skipped
+Then I verify "Amazon Password Assistance"..................................skipped
+
+StackTrace:
+java.lang.IllegalStateException: The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:150)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at base.CommonAPI.getLocalDriver(CommonAPI.java:196)
+	at base.CommonAPI.setUp(CommonAPI.java:172)
+	at base.CommonAPI.openBrowser(CommonAPI.java:154)
+	at stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage(SearchStepDefinition.java:32)
+	at ✽.I am on Amazon homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:4)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Amazon Sign In functionality check" name="Check that alert message is displayed when user can navigate to 'Forgot your password?' page" time="0.026">
+        <failure message="The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver" type="java.lang.IllegalStateException">
+            <![CDATA[Given I am on Amazon homepage...............................................failed
+When I hover over 'Hello, Sign in' button...................................skipped
+And I click on 'Sign in' button under Hello, Sign in........................skipped
+And I enter a valid "shakir.jahangir83@gmail.com" on 'Email (phone for mobile accounts) field.skipped
+And I click on 'Continue' button below 'Email (phone for mobile accounts) field.skipped
+And I click on 'Forgot your password?' link.................................skipped
+And I clear the 'Email or mobile phone number' field........................skipped
+And I enter an "bogusemail9183@bogus.com" on Forgot your password? page.....skipped
+And I click on 'Continue' button on 'Forgot your password?' page............skipped
+Then I verify by "Please solve this puzzle so we know you're a real person" or an "We're sorry. We weren't able to identify you given the information provided.".skipped
+
+StackTrace:
+java.lang.IllegalStateException: The driver is not executable: /Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/../Generic/BrowserDriver/mac/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:150)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at base.CommonAPI.getLocalDriver(CommonAPI.java:196)
+	at base.CommonAPI.setUp(CommonAPI.java:172)
+	at base.CommonAPI.openBrowser(CommonAPI.java:154)
+	at stepDefinitions.SearchStepDefinition.i_am_on_amazon_homepage(SearchStepDefinition.java:32)
+	at ✽.I am on Amazon homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/SignIn.feature:4)
+]]>
+        </failure>
     </testcase>
 </testsuite>
