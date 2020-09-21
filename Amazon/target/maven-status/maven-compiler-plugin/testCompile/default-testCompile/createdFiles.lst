@@ -1,0 +1,6 @@
+stepDefinitions/HomeStepDefinition.class
+stepDefinitions/SearchStepDefinition.class
+stepDefinitions/CartStepDefinition.class
+stepDefinitions/SignInStepDefinition.class
+testRunner/TestRunner.class
+stepDefinitions/RegistrationDefinition.class

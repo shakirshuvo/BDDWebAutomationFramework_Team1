@@ -14,9 +14,8 @@ import org.junit.runner.RunWith;
         monochrome = true,
         publish = true,
         dryRun = false,
-        tags = "(@SmokeTest or Regression) and (not @pending)"
+        tags = "(@SmokeTest or @Regression or @Windows or @Mac) and (not @pending)"
 
 )
-
 public class TestRunner {
 }
