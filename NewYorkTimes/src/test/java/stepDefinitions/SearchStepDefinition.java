@@ -25,7 +25,8 @@ public class SearchStepDefinition extends CommonAPI {
 
     @Given("I am in new York Times homepage")
     public void i_am_in_new_york_times_homepage() throws IOException {
-        openBrowser();
+        openBrowser("https://www.nytimes.com/");
+        driver.manage().window().maximize();
     }
 
     @And("I click on searchButton")

@@ -15,6 +15,10 @@ Feature: New york Times world page functionality
   New York times page children's book functionality
   New york times page nowReadThis functionality
   New york times page style functionality
+  New york times page fashion functionality
+  New york times page love functionality
+  New york times page self care functionality
+  New york times food page functionality
 
 
   Background:
@@ -128,6 +132,25 @@ Feature: New york Times world page functionality
     When I click on style button
     And  I click on fashion button
     Then I validate fashion page as "Fashion - The New York Times"
+
+  @SmokeTest
+  Scenario: New york times love page functionality
+    When I click on love button
+    Then I verify love page as "Love - The New York Times"
+
+  @SmokeTest
+  Scenario: new york times self care page functionality
+    When I click on self care button
+    Then I validate self care as "Self-Care - The New York Times"
+
+  @SmokeTest
+  Scenario: new york times wineBeerCocktails page functionality
+    When I click on food button
+    And  I click on wineBeerCocktails button
+    Then I verify wineBeerCocktail as "Wine, Beer & Cocktails - The New York Times"
+
+
+
 
 
 
