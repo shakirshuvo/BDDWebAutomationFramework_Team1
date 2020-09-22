@@ -1,6 +1,0 @@
-
-@SmokeTest
-Scenario: check language selector on homepage  # src/test/java/features/HomePage.feature:7
-  Given I am on Marriott Homepage              # stepDefinitions.HomeStepDefinition.i_am_on_marriott_homepage()
-  When I click on language selector            # stepDefinitions.HomeStepDefinition.i_click_on_language_selector()
-  Then I should be to verify language selector # stepDefinitions.HomeStepDefinition.i_should_be_to_verify_language_selector()
