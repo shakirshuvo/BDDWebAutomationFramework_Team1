@@ -1,0 +1,117 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10580437600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 43880400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "I am on Marriott Homepage",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.i_am_on_marriott_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-21T05:42:06.847Z",
+        "line": 7,
+        "name": "check language selector on homepage",
+        "description": "",
+        "id": "marriott-homepage;check-language-selector-on-homepage",
+        "after": [
+          {
+            "result": {
+              "duration": 785050500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 943133500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 997300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "I click on language selector",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.i_click_on_language_selector()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1378012400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "I should be to verify language selector",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.i_should_be_to_verify_language_selector()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Marriott HomePage",
+    "description": "",
+    "id": "marriott-homepage",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/HomePage.feature",
+    "tags": []
+  }
+]
