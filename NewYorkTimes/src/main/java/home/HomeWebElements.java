@@ -1,5 +1,7 @@
 package home;
 
+import com.mysql.cj.util.DnsSrv;
+
 public class HomeWebElements {
 
 public static final String worldButtonXP="//*[@id=\"app\"]/div[2]/div[2]/header/div[4]/ul/li[1]/a";
@@ -74,6 +76,15 @@ public static final String styleButtonXP="//*[@id=\"app\"]/div[2]/div[2]/header/
 public static final String fashionButtonCSS="#collection-style > header > nav > ol > li:nth-child(1) > a";
 public static final String fashionButtonValidationClass="css-ju59rg e1bbdwbz0";
 
+public static final String loveButtonCSS="#collection-style > header > nav > ol > li:nth-child(2) > a";
+public static final String loveButtonValidationClass="css-ju59rg e1bbdwbz0";
+
+public static final String selfCareButtonCSS="#collection-style > header > nav > ol > li:nth-child(3) > a";
+public static final String selfCareValidationClass="css-ju59rg e1bbdwbz0";
+
+public static final String foodButtonXP="//*[@id=\"app\"]/div[2]/div[2]/header/div[4]/ul/li[14]/a";
+public static final String wineBeerCocktailCSS="#collection-food > header > nav > ol > li:nth-child(1) > a";
+public static final String wineBeerCocktailValidationClass="css-1qq4zod e1bbdwbz0";
 
 
 

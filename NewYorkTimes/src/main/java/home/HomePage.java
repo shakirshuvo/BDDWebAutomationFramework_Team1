@@ -138,7 +138,22 @@ public class HomePage extends CommonAPI {
     @FindBy(how = How.CLASS_NAME,using = fashionButtonValidationClass)
     public WebElement fashionButtonValidation;
 
+    @FindBy(how = How.CSS,using = loveButtonCSS)
+    public WebElement loveButton;
+    @FindBy(how = How.CLASS_NAME,using = loveButtonValidationClass)
+    public WebElement loveButtonValidation;
 
+    @FindBy(how = How.CSS,using = selfCareButtonCSS)
+    public WebElement selfCareButton;
+    @FindBy(how = How.CLASS_NAME,using = selfCareValidationClass)
+    public WebElement selfCareValidation;
+
+    @FindBy(how = How.XPATH,using = foodButtonXP)
+    public WebElement foodButton;
+    @FindBy(how = How.CSS,using = wineBeerCocktailCSS)
+    public WebElement wineBeerCocktail;
+    @FindBy(how = How.CLASS_NAME,using = wineBeerCocktailValidationClass)
+    public WebElement wineBeerCocktailValidation;
 
 
     public void validateWorldButton(){
@@ -246,6 +261,24 @@ public class HomePage extends CommonAPI {
         String actualResult=fashionButtonValidation.getText();
         Assert.assertEquals(actualResult,expectedResult,"**********test failed**********");
     }
+    public void setLoveButtonValidation(String expectedResult){
+        driver.manage().window().maximize();
+        String actualResult=loveButtonValidation.getText();
+        Assert.assertEquals(actualResult,expectedResult,"********test failed********");
+    }
+    public void setSelfCareValidation(String expectedResult){
+        driver.manage().window().maximize();
+        String actualResult=selfCareValidation.getText();
+        Assert.assertEquals(actualResult,expectedResult,"*********result failed*********");
+    }
+    public void setWineBeerCocktailValidation(String expectedResult){
+        driver.manage().window().maximize();
+        String actualResult=wineBeerCocktailValidation.getText();
+        Assert.assertEquals(actualResult,expectedResult,"*******test failed**********");
+
+    }
+
+
 
 
 }
