@@ -477,7 +477,7 @@ public class CommonAPI {
         return st;
     }
 
-    public String getTextByXpath(String locator) {
+    public static String getTextByXpath(String locator) {
         String st = driver.findElement(By.xpath(locator)).getText();
         return st;
     }
