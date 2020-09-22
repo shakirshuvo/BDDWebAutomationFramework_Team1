@@ -11,13 +11,14 @@
         "steps": [
           {
             "result": {
-              "duration": 2623994000,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.InvalidArgumentException: invalid argument\n  (Session info: chrome\u003d85.0.4183.121)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Syeds-MBP.ed.shawcable.net\u0027, ip: \u00272604:3d09:6e80:4500:0:0:0:6034%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.6\u0027, java.version: \u002711.0.7\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:52024}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 7954a255e8b347f8077072dfece57f47\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\n\tat base.CommonAPI.setUp(CommonAPI.java:176)\n\tat base.CommonAPI.openBrowser(CommonAPI.java:154)\n\tat stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage(HomeStepDefinition.java:31)\n\tat ✽.I am in newYorkTimes homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:21)\n",
+              "duration": 2759399000,
+              "status": "failed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 19707000,
+                  "duration": 91738000,
                   "status": "passed"
                 },
                 "match": {
@@ -26,7 +27,7 @@
               },
               {
                 "result": {
-                  "duration": 922000,
+                  "duration": 1342000,
                   "status": "passed"
                 },
                 "match": {
@@ -44,7 +45,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:49:10.863Z",
+        "start_timestamp": "2020-09-21T20:27:25.937Z",
         "line": 24,
         "name": "New york times world page functionality checked with valid data",
         "description": "",
@@ -52,7 +53,7 @@
         "after": [
           {
             "result": {
-              "duration": 108939000,
+              "duration": 80183000,
               "status": "passed"
             },
             "match": {
@@ -61,7 +62,7 @@
           },
           {
             "result": {
-              "duration": 160000,
+              "duration": 165000,
               "status": "passed"
             },
             "match": {
@@ -74,14 +75,14 @@
         "steps": [
           {
             "result": {
-              "duration": 2254761000,
-              "status": "passed"
+              "duration": 102000,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 2716000,
-                  "status": "passed"
+                  "duration": 472000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.HomeStepDefinition.getInit()"
@@ -89,8 +90,8 @@
               },
               {
                 "result": {
-                  "duration": 355000,
-                  "status": "passed"
+                  "duration": 114000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
@@ -106,14 +107,14 @@
           },
           {
             "result": {
-              "duration": 136580000,
-              "status": "passed"
+              "duration": 402000,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1234000,
-                  "status": "passed"
+                  "duration": 93000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.HomeStepDefinition.getInit()"
@@ -121,8 +122,8 @@
               },
               {
                 "result": {
-                  "duration": 653000,
-                  "status": "passed"
+                  "duration": 684000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
@@ -158,13 +159,14 @@
         "steps": [
           {
             "result": {
-              "duration": 2995631000,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.InvalidArgumentException: invalid argument\n  (Session info: chrome\u003d85.0.4183.121)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Syeds-MBP.ed.shawcable.net\u0027, ip: \u00272604:3d09:6e80:4500:0:0:0:6034%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.6\u0027, java.version: \u002711.0.7\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:52035}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 7d35e53b3536aeefd3c1eff83a56a969\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\n\tat base.CommonAPI.setUp(CommonAPI.java:176)\n\tat base.CommonAPI.openBrowser(CommonAPI.java:154)\n\tat stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage(HomeStepDefinition.java:31)\n\tat ✽.I am in newYorkTimes homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:21)\n",
+              "duration": 1412716000,
+              "status": "failed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1655000,
+                  "duration": 2269000,
                   "status": "passed"
                 },
                 "match": {
@@ -173,7 +175,7 @@
               },
               {
                 "result": {
-                  "duration": 317000,
+                  "duration": 373000,
                   "status": "passed"
                 },
                 "match": {
@@ -191,7 +193,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:49:16.088Z",
+        "start_timestamp": "2020-09-21T20:27:29.145Z",
         "line": 29,
         "name": "New York times US page functionality checked with valid data",
         "description": "",
@@ -199,7 +201,7 @@
         "after": [
           {
             "result": {
-              "duration": 152608000,
+              "duration": 129469000,
               "status": "passed"
             },
             "match": {
@@ -208,7 +210,7 @@
           },
           {
             "result": {
-              "duration": 168000,
+              "duration": 136000,
               "status": "passed"
             },
             "match": {
@@ -221,14 +223,14 @@
         "steps": [
           {
             "result": {
-              "duration": 694917000,
-              "status": "passed"
+              "duration": 156000,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1119000,
-                  "status": "passed"
+                  "duration": 181000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.HomeStepDefinition.getInit()"
@@ -236,8 +238,8 @@
               },
               {
                 "result": {
-                  "duration": 243000,
-                  "status": "passed"
+                  "duration": 186000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
@@ -253,14 +255,14 @@
           },
           {
             "result": {
-              "duration": 443285000,
-              "status": "passed"
+              "duration": 129000,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1112000,
-                  "status": "passed"
+                  "duration": 139000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.HomeStepDefinition.getInit()"
@@ -268,8 +270,8 @@
               },
               {
                 "result": {
-                  "duration": 222000,
-                  "status": "passed"
+                  "duration": 130000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
@@ -305,13 +307,14 @@
         "steps": [
           {
             "result": {
-              "duration": 2504377000,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.InvalidArgumentException: invalid argument\n  (Session info: chrome\u003d85.0.4183.121)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Syeds-MBP.ed.shawcable.net\u0027, ip: \u00272604:3d09:6e80:4500:0:0:0:6034%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.6\u0027, java.version: \u002711.0.7\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:52045}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 96ad5ab51fb231ef65d68724fc139bb4\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\n\tat base.CommonAPI.setUp(CommonAPI.java:176)\n\tat base.CommonAPI.openBrowser(CommonAPI.java:154)\n\tat stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage(HomeStepDefinition.java:31)\n\tat ✽.I am in newYorkTimes homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:21)\n",
+              "duration": 1321350000,
+              "status": "failed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 963000,
+                  "duration": 2090000,
                   "status": "passed"
                 },
                 "match": {
@@ -320,7 +323,7 @@
               },
               {
                 "result": {
-                  "duration": 177000,
+                  "duration": 2377000,
                   "status": "passed"
                 },
                 "match": {
@@ -338,7 +341,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:49:20.396Z",
+        "start_timestamp": "2020-09-21T20:27:30.759Z",
         "line": 34,
         "name": "New York Times politics page functionality with valid data",
         "description": "",
@@ -346,7 +349,7 @@
         "after": [
           {
             "result": {
-              "duration": 112085000,
+              "duration": 86349000,
               "status": "passed"
             },
             "match": {
@@ -355,7 +358,7 @@
           },
           {
             "result": {
-              "duration": 97000,
+              "duration": 268000,
               "status": "passed"
             },
             "match": {
@@ -368,14 +371,14 @@
         "steps": [
           {
             "result": {
-              "duration": 1440186000,
-              "status": "passed"
+              "duration": 75000,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 835000,
-                  "status": "passed"
+                  "duration": 92000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.HomeStepDefinition.getInit()"
@@ -383,8 +386,8 @@
               },
               {
                 "result": {
-                  "duration": 324000,
-                  "status": "passed"
+                  "duration": 60000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
@@ -400,14 +403,14 @@
           },
           {
             "result": {
-              "duration": 798848000,
-              "status": "passed"
+              "duration": 157000,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 878000,
-                  "status": "passed"
+                  "duration": 58000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.HomeStepDefinition.getInit()"
@@ -415,8 +418,8 @@
               },
               {
                 "result": {
-                  "duration": 353000,
-                  "status": "passed"
+                  "duration": 1326000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
@@ -452,13 +455,14 @@
         "steps": [
           {
             "result": {
-              "duration": 3625127000,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.InvalidArgumentException: invalid argument\n  (Session info: chrome\u003d85.0.4183.121)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Syeds-MBP.ed.shawcable.net\u0027, ip: \u00272604:3d09:6e80:4500:0:0:0:6034%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.6\u0027, java.version: \u002711.0.7\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:52055}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: e0552c7482b55394904644bcca78b24f\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\n\tat base.CommonAPI.setUp(CommonAPI.java:176)\n\tat base.CommonAPI.openBrowser(CommonAPI.java:154)\n\tat stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage(HomeStepDefinition.java:31)\n\tat ✽.I am in newYorkTimes homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:21)\n",
+              "duration": 1296406000,
+              "status": "failed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 803000,
+                  "duration": 6897000,
                   "status": "passed"
                 },
                 "match": {
@@ -467,7 +471,7 @@
               },
               {
                 "result": {
-                  "duration": 154000,
+                  "duration": 871000,
                   "status": "passed"
                 },
                 "match": {
@@ -485,7 +489,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:49:25.271Z",
+        "start_timestamp": "2020-09-21T20:27:32.214Z",
         "line": 39,
         "name": "New York Times NY page functionality with valid data",
         "description": "",
@@ -493,7 +497,7 @@
         "after": [
           {
             "result": {
-              "duration": 113376000,
+              "duration": 82950000,
               "status": "passed"
             },
             "match": {
@@ -502,7 +506,7 @@
           },
           {
             "result": {
-              "duration": 141000,
+              "duration": 1030000,
               "status": "passed"
             },
             "match": {
@@ -515,14 +519,14 @@
         "steps": [
           {
             "result": {
-              "duration": 277984000,
-              "status": "passed"
+              "duration": 400000,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 405000,
-                  "status": "passed"
+                  "duration": 78000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.HomeStepDefinition.getInit()"
@@ -530,8 +534,8 @@
               },
               {
                 "result": {
-                  "duration": 113000,
-                  "status": "passed"
+                  "duration": 104000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
@@ -547,14 +551,14 @@
           },
           {
             "result": {
-              "duration": 461687000,
-              "status": "passed"
+              "duration": 195000,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 481000,
-                  "status": "passed"
+                  "duration": 549000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.HomeStepDefinition.getInit()"
@@ -562,8 +566,8 @@
               },
               {
                 "result": {
-                  "duration": 149000,
-                  "status": "passed"
+                  "duration": 415000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
@@ -599,13 +603,14 @@
         "steps": [
           {
             "result": {
-              "duration": 4210953000,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.InvalidArgumentException: invalid argument\n  (Session info: chrome\u003d85.0.4183.121)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Syeds-MBP.ed.shawcable.net\u0027, ip: \u00272604:3d09:6e80:4500:0:0:0:6034%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.6\u0027, java.version: \u002711.0.7\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:52066}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: db3c9f40d01284e1f97c06b04011a9b7\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\n\tat base.CommonAPI.setUp(CommonAPI.java:176)\n\tat base.CommonAPI.openBrowser(CommonAPI.java:154)\n\tat stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage(HomeStepDefinition.java:31)\n\tat ✽.I am in newYorkTimes homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:21)\n",
+              "duration": 1867642000,
+              "status": "failed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 493000,
+                  "duration": 2973000,
                   "status": "passed"
                 },
                 "match": {
@@ -614,7 +619,7 @@
               },
               {
                 "result": {
-                  "duration": 244000,
+                  "duration": 555000,
                   "status": "passed"
                 },
                 "match": {
@@ -632,7 +637,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:49:29.764Z",
+        "start_timestamp": "2020-09-21T20:27:33.664Z",
         "line": 44,
         "name": "New York times business page functionality with valid data",
         "description": "",
@@ -640,7 +645,7 @@
         "after": [
           {
             "result": {
-              "duration": 112499000,
+              "duration": 85306000,
               "status": "passed"
             },
             "match": {
@@ -649,7 +654,7 @@
           },
           {
             "result": {
-              "duration": 91000,
+              "duration": 99000,
               "status": "passed"
             },
             "match": {
@@ -662,14 +667,14 @@
         "steps": [
           {
             "result": {
-              "duration": 58638000,
-              "status": "passed"
+              "duration": 103000,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 420000,
-                  "status": "passed"
+                  "duration": 212000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.HomeStepDefinition.getInit()"
@@ -677,8 +682,8 @@
               },
               {
                 "result": {
-                  "duration": 114000,
-                  "status": "passed"
+                  "duration": 100000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
@@ -694,14 +699,14 @@
           },
           {
             "result": {
-              "duration": 1220543000,
-              "status": "passed"
+              "duration": 310000,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 649000,
-                  "status": "passed"
+                  "duration": 72000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.HomeStepDefinition.getInit()"
@@ -709,8 +714,8 @@
               },
               {
                 "result": {
-                  "duration": 246000,
-                  "status": "passed"
+                  "duration": 86000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
@@ -746,13 +751,14 @@
         "steps": [
           {
             "result": {
-              "duration": 2227510000,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.InvalidArgumentException: invalid argument\n  (Session info: chrome\u003d85.0.4183.121)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Syeds-MBP.ed.shawcable.net\u0027, ip: \u00272604:3d09:6e80:4500:0:0:0:6034%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.6\u0027, java.version: \u002711.0.7\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:52078}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 944dfc723b20ab09d04fd8efef41fc71\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\n\tat base.CommonAPI.setUp(CommonAPI.java:176)\n\tat base.CommonAPI.openBrowser(CommonAPI.java:154)\n\tat stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage(HomeStepDefinition.java:31)\n\tat ✽.I am in newYorkTimes homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:21)\n",
+              "duration": 1211178000,
+              "status": "failed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 752000,
+                  "duration": 3931000,
                   "status": "passed"
                 },
                 "match": {
@@ -761,7 +767,7 @@
               },
               {
                 "result": {
-                  "duration": 589000,
+                  "duration": 1835000,
                   "status": "passed"
                 },
                 "match": {
@@ -779,7 +785,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:49:35.381Z",
+        "start_timestamp": "2020-09-21T20:27:35.668Z",
         "line": 49,
         "name": "",
         "description": "",
@@ -787,7 +793,7 @@
         "after": [
           {
             "result": {
-              "duration": 99378000,
+              "duration": 78099000,
               "status": "passed"
             },
             "match": {
@@ -796,7 +802,7 @@
           },
           {
             "result": {
-              "duration": 83000,
+              "duration": 104000,
               "status": "passed"
             },
             "match": {
@@ -809,14 +815,14 @@
         "steps": [
           {
             "result": {
-              "duration": 1485577000,
-              "status": "passed"
+              "duration": 37000,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 448000,
-                  "status": "passed"
+                  "duration": 49000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.HomeStepDefinition.getInit()"
@@ -824,8 +830,8 @@
               },
               {
                 "result": {
-                  "duration": 129000,
-                  "status": "passed"
+                  "duration": 28000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
@@ -841,14 +847,14 @@
           },
           {
             "result": {
-              "duration": 753131000,
-              "status": "passed"
+              "duration": 70000,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 496000,
-                  "status": "passed"
+                  "duration": 28000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.HomeStepDefinition.getInit()"
@@ -856,8 +862,8 @@
               },
               {
                 "result": {
-                  "duration": 152000,
-                  "status": "passed"
+                  "duration": 27000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
@@ -893,13 +899,14 @@
         "steps": [
           {
             "result": {
-              "duration": 3105770000,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.InvalidArgumentException: invalid argument\n  (Session info: chrome\u003d85.0.4183.121)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Syeds-MBP.ed.shawcable.net\u0027, ip: \u00272604:3d09:6e80:4500:0:0:0:6034%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.6\u0027, java.version: \u002711.0.7\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:52089}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 62ce74dd46247c98e14eac94b3fe8e4a\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\n\tat base.CommonAPI.setUp(CommonAPI.java:176)\n\tat base.CommonAPI.openBrowser(CommonAPI.java:154)\n\tat stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage(HomeStepDefinition.java:31)\n\tat ✽.I am in newYorkTimes homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:21)\n",
+              "duration": 1224563000,
+              "status": "failed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 427000,
+                  "duration": 2225000,
                   "status": "passed"
                 },
                 "match": {
@@ -908,7 +915,7 @@
               },
               {
                 "result": {
-                  "duration": 161000,
+                  "duration": 312000,
                   "status": "passed"
                 },
                 "match": {
@@ -926,7 +933,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:49:39.960Z",
+        "start_timestamp": "2020-09-21T20:27:36.991Z",
         "line": 54,
         "name": "New York times technology page functionality with valid data",
         "description": "",
@@ -934,7 +941,7 @@
         "after": [
           {
             "result": {
-              "duration": 111851000,
+              "duration": 83318000,
               "status": "passed"
             },
             "match": {
@@ -943,7 +950,7 @@
           },
           {
             "result": {
-              "duration": 74000,
+              "duration": 276000,
               "status": "passed"
             },
             "match": {
@@ -956,14 +963,14 @@
         "steps": [
           {
             "result": {
-              "duration": 1133349000,
-              "status": "passed"
+              "duration": 81000,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 399000,
-                  "status": "passed"
+                  "duration": 120000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.HomeStepDefinition.getInit()"
@@ -971,8 +978,8 @@
               },
               {
                 "result": {
-                  "duration": 98000,
-                  "status": "passed"
+                  "duration": 93000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
@@ -988,14 +995,14 @@
           },
           {
             "result": {
-              "duration": 631164000,
-              "status": "passed"
+              "duration": 91000,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 728000,
-                  "status": "passed"
+                  "duration": 58000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.HomeStepDefinition.getInit()"
@@ -1003,8 +1010,8 @@
               },
               {
                 "result": {
-                  "duration": 131000,
-                  "status": "passed"
+                  "duration": 57000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
@@ -1040,13 +1047,14 @@
         "steps": [
           {
             "result": {
-              "duration": 3067795000,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.InvalidArgumentException: invalid argument\n  (Session info: chrome\u003d85.0.4183.121)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Syeds-MBP.ed.shawcable.net\u0027, ip: \u00272604:3d09:6e80:4500:0:0:0:6034%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.6\u0027, java.version: \u002711.0.7\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:52101}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 804b2f2c7f4e61938df3b907e95c67f8\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\n\tat base.CommonAPI.setUp(CommonAPI.java:176)\n\tat base.CommonAPI.openBrowser(CommonAPI.java:154)\n\tat stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage(HomeStepDefinition.java:31)\n\tat ✽.I am in newYorkTimes homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:21)\n",
+              "duration": 2047199000,
+              "status": "failed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 389000,
+                  "duration": 1074000,
                   "status": "passed"
                 },
                 "match": {
@@ -1055,7 +1063,7 @@
               },
               {
                 "result": {
-                  "duration": 107000,
+                  "duration": 179000,
                   "status": "passed"
                 },
                 "match": {
@@ -1073,7 +1081,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:49:44.953Z",
+        "start_timestamp": "2020-09-21T20:27:38.338Z",
         "line": 59,
         "name": "New York times science page functionality with data",
         "description": "",
@@ -1081,7 +1089,7 @@
         "after": [
           {
             "result": {
-              "duration": 107337000,
+              "duration": 91519000,
               "status": "passed"
             },
             "match": {
@@ -1090,7 +1098,7 @@
           },
           {
             "result": {
-              "duration": 84000,
+              "duration": 245000,
               "status": "passed"
             },
             "match": {
@@ -1103,14 +1111,14 @@
         "steps": [
           {
             "result": {
-              "duration": 912832000,
-              "status": "passed"
+              "duration": 38000,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 629000,
-                  "status": "passed"
+                  "duration": 52000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.HomeStepDefinition.getInit()"
@@ -1118,8 +1126,8 @@
               },
               {
                 "result": {
-                  "duration": 223000,
-                  "status": "passed"
+                  "duration": 31000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
@@ -1135,14 +1143,14 @@
           },
           {
             "result": {
-              "duration": 186892000,
-              "status": "passed"
+              "duration": 35000,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 635000,
-                  "status": "passed"
+                  "duration": 31000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.HomeStepDefinition.getInit()"
@@ -1150,8 +1158,8 @@
               },
               {
                 "result": {
-                  "duration": 210000,
-                  "status": "passed"
+                  "duration": 28000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
@@ -1167,15 +1175,14 @@
           },
           {
             "result": {
-              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Science] - The New York Time...\u003e but was:\u003c[Climate and Environment] - The New York Time...\u003e\n\tat org.junit.Assert.assertEquals(Assert.java:117)\n\tat org.junit.Assert.assertEquals(Assert.java:146)\n\tat base.CommonAPI.validateByTitle(CommonAPI.java:568)\n\tat stepDefinitions.HomeStepDefinition.i_verify_science_page_title_as(HomeStepDefinition.java:99)\n\tat ✽.I verify science page title as \"Climate and Environment - The New York Times\"(file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:62)\n",
-              "duration": 5316000,
-              "status": "failed"
+              "duration": 75000,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 399000,
-                  "status": "passed"
+                  "duration": 30000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.HomeStepDefinition.getInit()"
@@ -1183,8 +1190,8 @@
               },
               {
                 "result": {
-                  "duration": 92000,
-                  "status": "passed"
+                  "duration": 39000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
@@ -1206,13 +1213,13 @@
           },
           {
             "result": {
-              "duration": 36000,
+              "duration": 57000,
               "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 57000,
+                  "duration": 54000,
                   "status": "skipped"
                 },
                 "match": {
@@ -1221,7 +1228,7 @@
               },
               {
                 "result": {
-                  "duration": 28000,
+                  "duration": 50000,
                   "status": "skipped"
                 },
                 "match": {
@@ -1238,13 +1245,13 @@
           },
           {
             "result": {
-              "duration": 33000,
+              "duration": 41000,
               "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 29000,
+                  "duration": 39000,
                   "status": "skipped"
                 },
                 "match": {
@@ -1253,7 +1260,7 @@
               },
               {
                 "result": {
-                  "duration": 30000,
+                  "duration": 56000,
                   "status": "skipped"
                 },
                 "match": {
@@ -1284,13 +1291,14 @@
         "steps": [
           {
             "result": {
-              "duration": 3951286000,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.InvalidArgumentException: invalid argument\n  (Session info: chrome\u003d85.0.4183.121)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Syeds-MBP.ed.shawcable.net\u0027, ip: \u00272604:3d09:6e80:4500:0:0:0:6034%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.6\u0027, java.version: \u002711.0.7\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:52111}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 3603a583fb650a1638dd0093ada587f8\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\n\tat base.CommonAPI.setUp(CommonAPI.java:176)\n\tat base.CommonAPI.openBrowser(CommonAPI.java:154)\n\tat stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage(HomeStepDefinition.java:31)\n\tat ✽.I am in newYorkTimes homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:21)\n",
+              "duration": 1551351000,
+              "status": "failed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 468000,
+                  "duration": 4592000,
                   "status": "passed"
                 },
                 "match": {
@@ -1299,7 +1307,7 @@
               },
               {
                 "result": {
-                  "duration": 109000,
+                  "duration": 1494000,
                   "status": "passed"
                 },
                 "match": {
@@ -1317,7 +1325,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:49:49.256Z",
+        "start_timestamp": "2020-09-21T20:27:40.507Z",
         "line": 67,
         "name": "New York times health page functionality with data",
         "description": "",
@@ -1325,7 +1333,7 @@
         "after": [
           {
             "result": {
-              "duration": 191597000,
+              "duration": 86590000,
               "status": "passed"
             },
             "match": {
@@ -1334,7 +1342,7 @@
           },
           {
             "result": {
-              "duration": 80000,
+              "duration": 414000,
               "status": "passed"
             },
             "match": {
@@ -1347,14 +1355,14 @@
         "steps": [
           {
             "result": {
-              "duration": 3561628000,
-              "status": "passed"
+              "duration": 278000,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 786000,
-                  "status": "passed"
+                  "duration": 165000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.HomeStepDefinition.getInit()"
@@ -1362,8 +1370,8 @@
               },
               {
                 "result": {
-                  "duration": 196000,
-                  "status": "passed"
+                  "duration": 63000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
@@ -1379,14 +1387,14 @@
           },
           {
             "result": {
-              "duration": 5938486000,
-              "status": "passed"
+              "duration": 57000,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 437000,
-                  "status": "passed"
+                  "duration": 174000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.HomeStepDefinition.getInit()"
@@ -1394,8 +1402,8 @@
               },
               {
                 "result": {
-                  "duration": 231000,
-                  "status": "passed"
+                  "duration": 47000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
@@ -1411,14 +1419,14 @@
           },
           {
             "result": {
-              "duration": 5526082000,
-              "status": "passed"
+              "duration": 54000,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 460000,
-                  "status": "passed"
+                  "duration": 50000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.HomeStepDefinition.getInit()"
@@ -1426,8 +1434,8 @@
               },
               {
                 "result": {
-                  "duration": 169000,
-                  "status": "passed"
+                  "duration": 51000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
@@ -1443,14 +1451,14 @@
           },
           {
             "result": {
-              "duration": 3807033000,
-              "status": "passed"
+              "duration": 60000,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 470000,
-                  "status": "passed"
+                  "duration": 48000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.HomeStepDefinition.getInit()"
@@ -1458,8 +1466,8 @@
               },
               {
                 "result": {
-                  "duration": 154000,
-                  "status": "passed"
+                  "duration": 42000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
@@ -1475,14 +1483,14 @@
           },
           {
             "result": {
-              "duration": 862200000,
-              "status": "passed"
+              "duration": 91000,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 359000,
-                  "status": "passed"
+                  "duration": 67000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.HomeStepDefinition.getInit()"
@@ -1490,8 +1498,8 @@
               },
               {
                 "result": {
-                  "duration": 89000,
-                  "status": "passed"
+                  "duration": 39000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
@@ -1527,13 +1535,14 @@
         "steps": [
           {
             "result": {
-              "duration": 2298460000,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.InvalidArgumentException: invalid argument\n  (Session info: chrome\u003d85.0.4183.121)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Syeds-MBP.ed.shawcable.net\u0027, ip: \u00272604:3d09:6e80:4500:0:0:0:6034%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.6\u0027, java.version: \u002711.0.7\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:52122}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 9f2ebaf9059d47a6066d59c330f41daf\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\n\tat base.CommonAPI.setUp(CommonAPI.java:176)\n\tat base.CommonAPI.openBrowser(CommonAPI.java:154)\n\tat stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage(HomeStepDefinition.java:31)\n\tat ✽.I am in newYorkTimes homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:21)\n",
+              "duration": 1202972000,
+              "status": "failed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 413000,
+                  "duration": 5063000,
                   "status": "passed"
                 },
                 "match": {
@@ -1542,7 +1551,7 @@
               },
               {
                 "result": {
-                  "duration": 109000,
+                  "duration": 1649000,
                   "status": "passed"
                 },
                 "match": {
@@ -1560,7 +1569,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:50:13.110Z",
+        "start_timestamp": "2020-09-21T20:27:42.206Z",
         "line": 75,
         "name": "New york times sport page functionality with data",
         "description": "",
@@ -1568,7 +1577,7 @@
         "after": [
           {
             "result": {
-              "duration": 255814000,
+              "duration": 90206000,
               "status": "passed"
             },
             "match": {
@@ -1577,7 +1586,7 @@
           },
           {
             "result": {
-              "duration": 65000,
+              "duration": 163000,
               "status": "passed"
             },
             "match": {
@@ -1590,14 +1599,14 @@
         "steps": [
           {
             "result": {
-              "duration": 4728654000,
-              "status": "passed"
+              "duration": 38000,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 416000,
-                  "status": "passed"
+                  "duration": 57000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.HomeStepDefinition.getInit()"
@@ -1605,8 +1614,8 @@
               },
               {
                 "result": {
-                  "duration": 100000,
-                  "status": "passed"
+                  "duration": 30000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
@@ -1622,14 +1631,14 @@
           },
           {
             "result": {
-              "duration": 4479028000,
-              "status": "passed"
+              "duration": 30000,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 703000,
-                  "status": "passed"
+                  "duration": 27000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.HomeStepDefinition.getInit()"
@@ -1637,8 +1646,8 @@
               },
               {
                 "result": {
-                  "duration": 141000,
-                  "status": "passed"
+                  "duration": 24000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
@@ -1654,14 +1663,14 @@
           },
           {
             "result": {
-              "duration": 4331665000,
-              "status": "passed"
+              "duration": 91000,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 478000,
-                  "status": "passed"
+                  "duration": 36000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.HomeStepDefinition.getInit()"
@@ -1669,8 +1678,8 @@
               },
               {
                 "result": {
-                  "duration": 155000,
-                  "status": "passed"
+                  "duration": 79000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
@@ -1686,14 +1695,14 @@
           },
           {
             "result": {
-              "duration": 4775187000,
-              "status": "passed"
+              "duration": 60000,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 434000,
-                  "status": "passed"
+                  "duration": 45000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.HomeStepDefinition.getInit()"
@@ -1701,8 +1710,8 @@
               },
               {
                 "result": {
-                  "duration": 103000,
-                  "status": "passed"
+                  "duration": 25000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
@@ -1718,14 +1727,14 @@
           },
           {
             "result": {
-              "duration": 4885889000,
-              "status": "passed"
+              "duration": 30000,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 453000,
-                  "status": "passed"
+                  "duration": 27000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.HomeStepDefinition.getInit()"
@@ -1733,8 +1742,8 @@
               },
               {
                 "result": {
-                  "duration": 120000,
-                  "status": "passed"
+                  "duration": 26000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
@@ -1750,14 +1759,14 @@
           },
           {
             "result": {
-              "duration": 4300960000,
-              "status": "passed"
+              "duration": 51000,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 681000,
-                  "status": "passed"
+                  "duration": 44000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.HomeStepDefinition.getInit()"
@@ -1765,8 +1774,8 @@
               },
               {
                 "result": {
-                  "duration": 167000,
-                  "status": "passed"
+                  "duration": 25000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
@@ -1782,14 +1791,14 @@
           },
           {
             "result": {
-              "duration": 192112000,
-              "status": "passed"
+              "duration": 29000,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 353000,
-                  "status": "passed"
+                  "duration": 25000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.HomeStepDefinition.getInit()"
@@ -1797,8 +1806,8 @@
               },
               {
                 "result": {
-                  "duration": 87000,
-                  "status": "passed"
+                  "duration": 24000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
@@ -1834,13 +1843,14 @@
         "steps": [
           {
             "result": {
-              "duration": 2657620000,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.InvalidArgumentException: invalid argument\n  (Session info: chrome\u003d85.0.4183.121)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Syeds-MBP.ed.shawcable.net\u0027, ip: \u00272604:3d09:6e80:4500:0:0:0:6034%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.6\u0027, java.version: \u002711.0.7\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:52133}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 3204b29a5867d004a294ba9a8195f3ee\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\n\tat base.CommonAPI.setUp(CommonAPI.java:176)\n\tat base.CommonAPI.openBrowser(CommonAPI.java:154)\n\tat stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage(HomeStepDefinition.java:31)\n\tat ✽.I am in newYorkTimes homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:21)\n",
+              "duration": 1254972000,
+              "status": "failed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 383000,
+                  "duration": 1256000,
                   "status": "passed"
                 },
                 "match": {
@@ -1849,7 +1859,7 @@
               },
               {
                 "result": {
-                  "duration": 99000,
+                  "duration": 248000,
                   "status": "passed"
                 },
                 "match": {
@@ -1867,7 +1877,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:50:43.375Z",
+        "start_timestamp": "2020-09-21T20:27:43.534Z",
         "line": 85,
         "name": "New york times Arts functionality with data",
         "description": "",
@@ -1875,7 +1885,7 @@
         "after": [
           {
             "result": {
-              "duration": 174718000,
+              "duration": 88651000,
               "status": "passed"
             },
             "match": {
@@ -1884,7 +1894,7 @@
           },
           {
             "result": {
-              "duration": 80000,
+              "duration": 82000,
               "status": "passed"
             },
             "match": {
@@ -1897,14 +1907,14 @@
         "steps": [
           {
             "result": {
-              "duration": 5012779000,
-              "status": "passed"
+              "duration": 60000,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 497000,
-                  "status": "passed"
+                  "duration": 149000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.HomeStepDefinition.getInit()"
@@ -1912,8 +1922,8 @@
               },
               {
                 "result": {
-                  "duration": 150000,
-                  "status": "passed"
+                  "duration": 54000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
@@ -1929,14 +1939,14 @@
           },
           {
             "result": {
-              "duration": 3671988000,
-              "status": "passed"
+              "duration": 96000,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 463000,
-                  "status": "passed"
+                  "duration": 39000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.HomeStepDefinition.getInit()"
@@ -1944,8 +1954,8 @@
               },
               {
                 "result": {
-                  "duration": 132000,
-                  "status": "passed"
+                  "duration": 35000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
@@ -1961,14 +1971,14 @@
           },
           {
             "result": {
-              "duration": 5277849000,
-              "status": "passed"
+              "duration": 115000,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 550000,
-                  "status": "passed"
+                  "duration": 142000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.HomeStepDefinition.getInit()"
@@ -1976,8 +1986,8 @@
               },
               {
                 "result": {
-                  "duration": 171000,
-                  "status": "passed"
+                  "duration": 175000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
@@ -1993,14 +2003,14 @@
           },
           {
             "result": {
-              "duration": 5622259000,
-              "status": "passed"
+              "duration": 409000,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 369000,
-                  "status": "passed"
+                  "duration": 137000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.HomeStepDefinition.getInit()"
@@ -2008,8 +2018,8 @@
               },
               {
                 "result": {
-                  "duration": 91000,
-                  "status": "passed"
+                  "duration": 113000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
@@ -2025,14 +2035,14 @@
           },
           {
             "result": {
-              "duration": 88271000,
-              "status": "passed"
+              "duration": 59000,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 438000,
-                  "status": "passed"
+                  "duration": 45000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.HomeStepDefinition.getInit()"
@@ -2040,8 +2050,8 @@
               },
               {
                 "result": {
-                  "duration": 111000,
-                  "status": "passed"
+                  "duration": 25000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
@@ -2077,13 +2087,14 @@
         "steps": [
           {
             "result": {
-              "duration": 2139517000,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.InvalidArgumentException: invalid argument\n  (Session info: chrome\u003d85.0.4183.121)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Syeds-MBP.ed.shawcable.net\u0027, ip: \u00272604:3d09:6e80:4500:0:0:0:6034%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.6\u0027, java.version: \u002711.0.7\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:52144}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 70ff0c048b8900505a768346b4efbed5\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\n\tat base.CommonAPI.setUp(CommonAPI.java:176)\n\tat base.CommonAPI.openBrowser(CommonAPI.java:154)\n\tat stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage(HomeStepDefinition.java:31)\n\tat ✽.I am in newYorkTimes homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:21)\n",
+              "duration": 1200361000,
+              "status": "failed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 411000,
+                  "duration": 1043000,
                   "status": "passed"
                 },
                 "match": {
@@ -2092,7 +2103,7 @@
               },
               {
                 "result": {
-                  "duration": 105000,
+                  "duration": 173000,
                   "status": "passed"
                 },
                 "match": {
@@ -2110,7 +2121,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:51:05.894Z",
+        "start_timestamp": "2020-09-21T20:27:44.904Z",
         "line": 93,
         "name": "New york times Books functionality with data",
         "description": "",
@@ -2118,7 +2129,7 @@
         "after": [
           {
             "result": {
-              "duration": 155196000,
+              "duration": 97637000,
               "status": "passed"
             },
             "match": {
@@ -2127,7 +2138,7 @@
           },
           {
             "result": {
-              "duration": 111000,
+              "duration": 101000,
               "status": "passed"
             },
             "match": {
@@ -2140,14 +2151,14 @@
         "steps": [
           {
             "result": {
-              "duration": 4863812000,
-              "status": "passed"
+              "duration": 53000,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 362000,
-                  "status": "passed"
+                  "duration": 62000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.HomeStepDefinition.getInit()"
@@ -2155,8 +2166,8 @@
               },
               {
                 "result": {
-                  "duration": 89000,
-                  "status": "passed"
+                  "duration": 42000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
@@ -2172,14 +2183,14 @@
           },
           {
             "result": {
-              "duration": 3427722000,
-              "status": "passed"
+              "duration": 68000,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 449000,
-                  "status": "passed"
+                  "duration": 51000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.HomeStepDefinition.getInit()"
@@ -2187,8 +2198,8 @@
               },
               {
                 "result": {
-                  "duration": 97000,
-                  "status": "passed"
+                  "duration": 75000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
@@ -2204,14 +2215,14 @@
           },
           {
             "result": {
-              "duration": 3402480000,
-              "status": "passed"
+              "duration": 40000,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 558000,
-                  "status": "passed"
+                  "duration": 37000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.HomeStepDefinition.getInit()"
@@ -2219,8 +2230,8 @@
               },
               {
                 "result": {
-                  "duration": 132000,
-                  "status": "passed"
+                  "duration": 36000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
@@ -2236,14 +2247,14 @@
           },
           {
             "result": {
-              "duration": 12641000,
-              "status": "passed"
+              "duration": 67000,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 571000,
-                  "status": "passed"
+                  "duration": 33000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.HomeStepDefinition.getInit()"
@@ -2251,8 +2262,8 @@
               },
               {
                 "result": {
-                  "duration": 148000,
-                  "status": "passed"
+                  "duration": 31000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
@@ -2288,13 +2299,14 @@
         "steps": [
           {
             "result": {
-              "duration": 2060379000,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.InvalidArgumentException: invalid argument\n  (Session info: chrome\u003d85.0.4183.121)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Syeds-MBP.ed.shawcable.net\u0027, ip: \u00272604:3d09:6e80:4500:0:0:0:6034%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.6\u0027, java.version: \u002711.0.7\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:52154}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: a2a642b2a91cccbaf954ca0c6d06fccd\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\n\tat base.CommonAPI.setUp(CommonAPI.java:176)\n\tat base.CommonAPI.openBrowser(CommonAPI.java:154)\n\tat stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage(HomeStepDefinition.java:31)\n\tat ✽.I am in newYorkTimes homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:21)\n",
+              "duration": 1434811000,
+              "status": "failed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 371000,
+                  "duration": 985000,
                   "status": "passed"
                 },
                 "match": {
@@ -2303,7 +2315,7 @@
               },
               {
                 "result": {
-                  "duration": 107000,
+                  "duration": 176000,
                   "status": "passed"
                 },
                 "match": {
@@ -2321,7 +2333,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:51:19.908Z",
+        "start_timestamp": "2020-09-21T20:27:46.230Z",
         "line": 100,
         "name": "New York times byTheBook functionality with data",
         "description": "",
@@ -2329,7 +2341,7 @@
         "after": [
           {
             "result": {
-              "duration": 152164000,
+              "duration": 80988000,
               "status": "passed"
             },
             "match": {
@@ -2338,7 +2350,7 @@
           },
           {
             "result": {
-              "duration": 60000,
+              "duration": 228000,
               "status": "passed"
             },
             "match": {
@@ -2351,14 +2363,14 @@
         "steps": [
           {
             "result": {
-              "duration": 4805722000,
-              "status": "passed"
+              "duration": 138000,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 394000,
-                  "status": "passed"
+                  "duration": 174000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.HomeStepDefinition.getInit()"
@@ -2366,8 +2378,8 @@
               },
               {
                 "result": {
-                  "duration": 102000,
-                  "status": "passed"
+                  "duration": 90000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
@@ -2383,14 +2395,14 @@
           },
           {
             "result": {
-              "duration": 3423202000,
-              "status": "passed"
+              "duration": 56000,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 719000,
-                  "status": "passed"
+                  "duration": 89000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.HomeStepDefinition.getInit()"
@@ -2398,8 +2410,8 @@
               },
               {
                 "result": {
-                  "duration": 170000,
-                  "status": "passed"
+                  "duration": 45000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
@@ -2415,14 +2427,14 @@
           },
           {
             "result": {
-              "duration": 3026676000,
-              "status": "passed"
+              "duration": 538000,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 448000,
-                  "status": "passed"
+                  "duration": 43000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.HomeStepDefinition.getInit()"
@@ -2430,8 +2442,8 @@
               },
               {
                 "result": {
-                  "duration": 107000,
-                  "status": "passed"
+                  "duration": 38000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
@@ -2467,13 +2479,14 @@
         "steps": [
           {
             "result": {
-              "duration": 3739678000,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.InvalidArgumentException: invalid argument\n  (Session info: chrome\u003d85.0.4183.121)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Syeds-MBP.ed.shawcable.net\u0027, ip: \u00272604:3d09:6e80:4500:0:0:0:6034%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.6\u0027, java.version: \u002711.0.7\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:52175}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 31e2b2a3f7061364ae5211da70336e3b\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\n\tat base.CommonAPI.setUp(CommonAPI.java:176)\n\tat base.CommonAPI.openBrowser(CommonAPI.java:154)\n\tat stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage(HomeStepDefinition.java:31)\n\tat ✽.I am in newYorkTimes homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:21)\n",
+              "duration": 1792867000,
+              "status": "failed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 362000,
+                  "duration": 1125000,
                   "status": "passed"
                 },
                 "match": {
@@ -2482,7 +2495,7 @@
               },
               {
                 "result": {
-                  "duration": 98000,
+                  "duration": 426000,
                   "status": "passed"
                 },
                 "match": {
@@ -2500,7 +2513,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:51:33.390Z",
+        "start_timestamp": "2020-09-21T20:27:47.796Z",
         "line": 106,
         "name": "New York Times crime page functionality",
         "description": "",
@@ -2508,7 +2521,7 @@
         "after": [
           {
             "result": {
-              "duration": 147155000,
+              "duration": 95329000,
               "status": "passed"
             },
             "match": {
@@ -2517,7 +2530,7 @@
           },
           {
             "result": {
-              "duration": 59000,
+              "duration": 162000,
               "status": "passed"
             },
             "match": {
@@ -2530,14 +2543,14 @@
         "steps": [
           {
             "result": {
-              "duration": 3076677000,
-              "status": "passed"
+              "duration": 60000,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 371000,
-                  "status": "passed"
+                  "duration": 83000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.HomeStepDefinition.getInit()"
@@ -2545,8 +2558,8 @@
               },
               {
                 "result": {
-                  "duration": 95000,
-                  "status": "passed"
+                  "duration": 40000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
@@ -2562,14 +2575,14 @@
           },
           {
             "result": {
-              "duration": 3090740000,
-              "status": "passed"
+              "duration": 47000,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 455000,
-                  "status": "passed"
+                  "duration": 70000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.HomeStepDefinition.getInit()"
@@ -2577,8 +2590,8 @@
               },
               {
                 "result": {
-                  "duration": 111000,
-                  "status": "passed"
+                  "duration": 39000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
@@ -2594,14 +2607,14 @@
           },
           {
             "result": {
-              "duration": 28240000,
-              "status": "passed"
+              "duration": 44000,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 400000,
-                  "status": "passed"
+                  "duration": 40000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.HomeStepDefinition.getInit()"
@@ -2609,8 +2622,8 @@
               },
               {
                 "result": {
-                  "duration": 108000,
-                  "status": "passed"
+                  "duration": 39000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
@@ -2646,13 +2659,14 @@
         "steps": [
           {
             "result": {
-              "duration": 2333042000,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.InvalidArgumentException: invalid argument\n  (Session info: chrome\u003d85.0.4183.121)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Syeds-MBP.ed.shawcable.net\u0027, ip: \u00272604:3d09:6e80:4500:0:0:0:6034%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.6\u0027, java.version: \u002711.0.7\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:52189}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 1a3ebcb1d7604b7c0d8201fe5a274c7e\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\n\tat base.CommonAPI.setUp(CommonAPI.java:176)\n\tat base.CommonAPI.openBrowser(CommonAPI.java:154)\n\tat stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage(HomeStepDefinition.java:31)\n\tat ✽.I am in newYorkTimes homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:21)\n",
+              "duration": 1253244000,
+              "status": "failed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 337000,
+                  "duration": 1927000,
                   "status": "passed"
                 },
                 "match": {
@@ -2661,7 +2675,7 @@
               },
               {
                 "result": {
-                  "duration": 93000,
+                  "duration": 602000,
                   "status": "passed"
                 },
                 "match": {
@@ -2679,7 +2693,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:51:43.483Z",
+        "start_timestamp": "2020-09-21T20:27:49.716Z",
         "line": 112,
         "name": "New York times children\u0027s book page functionality",
         "description": "",
@@ -2687,7 +2701,7 @@
         "after": [
           {
             "result": {
-              "duration": 165693000,
+              "duration": 98192000,
               "status": "passed"
             },
             "match": {
@@ -2696,7 +2710,7 @@
           },
           {
             "result": {
-              "duration": 98000,
+              "duration": 197000,
               "status": "passed"
             },
             "match": {
@@ -2709,14 +2723,14 @@
         "steps": [
           {
             "result": {
-              "duration": 9211136000,
-              "status": "passed"
+              "duration": 170000,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 341000,
-                  "status": "passed"
+                  "duration": 220000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.HomeStepDefinition.getInit()"
@@ -2724,8 +2738,8 @@
               },
               {
                 "result": {
-                  "duration": 89000,
-                  "status": "passed"
+                  "duration": 238000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
@@ -2741,14 +2755,14 @@
           },
           {
             "result": {
-              "duration": 50333000,
-              "status": "passed"
+              "duration": 86000,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 601000,
-                  "status": "passed"
+                  "duration": 160000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.HomeStepDefinition.getInit()"
@@ -2756,8 +2770,8 @@
               },
               {
                 "result": {
-                  "duration": 139000,
-                  "status": "passed"
+                  "duration": 80000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
@@ -2793,13 +2807,14 @@
         "steps": [
           {
             "result": {
-              "duration": 3630921000,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.InvalidArgumentException: invalid argument\n  (Session info: chrome\u003d85.0.4183.121)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Syeds-MBP.ed.shawcable.net\u0027, ip: \u00272604:3d09:6e80:4500:0:0:0:6034%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.6\u0027, java.version: \u002711.0.7\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:52200}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 6999b6804bd0256d8b6465a0007a6d3c\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\n\tat base.CommonAPI.setUp(CommonAPI.java:176)\n\tat base.CommonAPI.openBrowser(CommonAPI.java:154)\n\tat stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage(HomeStepDefinition.java:31)\n\tat ✽.I am in newYorkTimes homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:21)\n",
+              "duration": 1469081000,
+              "status": "failed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 548000,
+                  "duration": 4287000,
                   "status": "passed"
                 },
                 "match": {
@@ -2808,7 +2823,7 @@
               },
               {
                 "result": {
-                  "duration": 248000,
+                  "duration": 1777000,
                   "status": "passed"
                 },
                 "match": {
@@ -2826,7 +2841,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:51:55.252Z",
+        "start_timestamp": "2020-09-21T20:27:51.123Z",
         "line": 117,
         "name": "New york times book review podcast page functionality",
         "description": "",
@@ -2834,7 +2849,7 @@
         "after": [
           {
             "result": {
-              "duration": 130324000,
+              "duration": 87196000,
               "status": "passed"
             },
             "match": {
@@ -2843,7 +2858,7 @@
           },
           {
             "result": {
-              "duration": 442000,
+              "duration": 354000,
               "status": "passed"
             },
             "match": {
@@ -2856,14 +2871,14 @@
         "steps": [
           {
             "result": {
-              "duration": 3914071000,
-              "status": "passed"
+              "duration": 98000,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 445000,
-                  "status": "passed"
+                  "duration": 219000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.HomeStepDefinition.getInit()"
@@ -2871,8 +2886,8 @@
               },
               {
                 "result": {
-                  "duration": 109000,
-                  "status": "passed"
+                  "duration": 114000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
@@ -2888,14 +2903,14 @@
           },
           {
             "result": {
-              "duration": 592374000,
-              "status": "passed"
+              "duration": 120000,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 371000,
-                  "status": "passed"
+                  "duration": 114000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.HomeStepDefinition.getInit()"
@@ -2903,8 +2918,8 @@
               },
               {
                 "result": {
-                  "duration": 85000,
-                  "status": "passed"
+                  "duration": 91000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
@@ -2940,13 +2955,14 @@
         "steps": [
           {
             "result": {
-              "duration": 3388579000,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.InvalidArgumentException: invalid argument\n  (Session info: chrome\u003d85.0.4183.121)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Syeds-MBP.ed.shawcable.net\u0027, ip: \u00272604:3d09:6e80:4500:0:0:0:6034%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.6\u0027, java.version: \u002711.0.7\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:52211}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: d6d0efedd142fce2ca8600a76c07a577\n\tat jdk.internal.reflect.GeneratedConstructorAccessor22.newInstance(Unknown Source)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\n\tat base.CommonAPI.setUp(CommonAPI.java:176)\n\tat base.CommonAPI.openBrowser(CommonAPI.java:154)\n\tat stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage(HomeStepDefinition.java:31)\n\tat ✽.I am in newYorkTimes homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:21)\n",
+              "duration": 1203333000,
+              "status": "failed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 350000,
+                  "duration": 1307000,
                   "status": "passed"
                 },
                 "match": {
@@ -2955,7 +2971,7 @@
               },
               {
                 "result": {
-                  "duration": 113000,
+                  "duration": 222000,
                   "status": "passed"
                 },
                 "match": {
@@ -2973,7 +2989,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:52:03.529Z",
+        "start_timestamp": "2020-09-21T20:27:52.709Z",
         "line": 122,
         "name": "New york times nowReadThis page functionality",
         "description": "",
@@ -2981,7 +2997,7 @@
         "after": [
           {
             "result": {
-              "duration": 156733000,
+              "duration": 90499000,
               "status": "passed"
             },
             "match": {
@@ -2990,7 +3006,7 @@
           },
           {
             "result": {
-              "duration": 70000,
+              "duration": 100000,
               "status": "passed"
             },
             "match": {
@@ -3003,14 +3019,14 @@
         "steps": [
           {
             "result": {
-              "duration": 7177196000,
-              "status": "passed"
+              "duration": 90000,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 442000,
-                  "status": "passed"
+                  "duration": 163000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.HomeStepDefinition.getInit()"
@@ -3018,8 +3034,8 @@
               },
               {
                 "result": {
-                  "duration": 97000,
-                  "status": "passed"
+                  "duration": 76000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
@@ -3035,14 +3051,14 @@
           },
           {
             "result": {
-              "duration": 15068000,
-              "status": "passed"
+              "duration": 72000,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 432000,
-                  "status": "passed"
+                  "duration": 69000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.HomeStepDefinition.getInit()"
@@ -3050,8 +3066,8 @@
               },
               {
                 "result": {
-                  "duration": 132000,
-                  "status": "passed"
+                  "duration": 60000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
@@ -3087,13 +3103,14 @@
         "steps": [
           {
             "result": {
-              "duration": 3597708000,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.InvalidArgumentException: invalid argument\n  (Session info: chrome\u003d85.0.4183.121)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Syeds-MBP.ed.shawcable.net\u0027, ip: \u00272604:3d09:6e80:4500:0:0:0:6034%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.6\u0027, java.version: \u002711.0.7\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:52222}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: df9ba010b3565043ce48dffff517f541\n\tat jdk.internal.reflect.GeneratedConstructorAccessor22.newInstance(Unknown Source)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\n\tat base.CommonAPI.setUp(CommonAPI.java:176)\n\tat base.CommonAPI.openBrowser(CommonAPI.java:154)\n\tat stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage(HomeStepDefinition.java:31)\n\tat ✽.I am in newYorkTimes homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:21)\n",
+              "duration": 1199159000,
+              "status": "failed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 372000,
+                  "duration": 982000,
                   "status": "passed"
                 },
                 "match": {
@@ -3102,7 +3119,7 @@
               },
               {
                 "result": {
-                  "duration": 102000,
+                  "duration": 268000,
                   "status": "passed"
                 },
                 "match": {
@@ -3120,7 +3137,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:52:14.276Z",
+        "start_timestamp": "2020-09-21T20:27:54.030Z",
         "line": 127,
         "name": "new york times style page Functionality",
         "description": "",
@@ -3128,7 +3145,7 @@
         "after": [
           {
             "result": {
-              "duration": 155860000,
+              "duration": 83233000,
               "status": "passed"
             },
             "match": {
@@ -3137,7 +3154,7 @@
           },
           {
             "result": {
-              "duration": 56000,
+              "duration": 63000,
               "status": "passed"
             },
             "match": {
@@ -3150,14 +3167,14 @@
         "steps": [
           {
             "result": {
-              "duration": 4266609000,
-              "status": "passed"
+              "duration": 200000,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 399000,
-                  "status": "passed"
+                  "duration": 501000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.HomeStepDefinition.getInit()"
@@ -3165,8 +3182,8 @@
               },
               {
                 "result": {
-                  "duration": 87000,
-                  "status": "passed"
+                  "duration": 282000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
@@ -3182,14 +3199,14 @@
           },
           {
             "result": {
-              "duration": 3550045000,
-              "status": "passed"
+              "duration": 311000,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 337000,
-                  "status": "passed"
+                  "duration": 548000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.HomeStepDefinition.getInit()"
@@ -3197,8 +3214,8 @@
               },
               {
                 "result": {
-                  "duration": 77000,
-                  "status": "passed"
+                  "duration": 265000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
@@ -3214,14 +3231,14 @@
           },
           {
             "result": {
-              "duration": 20629000,
-              "status": "passed"
+              "duration": 56000,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 431000,
-                  "status": "passed"
+                  "duration": 151000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.HomeStepDefinition.getInit()"
@@ -3229,8 +3246,8 @@
               },
               {
                 "result": {
-                  "duration": 115000,
-                  "status": "passed"
+                  "duration": 36000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
@@ -3269,7 +3286,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-09-20T21:52:25.891Z",
+        "start_timestamp": "2020-09-21T20:27:55.351Z",
         "line": 5,
         "name": "",
         "description": "",
@@ -3277,7 +3294,7 @@
         "after": [
           {
             "result": {
-              "duration": 166356000,
+              "duration": 79672000,
               "status": "passed"
             },
             "match": {
@@ -3286,7 +3303,7 @@
           },
           {
             "result": {
-              "duration": 110000,
+              "duration": 167000,
               "status": "passed"
             },
             "match": {
@@ -3299,13 +3316,14 @@
         "steps": [
           {
             "result": {
-              "duration": 2147742000,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.InvalidArgumentException: invalid argument\n  (Session info: chrome\u003d85.0.4183.121)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Syeds-MBP.ed.shawcable.net\u0027, ip: \u00272604:3d09:6e80:4500:0:0:0:6034%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.6\u0027, java.version: \u002711.0.7\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:52235}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 5604d269a5b3c9a18d90cd23fb600f63\n\tat jdk.internal.reflect.GeneratedConstructorAccessor22.newInstance(Unknown Source)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\n\tat base.CommonAPI.setUp(CommonAPI.java:176)\n\tat base.CommonAPI.openBrowser(CommonAPI.java:154)\n\tat stepDefinitions.SearchStepDefinition.i_am_in_new_york_times_homepage(SearchStepDefinition.java:28)\n\tat ✽.I am in new York Times homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/SearchPage.feature:6)\n",
+              "duration": 1280905000,
+              "status": "failed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 351000,
+                  "duration": 2063000,
                   "status": "passed"
                 },
                 "match": {
@@ -3314,7 +3332,7 @@
               },
               {
                 "result": {
-                  "duration": 112000,
+                  "duration": 330000,
                   "status": "passed"
                 },
                 "match": {
@@ -3331,14 +3349,14 @@
           },
           {
             "result": {
-              "duration": 3045311000,
-              "status": "passed"
+              "duration": 51000,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 335000,
-                  "status": "passed"
+                  "duration": 473000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.HomeStepDefinition.getInit()"
@@ -3346,8 +3364,8 @@
               },
               {
                 "result": {
-                  "duration": 79000,
-                  "status": "passed"
+                  "duration": 504000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
@@ -3363,15 +3381,14 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".\\/\\/input\\[\\@placeholder\\\u003d\\\u0027SEARCH\\\u0027\\]\"}\n  (Session info: chrome\u003d85.0.4183.102)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027MacBook-Pro-2.home\u0027, ip: \u0027fd4b:8d38:69ba:1:ad36:a996:c23e:f247%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.6\u0027, java.version: \u002714.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/wz/dgqm41w90yg...}, goog:chromeOptions: {debuggerAddress: localhost:57964}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 0ecda4a660180cfe2238a2077e4c20e2\n*** Element info: {Using\u003dclass name, value\u003d//input[@placeholder\u003d\u0027SEARCH\u0027]}\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)\n\tat org.openqa.selenium.By$ByClassName.findElement(By.java:389)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat base.CommonAPI.typeOnElement(CommonAPI.java:241)\n\tat stepDefinitions.SearchStepDefinition.i_enter_in_search_field(SearchStepDefinition.java:38)\n\tat ✽.I enter \"today\u0027s news\" in search field(file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/SearchPage.feature:8)\n",
-              "duration": 30205836000,
-              "status": "failed"
+              "duration": 27000,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 431000,
-                  "status": "passed"
+                  "duration": 25000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.HomeStepDefinition.getInit()"
@@ -3379,8 +3396,8 @@
               },
               {
                 "result": {
-                  "duration": 120000,
-                  "status": "passed"
+                  "duration": 21000,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
@@ -3402,13 +3419,13 @@
           },
           {
             "result": {
-              "duration": 36000,
+              "duration": 44000,
               "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 56000,
+                  "duration": 42000,
                   "status": "skipped"
                 },
                 "match": {
@@ -3417,7 +3434,7 @@
               },
               {
                 "result": {
-                  "duration": 31000,
+                  "duration": 33000,
                   "status": "skipped"
                 },
                 "match": {
@@ -3434,13 +3451,13 @@
           },
           {
             "result": {
-              "duration": 33000,
+              "duration": 36000,
               "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 29000,
+                  "duration": 33000,
                   "status": "skipped"
                 },
                 "match": {
@@ -3449,7 +3466,7 @@
               },
               {
                 "result": {
-                  "duration": 29000,
+                  "duration": 30000,
                   "status": "skipped"
                 },
                 "match": {

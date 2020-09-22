@@ -1,2 +1,629 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" time="0.005"/>
+<testsuite errors="0" failures="19" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="19" time="31.452">
+    <testcase classname="New york Times world page functionality" name="New york times world page functionality checked with valid data" time="3.078">
+        <failure message="invalid argument&#10;  (Session info: chrome=85.0.4183.121)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:52024}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 7954a255e8b347f8077072dfece57f47" type="org.openqa.selenium.InvalidArgumentException">
+            <![CDATA[Given I am in newYorkTimes homepage.........................................failed
+When I click on worldButton.................................................skipped
+Then I verify page title as "World News - The New York Times"...............skipped
+
+StackTrace:
+org.openqa.selenium.InvalidArgumentException: invalid argument
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:52024}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7954a255e8b347f8077072dfece57f47
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at base.CommonAPI.setUp(CommonAPI.java:176)
+	at base.CommonAPI.openBrowser(CommonAPI.java:154)
+	at stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage(HomeStepDefinition.java:31)
+	at ✽.I am in newYorkTimes homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:21)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="New york Times world page functionality" name="New York times US page functionality checked with valid data" time="1.552">
+        <failure message="invalid argument&#10;  (Session info: chrome=85.0.4183.121)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:52035}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 7d35e53b3536aeefd3c1eff83a56a969" type="org.openqa.selenium.InvalidArgumentException">
+            <![CDATA[Given I am in newYorkTimes homepage.........................................failed
+When I click on US button...................................................skipped
+Then I verify page title1 as "The New York Times - Breaking News, World News & Multimedia".skipped
+
+StackTrace:
+org.openqa.selenium.InvalidArgumentException: invalid argument
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:52035}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7d35e53b3536aeefd3c1eff83a56a969
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at base.CommonAPI.setUp(CommonAPI.java:176)
+	at base.CommonAPI.openBrowser(CommonAPI.java:154)
+	at stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage(HomeStepDefinition.java:31)
+	at ✽.I am in newYorkTimes homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:21)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="New york Times world page functionality" name="New York Times politics page functionality with valid data" time="1.419">
+        <failure message="invalid argument&#10;  (Session info: chrome=85.0.4183.121)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:52045}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 96ad5ab51fb231ef65d68724fc139bb4" type="org.openqa.selenium.InvalidArgumentException">
+            <![CDATA[Given I am in newYorkTimes homepage.........................................failed
+When I click on politics button.............................................skipped
+Then I verify page title2 as "Politics - The New York Times"................skipped
+
+StackTrace:
+org.openqa.selenium.InvalidArgumentException: invalid argument
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:52045}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 96ad5ab51fb231ef65d68724fc139bb4
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at base.CommonAPI.setUp(CommonAPI.java:176)
+	at base.CommonAPI.openBrowser(CommonAPI.java:154)
+	at stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage(HomeStepDefinition.java:31)
+	at ✽.I am in newYorkTimes homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:21)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="New york Times world page functionality" name="New York Times NY page functionality with valid data" time="1.401">
+        <failure message="invalid argument&#10;  (Session info: chrome=85.0.4183.121)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:52055}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: e0552c7482b55394904644bcca78b24f" type="org.openqa.selenium.InvalidArgumentException">
+            <![CDATA[Given I am in newYorkTimes homepage.........................................failed
+When I click on NY button...................................................skipped
+Then I verify page Title3 as "New York - The New York Times"................skipped
+
+StackTrace:
+org.openqa.selenium.InvalidArgumentException: invalid argument
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:52055}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e0552c7482b55394904644bcca78b24f
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at base.CommonAPI.setUp(CommonAPI.java:176)
+	at base.CommonAPI.openBrowser(CommonAPI.java:154)
+	at stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage(HomeStepDefinition.java:31)
+	at ✽.I am in newYorkTimes homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:21)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="New york Times world page functionality" name="New York times business page functionality with valid data" time="1.964">
+        <failure message="invalid argument&#10;  (Session info: chrome=85.0.4183.121)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:52066}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: db3c9f40d01284e1f97c06b04011a9b7" type="org.openqa.selenium.InvalidArgumentException">
+            <![CDATA[Given I am in newYorkTimes homepage.........................................failed
+When I click business button................................................skipped
+Then I verify business page title as "Business - The New York Times"........skipped
+
+StackTrace:
+org.openqa.selenium.InvalidArgumentException: invalid argument
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:52066}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: db3c9f40d01284e1f97c06b04011a9b7
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at base.CommonAPI.setUp(CommonAPI.java:176)
+	at base.CommonAPI.openBrowser(CommonAPI.java:154)
+	at stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage(HomeStepDefinition.java:31)
+	at ✽.I am in newYorkTimes homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:21)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="New york Times world page functionality" name="" time="1.301">
+        <failure message="invalid argument&#10;  (Session info: chrome=85.0.4183.121)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:52078}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 944dfc723b20ab09d04fd8efef41fc71" type="org.openqa.selenium.InvalidArgumentException">
+            <![CDATA[Given I am in newYorkTimes homepage.........................................failed
+When I click opinion button.................................................skipped
+Then I Verify opinion page title as "Opinion - The New York Times"..........skipped
+
+StackTrace:
+org.openqa.selenium.InvalidArgumentException: invalid argument
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:52078}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 944dfc723b20ab09d04fd8efef41fc71
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at base.CommonAPI.setUp(CommonAPI.java:176)
+	at base.CommonAPI.openBrowser(CommonAPI.java:154)
+	at stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage(HomeStepDefinition.java:31)
+	at ✽.I am in newYorkTimes homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:21)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="New york Times world page functionality" name="New York times technology page functionality with valid data" time="1.318">
+        <failure message="invalid argument&#10;  (Session info: chrome=85.0.4183.121)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:52089}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 62ce74dd46247c98e14eac94b3fe8e4a" type="org.openqa.selenium.InvalidArgumentException">
+            <![CDATA[Given I am in newYorkTimes homepage.........................................failed
+When I click technology button..............................................skipped
+Then I verify technology page title as "Technology - The New York Times"....skipped
+
+StackTrace:
+org.openqa.selenium.InvalidArgumentException: invalid argument
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:52089}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 62ce74dd46247c98e14eac94b3fe8e4a
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at base.CommonAPI.setUp(CommonAPI.java:176)
+	at base.CommonAPI.openBrowser(CommonAPI.java:154)
+	at stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage(HomeStepDefinition.java:31)
+	at ✽.I am in newYorkTimes homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:21)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="New york Times world page functionality" name="New York times science page functionality with data" time="2.145">
+        <failure message="invalid argument&#10;  (Session info: chrome=85.0.4183.121)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:52101}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 804b2f2c7f4e61938df3b907e95c67f8" type="org.openqa.selenium.InvalidArgumentException">
+            <![CDATA[Given I am in newYorkTimes homepage.........................................failed
+When I click on science button..............................................skipped
+And I click on climate......................................................skipped
+And I verify science page title as "Climate and Environment - The New York Times".skipped
+Then I navigate back to the science page....................................skipped
+And I click on space and cosmos.............................................skipped
+
+StackTrace:
+org.openqa.selenium.InvalidArgumentException: invalid argument
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:52101}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 804b2f2c7f4e61938df3b907e95c67f8
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at base.CommonAPI.setUp(CommonAPI.java:176)
+	at base.CommonAPI.openBrowser(CommonAPI.java:154)
+	at stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage(HomeStepDefinition.java:31)
+	at ✽.I am in newYorkTimes homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:21)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="New york Times world page functionality" name="New York times health page functionality with data" time="1.656">
+        <failure message="invalid argument&#10;  (Session info: chrome=85.0.4183.121)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:52111}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 3603a583fb650a1638dd0093ada587f8" type="org.openqa.selenium.InvalidArgumentException">
+            <![CDATA[Given I am in newYorkTimes homepage.........................................failed
+When I click on health button...............................................skipped
+And I click on health policy................................................skipped
+And I click on global health................................................skipped
+And I click on the new old age..............................................skipped
+Then I verify health page title as "Health - The New York Times"............skipped
+
+StackTrace:
+org.openqa.selenium.InvalidArgumentException: invalid argument
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:52111}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3603a583fb650a1638dd0093ada587f8
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at base.CommonAPI.setUp(CommonAPI.java:176)
+	at base.CommonAPI.openBrowser(CommonAPI.java:154)
+	at stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage(HomeStepDefinition.java:31)
+	at ✽.I am in newYorkTimes homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:21)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="New york Times world page functionality" name="New york times sport page functionality with data" time="1.306">
+        <failure message="invalid argument&#10;  (Session info: chrome=85.0.4183.121)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:52122}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 9f2ebaf9059d47a6066d59c330f41daf" type="org.openqa.selenium.InvalidArgumentException">
+            <![CDATA[Given I am in newYorkTimes homepage.........................................failed
+When I click on sport button................................................skipped
+And I click on baseball.....................................................skipped
+And I click on NFL..........................................................skipped
+And I click on soccer.......................................................skipped
+And I click on NBA..........................................................skipped
+And I click on tennis.......................................................skipped
+Then I verify sport page title as "Sports - The New York Times".............skipped
+
+StackTrace:
+org.openqa.selenium.InvalidArgumentException: invalid argument
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:52122}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9f2ebaf9059d47a6066d59c330f41daf
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at base.CommonAPI.setUp(CommonAPI.java:176)
+	at base.CommonAPI.openBrowser(CommonAPI.java:154)
+	at stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage(HomeStepDefinition.java:31)
+	at ✽.I am in newYorkTimes homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:21)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="New york Times world page functionality" name="New york times Arts functionality with data" time="1.352">
+        <failure message="invalid argument&#10;  (Session info: chrome=85.0.4183.121)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:52133}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 3204b29a5867d004a294ba9a8195f3ee" type="org.openqa.selenium.InvalidArgumentException">
+            <![CDATA[Given I am in newYorkTimes homepage.........................................failed
+When I click on Arts button.................................................skipped
+And I click on books........................................................skipped
+And I click on dance........................................................skipped
+And I click on movies.......................................................skipped
+Then I verify Arts page title as "Arts - The New York Times"................skipped
+
+StackTrace:
+org.openqa.selenium.InvalidArgumentException: invalid argument
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:52133}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3204b29a5867d004a294ba9a8195f3ee
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at base.CommonAPI.setUp(CommonAPI.java:176)
+	at base.CommonAPI.openBrowser(CommonAPI.java:154)
+	at stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage(HomeStepDefinition.java:31)
+	at ✽.I am in newYorkTimes homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:21)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="New york Times world page functionality" name="New york times Books functionality with data" time="1.304">
+        <failure message="invalid argument&#10;  (Session info: chrome=85.0.4183.121)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:52144}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 70ff0c048b8900505a768346b4efbed5" type="org.openqa.selenium.InvalidArgumentException">
+            <![CDATA[Given I am in newYorkTimes homepage.........................................failed
+When I click on Books button................................................skipped
+And I click on bookReview...................................................skipped
+And I click on bestSeller...................................................skipped
+Then I verify best seller page as "Best Sellers - The New York Times".......skipped
+
+StackTrace:
+org.openqa.selenium.InvalidArgumentException: invalid argument
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:52144}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 70ff0c048b8900505a768346b4efbed5
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at base.CommonAPI.setUp(CommonAPI.java:176)
+	at base.CommonAPI.openBrowser(CommonAPI.java:154)
+	at stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage(HomeStepDefinition.java:31)
+	at ✽.I am in newYorkTimes homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:21)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="New york Times world page functionality" name="New York times byTheBook functionality with data" time="1.524">
+        <failure message="invalid argument&#10;  (Session info: chrome=85.0.4183.121)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:52154}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: a2a642b2a91cccbaf954ca0c6d06fccd" type="org.openqa.selenium.InvalidArgumentException">
+            <![CDATA[Given I am in newYorkTimes homepage.........................................failed
+When I click on books button1...............................................skipped
+And I click on ByTheBooks...................................................skipped
+Then I verify ByTheBooks page as "By the Book - The New York Times".........skipped
+
+StackTrace:
+org.openqa.selenium.InvalidArgumentException: invalid argument
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:52154}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a2a642b2a91cccbaf954ca0c6d06fccd
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at base.CommonAPI.setUp(CommonAPI.java:176)
+	at base.CommonAPI.openBrowser(CommonAPI.java:154)
+	at stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage(HomeStepDefinition.java:31)
+	at ✽.I am in newYorkTimes homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:21)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="New york Times world page functionality" name="New York Times crime page functionality" time="1.896">
+        <failure message="invalid argument&#10;  (Session info: chrome=85.0.4183.121)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:52175}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 31e2b2a3f7061364ae5211da70336e3b" type="org.openqa.selenium.InvalidArgumentException">
+            <![CDATA[Given I am in newYorkTimes homepage.........................................failed
+When I click on books button2...............................................skipped
+And I click om crime button.................................................skipped
+Then I verify crime page as "Crime - The New York Times"....................skipped
+
+StackTrace:
+org.openqa.selenium.InvalidArgumentException: invalid argument
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:52175}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 31e2b2a3f7061364ae5211da70336e3b
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at base.CommonAPI.setUp(CommonAPI.java:176)
+	at base.CommonAPI.openBrowser(CommonAPI.java:154)
+	at stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage(HomeStepDefinition.java:31)
+	at ✽.I am in newYorkTimes homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:21)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="New york Times world page functionality" name="New York times children's book page functionality" time="1.362">
+        <failure message="invalid argument&#10;  (Session info: chrome=85.0.4183.121)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:52189}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 1a3ebcb1d7604b7c0d8201fe5a274c7e" type="org.openqa.selenium.InvalidArgumentException">
+            <![CDATA[Given I am in newYorkTimes homepage.........................................failed
+When I click on children's book.............................................skipped
+Then I verify children's book page as "Children’s Books - The New York Times".skipped
+
+StackTrace:
+org.openqa.selenium.InvalidArgumentException: invalid argument
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:52189}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1a3ebcb1d7604b7c0d8201fe5a274c7e
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at base.CommonAPI.setUp(CommonAPI.java:176)
+	at base.CommonAPI.openBrowser(CommonAPI.java:154)
+	at stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage(HomeStepDefinition.java:31)
+	at ✽.I am in newYorkTimes homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:21)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="New york Times world page functionality" name="New york times book review podcast page functionality" time="1.57">
+        <failure message="invalid argument&#10;  (Session info: chrome=85.0.4183.121)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:52200}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 6999b6804bd0256d8b6465a0007a6d3c" type="org.openqa.selenium.InvalidArgumentException">
+            <![CDATA[Given I am in newYorkTimes homepage.........................................failed
+When I click on bookReviewPodcast...........................................skipped
+Then I verify bookReviewPodcast page as "The Book Review Podcast - The New York Times".skipped
+
+StackTrace:
+org.openqa.selenium.InvalidArgumentException: invalid argument
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:52200}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 6999b6804bd0256d8b6465a0007a6d3c
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at base.CommonAPI.setUp(CommonAPI.java:176)
+	at base.CommonAPI.openBrowser(CommonAPI.java:154)
+	at stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage(HomeStepDefinition.java:31)
+	at ✽.I am in newYorkTimes homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:21)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="New york Times world page functionality" name="New york times nowReadThis page functionality" time="1.301">
+        <failure message="invalid argument&#10;  (Session info: chrome=85.0.4183.121)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:52211}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: d6d0efedd142fce2ca8600a76c07a577" type="org.openqa.selenium.InvalidArgumentException">
+            <![CDATA[Given I am in newYorkTimes homepage.........................................failed
+When I click on Now read this...............................................skipped
+Then I verify NowReadThis page as "Now Read This - The New York Times"......skipped
+
+StackTrace:
+org.openqa.selenium.InvalidArgumentException: invalid argument
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:52211}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d6d0efedd142fce2ca8600a76c07a577
+	at jdk.internal.reflect.GeneratedConstructorAccessor22.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at base.CommonAPI.setUp(CommonAPI.java:176)
+	at base.CommonAPI.openBrowser(CommonAPI.java:154)
+	at stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage(HomeStepDefinition.java:31)
+	at ✽.I am in newYorkTimes homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:21)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="New york Times world page functionality" name="new york times style page Functionality" time="1.296">
+        <failure message="invalid argument&#10;  (Session info: chrome=85.0.4183.121)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:52222}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: df9ba010b3565043ce48dffff517f541" type="org.openqa.selenium.InvalidArgumentException">
+            <![CDATA[Given I am in newYorkTimes homepage.........................................failed
+When I click on style button................................................skipped
+And I click on fashion button...............................................skipped
+Then I validate fashion page as "Fashion - The New York Times"..............skipped
+
+StackTrace:
+org.openqa.selenium.InvalidArgumentException: invalid argument
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:52222}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: df9ba010b3565043ce48dffff517f541
+	at jdk.internal.reflect.GeneratedConstructorAccessor22.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at base.CommonAPI.setUp(CommonAPI.java:176)
+	at base.CommonAPI.openBrowser(CommonAPI.java:154)
+	at stepDefinitions.HomeStepDefinition.i_am_in_new_york_times_homepage(HomeStepDefinition.java:31)
+	at ✽.I am in newYorkTimes homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:21)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="New york times search functionality check" name="_2" time="1.375">
+        <failure message="invalid argument&#10;  (Session info: chrome=85.0.4183.121)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:52235}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 5604d269a5b3c9a18d90cd23fb600f63" type="org.openqa.selenium.InvalidArgumentException">
+            <![CDATA[Given I am in new York Times homepage.......................................failed
+And I click on searchButton.................................................skipped
+And I enter "today's news" in search field..................................skipped
+And I submit search field...................................................skipped
+Then I verify search page title as "The New York Times - Search"............skipped
+
+StackTrace:
+org.openqa.selenium.InvalidArgumentException: invalid argument
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:52235}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5604d269a5b3c9a18d90cd23fb600f63
+	at jdk.internal.reflect.GeneratedConstructorAccessor22.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at base.CommonAPI.setUp(CommonAPI.java:176)
+	at base.CommonAPI.openBrowser(CommonAPI.java:154)
+	at stepDefinitions.SearchStepDefinition.i_am_in_new_york_times_homepage(SearchStepDefinition.java:28)
+	at ✽.I am in new York Times homepage(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/SearchPage.feature:6)
+]]>
+        </failure>
+    </testcase>
+</testsuite>
