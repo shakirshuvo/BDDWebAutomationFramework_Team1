@@ -8,11 +8,11 @@ Feature: Marriott HomePage
     When I click on language selector
       Then I should be to verify language selector
 
-#      @SmokeTest
-#      Scenario: check Find & Reserve element on homepage
-#        When I click on Find and Reserve
-#        Then I will verify Find and Reserve
-#
+      @SmokeTest
+      Scenario: check Find & Reserve element on homepage
+        When I click on Find and Reserve
+        Then I will verify Find and Reserve
+
 #
 #  @SmokeTest
 #  Scenario: check deals and packages on homepage
