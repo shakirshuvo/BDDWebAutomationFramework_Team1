@@ -5,12 +5,12 @@
       {
         "name": "I am on Marriott Homepage",
         "aggregatedDurations": {
-          "median": 10.5804376,
-          "average": 10.5804376
+          "median": 12.3577822,
+          "average": 12.3577822
         },
         "durations": [
           {
-            "duration": 10.5804376,
+            "duration": 12.3577822,
             "location": "file:///C:/Users/Waqas/IdeaProjects/BDDWebAutomationFramework_Team1/Marriott/src/test/java/features/HomePage.feature:4"
           }
         ]
@@ -23,12 +23,12 @@
       {
         "name": "I click on language selector",
         "aggregatedDurations": {
-          "median": 0.9431335,
-          "average": 0.9431335
+          "median": 0.9734275,
+          "average": 0.9734275
         },
         "durations": [
           {
-            "duration": 0.9431335,
+            "duration": 0.9734275,
             "location": "file:///C:/Users/Waqas/IdeaProjects/BDDWebAutomationFramework_Team1/Marriott/src/test/java/features/HomePage.feature:8"
           }
         ]
@@ -41,12 +41,12 @@
       {
         "name": "I should be to verify language selector",
         "aggregatedDurations": {
-          "median": 1.3780124,
-          "average": 1.3780124
+          "median": 1.1925678,
+          "average": 1.1925678
         },
         "durations": [
           {
-            "duration": 1.3780124,
+            "duration": 1.1925678,
             "location": "file:///C:/Users/Waqas/IdeaProjects/BDDWebAutomationFramework_Team1/Marriott/src/test/java/features/HomePage.feature:9"
           }
         ]

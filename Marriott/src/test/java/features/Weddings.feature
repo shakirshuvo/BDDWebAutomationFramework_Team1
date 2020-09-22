@@ -1,7 +1,7 @@
 #Feature: Weddings Page
 #
 #  Background:
-#
+#           Given I am on Marriott Homepage
 #            Given I clicked on meetings and events
 #              And I have clicked on Weddings
 #

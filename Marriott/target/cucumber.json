@@ -11,13 +11,13 @@
         "steps": [
           {
             "result": {
-              "duration": 10580437600,
+              "duration": 12357782200,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 43880400,
+                  "duration": 30915800,
                   "status": "passed"
                 },
                 "match": {
@@ -35,7 +35,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-21T05:42:06.847Z",
+        "start_timestamp": "2020-09-21T21:11:57.508Z",
         "line": 7,
         "name": "check language selector on homepage",
         "description": "",
@@ -43,7 +43,7 @@
         "after": [
           {
             "result": {
-              "duration": 785050500,
+              "duration": 1002427800,
               "status": "passed"
             },
             "match": {
@@ -56,13 +56,13 @@
         "steps": [
           {
             "result": {
-              "duration": 943133500,
+              "duration": 973427500,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 997300,
+                  "duration": 997600,
                   "status": "passed"
                 },
                 "match": {
@@ -79,12 +79,13 @@
           },
           {
             "result": {
-              "duration": 1378012400,
+              "duration": 1192567800,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
+                  "duration": 996500,
                   "status": "passed"
                 },
                 "match": {

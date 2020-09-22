@@ -28,6 +28,19 @@ Scenario: Check About Us Web element is functional # src/test/java/features/Home
   Given I on The Heart Fort Homepage               # stepDefinitions.HomeStepDefinition.i_on_the_heart_fort_homepage()
   When I Click on About Us Web Element             # stepDefinitions.HomeStepDefinition.iClickOnAboutUsWebElement()
   Then I Verify TAbout Us page title               # stepDefinitions.HomeStepDefinition.iVerifyTAboutUsPageTitle()
+      java.lang.AssertionError: expected [Business, Home & Car Insurance Quotes | The Hartford Insurance] but found [About Us | Learn About The Hartford]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at search.Search.validateAboutUs(Search.java:203)
+	at stepDefinitions.HomeStepDefinition.iVerifyTAboutUsPageTitle(HomeStepDefinition.java:116)
+	at ✽.I Verify TAbout Us page title(file:///C:/Users/Waqas/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:46)
+
+
+    Embedding Demo1 [image/png 578847 bytes]
+
 
 @SmokeTest
 Scenario: Check Agent and Producers Web element is functional # src/test/java/features/HomePage.feature:49
@@ -89,13 +102,13 @@ Scenario: Check FeedBack Web element is functional # src/test/java/features/Home
   When I Click on FeedBack Web Element             # stepDefinitions.HomeStepDefinition.iClickOnFeedBackWebElement()
   Then I Verify FeedBack page title                # stepDefinitions.HomeStepDefinition.iVerifyFeedBackPageTitle()
       org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="liveForm"]/div/div[2]/div[1]/div/div/div[2]/div/div/p/p/span/span/strong"}
-  (Session info: chrome=85.0.4183.102)
+  (Session info: chrome=85.0.4183.121)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+System info: host: 'WAQAS', ip: '192.168.1.166', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:62470}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 9502bff491f261f7043bcc5b545db18e
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Waqas\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61674}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ad4e2fde2185bb2da101d37a870b3634
 *** Element info: {Using=xpath, value=//*[@id="liveForm"]/div/div[2]/div[1]/div/div/div[2]/div/div/p/p/span/span/strong}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -117,10 +130,10 @@ Session ID: 9502bff491f261f7043bcc5b545db18e
 	at base.CommonAPI.getTextByWebElement(CommonAPI.java:878)
 	at search.Search.validateFeedBack(Search.java:374)
 	at stepDefinitions.HomeStepDefinition.iVerifyFeedBackPageTitle(HomeStepDefinition.java:197)
-	at ✽.I Verify FeedBack page title(file:///Users/syedraza/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:96)
+	at ✽.I Verify FeedBack page title(file:///C:/Users/Waqas/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:96)
 
 
-    Embedding Demo1 [image/png 1204402 bytes]
+    Embedding Demo1 [image/png 335277 bytes]
 
 
 @SmokeTest

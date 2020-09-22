@@ -28,7 +28,7 @@ public class HomeStepDefinition  extends CommonAPI {
     //checking the world button
     @Given("I am in newYorkTimes homepage")
     public void i_am_in_new_york_times_homepage() throws IOException {
-        openBrowser();
+        openBrowser("https://www.nytimes.com/");
     }
     @When("I click on worldButton")
     public void i_click_on_world_button() {
