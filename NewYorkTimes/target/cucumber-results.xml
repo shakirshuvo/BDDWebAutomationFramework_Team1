@@ -1,65 +1,57 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="19" time="230.769">
-    <testcase classname="New york Times world page functionality" name="New york times world page functionality checked with valid data" time="5.2">
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="19" time="209.932">
+    <testcase classname="New york Times world page functionality" name="New york times world page functionality checked with valid data" time="4.116">
         <system-out><![CDATA[Given I am in newYorkTimes homepage.........................................passed
 When I click on worldButton.................................................passed
 Then I verify page title as "World News - The New York Times"...............passed
 ]]></system-out>
     </testcase>
-    <testcase classname="New york Times world page functionality" name="New York times US page functionality checked with valid data" time="4.294">
+    <testcase classname="New york Times world page functionality" name="New York times US page functionality checked with valid data" time="4.371">
         <system-out><![CDATA[Given I am in newYorkTimes homepage.........................................passed
 When I click on US button...................................................passed
 Then I verify page title1 as "The New York Times - Breaking News, World News & Multimedia".passed
 ]]></system-out>
     </testcase>
-    <testcase classname="New york Times world page functionality" name="New York Times politics page functionality with valid data" time="4.862">
+    <testcase classname="New york Times world page functionality" name="New York Times politics page functionality with valid data" time="4.661">
         <system-out><![CDATA[Given I am in newYorkTimes homepage.........................................passed
 When I click on politics button.............................................passed
 Then I verify page title2 as "Politics - The New York Times"................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="New york Times world page functionality" name="New York Times NY page functionality with valid data" time="4.483">
+    <testcase classname="New york Times world page functionality" name="New York Times NY page functionality with valid data" time="3.494">
         <system-out><![CDATA[Given I am in newYorkTimes homepage.........................................passed
 When I click on NY button...................................................passed
 Then I verify page Title3 as "New York - The New York Times"................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="New york Times world page functionality" name="New York times business page functionality with valid data" time="5.607">
+    <testcase classname="New york Times world page functionality" name="New York times business page functionality with valid data" time="4.93">
         <system-out><![CDATA[Given I am in newYorkTimes homepage.........................................passed
 When I click business button................................................passed
 Then I verify business page title as "Business - The New York Times"........passed
 ]]></system-out>
     </testcase>
-    <testcase classname="New york Times world page functionality" name="" time="4.57">
+    <testcase classname="New york Times world page functionality" name="" time="3.63">
         <system-out><![CDATA[Given I am in newYorkTimes homepage.........................................passed
 When I click opinion button.................................................passed
 Then I Verify opinion page title as "Opinion - The New York Times"..........passed
 ]]></system-out>
     </testcase>
-    <testcase classname="New york Times world page functionality" name="New York times technology page functionality with valid data" time="4.986">
+    <testcase classname="New york Times world page functionality" name="New York times technology page functionality with valid data" time="3.426">
         <system-out><![CDATA[Given I am in newYorkTimes homepage.........................................passed
 When I click technology button..............................................passed
 Then I verify technology page title as "Technology - The New York Times"....passed
 ]]></system-out>
     </testcase>
-    <testcase classname="New york Times world page functionality" name="New York times science page functionality with data" time="4.289">
-        <failure message="expected:&lt;[Science] - The New York Time...&gt; but was:&lt;[Climate and Environment] - The New York Time...&gt;" type="org.junit.ComparisonFailure"><![CDATA[Given I am in newYorkTimes homepage.........................................passed
+    <testcase classname="New york Times world page functionality" name="New York times science page functionality with data" time="14.343">
+        <system-out><![CDATA[Given I am in newYorkTimes homepage.........................................passed
 When I click on science button..............................................passed
 And I click on climate......................................................passed
-And I verify science page title as "Climate and Environment - The New York Times".failed
-Then I navigate back to the science page....................................skipped
-And I click on space and cosmos.............................................skipped
-
-StackTrace:
-org.junit.ComparisonFailure: expected:<[Science] - The New York Time...> but was:<[Climate and Environment] - The New York Time...>
-	at org.junit.Assert.assertEquals(Assert.java:117)
-	at org.junit.Assert.assertEquals(Assert.java:146)
-	at base.CommonAPI.validateByTitle(CommonAPI.java:568)
-	at stepDefinitions.HomeStepDefinition.i_verify_science_page_title_as(HomeStepDefinition.java:99)
-	at ✽.I verify science page title as "Climate and Environment - The New York Times"(file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:62)
-]]></failure>
+And I verify science page title as "Climate and Environment - The New York Times".passed
+Then I navigate back to the science page....................................passed
+And I click on space and cosmos.............................................passed
+]]></system-out>
     </testcase>
-    <testcase classname="New york Times world page functionality" name="New York times health page functionality with data" time="23.846">
+    <testcase classname="New york Times world page functionality" name="New York times health page functionality with data" time="22.846">
         <system-out><![CDATA[Given I am in newYorkTimes homepage.........................................passed
 When I click on health button...............................................passed
 And I click on health policy................................................passed
@@ -68,18 +60,26 @@ And I click on the new old age..............................................pass
 Then I verify health page title as "Health - The New York Times"............passed
 ]]></system-out>
     </testcase>
-    <testcase classname="New york Times world page functionality" name="New york times sport page functionality with data" time="30.258">
-        <system-out><![CDATA[Given I am in newYorkTimes homepage.........................................passed
+    <testcase classname="New york Times world page functionality" name="New york times sport page functionality with data" time="29.025">
+        <failure message="expected:&lt;[Sport]s - The New York Tim...&gt; but was:&lt;[Tenni]s - The New York Tim...&gt;" type="org.junit.ComparisonFailure"><![CDATA[Given I am in newYorkTimes homepage.........................................passed
 When I click on sport button................................................passed
 And I click on baseball.....................................................passed
 And I click on NFL..........................................................passed
 And I click on soccer.......................................................passed
 And I click on NBA..........................................................passed
 And I click on tennis.......................................................passed
-Then I verify sport page title as "Sports - The New York Times".............passed
-]]></system-out>
+Then I verify sport page title as "Sports - The New York Times".............failed
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<[Sport]s - The New York Tim...> but was:<[Tenni]s - The New York Tim...>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at base.CommonAPI.validateByTitle(CommonAPI.java:728)
+	at stepDefinitions.HomeStepDefinition.i_verify_sport_page_title_as(HomeStepDefinition.java:180)
+	at ✽.I verify sport page title as "Sports - The New York Times"(file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:82)
+]]></failure>
     </testcase>
-    <testcase classname="New york Times world page functionality" name="New york times Arts functionality with data" time="22.512">
+    <testcase classname="New york Times world page functionality" name="New york times Arts functionality with data" time="21.302">
         <system-out><![CDATA[Given I am in newYorkTimes homepage.........................................passed
 When I click on Arts button.................................................passed
 And I click on books........................................................passed
@@ -88,7 +88,7 @@ And I click on movies.......................................................pass
 Then I verify Arts page title as "Arts - The New York Times"................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="New york Times world page functionality" name="New york times Books functionality with data" time="14.007">
+    <testcase classname="New york Times world page functionality" name="New york times Books functionality with data" time="14.131">
         <system-out><![CDATA[Given I am in newYorkTimes homepage.........................................passed
 When I click on Books button................................................passed
 And I click on bookReview...................................................passed
@@ -96,80 +96,59 @@ And I click on bestSeller...................................................pass
 Then I verify best seller page as "Best Sellers - The New York Times".......passed
 ]]></system-out>
     </testcase>
-    <testcase classname="New york Times world page functionality" name="New York times byTheBook functionality with data" time="13.476">
+    <testcase classname="New york Times world page functionality" name="New York times byTheBook functionality with data" time="13.193">
         <system-out><![CDATA[Given I am in newYorkTimes homepage.........................................passed
 When I click on books button1...............................................passed
 And I click on ByTheBooks...................................................passed
 Then I verify ByTheBooks page as "By the Book - The New York Times".........passed
 ]]></system-out>
     </testcase>
-    <testcase classname="New york Times world page functionality" name="New York Times crime page functionality" time="10.086">
+    <testcase classname="New york Times world page functionality" name="New York Times crime page functionality" time="9.788">
         <system-out><![CDATA[Given I am in newYorkTimes homepage.........................................passed
 When I click on books button2...............................................passed
 And I click om crime button.................................................passed
 Then I verify crime page as "Crime - The New York Times"....................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="New york Times world page functionality" name="New York times children's book page functionality" time="11.763">
+    <testcase classname="New york Times world page functionality" name="New York times children's book page functionality" time="10.016">
         <system-out><![CDATA[Given I am in newYorkTimes homepage.........................................passed
 When I click on children's book.............................................passed
 Then I verify children's book page as "Children’s Books - The New York Times".passed
 ]]></system-out>
     </testcase>
-    <testcase classname="New york Times world page functionality" name="New york times book review podcast page functionality" time="8.271">
-        <system-out><![CDATA[Given I am in newYorkTimes homepage.........................................passed
+    <testcase classname="New york Times world page functionality" name="New york times book review podcast page functionality" time="6.986">
+        <failure message="expected:&lt;[The Book Review Podcast] - The New York Time...&gt; but was:&lt;[Books] - The New York Time...&gt;" type="org.junit.ComparisonFailure"><![CDATA[Given I am in newYorkTimes homepage.........................................passed
 When I click on bookReviewPodcast...........................................passed
-Then I verify bookReviewPodcast page as "The Book Review Podcast - The New York Times".passed
-]]></system-out>
+Then I verify bookReviewPodcast page as "The Book Review Podcast - The New York Times".failed
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<[The Book Review Podcast] - The New York Time...> but was:<[Books] - The New York Time...>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at base.CommonAPI.validateByTitle(CommonAPI.java:728)
+	at stepDefinitions.HomeStepDefinition.i_verify_book_review_podcast_page_as(HomeStepDefinition.java:283)
+	at ✽.I verify bookReviewPodcast page as "The Book Review Podcast - The New York Times"(file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:119)
+]]></failure>
     </testcase>
-    <testcase classname="New york Times world page functionality" name="New york times nowReadThis page functionality" time="10.741">
+    <testcase classname="New york Times world page functionality" name="New york times nowReadThis page functionality" time="9.912">
         <system-out><![CDATA[Given I am in newYorkTimes homepage.........................................passed
 When I click on Now read this...............................................passed
 Then I verify NowReadThis page as "Now Read This - The New York Times"......passed
 ]]></system-out>
     </testcase>
-    <testcase classname="New york Times world page functionality" name="new york times style page Functionality" time="11.607">
+    <testcase classname="New york Times world page functionality" name="new york times style page Functionality" time="9.068">
         <system-out><![CDATA[Given I am in newYorkTimes homepage.........................................passed
 When I click on style button................................................passed
 And I click on fashion button...............................................passed
 Then I validate fashion page as "Fashion - The New York Times"..............passed
 ]]></system-out>
     </testcase>
-    <testcase classname="New york times search functionality check" name="_2" time="35.572">
-        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.\/\/input\[\@placeholder\=\'SEARCH\'\]&quot;}&#10;  (Session info: chrome=85.0.4183.102)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'MacBook-Pro-2.home', ip: 'fd4b:8d38:69ba:1:ad36:a996:c23e:f247%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/wz/dgqm41w90yg...}, goog:chromeOptions: {debuggerAddress: localhost:57964}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 0ecda4a660180cfe2238a2077e4c20e2&#10;*** Element info: {Using=class name, value=//input[@placeholder='SEARCH']}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given I am in new York Times homepage.......................................passed
+    <testcase classname="New york times search functionality check" name="_2" time="20.336">
+        <system-out><![CDATA[Given I am in new York Times homepage.......................................passed
 And I click on searchButton.................................................passed
-And I enter "today's news" in search field..................................failed
-And I submit search field...................................................skipped
-Then I verify search page title as "The New York Times - Search"............skipped
-
-StackTrace:
-org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".\/\/input\[\@placeholder\=\'SEARCH\'\]"}
-  (Session info: chrome=85.0.4183.102)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MacBook-Pro-2.home', ip: 'fd4b:8d38:69ba:1:ad36:a996:c23e:f247%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/wz/dgqm41w90yg...}, goog:chromeOptions: {debuggerAddress: localhost:57964}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 0ecda4a660180cfe2238a2077e4c20e2
-*** Element info: {Using=class name, value=//input[@placeholder='SEARCH']}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
-	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at base.CommonAPI.typeOnElement(CommonAPI.java:241)
-	at stepDefinitions.SearchStepDefinition.i_enter_in_search_field(SearchStepDefinition.java:38)
-	at ✽.I enter "today's news" in search field(file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/SearchPage.feature:8)
-]]></failure>
+And I enter "today's news" in search field..................................passed
+And I submit search field...................................................passed
+Then I verify search page title as "The New York Times - Search"............passed
+]]></system-out>
     </testcase>
 </testsuite>

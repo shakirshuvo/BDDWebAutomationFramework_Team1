@@ -11,13 +11,13 @@
         "steps": [
           {
             "result": {
-              "duration": 2623994000,
+              "duration": 3248163000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 19707000,
+                  "duration": 19443000,
                   "status": "passed"
                 },
                 "match": {
@@ -26,7 +26,7 @@
               },
               {
                 "result": {
-                  "duration": 922000,
+                  "duration": 675000,
                   "status": "passed"
                 },
                 "match": {
@@ -44,7 +44,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:49:10.863Z",
+        "start_timestamp": "2020-09-21T20:48:14.274Z",
         "line": 24,
         "name": "New york times world page functionality checked with valid data",
         "description": "",
@@ -52,7 +52,7 @@
         "after": [
           {
             "result": {
-              "duration": 108939000,
+              "duration": 158158000,
               "status": "passed"
             },
             "match": {
@@ -61,7 +61,7 @@
           },
           {
             "result": {
-              "duration": 160000,
+              "duration": 152000,
               "status": "passed"
             },
             "match": {
@@ -74,13 +74,13 @@
         "steps": [
           {
             "result": {
-              "duration": 2254761000,
+              "duration": 251516000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 2716000,
+                  "duration": 3439000,
                   "status": "passed"
                 },
                 "match": {
@@ -89,7 +89,7 @@
               },
               {
                 "result": {
-                  "duration": 355000,
+                  "duration": 745000,
                   "status": "passed"
                 },
                 "match": {
@@ -106,13 +106,13 @@
           },
           {
             "result": {
-              "duration": 136580000,
+              "duration": 375437000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1234000,
+                  "duration": 2625000,
                   "status": "passed"
                 },
                 "match": {
@@ -121,7 +121,7 @@
               },
               {
                 "result": {
-                  "duration": 653000,
+                  "duration": 1148000,
                   "status": "passed"
                 },
                 "match": {
@@ -158,13 +158,13 @@
         "steps": [
           {
             "result": {
-              "duration": 2995631000,
+              "duration": 2751676000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1655000,
+                  "duration": 1224000,
                   "status": "passed"
                 },
                 "match": {
@@ -173,7 +173,7 @@
               },
               {
                 "result": {
-                  "duration": 317000,
+                  "duration": 248000,
                   "status": "passed"
                 },
                 "match": {
@@ -191,7 +191,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:49:16.088Z",
+        "start_timestamp": "2020-09-21T20:48:18.412Z",
         "line": 29,
         "name": "New York times US page functionality checked with valid data",
         "description": "",
@@ -199,7 +199,7 @@
         "after": [
           {
             "result": {
-              "duration": 152608000,
+              "duration": 114570000,
               "status": "passed"
             },
             "match": {
@@ -208,7 +208,7 @@
           },
           {
             "result": {
-              "duration": 168000,
+              "duration": 158000,
               "status": "passed"
             },
             "match": {
@@ -221,13 +221,13 @@
         "steps": [
           {
             "result": {
-              "duration": 694917000,
+              "duration": 1226672000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1119000,
+                  "duration": 1421000,
                   "status": "passed"
                 },
                 "match": {
@@ -236,7 +236,7 @@
               },
               {
                 "result": {
-                  "duration": 243000,
+                  "duration": 690000,
                   "status": "passed"
                 },
                 "match": {
@@ -253,13 +253,13 @@
           },
           {
             "result": {
-              "duration": 443285000,
+              "duration": 255400000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1112000,
+                  "duration": 1649000,
                   "status": "passed"
                 },
                 "match": {
@@ -268,7 +268,7 @@
               },
               {
                 "result": {
-                  "duration": 222000,
+                  "duration": 500000,
                   "status": "passed"
                 },
                 "match": {
@@ -305,13 +305,13 @@
         "steps": [
           {
             "result": {
-              "duration": 2504377000,
+              "duration": 3939252000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 963000,
+                  "duration": 942000,
                   "status": "passed"
                 },
                 "match": {
@@ -320,7 +320,7 @@
               },
               {
                 "result": {
-                  "duration": 177000,
+                  "duration": 187000,
                   "status": "passed"
                 },
                 "match": {
@@ -338,7 +338,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:49:20.396Z",
+        "start_timestamp": "2020-09-21T20:48:22.797Z",
         "line": 34,
         "name": "New York Times politics page functionality with valid data",
         "description": "",
@@ -346,7 +346,7 @@
         "after": [
           {
             "result": {
-              "duration": 112085000,
+              "duration": 99610000,
               "status": "passed"
             },
             "match": {
@@ -355,7 +355,7 @@
           },
           {
             "result": {
-              "duration": 97000,
+              "duration": 115000,
               "status": "passed"
             },
             "match": {
@@ -368,13 +368,13 @@
         "steps": [
           {
             "result": {
-              "duration": 1440186000,
+              "duration": 460201000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 835000,
+                  "duration": 1230000,
                   "status": "passed"
                 },
                 "match": {
@@ -383,7 +383,7 @@
               },
               {
                 "result": {
-                  "duration": 324000,
+                  "duration": 359000,
                   "status": "passed"
                 },
                 "match": {
@@ -400,13 +400,13 @@
           },
           {
             "result": {
-              "duration": 798848000,
+              "duration": 154730000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 878000,
+                  "duration": 853000,
                   "status": "passed"
                 },
                 "match": {
@@ -415,7 +415,7 @@
               },
               {
                 "result": {
-                  "duration": 353000,
+                  "duration": 373000,
                   "status": "passed"
                 },
                 "match": {
@@ -452,13 +452,13 @@
         "steps": [
           {
             "result": {
-              "duration": 3625127000,
+              "duration": 2578138000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 803000,
+                  "duration": 951000,
                   "status": "passed"
                 },
                 "match": {
@@ -467,7 +467,7 @@
               },
               {
                 "result": {
-                  "duration": 154000,
+                  "duration": 186000,
                   "status": "passed"
                 },
                 "match": {
@@ -485,7 +485,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:49:25.271Z",
+        "start_timestamp": "2020-09-21T20:48:27.470Z",
         "line": 39,
         "name": "New York Times NY page functionality with valid data",
         "description": "",
@@ -493,7 +493,7 @@
         "after": [
           {
             "result": {
-              "duration": 113376000,
+              "duration": 98782000,
               "status": "passed"
             },
             "match": {
@@ -502,7 +502,7 @@
           },
           {
             "result": {
-              "duration": 141000,
+              "duration": 142000,
               "status": "passed"
             },
             "match": {
@@ -515,13 +515,13 @@
         "steps": [
           {
             "result": {
-              "duration": 277984000,
+              "duration": 653877000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 405000,
+                  "duration": 635000,
                   "status": "passed"
                 },
                 "match": {
@@ -530,7 +530,7 @@
               },
               {
                 "result": {
-                  "duration": 113000,
+                  "duration": 163000,
                   "status": "passed"
                 },
                 "match": {
@@ -547,13 +547,13 @@
           },
           {
             "result": {
-              "duration": 461687000,
+              "duration": 157828000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 481000,
+                  "duration": 665000,
                   "status": "passed"
                 },
                 "match": {
@@ -562,7 +562,7 @@
               },
               {
                 "result": {
-                  "duration": 149000,
+                  "duration": 160000,
                   "status": "passed"
                 },
                 "match": {
@@ -599,13 +599,13 @@
         "steps": [
           {
             "result": {
-              "duration": 4210953000,
+              "duration": 2419497000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 493000,
+                  "duration": 506000,
                   "status": "passed"
                 },
                 "match": {
@@ -614,7 +614,7 @@
               },
               {
                 "result": {
-                  "duration": 244000,
+                  "duration": 197000,
                   "status": "passed"
                 },
                 "match": {
@@ -632,7 +632,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:49:29.764Z",
+        "start_timestamp": "2020-09-21T20:48:30.976Z",
         "line": 44,
         "name": "New York times business page functionality with valid data",
         "description": "",
@@ -640,7 +640,7 @@
         "after": [
           {
             "result": {
-              "duration": 112499000,
+              "duration": 109893000,
               "status": "passed"
             },
             "match": {
@@ -649,7 +649,7 @@
           },
           {
             "result": {
-              "duration": 91000,
+              "duration": 80000,
               "status": "passed"
             },
             "match": {
@@ -662,13 +662,13 @@
         "steps": [
           {
             "result": {
-              "duration": 58638000,
+              "duration": 1903424000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 420000,
+                  "duration": 419000,
                   "status": "passed"
                 },
                 "match": {
@@ -677,7 +677,7 @@
               },
               {
                 "result": {
-                  "duration": 114000,
+                  "duration": 136000,
                   "status": "passed"
                 },
                 "match": {
@@ -694,13 +694,13 @@
           },
           {
             "result": {
-              "duration": 1220543000,
+              "duration": 493093000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 649000,
+                  "duration": 543000,
                   "status": "passed"
                 },
                 "match": {
@@ -709,7 +709,7 @@
               },
               {
                 "result": {
-                  "duration": 246000,
+                  "duration": 278000,
                   "status": "passed"
                 },
                 "match": {
@@ -746,13 +746,13 @@
         "steps": [
           {
             "result": {
-              "duration": 2227510000,
+              "duration": 2007913000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 752000,
+                  "duration": 700000,
                   "status": "passed"
                 },
                 "match": {
@@ -761,7 +761,7 @@
               },
               {
                 "result": {
-                  "duration": 589000,
+                  "duration": 360000,
                   "status": "passed"
                 },
                 "match": {
@@ -779,7 +779,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:49:35.381Z",
+        "start_timestamp": "2020-09-21T20:48:35.918Z",
         "line": 49,
         "name": "",
         "description": "",
@@ -787,7 +787,7 @@
         "after": [
           {
             "result": {
-              "duration": 99378000,
+              "duration": 101650000,
               "status": "passed"
             },
             "match": {
@@ -796,7 +796,7 @@
           },
           {
             "result": {
-              "duration": 83000,
+              "duration": 95000,
               "status": "passed"
             },
             "match": {
@@ -809,13 +809,13 @@
         "steps": [
           {
             "result": {
-              "duration": 1485577000,
+              "duration": 1494841000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 448000,
+                  "duration": 600000,
                   "status": "passed"
                 },
                 "match": {
@@ -824,7 +824,7 @@
               },
               {
                 "result": {
-                  "duration": 129000,
+                  "duration": 141000,
                   "status": "passed"
                 },
                 "match": {
@@ -841,13 +841,13 @@
           },
           {
             "result": {
-              "duration": 753131000,
+              "duration": 21163000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 496000,
+                  "duration": 728000,
                   "status": "passed"
                 },
                 "match": {
@@ -856,7 +856,7 @@
               },
               {
                 "result": {
-                  "duration": 152000,
+                  "duration": 148000,
                   "status": "passed"
                 },
                 "match": {
@@ -893,13 +893,13 @@
         "steps": [
           {
             "result": {
-              "duration": 3105770000,
+              "duration": 2453046000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 427000,
+                  "duration": 429000,
                   "status": "passed"
                 },
                 "match": {
@@ -908,7 +908,7 @@
               },
               {
                 "result": {
-                  "duration": 161000,
+                  "duration": 150000,
                   "status": "passed"
                 },
                 "match": {
@@ -926,7 +926,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:49:39.960Z",
+        "start_timestamp": "2020-09-21T20:48:39.557Z",
         "line": 54,
         "name": "New York times technology page functionality with valid data",
         "description": "",
@@ -934,7 +934,7 @@
         "after": [
           {
             "result": {
-              "duration": 111851000,
+              "duration": 104632000,
               "status": "passed"
             },
             "match": {
@@ -943,7 +943,7 @@
           },
           {
             "result": {
-              "duration": 74000,
+              "duration": 63000,
               "status": "passed"
             },
             "match": {
@@ -956,13 +956,13 @@
         "steps": [
           {
             "result": {
-              "duration": 1133349000,
+              "duration": 629469000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 399000,
+                  "duration": 402000,
                   "status": "passed"
                 },
                 "match": {
@@ -971,7 +971,7 @@
               },
               {
                 "result": {
-                  "duration": 98000,
+                  "duration": 102000,
                   "status": "passed"
                 },
                 "match": {
@@ -988,13 +988,13 @@
           },
           {
             "result": {
-              "duration": 631164000,
+              "duration": 235011000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 728000,
+                  "duration": 417000,
                   "status": "passed"
                 },
                 "match": {
@@ -1003,7 +1003,7 @@
               },
               {
                 "result": {
-                  "duration": 131000,
+                  "duration": 114000,
                   "status": "passed"
                 },
                 "match": {
@@ -1040,13 +1040,13 @@
         "steps": [
           {
             "result": {
-              "duration": 3067795000,
+              "duration": 1924701000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 389000,
+                  "duration": 406000,
                   "status": "passed"
                 },
                 "match": {
@@ -1055,7 +1055,7 @@
               },
               {
                 "result": {
-                  "duration": 107000,
+                  "duration": 232000,
                   "status": "passed"
                 },
                 "match": {
@@ -1073,7 +1073,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:49:44.953Z",
+        "start_timestamp": "2020-09-21T20:48:42.990Z",
         "line": 59,
         "name": "New York times science page functionality with data",
         "description": "",
@@ -1081,7 +1081,7 @@
         "after": [
           {
             "result": {
-              "duration": 107337000,
+              "duration": 146293000,
               "status": "passed"
             },
             "match": {
@@ -1090,7 +1090,7 @@
           },
           {
             "result": {
-              "duration": 84000,
+              "duration": 70000,
               "status": "passed"
             },
             "match": {
@@ -1103,13 +1103,13 @@
         "steps": [
           {
             "result": {
-              "duration": 912832000,
+              "duration": 1642209000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 629000,
+                  "duration": 407000,
                   "status": "passed"
                 },
                 "match": {
@@ -1118,7 +1118,7 @@
               },
               {
                 "result": {
-                  "duration": 223000,
+                  "duration": 94000,
                   "status": "passed"
                 },
                 "match": {
@@ -1135,13 +1135,13 @@
           },
           {
             "result": {
-              "duration": 186892000,
+              "duration": 619218000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 635000,
+                  "duration": 612000,
                   "status": "passed"
                 },
                 "match": {
@@ -1150,7 +1150,7 @@
               },
               {
                 "result": {
-                  "duration": 210000,
+                  "duration": 228000,
                   "status": "passed"
                 },
                 "match": {
@@ -1167,14 +1167,13 @@
           },
           {
             "result": {
-              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Science] - The New York Time...\u003e but was:\u003c[Climate and Environment] - The New York Time...\u003e\n\tat org.junit.Assert.assertEquals(Assert.java:117)\n\tat org.junit.Assert.assertEquals(Assert.java:146)\n\tat base.CommonAPI.validateByTitle(CommonAPI.java:568)\n\tat stepDefinitions.HomeStepDefinition.i_verify_science_page_title_as(HomeStepDefinition.java:99)\n\tat ✽.I verify science page title as \"Climate and Environment - The New York Times\"(file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:62)\n",
-              "duration": 5316000,
-              "status": "failed"
+              "duration": 3348944000,
+              "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 399000,
+                  "duration": 447000,
                   "status": "passed"
                 },
                 "match": {
@@ -1183,7 +1182,7 @@
               },
               {
                 "result": {
-                  "duration": 92000,
+                  "duration": 108000,
                   "status": "passed"
                 },
                 "match": {
@@ -1206,14 +1205,14 @@
           },
           {
             "result": {
-              "duration": 36000,
-              "status": "skipped"
+              "duration": 3302129000,
+              "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 57000,
-                  "status": "skipped"
+                  "duration": 1213000,
+                  "status": "passed"
                 },
                 "match": {
                   "location": "stepDefinitions.HomeStepDefinition.getInit()"
@@ -1221,8 +1220,8 @@
               },
               {
                 "result": {
-                  "duration": 28000,
-                  "status": "skipped"
+                  "duration": 181000,
+                  "status": "passed"
                 },
                 "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
@@ -1238,14 +1237,14 @@
           },
           {
             "result": {
-              "duration": 33000,
-              "status": "skipped"
+              "duration": 3349308000,
+              "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 29000,
-                  "status": "skipped"
+                  "duration": 702000,
+                  "status": "passed"
                 },
                 "match": {
                   "location": "stepDefinitions.HomeStepDefinition.getInit()"
@@ -1253,8 +1252,8 @@
               },
               {
                 "result": {
-                  "duration": 30000,
-                  "status": "skipped"
+                  "duration": 180000,
+                  "status": "passed"
                 },
                 "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
@@ -1284,13 +1283,13 @@
         "steps": [
           {
             "result": {
-              "duration": 3951286000,
+              "duration": 2959746000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 468000,
+                  "duration": 425000,
                   "status": "passed"
                 },
                 "match": {
@@ -1299,7 +1298,7 @@
               },
               {
                 "result": {
-                  "duration": 109000,
+                  "duration": 110000,
                   "status": "passed"
                 },
                 "match": {
@@ -1317,7 +1316,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:49:49.256Z",
+        "start_timestamp": "2020-09-21T20:48:57.342Z",
         "line": 67,
         "name": "New York times health page functionality with data",
         "description": "",
@@ -1325,7 +1324,7 @@
         "after": [
           {
             "result": {
-              "duration": 191597000,
+              "duration": 177148000,
               "status": "passed"
             },
             "match": {
@@ -1334,7 +1333,7 @@
           },
           {
             "result": {
-              "duration": 80000,
+              "duration": 62000,
               "status": "passed"
             },
             "match": {
@@ -1347,13 +1346,13 @@
         "steps": [
           {
             "result": {
-              "duration": 3561628000,
+              "duration": 3507062000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 786000,
+                  "duration": 609000,
                   "status": "passed"
                 },
                 "match": {
@@ -1362,7 +1361,7 @@
               },
               {
                 "result": {
-                  "duration": 196000,
+                  "duration": 229000,
                   "status": "passed"
                 },
                 "match": {
@@ -1379,13 +1378,13 @@
           },
           {
             "result": {
-              "duration": 5938486000,
+              "duration": 5901105000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 437000,
+                  "duration": 425000,
                   "status": "passed"
                 },
                 "match": {
@@ -1394,7 +1393,7 @@
               },
               {
                 "result": {
-                  "duration": 231000,
+                  "duration": 122000,
                   "status": "passed"
                 },
                 "match": {
@@ -1411,13 +1410,13 @@
           },
           {
             "result": {
-              "duration": 5526082000,
+              "duration": 5250767000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 460000,
+                  "duration": 439000,
                   "status": "passed"
                 },
                 "match": {
@@ -1426,7 +1425,7 @@
               },
               {
                 "result": {
-                  "duration": 169000,
+                  "duration": 108000,
                   "status": "passed"
                 },
                 "match": {
@@ -1443,13 +1442,13 @@
           },
           {
             "result": {
-              "duration": 3807033000,
+              "duration": 4156620000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 470000,
+                  "duration": 391000,
                   "status": "passed"
                 },
                 "match": {
@@ -1458,7 +1457,7 @@
               },
               {
                 "result": {
-                  "duration": 154000,
+                  "duration": 109000,
                   "status": "passed"
                 },
                 "match": {
@@ -1475,13 +1474,13 @@
           },
           {
             "result": {
-              "duration": 862200000,
+              "duration": 886321000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 359000,
+                  "duration": 448000,
                   "status": "passed"
                 },
                 "match": {
@@ -1490,7 +1489,7 @@
               },
               {
                 "result": {
-                  "duration": 89000,
+                  "duration": 107000,
                   "status": "passed"
                 },
                 "match": {
@@ -1527,13 +1526,13 @@
         "steps": [
           {
             "result": {
-              "duration": 2298460000,
+              "duration": 2481757000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 413000,
+                  "duration": 368000,
                   "status": "passed"
                 },
                 "match": {
@@ -1542,7 +1541,7 @@
               },
               {
                 "result": {
-                  "duration": 109000,
+                  "duration": 114000,
                   "status": "passed"
                 },
                 "match": {
@@ -1560,7 +1559,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:50:13.110Z",
+        "start_timestamp": "2020-09-21T20:49:20.195Z",
         "line": 75,
         "name": "New york times sport page functionality with data",
         "description": "",
@@ -1568,7 +1567,7 @@
         "after": [
           {
             "result": {
-              "duration": 255814000,
+              "duration": 207943000,
               "status": "passed"
             },
             "match": {
@@ -1577,7 +1576,7 @@
           },
           {
             "result": {
-              "duration": 65000,
+              "duration": 61000,
               "status": "passed"
             },
             "match": {
@@ -1590,13 +1589,13 @@
         "steps": [
           {
             "result": {
-              "duration": 4728654000,
+              "duration": 4307904000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 416000,
+                  "duration": 364000,
                   "status": "passed"
                 },
                 "match": {
@@ -1605,7 +1604,7 @@
               },
               {
                 "result": {
-                  "duration": 100000,
+                  "duration": 105000,
                   "status": "passed"
                 },
                 "match": {
@@ -1622,13 +1621,13 @@
           },
           {
             "result": {
-              "duration": 4479028000,
+              "duration": 3616395000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 703000,
+                  "duration": 616000,
                   "status": "passed"
                 },
                 "match": {
@@ -1637,7 +1636,7 @@
               },
               {
                 "result": {
-                  "duration": 141000,
+                  "duration": 145000,
                   "status": "passed"
                 },
                 "match": {
@@ -1654,13 +1653,13 @@
           },
           {
             "result": {
-              "duration": 4331665000,
+              "duration": 4608568000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 478000,
+                  "duration": 427000,
                   "status": "passed"
                 },
                 "match": {
@@ -1669,7 +1668,7 @@
               },
               {
                 "result": {
-                  "duration": 155000,
+                  "duration": 202000,
                   "status": "passed"
                 },
                 "match": {
@@ -1686,13 +1685,13 @@
           },
           {
             "result": {
-              "duration": 4775187000,
+              "duration": 5406727000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 434000,
+                  "duration": 401000,
                   "status": "passed"
                 },
                 "match": {
@@ -1701,7 +1700,7 @@
               },
               {
                 "result": {
-                  "duration": 103000,
+                  "duration": 99000,
                   "status": "passed"
                 },
                 "match": {
@@ -1718,13 +1717,13 @@
           },
           {
             "result": {
-              "duration": 4885889000,
+              "duration": 4536140000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 453000,
+                  "duration": 310000,
                   "status": "passed"
                 },
                 "match": {
@@ -1733,7 +1732,7 @@
               },
               {
                 "result": {
-                  "duration": 120000,
+                  "duration": 182000,
                   "status": "passed"
                 },
                 "match": {
@@ -1750,13 +1749,13 @@
           },
           {
             "result": {
-              "duration": 4300960000,
+              "duration": 3429491000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 681000,
+                  "duration": 351000,
                   "status": "passed"
                 },
                 "match": {
@@ -1765,7 +1764,7 @@
               },
               {
                 "result": {
-                  "duration": 167000,
+                  "duration": 89000,
                   "status": "passed"
                 },
                 "match": {
@@ -1782,13 +1781,14 @@
           },
           {
             "result": {
-              "duration": 192112000,
-              "status": "passed"
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Sport]s - The New York Tim...\u003e but was:\u003c[Tenni]s - The New York Tim...\u003e\n\tat org.junit.Assert.assertEquals(Assert.java:117)\n\tat org.junit.Assert.assertEquals(Assert.java:146)\n\tat base.CommonAPI.validateByTitle(CommonAPI.java:728)\n\tat stepDefinitions.HomeStepDefinition.i_verify_sport_page_title_as(HomeStepDefinition.java:180)\n\tat ✽.I verify sport page title as \"Sports - The New York Times\"(file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:82)\n",
+              "duration": 416801000,
+              "status": "failed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 353000,
+                  "duration": 442000,
                   "status": "passed"
                 },
                 "match": {
@@ -1797,7 +1797,7 @@
               },
               {
                 "result": {
-                  "duration": 87000,
+                  "duration": 172000,
                   "status": "passed"
                 },
                 "match": {
@@ -1834,13 +1834,13 @@
         "steps": [
           {
             "result": {
-              "duration": 2657620000,
+              "duration": 3063550000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 383000,
+                  "duration": 346000,
                   "status": "passed"
                 },
                 "match": {
@@ -1849,7 +1849,7 @@
               },
               {
                 "result": {
-                  "duration": 99000,
+                  "duration": 98000,
                   "status": "passed"
                 },
                 "match": {
@@ -1867,7 +1867,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:50:43.375Z",
+        "start_timestamp": "2020-09-21T20:49:49.232Z",
         "line": 85,
         "name": "New york times Arts functionality with data",
         "description": "",
@@ -1875,7 +1875,7 @@
         "after": [
           {
             "result": {
-              "duration": 174718000,
+              "duration": 185268000,
               "status": "passed"
             },
             "match": {
@@ -1884,7 +1884,7 @@
           },
           {
             "result": {
-              "duration": 80000,
+              "duration": 57000,
               "status": "passed"
             },
             "match": {
@@ -1897,13 +1897,13 @@
         "steps": [
           {
             "result": {
-              "duration": 5012779000,
+              "duration": 3667582000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 497000,
+                  "duration": 533000,
                   "status": "passed"
                 },
                 "match": {
@@ -1912,7 +1912,7 @@
               },
               {
                 "result": {
-                  "duration": 150000,
+                  "duration": 213000,
                   "status": "passed"
                 },
                 "match": {
@@ -1929,13 +1929,13 @@
           },
           {
             "result": {
-              "duration": 3671988000,
+              "duration": 3711056000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 463000,
+                  "duration": 540000,
                   "status": "passed"
                 },
                 "match": {
@@ -1944,7 +1944,7 @@
               },
               {
                 "result": {
-                  "duration": 132000,
+                  "duration": 138000,
                   "status": "passed"
                 },
                 "match": {
@@ -1961,45 +1961,13 @@
           },
           {
             "result": {
-              "duration": 5277849000,
+              "duration": 5304041000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 550000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 171000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 88,
-            "name": "I click on dance",
-            "match": {
-              "location": "stepDefinitions.HomeStepDefinition.i_click_on_dance()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 5622259000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 369000,
+                  "duration": 358000,
                   "status": "passed"
                 },
                 "match": {
@@ -2016,6 +1984,38 @@
                 }
               }
             ],
+            "line": 88,
+            "name": "I click on dance",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.i_click_on_dance()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5194556000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 361000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 95000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
             "line": 89,
             "name": "I click on movies",
             "match": {
@@ -2025,13 +2025,13 @@
           },
           {
             "result": {
-              "duration": 88271000,
+              "duration": 169585000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 438000,
+                  "duration": 304000,
                   "status": "passed"
                 },
                 "match": {
@@ -2040,7 +2040,7 @@
               },
               {
                 "result": {
-                  "duration": 111000,
+                  "duration": 79000,
                   "status": "passed"
                 },
                 "match": {
@@ -2077,13 +2077,13 @@
         "steps": [
           {
             "result": {
-              "duration": 2139517000,
+              "duration": 1942183000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 411000,
+                  "duration": 485000,
                   "status": "passed"
                 },
                 "match": {
@@ -2092,7 +2092,7 @@
               },
               {
                 "result": {
-                  "duration": 105000,
+                  "duration": 104000,
                   "status": "passed"
                 },
                 "match": {
@@ -2110,7 +2110,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:51:05.894Z",
+        "start_timestamp": "2020-09-21T20:50:10.540Z",
         "line": 93,
         "name": "New york times Books functionality with data",
         "description": "",
@@ -2118,7 +2118,7 @@
         "after": [
           {
             "result": {
-              "duration": 155196000,
+              "duration": 165092000,
               "status": "passed"
             },
             "match": {
@@ -2127,7 +2127,7 @@
           },
           {
             "result": {
-              "duration": 111000,
+              "duration": 113000,
               "status": "passed"
             },
             "match": {
@@ -2140,77 +2140,13 @@
         "steps": [
           {
             "result": {
-              "duration": 4863812000,
+              "duration": 5146986000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 362000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 89000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 94,
-            "name": "I click on Books button",
-            "match": {
-              "location": "stepDefinitions.HomeStepDefinition.i_click_on_books_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 3427722000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 449000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 97000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 95,
-            "name": "I click on bookReview",
-            "match": {
-              "location": "stepDefinitions.HomeStepDefinition.i_click_on_book_review()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 3402480000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 558000,
+                  "duration": 572000,
                   "status": "passed"
                 },
                 "match": {
@@ -2227,22 +2163,54 @@
                 }
               }
             ],
-            "line": 96,
-            "name": "I click on bestSeller",
+            "line": 94,
+            "name": "I click on Books button",
             "match": {
-              "location": "stepDefinitions.HomeStepDefinition.iClickOnBestSeller()"
+              "location": "stepDefinitions.HomeStepDefinition.i_click_on_books_button()"
             },
-            "keyword": "And "
+            "keyword": "When "
           },
           {
             "result": {
-              "duration": 12641000,
+              "duration": 3397203000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 571000,
+                  "duration": 404000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 91000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 95,
+            "name": "I click on bookReview",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.i_click_on_book_review()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3463656000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 537000,
                   "status": "passed"
                 },
                 "match": {
@@ -2252,6 +2220,38 @@
               {
                 "result": {
                   "duration": 148000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 96,
+            "name": "I click on bestSeller",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.iClickOnBestSeller()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10520000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 355000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 90000,
                   "status": "passed"
                 },
                 "match": {
@@ -2288,13 +2288,13 @@
         "steps": [
           {
             "result": {
-              "duration": 2060379000,
+              "duration": 3319960000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 371000,
+                  "duration": 415000,
                   "status": "passed"
                 },
                 "match": {
@@ -2303,7 +2303,7 @@
               },
               {
                 "result": {
-                  "duration": 107000,
+                  "duration": 194000,
                   "status": "passed"
                 },
                 "match": {
@@ -2321,7 +2321,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:51:19.908Z",
+        "start_timestamp": "2020-09-21T20:50:24.677Z",
         "line": 100,
         "name": "New York times byTheBook functionality with data",
         "description": "",
@@ -2329,7 +2329,7 @@
         "after": [
           {
             "result": {
-              "duration": 152164000,
+              "duration": 160188000,
               "status": "passed"
             },
             "match": {
@@ -2338,7 +2338,7 @@
           },
           {
             "result": {
-              "duration": 60000,
+              "duration": 59000,
               "status": "passed"
             },
             "match": {
@@ -2351,13 +2351,13 @@
         "steps": [
           {
             "result": {
-              "duration": 4805722000,
+              "duration": 3571222000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 394000,
+                  "duration": 489000,
                   "status": "passed"
                 },
                 "match": {
@@ -2366,7 +2366,7 @@
               },
               {
                 "result": {
-                  "duration": 102000,
+                  "duration": 133000,
                   "status": "passed"
                 },
                 "match": {
@@ -2383,13 +2383,13 @@
           },
           {
             "result": {
-              "duration": 3423202000,
+              "duration": 3109861000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 719000,
+                  "duration": 589000,
                   "status": "passed"
                 },
                 "match": {
@@ -2398,7 +2398,7 @@
               },
               {
                 "result": {
-                  "duration": 170000,
+                  "duration": 108000,
                   "status": "passed"
                 },
                 "match": {
@@ -2415,13 +2415,13 @@
           },
           {
             "result": {
-              "duration": 3026676000,
+              "duration": 3026198000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 448000,
+                  "duration": 699000,
                   "status": "passed"
                 },
                 "match": {
@@ -2430,7 +2430,7 @@
               },
               {
                 "result": {
-                  "duration": 107000,
+                  "duration": 152000,
                   "status": "passed"
                 },
                 "match": {
@@ -2467,13 +2467,13 @@
         "steps": [
           {
             "result": {
-              "duration": 3739678000,
+              "duration": 1997635000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 362000,
+                  "duration": 345000,
                   "status": "passed"
                 },
                 "match": {
@@ -2482,7 +2482,7 @@
               },
               {
                 "result": {
-                  "duration": 98000,
+                  "duration": 101000,
                   "status": "passed"
                 },
                 "match": {
@@ -2500,7 +2500,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:51:33.390Z",
+        "start_timestamp": "2020-09-21T20:50:37.875Z",
         "line": 106,
         "name": "New York Times crime page functionality",
         "description": "",
@@ -2508,7 +2508,7 @@
         "after": [
           {
             "result": {
-              "duration": 147155000,
+              "duration": 146816000,
               "status": "passed"
             },
             "match": {
@@ -2517,7 +2517,7 @@
           },
           {
             "result": {
-              "duration": 59000,
+              "duration": 56000,
               "status": "passed"
             },
             "match": {
@@ -2530,13 +2530,13 @@
         "steps": [
           {
             "result": {
-              "duration": 3076677000,
+              "duration": 4362578000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 371000,
+                  "duration": 353000,
                   "status": "passed"
                 },
                 "match": {
@@ -2545,7 +2545,7 @@
               },
               {
                 "result": {
-                  "duration": 95000,
+                  "duration": 80000,
                   "status": "passed"
                 },
                 "match": {
@@ -2562,13 +2562,13 @@
           },
           {
             "result": {
-              "duration": 3090740000,
+              "duration": 3249514000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 455000,
+                  "duration": 465000,
                   "status": "passed"
                 },
                 "match": {
@@ -2577,7 +2577,7 @@
               },
               {
                 "result": {
-                  "duration": 111000,
+                  "duration": 145000,
                   "status": "passed"
                 },
                 "match": {
@@ -2594,13 +2594,13 @@
           },
           {
             "result": {
-              "duration": 28240000,
+              "duration": 27675000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 400000,
+                  "duration": 364000,
                   "status": "passed"
                 },
                 "match": {
@@ -2609,7 +2609,7 @@
               },
               {
                 "result": {
-                  "duration": 108000,
+                  "duration": 90000,
                   "status": "passed"
                 },
                 "match": {
@@ -2646,13 +2646,13 @@
         "steps": [
           {
             "result": {
-              "duration": 2333042000,
+              "duration": 3175001000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 337000,
+                  "duration": 345000,
                   "status": "passed"
                 },
                 "match": {
@@ -2661,7 +2661,7 @@
               },
               {
                 "result": {
-                  "duration": 93000,
+                  "duration": 97000,
                   "status": "passed"
                 },
                 "match": {
@@ -2679,7 +2679,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:51:43.483Z",
+        "start_timestamp": "2020-09-21T20:50:47.669Z",
         "line": 112,
         "name": "New York times children\u0027s book page functionality",
         "description": "",
@@ -2687,7 +2687,7 @@
         "after": [
           {
             "result": {
-              "duration": 165693000,
+              "duration": 140443000,
               "status": "passed"
             },
             "match": {
@@ -2696,7 +2696,7 @@
           },
           {
             "result": {
-              "duration": 98000,
+              "duration": 56000,
               "status": "passed"
             },
             "match": {
@@ -2709,13 +2709,13 @@
         "steps": [
           {
             "result": {
-              "duration": 9211136000,
+              "duration": 6508129000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 341000,
+                  "duration": 335000,
                   "status": "passed"
                 },
                 "match": {
@@ -2724,7 +2724,7 @@
               },
               {
                 "result": {
-                  "duration": 89000,
+                  "duration": 92000,
                   "status": "passed"
                 },
                 "match": {
@@ -2741,13 +2741,13 @@
           },
           {
             "result": {
-              "duration": 50333000,
+              "duration": 177340000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 601000,
+                  "duration": 366000,
                   "status": "passed"
                 },
                 "match": {
@@ -2756,7 +2756,7 @@
               },
               {
                 "result": {
-                  "duration": 139000,
+                  "duration": 88000,
                   "status": "passed"
                 },
                 "match": {
@@ -2793,13 +2793,13 @@
         "steps": [
           {
             "result": {
-              "duration": 3630921000,
+              "duration": 1869233000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 548000,
+                  "duration": 528000,
                   "status": "passed"
                 },
                 "match": {
@@ -2808,7 +2808,7 @@
               },
               {
                 "result": {
-                  "duration": 248000,
+                  "duration": 249000,
                   "status": "passed"
                 },
                 "match": {
@@ -2826,7 +2826,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:51:55.252Z",
+        "start_timestamp": "2020-09-21T20:50:57.690Z",
         "line": 117,
         "name": "New york times book review podcast page functionality",
         "description": "",
@@ -2834,7 +2834,7 @@
         "after": [
           {
             "result": {
-              "duration": 130324000,
+              "duration": 144544000,
               "status": "passed"
             },
             "match": {
@@ -2843,7 +2843,7 @@
           },
           {
             "result": {
-              "duration": 442000,
+              "duration": 340000,
               "status": "passed"
             },
             "match": {
@@ -2856,13 +2856,13 @@
         "steps": [
           {
             "result": {
-              "duration": 3914071000,
+              "duration": 4963117000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 445000,
+                  "duration": 343000,
                   "status": "passed"
                 },
                 "match": {
@@ -2871,7 +2871,7 @@
               },
               {
                 "result": {
-                  "duration": 109000,
+                  "duration": 101000,
                   "status": "passed"
                 },
                 "match": {
@@ -2888,13 +2888,14 @@
           },
           {
             "result": {
-              "duration": 592374000,
-              "status": "passed"
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[The Book Review Podcast] - The New York Time...\u003e but was:\u003c[Books] - The New York Time...\u003e\n\tat org.junit.Assert.assertEquals(Assert.java:117)\n\tat org.junit.Assert.assertEquals(Assert.java:146)\n\tat base.CommonAPI.validateByTitle(CommonAPI.java:728)\n\tat stepDefinitions.HomeStepDefinition.i_verify_book_review_podcast_page_as(HomeStepDefinition.java:283)\n\tat ✽.I verify bookReviewPodcast page as \"The Book Review Podcast - The New York Times\"(file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePage.feature:119)\n",
+              "duration": 4999000,
+              "status": "failed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 371000,
+                  "duration": 398000,
                   "status": "passed"
                 },
                 "match": {
@@ -2903,7 +2904,7 @@
               },
               {
                 "result": {
-                  "duration": 85000,
+                  "duration": 96000,
                   "status": "passed"
                 },
                 "match": {
@@ -2940,13 +2941,13 @@
         "steps": [
           {
             "result": {
-              "duration": 3388579000,
+              "duration": 1728425000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 350000,
+                  "duration": 333000,
                   "status": "passed"
                 },
                 "match": {
@@ -2955,7 +2956,7 @@
               },
               {
                 "result": {
-                  "duration": 113000,
+                  "duration": 93000,
                   "status": "passed"
                 },
                 "match": {
@@ -2973,7 +2974,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:52:03.529Z",
+        "start_timestamp": "2020-09-21T20:51:04.683Z",
         "line": 122,
         "name": "New york times nowReadThis page functionality",
         "description": "",
@@ -2981,7 +2982,7 @@
         "after": [
           {
             "result": {
-              "duration": 156733000,
+              "duration": 134506000,
               "status": "passed"
             },
             "match": {
@@ -2990,7 +2991,7 @@
           },
           {
             "result": {
-              "duration": 70000,
+              "duration": 77000,
               "status": "passed"
             },
             "match": {
@@ -3003,13 +3004,13 @@
         "steps": [
           {
             "result": {
-              "duration": 7177196000,
+              "duration": 8028510000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 442000,
+                  "duration": 338000,
                   "status": "passed"
                 },
                 "match": {
@@ -3018,7 +3019,7 @@
               },
               {
                 "result": {
-                  "duration": 97000,
+                  "duration": 101000,
                   "status": "passed"
                 },
                 "match": {
@@ -3035,13 +3036,13 @@
           },
           {
             "result": {
-              "duration": 15068000,
+              "duration": 17898000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 432000,
+                  "duration": 420000,
                   "status": "passed"
                 },
                 "match": {
@@ -3050,7 +3051,7 @@
               },
               {
                 "result": {
-                  "duration": 132000,
+                  "duration": 99000,
                   "status": "passed"
                 },
                 "match": {
@@ -3087,13 +3088,13 @@
         "steps": [
           {
             "result": {
-              "duration": 3597708000,
+              "duration": 2925039000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 372000,
+                  "duration": 332000,
                   "status": "passed"
                 },
                 "match": {
@@ -3102,7 +3103,7 @@
               },
               {
                 "result": {
-                  "duration": 102000,
+                  "duration": 94000,
                   "status": "passed"
                 },
                 "match": {
@@ -3120,7 +3121,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:52:14.276Z",
+        "start_timestamp": "2020-09-21T20:51:14.601Z",
         "line": 127,
         "name": "new york times style page Functionality",
         "description": "",
@@ -3128,7 +3129,7 @@
         "after": [
           {
             "result": {
-              "duration": 155860000,
+              "duration": 197249000,
               "status": "passed"
             },
             "match": {
@@ -3137,7 +3138,7 @@
           },
           {
             "result": {
-              "duration": 56000,
+              "duration": 59000,
               "status": "passed"
             },
             "match": {
@@ -3150,13 +3151,13 @@
         "steps": [
           {
             "result": {
-              "duration": 4266609000,
+              "duration": 2529831000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 399000,
+                  "duration": 625000,
                   "status": "passed"
                 },
                 "match": {
@@ -3165,7 +3166,7 @@
               },
               {
                 "result": {
-                  "duration": 87000,
+                  "duration": 160000,
                   "status": "passed"
                 },
                 "match": {
@@ -3182,13 +3183,13 @@
           },
           {
             "result": {
-              "duration": 3550045000,
+              "duration": 3386890000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 337000,
+                  "duration": 497000,
                   "status": "passed"
                 },
                 "match": {
@@ -3197,7 +3198,7 @@
               },
               {
                 "result": {
-                  "duration": 77000,
+                  "duration": 110000,
                   "status": "passed"
                 },
                 "match": {
@@ -3214,13 +3215,13 @@
           },
           {
             "result": {
-              "duration": 20629000,
+              "duration": 21534000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 431000,
+                  "duration": 323000,
                   "status": "passed"
                 },
                 "match": {
@@ -3229,7 +3230,7 @@
               },
               {
                 "result": {
-                  "duration": 115000,
+                  "duration": 89000,
                   "status": "passed"
                 },
                 "match": {
@@ -3269,7 +3270,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-09-20T21:52:25.891Z",
+        "start_timestamp": "2020-09-21T20:51:23.675Z",
         "line": 5,
         "name": "",
         "description": "",
@@ -3277,7 +3278,7 @@
         "after": [
           {
             "result": {
-              "duration": 166356000,
+              "duration": 169595000,
               "status": "passed"
             },
             "match": {
@@ -3286,7 +3287,7 @@
           },
           {
             "result": {
-              "duration": 110000,
+              "duration": 62000,
               "status": "passed"
             },
             "match": {
@@ -3299,13 +3300,13 @@
         "steps": [
           {
             "result": {
-              "duration": 2147742000,
+              "duration": 2010269000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 351000,
+                  "duration": 327000,
                   "status": "passed"
                 },
                 "match": {
@@ -3314,7 +3315,7 @@
               },
               {
                 "result": {
-                  "duration": 112000,
+                  "duration": 90000,
                   "status": "passed"
                 },
                 "match": {
@@ -3331,13 +3332,13 @@
           },
           {
             "result": {
-              "duration": 3045311000,
+              "duration": 4285075000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 335000,
+                  "duration": 331000,
                   "status": "passed"
                 },
                 "match": {
@@ -3346,7 +3347,7 @@
               },
               {
                 "result": {
-                  "duration": 79000,
+                  "duration": 86000,
                   "status": "passed"
                 },
                 "match": {
@@ -3363,14 +3364,13 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".\\/\\/input\\[\\@placeholder\\\u003d\\\u0027SEARCH\\\u0027\\]\"}\n  (Session info: chrome\u003d85.0.4183.102)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027MacBook-Pro-2.home\u0027, ip: \u0027fd4b:8d38:69ba:1:ad36:a996:c23e:f247%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.6\u0027, java.version: \u002714.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/wz/dgqm41w90yg...}, goog:chromeOptions: {debuggerAddress: localhost:57964}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 0ecda4a660180cfe2238a2077e4c20e2\n*** Element info: {Using\u003dclass name, value\u003d//input[@placeholder\u003d\u0027SEARCH\u0027]}\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)\n\tat org.openqa.selenium.By$ByClassName.findElement(By.java:389)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat base.CommonAPI.typeOnElement(CommonAPI.java:241)\n\tat stepDefinitions.SearchStepDefinition.i_enter_in_search_field(SearchStepDefinition.java:38)\n\tat ✽.I enter \"today\u0027s news\" in search field(file:///Users/ramdaneameur/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/SearchPage.feature:8)\n",
-              "duration": 30205836000,
-              "status": "failed"
+              "duration": 12181770000,
+              "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 431000,
+                  "duration": 527000,
                   "status": "passed"
                 },
                 "match": {
@@ -3379,7 +3379,7 @@
               },
               {
                 "result": {
-                  "duration": 120000,
+                  "duration": 178000,
                   "status": "passed"
                 },
                 "match": {
@@ -3402,14 +3402,14 @@
           },
           {
             "result": {
-              "duration": 36000,
-              "status": "skipped"
+              "duration": 1238473000,
+              "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 56000,
-                  "status": "skipped"
+                  "duration": 464000,
+                  "status": "passed"
                 },
                 "match": {
                   "location": "stepDefinitions.HomeStepDefinition.getInit()"
@@ -3417,8 +3417,8 @@
               },
               {
                 "result": {
-                  "duration": 31000,
-                  "status": "skipped"
+                  "duration": 101000,
+                  "status": "passed"
                 },
                 "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"
@@ -3434,14 +3434,14 @@
           },
           {
             "result": {
-              "duration": 33000,
-              "status": "skipped"
+              "duration": 445814000,
+              "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 29000,
-                  "status": "skipped"
+                  "duration": 350000,
+                  "status": "passed"
                 },
                 "match": {
                   "location": "stepDefinitions.HomeStepDefinition.getInit()"
@@ -3449,8 +3449,8 @@
               },
               {
                 "result": {
-                  "duration": 29000,
-                  "status": "skipped"
+                  "duration": 81000,
+                  "status": "passed"
                 },
                 "match": {
                   "location": "stepDefinitions.SearchStepDefinition.getInit()"

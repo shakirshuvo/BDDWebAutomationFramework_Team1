@@ -28,7 +28,8 @@ public class HomeStepDefinition  extends CommonAPI {
     //checking the world button
     @Given("I am in newYorkTimes homepage")
     public void i_am_in_new_york_times_homepage() throws IOException {
-        openBrowser();
+        openBrowser("https://www.nytimes.com/");
+        driver.manage().window().maximize();
     }
     @When("I click on worldButton")
     public void i_click_on_world_button() {
@@ -306,10 +307,46 @@ public class HomeStepDefinition  extends CommonAPI {
     }
     @Then("I validate fashion page as {string}")
     public void i_validate_fashion_page_as(String string) {validateByTitle("Fashion - The New York Times");
-
+    }
+    //check the love page
+    @When("I click on love button")
+    public void i_click_on_love_button() throws InterruptedException {
+        homePage.styleButton.click();
+        sleepFor(3);
+        homePage.loveButton.click();
+        sleepFor(3);
+    }
+    @Then("I verify love page as {string}")
+    public void i_verify_love_page_as(String string) {validateByTitle("Love - The New York Times");
     }
 
+    //check the self care
+    @When("I click on self care button")
+    public void i_click_on_self_care_button() throws InterruptedException {
+        homePage.styleButton.click();
+        sleepFor(3);
+        homePage.selfCareButton.click();
+        sleepFor(3);
+    }
+    @Then("I validate self care as {string}")
+    public void i_validate_self_care_as(String string) {validateByTitle("Self-Care - The New York Times");
+    }
 
+    //check the wine beer cocktail page
+    @When("I click on food button")
+    public void iClickOnFoodButton() throws InterruptedException {
+        homePage.foodButton.click();
+        sleepFor(3);
+    }
+    @And("I click on wineBeerCocktails button")
+    public void i_click_on_wine_beer_cocktails_button() throws InterruptedException {
+        homePage.wineBeerCocktail.click();
+        sleepFor(3);
+    }
+    @Then("I verify wineBeerCocktail as {string}")
+    public void i_verify_wine_beer_cocktail_as(String string) {validateByTitle("Wine, Beer & Cocktails - The New York Times");
+
+    }
 
 
 
