@@ -293,6 +293,11 @@ public void validateCommonCheeckedBaggageFees(){
         Assert.assertEquals(actual,expected);
 
     }
+    public  void FlightStatus(){
+        String actual=driver.getTitle();
+        String expected="SkyMiles Help : Delta Air Lines";
+        Assert.assertEquals(actual,expected);
+}
 }
 
 

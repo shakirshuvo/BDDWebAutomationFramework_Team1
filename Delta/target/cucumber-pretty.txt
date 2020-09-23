@@ -1,7 +1,33 @@
 
-@MyTest @SmokeTest
-Scenario Outline: Check that user can navigate to 'Certificates & eCredits' page                        # src/test/java/features/HomePage.feature:20
-  Given I am on Delta homepage                                                                          # stepDefinitions.HomeStepDefinition.i_am_on_delta_homepage()
-  When I click on 'Need Help?' tab                                                                      # stepDefinitions.HomeStepDefinition.i_click_on_tab(java.lang.String)
-  And I click on 'Certificates & eCredits' link                                                         # stepDefinitions.HomeStepDefinition.i_click_on_link(java.lang.String)
-  Then I verify page "View or Redeem Multiple Certificates or Ecredits or Gift Cards : Delta Air Lines" # stepDefinitions.HomeStepDefinition.i_verify_page(java.lang.String)
+@MyTest
+Scenario: To make sure user can check Travel Info       # src/test/java/features/HomePage.feature:76
+  Given I am on Delta homepage                          # stepDefinitions.HomeStepDefinition.i_am_on_delta_homepage()
+  When I then click on flight Schedules                 # stepDefinitions.HomeStepDefinition.iThenClickOnFlightSchedules()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="secPanel1"]/ngc-app-sec-links-content/div/div/div[2]/div[3]/ul/li[8]"}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-9UNDGRQ2', ip: '192.168.31.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\15029\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58172}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ce9a1defbdc45dd2fd6887bfe4e21230
+*** Element info: {Using=xpath, value=//*[@id="secPanel1"]/ngc-app-sec-links-content/div/div/div[2]/div[3]/ul/li[8]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at base.CommonAPI.clickOnElementByXpath(CommonAPI.java:221)
+	at stepDefinitions.HomeStepDefinition.iThenClickOnFlightSchedules(HomeStepDefinition.java:180)
+	at ✽.I then click on flight Schedules(file:///C:/Users/15029/IdeaProjects/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/HomePage.feature:77)
+
+  Then I verify flight Schedules by text search by date # stepDefinitions.HomeStepDefinition.iVerifyFlightSchedulesByTextSearchByDate()

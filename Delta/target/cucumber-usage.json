@@ -5,67 +5,13 @@
       {
         "name": "I am on Delta homepage",
         "aggregatedDurations": {
-          "median": 11.3418309,
-          "average": 11.3418309
+          "median": 7.8575179,
+          "average": 7.8575179
         },
         "durations": [
           {
-            "duration": 11.3418309,
+            "duration": 7.8575179,
             "location": "file:///C:/Users/15029/IdeaProjects/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/HomePage.feature:4"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "I click on {string} tab",
-    "steps": [
-      {
-        "name": "I click on \u0027Need Help?\u0027 tab",
-        "aggregatedDurations": {
-          "median": 0.4274636,
-          "average": 0.4274636
-        },
-        "durations": [
-          {
-            "duration": 0.4274636,
-            "location": "file:///C:/Users/15029/IdeaProjects/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/HomePage.feature:15"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "I click on {string} link",
-    "steps": [
-      {
-        "name": "I click on \u0027Certificates \u0026 eCredits\u0027 link",
-        "aggregatedDurations": {
-          "median": 3.8816617,
-          "average": 3.8816617
-        },
-        "durations": [
-          {
-            "duration": 3.8816617,
-            "location": "file:///C:/Users/15029/IdeaProjects/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/HomePage.feature:16"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "I verify page {string}",
-    "steps": [
-      {
-        "name": "I verify page \"View or Redeem Multiple Certificates or Ecredits or Gift Cards : Delta Air Lines\"",
-        "aggregatedDurations": {
-          "median": 0.4075073,
-          "average": 0.4075073
-        },
-        "durations": [
-          {
-            "duration": 0.4075073,
-            "location": "file:///C:/Users/15029/IdeaProjects/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/HomePage.feature:17"
           }
         ]
       }
