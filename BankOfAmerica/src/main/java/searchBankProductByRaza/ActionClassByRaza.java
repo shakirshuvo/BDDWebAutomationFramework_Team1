@@ -22,14 +22,14 @@ public class ActionClassByRaza extends CommonAPI {
 
     }
 
-    public static void validateSearchItems() {
+    public static void validateSearchItems(String expectedResult) {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        expectedResult = "Checking Accounts";
+//        expectedResult = "Checking Accounts";
         actualResult = getTextByXpath(searchValidationLocator);
         System.out.println("Actual Text  ="+ actualResult);
+        System.out.println("Expected Text  ="+ expectedResult);
         Assert.assertEquals(actualResult,expectedResult,"Test Failed");
 
     }
-
 
 }
