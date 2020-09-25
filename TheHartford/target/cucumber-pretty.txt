@@ -1,0 +1,35 @@
+
+@SmokeTest
+Scenario: Successful redirecting after clicking Car Insurance tab # src/test/java/features/HFHomePageByMobin.feature:8
+  Given User is in The Hartford homepage                          # stepDefinitions.HFHomePageByMobinStepDefinition.user_is_in_the_hartford_homepage()
+  When User hover over auto tab                                   # stepDefinitions.HFHomePageByMobinStepDefinition.userHoverOverAutoTab()
+  And clicks on Car Insurance tab                                 # stepDefinitions.HFHomePageByMobinStepDefinition.clicksOnCarInsuranceTab()
+  Then User is directed to Car Insurance page                     # stepDefinitions.HFHomePageByMobinStepDefinition.user_is_directed_to_car_insurance_page()
+
+@SmokeTest
+Scenario: Successful redirecting after clicking Condo Insurance tab # src/test/java/features/HFHomePageByMobin.feature:15
+  Given User is in The Hartford homepage                            # stepDefinitions.HFHomePageByMobinStepDefinition.user_is_in_the_hartford_homepage()
+  When User hover over Home tab                                     # stepDefinitions.HFHomePageByMobinStepDefinition.userHoverOverHomeTab()
+  And clicks on Condo Insurance tab                                 # stepDefinitions.HFHomePageByMobinStepDefinition.clicksOnCondoInsuranceTab()
+  Then User is directed to Condo Insurance page                     # stepDefinitions.HFHomePageByMobinStepDefinition.userIsDirectedToCondoInsurancePage()
+
+@SmokeTest
+Scenario: Successful redirecting after clicking Business Insurance tab # src/test/java/features/HFHomePageByMobin.feature:22
+  Given User is in The Hartford homepage                               # stepDefinitions.HFHomePageByMobinStepDefinition.user_is_in_the_hartford_homepage()
+  When User hover over Business tab                                    # stepDefinitions.HFHomePageByMobinStepDefinition.userHoverOverBusinessTab()
+  And clicks on Business Insurance tab                                 # stepDefinitions.HFHomePageByMobinStepDefinition.clicksOnBusinessInsuranceTab()
+  Then User is directed to Business Insurance page                     # stepDefinitions.HFHomePageByMobinStepDefinition.userIsDirectedToBusinessInsurancePage()
+
+@SmokeTest
+Scenario: Successful redirecting after clicking for Employers tab # src/test/java/features/HFHomePageByMobin.feature:29
+  Given User is in The Hartford homepage                          # stepDefinitions.HFHomePageByMobinStepDefinition.user_is_in_the_hartford_homepage()
+  When User hover over Employee Benifits tab                      # stepDefinitions.HFHomePageByMobinStepDefinition.userHoverOverEmployeeBenifitsTab()
+  And clicks on for Employers tab                                 # stepDefinitions.HFHomePageByMobinStepDefinition.clicksOnForEmployersTab()
+  Then User is directed to for Employers page                     # stepDefinitions.HFHomePageByMobinStepDefinition.userIsDirectedToForEmployersPage()
+
+@SmokeTest
+Scenario: Successful redirecting after clicking Newsroom tab # src/test/java/features/HFHomePageByMobin.feature:36
+  Given User is in The Hartford homepage                     # stepDefinitions.HFHomePageByMobinStepDefinition.user_is_in_the_hartford_homepage()
+  When User hover over About tab                             # stepDefinitions.HFHomePageByMobinStepDefinition.userHoverOverAboutTab()
+  And clicks on Newsroom tab                                 # stepDefinitions.HFHomePageByMobinStepDefinition.clicksOnNewsroomTab()
+  Then User is directed to Newsroom page                     # stepDefinitions.HFHomePageByMobinStepDefinition.userIsDirectedToNewsroomPage()

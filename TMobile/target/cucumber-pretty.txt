@@ -1,0 +1,6 @@
+
+@SmokeTest
+Scenario: Successful redirecting after clicking Prepaid tab # src/test/java/features/TMobHomePageByMobin.feature:20
+  Given User is in TMobile homepage                         # stepDefinitions.TMobHomePageByMobinStepDefination.user_is_in_t_mobile_homepage()
+  When User clicks on Prepaid tab                           # stepDefinitions.TMobHomePageByMobinStepDefination.userClicksOnPrepaidTab()
+  Then User is directed to Prepaid page                     # stepDefinitions.TMobHomePageByMobinStepDefination.userIsDirectedToPrepaidPage()

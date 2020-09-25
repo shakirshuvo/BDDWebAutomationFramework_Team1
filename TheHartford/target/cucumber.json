@@ -1,0 +1,878 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7002758000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 50190000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HFHomePageByMobinStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 7726000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in The Hartford homepage",
+            "match": {
+              "location": "stepDefinitions.HFHomePageByMobinStepDefinition.user_is_in_the_hartford_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-25T02:56:31.128Z",
+        "line": 8,
+        "name": "Successful redirecting after clicking Car Insurance tab",
+        "description": "",
+        "id": "the-hartford-homepage-tab-functionality-tests;successful-redirecting-after-clicking-car-insurance-tab",
+        "after": [
+          {
+            "result": {
+              "duration": 187246000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 432000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HFHomePageByMobinStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 530000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2273000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HFHomePageByMobinStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 2780000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "User hover over auto tab",
+            "match": {
+              "location": "stepDefinitions.HFHomePageByMobinStepDefinition.userHoverOverAutoTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3957427000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1076000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HFHomePageByMobinStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 3613000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "clicks on Car Insurance tab",
+            "match": {
+              "location": "stepDefinitions.HFHomePageByMobinStepDefinition.clicksOnCarInsuranceTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 198507000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1344000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HFHomePageByMobinStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 4230000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 11,
+            "name": "User is directed to Car Insurance page",
+            "match": {
+              "location": "stepDefinitions.HFHomePageByMobinStepDefinition.user_is_directed_to_car_insurance_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3320498000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 792000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HFHomePageByMobinStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1499000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in The Hartford homepage",
+            "match": {
+              "location": "stepDefinitions.HFHomePageByMobinStepDefinition.user_is_in_the_hartford_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-25T02:56:42.834Z",
+        "line": 15,
+        "name": "Successful redirecting after clicking Condo Insurance tab",
+        "description": "",
+        "id": "the-hartford-homepage-tab-functionality-tests;successful-redirecting-after-clicking-condo-insurance-tab",
+        "after": [
+          {
+            "result": {
+              "duration": 162349000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 121000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HFHomePageByMobinStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 343000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1267000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HFHomePageByMobinStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1197000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 16,
+            "name": "User hover over Home tab",
+            "match": {
+              "location": "stepDefinitions.HFHomePageByMobinStepDefinition.userHoverOverHomeTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3407342000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 892000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HFHomePageByMobinStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1506000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 17,
+            "name": "clicks on Condo Insurance tab",
+            "match": {
+              "location": "stepDefinitions.HFHomePageByMobinStepDefinition.clicksOnCondoInsuranceTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38241000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 938000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HFHomePageByMobinStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1179000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 18,
+            "name": "User is directed to Condo Insurance page",
+            "match": {
+              "location": "stepDefinitions.HFHomePageByMobinStepDefinition.userIsDirectedToCondoInsurancePage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2863348000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 815000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HFHomePageByMobinStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1104000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in The Hartford homepage",
+            "match": {
+              "location": "stepDefinitions.HFHomePageByMobinStepDefinition.user_is_in_the_hartford_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-25T02:56:49.812Z",
+        "line": 22,
+        "name": "Successful redirecting after clicking Business Insurance tab",
+        "description": "",
+        "id": "the-hartford-homepage-tab-functionality-tests;successful-redirecting-after-clicking-business-insurance-tab",
+        "after": [
+          {
+            "result": {
+              "duration": 208426000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 763000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HFHomePageByMobinStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 310000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1134000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HFHomePageByMobinStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1225000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 23,
+            "name": "User hover over Business tab",
+            "match": {
+              "location": "stepDefinitions.HFHomePageByMobinStepDefinition.userHoverOverBusinessTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3640570000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 810000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HFHomePageByMobinStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1415000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 24,
+            "name": "clicks on Business Insurance tab",
+            "match": {
+              "location": "stepDefinitions.HFHomePageByMobinStepDefinition.clicksOnBusinessInsuranceTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 130105000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 594000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HFHomePageByMobinStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 917000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 25,
+            "name": "User is directed to Business Insurance page",
+            "match": {
+              "location": "stepDefinitions.HFHomePageByMobinStepDefinition.userIsDirectedToBusinessInsurancePage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2745958000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 618000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HFHomePageByMobinStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 960000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in The Hartford homepage",
+            "match": {
+              "location": "stepDefinitions.HFHomePageByMobinStepDefinition.user_is_in_the_hartford_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-25T02:56:56.699Z",
+        "line": 29,
+        "name": "Successful redirecting after clicking for Employers tab",
+        "description": "",
+        "id": "the-hartford-homepage-tab-functionality-tests;successful-redirecting-after-clicking-for-employers-tab",
+        "after": [
+          {
+            "result": {
+              "duration": 184570000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 219000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HFHomePageByMobinStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 333000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 851000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HFHomePageByMobinStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 899000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 30,
+            "name": "User hover over Employee Benifits tab",
+            "match": {
+              "location": "stepDefinitions.HFHomePageByMobinStepDefinition.userHoverOverEmployeeBenifitsTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5608662000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 481000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HFHomePageByMobinStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 783000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 31,
+            "name": "clicks on for Employers tab",
+            "match": {
+              "location": "stepDefinitions.HFHomePageByMobinStepDefinition.clicksOnForEmployersTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5526000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1481000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HFHomePageByMobinStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1259000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 32,
+            "name": "User is directed to for Employers page",
+            "match": {
+              "location": "stepDefinitions.HFHomePageByMobinStepDefinition.userIsDirectedToForEmployersPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3431965000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 609000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HFHomePageByMobinStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 842000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in The Hartford homepage",
+            "match": {
+              "location": "stepDefinitions.HFHomePageByMobinStepDefinition.user_is_in_the_hartford_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-25T02:57:05.292Z",
+        "line": 36,
+        "name": "Successful redirecting after clicking Newsroom tab",
+        "description": "",
+        "id": "the-hartford-homepage-tab-functionality-tests;successful-redirecting-after-clicking-newsroom-tab",
+        "after": [
+          {
+            "result": {
+              "duration": 187890000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinition.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 153000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HFHomePageByMobinStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 171000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 439000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HFHomePageByMobinStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 633000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 37,
+            "name": "User hover over About tab",
+            "match": {
+              "location": "stepDefinitions.HFHomePageByMobinStepDefinition.userHoverOverAboutTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2948835000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 322000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HFHomePageByMobinStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 565000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 38,
+            "name": "clicks on Newsroom tab",
+            "match": {
+              "location": "stepDefinitions.HFHomePageByMobinStepDefinition.clicksOnNewsroomTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1242255000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 425000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HFHomePageByMobinStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 382000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 39,
+            "name": "User is directed to Newsroom page",
+            "match": {
+              "location": "stepDefinitions.HFHomePageByMobinStepDefinition.userIsDirectedToNewsroomPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "The Hartford homepage tab functionality tests",
+    "description": "",
+    "id": "the-hartford-homepage-tab-functionality-tests",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/HFHomePageByMobin.feature",
+    "tags": []
+  }
+]

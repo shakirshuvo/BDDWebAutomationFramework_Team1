@@ -1,0 +1,260 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6290279000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 45265000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.UHCHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in United Health Care homepage",
+            "match": {
+              "location": "stepDefinitions.UHCHomePageByMobinStepDefinition.user_is_in_united_health_care_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-25T00:24:18.809Z",
+        "line": 131,
+        "name": "Negetiv testing for myuhc registration with invalid information",
+        "description": "",
+        "id": "united-health-care-homepage-tab-functionality-tests;negetiv-testing-for-myuhc-registration-with-invalid-information;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 269013000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.UHCHomePageByMobinStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5342800000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2424000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.UHCHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 121,
+            "name": "User goes to myuhc page from signin tab",
+            "match": {
+              "location": "stepDefinitions.UHCHomePageByMobinStepDefinition.userGoesToMyuhcPageFromSigninTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5383175000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2503000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.UHCHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 122,
+            "name": "User clicks on registernow tab",
+            "match": {
+              "location": "stepDefinitions.UHCHomePageByMobinStepDefinition.userClicksOnRegisternowTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//label[contains(text(),\u0027Social Security Number\u0027)]\"}\n  (Session info: chrome\u003d85.0.4183.121)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Farjanas-Air\u0027, ip: \u00272604:2000:1700:1c:1b2:5547:e4c8:25b4%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.13.6\u0027, java.version: \u002711.0.6\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/27/nmfyzmzj1c7...}, goog:chromeOptions: {debuggerAddress: localhost:59146}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 2f533cfb2cabfa92639e5099aaf009b2\n*** Element info: {Using\u003dxpath, value\u003d//label[contains(text(),\u0027Social Security Number\u0027)]}\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy25.click(Unknown Source)\n\tat uhcHomeByMobin.UHCHomePage.clickSSNRadioButton(UHCHomePage.java:482)\n\tat stepDefinitions.UHCHomePageByMobinStepDefinition.userClicksSocialSecurityNumberRadioButton(UHCHomePageByMobinStepDefinition.java:302)\n\tat ✽.User clicks Social Security Number radio button(file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/UHCHomePageByMobin.feature:123)\n",
+              "duration": 10201913000,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 7933000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.UHCHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 123,
+            "name": "User clicks Social Security Number radio button",
+            "match": {
+              "location": "stepDefinitions.UHCHomePageByMobinStepDefinition.userClicksSocialSecurityNumberRadioButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 171000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 320000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.UHCHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 124,
+            "name": "selects birth month",
+            "match": {
+              "location": "stepDefinitions.UHCHomePageByMobinStepDefinition.selectsBirthMonth()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 323000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 198000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.UHCHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 125,
+            "name": "insarts \"Johny\", \"Deep\", \"12-3451\", \"11470\", \"12\" and \"1981\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Johny\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"Deep\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"12-3451\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"11470\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"12\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"1981\"",
+                  "offset": 54
+                }
+              ],
+              "location": "stepDefinitions.UHCHomePageByMobinStepDefinition.insartsAnd(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 317000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 279000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.UHCHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 126,
+            "name": "clicks continue button",
+            "match": {
+              "location": "stepDefinitions.UHCHomePageByMobinStepDefinition.clicksContinueButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 167000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 199000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.UHCHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 127,
+            "name": "User validae registration error message",
+            "match": {
+              "location": "stepDefinitions.UHCHomePageByMobinStepDefinition.userValidaeRegistrationErrorMessage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "United Health Care homepage tab functionality tests",
+    "description": "",
+    "id": "united-health-care-homepage-tab-functionality-tests",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/UHCHomePageByMobin.feature",
+    "tags": []
+  }
+]

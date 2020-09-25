@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="12.279">
+    <testcase classname="Amazon homepage tab functionality tests" name="Successful redirecting after clicking BestSeller tab" time="11.88">
+        <system-out>
+            <![CDATA[Given User is in Amazon homepage............................................passed
+When User clicks on BestSeller tab..........................................passed
+Then User is directed to BestSeller page....................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

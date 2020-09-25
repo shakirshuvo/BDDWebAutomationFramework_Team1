@@ -1,0 +1,6 @@
+
+@SmokeTest
+Scenario: Successful redirecting after clicking BestSeller tab # src/test/java/features/AmazonHomePageByMobin.feature:8
+  Given User is in Amazon homepage                             # stepDefinitions.AmazonHomePageByMobinStepDefinition.user_is_in_amazon_homepage()
+  When User clicks on BestSeller tab                           # stepDefinitions.AmazonHomePageByMobinStepDefinition.user_clicks_on_best_seller_tab()
+  Then User is directed to BestSeller page                     # stepDefinitions.AmazonHomePageByMobinStepDefinition.user_is_directed_to_best_seller_page()

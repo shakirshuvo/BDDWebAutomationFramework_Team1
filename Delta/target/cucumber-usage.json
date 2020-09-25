@@ -1,0 +1,20 @@
+[
+  {
+    "source": "User is in Delta homepage",
+    "steps": [
+      {
+        "name": "User is in Delta homepage",
+        "aggregatedDurations": {
+          "median": 6.25025,
+          "average": 6.25025
+        },
+        "durations": [
+          {
+            "duration": 6.25025,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/DeltaHomePageByMobin.feature:4"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "source": "User is in TMobile homepage",
+    "steps": [
+      {
+        "name": "User is in TMobile homepage",
+        "aggregatedDurations": {
+          "median": 6.457681,
+          "average": 6.457681
+        },
+        "durations": [
+          {
+            "duration": 6.457681,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TMobile/src/test/java/features/TMobHomePageByMobin.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on Prepaid tab",
+    "steps": [
+      {
+        "name": "User clicks on Prepaid tab",
+        "aggregatedDurations": {
+          "median": 2.301443,
+          "average": 2.301443
+        },
+        "durations": [
+          {
+            "duration": 2.301443,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TMobile/src/test/java/features/TMobHomePageByMobin.feature:21"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to Prepaid page",
+    "steps": [
+      {
+        "name": "User is directed to Prepaid page",
+        "aggregatedDurations": {
+          "median": 4.579625,
+          "average": 4.579625
+        },
+        "durations": [
+          {
+            "duration": 4.579625,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TMobile/src/test/java/features/TMobHomePageByMobin.feature:22"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6250250000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 50971000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in Delta homepage",
+            "match": {
+              "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.user_is_in_delta_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-25T00:22:44.562Z",
+        "line": 8,
+        "name": "Successful redirecting after clicking aircraft tab",
+        "description": "",
+        "id": "delta-homepage-tab-functionality-tests;successful-redirecting-after-clicking-aircraft-tab",
+        "after": [
+          {
+            "result": {
+              "duration": 166653000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@id\u003d\u0027secondary-static-link-11\u0027]\"}\n  (Session info: chrome\u003d85.0.4183.121)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Farjanas-Air\u0027, ip: \u00272604:2000:1700:1c:1b2:5547:e4c8:25b4%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.13.6\u0027, java.version: \u002711.0.6\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/27/nmfyzmzj1c7...}, goog:chromeOptions: {debuggerAddress: localhost:58298}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 77a7def331149c13d0f392e28434a8cc\n*** Element info: {Using\u003dxpath, value\u003d//a[@id\u003d\u0027secondary-static-link-11\u0027]}\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy25.click(Unknown Source)\n\tat deltaHomeByMobin.DeltaHomePageByMobin.checkTravleInfoDropDownTab(DeltaHomePageByMobin.java:44)\n\tat stepDefinitions.DeltaHomePageByMobinStepDefinition.user_hover_over_travel_info_tab(DeltaHomePageByMobinStepDefinition.java:35)\n\tat ✽.User hover over travel info tab(file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/DeltaHomePageByMobin.feature:9)\n",
+              "duration": 16175964000,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 3407000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "User hover over travel info tab",
+            "match": {
+              "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.user_hover_over_travel_info_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 264000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 395000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "clicks on aircraft tab",
+            "match": {
+              "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.clicks_on_aircraft_tab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1017000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 299000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 11,
+            "name": "User is directed to *** page",
+            "match": {
+              "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.user_is_directed_to_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Delta homepage tab functionality tests",
+    "description": "",
+    "id": "delta-homepage-tab-functionality-tests",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/DeltaHomePageByMobin.feature",
+    "tags": []
+  }
+]

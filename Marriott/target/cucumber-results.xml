@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="33.719">
+    <testcase classname="Marriott homepage tab functionality tests" name="Successful redirecting after clicking Deutsch tab" time="16.273">
+        <system-out>
+            <![CDATA[Given User is in Marriott homepage..........................................passed
+When User clicks on language tab............................................passed
+And Deutsch tab.............................................................passed
+Then User is directed to the German language page...........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Marriott homepage tab functionality tests" name="Successful redirecting after clicking Espanol tab" time="16.959">
+        <system-out>
+            <![CDATA[Given User is in Marriott homepage..........................................passed
+When User clicks on language tab............................................passed
+And Espanol tab.............................................................passed
+Then User is directed to the Spanish language page..........................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

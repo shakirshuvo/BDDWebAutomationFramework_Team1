@@ -1,0 +1,30 @@
+
+@SmokeTest
+Scenario: Successful redirecting after clicking World tab # src/test/java/features/NYTHomePageByMobin.feature:8
+  Given User is in New York Times homepage                # stepDefinitions.NYTHomePageByMobinStepDefinition.user_is_in_new_york_times_homepage()
+  When User clicks on World tab                           # stepDefinitions.NYTHomePageByMobinStepDefinition.user_clicks_on_world_tab()
+  Then User is directed to World page                     # stepDefinitions.NYTHomePageByMobinStepDefinition.user_is_directed_to_world_page()
+
+@SmokeTest
+Scenario: Successful redirecting after clicking US tab # src/test/java/features/NYTHomePageByMobin.feature:14
+  Given User is in New York Times homepage             # stepDefinitions.NYTHomePageByMobinStepDefinition.user_is_in_new_york_times_homepage()
+  When User clicks on US tab                           # stepDefinitions.NYTHomePageByMobinStepDefinition.userClicksOnUSTab()
+  Then User is directed to US page                     # stepDefinitions.NYTHomePageByMobinStepDefinition.userIsDirectedToUSPage()
+
+@SmokeTest
+Scenario: Successful redirecting after clicking Politics tab # src/test/java/features/NYTHomePageByMobin.feature:20
+  Given User is in New York Times homepage                   # stepDefinitions.NYTHomePageByMobinStepDefinition.user_is_in_new_york_times_homepage()
+  When User clicks on Politics tab                           # stepDefinitions.NYTHomePageByMobinStepDefinition.userClicksOnPoliticsTab()
+  Then User is directed to Politics page                     # stepDefinitions.NYTHomePageByMobinStepDefinition.userIsDirectedToPoliticsPage()
+
+@SmokeTest
+Scenario: Successful redirecting after clicking NY tab # src/test/java/features/NYTHomePageByMobin.feature:26
+  Given User is in New York Times homepage             # stepDefinitions.NYTHomePageByMobinStepDefinition.user_is_in_new_york_times_homepage()
+  When User clicks on NY tab                           # stepDefinitions.NYTHomePageByMobinStepDefinition.userClicksOnNYTab()
+  Then User is directed to NY page                     # stepDefinitions.NYTHomePageByMobinStepDefinition.userIsDirectedToNYPage()
+
+@SmokeTest
+Scenario: Successful redirecting after clicking Business tab # src/test/java/features/NYTHomePageByMobin.feature:32
+  Given User is in New York Times homepage                   # stepDefinitions.NYTHomePageByMobinStepDefinition.user_is_in_new_york_times_homepage()
+  When User clicks on Business tab                           # stepDefinitions.NYTHomePageByMobinStepDefinition.userClicksOnBusinessTab()
+  Then User is directed to Business page                     # stepDefinitions.NYTHomePageByMobinStepDefinition.userIsDirectedToBusinessPage()

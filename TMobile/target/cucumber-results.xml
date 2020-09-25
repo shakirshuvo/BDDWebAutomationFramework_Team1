@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="14.622">
+    <testcase classname="TMobile homepage tab functionality tests" name="Successful redirecting after clicking Prepaid tab" time="13.959">
+        <system-out>
+            <![CDATA[Given User is in TMobile homepage...........................................passed
+When User clicks on Prepaid tab.............................................passed
+Then User is directed to Prepaid page.......................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

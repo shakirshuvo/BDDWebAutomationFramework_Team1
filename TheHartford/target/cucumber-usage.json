@@ -1,0 +1,306 @@
+[
+  {
+    "source": "User is in The Hartford homepage",
+    "steps": [
+      {
+        "name": "User is in The Hartford homepage",
+        "aggregatedDurations": {
+          "median": 3.320498,
+          "average": 3.8729054
+        },
+        "durations": [
+          {
+            "duration": 7.002758,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HFHomePageByMobin.feature:4"
+          },
+          {
+            "duration": 3.320498,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HFHomePageByMobin.feature:4"
+          },
+          {
+            "duration": 2.863348,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HFHomePageByMobin.feature:4"
+          },
+          {
+            "duration": 2.745958,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HFHomePageByMobin.feature:4"
+          },
+          {
+            "duration": 3.431965,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HFHomePageByMobin.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User hover over auto tab",
+    "steps": [
+      {
+        "name": "User hover over auto tab",
+        "aggregatedDurations": {
+          "median": 5.3E-4,
+          "average": 5.3E-4
+        },
+        "durations": [
+          {
+            "duration": 5.3E-4,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HFHomePageByMobin.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "clicks on Car Insurance tab",
+    "steps": [
+      {
+        "name": "clicks on Car Insurance tab",
+        "aggregatedDurations": {
+          "median": 3.957427,
+          "average": 3.957427
+        },
+        "durations": [
+          {
+            "duration": 3.957427,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HFHomePageByMobin.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to Car Insurance page",
+    "steps": [
+      {
+        "name": "User is directed to Car Insurance page",
+        "aggregatedDurations": {
+          "median": 0.198507,
+          "average": 0.198507
+        },
+        "durations": [
+          {
+            "duration": 0.198507,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HFHomePageByMobin.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User hover over Home tab",
+    "steps": [
+      {
+        "name": "User hover over Home tab",
+        "aggregatedDurations": {
+          "median": 3.43E-4,
+          "average": 3.43E-4
+        },
+        "durations": [
+          {
+            "duration": 3.43E-4,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HFHomePageByMobin.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "clicks on Condo Insurance tab",
+    "steps": [
+      {
+        "name": "clicks on Condo Insurance tab",
+        "aggregatedDurations": {
+          "median": 3.407342,
+          "average": 3.407342
+        },
+        "durations": [
+          {
+            "duration": 3.407342,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HFHomePageByMobin.feature:17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to Condo Insurance page",
+    "steps": [
+      {
+        "name": "User is directed to Condo Insurance page",
+        "aggregatedDurations": {
+          "median": 0.038241,
+          "average": 0.038241
+        },
+        "durations": [
+          {
+            "duration": 0.038241,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HFHomePageByMobin.feature:18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User hover over Business tab",
+    "steps": [
+      {
+        "name": "User hover over Business tab",
+        "aggregatedDurations": {
+          "median": 3.1E-4,
+          "average": 3.1E-4
+        },
+        "durations": [
+          {
+            "duration": 3.1E-4,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HFHomePageByMobin.feature:23"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "clicks on Business Insurance tab",
+    "steps": [
+      {
+        "name": "clicks on Business Insurance tab",
+        "aggregatedDurations": {
+          "median": 3.64057,
+          "average": 3.64057
+        },
+        "durations": [
+          {
+            "duration": 3.64057,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HFHomePageByMobin.feature:24"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to Business Insurance page",
+    "steps": [
+      {
+        "name": "User is directed to Business Insurance page",
+        "aggregatedDurations": {
+          "median": 0.130105,
+          "average": 0.130105
+        },
+        "durations": [
+          {
+            "duration": 0.130105,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HFHomePageByMobin.feature:25"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User hover over Employee Benifits tab",
+    "steps": [
+      {
+        "name": "User hover over Employee Benifits tab",
+        "aggregatedDurations": {
+          "median": 3.33E-4,
+          "average": 3.33E-4
+        },
+        "durations": [
+          {
+            "duration": 3.33E-4,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HFHomePageByMobin.feature:30"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "clicks on for Employers tab",
+    "steps": [
+      {
+        "name": "clicks on for Employers tab",
+        "aggregatedDurations": {
+          "median": 5.608662,
+          "average": 5.608662
+        },
+        "durations": [
+          {
+            "duration": 5.608662,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HFHomePageByMobin.feature:31"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to for Employers page",
+    "steps": [
+      {
+        "name": "User is directed to for Employers page",
+        "aggregatedDurations": {
+          "median": 0.005526,
+          "average": 0.005526
+        },
+        "durations": [
+          {
+            "duration": 0.005526,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HFHomePageByMobin.feature:32"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User hover over About tab",
+    "steps": [
+      {
+        "name": "User hover over About tab",
+        "aggregatedDurations": {
+          "median": 1.71E-4,
+          "average": 1.71E-4
+        },
+        "durations": [
+          {
+            "duration": 1.71E-4,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HFHomePageByMobin.feature:37"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "clicks on Newsroom tab",
+    "steps": [
+      {
+        "name": "clicks on Newsroom tab",
+        "aggregatedDurations": {
+          "median": 2.948835,
+          "average": 2.948835
+        },
+        "durations": [
+          {
+            "duration": 2.948835,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HFHomePageByMobin.feature:38"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to Newsroom page",
+    "steps": [
+      {
+        "name": "User is directed to Newsroom page",
+        "aggregatedDurations": {
+          "median": 1.242255,
+          "average": 1.242255
+        },
+        "durations": [
+          {
+            "duration": 1.242255,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HFHomePageByMobin.feature:39"
+          }
+        ]
+      }
+    ]
+  }
+]

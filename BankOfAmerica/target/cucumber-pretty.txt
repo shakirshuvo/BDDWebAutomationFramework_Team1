@@ -1,0 +1,31 @@
+
+@SmokeTest
+Scenario: Successful redirecting after clicking Checking tab # src/test/java/features/BOAHomePageByMobin.feature:8
+  Given User is in Bank of America homepage                  # stepDefinitions.BOAHomePageByMobinStepDefinition.user_is_in_bank_of_america_homepage()
+  When User clicks on Checking tab                           # stepDefinitions.BOAHomePageByMobinStepDefinition.user_clicks_on_checking_tab()
+  Then User is directed to Checking page                     # stepDefinitions.BOAHomePageByMobinStepDefinition.user_is_directed_to_checking_page()
+
+@SmokeTest
+Scenario: Successful redirecting after clicking Savings tab # src/test/java/features/BOAHomePageByMobin.feature:14
+  Given User is in Bank of America homepage                 # stepDefinitions.BOAHomePageByMobinStepDefinition.user_is_in_bank_of_america_homepage()
+  When User clicks on Savings tab                           # stepDefinitions.BOAHomePageByMobinStepDefinition.userClicksOnSavingsTab()
+  Then User is directed to Savings page                     # stepDefinitions.BOAHomePageByMobinStepDefinition.userIsDirectedToSavingsPage()
+
+@SmokeTest
+Scenario: Successful redirecting after clicking Credit Card tab # src/test/java/features/BOAHomePageByMobin.feature:20
+  Given User is in Bank of America homepage                     # stepDefinitions.BOAHomePageByMobinStepDefinition.user_is_in_bank_of_america_homepage()
+  When User clicks on Credit Card tab                           # stepDefinitions.BOAHomePageByMobinStepDefinition.userClicksOnCreditCardTab()
+  Then User is directed to Credit Card page                     # stepDefinitions.BOAHomePageByMobinStepDefinition.userIsDirectedToCreditCardPage()
+
+@SmokeTest
+Scenario: Successful redirecting after clicking Investing tab # src/test/java/features/BOAHomePageByMobin.feature:26
+  Given User is in Bank of America homepage                   # stepDefinitions.BOAHomePageByMobinStepDefinition.user_is_in_bank_of_america_homepage()
+  When User clicks on Investing tab                           # stepDefinitions.BOAHomePageByMobinStepDefinition.userClicksOnInvestingTab()
+  Then User is directed to Investing page                     # stepDefinitions.BOAHomePageByMobinStepDefinition.userIsDirectedToInvestingPage()
+
+@SmokeTest
+Scenario: Successful redirecting after clicking Planning tab # src/test/java/features/BOAHomePageByMobin.feature:32
+  Given User is in Bank of America homepage                  # stepDefinitions.BOAHomePageByMobinStepDefinition.user_is_in_bank_of_america_homepage()
+  When User hover over in different places                   # stepDefinitions.BOAHomePageByMobinStepDefinition.userHoverOverInDifferentPlaces()
+  And clicks on Planning tab                                 # stepDefinitions.BOAHomePageByMobinStepDefinition.clicksOnPlanningTab()
+  Then User is directed to Planning page                     # stepDefinitions.BOAHomePageByMobinStepDefinition.userIsDirectedToPlanningPage()

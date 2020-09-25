@@ -1,0 +1,56 @@
+[
+  {
+    "source": "User is in United Health Care homepage",
+    "steps": [
+      {
+        "name": "User is in United Health Care homepage",
+        "aggregatedDurations": {
+          "median": 6.290279,
+          "average": 6.290279
+        },
+        "durations": [
+          {
+            "duration": 6.290279,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/UHCHomePageByMobin.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User goes to myuhc page from signin tab",
+    "steps": [
+      {
+        "name": "User goes to myuhc page from signin tab",
+        "aggregatedDurations": {
+          "median": 5.3428,
+          "average": 5.3428
+        },
+        "durations": [
+          {
+            "duration": 5.3428,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/UHCHomePageByMobin.feature:121"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on registernow tab",
+    "steps": [
+      {
+        "name": "User clicks on registernow tab",
+        "aggregatedDurations": {
+          "median": 5.383175,
+          "average": 5.383175
+        },
+        "durations": [
+          {
+            "duration": 5.383175,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/UHCHomePageByMobin.feature:122"
+          }
+        ]
+      }
+    ]
+  }
+]

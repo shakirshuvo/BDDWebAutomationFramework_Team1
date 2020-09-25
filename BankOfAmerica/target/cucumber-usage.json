@@ -1,0 +1,234 @@
+[
+  {
+    "source": "User is in Bank of America homepage",
+    "steps": [
+      {
+        "name": "User is in Bank of America homepage",
+        "aggregatedDurations": {
+          "median": 3.295889,
+          "average": 3.796313
+        },
+        "durations": [
+          {
+            "duration": 6.275183,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/BOAHomePageByMobin.feature:4"
+          },
+          {
+            "duration": 2.860858,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/BOAHomePageByMobin.feature:4"
+          },
+          {
+            "duration": 3.569419,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/BOAHomePageByMobin.feature:4"
+          },
+          {
+            "duration": 2.980216,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/BOAHomePageByMobin.feature:4"
+          },
+          {
+            "duration": 3.295889,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/BOAHomePageByMobin.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on Checking tab",
+    "steps": [
+      {
+        "name": "User clicks on Checking tab",
+        "aggregatedDurations": {
+          "median": 5.403512,
+          "average": 5.403512
+        },
+        "durations": [
+          {
+            "duration": 5.403512,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/BOAHomePageByMobin.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to Checking page",
+    "steps": [
+      {
+        "name": "User is directed to Checking page",
+        "aggregatedDurations": {
+          "median": 0.143074,
+          "average": 0.143074
+        },
+        "durations": [
+          {
+            "duration": 0.143074,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/BOAHomePageByMobin.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on Savings tab",
+    "steps": [
+      {
+        "name": "User clicks on Savings tab",
+        "aggregatedDurations": {
+          "median": 2.952697,
+          "average": 2.952697
+        },
+        "durations": [
+          {
+            "duration": 2.952697,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/BOAHomePageByMobin.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to Savings page",
+    "steps": [
+      {
+        "name": "User is directed to Savings page",
+        "aggregatedDurations": {
+          "median": 0.018172,
+          "average": 0.018172
+        },
+        "durations": [
+          {
+            "duration": 0.018172,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/BOAHomePageByMobin.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on Credit Card tab",
+    "steps": [
+      {
+        "name": "User clicks on Credit Card tab",
+        "aggregatedDurations": {
+          "median": 2.552228,
+          "average": 2.552228
+        },
+        "durations": [
+          {
+            "duration": 2.552228,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/BOAHomePageByMobin.feature:21"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to Credit Card page",
+    "steps": [
+      {
+        "name": "User is directed to Credit Card page",
+        "aggregatedDurations": {
+          "median": 0.15762,
+          "average": 0.15762
+        },
+        "durations": [
+          {
+            "duration": 0.15762,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/BOAHomePageByMobin.feature:22"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on Investing tab",
+    "steps": [
+      {
+        "name": "User clicks on Investing tab",
+        "aggregatedDurations": {
+          "median": 5.586629,
+          "average": 5.586629
+        },
+        "durations": [
+          {
+            "duration": 5.586629,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/BOAHomePageByMobin.feature:27"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to Investing page",
+    "steps": [
+      {
+        "name": "User is directed to Investing page",
+        "aggregatedDurations": {
+          "median": 0.650043,
+          "average": 0.650043
+        },
+        "durations": [
+          {
+            "duration": 0.650043,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/BOAHomePageByMobin.feature:28"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User hover over in different places",
+    "steps": [
+      {
+        "name": "User hover over in different places",
+        "aggregatedDurations": {
+          "median": 37.75272,
+          "average": 37.75272
+        },
+        "durations": [
+          {
+            "duration": 37.75272,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/BOAHomePageByMobin.feature:33"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "clicks on Planning tab",
+    "steps": [
+      {
+        "name": "clicks on Planning tab",
+        "aggregatedDurations": {
+          "median": 2.42E-4,
+          "average": 2.42E-4
+        },
+        "durations": [
+          {
+            "duration": 2.42E-4,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/BOAHomePageByMobin.feature:34"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to Planning page",
+    "steps": [
+      {
+        "name": "User is directed to Planning page",
+        "aggregatedDurations": {
+          "median": 0.0076,
+          "average": 0.0076
+        },
+        "durations": [
+          {
+            "duration": 0.0076,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/BOAHomePageByMobin.feature:35"
+          }
+        ]
+      }
+    ]
+  }
+]

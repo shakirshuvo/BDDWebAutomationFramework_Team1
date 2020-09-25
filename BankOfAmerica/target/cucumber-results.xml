@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="76.112">
+    <testcase classname="Bank of America homepage tab functionality tests" name="Successful redirecting after clicking Checking tab" time="12.261">
+        <system-out>
+            <![CDATA[Given User is in Bank of America homepage...................................passed
+When User clicks on Checking tab............................................passed
+Then User is directed to Checking page......................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Bank of America homepage tab functionality tests" name="Successful redirecting after clicking Savings tab" time="6.062">
+        <system-out>
+            <![CDATA[Given User is in Bank of America homepage...................................passed
+When User clicks on Savings tab.............................................passed
+Then User is directed to Savings page.......................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Bank of America homepage tab functionality tests" name="Successful redirecting after clicking Credit Card tab" time="6.46">
+        <system-out>
+            <![CDATA[Given User is in Bank of America homepage...................................passed
+When User clicks on Credit Card tab.........................................passed
+Then User is directed to Credit Card page...................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Bank of America homepage tab functionality tests" name="Successful redirecting after clicking Investing tab" time="9.447">
+        <system-out>
+            <![CDATA[Given User is in Bank of America homepage...................................passed
+When User clicks on Investing tab...........................................passed
+Then User is directed to Investing page.....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Bank of America homepage tab functionality tests" name="Successful redirecting after clicking Planning tab" time="41.319">
+        <system-out>
+            <![CDATA[Given User is in Bank of America homepage...................................passed
+When User hover over in different places....................................passed
+And clicks on Planning tab..................................................passed
+Then User is directed to Planning page......................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

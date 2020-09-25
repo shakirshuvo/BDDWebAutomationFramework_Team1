@@ -1,0 +1,538 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6967751000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 56229000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NYTHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in New York Times homepage",
+            "match": {
+              "location": "stepDefinitions.NYTHomePageByMobinStepDefinition.user_is_in_new_york_times_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-25T03:12:20.091Z",
+        "line": 8,
+        "name": "Successful redirecting after clicking World tab",
+        "description": "",
+        "id": "new-york-times-homepage-tab-functionality-tests;successful-redirecting-after-clicking-world-tab",
+        "after": [
+          {
+            "result": {
+              "duration": 261698000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.NYTHomePageByMobinStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3917884000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 3241000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NYTHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "User clicks on World tab",
+            "match": {
+              "location": "stepDefinitions.NYTHomePageByMobinStepDefinition.user_clicks_on_world_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 407846000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1148000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NYTHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "User is directed to World page",
+            "match": {
+              "location": "stepDefinitions.NYTHomePageByMobinStepDefinition.user_is_directed_to_world_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2918479000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2193000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NYTHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in New York Times homepage",
+            "match": {
+              "location": "stepDefinitions.NYTHomePageByMobinStepDefinition.user_is_in_new_york_times_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-25T03:12:31.930Z",
+        "line": 14,
+        "name": "Successful redirecting after clicking US tab",
+        "description": "",
+        "id": "new-york-times-homepage-tab-functionality-tests;successful-redirecting-after-clicking-us-tab",
+        "after": [
+          {
+            "result": {
+              "duration": 236316000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.NYTHomePageByMobinStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4329359000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1218000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NYTHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 15,
+            "name": "User clicks on US tab",
+            "match": {
+              "location": "stepDefinitions.NYTHomePageByMobinStepDefinition.userClicksOnUSTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 405095000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1733000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NYTHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 16,
+            "name": "User is directed to US page",
+            "match": {
+              "location": "stepDefinitions.NYTHomePageByMobinStepDefinition.userIsDirectedToUSPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2673941000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 540000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NYTHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in New York Times homepage",
+            "match": {
+              "location": "stepDefinitions.NYTHomePageByMobinStepDefinition.user_is_in_new_york_times_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-25T03:12:39.854Z",
+        "line": 20,
+        "name": "Successful redirecting after clicking Politics tab",
+        "description": "",
+        "id": "new-york-times-homepage-tab-functionality-tests;successful-redirecting-after-clicking-politics-tab",
+        "after": [
+          {
+            "result": {
+              "duration": 228489000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.NYTHomePageByMobinStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3556442000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 712000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NYTHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 21,
+            "name": "User clicks on Politics tab",
+            "match": {
+              "location": "stepDefinitions.NYTHomePageByMobinStepDefinition.userClicksOnPoliticsTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 704153000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 799000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NYTHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 22,
+            "name": "User is directed to Politics page",
+            "match": {
+              "location": "stepDefinitions.NYTHomePageByMobinStepDefinition.userIsDirectedToPoliticsPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2637757000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 744000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NYTHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in New York Times homepage",
+            "match": {
+              "location": "stepDefinitions.NYTHomePageByMobinStepDefinition.user_is_in_new_york_times_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-25T03:12:47.040Z",
+        "line": 26,
+        "name": "Successful redirecting after clicking NY tab",
+        "description": "",
+        "id": "new-york-times-homepage-tab-functionality-tests;successful-redirecting-after-clicking-ny-tab",
+        "after": [
+          {
+            "result": {
+              "duration": 221040000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.NYTHomePageByMobinStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3455519000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 796000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NYTHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 27,
+            "name": "User clicks on NY tab",
+            "match": {
+              "location": "stepDefinitions.NYTHomePageByMobinStepDefinition.userClicksOnNYTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 624966000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 633000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NYTHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 28,
+            "name": "User is directed to NY page",
+            "match": {
+              "location": "stepDefinitions.NYTHomePageByMobinStepDefinition.userIsDirectedToNYPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2676248000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 707000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NYTHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in New York Times homepage",
+            "match": {
+              "location": "stepDefinitions.NYTHomePageByMobinStepDefinition.user_is_in_new_york_times_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-25T03:12:54.040Z",
+        "line": 32,
+        "name": "Successful redirecting after clicking Business tab",
+        "description": "",
+        "id": "new-york-times-homepage-tab-functionality-tests;successful-redirecting-after-clicking-business-tab",
+        "after": [
+          {
+            "result": {
+              "duration": 234880000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.NYTHomePageByMobinStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4316251000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 843000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NYTHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 33,
+            "name": "User clicks on Business tab",
+            "match": {
+              "location": "stepDefinitions.NYTHomePageByMobinStepDefinition.userClicksOnBusinessTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 152426000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 643000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NYTHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 34,
+            "name": "User is directed to Business page",
+            "match": {
+              "location": "stepDefinitions.NYTHomePageByMobinStepDefinition.userIsDirectedToBusinessPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "New York Times homepage tab functionality tests",
+    "description": "",
+    "id": "new-york-times-homepage-tab-functionality-tests",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/NYTHomePageByMobin.feature",
+    "tags": []
+  }
+]

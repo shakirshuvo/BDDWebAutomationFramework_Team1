@@ -1,0 +1,118 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6457681000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 88957000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobHomePageByMobinStepDefination.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in TMobile homepage",
+            "match": {
+              "location": "stepDefinitions.TMobHomePageByMobinStepDefination.user_is_in_t_mobile_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-25T02:39:22.338Z",
+        "line": 20,
+        "name": "Successful redirecting after clicking Prepaid tab",
+        "description": "",
+        "id": "tmobile-homepage-tab-functionality-tests;successful-redirecting-after-clicking-prepaid-tab",
+        "after": [
+          {
+            "result": {
+              "duration": 270217000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TMobHomePageByMobinStepDefination.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2301443000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2461000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobHomePageByMobinStepDefination.getInit()"
+                }
+              }
+            ],
+            "line": 21,
+            "name": "User clicks on Prepaid tab",
+            "match": {
+              "location": "stepDefinitions.TMobHomePageByMobinStepDefination.userClicksOnPrepaidTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4579625000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1053000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobHomePageByMobinStepDefination.getInit()"
+                }
+              }
+            ],
+            "line": 22,
+            "name": "User is directed to Prepaid page",
+            "match": {
+              "location": "stepDefinitions.TMobHomePageByMobinStepDefination.userIsDirectedToPrepaidPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "TMobile homepage tab functionality tests",
+    "description": "",
+    "id": "tmobile-homepage-tab-functionality-tests",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/TMobHomePageByMobin.feature",
+    "tags": []
+  }
+]

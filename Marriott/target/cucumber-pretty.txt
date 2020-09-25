@@ -1,0 +1,14 @@
+
+@SmokeTest
+Scenario: Successful redirecting after clicking Deutsch tab # src/test/java/features/MarriottHomePageByMobin.feature:8
+  Given User is in Marriott homepage                        # stepDefinitions.MarriottHomePageByMobinStepDefinition.user_is_in_marriott_homepage()
+  When User clicks on language tab                          # stepDefinitions.MarriottHomePageByMobinStepDefinition.user_clicks_on_language_tab()
+  And Deutsch tab                                           # stepDefinitions.MarriottHomePageByMobinStepDefinition.deutsch_tab()
+  Then User is directed to the German language page         # stepDefinitions.MarriottHomePageByMobinStepDefinition.user_is_directed_to_the_german_language_page()
+
+@SmokeTest
+Scenario: Successful redirecting after clicking Espanol tab # src/test/java/features/MarriottHomePageByMobin.feature:15
+  Given User is in Marriott homepage                        # stepDefinitions.MarriottHomePageByMobinStepDefinition.user_is_in_marriott_homepage()
+  When User clicks on language tab                          # stepDefinitions.MarriottHomePageByMobinStepDefinition.user_clicks_on_language_tab()
+  And Espanol tab                                           # stepDefinitions.MarriottHomePageByMobinStepDefinition.espanolTab()
+  Then User is directed to the Spanish language page        # stepDefinitions.MarriottHomePageByMobinStepDefinition.userIsDirectedToTheSpanishLanguagePage()

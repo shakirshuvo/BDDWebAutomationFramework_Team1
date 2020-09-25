@@ -1,0 +1,118 @@
+[
+  {
+    "source": "User is in Marriott homepage",
+    "steps": [
+      {
+        "name": "User is in Marriott homepage",
+        "aggregatedDurations": {
+          "median": 9.9745385,
+          "average": 9.9745385
+        },
+        "durations": [
+          {
+            "duration": 9.908903,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Marriott/src/test/java/features/MarriottHomePageByMobin.feature:4"
+          },
+          {
+            "duration": 10.040174,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Marriott/src/test/java/features/MarriottHomePageByMobin.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on language tab",
+    "steps": [
+      {
+        "name": "User clicks on language tab",
+        "aggregatedDurations": {
+          "median": 0.0010965,
+          "average": 0.0010965
+        },
+        "durations": [
+          {
+            "duration": 0.001427,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Marriott/src/test/java/features/MarriottHomePageByMobin.feature:9"
+          },
+          {
+            "duration": 7.66E-4,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Marriott/src/test/java/features/MarriottHomePageByMobin.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "Deutsch tab",
+    "steps": [
+      {
+        "name": "Deutsch tab",
+        "aggregatedDurations": {
+          "median": 5.186045,
+          "average": 5.186045
+        },
+        "durations": [
+          {
+            "duration": 5.186045,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Marriott/src/test/java/features/MarriottHomePageByMobin.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to the German language page",
+    "steps": [
+      {
+        "name": "User is directed to the German language page",
+        "aggregatedDurations": {
+          "median": 0.616147,
+          "average": 0.616147
+        },
+        "durations": [
+          {
+            "duration": 0.616147,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Marriott/src/test/java/features/MarriottHomePageByMobin.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "Espanol tab",
+    "steps": [
+      {
+        "name": "Espanol tab",
+        "aggregatedDurations": {
+          "median": 6.529413,
+          "average": 6.529413
+        },
+        "durations": [
+          {
+            "duration": 6.529413,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Marriott/src/test/java/features/MarriottHomePageByMobin.feature:17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to the Spanish language page",
+    "steps": [
+      {
+        "name": "User is directed to the Spanish language page",
+        "aggregatedDurations": {
+          "median": 0.027679,
+          "average": 0.027679
+        },
+        "durations": [
+          {
+            "duration": 0.027679,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Marriott/src/test/java/features/MarriottHomePageByMobin.feature:18"
+          }
+        ]
+      }
+    ]
+  }
+]

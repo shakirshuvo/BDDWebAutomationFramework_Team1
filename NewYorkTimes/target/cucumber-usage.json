@@ -1,0 +1,216 @@
+[
+  {
+    "source": "User is in New York Times homepage",
+    "steps": [
+      {
+        "name": "User is in New York Times homepage",
+        "aggregatedDurations": {
+          "median": 2.676248,
+          "average": 3.5748352
+        },
+        "durations": [
+          {
+            "duration": 6.967751,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/NYTHomePageByMobin.feature:4"
+          },
+          {
+            "duration": 2.918479,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/NYTHomePageByMobin.feature:4"
+          },
+          {
+            "duration": 2.673941,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/NYTHomePageByMobin.feature:4"
+          },
+          {
+            "duration": 2.637757,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/NYTHomePageByMobin.feature:4"
+          },
+          {
+            "duration": 2.676248,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/NYTHomePageByMobin.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on World tab",
+    "steps": [
+      {
+        "name": "User clicks on World tab",
+        "aggregatedDurations": {
+          "median": 3.917884,
+          "average": 3.917884
+        },
+        "durations": [
+          {
+            "duration": 3.917884,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/NYTHomePageByMobin.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to World page",
+    "steps": [
+      {
+        "name": "User is directed to World page",
+        "aggregatedDurations": {
+          "median": 0.407846,
+          "average": 0.407846
+        },
+        "durations": [
+          {
+            "duration": 0.407846,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/NYTHomePageByMobin.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on US tab",
+    "steps": [
+      {
+        "name": "User clicks on US tab",
+        "aggregatedDurations": {
+          "median": 4.329359,
+          "average": 4.329359
+        },
+        "durations": [
+          {
+            "duration": 4.329359,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/NYTHomePageByMobin.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to US page",
+    "steps": [
+      {
+        "name": "User is directed to US page",
+        "aggregatedDurations": {
+          "median": 0.405095,
+          "average": 0.405095
+        },
+        "durations": [
+          {
+            "duration": 0.405095,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/NYTHomePageByMobin.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on Politics tab",
+    "steps": [
+      {
+        "name": "User clicks on Politics tab",
+        "aggregatedDurations": {
+          "median": 3.556442,
+          "average": 3.556442
+        },
+        "durations": [
+          {
+            "duration": 3.556442,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/NYTHomePageByMobin.feature:21"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to Politics page",
+    "steps": [
+      {
+        "name": "User is directed to Politics page",
+        "aggregatedDurations": {
+          "median": 0.704153,
+          "average": 0.704153
+        },
+        "durations": [
+          {
+            "duration": 0.704153,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/NYTHomePageByMobin.feature:22"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on NY tab",
+    "steps": [
+      {
+        "name": "User clicks on NY tab",
+        "aggregatedDurations": {
+          "median": 3.455519,
+          "average": 3.455519
+        },
+        "durations": [
+          {
+            "duration": 3.455519,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/NYTHomePageByMobin.feature:27"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to NY page",
+    "steps": [
+      {
+        "name": "User is directed to NY page",
+        "aggregatedDurations": {
+          "median": 0.624966,
+          "average": 0.624966
+        },
+        "durations": [
+          {
+            "duration": 0.624966,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/NYTHomePageByMobin.feature:28"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on Business tab",
+    "steps": [
+      {
+        "name": "User clicks on Business tab",
+        "aggregatedDurations": {
+          "median": 4.316251,
+          "average": 4.316251
+        },
+        "durations": [
+          {
+            "duration": 4.316251,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/NYTHomePageByMobin.feature:33"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to Business page",
+    "steps": [
+      {
+        "name": "User is directed to Business page",
+        "aggregatedDurations": {
+          "median": 0.152426,
+          "average": 0.152426
+        },
+        "durations": [
+          {
+            "duration": 0.152426,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/NYTHomePageByMobin.feature:34"
+          }
+        ]
+      }
+    ]
+  }
+]

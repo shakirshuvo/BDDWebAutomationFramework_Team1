@@ -1,0 +1,269 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9908903000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 74546000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in Marriott homepage",
+            "match": {
+              "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.user_is_in_marriott_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-25T14:39:39.250Z",
+        "line": 8,
+        "name": "Successful redirecting after clicking Deutsch tab",
+        "description": "",
+        "id": "marriott-homepage-tab-functionality-tests;successful-redirecting-after-clicking-deutsch-tab",
+        "after": [
+          {
+            "result": {
+              "duration": 253288000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1427000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2870000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "User clicks on language tab",
+            "match": {
+              "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.user_clicks_on_language_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5186045000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1749000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "Deutsch tab",
+            "match": {
+              "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.deutsch_tab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 616147000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1847000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 11,
+            "name": "User is directed to the German language page",
+            "match": {
+              "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.user_is_directed_to_the_german_language_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10040174000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1729000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in Marriott homepage",
+            "match": {
+              "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.user_is_in_marriott_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-25T14:39:55.564Z",
+        "line": 15,
+        "name": "Successful redirecting after clicking Espanol tab",
+        "description": "",
+        "id": "marriott-homepage-tab-functionality-tests;successful-redirecting-after-clicking-espanol-tab",
+        "after": [
+          {
+            "result": {
+              "duration": 324145000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 766000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2258000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 16,
+            "name": "User clicks on language tab",
+            "match": {
+              "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.user_clicks_on_language_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6529413000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1700000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 17,
+            "name": "Espanol tab",
+            "match": {
+              "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.espanolTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27679000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 5821000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 18,
+            "name": "User is directed to the Spanish language page",
+            "match": {
+              "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.userIsDirectedToTheSpanishLanguagePage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Marriott homepage tab functionality tests",
+    "description": "",
+    "id": "marriott-homepage-tab-functionality-tests",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/MarriottHomePageByMobin.feature",
+    "tags": []
+  }
+]

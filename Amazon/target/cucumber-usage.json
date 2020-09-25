@@ -1,0 +1,56 @@
+[
+  {
+    "source": "User is in Amazon homepage",
+    "steps": [
+      {
+        "name": "User is in Amazon homepage",
+        "aggregatedDurations": {
+          "median": 8.391892,
+          "average": 8.391892
+        },
+        "durations": [
+          {
+            "duration": 8.391892,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on BestSeller tab",
+    "steps": [
+      {
+        "name": "User clicks on BestSeller tab",
+        "aggregatedDurations": {
+          "median": 3.010163,
+          "average": 3.010163
+        },
+        "durations": [
+          {
+            "duration": 3.010163,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to BestSeller page",
+    "steps": [
+      {
+        "name": "User is directed to BestSeller page",
+        "aggregatedDurations": {
+          "median": 0.071931,
+          "average": 0.071931
+        },
+        "durations": [
+          {
+            "duration": 0.071931,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:10"
+          }
+        ]
+      }
+    ]
+  }
+]

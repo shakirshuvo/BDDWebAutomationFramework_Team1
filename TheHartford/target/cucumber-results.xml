@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="42.582">
+    <testcase classname="The Hartford homepage tab functionality tests" name="Successful redirecting after clicking Car Insurance tab" time="11.595">
+        <system-out>
+            <![CDATA[Given User is in The Hartford homepage......................................passed
+When User hover over auto tab...............................................passed
+And clicks on Car Insurance tab.............................................passed
+Then User is directed to Car Insurance page.................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="The Hartford homepage tab functionality tests" name="Successful redirecting after clicking Condo Insurance tab" time="6.949">
+        <system-out>
+            <![CDATA[Given User is in The Hartford homepage......................................passed
+When User hover over Home tab...............................................passed
+And clicks on Condo Insurance tab...........................................passed
+Then User is directed to Condo Insurance page...............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="The Hartford homepage tab functionality tests" name="Successful redirecting after clicking Business Insurance tab" time="6.861">
+        <system-out>
+            <![CDATA[Given User is in The Hartford homepage......................................passed
+When User hover over Business tab...........................................passed
+And clicks on Business Insurance tab........................................passed
+Then User is directed to Business Insurance page............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="The Hartford homepage tab functionality tests" name="Successful redirecting after clicking for Employers tab" time="8.562">
+        <system-out>
+            <![CDATA[Given User is in The Hartford homepage......................................passed
+When User hover over Employee Benifits tab..................................passed
+And clicks on for Employers tab.............................................passed
+Then User is directed to for Employers page.................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="The Hartford homepage tab functionality tests" name="Successful redirecting after clicking Newsroom tab" time="7.832">
+        <system-out>
+            <![CDATA[Given User is in The Hartford homepage......................................passed
+When User hover over About tab..............................................passed
+And clicks on Newsroom tab..................................................passed
+Then User is directed to Newsroom page......................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

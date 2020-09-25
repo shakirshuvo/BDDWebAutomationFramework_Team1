@@ -1,0 +1,7 @@
+stepDefinitions/SearchStepDefinition.class
+stepDefinitions/SignInStepDefinition.class
+stepDefinitions/HomeStepDefinition.class
+stepDefinitions/CartStepDefinition.class
+testRunner/TestRunner.class
+stepDefinitions/RegistrationDefinition.class
+stepDefinitions/AmazonHomePageByMobinStepDefinition.class
