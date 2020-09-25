@@ -1,19 +1,13 @@
 package searchBankProductByRaza;
 
 import base.CommonAPI;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.How;
 import org.testng.Assert;
 import java.util.concurrent.TimeUnit;
-import static searchBankProductByRaza.ElementsBOA.searchBoxLocator;
-import static searchBankProductByRaza.ElementsBOA.searchValidationLocator;
+import static searchBankProductByRaza.ElementsBOARaza.searchBoxLocator;
+import static searchBankProductByRaza.ElementsBOARaza.searchValidationLocator;
 public class ActionClassByRaza extends CommonAPI {
     static String expectedResult;
     static String actualResult;
-
-
-
 
     public static void searchProduct() {
         driver.manage().window().maximize();
@@ -22,9 +16,8 @@ public class ActionClassByRaza extends CommonAPI {
 
     }
 
-    public static void validateSearchItems(String expectedResult) {
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-//        expectedResult = "Checking Accounts";
+    public static void validateSearchItems(String expectedResult) throws InterruptedException {
+        sleepFor(3);
         actualResult = getTextByXpath(searchValidationLocator);
         System.out.println("Actual Text  ="+ actualResult);
         System.out.println("Expected Text  ="+ expectedResult);

@@ -772,6 +772,11 @@ public class CommonAPI {
         return true;
     }
 
+    public boolean elementIsDisplayedByXpath(String element) {
+        driver.findElement(By.xpath(element)).isDisplayed();
+        return true;
+    }
+
     public boolean elementIsDisplayedByClass(String element) {
         driver.findElement(By.className(element)).isDisplayed();
         return true;

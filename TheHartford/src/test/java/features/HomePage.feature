@@ -3,17 +3,17 @@ Feature: The Hartford Home Page Functionality Check
   Background:
     Given I on The Heart Fort Homepage
 
-#  @SmokeTest
-#  Scenario: Check Report Claim Web element is functional
-#    When I Click on Report Claim Web Element
-#    Then I Verify Report Claim page title
-#
-#  @SmokeTest
-#  Scenario: The Hartford SearchBox Functionality check
-#    And I enter "Life Insurance" in searchBox
-#    When I click searchButton
-#    Then I verify "\"Life Insurance\"" is appear properly
-#    And I verify page title as Life Insurance
+  @SmokeTest
+  Scenario: Check Report Claim Web element is functional
+    When I Click on Report Claim Web Element
+    Then I Verify Report Claim page title
+
+  @SmokeTest
+  Scenario: The Hartford SearchBox Functionality check
+    And I enter "Life Insurance" in searchBox
+    When I click searchButton
+    Then I verify "\"Life Insurance\"" is appear properly
+    And I verify page title as Life Insurance
 
   @SmokeTest
   Scenario: Check Find Agent Web element is functional
@@ -30,7 +30,7 @@ Feature: The Hartford Home Page Functionality Check
     When I Click on Business Web Element
     Then I Verify Business page title
 
-#  @SmokeTest
+  @SmokeTest
   Scenario: Check Employee Benefits Web element is functional
     When I Click on Employee Benefits Web Element
     Then I Verify Employee Benefits page title

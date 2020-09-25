@@ -7,15 +7,13 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.Assert;
 import searchBankProductByRaza.Search;
 
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 import static searchBankProductByRaza.ActionClassByRaza.validateSearchItems;
-import static searchBankProductByRaza.ElementsBOA.searchBoxLocator;
-import static searchBankProductByRaza.ElementsBOA.searchValidationLocator;
+import static searchBankProductByRaza.ElementsBOARaza.searchBoxLocator;
 
 public class SearchBOAStepDefinitionByRaza extends CommonAPI {
 
@@ -47,7 +45,7 @@ public class SearchBOAStepDefinitionByRaza extends CommonAPI {
     }
 
     @Then("I verify items with {string}.")
-    public void iVerifyItemsWith(String item) {
+    public void iVerifyItemsWith(String item) throws InterruptedException {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         validateSearchItems(expectedResult);
 
