@@ -342,6 +342,25 @@ public class CommonAPI {
             }
         }
     }
+    public static void mouseHover(WebElement element) {
+        try {
+            Actions hover = new Actions(driver);
+            hover.moveToElement(element).perform();
+        } catch (Exception ex) {
+            driver.navigate().refresh();
+            System.out.println("1st mouse-hover attempt failed - Attempting 2nd time");
+            WebDriverWait wait = new WebDriverWait(driver, 10);
+            Actions hover = new Actions(driver);
+            wait.until(ExpectedConditions.visibilityOf(element));
+            hover.moveToElement(element).perform();
+        }
+    }
+
+
+    public void clickByXpath(String locator) {
+        driver.findElement(By.xpath(locator)).click();
+    }
+
 
     public void submitOnElementByID(String locator) {
         driver.findElement(By.id(locator)).submit();

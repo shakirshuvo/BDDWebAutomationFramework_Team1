@@ -224,6 +224,25 @@ public class MarriottHomePage extends CommonAPI {
     }
 
     /**
+     * click on meetings overview element
+     */
+    public void clickSpecialOffers(){
+
+        clickOnElement(specialOffersElementXpath);
+    }
+
+    /**
+     * validate special offers element
+     */
+    public void validateSpecialOffers(){
+        clickMeetingsOverview();
+        //waitUntilVisible(By.xpath(businessMeetingsElementXpath));
+       // String actual = getTextByXpath();
+        String expected = "Business Meetings";
+       // Assert.assertEquals(actual, expected);
+    }
+
+    /**
      * click on business Meetings element under meetings and events
      */
     public void clickOnBusinessMeetings(){
@@ -271,7 +290,8 @@ public class MarriottHomePage extends CommonAPI {
     /**
      * validate planning element under weddings
      */
-    public void validateClickPlanning(){
+    public void validateClickPlanning() throws InterruptedException {
+        sleepFor(3);
         String actual = driver.getTitle();
         String expected = "Expert Planning";
         Assert.assertEquals(actual, expected);

@@ -36,6 +36,7 @@ public class HomeStepDefinition extends CommonAPI {
     public void i_am_on_marriott_homepage() throws IOException {
         openBrowser("https://www.marriott.com/default.mi");
         driver.manage().window().maximize();
+        driver.manage().deleteAllCookies();
     }
 
     @When("I click on language selector")
@@ -48,8 +49,6 @@ public class HomeStepDefinition extends CommonAPI {
        marriottHomePage.validateLanguageSelector();
 
     }
-
-
     @When("I click on Find and Reserve")
     public void i_click_on_find_and_reserve() {
        marriottHomePage.clickOnFindNReserve();

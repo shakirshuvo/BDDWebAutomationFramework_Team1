@@ -35,6 +35,10 @@ public class MarriottHomePageWebElements {
     public static final String businessMeetingsOverviewElementXpath = "//h3[text()='Business Meetings']";
     public static final String businessMeetingsElementXpath = "//a[text()=' Business Meetings ']";
 
+    //special offers
+    public static final String specialOffersElementXpath = "//p[text()='Special Offers']";
+    public static final String vacationsElementXpath = "//p[text()='Vacations']";
+
     //weddings element
     public static final String weddingsElementXpath = "//a[text()=' Weddings ']";
     public static final String planningElementXpath = "//p/a[text()='Planning']";
