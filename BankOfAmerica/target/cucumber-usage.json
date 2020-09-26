@@ -5,12 +5,92 @@
       {
         "name": "I am on Bank of America Homepage",
         "aggregatedDurations": {
-          "median": 26.2399906,
-          "average": 26.2399906
+          "median": 4.9195198,
+          "average": 5.063413928
         },
         "durations": [
           {
-            "duration": 26.2399906,
+            "duration": 7.3346948,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 4.9268,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 5.0576972,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 5.6914987,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 4.7864227,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 4.6270649,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 4.9788677,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 4.4853237,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 5.768626,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 5.4879803,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 4.7437084,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 4.587116,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 4.4242533,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 5.0093616,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 4.4899762,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 4.9195198,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 4.6741609,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 5.3788667,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 4.82131,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 5.3555285,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 4.7829151,
             "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/HomePage.feature:4"
           }
         ]
@@ -23,12 +103,12 @@
       {
         "name": "I click on enroll button",
         "aggregatedDurations": {
-          "median": 5.7091438,
-          "average": 5.7091438
+          "median": 5.7950666,
+          "average": 5.7950666
         },
         "durations": [
           {
-            "duration": 5.7091438,
+            "duration": 5.7950666,
             "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/HomePage.feature:8"
           }
         ]
@@ -41,12 +121,12 @@
       {
         "name": "I enter invalid six digits account number \"123456\" in card account box",
         "aggregatedDurations": {
-          "median": 3.1643171,
-          "average": 3.1643171
+          "median": 1.3922084,
+          "average": 1.3922084
         },
         "durations": [
           {
-            "duration": 3.1643171,
+            "duration": 1.3922084,
             "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/HomePage.feature:9"
           }
         ]
@@ -59,12 +139,12 @@
       {
         "name": "I enter invalid social security number in social security box",
         "aggregatedDurations": {
-          "median": 10.3380344,
-          "average": 10.3380344
+          "median": 10.5664831,
+          "average": 10.5664831
         },
         "durations": [
           {
-            "duration": 10.3380344,
+            "duration": 10.5664831,
             "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/HomePage.feature:10"
           }
         ]
@@ -77,12 +157,12 @@
       {
         "name": "I click on continue button",
         "aggregatedDurations": {
-          "median": 20.1743024,
-          "average": 20.1743024
+          "median": 20.2761328,
+          "average": 20.2761328
         },
         "durations": [
           {
-            "duration": 20.1743024,
+            "duration": 20.2761328,
             "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/HomePage.feature:11"
           }
         ]
@@ -95,13 +175,373 @@
       {
         "name": "I validate the test by the error message \"We\u0027re unable to complete your request at this time.\"",
         "aggregatedDurations": {
-          "median": 0.1399198,
-          "average": 0.1399198
+          "median": 0.2607773,
+          "average": 0.2607773
         },
         "durations": [
           {
-            "duration": 0.1399198,
+            "duration": 0.2607773,
             "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/HomePage.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on checking button",
+    "steps": [
+      {
+        "name": "I click on checking button",
+        "aggregatedDurations": {
+          "median": 3.569247,
+          "average": 3.569247
+        },
+        "durations": [
+          {
+            "duration": 3.569247,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/HomePage.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on saving button",
+    "steps": [
+      {
+        "name": "I click on saving button",
+        "aggregatedDurations": {
+          "median": 3.2211577,
+          "average": 3.2211577
+        },
+        "durations": [
+          {
+            "duration": 3.2211577,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/HomePage.feature:21"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on CreditCard button",
+    "steps": [
+      {
+        "name": "I click on CreditCard button",
+        "aggregatedDurations": {
+          "median": 2.9068562,
+          "average": 2.9068562
+        },
+        "durations": [
+          {
+            "duration": 2.9068562,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/HomePage.feature:26"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Home Loans button",
+    "steps": [
+      {
+        "name": "I click on Home Loans button",
+        "aggregatedDurations": {
+          "median": 3.7808798,
+          "average": 3.7808798
+        },
+        "durations": [
+          {
+            "duration": 3.7808798,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/HomePage.feature:31"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Auto Loans button",
+    "steps": [
+      {
+        "name": "I click on Auto Loans button",
+        "aggregatedDurations": {
+          "median": 2.6974152,
+          "average": 2.6974152
+        },
+        "durations": [
+          {
+            "duration": 2.6974152,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/HomePage.feature:36"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Investing button",
+    "steps": [
+      {
+        "name": "I click on Investing button",
+        "aggregatedDurations": {
+          "median": 2.2533409,
+          "average": 2.2533409
+        },
+        "durations": [
+          {
+            "duration": 2.2533409,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/HomePage.feature:41"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Better Money button",
+    "steps": [
+      {
+        "name": "I click on Better Money button",
+        "aggregatedDurations": {
+          "median": 2.2403366,
+          "average": 2.2403366
+        },
+        "durations": [
+          {
+            "duration": 2.2403366,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/HomePage.feature:46"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Small Business button",
+    "steps": [
+      {
+        "name": "I click on Small Business button",
+        "aggregatedDurations": {
+          "median": 20.903268,
+          "average": 20.903268
+        },
+        "durations": [
+          {
+            "duration": 20.903268,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/HomePage.feature:51"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Wealth Management button",
+    "steps": [
+      {
+        "name": "I click on Wealth Management button",
+        "aggregatedDurations": {
+          "median": 40.527479,
+          "average": 40.527479
+        },
+        "durations": [
+          {
+            "duration": 40.527479,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/HomePage.feature:56"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Business and Institutions button",
+    "steps": [
+      {
+        "name": "I click on Business and Institutions button",
+        "aggregatedDurations": {
+          "median": 3.8555581,
+          "average": 3.8555581
+        },
+        "durations": [
+          {
+            "duration": 3.8555581,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/HomePage.feature:61"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Security button",
+    "steps": [
+      {
+        "name": "I click on Security button",
+        "aggregatedDurations": {
+          "median": 21.885147,
+          "average": 21.885147
+        },
+        "durations": [
+          {
+            "duration": 21.885147,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/HomePage.feature:66"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on About Us button",
+    "steps": [
+      {
+        "name": "I click on About Us button",
+        "aggregatedDurations": {
+          "median": 4.6135159,
+          "average": 4.6135159
+        },
+        "durations": [
+          {
+            "duration": 4.6135159,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/HomePage.feature:71"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on En Espanol button",
+    "steps": [
+      {
+        "name": "I click on En Espanol button",
+        "aggregatedDurations": {
+          "median": 3.3794774,
+          "average": 3.3794774
+        },
+        "durations": [
+          {
+            "duration": 3.3794774,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/HomePage.feature:76"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Contact Us button",
+    "steps": [
+      {
+        "name": "I click on Contact Us button",
+        "aggregatedDurations": {
+          "median": 3.8125305,
+          "average": 3.8125305
+        },
+        "durations": [
+          {
+            "duration": 3.8125305,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/HomePage.feature:81"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Help button",
+    "steps": [
+      {
+        "name": "I click on Help button",
+        "aggregatedDurations": {
+          "median": 5.6178052,
+          "average": 5.6178052
+        },
+        "durations": [
+          {
+            "duration": 5.6178052,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/HomePage.feature:86"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Find Closest Location button",
+    "steps": [
+      {
+        "name": "I click on Find Closest Location button",
+        "aggregatedDurations": {
+          "median": 21.4181107,
+          "average": 21.4181107
+        },
+        "durations": [
+          {
+            "duration": 21.4181107,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/HomePage.feature:91"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Schedule Appointment button",
+    "steps": [
+      {
+        "name": "I click on Schedule Appointment button",
+        "aggregatedDurations": {
+          "median": 23.9743577,
+          "average": 23.9743577
+        },
+        "durations": [
+          {
+            "duration": 23.9743577,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/HomePage.feature:96"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Deals All Day button",
+    "steps": [
+      {
+        "name": "I click on Deals All Day button",
+        "aggregatedDurations": {
+          "median": 33.4394785,
+          "average": 33.4394785
+        },
+        "durations": [
+          {
+            "duration": 33.4394785,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/HomePage.feature:101"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Checking With Right Features button",
+    "steps": [
+      {
+        "name": "I click on Checking With Right Features button",
+        "aggregatedDurations": {
+          "median": 33.4292856,
+          "average": 33.4292856
+        },
+        "durations": [
+          {
+            "duration": 33.4292856,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/HomePage.feature:106"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Life Services button",
+    "steps": [
+      {
+        "name": "I click on Life Services button",
+        "aggregatedDurations": {
+          "median": 21.5996523,
+          "average": 21.5996523
+        },
+        "durations": [
+          {
+            "duration": 21.5996523,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/HomePage.feature:111"
           }
         ]
       }

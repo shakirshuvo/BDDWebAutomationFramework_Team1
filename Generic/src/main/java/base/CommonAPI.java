@@ -127,9 +127,20 @@ public class CommonAPI {
     public String browserstack_accesskey = "dGpR3twU2pLPLgXZxmSa";
     public String saucelabs_username = "";
     public String saucelabs_accesskey = "";
+
+//    public void openBrowser(String url, String os) throws IOException {
+////        setUp(false, "browserstack", "windows", "10", "chrome-options", "85", url);
+////        setUp(false, "browserstack", "windows", "10", "chrome-options", "85", "https://www.amazon.com/");
+//        String mac = "OS X";
+//        String windows = "Windows";
+//        if (os.equalsIgnoreCase(mac)) {
+//            setUp(false, "browserstack", "OS X", "10", "chrome-options", "85", url);
 //
-//    public void openBrowser() throws IOException {
-//        setUp(false, "browserstack", "windows", "10", "chrome", "85", "https://www.bankofamerica.com/");
+//        } else if (os.equalsIgnoreCase(windows)) {
+//            setUp(false, "browserstack", "windows", "10", "chrome-options", "85", url);
+//
+//        }
+//
 //    }
 
     public void openBrowser(String url) throws IOException {
@@ -137,14 +148,13 @@ public class CommonAPI {
         String windows = "windows";
 
         try {
-            setUp(false, "browserstack", "OS X", "catalina", "chrome-options", "85", url);
-
+            setUp(false, "browserstack", "windows", "10", "chrome-options", "85", url);
         } catch (Exception e) {
-            System.out.println("Let's try Windows");
-            setUp(false, "browserstack", "windows", "10", "chrome", "85", url);
-
+            System.out.println("Let's try Mac");
+            setUp(false, "browserstack", "OS X", "catalina", "chrome-options", "85", url);
         }
     }
+
 
     @Parameters({"useCloudEnv", "cloudEnvName", "os", "os_version", "browserName", "browserVersion", "url"})
     @BeforeMethod
@@ -270,6 +280,7 @@ public class CommonAPI {
     public void typeOnElementByCSS(String locator, String value) {
         driver.findElement(By.cssSelector(locator)).sendKeys(value);
     }
+
     public void typeOnElementByXpath(String locator, String value) {
         driver.findElement(By.xpath(locator)).sendKeys(value);
     }
@@ -521,6 +532,57 @@ public class CommonAPI {
         }
     }
 
+    public void selectOptionByValue(String element, String value) {
+        try {
+            Select vehicleYear = new Select(driver.findElement(By.cssSelector(element)));
+            vehicleYear.selectByValue(value);
+        } catch (Exception ex1) {
+            try {
+                System.out.println("First Attempt was not successful");
+                Select vehicleYear = new Select(driver.findElement(By.xpath(element)));
+                vehicleYear.selectByValue(value);
+            } catch (Exception ex2) {
+                try {
+                    System.out.println("Second Attempt was not successful");
+                    Select vehicleYear = new Select(driver.findElement(By.id(element)));
+                    vehicleYear.selectByValue(value);
+                } catch (Exception ex3) {
+                    System.out.println("Third Attempt was not successful");
+                    Select vehicleYear = new Select(driver.findElement(By.className(element)));
+                    vehicleYear.selectByValue(value);
+                }
+            }
+        }
+    }
+
+    public void selectOptionByIndexByXpath(String element, int indexNumber) {
+        Select select = new Select(driver.findElement(By.xpath(element)));
+        select.selectByIndex(indexNumber);
+    }
+
+    public void selectOptionByIndex(String element, int indexNumber) {
+        try {
+            Select select = new Select(driver.findElement(By.xpath(element)));
+            select.selectByIndex(indexNumber);
+        } catch (Exception ex1) {
+            try {
+                System.out.println("First Attempt was not successful");
+                Select select = new Select(driver.findElement(By.cssSelector(element)));
+                select.selectByIndex(indexNumber);
+            } catch (Exception ex2) {
+                try {
+                    System.out.println("Second Attempt was not successful");
+                    Select select = new Select(driver.findElement(By.id(element)));
+                    select.selectByIndex(indexNumber);
+                } catch (Exception ex3) {
+                    System.out.println("Third Attempt was not successful");
+                    Select select = new Select(driver.findElement(By.className(element)));
+                    select.selectByIndex(indexNumber);
+                }
+            }
+        }
+    }
+
     public static void sleepFor(int sec) throws InterruptedException {
         Thread.sleep(sec * 1000);
     }
@@ -636,6 +698,7 @@ public class CommonAPI {
         boolean value = driver1.findElement(By.cssSelector(locator)).isDisplayed();
         return value;
     }
+
     public static boolean isPopUpWindowDisplayedByXpath(WebDriver driver1, String locator) {
         boolean value = driver1.findElement(By.xpath(locator)).isDisplayed();
         return value;
@@ -677,7 +740,7 @@ public class CommonAPI {
     public void validateByTwoTextByClass(String element, String text1, String text2) {
         if (text1 == driver.findElement(By.className(element)).getText()) {
             Assert.assertEquals(text1, driver.findElement(By.className(element)).getText());
-        } else if (text2 == driver.findElement(By.className(element)).getText()){
+        } else if (text2 == driver.findElement(By.className(element)).getText()) {
             Assert.assertEquals(text2, driver.findElement(By.className(element)).getText());
         }
     }
@@ -820,13 +883,6 @@ public class CommonAPI {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
     }
-    //added by Saumitra
-    public void clickByLinkText(String locator) {driver.findElement(By.linkText(locator)).click();}
-    //added by Saumitra
-    public void clickByName(String locator) {driver.findElement(By.name(locator)).click();}
+
 
 }
-
-
-
-

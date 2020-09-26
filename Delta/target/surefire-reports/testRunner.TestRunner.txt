@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: testRunner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 61.409 s <<< FAILURE! - in testRunner.TestRunner
+Delta Homepage Functionality Check.Book-In functionality check from delta homepage Book tab  Time elapsed: 12.559 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "I click on Book" is undefined. You can implement it using the snippet(s) below:
+
+@When("I click on Book")
+public void i_click_on_book() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When("I click on From and put {int} as value")
+public void i_click_on_from_and_put_as_value(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+

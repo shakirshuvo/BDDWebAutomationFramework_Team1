@@ -1,1 +1,56 @@
-[]
+[
+  {
+    "source": "I am on T Mobile Homepage",
+    "steps": [
+      {
+        "name": "I am on T Mobile Homepage",
+        "aggregatedDurations": {
+          "median": 6.3958258,
+          "average": 6.3958258
+        },
+        "durations": [
+          {
+            "duration": 6.3958258,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/TMobile/src/test/java/features/HomePage.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I hover my mouse to Phones and Devices",
+    "steps": [
+      {
+        "name": "I hover my mouse to Phones and Devices",
+        "aggregatedDurations": {
+          "median": 3.8588903,
+          "average": 3.8588903
+        },
+        "durations": [
+          {
+            "duration": 3.8588903,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/TMobile/src/test/java/features/HomePage.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Cellphones",
+    "steps": [
+      {
+        "name": "I click on Cellphones",
+        "aggregatedDurations": {
+          "median": 5.2543816,
+          "average": 5.2543816
+        },
+        "durations": [
+          {
+            "duration": 5.2543816,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/TMobile/src/test/java/features/HomePage.feature:9"
+          }
+        ]
+      }
+    ]
+  }
+]

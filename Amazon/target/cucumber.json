@@ -11,41 +11,91 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 7583707500,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "duration": 10992100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 3,
             "name": "I am on Amazon Homepage",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iAmOnAmazonHomepage()"
+            },
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:25:00.999Z",
+        "start_timestamp": "2020-09-26T18:43:06.831Z",
         "line": 5,
         "name": "Best Sellers Functionality Check",
         "description": "",
         "id": "amazon-homepage-functionality-check;best-sellers-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 1495682300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.closeBrowser()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 998200,
-              "status": "skipped"
+              "duration": 2277874000,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 6,
             "name": "I click on Best sellers a new page appears",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_click_on_best_sellers_a_new_page_appears()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 67960900,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 7,
             "name": "I validate the test1 by page title",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_validate_the_test1_by_page_title()"
+            },
             "keyword": "Then "
           }
         ],
@@ -64,42 +114,93 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 5563958900,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "duration": 1998900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 3,
             "name": "I am on Amazon Homepage",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iAmOnAmazonHomepage()"
+            },
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:25:01.233Z",
+        "start_timestamp": "2020-09-26T18:43:18.535Z",
         "line": 9,
         "name": "Customer Service Functionality Check",
         "description": "",
         "id": "amazon-homepage-functionality-check;customer-service-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 1024309500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.closeBrowser()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 1000800,
-              "status": "skipped"
+              "duration": 31561460900,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "duration": 998500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 10,
             "name": "I click on Customer Service a new page appears",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_click_on_customer_service_a_new_page_appears()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 998800,
-              "status": "skipped"
+              "error_message": "java.lang.AssertionError: failed expected [\nAmazon.com Help: Help \u0026 Customer Service] but found [Amazon.com Help: Help \u0026 Customer Service]\r\n\tat org.testng.Assert.fail(Assert.java:97)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:136)\r\n\tat org.testng.Assert.assertEquals(Assert.java:118)\r\n\tat org.testng.Assert.assertEquals(Assert.java:575)\r\n\tat homeSaumitra.HomePageS.validateCustomerService(HomePageS.java:32)\r\n\tat stepDefinitions.HomeStepDefinitionS.i_validate_the_test2_by_page_title(HomeStepDefinitionS.java:48)\r\n\tat ✽.I validate the test2 by page title(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:11)\r\n",
+              "duration": 146917200,
+              "status": "failed"
             },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 11,
             "name": "I validate the test2 by page title",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_validate_the_test2_by_page_title()"
+            },
             "keyword": "Then "
           }
         ],
@@ -118,41 +219,93 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 5879787800,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 3,
             "name": "I am on Amazon Homepage",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iAmOnAmazonHomepage()"
+            },
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:25:01.269Z",
+        "start_timestamp": "2020-09-26T18:43:56.908Z",
         "line": 13,
         "name": "Todays Deal Functionality Check",
         "description": "",
         "id": "amazon-homepage-functionality-check;todays-deal-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 731639500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.closeBrowser()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 5995400,
-              "status": "skipped"
+              "duration": 21900256200,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "duration": 999100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 14,
             "name": "I click on Todays Deal a new page appears",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_click_on_todays_deal_a_new_page_appears()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "skipped"
+              "error_message": "java.lang.AssertionError: failed expected [\n\n Gold Box Deals | Today\u0027s Deals - Amazon.com\n] but found [Gold Box Deals | Today\u0027s Deals - Amazon.com]\r\n\tat org.testng.Assert.fail(Assert.java:97)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:136)\r\n\tat org.testng.Assert.assertEquals(Assert.java:118)\r\n\tat org.testng.Assert.assertEquals(Assert.java:575)\r\n\tat homeSaumitra.HomePageS.validateTodaysDeals(HomePageS.java:38)\r\n\tat stepDefinitions.HomeStepDefinitionS.i_validate_the_test3_by_page_title(HomeStepDefinitionS.java:57)\r\n\tat ✽.I validate the test3 by page title(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:15)\r\n",
+              "duration": 417718100,
+              "status": "failed"
             },
+            "before": [
+              {
+                "result": {
+                  "duration": 1001100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 15,
             "name": "I validate the test3 by page title",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_validate_the_test3_by_page_title()"
+            },
             "keyword": "Then "
           }
         ],
@@ -171,41 +324,92 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 5940862100,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "duration": 999400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 3,
             "name": "I am on Amazon Homepage",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iAmOnAmazonHomepage()"
+            },
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:25:01.300Z",
+        "start_timestamp": "2020-09-26T18:44:25.899Z",
         "line": 17,
         "name": "New Releases Functionality Check",
         "description": "",
         "id": "amazon-homepage-functionality-check;new-releases-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 741819800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.closeBrowser()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 32232490200,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "duration": 999200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 18,
             "name": "I click on New Releases a new page appears",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_click_on_new_releases_a_new_page_appears()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 999000,
-              "status": "skipped"
+              "duration": 15990100,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 19,
             "name": "I validate the test4 by page title",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_validate_the_test4_by_page_title()"
+            },
             "keyword": "Then "
           }
         ],
@@ -224,41 +428,92 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 5705577800,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 3,
             "name": "I am on Amazon Homepage",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iAmOnAmazonHomepage()"
+            },
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:25:01.315Z",
+        "start_timestamp": "2020-09-26T18:45:04.869Z",
         "line": 21,
         "name": "Find a Gift Functionality Check",
         "description": "",
         "id": "amazon-homepage-functionality-check;find-a-gift-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 732225000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.closeBrowser()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 40557532100,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "duration": 1999400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 22,
             "name": "I click on Find a Gift a new page appears",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_click_on_find_a_gift_a_new_page_appears()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 999400,
-              "status": "skipped"
+              "error_message": "java.lang.AssertionError: failed expected [Gifts for Everyone | Amazon.com Gift Finder] but found [Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs \u0026 more]\r\n\tat org.testng.Assert.fail(Assert.java:97)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:136)\r\n\tat org.testng.Assert.assertEquals(Assert.java:118)\r\n\tat org.testng.Assert.assertEquals(Assert.java:575)\r\n\tat homeSaumitra.HomePageS.validatefind_a_gift(HomePageS.java:48)\r\n\tat stepDefinitions.HomeStepDefinitionS.i_validate_the_test5_by_page_title(HomeStepDefinitionS.java:75)\r\n\tat ✽.I validate the test5 by page title(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:23)\r\n",
+              "duration": 4992300,
+              "status": "failed"
             },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 23,
             "name": "I validate the test5 by page title",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_validate_the_test5_by_page_title()"
+            },
             "keyword": "Then "
           }
         ],
@@ -277,40 +532,92 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 6025568800,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "duration": 1997000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 3,
             "name": "I am on Amazon Homepage",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iAmOnAmazonHomepage()"
+            },
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:25:01.328Z",
+        "start_timestamp": "2020-09-26T18:45:51.896Z",
         "line": 25,
         "name": "Whole Foods Functionality Check",
         "description": "",
         "id": "amazon-homepage-functionality-check;whole-foods-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 705488100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.closeBrowser()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 31634151000,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 26,
             "name": "I click on Whole Foods a new page appears",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_click_on_whole_foods_a_new_page_appears()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "skipped"
+              "error_message": "java.lang.AssertionError: failed expected [Whole Foods Market @ Amazon.com] but found [Amazon.com: Whole Foods Market]\r\n\tat org.testng.Assert.fail(Assert.java:97)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:136)\r\n\tat org.testng.Assert.assertEquals(Assert.java:118)\r\n\tat org.testng.Assert.assertEquals(Assert.java:575)\r\n\tat homeSaumitra.HomePageS.validateWholeFoods(HomePageS.java:53)\r\n\tat stepDefinitions.HomeStepDefinitionS.i_validate_the_test6_by_page_title(HomeStepDefinitionS.java:84)\r\n\tat ✽.I validate the test6 by page title(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:27)\r\n",
+              "duration": 5997400,
+              "status": "failed"
             },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 27,
             "name": "I validate the test6 by page title",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_validate_the_test6_by_page_title()"
+            },
             "keyword": "Then "
           }
         ],
@@ -329,41 +636,93 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 7525563200,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 3,
             "name": "I am on Amazon Homepage",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iAmOnAmazonHomepage()"
+            },
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:25:01.348Z",
+        "start_timestamp": "2020-09-26T18:46:30.313Z",
         "line": 29,
         "name": "Gift Cards Functionality Check",
         "description": "",
         "id": "amazon-homepage-functionality-check;gift-cards-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 705624600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.closeBrowser()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 4997100,
-              "status": "skipped"
+              "duration": 40614699800,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "duration": 999400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 30,
             "name": "I click on Gift Cards a new page appears",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_click_on_gift_cards_a_new_page_appears()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "skipped"
+              "error_message": "java.lang.AssertionError: failed expected [Amazon.com Gift Cards] but found [Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs \u0026 more]\r\n\tat org.testng.Assert.fail(Assert.java:97)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:136)\r\n\tat org.testng.Assert.assertEquals(Assert.java:118)\r\n\tat org.testng.Assert.assertEquals(Assert.java:575)\r\n\tat homeSaumitra.HomePageS.validateGiftCards(HomePageS.java:58)\r\n\tat stepDefinitions.HomeStepDefinitionS.i_validate_the_test7_by_page_title(HomeStepDefinitionS.java:93)\r\n\tat ✽.I validate the test7 by page title(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:31)\r\n",
+              "duration": 10994100,
+              "status": "failed"
             },
+            "before": [
+              {
+                "result": {
+                  "duration": 998000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 31,
             "name": "I validate the test7 by page title",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_validate_the_test7_by_page_title()"
+            },
             "keyword": "Then "
           }
         ],
@@ -382,40 +741,93 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 5736171800,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "duration": 998800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 3,
             "name": "I am on Amazon Homepage",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iAmOnAmazonHomepage()"
+            },
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:25:01.387Z",
+        "start_timestamp": "2020-09-26T18:47:19.196Z",
         "line": 33,
         "name": "Free Shipping Functionality Check",
         "description": "",
         "id": "amazon-homepage-functionality-check;free-shipping-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 729430400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.closeBrowser()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 40355830400,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 34,
             "name": "I click on Free Shipping a new page appears",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_click_on_free_shipping_a_new_page_appears()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "skipped"
+              "error_message": "java.lang.AssertionError: failed expected [Amazon.com: : FREE Shipping by Amazon] but found [Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs \u0026 more]\r\n\tat org.testng.Assert.fail(Assert.java:97)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:136)\r\n\tat org.testng.Assert.assertEquals(Assert.java:118)\r\n\tat org.testng.Assert.assertEquals(Assert.java:575)\r\n\tat homeSaumitra.HomePageS.validateFreeShipping(HomePageS.java:63)\r\n\tat stepDefinitions.HomeStepDefinitionS.i_validate_the_test8_by_page_title(HomeStepDefinitionS.java:102)\r\n\tat ✽.I validate the test8 by page title(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:35)\r\n",
+              "duration": 16982700,
+              "status": "failed"
             },
+            "before": [
+              {
+                "result": {
+                  "duration": 1004700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 35,
             "name": "I validate the test8 by page title",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_validate_the_test8_by_page_title()"
+            },
             "keyword": "Then "
           }
         ],
@@ -434,38 +846,84 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 7321550000,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 3,
             "name": "I am on Amazon Homepage",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iAmOnAmazonHomepage()"
+            },
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:25:01.420Z",
+        "start_timestamp": "2020-09-26T18:48:06.107Z",
         "line": 37,
         "name": "Registry Functionality Check",
         "description": "",
         "id": "amazon-homepage-functionality-check;registry-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 775855000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.closeBrowser()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 998900,
-              "status": "skipped"
+              "duration": 50344631100,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 38,
             "name": "I click on Registry a new page appears",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_click_on_registry_a_new_page_appears()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "skipped"
+              "status": "undefined"
             },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 39,
             "name": "I validate the test9 by page title",
             "match": {},
@@ -487,41 +945,92 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 5876790700,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 3,
             "name": "I am on Amazon Homepage",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iAmOnAmazonHomepage()"
+            },
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:25:01.439Z",
+        "start_timestamp": "2020-09-26T18:49:04.568Z",
         "line": 41,
         "name": "Sell Functionality Check",
         "description": "",
         "id": "amazon-homepage-functionality-check;sell-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 1711027900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.closeBrowser()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 50989288200,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "duration": 999500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 42,
             "name": "I click on Sell a new page appears",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_click_on_sell_a_new_page_appears()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 999200,
-              "status": "skipped"
+              "error_message": "java.lang.AssertionError: failed expected [Amazon.com: Sell Products Online with Selling on Amazon.] but found [Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs \u0026 more]\r\n\tat org.testng.Assert.fail(Assert.java:97)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:136)\r\n\tat org.testng.Assert.assertEquals(Assert.java:118)\r\n\tat org.testng.Assert.assertEquals(Assert.java:575)\r\n\tat homeSaumitra.HomePageS.validateSell(HomePageS.java:73)\r\n\tat stepDefinitions.HomeStepDefinitionS.i_validate_the_test10_by_page_title(HomeStepDefinitionS.java:120)\r\n\tat ✽.I validate the test10 by page title(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:43)\r\n",
+              "duration": 59102600,
+              "status": "failed"
             },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 43,
             "name": "I validate the test10 by page title",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_validate_the_test10_by_page_title()"
+            },
             "keyword": "Then "
           }
         ],
@@ -540,40 +1049,93 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 5548577400,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 3,
             "name": "I am on Amazon Homepage",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iAmOnAmazonHomepage()"
+            },
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:25:01.451Z",
+        "start_timestamp": "2020-09-26T18:50:03.229Z",
         "line": 45,
         "name": "Coupons Functionality Check",
         "description": "",
         "id": "amazon-homepage-functionality-check;coupons-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 689280100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.closeBrowser()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 50210689300,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "duration": 999600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 46,
             "name": "I click on Coupons a new page appears",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_click_on_coupons_a_new_page_appears()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "skipped"
+              "error_message": "java.lang.AssertionError: failed expected [Amazon.com: Coupons] but found [Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs \u0026 more]\r\n\tat org.testng.Assert.fail(Assert.java:97)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:136)\r\n\tat org.testng.Assert.assertEquals(Assert.java:118)\r\n\tat org.testng.Assert.assertEquals(Assert.java:575)\r\n\tat homeSaumitra.HomePageS.validateCoupons(HomePageS.java:78)\r\n\tat stepDefinitions.HomeStepDefinitionS.i_validate_the_test11_by_page_title(HomeStepDefinitionS.java:129)\r\n\tat ✽.I validate the test11 by page title(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:47)\r\n",
+              "duration": 26985700,
+              "status": "failed"
             },
+            "before": [
+              {
+                "result": {
+                  "duration": 998400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 47,
             "name": "I validate the test11 by page title",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_validate_the_test11_by_page_title()"
+            },
             "keyword": "Then "
           }
         ],
@@ -592,41 +1154,90 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 6083949900,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 3,
             "name": "I am on Amazon Homepage",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iAmOnAmazonHomepage()"
+            },
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:25:01.461Z",
+        "start_timestamp": "2020-09-26T18:50:59.720Z",
         "line": 49,
         "name": "Amazon Basics Functionality Check",
         "description": "",
         "id": "amazon-homepage-functionality-check;amazon-basics-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 783290600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.closeBrowser()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 41667832500,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 50,
             "name": "I click on Amazon Basics a new page appears",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_click_on_amazon_basics_a_new_page_appears()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 999800,
-              "status": "skipped"
+              "duration": 165906500,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 51,
             "name": "I validate the test12 by page title",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_validate_the_test12_by_page_title()"
+            },
             "keyword": "Then "
           }
         ],
@@ -645,40 +1256,92 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 5570032800,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 3,
             "name": "I am on Amazon Homepage",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iAmOnAmazonHomepage()"
+            },
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:25:01.480Z",
+        "start_timestamp": "2020-09-26T18:51:48.435Z",
         "line": 53,
         "name": "Found It On Amazon Functionality Check",
         "description": "",
         "id": "amazon-homepage-functionality-check;found-it-on-amazon-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 869926400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.closeBrowser()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 40230203700,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "duration": 999000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 54,
             "name": "I click on Found It On Amazon a new page appears",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_click_on_found_it_on_amazon_a_new_page_appears()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "skipped"
+              "error_message": "java.lang.AssertionError: failed expected [#FoundItOnAmazon] but found [Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs \u0026 more]\r\n\tat org.testng.Assert.fail(Assert.java:97)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:136)\r\n\tat org.testng.Assert.assertEquals(Assert.java:118)\r\n\tat org.testng.Assert.assertEquals(Assert.java:575)\r\n\tat homeSaumitra.HomePageS.validateFoundItOnAmazon(HomePageS.java:88)\r\n\tat stepDefinitions.HomeStepDefinitionS.i_validate_the_test13_by_page_title(HomeStepDefinitionS.java:147)\r\n\tat ✽.I validate the test13 by page title(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:55)\r\n",
+              "duration": 7996000,
+              "status": "failed"
             },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 55,
             "name": "I validate the test13 by page title",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_validate_the_test13_by_page_title()"
+            },
             "keyword": "Then "
           }
         ],
@@ -697,40 +1360,92 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 5642918400,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 3,
             "name": "I am on Amazon Homepage",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iAmOnAmazonHomepage()"
+            },
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:25:01.506Z",
+        "start_timestamp": "2020-09-26T18:52:35.141Z",
         "line": 57,
         "name": "Account Lists Functionality Check",
         "description": "",
         "id": "amazon-homepage-functionality-check;account-lists-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 872564600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.closeBrowser()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 40764927600,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "duration": 999800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 58,
             "name": "I click on Account Lists a new page appears",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_click_on_account_lists_a_new_page_appears()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "skipped"
+              "error_message": "java.lang.AssertionError: failed expected [\"\";\n] but found [Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs \u0026 more]\r\n\tat org.testng.Assert.fail(Assert.java:97)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:136)\r\n\tat org.testng.Assert.assertEquals(Assert.java:118)\r\n\tat org.testng.Assert.assertEquals(Assert.java:575)\r\n\tat homeSaumitra.HomePageS.validateAccountLists(HomePageS.java:93)\r\n\tat stepDefinitions.HomeStepDefinitionS.i_validate_the_test14_by_page_title(HomeStepDefinitionS.java:156)\r\n\tat ✽.I validate the test14 by page title(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:59)\r\n",
+              "duration": 8990200,
+              "status": "failed"
             },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 59,
             "name": "I validate the test14 by page title",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_validate_the_test14_by_page_title()"
+            },
             "keyword": "Then "
           }
         ],
@@ -749,41 +1464,92 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 5724984300,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 3,
             "name": "I am on Amazon Homepage",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iAmOnAmazonHomepage()"
+            },
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:25:01.522Z",
+        "start_timestamp": "2020-09-26T18:53:22.447Z",
         "line": 61,
         "name": "Orders Functionality Check",
         "description": "",
         "id": "amazon-homepage-functionality-check;orders-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 679706000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.closeBrowser()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 1998600,
-              "status": "skipped"
+              "duration": 1070388400,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 62,
             "name": "I click on Orders a new page appears",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_click_on_orders_a_new_page_appears()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "skipped"
+              "error_message": "java.lang.AssertionError: failed expected [order:amazon] but found [Amazon Sign-In]\r\n\tat org.testng.Assert.fail(Assert.java:97)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:136)\r\n\tat org.testng.Assert.assertEquals(Assert.java:118)\r\n\tat org.testng.Assert.assertEquals(Assert.java:575)\r\n\tat homeSaumitra.HomePageS.validateOrders(HomePageS.java:98)\r\n\tat stepDefinitions.HomeStepDefinitionS.i_validate_the_test15_by_page_title(HomeStepDefinitionS.java:165)\r\n\tat ✽.I validate the test15 by page title(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:63)\r\n",
+              "duration": 59966000,
+              "status": "failed"
             },
+            "before": [
+              {
+                "result": {
+                  "duration": 999300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 63,
             "name": "I validate the test15 by page title",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_validate_the_test15_by_page_title()"
+            },
             "keyword": "Then "
           }
         ],
@@ -802,41 +1568,92 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 5820325600,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "duration": 997000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 3,
             "name": "I am on Amazon Homepage",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iAmOnAmazonHomepage()"
+            },
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:25:01.546Z",
+        "start_timestamp": "2020-09-26T18:53:29.995Z",
         "line": 65,
         "name": "Try Prime Functionality Check",
         "description": "",
         "id": "amazon-homepage-functionality-check;try-prime-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 3474547000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.closeBrowser()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 999400,
-              "status": "skipped"
+              "duration": 51248441900,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 66,
             "name": "I click on Try Prime a new page appears",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_click_on_try_prime_a_new_page_appears()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "skipped"
+              "error_message": "java.lang.AssertionError: failed expected [Amazon.com: Amazon Prime] but found [Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs \u0026 more]\r\n\tat org.testng.Assert.fail(Assert.java:97)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:136)\r\n\tat org.testng.Assert.assertEquals(Assert.java:118)\r\n\tat org.testng.Assert.assertEquals(Assert.java:575)\r\n\tat homeSaumitra.HomePageS.validateTryPrimes(HomePageS.java:103)\r\n\tat stepDefinitions.HomeStepDefinitionS.i_validate_the_test16_by_page_title(HomeStepDefinitionS.java:174)\r\n\tat ✽.I validate the test16 by page title(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:67)\r\n",
+              "duration": 110022800,
+              "status": "failed"
             },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 67,
             "name": "I validate the test16 by page title",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_validate_the_test16_by_page_title()"
+            },
             "keyword": "Then "
           }
         ],
@@ -855,41 +1672,92 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 7966003300,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 3,
             "name": "I am on Amazon Homepage",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iAmOnAmazonHomepage()"
+            },
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:25:01.577Z",
+        "start_timestamp": "2020-09-26T18:54:30.678Z",
         "line": 69,
         "name": "Cart Functionality Check",
         "description": "",
         "id": "amazon-homepage-functionality-check;cart-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 2694678000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.closeBrowser()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 31752032000,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 70,
             "name": "I click on Cart a new page appears",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_click_on_cart_a_new_page_appears()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 999200,
-              "status": "skipped"
+              "error_message": "java.lang.AssertionError: failed expected [Amazon.com Shopping Cart] but found [Change Language \u0026 Currency Settings]\r\n\tat org.testng.Assert.fail(Assert.java:97)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:136)\r\n\tat org.testng.Assert.assertEquals(Assert.java:118)\r\n\tat org.testng.Assert.assertEquals(Assert.java:575)\r\n\tat homeSaumitra.HomePageS.validateCart(HomePageS.java:108)\r\n\tat stepDefinitions.HomeStepDefinitionS.i_validate_the_test17_by_page_title(HomeStepDefinitionS.java:183)\r\n\tat ✽.I validate the test17 by page title(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:71)\r\n",
+              "duration": 599656900,
+              "status": "failed"
             },
+            "before": [
+              {
+                "result": {
+                  "duration": 999200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 71,
             "name": "I validate the test17 by page title",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_validate_the_test17_by_page_title()"
+            },
             "keyword": "Then "
           }
         ],
@@ -908,40 +1776,92 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 7805608600,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 3,
             "name": "I am on Amazon Homepage",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iAmOnAmazonHomepage()"
+            },
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:25:01.597Z",
+        "start_timestamp": "2020-09-26T18:55:13.711Z",
         "line": 73,
         "name": "Select Your Address Functionality Check",
         "description": "",
         "id": "amazon-homepage-functionality-check;select-your-address-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 2985157400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.closeBrowser()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 21679159800,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 74,
             "name": "I click on Select Your Address a new page appears",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_click_on_select_your_address_a_new_page_appears()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "skipped"
+              "error_message": "java.lang.AssertionError: failed expected [negative testing] but found [Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs \u0026 more]\r\n\tat org.testng.Assert.fail(Assert.java:97)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:136)\r\n\tat org.testng.Assert.assertEquals(Assert.java:118)\r\n\tat org.testng.Assert.assertEquals(Assert.java:575)\r\n\tat homeSaumitra.HomePageS.validateSelectYourAddress(HomePageS.java:113)\r\n\tat stepDefinitions.HomeStepDefinitionS.i_validate_the_test18_by_page_title(HomeStepDefinitionS.java:192)\r\n\tat ✽.I validate the test18 by page title(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:75)\r\n",
+              "duration": 237864000,
+              "status": "failed"
             },
+            "before": [
+              {
+                "result": {
+                  "duration": 998700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 75,
             "name": "I validate the test18 by page title",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_validate_the_test18_by_page_title()"
+            },
             "keyword": "Then "
           }
         ],
@@ -960,40 +1880,92 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 11474690500,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 3,
             "name": "I am on Amazon Homepage",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iAmOnAmazonHomepage()"
+            },
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:25:01.611Z",
+        "start_timestamp": "2020-09-26T18:55:46.497Z",
         "line": 77,
         "name": "Careers Functionality Check",
         "description": "",
         "id": "amazon-homepage-functionality-check;careers-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 2227800100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.closeBrowser()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 45409085100,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "duration": 999500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 78,
             "name": "I click on Careers a new page appears",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_click_on_careers_a_new_page_appears()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "skipped"
+              "error_message": "java.lang.AssertionError: failed expected [Amazon.jobs: Help us build Earthâ€™s most customer-centric company.] but found [Amazon.jobs: Help us build Earth’s most customer-centric company.]\r\n\tat org.testng.Assert.fail(Assert.java:97)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:136)\r\n\tat org.testng.Assert.assertEquals(Assert.java:118)\r\n\tat org.testng.Assert.assertEquals(Assert.java:575)\r\n\tat homeSaumitra.HomePageS.validateCareers(HomePageS.java:118)\r\n\tat stepDefinitions.HomeStepDefinitionS.i_validate_the_test19_by_page_title(HomeStepDefinitionS.java:201)\r\n\tat ✽.I validate the test19 by page title(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:79)\r\n",
+              "duration": 1586158900,
+              "status": "failed"
             },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 79,
             "name": "I validate the test19 by page title",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_validate_the_test19_by_page_title()"
+            },
             "keyword": "Then "
           }
         ],
@@ -1012,40 +1984,91 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 7715496700,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 3,
             "name": "I am on Amazon Homepage",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iAmOnAmazonHomepage()"
+            },
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:25:01.619Z",
+        "start_timestamp": "2020-09-26T18:56:47.238Z",
         "line": 81,
         "name": "Blog Functionality Check",
         "description": "",
         "id": "amazon-homepage-functionality-check;blog-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 4296054900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.closeBrowser()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 54456970100,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 82,
             "name": "I click on Blog a new page appears",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_click_on_blog_a_new_page_appears()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 11992900,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 83,
             "name": "I validate the test20 by page title",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_validate_the_test20_by_page_title()"
+            },
             "keyword": "Then "
           }
         ],
@@ -1064,42 +2087,92 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 10544215200,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 3,
             "name": "I am on Amazon Homepage",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iAmOnAmazonHomepage()"
+            },
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:25:01.634Z",
+        "start_timestamp": "2020-09-26T18:57:53.737Z",
         "line": 85,
         "name": "Amazon Devices Functionality Check",
         "description": "",
         "id": "amazon-homepage-functionality-check;amazon-devices-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 18343764400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.closeBrowser()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 999700,
-              "status": "skipped"
+              "duration": 35912969600,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "duration": 998700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 86,
             "name": "I click on Amazon Devices a new page appears",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_click_on_amazon_devices_a_new_page_appears()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 999500,
-              "status": "skipped"
+              "error_message": "java.lang.AssertionError: failed expected [Amazon Devices - Official Site - Kindle, Fire, Echo devices] but found [Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs \u0026 more]\r\n\tat org.testng.Assert.fail(Assert.java:97)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:136)\r\n\tat org.testng.Assert.assertEquals(Assert.java:118)\r\n\tat org.testng.Assert.assertEquals(Assert.java:575)\r\n\tat homeSaumitra.HomePageS.validateAmazonDevices(HomePageS.java:128)\r\n\tat stepDefinitions.HomeStepDefinitionS.i_validate_the_test21_by_page_title(HomeStepDefinitionS.java:219)\r\n\tat ✽.I validate the test21 by page title(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:87)\r\n",
+              "duration": 142918200,
+              "status": "failed"
             },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 87,
             "name": "I validate the test21 by page title",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_validate_the_test21_by_page_title()"
+            },
             "keyword": "Then "
           }
         ],
@@ -1118,41 +2191,91 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 11694627600,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "duration": 999300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 3,
             "name": "I am on Amazon Homepage",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iAmOnAmazonHomepage()"
+            },
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:25:01.663Z",
+        "start_timestamp": "2020-09-26T18:58:58.705Z",
         "line": 89,
         "name": "Press Center Functionality Check",
         "description": "",
         "id": "amazon-homepage-functionality-check;press-center-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 4270762100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.closeBrowser()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 999400,
-              "status": "skipped"
+              "duration": 4564209700,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 90,
             "name": "I click on Press Center a new page appears",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_click_on_press_center_a_new_page_appears()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 45485100,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 91,
             "name": "I validate the test22 by page title",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_validate_the_test22_by_page_title()"
+            },
             "keyword": "Then "
           }
         ],
@@ -1171,41 +2294,91 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 8377971000,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 3,
             "name": "I am on Amazon Homepage",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iAmOnAmazonHomepage()"
+            },
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:25:01.681Z",
+        "start_timestamp": "2020-09-26T18:59:19.319Z",
         "line": 93,
         "name": "Amazon Tours Functionality Check",
         "description": "",
         "id": "amazon-homepage-functionality-check;amazon-tours-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 8175380500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.closeBrowser()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 999900,
-              "status": "skipped"
+              "duration": 6791380000,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "duration": 999400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 94,
             "name": "I click on Amazon Tours a new page appears",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_click_on_amazon_tours_a_new_page_appears()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 14991200,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 95,
             "name": "I validate the test23 by page title",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_validate_the_test23_by_page_title()"
+            },
             "keyword": "Then "
           }
         ],
@@ -1224,41 +2397,91 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 7978939100,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 3,
             "name": "I am on Amazon Homepage",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iAmOnAmazonHomepage()"
+            },
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:25:01.691Z",
+        "start_timestamp": "2020-09-26T18:59:42.694Z",
         "line": 97,
         "name": "Sell On Amazon Functionality Check",
         "description": "",
         "id": "amazon-homepage-functionality-check;sell-on-amazon-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 3475012100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.closeBrowser()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 999600,
-              "status": "skipped"
+              "duration": 41955527800,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 98,
             "name": "I click on Sell On Amazon a new page appears",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_click_on_sell_on_amazon_a_new_page_appears()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "skipped"
+              "error_message": "java.lang.AssertionError: failed expected [Sell on Amazon | Build Your Ecommerce Business] but found [Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs \u0026 more]\r\n\tat org.testng.Assert.fail(Assert.java:97)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:136)\r\n\tat org.testng.Assert.assertEquals(Assert.java:118)\r\n\tat org.testng.Assert.assertEquals(Assert.java:575)\r\n\tat homeSaumitra.HomePageS.validateSellOnAmazon(HomePageS.java:143)\r\n\tat stepDefinitions.HomeStepDefinitionS.i_validate_the_test24_by_page_title(HomeStepDefinitionS.java:246)\r\n\tat ✽.I validate the test24 by page title(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:99)\r\n",
+              "duration": 114934700,
+              "status": "failed"
             },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 99,
             "name": "I validate the test24 by page title",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_validate_the_test24_by_page_title()"
+            },
             "keyword": "Then "
           }
         ],
@@ -1277,40 +2500,91 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 10387484400,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "duration": 999800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 3,
             "name": "I am on Amazon Homepage",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iAmOnAmazonHomepage()"
+            },
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:25:01.711Z",
+        "start_timestamp": "2020-09-26T19:00:36.239Z",
         "line": 101,
         "name": "Become Affiliate Functionality Check",
         "description": "",
         "id": "amazon-homepage-functionality-check;become-affiliate-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 1236311900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.closeBrowser()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 35408333800,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 102,
             "name": "I click on Become Affiliate a new page appears",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_click_on_become_affiliate_a_new_page_appears()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 42488000,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 103,
             "name": "I validate the test25 by page title",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_validate_the_test25_by_page_title()"
+            },
             "keyword": "Then "
           }
         ],
@@ -1329,42 +2603,92 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 12929254900,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 3,
             "name": "I am on Amazon Homepage",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iAmOnAmazonHomepage()"
+            },
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:25:01.722Z",
+        "start_timestamp": "2020-09-26T19:01:23.358Z",
         "line": 105,
         "name": "Advertise Products Functionality Check",
         "description": "",
         "id": "amazon-homepage-functionality-check;advertise-products-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 6705642300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.closeBrowser()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 1999200,
-              "status": "skipped"
+              "duration": 38323661400,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "duration": 997200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 106,
             "name": "I click on Advertise Products a new page appears",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_click_on_advertise_products_a_new_page_appears()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 999000,
-              "status": "skipped"
+              "duration": 116555300,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "duration": 533300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 107,
             "name": "I validate the test26 by page title",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_validate_the_test26_by_page_title()"
+            },
             "keyword": "Then "
           }
         ],
@@ -1383,41 +2707,92 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 10670365900,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 3,
             "name": "I am on Amazon Homepage",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iAmOnAmazonHomepage()"
+            },
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:25:01.733Z",
+        "start_timestamp": "2020-09-26T19:02:21.471Z",
         "line": 109,
         "name": "Amazon Store Card Functionality Check",
         "description": "",
         "id": "amazon-homepage-functionality-check;amazon-store-card-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 12705223200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.closeBrowser()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 36211215600,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 110,
             "name": "I click on Amazon Store Card a new page appears",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_click_on_amazon_store_card_a_new_page_appears()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 999000,
-              "status": "skipped"
+              "duration": 277841300,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 111,
             "name": "I validate the test27 by page title",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_validate_the_test27_by_page_title()"
+            },
             "keyword": "Then "
           }
         ],
@@ -1436,40 +2811,92 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 9696102200,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "duration": 998800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 3,
             "name": "I am on Amazon Homepage",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iAmOnAmazonHomepage()"
+            },
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:25:01.746Z",
+        "start_timestamp": "2020-09-26T19:03:21.360Z",
         "line": 113,
         "name": "Shop With Points Functionality Check",
         "description": "",
         "id": "amazon-homepage-functionality-check;shop-with-points-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 5308484900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.closeBrowser()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 35371807900,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 114,
             "name": "I click on Shop With Points a new page appears",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_click_on_shop_with_points_a_new_page_appears()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "skipped"
+              "error_message": "java.lang.AssertionError: failed expected [Amazon.com: Credit \u0026 Payment Cards] but found [Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs \u0026 more]\r\n\tat org.testng.Assert.fail(Assert.java:97)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:136)\r\n\tat org.testng.Assert.assertEquals(Assert.java:118)\r\n\tat org.testng.Assert.assertEquals(Assert.java:575)\r\n\tat homeSaumitra.HomePageS.validateShopWithPoints(HomePageS.java:163)\r\n\tat stepDefinitions.HomeStepDefinitionS.i_validate_the_test28_by_page_title(HomeStepDefinitionS.java:282)\r\n\tat ✽.I validate the test28 by page title(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:115)\r\n",
+              "duration": 7994600,
+              "status": "failed"
             },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 115,
             "name": "I validate the test28 by page title",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_validate_the_test28_by_page_title()"
+            },
             "keyword": "Then "
           }
         ],
@@ -1488,41 +2915,90 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 9575033800,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 3,
             "name": "I am on Amazon Homepage",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iAmOnAmazonHomepage()"
+            },
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:25:01.757Z",
+        "start_timestamp": "2020-09-26T19:04:11.767Z",
         "line": 117,
         "name": "Currency Converter Functionality Check",
         "description": "",
         "id": "amazon-homepage-functionality-check;currency-converter-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 3854837300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.closeBrowser()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 998700,
-              "status": "skipped"
+              "duration": 36430183500,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 118,
             "name": "I click on Currency Converter a new page appears",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_click_on_currency_converter_a_new_page_appears()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 250856700,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 119,
             "name": "I validate the test29 by page title",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_validate_the_test29_by_page_title()"
+            },
             "keyword": "Then "
           }
         ],
@@ -1541,38 +3017,86 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 8842112400,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "duration": 999900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 3,
             "name": "I am on Amazon Homepage",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iAmOnAmazonHomepage()"
+            },
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2020-09-20T21:25:01.821Z",
+        "start_timestamp": "2020-09-26T19:05:01.925Z",
         "line": 121,
         "name": "Credit Card Market Place Functionality Check",
         "description": "",
         "id": "amazon-homepage-functionality-check;credit-card-market-place-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 4694620300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.closeBrowser()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 4751494100,
+              "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "duration": 1008300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 122,
             "name": "I click on Credit Card Market Place a new page appears",
-            "match": {},
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_click_on_credit_card_market_place_a_new_page_appears()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 999900,
-              "status": "skipped"
+              "status": "undefined"
             },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
             "line": 123,
             "name": "I validate the test by30 page title",
             "match": {},
@@ -1590,71 +3114,7 @@
     "description": "",
     "id": "amazon-homepage-functionality-check",
     "keyword": "Feature",
-    "uri": "file:src/test/java/features/HomePage.feature",
-    "tags": []
-  },
-  {
-    "line": 1,
-    "elements": [
-      {
-        "start_timestamp": "2020-09-20T21:25:01.884Z",
-        "line": 4,
-        "name": "Amazon search field functionality check with valid data",
-        "description": "",
-        "id": "amazon-search-functionality-check;amazon-search-field-functionality-check-with-valid-data",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 5,
-            "name": "I am on Amazon homepage",
-            "match": {},
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 6,
-            "name": "I enter \"Hand Sanitizer\" in search field",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 4997200,
-              "status": "skipped"
-            },
-            "line": 7,
-            "name": "I submit search field",
-            "match": {},
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 8,
-            "name": "I verify page title as \"Amazon.ca : hand sanitizers\"",
-            "match": {},
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@SmokeTest"
-          }
-        ]
-      }
-    ],
-    "name": "Amazon search functionality check",
-    "description": "",
-    "id": "amazon-search-functionality-check",
-    "keyword": "Feature",
-    "uri": "file:src/test/java/features/Search.feature",
+    "uri": "file:src/test/java/features/HomePageS.feature",
     "tags": []
   }
 ]

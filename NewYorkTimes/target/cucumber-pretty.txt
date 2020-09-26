@@ -1,0 +1,434 @@
+
+@SmokeTest
+Scenario: World News Functionality Check         # src/test/java/features/HomePageS.feature:5
+  Given I am on New York Times Homepage          # stepDefinitions.HomeStepDefinitionS.iAmOnNewYorkTimesHomepage()
+  When I click on World and a new page appears   # stepDefinitions.HomeStepDefinitionS.i_click_on_world_and_a_new_page_appears()
+  Then I validate that page by page title test a # stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestA()
+
+@SmokeTest
+Scenario: US News Functionality Check            # src/test/java/features/HomePageS.feature:9
+  Given I am on New York Times Homepage          # stepDefinitions.HomeStepDefinitionS.iAmOnNewYorkTimesHomepage()
+  When I click on US and a new page appears      # stepDefinitions.HomeStepDefinitionS.i_click_on_us_and_a_new_page_appears()
+  Then I validate that page by page title test b # stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestB()
+      org.junit.ComparisonFailure: expected:<[U.S. News - The New York Times]> but was:<[The New York Times - Breaking News, World News & Multimedia]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at base.CommonAPI.validateByTitle(CommonAPI.java:728)
+	at home.HomeS.validateUs(HomeS.java:43)
+	at stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestB(HomeStepDefinitionS.java:48)
+	at ✽.I validate that page by page title test b(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:11)
+
+
+@SmokeTest
+Scenario: Politics News Functionality Check       # src/test/java/features/HomePageS.feature:13
+  Given I am on New York Times Homepage           # stepDefinitions.HomeStepDefinitionS.iAmOnNewYorkTimesHomepage()
+  When I click on Politics and a new page appears # stepDefinitions.HomeStepDefinitionS.i_click_on_politics_and_a_new_page_appears()
+  Then I validate that page by page title test c  # stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestC()
+      org.junit.ComparisonFailure: expected:<[Politics - The New York Times]> but was:<[The New York Times - Breaking News, World News & Multimedia]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at base.CommonAPI.validateByTitle(CommonAPI.java:728)
+	at home.HomeS.validatePolitics(HomeS.java:46)
+	at stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestC(HomeStepDefinitionS.java:57)
+	at ✽.I validate that page by page title test c(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:15)
+
+
+@SmokeTest
+Scenario: NY News Functionality Check            # src/test/java/features/HomePageS.feature:17
+  Given I am on New York Times Homepage          # stepDefinitions.HomeStepDefinitionS.iAmOnNewYorkTimesHomepage()
+  When I click on NY News and a new page appears # stepDefinitions.HomeStepDefinitionS.i_click_on_ny_news_and_a_new_page_appears()
+  Then I validate that page by page title test d # stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestD()
+
+@SmokeTest
+Scenario: Business News Functionality Check       # src/test/java/features/HomePageS.feature:21
+  Given I am on New York Times Homepage           # stepDefinitions.HomeStepDefinitionS.iAmOnNewYorkTimesHomepage()
+  When I click on Business and a new page appears # stepDefinitions.HomeStepDefinitionS.i_click_on_business_and_a_new_page_appears()
+  Then I validate that page by page title test e  # stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestE()
+
+@SmokeTest
+Scenario: Opinion News Functionality Check       # src/test/java/features/HomePageS.feature:25
+  Given I am on New York Times Homepage          # stepDefinitions.HomeStepDefinitionS.iAmOnNewYorkTimesHomepage()
+  When I click on Opinion and a new page appears # stepDefinitions.HomeStepDefinitionS.i_click_on_opinion_and_a_new_page_appears()
+  Then I validate that page by page title test f # stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestF()
+
+@SmokeTest
+Scenario: Tech News Functionality Check          # src/test/java/features/HomePageS.feature:29
+  Given I am on New York Times Homepage          # stepDefinitions.HomeStepDefinitionS.iAmOnNewYorkTimesHomepage()
+  When I click on Tech and a new page appears    # stepDefinitions.HomeStepDefinitionS.i_click_on_tech_and_a_new_page_appears()
+  Then I validate that page by page title test g # stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestG()
+      org.junit.ComparisonFailure: expected:<T[echnology - The New York Times]> but was:<T[he New York Times - Breaking News, World News & Multimedia]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at base.CommonAPI.validateByTitle(CommonAPI.java:728)
+	at home.HomeS.validateTechNews(HomeS.java:60)
+	at stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestG(HomeStepDefinitionS.java:93)
+	at ✽.I validate that page by page title test g(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:31)
+
+
+@SmokeTest
+Scenario: Science News Functionality Check       # src/test/java/features/HomePageS.feature:33
+  Given I am on New York Times Homepage          # stepDefinitions.HomeStepDefinitionS.iAmOnNewYorkTimesHomepage()
+  When I click on Science and a new page appears # stepDefinitions.HomeStepDefinitionS.i_click_on_science_and_a_new_page_appears()
+  Then I validate that page by page title test h # stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestH()
+
+@SmokeTest
+Scenario: Health News Functionality Check        # src/test/java/features/HomePageS.feature:37
+  Given I am on New York Times Homepage          # stepDefinitions.HomeStepDefinitionS.iAmOnNewYorkTimesHomepage()
+  When I click on Health and a new page appears  # stepDefinitions.HomeStepDefinitionS.i_click_on_health_and_a_new_page_appears()
+  Then I validate that page by page title test i # stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestI()
+
+@SmokeTest
+Scenario: Sports News Functionality Check        # src/test/java/features/HomePageS.feature:41
+  Given I am on New York Times Homepage          # stepDefinitions.HomeStepDefinitionS.iAmOnNewYorkTimesHomepage()
+  When I click on Sports and a new page appears  # stepDefinitions.HomeStepDefinitionS.i_click_on_sports_and_a_new_page_appears()
+  Then I validate that page by page title test j # stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestJ()
+      org.junit.ComparisonFailure: expected:<[Sports - The New York Times]> but was:<[The New York Times - Breaking News, World News & Multimedia]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at base.CommonAPI.validateByTitle(CommonAPI.java:728)
+	at home.HomeS.validateSportsNews(HomeS.java:69)
+	at stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestJ(HomeStepDefinitionS.java:120)
+	at ✽.I validate that page by page title test j(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:43)
+
+
+@SmokeTest
+Scenario: Arts News Functionality Check          # src/test/java/features/HomePageS.feature:45
+  Given I am on New York Times Homepage          # stepDefinitions.HomeStepDefinitionS.iAmOnNewYorkTimesHomepage()
+  When I click on Arts and a new page appears    # stepDefinitions.HomeStepDefinitionS.i_click_on_arts_and_a_new_page_appears()
+  Then I validate that page by page title test k # stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestK()
+      org.junit.ComparisonFailure: expected:<[Arts - The New York Times]> but was:<[The New York Times - Breaking News, World News & Multimedia]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at base.CommonAPI.validateByTitle(CommonAPI.java:728)
+	at home.HomeS.validateArtsNews(HomeS.java:72)
+	at stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestK(HomeStepDefinitionS.java:129)
+	at ✽.I validate that page by page title test k(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:47)
+
+
+@SmokeTest
+Scenario: Books News Functionality Check         # src/test/java/features/HomePageS.feature:49
+  Given I am on New York Times Homepage          # stepDefinitions.HomeStepDefinitionS.iAmOnNewYorkTimesHomepage()
+  When I click on Books and a new page appears   # stepDefinitions.HomeStepDefinitionS.i_click_on_books_and_a_new_page_appears()
+  Then I validate that page by page title test l # stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestL()
+      org.junit.ComparisonFailure: expected:<[Books - The New York Times]> but was:<[The New York Times - Breaking News, World News & Multimedia]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at base.CommonAPI.validateByTitle(CommonAPI.java:728)
+	at home.HomeS.validateBooksNews(HomeS.java:76)
+	at stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestL(HomeStepDefinitionS.java:138)
+	at ✽.I validate that page by page title test l(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:51)
+
+
+@SmokeTest
+Scenario: Style News Functionality Check         # src/test/java/features/HomePageS.feature:53
+  Given I am on New York Times Homepage          # stepDefinitions.HomeStepDefinitionS.iAmOnNewYorkTimesHomepage()
+  When I click on Style and a new page appears   # stepDefinitions.HomeStepDefinitionS.i_click_on_style_and_a_new_page_appears()
+  Then I validate that page by page title test m # stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestM()
+
+@SmokeTest
+Scenario: Food News Functionality Check          # src/test/java/features/HomePageS.feature:57
+  Given I am on New York Times Homepage          # stepDefinitions.HomeStepDefinitionS.iAmOnNewYorkTimesHomepage()
+  When I click on Food and a new page appears    # stepDefinitions.HomeStepDefinitionS.i_click_on_food_and_a_new_page_appears()
+  Then I validate that page by page title test n # stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestN()
+
+@SmokeTest
+Scenario: Travel News Functionality Check        # src/test/java/features/HomePageS.feature:61
+  Given I am on New York Times Homepage          # stepDefinitions.HomeStepDefinitionS.iAmOnNewYorkTimesHomepage()
+  When I click on Travel and a new page appears  # stepDefinitions.HomeStepDefinitionS.i_click_on_travel_and_a_new_page_appears()
+  Then I validate that page by page title test o # stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestO()
+
+@SmokeTest
+Scenario: Magazine News Functionality Check       # src/test/java/features/HomePageS.feature:65
+  Given I am on New York Times Homepage           # stepDefinitions.HomeStepDefinitionS.iAmOnNewYorkTimesHomepage()
+  When I click on Magazine and a new page appears # stepDefinitions.HomeStepDefinitionS.i_click_on_magazine_and_a_new_page_appears()
+  Then I validate that page by page title test p  # stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestP()
+
+@SmokeTest
+Scenario: T Magazine News Functionality Check       # src/test/java/features/HomePageS.feature:69
+  Given I am on New York Times Homepage             # stepDefinitions.HomeStepDefinitionS.iAmOnNewYorkTimesHomepage()
+  When I click on T Magazine and a new page appears # stepDefinitions.HomeStepDefinitionS.i_click_on_t_magazine_and_a_new_page_appears()
+  Then I validate that page by page title test q    # stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestQ()
+      org.junit.ComparisonFailure: expected:<T[ Magazine - The New York Times]> but was:<T[he New York Times - Breaking News, World News & Multimedia]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at base.CommonAPI.validateByTitle(CommonAPI.java:728)
+	at home.HomeS.validate_t_Magazine(HomeS.java:94)
+	at stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestQ(HomeStepDefinitionS.java:183)
+	at ✽.I validate that page by page title test q(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:71)
+
+
+@SmokeTest
+Scenario: Real Estate News Functionality Check       # src/test/java/features/HomePageS.feature:73
+  Given I am on New York Times Homepage              # stepDefinitions.HomeStepDefinitionS.iAmOnNewYorkTimesHomepage()
+  When I click on Real Estate and a new page appears # stepDefinitions.HomeStepDefinitionS.i_click_on_real_estate_and_a_new_page_appears()
+  Then I validate that page by page title test r     # stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestR()
+      org.junit.ComparisonFailure: expected:<[Real Estate - The New York Times]> but was:<[The New York Times - Breaking News, World News & Multimedia]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at base.CommonAPI.validateByTitle(CommonAPI.java:728)
+	at home.HomeS.validateRealEstate(HomeS.java:98)
+	at stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestR(HomeStepDefinitionS.java:192)
+	at ✽.I validate that page by page title test r(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:75)
+
+
+@SmokeTest
+Scenario: Video Functionality Check              # src/test/java/features/HomePageS.feature:77
+  Given I am on New York Times Homepage          # stepDefinitions.HomeStepDefinitionS.iAmOnNewYorkTimesHomepage()
+  When I click on Video and a new page appears   # stepDefinitions.HomeStepDefinitionS.i_click_on_video_and_a_new_page_appears()
+  Then I validate that page by page title test s # stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestS()
+      org.junit.ComparisonFailure: expected:<[Video - The New York Times]> but was:<[The New York Times - Breaking News, World News & Multimedia]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at base.CommonAPI.validateByTitle(CommonAPI.java:728)
+	at home.HomeS.validateVideoWebElements(HomeS.java:102)
+	at stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestS(HomeStepDefinitionS.java:201)
+	at ✽.I validate that page by page title test s(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:79)
+
+
+@SmokeTest
+Scenario: Todays Paper Functionality Check            # src/test/java/features/HomePageS.feature:81
+  Given I am on New York Times Homepage               # stepDefinitions.HomeStepDefinitionS.iAmOnNewYorkTimesHomepage()
+  When I click on Todays Paper and a new page appears # stepDefinitions.HomeStepDefinitionS.i_click_on_todays_paper_and_a_new_page_appears()
+  Then I validate that page by page title test t      # stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestT()
+
+@SmokeTest
+Scenario: Toggle Menu Functionality Check            # src/test/java/features/HomePageS.feature:85
+  Given I am on New York Times Homepage              # stepDefinitions.HomeStepDefinitionS.iAmOnNewYorkTimesHomepage()
+  When I click on Toggle Menu and a new page appears # stepDefinitions.HomeStepDefinitionS.i_click_on_toggle_menu_and_a_new_page_appears()
+      org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.id: desktop-section-button (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at base.CommonAPI.waitUntilClickAble(CommonAPI.java:664)
+	at stepDefinitions.HomeStepDefinitionS.i_click_on_toggle_menu_and_a_new_page_appears(HomeStepDefinitionS.java:214)
+	at ✽.I click on Toggle Menu and a new page appears(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:86)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#desktop\-section\-button"}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-F75O7MS', ip: '192.168.1.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\debna\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50488}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1a2a9b085ef491bd56bfe11ccef99be5
+*** Element info: {Using=id, value=desktop-section-button}
+	at jdk.internal.reflect.GeneratedConstructorAccessor17.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at base.CommonAPI.waitUntilClickAble(CommonAPI.java:664)
+	at stepDefinitions.HomeStepDefinitionS.i_click_on_toggle_menu_and_a_new_page_appears(HomeStepDefinitionS.java:214)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:63)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:49)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:99)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:43)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:82)
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:73)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:248)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$5(DefaultLauncher.java:211)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:226)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:199)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:132)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:188)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:154)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+
+  Then I validate that page by page title test u     # stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestU()
+
+@SmokeTest
+Scenario: Login Button Functionality Check            # src/test/java/features/HomePageS.feature:89
+  Given I am on New York Times Homepage               # stepDefinitions.HomeStepDefinitionS.iAmOnNewYorkTimesHomepage()
+  When I click on Login Button and a new page appears # stepDefinitions.HomeStepDefinitionS.i_click_on_login_button_and_a_new_page_appears()
+  Then I validate that page by page title test v      # stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestV()
+
+@SmokeTest
+Scenario: Spanish Language Functionality Check   # src/test/java/features/HomePageS.feature:93
+  Given I am on New York Times Homepage          # stepDefinitions.HomeStepDefinitionS.iAmOnNewYorkTimesHomepage()
+  When I click on Espanol and a new page appears # stepDefinitions.HomeStepDefinitionS.i_click_on_espanol_and_a_new_page_appears()
+  Then I validate that page by page title test w # stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestW()
+      org.junit.ComparisonFailure: expected:<[The New York Times en Español - The New York Times]> but was:<[https://www.nytimes.com/]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at base.CommonAPI.validateByURL(CommonAPI.java:767)
+	at home.HomeS.validateSpanishLanguage(HomeS.java:124)
+	at stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestW(HomeStepDefinitionS.java:238)
+	at ✽.I validate that page by page title test w(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:95)
+
+
+@SmokeTest
+Scenario: Chinese Language Functionality Check   # src/test/java/features/HomePageS.feature:97
+  Given I am on New York Times Homepage          # stepDefinitions.HomeStepDefinitionS.iAmOnNewYorkTimesHomepage()
+  When I click on 中文 and a new page appears      # stepDefinitions.HomeStepDefinitionS.iClickOn中文AndANewPageAppears()
+      org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.linkText: ä¸­æ–‡ (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at base.CommonAPI.waitUntilClickAble(CommonAPI.java:664)
+	at stepDefinitions.HomeStepDefinitionS.iClickOn中文AndANewPageAppears(HomeStepDefinitionS.java:262)
+	at ✽.I click on 中文 and a new page appears(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:98)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"ä¸­æ–‡"}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-F75O7MS', ip: '192.168.1.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\debna\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50852}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: dcecd4c845d10393c156b30dee4c9c5e
+*** Element info: {Using=link text, value=ä¸­æ–‡}
+	at jdk.internal.reflect.GeneratedConstructorAccessor17.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at base.CommonAPI.waitUntilClickAble(CommonAPI.java:664)
+	at stepDefinitions.HomeStepDefinitionS.iClickOn中文AndANewPageAppears(HomeStepDefinitionS.java:262)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:63)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:49)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:99)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:43)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:82)
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:73)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:248)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$5(DefaultLauncher.java:211)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:226)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:199)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:132)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:188)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:154)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+
+  Then I validate that page by page title test x # stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestX()
+
+@SmokeTest
+Scenario: Subscribe Now Functionality Check            # src/test/java/features/HomePageS.feature:101
+  Given I am on New York Times Homepage                # stepDefinitions.HomeStepDefinitionS.iAmOnNewYorkTimesHomepage()
+  When I click on Subscribe Now and a new page appears # stepDefinitions.HomeStepDefinitionS.i_click_on_subscribe_now_and_a_new_page_appears()
+  Then I validate that page by page title test y       # stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestY()
+      org.junit.ComparisonFailure: expected:<...s://www.nytimes.com/[subscription?campaignId=79FKF&redirect_uri=https%3A%2F%2Fwww.nytimes.com%2F]> but was:<...s://www.nytimes.com/[]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at base.CommonAPI.validateByURL(CommonAPI.java:767)
+	at home.HomeS.validateSubscribeNow(HomeS.java:132)
+	at stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestY(HomeStepDefinitionS.java:256)
+	at ✽.I validate that page by page title test y(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:103)
+

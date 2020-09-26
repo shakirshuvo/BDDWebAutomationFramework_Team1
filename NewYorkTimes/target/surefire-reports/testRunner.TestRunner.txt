@@ -1,0 +1,63 @@
+-------------------------------------------------------------------------------
+Test set: testRunner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 25, Failures: 11, Errors: 2, Skipped: 0, Time elapsed: 830.379 s <<< FAILURE! - in testRunner.TestRunner
+New York Times Homepage Functionality Check.US News Functionality Check  Time elapsed: 60.446 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[U.S. News - The New York Times]> but was:<[The New York Times - Breaking News, World News & Multimedia]>
+
+New York Times Homepage Functionality Check.Politics News Functionality Check  Time elapsed: 23.714 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Politics - The New York Times]> but was:<[The New York Times - Breaking News, World News & Multimedia]>
+
+New York Times Homepage Functionality Check.Tech News Functionality Check  Time elapsed: 25.609 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<T[echnology - The New York Times]> but was:<T[he New York Times - Breaking News, World News & Multimedia]>
+
+New York Times Homepage Functionality Check.Sports News Functionality Check  Time elapsed: 24.168 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Sports - The New York Times]> but was:<[The New York Times - Breaking News, World News & Multimedia]>
+
+New York Times Homepage Functionality Check.Arts News Functionality Check  Time elapsed: 30.798 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Arts - The New York Times]> but was:<[The New York Times - Breaking News, World News & Multimedia]>
+
+New York Times Homepage Functionality Check.Books News Functionality Check  Time elapsed: 63.17 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Books - The New York Times]> but was:<[The New York Times - Breaking News, World News & Multimedia]>
+
+New York Times Homepage Functionality Check.T Magazine News Functionality Check  Time elapsed: 48.595 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<T[ Magazine - The New York Times]> but was:<T[he New York Times - Breaking News, World News & Multimedia]>
+
+New York Times Homepage Functionality Check.Real Estate News Functionality Check  Time elapsed: 49.339 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Real Estate - The New York Times]> but was:<[The New York Times - Breaking News, World News & Multimedia]>
+
+New York Times Homepage Functionality Check.Video Functionality Check  Time elapsed: 48.199 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Video - The New York Times]> but was:<[The New York Times - Breaking News, World News & Multimedia]>
+
+New York Times Homepage Functionality Check.Toggle Menu Functionality Check  Time elapsed: 16.601 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.id: desktop-section-button (tried for 10 second(s) with 500 milliseconds interval)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#desktop\-section\-button"}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-F75O7MS', ip: '192.168.1.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\debna\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50488}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1a2a9b085ef491bd56bfe11ccef99be5
+*** Element info: {Using=id, value=desktop-section-button}
+
+New York Times Homepage Functionality Check.Spanish Language Functionality Check  Time elapsed: 50.627 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[The New York Times en Español - The New York Times]> but was:<[https://www.nytimes.com/]>
+
+New York Times Homepage Functionality Check.Chinese Language Functionality Check  Time elapsed: 16.612 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.linkText: ä¸­æ–‡ (tried for 10 second(s) with 500 milliseconds interval)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"link text","selector":"ä¸­æ–‡"}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-F75O7MS', ip: '192.168.1.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\debna\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50852}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: dcecd4c845d10393c156b30dee4c9c5e
+*** Element info: {Using=link text, value=ä¸­æ–‡}
+
+New York Times Homepage Functionality Check.Subscribe Now Functionality Check  Time elapsed: 49.836 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<...s://www.nytimes.com/[subscription?campaignId=79FKF&redirect_uri=https%3A%2F%2Fwww.nytimes.com%2F]> but was:<...s://www.nytimes.com/[]>
+

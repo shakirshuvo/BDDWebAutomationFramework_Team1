@@ -1,0 +1,3 @@
+
+@SmokeTest
+Scenario: Car Insurance Functionality Check # src/test/java/features/HomePage.feature:6

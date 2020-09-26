@@ -1,4 +1,12 @@
 home\HomePage.class
-home\HomePageWebElements.class
+cart\CartWebElements.class
+signIn\SignInWebElements.class
 search\Search.class
+homeSaumitra\HomePageWebElementsS.class
+home\HomePageWebElements.class
+cart\Cart.class
+registration\RegistrationPage.class
+registration\RegistrationWebElements.class
+signIn\SignIn.class
 search\SearchWebElements.class
+homeSaumitra\HomePageS.class

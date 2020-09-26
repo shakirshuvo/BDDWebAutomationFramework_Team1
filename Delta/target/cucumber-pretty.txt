@@ -1,0 +1,20 @@
+
+@SmokeTest
+Scenario: Check-In functionality check                                # src/test/java/features/HomePageSaumitra.feature:6
+  Given I am on Delta Homepage                                        # stepDefinitions.HomeStepDefinitionSD.i_am_on_delta_homepage()
+  When I click on Check-In                                            # stepDefinitions.HomeStepDefinitionSD.iClickOnCheckIn()
+  And I click on Confirmation number required and put 123456 as value # stepDefinitions.HomeStepDefinitionSD.iClickOnConfirmationNumberRequiredAndPutAsValue(int)
+  And I click on From Airport and put JFK as value                    # stepDefinitions.HomeStepDefinitionSD.iClickOnFromAirportAndPutJFKAsValue()
+  Then I select JFK New York,Kennedy NY                               # stepDefinitions.HomeStepDefinitionSD.iSelectJFKNewYorkKennedyNY()
+  And I click on radio button to submit                               # stepDefinitions.HomeStepDefinitionSD.iClickOnRadioButtonToSubmit()
+  Then I validate it by text                                          # stepDefinitions.HomeStepDefinitionSD.iValidateItByText()
+
+@SmokeTest
+Scenario: Book-In functionality check from delta homepage Book tab # src/test/java/features/HomePageSaumitra.feature:15
+  Given I am on Delta Homepage                                     # stepDefinitions.HomeStepDefinitionSD.i_am_on_delta_homepage()
+  When I click on Book                                             # null
+  And I click on From and put 123456 as value                      # null
+  And I click on From Airport and put JFK as value                 # stepDefinitions.HomeStepDefinitionSD.iClickOnFromAirportAndPutJFKAsValue()
+  Then I select JFK New York,Kennedy NY                            # stepDefinitions.HomeStepDefinitionSD.iSelectJFKNewYorkKennedyNY()
+  And I click on radio button to submit                            # stepDefinitions.HomeStepDefinitionSD.iClickOnRadioButtonToSubmit()
+  Then I validate it by text                                       # stepDefinitions.HomeStepDefinitionSD.iValidateItByText()

@@ -1,1 +1,856 @@
-[]
+[
+  {
+    "source": "I am on Amazon Homepage",
+    "steps": [
+      {
+        "name": "I am on Amazon Homepage",
+        "aggregatedDurations": {
+          "median": 7.55463535,
+          "average": 7.773607753
+        },
+        "durations": [
+          {
+            "duration": 7.5837075,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:3"
+          },
+          {
+            "duration": 5.5639589,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:3"
+          },
+          {
+            "duration": 5.8797878,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:3"
+          },
+          {
+            "duration": 5.9408621,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:3"
+          },
+          {
+            "duration": 5.7055778,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:3"
+          },
+          {
+            "duration": 6.0255688,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:3"
+          },
+          {
+            "duration": 7.5255632,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:3"
+          },
+          {
+            "duration": 5.7361718,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:3"
+          },
+          {
+            "duration": 7.32155,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:3"
+          },
+          {
+            "duration": 5.8767907,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:3"
+          },
+          {
+            "duration": 5.5485774,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:3"
+          },
+          {
+            "duration": 6.0839499,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:3"
+          },
+          {
+            "duration": 5.5700328,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:3"
+          },
+          {
+            "duration": 5.6429184,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:3"
+          },
+          {
+            "duration": 5.7249843,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:3"
+          },
+          {
+            "duration": 5.8203256,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:3"
+          },
+          {
+            "duration": 7.9660033,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:3"
+          },
+          {
+            "duration": 7.8056086,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:3"
+          },
+          {
+            "duration": 11.4746905,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:3"
+          },
+          {
+            "duration": 7.7154967,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:3"
+          },
+          {
+            "duration": 10.5442152,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:3"
+          },
+          {
+            "duration": 11.6946276,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:3"
+          },
+          {
+            "duration": 8.377971,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:3"
+          },
+          {
+            "duration": 7.9789391,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:3"
+          },
+          {
+            "duration": 10.3874844,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:3"
+          },
+          {
+            "duration": 12.9292549,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:3"
+          },
+          {
+            "duration": 10.6703659,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:3"
+          },
+          {
+            "duration": 9.6961022,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:3"
+          },
+          {
+            "duration": 9.5750338,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:3"
+          },
+          {
+            "duration": 8.8421124,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Best sellers a new page appears",
+    "steps": [
+      {
+        "name": "I click on Best sellers a new page appears",
+        "aggregatedDurations": {
+          "median": 2.277874,
+          "average": 2.277874
+        },
+        "durations": [
+          {
+            "duration": 2.277874,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate the test1 by page title",
+    "steps": [
+      {
+        "name": "I validate the test1 by page title",
+        "aggregatedDurations": {
+          "median": 0.0679609,
+          "average": 0.0679609
+        },
+        "durations": [
+          {
+            "duration": 0.0679609,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Customer Service a new page appears",
+    "steps": [
+      {
+        "name": "I click on Customer Service a new page appears",
+        "aggregatedDurations": {
+          "median": 31.5614609,
+          "average": 31.5614609
+        },
+        "durations": [
+          {
+            "duration": 31.5614609,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Todays Deal a new page appears",
+    "steps": [
+      {
+        "name": "I click on Todays Deal a new page appears",
+        "aggregatedDurations": {
+          "median": 21.9002562,
+          "average": 21.9002562
+        },
+        "durations": [
+          {
+            "duration": 21.9002562,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on New Releases a new page appears",
+    "steps": [
+      {
+        "name": "I click on New Releases a new page appears",
+        "aggregatedDurations": {
+          "median": 32.2324902,
+          "average": 32.2324902
+        },
+        "durations": [
+          {
+            "duration": 32.2324902,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate the test4 by page title",
+    "steps": [
+      {
+        "name": "I validate the test4 by page title",
+        "aggregatedDurations": {
+          "median": 0.0159901,
+          "average": 0.0159901
+        },
+        "durations": [
+          {
+            "duration": 0.0159901,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Find a Gift a new page appears",
+    "steps": [
+      {
+        "name": "I click on Find a Gift a new page appears",
+        "aggregatedDurations": {
+          "median": 40.5575321,
+          "average": 40.5575321
+        },
+        "durations": [
+          {
+            "duration": 40.5575321,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:22"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Whole Foods a new page appears",
+    "steps": [
+      {
+        "name": "I click on Whole Foods a new page appears",
+        "aggregatedDurations": {
+          "median": 31.634151,
+          "average": 31.634151
+        },
+        "durations": [
+          {
+            "duration": 31.634151,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:26"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Gift Cards a new page appears",
+    "steps": [
+      {
+        "name": "I click on Gift Cards a new page appears",
+        "aggregatedDurations": {
+          "median": 40.6146998,
+          "average": 40.6146998
+        },
+        "durations": [
+          {
+            "duration": 40.6146998,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:30"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Free Shipping a new page appears",
+    "steps": [
+      {
+        "name": "I click on Free Shipping a new page appears",
+        "aggregatedDurations": {
+          "median": 40.3558304,
+          "average": 40.3558304
+        },
+        "durations": [
+          {
+            "duration": 40.3558304,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:34"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Registry a new page appears",
+    "steps": [
+      {
+        "name": "I click on Registry a new page appears",
+        "aggregatedDurations": {
+          "median": 50.3446311,
+          "average": 50.3446311
+        },
+        "durations": [
+          {
+            "duration": 50.3446311,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:38"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Sell a new page appears",
+    "steps": [
+      {
+        "name": "I click on Sell a new page appears",
+        "aggregatedDurations": {
+          "median": 50.9892882,
+          "average": 50.9892882
+        },
+        "durations": [
+          {
+            "duration": 50.9892882,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:42"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Coupons a new page appears",
+    "steps": [
+      {
+        "name": "I click on Coupons a new page appears",
+        "aggregatedDurations": {
+          "median": 50.2106893,
+          "average": 50.2106893
+        },
+        "durations": [
+          {
+            "duration": 50.2106893,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:46"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Amazon Basics a new page appears",
+    "steps": [
+      {
+        "name": "I click on Amazon Basics a new page appears",
+        "aggregatedDurations": {
+          "median": 41.6678325,
+          "average": 41.6678325
+        },
+        "durations": [
+          {
+            "duration": 41.6678325,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:50"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate the test12 by page title",
+    "steps": [
+      {
+        "name": "I validate the test12 by page title",
+        "aggregatedDurations": {
+          "median": 0.1659065,
+          "average": 0.1659065
+        },
+        "durations": [
+          {
+            "duration": 0.1659065,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:51"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Found It On Amazon a new page appears",
+    "steps": [
+      {
+        "name": "I click on Found It On Amazon a new page appears",
+        "aggregatedDurations": {
+          "median": 40.2302037,
+          "average": 40.2302037
+        },
+        "durations": [
+          {
+            "duration": 40.2302037,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:54"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Account Lists a new page appears",
+    "steps": [
+      {
+        "name": "I click on Account Lists a new page appears",
+        "aggregatedDurations": {
+          "median": 40.7649276,
+          "average": 40.7649276
+        },
+        "durations": [
+          {
+            "duration": 40.7649276,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:58"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Orders a new page appears",
+    "steps": [
+      {
+        "name": "I click on Orders a new page appears",
+        "aggregatedDurations": {
+          "median": 1.0703884,
+          "average": 1.0703884
+        },
+        "durations": [
+          {
+            "duration": 1.0703884,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:62"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Try Prime a new page appears",
+    "steps": [
+      {
+        "name": "I click on Try Prime a new page appears",
+        "aggregatedDurations": {
+          "median": 51.2484419,
+          "average": 51.2484419
+        },
+        "durations": [
+          {
+            "duration": 51.2484419,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:66"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Cart a new page appears",
+    "steps": [
+      {
+        "name": "I click on Cart a new page appears",
+        "aggregatedDurations": {
+          "median": 31.752032,
+          "average": 31.752032
+        },
+        "durations": [
+          {
+            "duration": 31.752032,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:70"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Select Your Address a new page appears",
+    "steps": [
+      {
+        "name": "I click on Select Your Address a new page appears",
+        "aggregatedDurations": {
+          "median": 21.6791598,
+          "average": 21.6791598
+        },
+        "durations": [
+          {
+            "duration": 21.6791598,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:74"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Careers a new page appears",
+    "steps": [
+      {
+        "name": "I click on Careers a new page appears",
+        "aggregatedDurations": {
+          "median": 45.4090851,
+          "average": 45.4090851
+        },
+        "durations": [
+          {
+            "duration": 45.4090851,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:78"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Blog a new page appears",
+    "steps": [
+      {
+        "name": "I click on Blog a new page appears",
+        "aggregatedDurations": {
+          "median": 54.4569701,
+          "average": 54.4569701
+        },
+        "durations": [
+          {
+            "duration": 54.4569701,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:82"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate the test20 by page title",
+    "steps": [
+      {
+        "name": "I validate the test20 by page title",
+        "aggregatedDurations": {
+          "median": 0.0119929,
+          "average": 0.0119929
+        },
+        "durations": [
+          {
+            "duration": 0.0119929,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:83"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Amazon Devices a new page appears",
+    "steps": [
+      {
+        "name": "I click on Amazon Devices a new page appears",
+        "aggregatedDurations": {
+          "median": 35.9129696,
+          "average": 35.9129696
+        },
+        "durations": [
+          {
+            "duration": 35.9129696,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:86"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Press Center a new page appears",
+    "steps": [
+      {
+        "name": "I click on Press Center a new page appears",
+        "aggregatedDurations": {
+          "median": 4.5642097,
+          "average": 4.5642097
+        },
+        "durations": [
+          {
+            "duration": 4.5642097,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:90"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate the test22 by page title",
+    "steps": [
+      {
+        "name": "I validate the test22 by page title",
+        "aggregatedDurations": {
+          "median": 0.0454851,
+          "average": 0.0454851
+        },
+        "durations": [
+          {
+            "duration": 0.0454851,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:91"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Amazon Tours a new page appears",
+    "steps": [
+      {
+        "name": "I click on Amazon Tours a new page appears",
+        "aggregatedDurations": {
+          "median": 6.79138,
+          "average": 6.79138
+        },
+        "durations": [
+          {
+            "duration": 6.79138,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:94"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate the test23 by page title",
+    "steps": [
+      {
+        "name": "I validate the test23 by page title",
+        "aggregatedDurations": {
+          "median": 0.0149912,
+          "average": 0.0149912
+        },
+        "durations": [
+          {
+            "duration": 0.0149912,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:95"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Sell On Amazon a new page appears",
+    "steps": [
+      {
+        "name": "I click on Sell On Amazon a new page appears",
+        "aggregatedDurations": {
+          "median": 41.9555278,
+          "average": 41.9555278
+        },
+        "durations": [
+          {
+            "duration": 41.9555278,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:98"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Become Affiliate a new page appears",
+    "steps": [
+      {
+        "name": "I click on Become Affiliate a new page appears",
+        "aggregatedDurations": {
+          "median": 35.4083338,
+          "average": 35.4083338
+        },
+        "durations": [
+          {
+            "duration": 35.4083338,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:102"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate the test25 by page title",
+    "steps": [
+      {
+        "name": "I validate the test25 by page title",
+        "aggregatedDurations": {
+          "median": 0.042488,
+          "average": 0.042488
+        },
+        "durations": [
+          {
+            "duration": 0.042488,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:103"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Advertise Products a new page appears",
+    "steps": [
+      {
+        "name": "I click on Advertise Products a new page appears",
+        "aggregatedDurations": {
+          "median": 38.3236614,
+          "average": 38.3236614
+        },
+        "durations": [
+          {
+            "duration": 38.3236614,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:106"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate the test26 by page title",
+    "steps": [
+      {
+        "name": "I validate the test26 by page title",
+        "aggregatedDurations": {
+          "median": 0.1165553,
+          "average": 0.1165553
+        },
+        "durations": [
+          {
+            "duration": 0.1165553,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:107"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Amazon Store Card a new page appears",
+    "steps": [
+      {
+        "name": "I click on Amazon Store Card a new page appears",
+        "aggregatedDurations": {
+          "median": 36.2112156,
+          "average": 36.2112156
+        },
+        "durations": [
+          {
+            "duration": 36.2112156,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:110"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate the test27 by page title",
+    "steps": [
+      {
+        "name": "I validate the test27 by page title",
+        "aggregatedDurations": {
+          "median": 0.2778413,
+          "average": 0.2778413
+        },
+        "durations": [
+          {
+            "duration": 0.2778413,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:111"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Shop With Points a new page appears",
+    "steps": [
+      {
+        "name": "I click on Shop With Points a new page appears",
+        "aggregatedDurations": {
+          "median": 35.3718079,
+          "average": 35.3718079
+        },
+        "durations": [
+          {
+            "duration": 35.3718079,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:114"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Currency Converter a new page appears",
+    "steps": [
+      {
+        "name": "I click on Currency Converter a new page appears",
+        "aggregatedDurations": {
+          "median": 36.4301835,
+          "average": 36.4301835
+        },
+        "durations": [
+          {
+            "duration": 36.4301835,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:118"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate the test29 by page title",
+    "steps": [
+      {
+        "name": "I validate the test29 by page title",
+        "aggregatedDurations": {
+          "median": 0.2508567,
+          "average": 0.2508567
+        },
+        "durations": [
+          {
+            "duration": 0.2508567,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:119"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Credit Card Market Place a new page appears",
+    "steps": [
+      {
+        "name": "I click on Credit Card Market Place a new page appears",
+        "aggregatedDurations": {
+          "median": 4.7514941,
+          "average": 4.7514941
+        },
+        "durations": [
+          {
+            "duration": 4.7514941,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:122"
+          }
+        ]
+      }
+    ]
+  }
+]

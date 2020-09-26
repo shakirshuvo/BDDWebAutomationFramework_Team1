@@ -14,6 +14,10 @@ public class HomePage extends CommonAPI {
 
     public void validateElementIsDisplayed(String element){
         driver.findElement(By.xpath(element)).isDisplayed();
+        driver.findElement(By.cssSelector(element)).isDisplayed();
+        driver.findElement(By.id(element)).isDisplayed();
+        driver.findElement(By.className(element)).isDisplayed();
+        driver.findElement(By.linkText(element)).isDisplayed();
     }
 
     public WebElement checking;

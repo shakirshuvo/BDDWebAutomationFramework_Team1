@@ -1,2 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" time="0.004"/>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="58.941">
+    <testcase classname="Delta Homepage Functionality Check" name="Check-In functionality check" time="45.241">
+        <system-out>
+            <![CDATA[Given I am on Delta Homepage................................................passed
+When I click on Check-In....................................................passed
+And I click on Confirmation number required and put 123456 as value.........passed
+And I click on From Airport and put JFK as value............................passed
+Then I select JFK New York,Kennedy NY.......................................passed
+And I click on radio button to submit.......................................passed
+Then I validate it by text..................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Delta Homepage Functionality Check" name="Book-In functionality check from delta homepage Book tab" time="12.134">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given I am on Delta Homepage................................................passed
+When I click on Book........................................................undefined
+And I click on From and put 123456 as value.................................skipped
+And I click on From Airport and put JFK as value............................skipped
+Then I select JFK New York,Kennedy NY.......................................skipped
+And I click on radio button to submit.......................................skipped
+Then I validate it by text..................................................skipped
+]]>
+        </failure>
+    </testcase>
+</testsuite>

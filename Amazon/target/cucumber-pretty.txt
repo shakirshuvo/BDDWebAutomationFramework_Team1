@@ -1,187 +1,347 @@
 
 @SmokeTest
-Scenario: Best Sellers Functionality Check        # src/test/java/features/HomePage.feature:5
-  Given I am on Amazon Homepage                   # null
-  When I click on Best sellers a new page appears # null
-  Then I validate the test1 by page title         # null
+Scenario: Best Sellers Functionality Check        # src/test/java/features/HomePageS.feature:5
+  Given I am on Amazon Homepage                   # stepDefinitions.HomeStepDefinitionS.iAmOnAmazonHomepage()
+  When I click on Best sellers a new page appears # stepDefinitions.HomeStepDefinitionS.i_click_on_best_sellers_a_new_page_appears()
+  Then I validate the test1 by page title         # stepDefinitions.HomeStepDefinitionS.i_validate_the_test1_by_page_title()
 
 @SmokeTest
-Scenario: Customer Service Functionality Check        # src/test/java/features/HomePage.feature:9
-  Given I am on Amazon Homepage                       # null
-  When I click on Customer Service a new page appears # null
-  Then I validate the test2 by page title             # null
+Scenario: Customer Service Functionality Check        # src/test/java/features/HomePageS.feature:9
+  Given I am on Amazon Homepage                       # stepDefinitions.HomeStepDefinitionS.iAmOnAmazonHomepage()
+  When I click on Customer Service a new page appears # stepDefinitions.HomeStepDefinitionS.i_click_on_customer_service_a_new_page_appears()
+  Then I validate the test2 by page title             # stepDefinitions.HomeStepDefinitionS.i_validate_the_test2_by_page_title()
+      java.lang.AssertionError: failed expected [
+Amazon.com Help: Help & Customer Service] but found [Amazon.com Help: Help & Customer Service]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at homeSaumitra.HomePageS.validateCustomerService(HomePageS.java:32)
+	at stepDefinitions.HomeStepDefinitionS.i_validate_the_test2_by_page_title(HomeStepDefinitionS.java:48)
+	at ✽.I validate the test2 by page title(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:11)
+
 
 @SmokeTest
-Scenario: Todays Deal Functionality Check        # src/test/java/features/HomePage.feature:13
-  Given I am on Amazon Homepage                  # null
-  When I click on Todays Deal a new page appears # null
-  Then I validate the test3 by page title        # null
+Scenario: Todays Deal Functionality Check        # src/test/java/features/HomePageS.feature:13
+  Given I am on Amazon Homepage                  # stepDefinitions.HomeStepDefinitionS.iAmOnAmazonHomepage()
+  When I click on Todays Deal a new page appears # stepDefinitions.HomeStepDefinitionS.i_click_on_todays_deal_a_new_page_appears()
+  Then I validate the test3 by page title        # stepDefinitions.HomeStepDefinitionS.i_validate_the_test3_by_page_title()
+      java.lang.AssertionError: failed expected [
+
+ Gold Box Deals | Today's Deals - Amazon.com
+] but found [Gold Box Deals | Today's Deals - Amazon.com]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at homeSaumitra.HomePageS.validateTodaysDeals(HomePageS.java:38)
+	at stepDefinitions.HomeStepDefinitionS.i_validate_the_test3_by_page_title(HomeStepDefinitionS.java:57)
+	at ✽.I validate the test3 by page title(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:15)
+
 
 @SmokeTest
-Scenario: New Releases Functionality Check        # src/test/java/features/HomePage.feature:17
-  Given I am on Amazon Homepage                   # null
-  When I click on New Releases a new page appears # null
-  Then I validate the test4 by page title         # null
+Scenario: New Releases Functionality Check        # src/test/java/features/HomePageS.feature:17
+  Given I am on Amazon Homepage                   # stepDefinitions.HomeStepDefinitionS.iAmOnAmazonHomepage()
+  When I click on New Releases a new page appears # stepDefinitions.HomeStepDefinitionS.i_click_on_new_releases_a_new_page_appears()
+  Then I validate the test4 by page title         # stepDefinitions.HomeStepDefinitionS.i_validate_the_test4_by_page_title()
 
 @SmokeTest
-Scenario: Find a Gift Functionality Check        # src/test/java/features/HomePage.feature:21
-  Given I am on Amazon Homepage                  # null
-  When I click on Find a Gift a new page appears # null
-  Then I validate the test5 by page title        # null
+Scenario: Find a Gift Functionality Check        # src/test/java/features/HomePageS.feature:21
+  Given I am on Amazon Homepage                  # stepDefinitions.HomeStepDefinitionS.iAmOnAmazonHomepage()
+  When I click on Find a Gift a new page appears # stepDefinitions.HomeStepDefinitionS.i_click_on_find_a_gift_a_new_page_appears()
+  Then I validate the test5 by page title        # stepDefinitions.HomeStepDefinitionS.i_validate_the_test5_by_page_title()
+      java.lang.AssertionError: failed expected [Gifts for Everyone | Amazon.com Gift Finder] but found [Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at homeSaumitra.HomePageS.validatefind_a_gift(HomePageS.java:48)
+	at stepDefinitions.HomeStepDefinitionS.i_validate_the_test5_by_page_title(HomeStepDefinitionS.java:75)
+	at ✽.I validate the test5 by page title(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:23)
+
 
 @SmokeTest
-Scenario: Whole Foods Functionality Check        # src/test/java/features/HomePage.feature:25
-  Given I am on Amazon Homepage                  # null
-  When I click on Whole Foods a new page appears # null
-  Then I validate the test6 by page title        # null
+Scenario: Whole Foods Functionality Check        # src/test/java/features/HomePageS.feature:25
+  Given I am on Amazon Homepage                  # stepDefinitions.HomeStepDefinitionS.iAmOnAmazonHomepage()
+  When I click on Whole Foods a new page appears # stepDefinitions.HomeStepDefinitionS.i_click_on_whole_foods_a_new_page_appears()
+  Then I validate the test6 by page title        # stepDefinitions.HomeStepDefinitionS.i_validate_the_test6_by_page_title()
+      java.lang.AssertionError: failed expected [Whole Foods Market @ Amazon.com] but found [Amazon.com: Whole Foods Market]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at homeSaumitra.HomePageS.validateWholeFoods(HomePageS.java:53)
+	at stepDefinitions.HomeStepDefinitionS.i_validate_the_test6_by_page_title(HomeStepDefinitionS.java:84)
+	at ✽.I validate the test6 by page title(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:27)
+
 
 @SmokeTest
-Scenario: Gift Cards Functionality Check        # src/test/java/features/HomePage.feature:29
-  Given I am on Amazon Homepage                 # null
-  When I click on Gift Cards a new page appears # null
-  Then I validate the test7 by page title       # null
+Scenario: Gift Cards Functionality Check        # src/test/java/features/HomePageS.feature:29
+  Given I am on Amazon Homepage                 # stepDefinitions.HomeStepDefinitionS.iAmOnAmazonHomepage()
+  When I click on Gift Cards a new page appears # stepDefinitions.HomeStepDefinitionS.i_click_on_gift_cards_a_new_page_appears()
+  Then I validate the test7 by page title       # stepDefinitions.HomeStepDefinitionS.i_validate_the_test7_by_page_title()
+      java.lang.AssertionError: failed expected [Amazon.com Gift Cards] but found [Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at homeSaumitra.HomePageS.validateGiftCards(HomePageS.java:58)
+	at stepDefinitions.HomeStepDefinitionS.i_validate_the_test7_by_page_title(HomeStepDefinitionS.java:93)
+	at ✽.I validate the test7 by page title(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:31)
+
 
 @SmokeTest
-Scenario: Free Shipping Functionality Check        # src/test/java/features/HomePage.feature:33
-  Given I am on Amazon Homepage                    # null
-  When I click on Free Shipping a new page appears # null
-  Then I validate the test8 by page title          # null
+Scenario: Free Shipping Functionality Check        # src/test/java/features/HomePageS.feature:33
+  Given I am on Amazon Homepage                    # stepDefinitions.HomeStepDefinitionS.iAmOnAmazonHomepage()
+  When I click on Free Shipping a new page appears # stepDefinitions.HomeStepDefinitionS.i_click_on_free_shipping_a_new_page_appears()
+  Then I validate the test8 by page title          # stepDefinitions.HomeStepDefinitionS.i_validate_the_test8_by_page_title()
+      java.lang.AssertionError: failed expected [Amazon.com: : FREE Shipping by Amazon] but found [Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at homeSaumitra.HomePageS.validateFreeShipping(HomePageS.java:63)
+	at stepDefinitions.HomeStepDefinitionS.i_validate_the_test8_by_page_title(HomeStepDefinitionS.java:102)
+	at ✽.I validate the test8 by page title(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:35)
+
 
 @SmokeTest
-Scenario: Registry Functionality Check        # src/test/java/features/HomePage.feature:37
-  Given I am on Amazon Homepage               # null
-  When I click on Registry a new page appears # null
+Scenario: Registry Functionality Check        # src/test/java/features/HomePageS.feature:37
+  Given I am on Amazon Homepage               # stepDefinitions.HomeStepDefinitionS.iAmOnAmazonHomepage()
+  When I click on Registry a new page appears # stepDefinitions.HomeStepDefinitionS.i_click_on_registry_a_new_page_appears()
   Then I validate the test9 by page title     # null
 
 @SmokeTest
-Scenario: Sell Functionality Check         # src/test/java/features/HomePage.feature:41
-  Given I am on Amazon Homepage            # null
-  When I click on Sell a new page appears  # null
-  Then I validate the test10 by page title # null
+Scenario: Sell Functionality Check         # src/test/java/features/HomePageS.feature:41
+  Given I am on Amazon Homepage            # stepDefinitions.HomeStepDefinitionS.iAmOnAmazonHomepage()
+  When I click on Sell a new page appears  # stepDefinitions.HomeStepDefinitionS.i_click_on_sell_a_new_page_appears()
+  Then I validate the test10 by page title # stepDefinitions.HomeStepDefinitionS.i_validate_the_test10_by_page_title()
+      java.lang.AssertionError: failed expected [Amazon.com: Sell Products Online with Selling on Amazon.] but found [Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at homeSaumitra.HomePageS.validateSell(HomePageS.java:73)
+	at stepDefinitions.HomeStepDefinitionS.i_validate_the_test10_by_page_title(HomeStepDefinitionS.java:120)
+	at ✽.I validate the test10 by page title(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:43)
+
 
 @SmokeTest
-Scenario: Coupons Functionality Check        # src/test/java/features/HomePage.feature:45
-  Given I am on Amazon Homepage              # null
-  When I click on Coupons a new page appears # null
-  Then I validate the test11 by page title   # null
+Scenario: Coupons Functionality Check        # src/test/java/features/HomePageS.feature:45
+  Given I am on Amazon Homepage              # stepDefinitions.HomeStepDefinitionS.iAmOnAmazonHomepage()
+  When I click on Coupons a new page appears # stepDefinitions.HomeStepDefinitionS.i_click_on_coupons_a_new_page_appears()
+  Then I validate the test11 by page title   # stepDefinitions.HomeStepDefinitionS.i_validate_the_test11_by_page_title()
+      java.lang.AssertionError: failed expected [Amazon.com: Coupons] but found [Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at homeSaumitra.HomePageS.validateCoupons(HomePageS.java:78)
+	at stepDefinitions.HomeStepDefinitionS.i_validate_the_test11_by_page_title(HomeStepDefinitionS.java:129)
+	at ✽.I validate the test11 by page title(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:47)
+
 
 @SmokeTest
-Scenario: Amazon Basics Functionality Check        # src/test/java/features/HomePage.feature:49
-  Given I am on Amazon Homepage                    # null
-  When I click on Amazon Basics a new page appears # null
-  Then I validate the test12 by page title         # null
+Scenario: Amazon Basics Functionality Check        # src/test/java/features/HomePageS.feature:49
+  Given I am on Amazon Homepage                    # stepDefinitions.HomeStepDefinitionS.iAmOnAmazonHomepage()
+  When I click on Amazon Basics a new page appears # stepDefinitions.HomeStepDefinitionS.i_click_on_amazon_basics_a_new_page_appears()
+  Then I validate the test12 by page title         # stepDefinitions.HomeStepDefinitionS.i_validate_the_test12_by_page_title()
 
 @SmokeTest
-Scenario: Found It On Amazon Functionality Check        # src/test/java/features/HomePage.feature:53
-  Given I am on Amazon Homepage                         # null
-  When I click on Found It On Amazon a new page appears # null
-  Then I validate the test13 by page title              # null
+Scenario: Found It On Amazon Functionality Check        # src/test/java/features/HomePageS.feature:53
+  Given I am on Amazon Homepage                         # stepDefinitions.HomeStepDefinitionS.iAmOnAmazonHomepage()
+  When I click on Found It On Amazon a new page appears # stepDefinitions.HomeStepDefinitionS.i_click_on_found_it_on_amazon_a_new_page_appears()
+  Then I validate the test13 by page title              # stepDefinitions.HomeStepDefinitionS.i_validate_the_test13_by_page_title()
+      java.lang.AssertionError: failed expected [#FoundItOnAmazon] but found [Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at homeSaumitra.HomePageS.validateFoundItOnAmazon(HomePageS.java:88)
+	at stepDefinitions.HomeStepDefinitionS.i_validate_the_test13_by_page_title(HomeStepDefinitionS.java:147)
+	at ✽.I validate the test13 by page title(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:55)
+
 
 @SmokeTest
-Scenario: Account Lists Functionality Check        # src/test/java/features/HomePage.feature:57
-  Given I am on Amazon Homepage                    # null
-  When I click on Account Lists a new page appears # null
-  Then I validate the test14 by page title         # null
+Scenario: Account Lists Functionality Check        # src/test/java/features/HomePageS.feature:57
+  Given I am on Amazon Homepage                    # stepDefinitions.HomeStepDefinitionS.iAmOnAmazonHomepage()
+  When I click on Account Lists a new page appears # stepDefinitions.HomeStepDefinitionS.i_click_on_account_lists_a_new_page_appears()
+  Then I validate the test14 by page title         # stepDefinitions.HomeStepDefinitionS.i_validate_the_test14_by_page_title()
+      java.lang.AssertionError: failed expected ["";
+] but found [Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at homeSaumitra.HomePageS.validateAccountLists(HomePageS.java:93)
+	at stepDefinitions.HomeStepDefinitionS.i_validate_the_test14_by_page_title(HomeStepDefinitionS.java:156)
+	at ✽.I validate the test14 by page title(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:59)
+
 
 @SmokeTest
-Scenario: Orders Functionality Check        # src/test/java/features/HomePage.feature:61
-  Given I am on Amazon Homepage             # null
-  When I click on Orders a new page appears # null
-  Then I validate the test15 by page title  # null
+Scenario: Orders Functionality Check        # src/test/java/features/HomePageS.feature:61
+  Given I am on Amazon Homepage             # stepDefinitions.HomeStepDefinitionS.iAmOnAmazonHomepage()
+  When I click on Orders a new page appears # stepDefinitions.HomeStepDefinitionS.i_click_on_orders_a_new_page_appears()
+  Then I validate the test15 by page title  # stepDefinitions.HomeStepDefinitionS.i_validate_the_test15_by_page_title()
+      java.lang.AssertionError: failed expected [order:amazon] but found [Amazon Sign-In]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at homeSaumitra.HomePageS.validateOrders(HomePageS.java:98)
+	at stepDefinitions.HomeStepDefinitionS.i_validate_the_test15_by_page_title(HomeStepDefinitionS.java:165)
+	at ✽.I validate the test15 by page title(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:63)
+
 
 @SmokeTest
-Scenario: Try Prime Functionality Check        # src/test/java/features/HomePage.feature:65
-  Given I am on Amazon Homepage                # null
-  When I click on Try Prime a new page appears # null
-  Then I validate the test16 by page title     # null
+Scenario: Try Prime Functionality Check        # src/test/java/features/HomePageS.feature:65
+  Given I am on Amazon Homepage                # stepDefinitions.HomeStepDefinitionS.iAmOnAmazonHomepage()
+  When I click on Try Prime a new page appears # stepDefinitions.HomeStepDefinitionS.i_click_on_try_prime_a_new_page_appears()
+  Then I validate the test16 by page title     # stepDefinitions.HomeStepDefinitionS.i_validate_the_test16_by_page_title()
+      java.lang.AssertionError: failed expected [Amazon.com: Amazon Prime] but found [Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at homeSaumitra.HomePageS.validateTryPrimes(HomePageS.java:103)
+	at stepDefinitions.HomeStepDefinitionS.i_validate_the_test16_by_page_title(HomeStepDefinitionS.java:174)
+	at ✽.I validate the test16 by page title(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:67)
+
 
 @SmokeTest
-Scenario: Cart Functionality Check         # src/test/java/features/HomePage.feature:69
-  Given I am on Amazon Homepage            # null
-  When I click on Cart a new page appears  # null
-  Then I validate the test17 by page title # null
+Scenario: Cart Functionality Check         # src/test/java/features/HomePageS.feature:69
+  Given I am on Amazon Homepage            # stepDefinitions.HomeStepDefinitionS.iAmOnAmazonHomepage()
+  When I click on Cart a new page appears  # stepDefinitions.HomeStepDefinitionS.i_click_on_cart_a_new_page_appears()
+  Then I validate the test17 by page title # stepDefinitions.HomeStepDefinitionS.i_validate_the_test17_by_page_title()
+      java.lang.AssertionError: failed expected [Amazon.com Shopping Cart] but found [Change Language & Currency Settings]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at homeSaumitra.HomePageS.validateCart(HomePageS.java:108)
+	at stepDefinitions.HomeStepDefinitionS.i_validate_the_test17_by_page_title(HomeStepDefinitionS.java:183)
+	at ✽.I validate the test17 by page title(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:71)
+
 
 @SmokeTest
-Scenario: Select Your Address Functionality Check        # src/test/java/features/HomePage.feature:73
-  Given I am on Amazon Homepage                          # null
-  When I click on Select Your Address a new page appears # null
-  Then I validate the test18 by page title               # null
+Scenario: Select Your Address Functionality Check        # src/test/java/features/HomePageS.feature:73
+  Given I am on Amazon Homepage                          # stepDefinitions.HomeStepDefinitionS.iAmOnAmazonHomepage()
+  When I click on Select Your Address a new page appears # stepDefinitions.HomeStepDefinitionS.i_click_on_select_your_address_a_new_page_appears()
+  Then I validate the test18 by page title               # stepDefinitions.HomeStepDefinitionS.i_validate_the_test18_by_page_title()
+      java.lang.AssertionError: failed expected [negative testing] but found [Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at homeSaumitra.HomePageS.validateSelectYourAddress(HomePageS.java:113)
+	at stepDefinitions.HomeStepDefinitionS.i_validate_the_test18_by_page_title(HomeStepDefinitionS.java:192)
+	at ✽.I validate the test18 by page title(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:75)
+
 
 @SmokeTest
-Scenario: Careers Functionality Check        # src/test/java/features/HomePage.feature:77
-  Given I am on Amazon Homepage              # null
-  When I click on Careers a new page appears # null
-  Then I validate the test19 by page title   # null
+Scenario: Careers Functionality Check        # src/test/java/features/HomePageS.feature:77
+  Given I am on Amazon Homepage              # stepDefinitions.HomeStepDefinitionS.iAmOnAmazonHomepage()
+  When I click on Careers a new page appears # stepDefinitions.HomeStepDefinitionS.i_click_on_careers_a_new_page_appears()
+  Then I validate the test19 by page title   # stepDefinitions.HomeStepDefinitionS.i_validate_the_test19_by_page_title()
+      java.lang.AssertionError: failed expected [Amazon.jobs: Help us build Earthâ€™s most customer-centric company.] but found [Amazon.jobs: Help us build Earth’s most customer-centric company.]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at homeSaumitra.HomePageS.validateCareers(HomePageS.java:118)
+	at stepDefinitions.HomeStepDefinitionS.i_validate_the_test19_by_page_title(HomeStepDefinitionS.java:201)
+	at ✽.I validate the test19 by page title(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:79)
+
 
 @SmokeTest
-Scenario: Blog Functionality Check         # src/test/java/features/HomePage.feature:81
-  Given I am on Amazon Homepage            # null
-  When I click on Blog a new page appears  # null
-  Then I validate the test20 by page title # null
+Scenario: Blog Functionality Check         # src/test/java/features/HomePageS.feature:81
+  Given I am on Amazon Homepage            # stepDefinitions.HomeStepDefinitionS.iAmOnAmazonHomepage()
+  When I click on Blog a new page appears  # stepDefinitions.HomeStepDefinitionS.i_click_on_blog_a_new_page_appears()
+  Then I validate the test20 by page title # stepDefinitions.HomeStepDefinitionS.i_validate_the_test20_by_page_title()
 
 @SmokeTest
-Scenario: Amazon Devices Functionality Check        # src/test/java/features/HomePage.feature:85
-  Given I am on Amazon Homepage                     # null
-  When I click on Amazon Devices a new page appears # null
-  Then I validate the test21 by page title          # null
+Scenario: Amazon Devices Functionality Check        # src/test/java/features/HomePageS.feature:85
+  Given I am on Amazon Homepage                     # stepDefinitions.HomeStepDefinitionS.iAmOnAmazonHomepage()
+  When I click on Amazon Devices a new page appears # stepDefinitions.HomeStepDefinitionS.i_click_on_amazon_devices_a_new_page_appears()
+  Then I validate the test21 by page title          # stepDefinitions.HomeStepDefinitionS.i_validate_the_test21_by_page_title()
+      java.lang.AssertionError: failed expected [Amazon Devices - Official Site - Kindle, Fire, Echo devices] but found [Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at homeSaumitra.HomePageS.validateAmazonDevices(HomePageS.java:128)
+	at stepDefinitions.HomeStepDefinitionS.i_validate_the_test21_by_page_title(HomeStepDefinitionS.java:219)
+	at ✽.I validate the test21 by page title(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:87)
+
 
 @SmokeTest
-Scenario: Press Center Functionality Check        # src/test/java/features/HomePage.feature:89
-  Given I am on Amazon Homepage                   # null
-  When I click on Press Center a new page appears # null
-  Then I validate the test22 by page title        # null
+Scenario: Press Center Functionality Check        # src/test/java/features/HomePageS.feature:89
+  Given I am on Amazon Homepage                   # stepDefinitions.HomeStepDefinitionS.iAmOnAmazonHomepage()
+  When I click on Press Center a new page appears # stepDefinitions.HomeStepDefinitionS.i_click_on_press_center_a_new_page_appears()
+  Then I validate the test22 by page title        # stepDefinitions.HomeStepDefinitionS.i_validate_the_test22_by_page_title()
 
 @SmokeTest
-Scenario: Amazon Tours Functionality Check        # src/test/java/features/HomePage.feature:93
-  Given I am on Amazon Homepage                   # null
-  When I click on Amazon Tours a new page appears # null
-  Then I validate the test23 by page title        # null
+Scenario: Amazon Tours Functionality Check        # src/test/java/features/HomePageS.feature:93
+  Given I am on Amazon Homepage                   # stepDefinitions.HomeStepDefinitionS.iAmOnAmazonHomepage()
+  When I click on Amazon Tours a new page appears # stepDefinitions.HomeStepDefinitionS.i_click_on_amazon_tours_a_new_page_appears()
+  Then I validate the test23 by page title        # stepDefinitions.HomeStepDefinitionS.i_validate_the_test23_by_page_title()
 
 @SmokeTest
-Scenario: Sell On Amazon Functionality Check        # src/test/java/features/HomePage.feature:97
-  Given I am on Amazon Homepage                     # null
-  When I click on Sell On Amazon a new page appears # null
-  Then I validate the test24 by page title          # null
+Scenario: Sell On Amazon Functionality Check        # src/test/java/features/HomePageS.feature:97
+  Given I am on Amazon Homepage                     # stepDefinitions.HomeStepDefinitionS.iAmOnAmazonHomepage()
+  When I click on Sell On Amazon a new page appears # stepDefinitions.HomeStepDefinitionS.i_click_on_sell_on_amazon_a_new_page_appears()
+  Then I validate the test24 by page title          # stepDefinitions.HomeStepDefinitionS.i_validate_the_test24_by_page_title()
+      java.lang.AssertionError: failed expected [Sell on Amazon | Build Your Ecommerce Business] but found [Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at homeSaumitra.HomePageS.validateSellOnAmazon(HomePageS.java:143)
+	at stepDefinitions.HomeStepDefinitionS.i_validate_the_test24_by_page_title(HomeStepDefinitionS.java:246)
+	at ✽.I validate the test24 by page title(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:99)
+
 
 @SmokeTest
-Scenario: Become Affiliate Functionality Check        # src/test/java/features/HomePage.feature:101
-  Given I am on Amazon Homepage                       # null
-  When I click on Become Affiliate a new page appears # null
-  Then I validate the test25 by page title            # null
+Scenario: Become Affiliate Functionality Check        # src/test/java/features/HomePageS.feature:101
+  Given I am on Amazon Homepage                       # stepDefinitions.HomeStepDefinitionS.iAmOnAmazonHomepage()
+  When I click on Become Affiliate a new page appears # stepDefinitions.HomeStepDefinitionS.i_click_on_become_affiliate_a_new_page_appears()
+  Then I validate the test25 by page title            # stepDefinitions.HomeStepDefinitionS.i_validate_the_test25_by_page_title()
 
 @SmokeTest
-Scenario: Advertise Products Functionality Check        # src/test/java/features/HomePage.feature:105
-  Given I am on Amazon Homepage                         # null
-  When I click on Advertise Products a new page appears # null
-  Then I validate the test26 by page title              # null
+Scenario: Advertise Products Functionality Check        # src/test/java/features/HomePageS.feature:105
+  Given I am on Amazon Homepage                         # stepDefinitions.HomeStepDefinitionS.iAmOnAmazonHomepage()
+  When I click on Advertise Products a new page appears # stepDefinitions.HomeStepDefinitionS.i_click_on_advertise_products_a_new_page_appears()
+  Then I validate the test26 by page title              # stepDefinitions.HomeStepDefinitionS.i_validate_the_test26_by_page_title()
 
 @SmokeTest
-Scenario: Amazon Store Card Functionality Check        # src/test/java/features/HomePage.feature:109
-  Given I am on Amazon Homepage                        # null
-  When I click on Amazon Store Card a new page appears # null
-  Then I validate the test27 by page title             # null
+Scenario: Amazon Store Card Functionality Check        # src/test/java/features/HomePageS.feature:109
+  Given I am on Amazon Homepage                        # stepDefinitions.HomeStepDefinitionS.iAmOnAmazonHomepage()
+  When I click on Amazon Store Card a new page appears # stepDefinitions.HomeStepDefinitionS.i_click_on_amazon_store_card_a_new_page_appears()
+  Then I validate the test27 by page title             # stepDefinitions.HomeStepDefinitionS.i_validate_the_test27_by_page_title()
 
 @SmokeTest
-Scenario: Shop With Points Functionality Check        # src/test/java/features/HomePage.feature:113
-  Given I am on Amazon Homepage                       # null
-  When I click on Shop With Points a new page appears # null
-  Then I validate the test28 by page title            # null
+Scenario: Shop With Points Functionality Check        # src/test/java/features/HomePageS.feature:113
+  Given I am on Amazon Homepage                       # stepDefinitions.HomeStepDefinitionS.iAmOnAmazonHomepage()
+  When I click on Shop With Points a new page appears # stepDefinitions.HomeStepDefinitionS.i_click_on_shop_with_points_a_new_page_appears()
+  Then I validate the test28 by page title            # stepDefinitions.HomeStepDefinitionS.i_validate_the_test28_by_page_title()
+      java.lang.AssertionError: failed expected [Amazon.com: Credit & Payment Cards] but found [Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at homeSaumitra.HomePageS.validateShopWithPoints(HomePageS.java:163)
+	at stepDefinitions.HomeStepDefinitionS.i_validate_the_test28_by_page_title(HomeStepDefinitionS.java:282)
+	at ✽.I validate the test28 by page title(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:115)
+
 
 @SmokeTest
-Scenario: Currency Converter Functionality Check        # src/test/java/features/HomePage.feature:117
-  Given I am on Amazon Homepage                         # null
-  When I click on Currency Converter a new page appears # null
-  Then I validate the test29 by page title              # null
+Scenario: Currency Converter Functionality Check        # src/test/java/features/HomePageS.feature:117
+  Given I am on Amazon Homepage                         # stepDefinitions.HomeStepDefinitionS.iAmOnAmazonHomepage()
+  When I click on Currency Converter a new page appears # stepDefinitions.HomeStepDefinitionS.i_click_on_currency_converter_a_new_page_appears()
+  Then I validate the test29 by page title              # stepDefinitions.HomeStepDefinitionS.i_validate_the_test29_by_page_title()
 
 @SmokeTest
-Scenario: Credit Card Market Place Functionality Check        # src/test/java/features/HomePage.feature:121
-  Given I am on Amazon Homepage                               # null
-  When I click on Credit Card Market Place a new page appears # null
+Scenario: Credit Card Market Place Functionality Check        # src/test/java/features/HomePageS.feature:121
+  Given I am on Amazon Homepage                               # stepDefinitions.HomeStepDefinitionS.iAmOnAmazonHomepage()
+  When I click on Credit Card Market Place a new page appears # stepDefinitions.HomeStepDefinitionS.i_click_on_credit_card_market_place_a_new_page_appears()
   Then I validate the test by30 page title                    # null
-
-@SmokeTest
-Scenario: Amazon search field functionality check with valid data # src/test/java/features/Search.feature:4
-  Given I am on Amazon homepage                                   # null
-  And I enter "Hand Sanitizer" in search field                    # null
-  When I submit search field                                      # null
-  Then I verify page title as "Amazon.ca : hand sanitizers"       # null

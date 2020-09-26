@@ -1,251 +1,427 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="31" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="31" time="1.554">
-    <testcase classname="Amazon Homepage Functionality Check" name="Best Sellers Functionality Check" time="0.197">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
-            <![CDATA[Given I am on Amazon Homepage...............................................undefined
-When I click on Best sellers a new page appears.............................skipped
-Then I validate the test1 by page title.....................................skipped
+<testsuite errors="0" failures="20" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="30" time="1,333.962">
+    <testcase classname="Amazon Homepage Functionality Check" name="Best Sellers Functionality Check" time="11.634">
+        <system-out>
+            <![CDATA[Given I am on Amazon Homepage...............................................passed
+When I click on Best sellers a new page appears.............................passed
+Then I validate the test1 by page title.....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Amazon Homepage Functionality Check" name="Customer Service Functionality Check" time="38.31">
+        <failure message="failed expected [&#10;Amazon.com Help: Help &amp; Customer Service] but found [Amazon.com Help: Help &amp; Customer Service]" type="java.lang.AssertionError">
+            <![CDATA[Given I am on Amazon Homepage...............................................passed
+When I click on Customer Service a new page appears.........................passed
+Then I validate the test2 by page title.....................................failed
+
+StackTrace:
+java.lang.AssertionError: failed expected [
+Amazon.com Help: Help & Customer Service] but found [Amazon.com Help: Help & Customer Service]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at homeSaumitra.HomePageS.validateCustomerService(HomePageS.java:32)
+	at stepDefinitions.HomeStepDefinitionS.i_validate_the_test2_by_page_title(HomeStepDefinitionS.java:48)
+	at ✽.I validate the test2 by page title(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:11)
 ]]>
         </failure>
     </testcase>
-    <testcase classname="Amazon Homepage Functionality Check" name="Customer Service Functionality Check" time="0.013">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
-            <![CDATA[Given I am on Amazon Homepage...............................................undefined
-When I click on Customer Service a new page appears.........................skipped
-Then I validate the test2 by page title.....................................skipped
+    <testcase classname="Amazon Homepage Functionality Check" name="Todays Deal Functionality Check" time="28.937">
+        <failure message="failed expected [&#10;&#10; Gold Box Deals | Today's Deals - Amazon.com&#10;] but found [Gold Box Deals | Today's Deals - Amazon.com]" type="java.lang.AssertionError">
+            <![CDATA[Given I am on Amazon Homepage...............................................passed
+When I click on Todays Deal a new page appears..............................passed
+Then I validate the test3 by page title.....................................failed
+
+StackTrace:
+java.lang.AssertionError: failed expected [
+
+ Gold Box Deals | Today's Deals - Amazon.com
+] but found [Gold Box Deals | Today's Deals - Amazon.com]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at homeSaumitra.HomePageS.validateTodaysDeals(HomePageS.java:38)
+	at stepDefinitions.HomeStepDefinitionS.i_validate_the_test3_by_page_title(HomeStepDefinitionS.java:57)
+	at ✽.I validate the test3 by page title(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:15)
 ]]>
         </failure>
     </testcase>
-    <testcase classname="Amazon Homepage Functionality Check" name="Todays Deal Functionality Check" time="0.016">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
-            <![CDATA[Given I am on Amazon Homepage...............................................undefined
-When I click on Todays Deal a new page appears..............................skipped
-Then I validate the test3 by page title.....................................skipped
+    <testcase classname="Amazon Homepage Functionality Check" name="New Releases Functionality Check" time="38.935">
+        <system-out>
+            <![CDATA[Given I am on Amazon Homepage...............................................passed
+When I click on New Releases a new page appears.............................passed
+Then I validate the test4 by page title.....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Amazon Homepage Functionality Check" name="Find a Gift Functionality Check" time="47.005">
+        <failure message="failed expected [Gifts for Everyone | Amazon.com Gift Finder] but found [Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs &amp; more]" type="java.lang.AssertionError">
+            <![CDATA[Given I am on Amazon Homepage...............................................passed
+When I click on Find a Gift a new page appears..............................passed
+Then I validate the test5 by page title.....................................failed
+
+StackTrace:
+java.lang.AssertionError: failed expected [Gifts for Everyone | Amazon.com Gift Finder] but found [Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at homeSaumitra.HomePageS.validatefind_a_gift(HomePageS.java:48)
+	at stepDefinitions.HomeStepDefinitionS.i_validate_the_test5_by_page_title(HomeStepDefinitionS.java:75)
+	at ✽.I validate the test5 by page title(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:23)
 ]]>
         </failure>
     </testcase>
-    <testcase classname="Amazon Homepage Functionality Check" name="New Releases Functionality Check" time="0.005">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
-            <![CDATA[Given I am on Amazon Homepage...............................................undefined
-When I click on New Releases a new page appears.............................skipped
-Then I validate the test4 by page title.....................................skipped
+    <testcase classname="Amazon Homepage Functionality Check" name="Whole Foods Functionality Check" time="38.377">
+        <failure message="failed expected [Whole Foods Market @ Amazon.com] but found [Amazon.com: Whole Foods Market]" type="java.lang.AssertionError">
+            <![CDATA[Given I am on Amazon Homepage...............................................passed
+When I click on Whole Foods a new page appears..............................passed
+Then I validate the test6 by page title.....................................failed
+
+StackTrace:
+java.lang.AssertionError: failed expected [Whole Foods Market @ Amazon.com] but found [Amazon.com: Whole Foods Market]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at homeSaumitra.HomePageS.validateWholeFoods(HomePageS.java:53)
+	at stepDefinitions.HomeStepDefinitionS.i_validate_the_test6_by_page_title(HomeStepDefinitionS.java:84)
+	at ✽.I validate the test6 by page title(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:27)
 ]]>
         </failure>
     </testcase>
-    <testcase classname="Amazon Homepage Functionality Check" name="Find a Gift Functionality Check" time="0.003">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
-            <![CDATA[Given I am on Amazon Homepage...............................................undefined
-When I click on Find a Gift a new page appears..............................skipped
-Then I validate the test5 by page title.....................................skipped
+    <testcase classname="Amazon Homepage Functionality Check" name="Gift Cards Functionality Check" time="48.86">
+        <failure message="failed expected [Amazon.com Gift Cards] but found [Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs &amp; more]" type="java.lang.AssertionError">
+            <![CDATA[Given I am on Amazon Homepage...............................................passed
+When I click on Gift Cards a new page appears...............................passed
+Then I validate the test7 by page title.....................................failed
+
+StackTrace:
+java.lang.AssertionError: failed expected [Amazon.com Gift Cards] but found [Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at homeSaumitra.HomePageS.validateGiftCards(HomePageS.java:58)
+	at stepDefinitions.HomeStepDefinitionS.i_validate_the_test7_by_page_title(HomeStepDefinitionS.java:93)
+	at ✽.I validate the test7 by page title(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:31)
 ]]>
         </failure>
     </testcase>
-    <testcase classname="Amazon Homepage Functionality Check" name="Whole Foods Functionality Check" time="0.003">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
-            <![CDATA[Given I am on Amazon Homepage...............................................undefined
-When I click on Whole Foods a new page appears..............................skipped
-Then I validate the test6 by page title.....................................skipped
+    <testcase classname="Amazon Homepage Functionality Check" name="Free Shipping Functionality Check" time="46.843">
+        <failure message="failed expected [Amazon.com: : FREE Shipping by Amazon] but found [Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs &amp; more]" type="java.lang.AssertionError">
+            <![CDATA[Given I am on Amazon Homepage...............................................passed
+When I click on Free Shipping a new page appears............................passed
+Then I validate the test8 by page title.....................................failed
+
+StackTrace:
+java.lang.AssertionError: failed expected [Amazon.com: : FREE Shipping by Amazon] but found [Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at homeSaumitra.HomePageS.validateFreeShipping(HomePageS.java:63)
+	at stepDefinitions.HomeStepDefinitionS.i_validate_the_test8_by_page_title(HomeStepDefinitionS.java:102)
+	at ✽.I validate the test8 by page title(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:35)
 ]]>
         </failure>
     </testcase>
-    <testcase classname="Amazon Homepage Functionality Check" name="Gift Cards Functionality Check" time="0.012">
+    <testcase classname="Amazon Homepage Functionality Check" name="Registry Functionality Check" time="58.447">
         <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
-            <![CDATA[Given I am on Amazon Homepage...............................................undefined
-When I click on Gift Cards a new page appears...............................skipped
-Then I validate the test7 by page title.....................................skipped
+            <![CDATA[Given I am on Amazon Homepage...............................................passed
+When I click on Registry a new page appears.................................passed
+Then I validate the test9 by page title.....................................undefined
 ]]>
         </failure>
     </testcase>
-    <testcase classname="Amazon Homepage Functionality Check" name="Free Shipping Functionality Check" time="0.007">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
-            <![CDATA[Given I am on Amazon Homepage...............................................undefined
-When I click on Free Shipping a new page appears............................skipped
-Then I validate the test8 by page title.....................................skipped
+    <testcase classname="Amazon Homepage Functionality Check" name="Sell Functionality Check" time="58.64">
+        <failure message="failed expected [Amazon.com: Sell Products Online with Selling on Amazon.] but found [Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs &amp; more]" type="java.lang.AssertionError">
+            <![CDATA[Given I am on Amazon Homepage...............................................passed
+When I click on Sell a new page appears.....................................passed
+Then I validate the test10 by page title....................................failed
+
+StackTrace:
+java.lang.AssertionError: failed expected [Amazon.com: Sell Products Online with Selling on Amazon.] but found [Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at homeSaumitra.HomePageS.validateSell(HomePageS.java:73)
+	at stepDefinitions.HomeStepDefinitionS.i_validate_the_test10_by_page_title(HomeStepDefinitionS.java:120)
+	at ✽.I validate the test10 by page title(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:43)
 ]]>
         </failure>
     </testcase>
-    <testcase classname="Amazon Homepage Functionality Check" name="Registry Functionality Check" time="0.005">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
-            <![CDATA[Given I am on Amazon Homepage...............................................undefined
-When I click on Registry a new page appears.................................skipped
-Then I validate the test9 by page title.....................................skipped
+    <testcase classname="Amazon Homepage Functionality Check" name="Coupons Functionality Check" time="56.479">
+        <failure message="failed expected [Amazon.com: Coupons] but found [Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs &amp; more]" type="java.lang.AssertionError">
+            <![CDATA[Given I am on Amazon Homepage...............................................passed
+When I click on Coupons a new page appears..................................passed
+Then I validate the test11 by page title....................................failed
+
+StackTrace:
+java.lang.AssertionError: failed expected [Amazon.com: Coupons] but found [Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at homeSaumitra.HomePageS.validateCoupons(HomePageS.java:78)
+	at stepDefinitions.HomeStepDefinitionS.i_validate_the_test11_by_page_title(HomeStepDefinitionS.java:129)
+	at ✽.I validate the test11 by page title(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:47)
 ]]>
         </failure>
     </testcase>
-    <testcase classname="Amazon Homepage Functionality Check" name="Sell Functionality Check" time="0.003">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
-            <![CDATA[Given I am on Amazon Homepage...............................................undefined
-When I click on Sell a new page appears.....................................skipped
-Then I validate the test10 by page title....................................skipped
+    <testcase classname="Amazon Homepage Functionality Check" name="Amazon Basics Functionality Check" time="48.704">
+        <system-out>
+            <![CDATA[Given I am on Amazon Homepage...............................................passed
+When I click on Amazon Basics a new page appears............................passed
+Then I validate the test12 by page title....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Amazon Homepage Functionality Check" name="Found It On Amazon Functionality Check" time="46.682">
+        <failure message="failed expected [#FoundItOnAmazon] but found [Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs &amp; more]" type="java.lang.AssertionError">
+            <![CDATA[Given I am on Amazon Homepage...............................................passed
+When I click on Found It On Amazon a new page appears.......................passed
+Then I validate the test13 by page title....................................failed
+
+StackTrace:
+java.lang.AssertionError: failed expected [#FoundItOnAmazon] but found [Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at homeSaumitra.HomePageS.validateFoundItOnAmazon(HomePageS.java:88)
+	at stepDefinitions.HomeStepDefinitionS.i_validate_the_test13_by_page_title(HomeStepDefinitionS.java:147)
+	at ✽.I validate the test13 by page title(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:55)
 ]]>
         </failure>
     </testcase>
-    <testcase classname="Amazon Homepage Functionality Check" name="Coupons Functionality Check" time="0.002">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
-            <![CDATA[Given I am on Amazon Homepage...............................................undefined
-When I click on Coupons a new page appears..................................skipped
-Then I validate the test11 by page title....................................skipped
+    <testcase classname="Amazon Homepage Functionality Check" name="Account Lists Functionality Check" time="47.296">
+        <failure message="failed expected [&quot;&quot;;&#10;] but found [Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs &amp; more]" type="java.lang.AssertionError">
+            <![CDATA[Given I am on Amazon Homepage...............................................passed
+When I click on Account Lists a new page appears............................passed
+Then I validate the test14 by page title....................................failed
+
+StackTrace:
+java.lang.AssertionError: failed expected ["";
+] but found [Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at homeSaumitra.HomePageS.validateAccountLists(HomePageS.java:93)
+	at stepDefinitions.HomeStepDefinitionS.i_validate_the_test14_by_page_title(HomeStepDefinitionS.java:156)
+	at ✽.I validate the test14 by page title(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:59)
 ]]>
         </failure>
     </testcase>
-    <testcase classname="Amazon Homepage Functionality Check" name="Amazon Basics Functionality Check" time="0.003">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
-            <![CDATA[Given I am on Amazon Homepage...............................................undefined
-When I click on Amazon Basics a new page appears............................skipped
-Then I validate the test12 by page title....................................skipped
+    <testcase classname="Amazon Homepage Functionality Check" name="Orders Functionality Check" time="7.539">
+        <failure message="failed expected [order:amazon] but found [Amazon Sign-In]" type="java.lang.AssertionError">
+            <![CDATA[Given I am on Amazon Homepage...............................................passed
+When I click on Orders a new page appears...................................passed
+Then I validate the test15 by page title....................................failed
+
+StackTrace:
+java.lang.AssertionError: failed expected [order:amazon] but found [Amazon Sign-In]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at homeSaumitra.HomePageS.validateOrders(HomePageS.java:98)
+	at stepDefinitions.HomeStepDefinitionS.i_validate_the_test15_by_page_title(HomeStepDefinitionS.java:165)
+	at ✽.I validate the test15 by page title(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:63)
 ]]>
         </failure>
     </testcase>
-    <testcase classname="Amazon Homepage Functionality Check" name="Found It On Amazon Functionality Check" time="0.012">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
-            <![CDATA[Given I am on Amazon Homepage...............................................undefined
-When I click on Found It On Amazon a new page appears.......................skipped
-Then I validate the test13 by page title....................................skipped
+    <testcase classname="Amazon Homepage Functionality Check" name="Try Prime Functionality Check" time="60.655">
+        <failure message="failed expected [Amazon.com: Amazon Prime] but found [Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs &amp; more]" type="java.lang.AssertionError">
+            <![CDATA[Given I am on Amazon Homepage...............................................passed
+When I click on Try Prime a new page appears................................passed
+Then I validate the test16 by page title....................................failed
+
+StackTrace:
+java.lang.AssertionError: failed expected [Amazon.com: Amazon Prime] but found [Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at homeSaumitra.HomePageS.validateTryPrimes(HomePageS.java:103)
+	at stepDefinitions.HomeStepDefinitionS.i_validate_the_test16_by_page_title(HomeStepDefinitionS.java:174)
+	at ✽.I validate the test16 by page title(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:67)
 ]]>
         </failure>
     </testcase>
-    <testcase classname="Amazon Homepage Functionality Check" name="Account Lists Functionality Check" time="0.004">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
-            <![CDATA[Given I am on Amazon Homepage...............................................undefined
-When I click on Account Lists a new page appears............................skipped
-Then I validate the test14 by page title....................................skipped
+    <testcase classname="Amazon Homepage Functionality Check" name="Cart Functionality Check" time="43.018">
+        <failure message="failed expected [Amazon.com Shopping Cart] but found [Change Language &amp; Currency Settings]" type="java.lang.AssertionError">
+            <![CDATA[Given I am on Amazon Homepage...............................................passed
+When I click on Cart a new page appears.....................................passed
+Then I validate the test17 by page title....................................failed
+
+StackTrace:
+java.lang.AssertionError: failed expected [Amazon.com Shopping Cart] but found [Change Language & Currency Settings]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at homeSaumitra.HomePageS.validateCart(HomePageS.java:108)
+	at stepDefinitions.HomeStepDefinitionS.i_validate_the_test17_by_page_title(HomeStepDefinitionS.java:183)
+	at ✽.I validate the test17 by page title(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:71)
 ]]>
         </failure>
     </testcase>
-    <testcase classname="Amazon Homepage Functionality Check" name="Orders Functionality Check" time="0.013">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
-            <![CDATA[Given I am on Amazon Homepage...............................................undefined
-When I click on Orders a new page appears...................................skipped
-Then I validate the test15 by page title....................................skipped
+    <testcase classname="Amazon Homepage Functionality Check" name="Select Your Address Functionality Check" time="32.715">
+        <failure message="failed expected [negative testing] but found [Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs &amp; more]" type="java.lang.AssertionError">
+            <![CDATA[Given I am on Amazon Homepage...............................................passed
+When I click on Select Your Address a new page appears......................passed
+Then I validate the test18 by page title....................................failed
+
+StackTrace:
+java.lang.AssertionError: failed expected [negative testing] but found [Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at homeSaumitra.HomePageS.validateSelectYourAddress(HomePageS.java:113)
+	at stepDefinitions.HomeStepDefinitionS.i_validate_the_test18_by_page_title(HomeStepDefinitionS.java:192)
+	at ✽.I validate the test18 by page title(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:75)
 ]]>
         </failure>
     </testcase>
-    <testcase classname="Amazon Homepage Functionality Check" name="Try Prime Functionality Check" time="0.016">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
-            <![CDATA[Given I am on Amazon Homepage...............................................undefined
-When I click on Try Prime a new page appears................................skipped
-Then I validate the test16 by page title....................................skipped
+    <testcase classname="Amazon Homepage Functionality Check" name="Careers Functionality Check" time="60.709">
+        <failure message="failed expected [Amazon.jobs: Help us build Earthâ€™s most customer-centric company.] but found [Amazon.jobs: Help us build Earth’s most customer-centric company.]" type="java.lang.AssertionError">
+            <![CDATA[Given I am on Amazon Homepage...............................................passed
+When I click on Careers a new page appears..................................passed
+Then I validate the test19 by page title....................................failed
+
+StackTrace:
+java.lang.AssertionError: failed expected [Amazon.jobs: Help us build Earthâ€™s most customer-centric company.] but found [Amazon.jobs: Help us build Earth’s most customer-centric company.]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at homeSaumitra.HomePageS.validateCareers(HomePageS.java:118)
+	at stepDefinitions.HomeStepDefinitionS.i_validate_the_test19_by_page_title(HomeStepDefinitionS.java:201)
+	at ✽.I validate the test19 by page title(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:79)
 ]]>
         </failure>
     </testcase>
-    <testcase classname="Amazon Homepage Functionality Check" name="Cart Functionality Check" time="0.003">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
-            <![CDATA[Given I am on Amazon Homepage...............................................undefined
-When I click on Cart a new page appears.....................................skipped
-Then I validate the test17 by page title....................................skipped
+    <testcase classname="Amazon Homepage Functionality Check" name="Blog Functionality Check" time="66.484">
+        <system-out>
+            <![CDATA[Given I am on Amazon Homepage...............................................passed
+When I click on Blog a new page appears.....................................passed
+Then I validate the test20 by page title....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Amazon Homepage Functionality Check" name="Amazon Devices Functionality Check" time="64.948">
+        <failure message="failed expected [Amazon Devices - Official Site - Kindle, Fire, Echo devices] but found [Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs &amp; more]" type="java.lang.AssertionError">
+            <![CDATA[Given I am on Amazon Homepage...............................................passed
+When I click on Amazon Devices a new page appears...........................passed
+Then I validate the test21 by page title....................................failed
+
+StackTrace:
+java.lang.AssertionError: failed expected [Amazon Devices - Official Site - Kindle, Fire, Echo devices] but found [Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at homeSaumitra.HomePageS.validateAmazonDevices(HomePageS.java:128)
+	at stepDefinitions.HomeStepDefinitionS.i_validate_the_test21_by_page_title(HomeStepDefinitionS.java:219)
+	at ✽.I validate the test21 by page title(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:87)
 ]]>
         </failure>
     </testcase>
-    <testcase classname="Amazon Homepage Functionality Check" name="Select Your Address Functionality Check" time="0.003">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
-            <![CDATA[Given I am on Amazon Homepage...............................................undefined
-When I click on Select Your Address a new page appears......................skipped
-Then I validate the test18 by page title....................................skipped
+    <testcase classname="Amazon Homepage Functionality Check" name="Press Center Functionality Check" time="20.579">
+        <system-out>
+            <![CDATA[Given I am on Amazon Homepage...............................................passed
+When I click on Press Center a new page appears.............................passed
+Then I validate the test22 by page title....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Amazon Homepage Functionality Check" name="Amazon Tours Functionality Check" time="23.363">
+        <system-out>
+            <![CDATA[Given I am on Amazon Homepage...............................................passed
+When I click on Amazon Tours a new page appears.............................passed
+Then I validate the test23 by page title....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Amazon Homepage Functionality Check" name="Sell On Amazon Functionality Check" time="53.529">
+        <failure message="failed expected [Sell on Amazon | Build Your Ecommerce Business] but found [Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs &amp; more]" type="java.lang.AssertionError">
+            <![CDATA[Given I am on Amazon Homepage...............................................passed
+When I click on Sell On Amazon a new page appears...........................passed
+Then I validate the test24 by page title....................................failed
+
+StackTrace:
+java.lang.AssertionError: failed expected [Sell on Amazon | Build Your Ecommerce Business] but found [Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at homeSaumitra.HomePageS.validateSellOnAmazon(HomePageS.java:143)
+	at stepDefinitions.HomeStepDefinitionS.i_validate_the_test24_by_page_title(HomeStepDefinitionS.java:246)
+	at ✽.I validate the test24 by page title(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:99)
 ]]>
         </failure>
     </testcase>
-    <testcase classname="Amazon Homepage Functionality Check" name="Careers Functionality Check" time="0.002">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
-            <![CDATA[Given I am on Amazon Homepage...............................................undefined
-When I click on Careers a new page appears..................................skipped
-Then I validate the test19 by page title....................................skipped
+    <testcase classname="Amazon Homepage Functionality Check" name="Become Affiliate Functionality Check" time="47.078">
+        <system-out>
+            <![CDATA[Given I am on Amazon Homepage...............................................passed
+When I click on Become Affiliate a new page appears.........................passed
+Then I validate the test25 by page title....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Amazon Homepage Functionality Check" name="Advertise Products Functionality Check" time="58.081">
+        <system-out>
+            <![CDATA[Given I am on Amazon Homepage...............................................passed
+When I click on Advertise Products a new page appears.......................passed
+Then I validate the test26 by page title....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Amazon Homepage Functionality Check" name="Amazon Store Card Functionality Check" time="59.87">
+        <system-out>
+            <![CDATA[Given I am on Amazon Homepage...............................................passed
+When I click on Amazon Store Card a new page appears........................passed
+Then I validate the test27 by page title....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Amazon Homepage Functionality Check" name="Shop With Points Functionality Check" time="50.388">
+        <failure message="failed expected [Amazon.com: Credit &amp; Payment Cards] but found [Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs &amp; more]" type="java.lang.AssertionError">
+            <![CDATA[Given I am on Amazon Homepage...............................................passed
+When I click on Shop With Points a new page appears.........................passed
+Then I validate the test28 by page title....................................failed
+
+StackTrace:
+java.lang.AssertionError: failed expected [Amazon.com: Credit & Payment Cards] but found [Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at homeSaumitra.HomePageS.validateShopWithPoints(HomePageS.java:163)
+	at stepDefinitions.HomeStepDefinitionS.i_validate_the_test28_by_page_title(HomeStepDefinitionS.java:282)
+	at ✽.I validate the test28 by page title(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/HomePageS.feature:115)
 ]]>
         </failure>
     </testcase>
-    <testcase classname="Amazon Homepage Functionality Check" name="Blog Functionality Check" time="0.003">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
-            <![CDATA[Given I am on Amazon Homepage...............................................undefined
-When I click on Blog a new page appears.....................................skipped
-Then I validate the test20 by page title....................................skipped
+    <testcase classname="Amazon Homepage Functionality Check" name="Currency Converter Functionality Check" time="50.116">
+        <system-out>
+            <![CDATA[Given I am on Amazon Homepage...............................................passed
+When I click on Currency Converter a new page appears.......................passed
+Then I validate the test29 by page title....................................passed
 ]]>
-        </failure>
+        </system-out>
     </testcase>
-    <testcase classname="Amazon Homepage Functionality Check" name="Amazon Devices Functionality Check" time="0.008">
+    <testcase classname="Amazon Homepage Functionality Check" name="Credit Card Market Place Functionality Check" time="18.292">
         <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
-            <![CDATA[Given I am on Amazon Homepage...............................................undefined
-When I click on Amazon Devices a new page appears...........................skipped
-Then I validate the test21 by page title....................................skipped
-]]>
-        </failure>
-    </testcase>
-    <testcase classname="Amazon Homepage Functionality Check" name="Press Center Functionality Check" time="0.005">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
-            <![CDATA[Given I am on Amazon Homepage...............................................undefined
-When I click on Press Center a new page appears.............................skipped
-Then I validate the test22 by page title....................................skipped
-]]>
-        </failure>
-    </testcase>
-    <testcase classname="Amazon Homepage Functionality Check" name="Amazon Tours Functionality Check" time="0.003">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
-            <![CDATA[Given I am on Amazon Homepage...............................................undefined
-When I click on Amazon Tours a new page appears.............................skipped
-Then I validate the test23 by page title....................................skipped
-]]>
-        </failure>
-    </testcase>
-    <testcase classname="Amazon Homepage Functionality Check" name="Sell On Amazon Functionality Check" time="0.005">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
-            <![CDATA[Given I am on Amazon Homepage...............................................undefined
-When I click on Sell On Amazon a new page appears...........................skipped
-Then I validate the test24 by page title....................................skipped
-]]>
-        </failure>
-    </testcase>
-    <testcase classname="Amazon Homepage Functionality Check" name="Become Affiliate Functionality Check" time="0.004">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
-            <![CDATA[Given I am on Amazon Homepage...............................................undefined
-When I click on Become Affiliate a new page appears.........................skipped
-Then I validate the test25 by page title....................................skipped
-]]>
-        </failure>
-    </testcase>
-    <testcase classname="Amazon Homepage Functionality Check" name="Advertise Products Functionality Check" time="0.006">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
-            <![CDATA[Given I am on Amazon Homepage...............................................undefined
-When I click on Advertise Products a new page appears.......................skipped
-Then I validate the test26 by page title....................................skipped
-]]>
-        </failure>
-    </testcase>
-    <testcase classname="Amazon Homepage Functionality Check" name="Amazon Store Card Functionality Check" time="0.004">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
-            <![CDATA[Given I am on Amazon Homepage...............................................undefined
-When I click on Amazon Store Card a new page appears........................skipped
-Then I validate the test27 by page title....................................skipped
-]]>
-        </failure>
-    </testcase>
-    <testcase classname="Amazon Homepage Functionality Check" name="Shop With Points Functionality Check" time="0.003">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
-            <![CDATA[Given I am on Amazon Homepage...............................................undefined
-When I click on Shop With Points a new page appears.........................skipped
-Then I validate the test28 by page title....................................skipped
-]]>
-        </failure>
-    </testcase>
-    <testcase classname="Amazon Homepage Functionality Check" name="Currency Converter Functionality Check" time="0.021">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
-            <![CDATA[Given I am on Amazon Homepage...............................................undefined
-When I click on Currency Converter a new page appears.......................skipped
-Then I validate the test29 by page title....................................skipped
-]]>
-        </failure>
-    </testcase>
-    <testcase classname="Amazon Homepage Functionality Check" name="Credit Card Market Place Functionality Check" time="0.013">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
-            <![CDATA[Given I am on Amazon Homepage...............................................undefined
-When I click on Credit Card Market Place a new page appears.................skipped
-Then I validate the test by30 page title....................................skipped
-]]>
-        </failure>
-    </testcase>
-    <testcase classname="Amazon search functionality check" name="Amazon search field functionality check with valid data" time="0.031">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
-            <![CDATA[Given I am on Amazon homepage...............................................undefined
-And I enter "Hand Sanitizer" in search field................................skipped
-When I submit search field..................................................skipped
-Then I verify page title as "Amazon.ca : hand sanitizers"...................skipped
+            <![CDATA[Given I am on Amazon Homepage...............................................passed
+When I click on Credit Card Market Place a new page appears.................passed
+Then I validate the test by30 page title....................................undefined
 ]]>
         </failure>
     </testcase>

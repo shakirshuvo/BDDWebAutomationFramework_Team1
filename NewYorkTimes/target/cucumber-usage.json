@@ -1,0 +1,746 @@
+[
+  {
+    "source": "I am on New York Times Homepage",
+    "steps": [
+      {
+        "name": "I am on New York Times Homepage",
+        "aggregatedDurations": {
+          "median": 6.2314688,
+          "average": 10.42226098
+        },
+        "durations": [
+          {
+            "duration": 7.6407716,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:3"
+          },
+          {
+            "duration": 15.4750251,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:3"
+          },
+          {
+            "duration": 21.3674737,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:3"
+          },
+          {
+            "duration": 8.8204659,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:3"
+          },
+          {
+            "duration": 27.0720725,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:3"
+          },
+          {
+            "duration": 21.8943482,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:3"
+          },
+          {
+            "duration": 22.9982886,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:3"
+          },
+          {
+            "duration": 17.6876021,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:3"
+          },
+          {
+            "duration": 6.4750725,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:3"
+          },
+          {
+            "duration": 7.8629667,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:3"
+          },
+          {
+            "duration": 28.3886216,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:3"
+          },
+          {
+            "duration": 7.2114378,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:3"
+          },
+          {
+            "duration": 5.2947994,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:3"
+          },
+          {
+            "duration": 4.7399123,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:3"
+          },
+          {
+            "duration": 4.8752201,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:3"
+          },
+          {
+            "duration": 6.2314688,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:3"
+          },
+          {
+            "duration": 4.6686773,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:3"
+          },
+          {
+            "duration": 4.8314529,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:3"
+          },
+          {
+            "duration": 4.5930888,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:3"
+          },
+          {
+            "duration": 4.5372566,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:3"
+          },
+          {
+            "duration": 5.3947089,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:3"
+          },
+          {
+            "duration": 5.4503151,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:3"
+          },
+          {
+            "duration": 6.0669641,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:3"
+          },
+          {
+            "duration": 5.1351737,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:3"
+          },
+          {
+            "duration": 5.8433402,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on World and a new page appears",
+    "steps": [
+      {
+        "name": "I click on World and a new page appears",
+        "aggregatedDurations": {
+          "median": 1.9404741,
+          "average": 1.9404741
+        },
+        "durations": [
+          {
+            "duration": 1.9404741,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate that page by page title test a",
+    "steps": [
+      {
+        "name": "I validate that page by page title test a",
+        "aggregatedDurations": {
+          "median": 15.659668,
+          "average": 15.659668
+        },
+        "durations": [
+          {
+            "duration": 15.659668,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on US and a new page appears",
+    "steps": [
+      {
+        "name": "I click on US and a new page appears",
+        "aggregatedDurations": {
+          "median": 40.769002,
+          "average": 40.769002
+        },
+        "durations": [
+          {
+            "duration": 40.769002,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Politics and a new page appears",
+    "steps": [
+      {
+        "name": "I click on Politics and a new page appears",
+        "aggregatedDurations": {
+          "median": 0.3657909,
+          "average": 0.3657909
+        },
+        "durations": [
+          {
+            "duration": 0.3657909,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on NY News and a new page appears",
+    "steps": [
+      {
+        "name": "I click on NY News and a new page appears",
+        "aggregatedDurations": {
+          "median": 9.763911,
+          "average": 9.763911
+        },
+        "durations": [
+          {
+            "duration": 9.763911,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate that page by page title test d",
+    "steps": [
+      {
+        "name": "I validate that page by page title test d",
+        "aggregatedDurations": {
+          "median": 27.2762193,
+          "average": 27.2762193
+        },
+        "durations": [
+          {
+            "duration": 27.2762193,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Business and a new page appears",
+    "steps": [
+      {
+        "name": "I click on Business and a new page appears",
+        "aggregatedDurations": {
+          "median": 2.0276802,
+          "average": 2.0276802
+        },
+        "durations": [
+          {
+            "duration": 2.0276802,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:22"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate that page by page title test e",
+    "steps": [
+      {
+        "name": "I validate that page by page title test e",
+        "aggregatedDurations": {
+          "median": 8.9909877,
+          "average": 8.9909877
+        },
+        "durations": [
+          {
+            "duration": 8.9909877,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:23"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Opinion and a new page appears",
+    "steps": [
+      {
+        "name": "I click on Opinion and a new page appears",
+        "aggregatedDurations": {
+          "median": 0.3148775,
+          "average": 0.3148775
+        },
+        "durations": [
+          {
+            "duration": 0.3148775,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:26"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate that page by page title test f",
+    "steps": [
+      {
+        "name": "I validate that page by page title test f",
+        "aggregatedDurations": {
+          "median": 14.9271302,
+          "average": 14.9271302
+        },
+        "durations": [
+          {
+            "duration": 14.9271302,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:27"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Tech and a new page appears",
+    "steps": [
+      {
+        "name": "I click on Tech and a new page appears",
+        "aggregatedDurations": {
+          "median": 0.2179143,
+          "average": 0.2179143
+        },
+        "durations": [
+          {
+            "duration": 0.2179143,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:30"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Science and a new page appears",
+    "steps": [
+      {
+        "name": "I click on Science and a new page appears",
+        "aggregatedDurations": {
+          "median": 0.4452851,
+          "average": 0.4452851
+        },
+        "durations": [
+          {
+            "duration": 0.4452851,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:34"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate that page by page title test h",
+    "steps": [
+      {
+        "name": "I validate that page by page title test h",
+        "aggregatedDurations": {
+          "median": 9.1584054,
+          "average": 9.1584054
+        },
+        "durations": [
+          {
+            "duration": 9.1584054,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:35"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Health and a new page appears",
+    "steps": [
+      {
+        "name": "I click on Health and a new page appears",
+        "aggregatedDurations": {
+          "median": 7.2515169,
+          "average": 7.2515169
+        },
+        "durations": [
+          {
+            "duration": 7.2515169,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:38"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate that page by page title test i",
+    "steps": [
+      {
+        "name": "I validate that page by page title test i",
+        "aggregatedDurations": {
+          "median": 0.7706769,
+          "average": 0.7706769
+        },
+        "durations": [
+          {
+            "duration": 0.7706769,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:39"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Sports and a new page appears",
+    "steps": [
+      {
+        "name": "I click on Sports and a new page appears",
+        "aggregatedDurations": {
+          "median": 14.3918769,
+          "average": 14.3918769
+        },
+        "durations": [
+          {
+            "duration": 14.3918769,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:42"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Arts and a new page appears",
+    "steps": [
+      {
+        "name": "I click on Arts and a new page appears",
+        "aggregatedDurations": {
+          "median": 0.2193849,
+          "average": 0.2193849
+        },
+        "durations": [
+          {
+            "duration": 0.2193849,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:46"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Books and a new page appears",
+    "steps": [
+      {
+        "name": "I click on Books and a new page appears",
+        "aggregatedDurations": {
+          "median": 52.5331919,
+          "average": 52.5331919
+        },
+        "durations": [
+          {
+            "duration": 52.5331919,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:50"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Style and a new page appears",
+    "steps": [
+      {
+        "name": "I click on Style and a new page appears",
+        "aggregatedDurations": {
+          "median": 5.9042003,
+          "average": 5.9042003
+        },
+        "durations": [
+          {
+            "duration": 5.9042003,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:54"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate that page by page title test m",
+    "steps": [
+      {
+        "name": "I validate that page by page title test m",
+        "aggregatedDurations": {
+          "median": 0.7465926,
+          "average": 0.7465926
+        },
+        "durations": [
+          {
+            "duration": 0.7465926,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:55"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Food and a new page appears",
+    "steps": [
+      {
+        "name": "I click on Food and a new page appears",
+        "aggregatedDurations": {
+          "median": 2.4121093,
+          "average": 2.4121093
+        },
+        "durations": [
+          {
+            "duration": 2.4121093,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:58"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate that page by page title test n",
+    "steps": [
+      {
+        "name": "I validate that page by page title test n",
+        "aggregatedDurations": {
+          "median": 0.6246422,
+          "average": 0.6246422
+        },
+        "durations": [
+          {
+            "duration": 0.6246422,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:59"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Travel and a new page appears",
+    "steps": [
+      {
+        "name": "I click on Travel and a new page appears",
+        "aggregatedDurations": {
+          "median": 4.8334162,
+          "average": 4.8334162
+        },
+        "durations": [
+          {
+            "duration": 4.8334162,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:62"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate that page by page title test o",
+    "steps": [
+      {
+        "name": "I validate that page by page title test o",
+        "aggregatedDurations": {
+          "median": 9.3289371,
+          "average": 9.3289371
+        },
+        "durations": [
+          {
+            "duration": 9.3289371,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:63"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Magazine and a new page appears",
+    "steps": [
+      {
+        "name": "I click on Magazine and a new page appears",
+        "aggregatedDurations": {
+          "median": 6.6986907,
+          "average": 6.6986907
+        },
+        "durations": [
+          {
+            "duration": 6.6986907,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:66"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate that page by page title test p",
+    "steps": [
+      {
+        "name": "I validate that page by page title test p",
+        "aggregatedDurations": {
+          "median": 7.7930185,
+          "average": 7.7930185
+        },
+        "durations": [
+          {
+            "duration": 7.7930185,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:67"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on T Magazine and a new page appears",
+    "steps": [
+      {
+        "name": "I click on T Magazine and a new page appears",
+        "aggregatedDurations": {
+          "median": 40.3358308,
+          "average": 40.3358308
+        },
+        "durations": [
+          {
+            "duration": 40.3358308,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:70"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Real Estate and a new page appears",
+    "steps": [
+      {
+        "name": "I click on Real Estate and a new page appears",
+        "aggregatedDurations": {
+          "median": 40.9501584,
+          "average": 40.9501584
+        },
+        "durations": [
+          {
+            "duration": 40.9501584,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:74"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Video and a new page appears",
+    "steps": [
+      {
+        "name": "I click on Video and a new page appears",
+        "aggregatedDurations": {
+          "median": 40.3117078,
+          "average": 40.3117078
+        },
+        "durations": [
+          {
+            "duration": 40.3117078,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:78"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Todays Paper and a new page appears",
+    "steps": [
+      {
+        "name": "I click on Todays Paper and a new page appears",
+        "aggregatedDurations": {
+          "median": 31.6142331,
+          "average": 31.6142331
+        },
+        "durations": [
+          {
+            "duration": 31.6142331,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:82"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate that page by page title test t",
+    "steps": [
+      {
+        "name": "I validate that page by page title test t",
+        "aggregatedDurations": {
+          "median": 0.4237574,
+          "average": 0.4237574
+        },
+        "durations": [
+          {
+            "duration": 0.4237574,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:83"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Login Button and a new page appears",
+    "steps": [
+      {
+        "name": "I click on Login Button and a new page appears",
+        "aggregatedDurations": {
+          "median": 6.2285546,
+          "average": 6.2285546
+        },
+        "durations": [
+          {
+            "duration": 6.2285546,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:90"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate that page by page title test v",
+    "steps": [
+      {
+        "name": "I validate that page by page title test v",
+        "aggregatedDurations": {
+          "median": 3.0730883,
+          "average": 3.0730883
+        },
+        "durations": [
+          {
+            "duration": 3.0730883,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:91"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Espanol and a new page appears",
+    "steps": [
+      {
+        "name": "I click on Espanol and a new page appears",
+        "aggregatedDurations": {
+          "median": 40.7723047,
+          "average": 40.7723047
+        },
+        "durations": [
+          {
+            "duration": 40.7723047,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:94"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Subscribe Now and a new page appears",
+    "steps": [
+      {
+        "name": "I click on Subscribe Now and a new page appears",
+        "aggregatedDurations": {
+          "median": 40.5248005,
+          "average": 40.5248005
+        },
+        "durations": [
+          {
+            "duration": 40.5248005,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:102"
+          }
+        ]
+      }
+    ]
+  }
+]

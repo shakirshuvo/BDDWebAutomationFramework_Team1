@@ -1,4 +1,19 @@
 -------------------------------------------------------------------------------
 Test set: testRunner.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 69.749 s - in testRunner.TestRunner
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.046 s <<< FAILURE! - in testRunner.TestRunner
+testRunner.TestRunner  Time elapsed: 0.007 s  <<< ERROR!
+io.cucumber.core.gherkin.FeatureParserException: 
+Failed to parse resource at: file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/HomePage.feature
+(152:3): expected: #TagLine, #ScenarioLine, #Comment, #Empty, got 'Scenario : Cash Rewards Credit Cards functionality check from under Credit Cards tab'
+(153:5): expected: #TagLine, #ScenarioLine, #Comment, #Empty, got 'When I bring my cursor upon Credit Cards and click on it'
+(154:5): expected: #TagLine, #ScenarioLine, #Comment, #Empty, got 'And I click on Cash Rewards tab'
+(155:5): expected: #TagLine, #ScenarioLine, #Comment, #Empty, got 'Then I validate that page by title Cash Rewards'
+(158:3): expected: #TagLine, #ScenarioLine, #Comment, #Empty, got 'Scenario : Travel Rewards Credit Cards functionality check from under Credit Cards tab'
+(159:5): expected: #TagLine, #ScenarioLine, #Comment, #Empty, got 'When I bring my cursor upon Credit Cards and click on it'
+(160:5): expected: #TagLine, #ScenarioLine, #Comment, #Empty, got 'And I click on Travel and Airline Rewards tab'
+(161:5): expected: #TagLine, #ScenarioLine, #Comment, #Empty, got 'Then I validate that page by title Travel Rewards'
+(164:3): expected: #TagLine, #ScenarioLine, #Comment, #Empty, got 'Scenario : Lower Interest Rate Credit Cards functionality check from under Credit Cards tab'
+(165:5): expected: #TagLine, #ScenarioLine, #Comment, #Empty, got 'When I bring my cursor upon Credit Cards and click on it'
+(166:5): expected: #TagLine, #ScenarioLine, #Comment, #Empty, got 'And I click on Lower Interest Rate Card tab'
+

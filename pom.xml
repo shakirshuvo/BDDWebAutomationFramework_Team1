@@ -194,6 +194,12 @@
                 <version>6.6.0</version>
             </dependency>
 
+        <!--            Faker for generating random username, password, phone number, etc.-->
+        <dependency>
+            <groupId>com.github.javafaker</groupId>
+            <artifactId>javafaker</artifactId>
+            <version>1.0.2</version>
+        </dependency>
 
         </dependencies>
 
@@ -223,9 +229,16 @@
                     <configuration>
                         <testFailureIgnore>true</testFailureIgnore>
                         <suiteXmlFiles>
-<!--                            <suiteXmlFile>target/test-classes/AmazonTestRunner.xml</suiteXmlFile>-->
+                            <suiteXmlFile>target/test-classes/AmazonTestRunner.xml</suiteXmlFile>
                             <!--                            <suiteXmlFile></suiteXmlFile>-->
                             <!--                            <suiteXmlFile></suiteXmlFile>-->
+                            <suiteXmlFile>target/test-classes/BankOfAmericaTestRunner.xml</suiteXmlFile>
+                            <suiteXmlFile>target/test-classes/DeltaTestRunner.xml</suiteXmlFile>
+                            <suiteXmlFile>target/test-classes/MarriottTestRunner.xml</suiteXmlFile>
+                            <suiteXmlFile>target/test-classes/NewYorkTimesTestRunner.xml</suiteXmlFile>
+                            <suiteXmlFile>target/test-classes/TheHartfordTestRunner.xml</suiteXmlFile>
+                            <suiteXmlFile>target/test-classes/TMobileTestRunner.xml</suiteXmlFile>
+                            <suiteXmlFile>target/test-classes/UnitedHealthCareTestRunner.xml</suiteXmlFile>
                         </suiteXmlFiles>
                     </configuration>
                 </plugin>

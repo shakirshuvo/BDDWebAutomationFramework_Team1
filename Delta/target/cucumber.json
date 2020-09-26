@@ -1,1 +1,401 @@
-[]
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12775100600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 46003200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionSD.getInit()"
+                }
+              }
+            ],
+            "line": 3,
+            "name": "I am on Delta Homepage",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionSD.i_am_on_delta_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T19:05:56.833Z",
+        "line": 6,
+        "name": "Check-In functionality check",
+        "description": "",
+        "id": "delta-homepage-functionality-check;check-in-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 3391158600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionSD.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3524522600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionSD.getInit()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "I click on Check-In",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionSD.iClickOnCheckIn()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1834702400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2998400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionSD.getInit()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "I click on Confirmation number required and put 123456 as value",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123456",
+                  "offset": 48
+                }
+              ],
+              "location": "stepDefinitions.HomeStepDefinitionSD.iClickOnConfirmationNumberRequiredAndPutAsValue(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1546787500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionSD.getInit()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "I click on From Airport and put JFK as value",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionSD.iClickOnFromAirportAndPutJFKAsValue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1208838100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionSD.getInit()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "I select JFK New York,Kennedy NY",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionSD.iSelectJFKNewYorkKennedyNY()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10504940600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 998700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionSD.getInit()"
+                }
+              }
+            ],
+            "line": 11,
+            "name": "I click on radio button to submit",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionSD.iClickOnRadioButtonToSubmit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10117267000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionSD.getInit()"
+                }
+              }
+            ],
+            "line": 12,
+            "name": "I validate it by text",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionSD.iValidateItByText()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9877907700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1999300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionSD.getInit()"
+                }
+              }
+            ],
+            "line": 3,
+            "name": "I am on Delta Homepage",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionSD.i_am_on_delta_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T19:06:42.508Z",
+        "line": 15,
+        "name": "Book-In functionality check from delta homepage Book tab",
+        "description": "",
+        "id": "delta-homepage-functionality-check;book-in-functionality-check-from-delta-homepage-book-tab",
+        "after": [
+          {
+            "result": {
+              "duration": 2223235900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionSD.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionSD.getInit()"
+                }
+              }
+            ],
+            "line": 16,
+            "name": "I click on Book",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionSD.getInit()"
+                }
+              }
+            ],
+            "line": 17,
+            "name": "I click on From and put 123456 as value",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 999600,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999300,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionSD.getInit()"
+                }
+              }
+            ],
+            "line": 18,
+            "name": "I click on From Airport and put JFK as value",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionSD.iClickOnFromAirportAndPutJFKAsValue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 999700,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionSD.getInit()"
+                }
+              }
+            ],
+            "line": 19,
+            "name": "I select JFK New York,Kennedy NY",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionSD.iSelectJFKNewYorkKennedyNY()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 999700,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionSD.getInit()"
+                }
+              }
+            ],
+            "line": 20,
+            "name": "I click on radio button to submit",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionSD.iClickOnRadioButtonToSubmit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionSD.getInit()"
+                }
+              }
+            ],
+            "line": 21,
+            "name": "I validate it by text",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionSD.iValidateItByText()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Delta Homepage Functionality Check",
+    "description": "",
+    "id": "delta-homepage-functionality-check",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/HomePageSaumitra.feature",
+    "tags": []
+  }
+]

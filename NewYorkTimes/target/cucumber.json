@@ -1,0 +1,2611 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7640771600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 45973700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 3,
+            "name": "I am on New York Times Homepage",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iAmOnNewYorkTimesHomepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T19:07:27.807Z",
+        "line": 5,
+        "name": "World News Functionality Check",
+        "description": "",
+        "id": "new-york-times-homepage-functionality-check;world-news-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 2335662300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1940474100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "I click on World and a new page appears",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_click_on_world_and_a_new_page_appears()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15659668000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "I validate that page by page title test a",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestA()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 15475025100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2998400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 3,
+            "name": "I am on New York Times Homepage",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iAmOnNewYorkTimesHomepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T19:07:55.699Z",
+        "line": 9,
+        "name": "US News Functionality Check",
+        "description": "",
+        "id": "new-york-times-homepage-functionality-check;us-news-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 1039986500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 40769002000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "I click on US and a new page appears",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_click_on_us_and_a_new_page_appears()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[U.S. News - The New York Times]\u003e but was:\u003c[The New York Times - Breaking News, World News \u0026 Multimedia]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat base.CommonAPI.validateByTitle(CommonAPI.java:728)\r\n\tat home.HomeS.validateUs(HomeS.java:43)\r\n\tat stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestB(HomeStepDefinitionS.java:48)\r\n\tat ✽.I validate that page by page title test b(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:11)\r\n",
+              "duration": 3078866700,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 11,
+            "name": "I validate that page by page title test b",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestB()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 21367473700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1998600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 3,
+            "name": "I am on New York Times Homepage",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iAmOnNewYorkTimesHomepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T19:08:56.136Z",
+        "line": 13,
+        "name": "Politics News Functionality Check",
+        "description": "",
+        "id": "new-york-times-homepage-functionality-check;politics-news-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 1869337400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 365790900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 14,
+            "name": "I click on Politics and a new page appears",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_click_on_politics_and_a_new_page_appears()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Politics - The New York Times]\u003e but was:\u003c[The New York Times - Breaking News, World News \u0026 Multimedia]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat base.CommonAPI.validateByTitle(CommonAPI.java:728)\r\n\tat home.HomeS.validatePolitics(HomeS.java:46)\r\n\tat stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestC(HomeStepDefinitionS.java:57)\r\n\tat ✽.I validate that page by page title test c(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:15)\r\n",
+              "duration": 66964800,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 15,
+            "name": "I validate that page by page title test c",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestC()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8820465900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 3,
+            "name": "I am on New York Times Homepage",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iAmOnNewYorkTimesHomepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T19:09:19.891Z",
+        "line": 17,
+        "name": "NY News Functionality Check",
+        "description": "",
+        "id": "new-york-times-homepage-functionality-check;ny-news-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 2627280400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9763911000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 18,
+            "name": "I click on NY News and a new page appears",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_click_on_ny_news_and_a_new_page_appears()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 27276219300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 998600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 19,
+            "name": "I validate that page by page title test d",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestD()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 27072072500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 3,
+            "name": "I am on New York Times Homepage",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iAmOnNewYorkTimesHomepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T19:10:08.423Z",
+        "line": 21,
+        "name": "Business News Functionality Check",
+        "description": "",
+        "id": "new-york-times-homepage-functionality-check;business-news-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 1298690800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2027680200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 22,
+            "name": "I click on Business and a new page appears",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_click_on_business_and_a_new_page_appears()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8990987700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 23,
+            "name": "I validate that page by page title test e",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestE()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 21894348200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 3,
+            "name": "I am on New York Times Homepage",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iAmOnNewYorkTimesHomepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T19:10:47.843Z",
+        "line": 25,
+        "name": "Opinion News Functionality Check",
+        "description": "",
+        "id": "new-york-times-homepage-functionality-check;opinion-news-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 1287799700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 314877500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 26,
+            "name": "I click on Opinion and a new page appears",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_click_on_opinion_and_a_new_page_appears()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14927130200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 998900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 27,
+            "name": "I validate that page by page title test f",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestF()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 22998288600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 3,
+            "name": "I am on New York Times Homepage",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iAmOnNewYorkTimesHomepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T19:11:26.306Z",
+        "line": 29,
+        "name": "Tech News Functionality Check",
+        "description": "",
+        "id": "new-york-times-homepage-functionality-check;tech-news-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 2314741800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 217914300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 30,
+            "name": "I click on Tech and a new page appears",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_click_on_tech_and_a_new_page_appears()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003cT[echnology - The New York Times]\u003e but was:\u003cT[he New York Times - Breaking News, World News \u0026 Multimedia]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat base.CommonAPI.validateByTitle(CommonAPI.java:728)\r\n\tat home.HomeS.validateTechNews(HomeS.java:60)\r\n\tat stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestG(HomeStepDefinitionS.java:93)\r\n\tat ✽.I validate that page by page title test g(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:31)\r\n",
+              "duration": 35979300,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 31,
+            "name": "I validate that page by page title test g",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestG()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 17687602100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 3,
+            "name": "I am on New York Times Homepage",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iAmOnNewYorkTimesHomepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T19:11:51.938Z",
+        "line": 33,
+        "name": "Science News Functionality Check",
+        "description": "",
+        "id": "new-york-times-homepage-functionality-check;science-news-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 3964845300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 445285100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1005400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 34,
+            "name": "I click on Science and a new page appears",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_click_on_science_and_a_new_page_appears()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9158405400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 35,
+            "name": "I validate that page by page title test h",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestH()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6475072500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 3,
+            "name": "I am on New York Times Homepage",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iAmOnNewYorkTimesHomepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T19:12:23.220Z",
+        "line": 37,
+        "name": "Health News Functionality Check",
+        "description": "",
+        "id": "new-york-times-homepage-functionality-check;health-news-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 1681076200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7251516900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 38,
+            "name": "I click on Health and a new page appears",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_click_on_health_and_a_new_page_appears()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 770676900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 39,
+            "name": "I validate that page by page title test i",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestI()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7862966700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 3,
+            "name": "I am on New York Times Homepage",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iAmOnNewYorkTimesHomepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T19:12:39.420Z",
+        "line": 41,
+        "name": "Sports News Functionality Check",
+        "description": "",
+        "id": "new-york-times-homepage-functionality-check;sports-news-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 1873141200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14391876900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 42,
+            "name": "I click on Sports and a new page appears",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_click_on_sports_and_a_new_page_appears()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Sports - The New York Times]\u003e but was:\u003c[The New York Times - Breaking News, World News \u0026 Multimedia]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat base.CommonAPI.validateByTitle(CommonAPI.java:728)\r\n\tat home.HomeS.validateSportsNews(HomeS.java:69)\r\n\tat stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestJ(HomeStepDefinitionS.java:120)\r\n\tat ✽.I validate that page by page title test j(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:43)\r\n",
+              "duration": 16991600,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 43,
+            "name": "I validate that page by page title test j",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestJ()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 28388621600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 3,
+            "name": "I am on New York Times Homepage",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iAmOnNewYorkTimesHomepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T19:13:03.594Z",
+        "line": 45,
+        "name": "Arts News Functionality Check",
+        "description": "",
+        "id": "new-york-times-homepage-functionality-check;arts-news-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 2099862800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 219384900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 46,
+            "name": "I click on Arts and a new page appears",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_click_on_arts_and_a_new_page_appears()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Arts - The New York Times]\u003e but was:\u003c[The New York Times - Breaking News, World News \u0026 Multimedia]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat base.CommonAPI.validateByTitle(CommonAPI.java:728)\r\n\tat home.HomeS.validateArtsNews(HomeS.java:72)\r\n\tat stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestK(HomeStepDefinitionS.java:129)\r\n\tat ✽.I validate that page by page title test k(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:47)\r\n",
+              "duration": 62963200,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 47,
+            "name": "I validate that page by page title test k",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestK()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7211437800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 3,
+            "name": "I am on New York Times Homepage",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iAmOnNewYorkTimesHomepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T19:13:34.407Z",
+        "line": 49,
+        "name": "Books News Functionality Check",
+        "description": "",
+        "id": "new-york-times-homepage-functionality-check;books-news-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 859577700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 52533191900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 50,
+            "name": "I click on Books and a new page appears",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_click_on_books_and_a_new_page_appears()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Books - The New York Times]\u003e but was:\u003c[The New York Times - Breaking News, World News \u0026 Multimedia]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat base.CommonAPI.validateByTitle(CommonAPI.java:728)\r\n\tat home.HomeS.validateBooksNews(HomeS.java:76)\r\n\tat stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestL(HomeStepDefinitionS.java:138)\r\n\tat ✽.I validate that page by page title test l(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:51)\r\n",
+              "duration": 2526105800,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 51,
+            "name": "I validate that page by page title test l",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestL()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5294799400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 3,
+            "name": "I am on New York Times Homepage",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iAmOnNewYorkTimesHomepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T19:14:37.557Z",
+        "line": 53,
+        "name": "Style News Functionality Check",
+        "description": "",
+        "id": "new-york-times-homepage-functionality-check;style-news-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 1042978500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5904200300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 54,
+            "name": "I click on Style and a new page appears",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_click_on_style_and_a_new_page_appears()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 746592600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 55,
+            "name": "I validate that page by page title test m",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestM()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4739912300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 3,
+            "name": "I am on New York Times Homepage",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iAmOnNewYorkTimesHomepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T19:14:50.561Z",
+        "line": 57,
+        "name": "Food News Functionality Check",
+        "description": "",
+        "id": "new-york-times-homepage-functionality-check;food-news-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 884059100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2412109300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 58,
+            "name": "I click on Food and a new page appears",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_click_on_food_and_a_new_page_appears()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 624642200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 59,
+            "name": "I validate that page by page title test n",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestN()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4875220100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 3,
+            "name": "I am on New York Times Homepage",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iAmOnNewYorkTimesHomepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T19:14:59.232Z",
+        "line": 61,
+        "name": "Travel News Functionality Check",
+        "description": "",
+        "id": "new-york-times-homepage-functionality-check;travel-news-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 1366825100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4833416200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 998700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 62,
+            "name": "I click on Travel and a new page appears",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_click_on_travel_and_a_new_page_appears()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9328937100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 63,
+            "name": "I validate that page by page title test o",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestO()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6231468800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 3,
+            "name": "I am on New York Times Homepage",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iAmOnNewYorkTimesHomepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T19:15:19.649Z",
+        "line": 65,
+        "name": "Magazine News Functionality Check",
+        "description": "",
+        "id": "new-york-times-homepage-functionality-check;magazine-news-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 1044361100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6698690700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 66,
+            "name": "I click on Magazine and a new page appears",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_click_on_magazine_and_a_new_page_appears()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7793018500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 67,
+            "name": "I validate that page by page title test p",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestP()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4668677300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1001000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 3,
+            "name": "I am on New York Times Homepage",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iAmOnNewYorkTimesHomepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T19:15:41.424Z",
+        "line": 69,
+        "name": "T Magazine News Functionality Check",
+        "description": "",
+        "id": "new-york-times-homepage-functionality-check;t-magazine-news-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 983276500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 40335830800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 70,
+            "name": "I click on T Magazine and a new page appears",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_click_on_t_magazine_and_a_new_page_appears()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003cT[ Magazine - The New York Times]\u003e but was:\u003cT[he New York Times - Breaking News, World News \u0026 Multimedia]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat base.CommonAPI.validateByTitle(CommonAPI.java:728)\r\n\tat home.HomeS.validate_t_Magazine(HomeS.java:94)\r\n\tat stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestQ(HomeStepDefinitionS.java:183)\r\n\tat ✽.I validate that page by page title test q(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:71)\r\n",
+              "duration": 2595999600,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 71,
+            "name": "I validate that page by page title test q",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestQ()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4831452900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 3,
+            "name": "I am on New York Times Homepage",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iAmOnNewYorkTimesHomepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T19:16:30.021Z",
+        "line": 73,
+        "name": "Real Estate News Functionality Check",
+        "description": "",
+        "id": "new-york-times-homepage-functionality-check;real-estate-news-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 842579100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 40950158400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 74,
+            "name": "I click on Real Estate and a new page appears",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_click_on_real_estate_and_a_new_page_appears()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Real Estate - The New York Times]\u003e but was:\u003c[The New York Times - Breaking News, World News \u0026 Multimedia]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat base.CommonAPI.validateByTitle(CommonAPI.java:728)\r\n\tat home.HomeS.validateRealEstate(HomeS.java:98)\r\n\tat stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestR(HomeStepDefinitionS.java:192)\r\n\tat ✽.I validate that page by page title test r(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:75)\r\n",
+              "duration": 2702174600,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 75,
+            "name": "I validate that page by page title test r",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestR()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4593088800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 3,
+            "name": "I am on New York Times Homepage",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iAmOnNewYorkTimesHomepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T19:17:19.359Z",
+        "line": 77,
+        "name": "Video Functionality Check",
+        "description": "",
+        "id": "new-york-times-homepage-functionality-check;video-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 875162800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 40311707800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 998400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 78,
+            "name": "I click on Video and a new page appears",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_click_on_video_and_a_new_page_appears()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Video - The New York Times]\u003e but was:\u003c[The New York Times - Breaking News, World News \u0026 Multimedia]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat base.CommonAPI.validateByTitle(CommonAPI.java:728)\r\n\tat home.HomeS.validateVideoWebElements(HomeS.java:102)\r\n\tat stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestS(HomeStepDefinitionS.java:201)\r\n\tat ✽.I validate that page by page title test s(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:79)\r\n",
+              "duration": 2406986600,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 79,
+            "name": "I validate that page by page title test s",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestS()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4537256600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 3,
+            "name": "I am on New York Times Homepage",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iAmOnNewYorkTimesHomepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T19:18:07.562Z",
+        "line": 81,
+        "name": "Todays Paper Functionality Check",
+        "description": "",
+        "id": "new-york-times-homepage-functionality-check;todays-paper-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 882593900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 31614233100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 82,
+            "name": "I click on Todays Paper and a new page appears",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_click_on_todays_paper_and_a_new_page_appears()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 423757400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 83,
+            "name": "I validate that page by page title test t",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestT()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5394708900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 3,
+            "name": "I am on New York Times Homepage",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iAmOnNewYorkTimesHomepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T19:18:45.030Z",
+        "line": 85,
+        "name": "Toggle Menu Functionality Check",
+        "description": "",
+        "id": "new-york-times-homepage-functionality-check;toggle-menu-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 1115414900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.id: desktop-section-button (tried for 10 second(s) with 500 milliseconds interval)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\r\n\tat base.CommonAPI.waitUntilClickAble(CommonAPI.java:664)\r\n\tat stepDefinitions.HomeStepDefinitionS.i_click_on_toggle_menu_and_a_new_page_appears(HomeStepDefinitionS.java:214)\r\n\tat ✽.I click on Toggle Menu and a new page appears(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:86)\r\nCaused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#desktop\\-section\\-button\"}\n  (Session info: chrome\u003d85.0.4183.102)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-F75O7MS\u0027, ip: \u0027192.168.1.213\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.8\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\\Users\\debna\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50488}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 1a2a9b085ef491bd56bfe11ccef99be5\n*** Element info: {Using\u003did, value\u003ddesktop-section-button}\r\n\tat jdk.internal.reflect.GeneratedConstructorAccessor17.newInstance(Unknown Source)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\r\n\tat base.CommonAPI.waitUntilClickAble(CommonAPI.java:664)\r\n\tat stepDefinitions.HomeStepDefinitionS.i_click_on_toggle_menu_and_a_new_page_appears(HomeStepDefinitionS.java:214)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\r\n\tat io.cucumber.java.Invoker.doInvoke(Invoker.java:66)\r\n\tat io.cucumber.java.Invoker.invoke(Invoker.java:24)\r\n\tat io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)\r\n\tat io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)\r\n\tat io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)\r\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)\r\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\r\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:63)\r\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:49)\r\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:99)\r\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:71)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:115)\r\n\tat org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:43)\r\n\tat java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)\r\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)\r\n\tat java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)\r\n\tat java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)\r\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)\r\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)\r\n\tat java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)\r\n\tat java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)\r\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\r\n\tat java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)\r\n\tat org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:82)\r\n\tat org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:73)\r\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:248)\r\n\tat org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$5(DefaultLauncher.java:211)\r\n\tat org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:226)\r\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:199)\r\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:132)\r\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:188)\r\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:154)\r\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:128)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\r\n",
+              "duration": 10069746800,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 86,
+            "name": "I click on Toggle Menu and a new page appears",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_click_on_toggle_menu_and_a_new_page_appears()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1001500,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 87,
+            "name": "I validate that page by page title test u",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestU()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5450315100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 3,
+            "name": "I am on New York Times Homepage",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iAmOnNewYorkTimesHomepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T19:19:01.642Z",
+        "line": 89,
+        "name": "Login Button Functionality Check",
+        "description": "",
+        "id": "new-york-times-homepage-functionality-check;login-button-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 1324667100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6228554600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 90,
+            "name": "I click on Login Button and a new page appears",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_click_on_login_button_and_a_new_page_appears()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3073088300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 91,
+            "name": "I validate that page by page title test v",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestV()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6066964100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 3,
+            "name": "I am on New York Times Homepage",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iAmOnNewYorkTimesHomepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T19:19:17.733Z",
+        "line": 93,
+        "name": "Spanish Language Functionality Check",
+        "description": "",
+        "id": "new-york-times-homepage-functionality-check;spanish-language-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 1201988400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 40772304700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 94,
+            "name": "I click on Espanol and a new page appears",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_click_on_espanol_and_a_new_page_appears()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[The New York Times en Español - The New York Times]\u003e but was:\u003c[https://www.nytimes.com/]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat base.CommonAPI.validateByURL(CommonAPI.java:767)\r\n\tat home.HomeS.validateSpanishLanguage(HomeS.java:124)\r\n\tat stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestW(HomeStepDefinitionS.java:238)\r\n\tat ✽.I validate that page by page title test w(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:95)\r\n",
+              "duration": 2570987300,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 95,
+            "name": "I validate that page by page title test w",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestW()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5135173700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 3,
+            "name": "I am on New York Times Homepage",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iAmOnNewYorkTimesHomepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T19:20:08.374Z",
+        "line": 97,
+        "name": "Chinese Language Functionality Check",
+        "description": "",
+        "id": "new-york-times-homepage-functionality-check;chinese-language-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 931981400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.linkText: ä¸­æ–‡ (tried for 10 second(s) with 500 milliseconds interval)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\r\n\tat base.CommonAPI.waitUntilClickAble(CommonAPI.java:664)\r\n\tat stepDefinitions.HomeStepDefinitionS.iClickOn中文AndANewPageAppears(HomeStepDefinitionS.java:262)\r\n\tat ✽.I click on 中文 and a new page appears(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:98)\r\nCaused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"ä¸­æ–‡\"}\n  (Session info: chrome\u003d85.0.4183.102)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-F75O7MS\u0027, ip: \u0027192.168.1.213\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.8\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\\Users\\debna\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50852}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: dcecd4c845d10393c156b30dee4c9c5e\n*** Element info: {Using\u003dlink text, value\u003dä¸­æ–‡}\r\n\tat jdk.internal.reflect.GeneratedConstructorAccessor17.newInstance(Unknown Source)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)\r\n\tat org.openqa.selenium.By$ByLinkText.findElement(By.java:220)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\r\n\tat base.CommonAPI.waitUntilClickAble(CommonAPI.java:664)\r\n\tat stepDefinitions.HomeStepDefinitionS.iClickOn中文AndANewPageAppears(HomeStepDefinitionS.java:262)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\r\n\tat io.cucumber.java.Invoker.doInvoke(Invoker.java:66)\r\n\tat io.cucumber.java.Invoker.invoke(Invoker.java:24)\r\n\tat io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)\r\n\tat io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)\r\n\tat io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)\r\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)\r\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\r\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:63)\r\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:49)\r\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:99)\r\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:71)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:115)\r\n\tat org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:43)\r\n\tat java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)\r\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)\r\n\tat java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)\r\n\tat java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)\r\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)\r\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)\r\n\tat java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)\r\n\tat java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)\r\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\r\n\tat java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)\r\n\tat org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:82)\r\n\tat org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:73)\r\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:248)\r\n\tat org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$5(DefaultLauncher.java:211)\r\n\tat org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:226)\r\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:199)\r\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:132)\r\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:188)\r\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:154)\r\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:128)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\r\n",
+              "duration": 10513973600,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 98,
+            "name": "I click on 中文 and a new page appears",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iClickOn中文AndANewPageAppears()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999200,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 99,
+            "name": "I validate that page by page title test x",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestX()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5843340200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 3,
+            "name": "I am on New York Times Homepage",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iAmOnNewYorkTimesHomepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T19:20:24.975Z",
+        "line": 101,
+        "name": "Subscribe Now Functionality Check",
+        "description": "",
+        "id": "new-york-times-homepage-functionality-check;subscribe-now-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 920530500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 40524800500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1002100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 102,
+            "name": "I click on Subscribe Now and a new page appears",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.i_click_on_subscribe_now_and_a_new_page_appears()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c...s://www.nytimes.com/[subscription?campaignId\u003d79FKF\u0026redirect_uri\u003dhttps%3A%2F%2Fwww.nytimes.com%2F]\u003e but was:\u003c...s://www.nytimes.com/[]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat base.CommonAPI.validateByURL(CommonAPI.java:767)\r\n\tat home.HomeS.validateSubscribeNow(HomeS.java:132)\r\n\tat stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestY(HomeStepDefinitionS.java:256)\r\n\tat ✽.I validate that page by page title test y(file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/NewYorkTimes/src/test/java/features/HomePageS.feature:103)\r\n",
+              "duration": 2534560800,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomeStepDefinitionS.getInit()"
+                }
+              }
+            ],
+            "line": 103,
+            "name": "I validate that page by page title test y",
+            "match": {
+              "location": "stepDefinitions.HomeStepDefinitionS.iValidateThatPageByPageTitleTestY()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "New York Times Homepage Functionality Check",
+    "description": "",
+    "id": "new-york-times-homepage-functionality-check",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/HomePageS.feature",
+    "tags": []
+  }
+]

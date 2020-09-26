@@ -1,1 +1,132 @@
-[]
+[
+  {
+    "source": "I am on Delta Homepage",
+    "steps": [
+      {
+        "name": "I am on Delta Homepage",
+        "aggregatedDurations": {
+          "median": 11.32650415,
+          "average": 11.32650415
+        },
+        "durations": [
+          {
+            "duration": 12.7751006,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/HomePageSaumitra.feature:3"
+          },
+          {
+            "duration": 9.8779077,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/HomePageSaumitra.feature:3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Check-In",
+    "steps": [
+      {
+        "name": "I click on Check-In",
+        "aggregatedDurations": {
+          "median": 3.5245226,
+          "average": 3.5245226
+        },
+        "durations": [
+          {
+            "duration": 3.5245226,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/HomePageSaumitra.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Confirmation number required and put {int} as value",
+    "steps": [
+      {
+        "name": "I click on Confirmation number required and put 123456 as value",
+        "aggregatedDurations": {
+          "median": 1.8347024,
+          "average": 1.8347024
+        },
+        "durations": [
+          {
+            "duration": 1.8347024,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/HomePageSaumitra.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on From Airport and put JFK as value",
+    "steps": [
+      {
+        "name": "I click on From Airport and put JFK as value",
+        "aggregatedDurations": {
+          "median": 1.5467875,
+          "average": 1.5467875
+        },
+        "durations": [
+          {
+            "duration": 1.5467875,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/HomePageSaumitra.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I select JFK New York,Kennedy NY",
+    "steps": [
+      {
+        "name": "I select JFK New York,Kennedy NY",
+        "aggregatedDurations": {
+          "median": 1.2088381,
+          "average": 1.2088381
+        },
+        "durations": [
+          {
+            "duration": 1.2088381,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/HomePageSaumitra.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on radio button to submit",
+    "steps": [
+      {
+        "name": "I click on radio button to submit",
+        "aggregatedDurations": {
+          "median": 10.5049406,
+          "average": 10.5049406
+        },
+        "durations": [
+          {
+            "duration": 10.5049406,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/HomePageSaumitra.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate it by text",
+    "steps": [
+      {
+        "name": "I validate it by text",
+        "aggregatedDurations": {
+          "median": 10.117267,
+          "average": 10.117267
+        },
+        "durations": [
+          {
+            "duration": 10.117267,
+            "location": "file:///C:/Users/debna/IdeaProjects/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/HomePageSaumitra.feature:12"
+          }
+        ]
+      }
+    ]
+  }
+]
