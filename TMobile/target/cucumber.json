@@ -11,13 +11,13 @@
         "steps": [
           {
             "result": {
-              "duration": 6457681000,
+              "duration": 7547771000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 88957000,
+                  "duration": 55470000,
                   "status": "passed"
                 },
                 "match": {
@@ -35,15 +35,15 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-25T02:39:22.338Z",
-        "line": 20,
-        "name": "Successful redirecting after clicking Prepaid tab",
+        "start_timestamp": "2020-09-26T07:20:14.415Z",
+        "line": 8,
+        "name": "Successful redirecting after clicking Wireless tab",
         "description": "",
-        "id": "tmobile-homepage-tab-functionality-tests;successful-redirecting-after-clicking-prepaid-tab",
+        "id": "tmobile-homepage-tab-functionality-tests;successful-redirecting-after-clicking-wireless-tab",
         "after": [
           {
             "result": {
-              "duration": 270217000,
+              "duration": 259438000,
               "status": "passed"
             },
             "match": {
@@ -56,13 +56,223 @@
         "steps": [
           {
             "result": {
-              "duration": 2301443000,
+              "duration": 3865966000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 2461000,
+                  "duration": 1064000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobHomePageByMobinStepDefination.getInit()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "User clicks on Wireless tab",
+            "match": {
+              "location": "stepDefinitions.TMobHomePageByMobinStepDefination.user_clicks_on_wireless_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3701834000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1004000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobHomePageByMobinStepDefination.getInit()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "User is directed to Wireless page",
+            "match": {
+              "location": "stepDefinitions.TMobHomePageByMobinStepDefination.user_is_directed_to_wireless_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6253891000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 3702000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobHomePageByMobinStepDefination.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in TMobile homepage",
+            "match": {
+              "location": "stepDefinitions.TMobHomePageByMobinStepDefination.user_is_in_t_mobile_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T07:20:30.027Z",
+        "line": 14,
+        "name": "Successful redirecting after clicking Business tab",
+        "description": "",
+        "id": "tmobile-homepage-tab-functionality-tests;successful-redirecting-after-clicking-business-tab",
+        "after": [
+          {
+            "result": {
+              "duration": 283037000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TMobHomePageByMobinStepDefination.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2312289000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1018000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobHomePageByMobinStepDefination.getInit()"
+                }
+              }
+            ],
+            "line": 15,
+            "name": "User clicks on Business tab",
+            "match": {
+              "location": "stepDefinitions.TMobHomePageByMobinStepDefination.userClicksOnBusinessTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1122325000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2491000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobHomePageByMobinStepDefination.getInit()"
+                }
+              }
+            ],
+            "line": 16,
+            "name": "User is directed to Business page",
+            "match": {
+              "location": "stepDefinitions.TMobHomePageByMobinStepDefination.userIsDirectedToBusinessPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5689078000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 723000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobHomePageByMobinStepDefination.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in TMobile homepage",
+            "match": {
+              "location": "stepDefinitions.TMobHomePageByMobinStepDefination.user_is_in_t_mobile_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T07:20:40.043Z",
+        "line": 20,
+        "name": "Successful redirecting after clicking Prepaid tab",
+        "description": "",
+        "id": "tmobile-homepage-tab-functionality-tests;successful-redirecting-after-clicking-prepaid-tab",
+        "after": [
+          {
+            "result": {
+              "duration": 281257000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TMobHomePageByMobinStepDefination.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2460144000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 33832000,
                   "status": "passed"
                 },
                 "match": {
@@ -79,13 +289,13 @@
           },
           {
             "result": {
-              "duration": 4579625000,
+              "duration": 7456131000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1053000,
+                  "duration": 1350000,
                   "status": "passed"
                 },
                 "match": {
@@ -97,6 +307,216 @@
             "name": "User is directed to Prepaid page",
             "match": {
               "location": "stepDefinitions.TMobHomePageByMobinStepDefination.userIsDirectedToPrepaidPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7596110000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 6864000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobHomePageByMobinStepDefination.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in TMobile homepage",
+            "match": {
+              "location": "stepDefinitions.TMobHomePageByMobinStepDefination.user_is_in_t_mobile_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T07:20:56.006Z",
+        "line": 26,
+        "name": "Successful redirecting after clicking Tv tab",
+        "description": "",
+        "id": "tmobile-homepage-tab-functionality-tests;successful-redirecting-after-clicking-tv-tab",
+        "after": [
+          {
+            "result": {
+              "duration": 288077000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TMobHomePageByMobinStepDefination.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 789264000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 815000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobHomePageByMobinStepDefination.getInit()"
+                }
+              }
+            ],
+            "line": 27,
+            "name": "User clicks on Tv tab",
+            "match": {
+              "location": "stepDefinitions.TMobHomePageByMobinStepDefination.userClicksOnTvTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1682014000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 727000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobHomePageByMobinStepDefination.getInit()"
+                }
+              }
+            ],
+            "line": 28,
+            "name": "User is directed to Tv page",
+            "match": {
+              "location": "stepDefinitions.TMobHomePageByMobinStepDefination.userIsDirectedToTvPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6336360000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1080000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobHomePageByMobinStepDefination.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in TMobile homepage",
+            "match": {
+              "location": "stepDefinitions.TMobHomePageByMobinStepDefination.user_is_in_t_mobile_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T07:21:06.390Z",
+        "line": 32,
+        "name": "Successful redirecting after clicking Banking tab",
+        "description": "",
+        "id": "tmobile-homepage-tab-functionality-tests;successful-redirecting-after-clicking-banking-tab",
+        "after": [
+          {
+            "result": {
+              "duration": 298527000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TMobHomePageByMobinStepDefination.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1389483000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 882000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobHomePageByMobinStepDefination.getInit()"
+                }
+              }
+            ],
+            "line": 33,
+            "name": "User clicks on Banking tab",
+            "match": {
+              "location": "stepDefinitions.TMobHomePageByMobinStepDefination.userClicksOnBankingTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6180067000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 545000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobHomePageByMobinStepDefination.getInit()"
+                }
+              }
+            ],
+            "line": 34,
+            "name": "User is directed to Banking page",
+            "match": {
+              "location": "stepDefinitions.TMobHomePageByMobinStepDefination.userIsDirectedToBankingPage()"
             },
             "keyword": "Then "
           }

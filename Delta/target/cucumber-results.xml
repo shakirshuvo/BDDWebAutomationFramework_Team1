@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="23.255">
-    <testcase classname="Delta homepage tab functionality tests" name="Successful redirecting after clicking aircraft tab" time="22.811">
-        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@id='secondary-static-link-11']&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Farjanas-Air', ip: '2604:2000:1700:1c:1b2:5547:e4c8:25b4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '11.0.6'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/27/nmfyzmzj1c7...}, goog:chromeOptions: {debuggerAddress: localhost:58298}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 77a7def331149c13d0f392e28434a8cc&#10;*** Element info: {Using=xpath, value=//a[@id='secondary-static-link-11']}" type="org.openqa.selenium.NoSuchElementException">
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="10" time="123.754">
+    <testcase classname="Delta homepage tab functionality tests" name="Successful redirecting after clicking aircraft tab" time="24.834">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@id='secondary-static-link-11']&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Farjanas-Air', ip: '2604:2000:1700:1c:aca7:63da:436f:f5a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '11.0.6'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/27/nmfyzmzj1c7...}, goog:chromeOptions: {debuggerAddress: localhost:52563}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: d0c9b7fa87f6e319ca3b2792b9c9d9ca&#10;*** Element info: {Using=xpath, value=//a[@id='secondary-static-link-11']}" type="org.openqa.selenium.NoSuchElementException">
             <![CDATA[Given User is in Delta homepage.............................................passed
 When User hover over travel info tab........................................failed
 And clicks on aircraft tab..................................................skipped
-Then User is directed to *** page...........................................skipped
+Then User is directed to aircraft page......................................skipped
 
 StackTrace:
 org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id='secondary-static-link-11']"}
   (Session info: chrome=85.0.4183.121)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Farjanas-Air', ip: '2604:2000:1700:1c:1b2:5547:e4c8:25b4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '11.0.6'
+System info: host: 'Farjanas-Air', ip: '2604:2000:1700:1c:aca7:63da:436f:f5a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '11.0.6'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/27/nmfyzmzj1c7...}, goog:chromeOptions: {debuggerAddress: localhost:58298}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 77a7def331149c13d0f392e28434a8cc
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/27/nmfyzmzj1c7...}, goog:chromeOptions: {debuggerAddress: localhost:52563}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d0c9b7fa87f6e319ca3b2792b9c9d9ca
 *** Element info: {Using=xpath, value=//a[@id='secondary-static-link-11']}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -37,6 +37,116 @@ Session ID: 77a7def331149c13d0f392e28434a8cc
 	at deltaHomeByMobin.DeltaHomePageByMobin.checkTravleInfoDropDownTab(DeltaHomePageByMobin.java:44)
 	at stepDefinitions.DeltaHomePageByMobinStepDefinition.user_hover_over_travel_info_tab(DeltaHomePageByMobinStepDefinition.java:35)
 	at ✽.User hover over travel info tab(file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/DeltaHomePageByMobin.feature:9)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Delta homepage tab functionality tests" name="Successful redirecting after clicking Sky Miles Cruises tab" time="6.806">
+        <system-out>
+            <![CDATA[Given User is in Delta homepage.............................................passed
+When User hover over Sky Miles tab..........................................passed
+And clicks on Sky Miles Cruises tab.........................................passed
+Then User is directed to Sky Miles Cruises page.............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Delta homepage tab functionality tests" name="Successful redirecting after clicking Pet Travle tab" time="6.176">
+        <system-out>
+            <![CDATA[Given User is in Delta homepage.............................................passed
+When User hover over Need Help tab..........................................passed
+And clicks on Pet Travle tab................................................passed
+Then User is directed to Pet Travle page....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Delta homepage tab functionality tests" name="Checking functionality of travle from search box" time="7.954">
+        <system-out>
+            <![CDATA[Given User is in Delta homepage.............................................passed
+When User clicks on travle from search box..................................passed
+And types the travle from name..............................................passed
+Then User varivies the name visible on the search box.......................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Delta homepage tab functionality tests" name="Checking functionality of travle to search box" time="7.366">
+        <system-out>
+            <![CDATA[Given User is in Delta homepage.............................................passed
+When User clicks on travle to search box....................................passed
+And types the travle to name................................................passed
+Then User varivies the destination name visible on the search box...........passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Delta homepage tab functionality tests" name="Checking functionality of trip type" time="6.719">
+        <system-out>
+            <![CDATA[Given User is in Delta homepage.............................................passed
+When User clicks on round trip to search box................................passed
+And clicks on one way.......................................................passed
+Then User varivies the trip type from the option............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Delta homepage tab functionality tests" name="Checking functionality of Calendar" time="15.939">
+        <system-out>
+            <![CDATA[Given User is in Delta homepage.............................................passed
+When User clicks on Delta Calendar..........................................passed
+And inserts travel dates....................................................passed
+Then User varivies the travel dates visible on the Calendar.................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Delta homepage tab functionality tests" name="Checking functionality of Traveler Number box" time="16.624">
+        <system-out>
+            <![CDATA[Given User is in Delta homepage.............................................passed
+When User clicks on Traveler Number box.....................................passed
+And inserts number of Traveler by clicking plus sign........................passed
+Then User varivies the number of Traveler on the desired box................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Delta homepage tab functionality tests" name="Checking functionality of Delta homepage chech boxes by checking and un-checking" time="15.6">
+        <system-out>
+            <![CDATA[Given User is in Delta homepage.............................................passed
+When User checks all check boxes............................................passed
+And unchecks all again......................................................passed
+Then User varivies the checked and unchecked boxes..........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Delta homepage tab functionality tests" name="Checking full functionality of flight search" time="14.974">
+        <failure message="element click intercepted: Element &lt;span class=&quot;airport-code d-block&quot;&gt;...&lt;/span&gt; is not clickable at point (302, 140). Other element would receive the click: &lt;div class=&quot;airport-lookup-container search-dialog&quot; tabindex=&quot;0&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=85.0.4183.121)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Farjanas-Air', ip: '2604:2000:1700:1c:aca7:63da:436f:f5a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '11.0.6'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/27/nmfyzmzj1c7...}, goog:chromeOptions: {debuggerAddress: localhost:53608}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: c7bc86b19f905112122aa9575753da39" type="org.openqa.selenium.ElementClickInterceptedException">
+            <![CDATA[Given User is in Delta homepage.............................................passed
+When User inserts information in required sections of Delta.................failed
+And clicks Next tab.........................................................skipped
+Then User varivies the......................................................skipped
+
+StackTrace:
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="airport-code d-block">...</span> is not clickable at point (302, 140). Other element would receive the click: <div class="airport-lookup-container search-dialog" tabindex="0">...</div>
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Farjanas-Air', ip: '2604:2000:1700:1c:aca7:63da:436f:f5a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '11.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/27/nmfyzmzj1c7...}, goog:chromeOptions: {debuggerAddress: localhost:53608}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c7bc86b19f905112122aa9575753da39
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor105.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at deltaHomeByMobin.DeltaHomePageByMobin.testAllStepsOfBooking(DeltaHomePageByMobin.java:173)
+	at stepDefinitions.DeltaHomePageByMobinStepDefinition.userInsertsInformationInRequiredSectionsOfDelta(DeltaHomePageByMobinStepDefinition.java:172)
+	at ✽.User inserts information in required sections of Delta(file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/DeltaHomePageByMobin.feature:72)
 ]]>
         </failure>
     </testcase>

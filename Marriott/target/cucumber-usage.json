@@ -5,16 +5,48 @@
       {
         "name": "User is in Marriott homepage",
         "aggregatedDurations": {
-          "median": 9.9745385,
-          "average": 9.9745385
+          "median": 4.9298185,
+          "average": 7.2099369
         },
         "durations": [
           {
-            "duration": 9.908903,
+            "duration": 19.636327,
             "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Marriott/src/test/java/features/MarriottHomePageByMobin.feature:4"
           },
           {
-            "duration": 10.040174,
+            "duration": 10.480032,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Marriott/src/test/java/features/MarriottHomePageByMobin.feature:4"
+          },
+          {
+            "duration": 7.791415,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Marriott/src/test/java/features/MarriottHomePageByMobin.feature:4"
+          },
+          {
+            "duration": 4.839403,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Marriott/src/test/java/features/MarriottHomePageByMobin.feature:4"
+          },
+          {
+            "duration": 4.701125,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Marriott/src/test/java/features/MarriottHomePageByMobin.feature:4"
+          },
+          {
+            "duration": 4.075283,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Marriott/src/test/java/features/MarriottHomePageByMobin.feature:4"
+          },
+          {
+            "duration": 6.520055,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Marriott/src/test/java/features/MarriottHomePageByMobin.feature:4"
+          },
+          {
+            "duration": 4.649711,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Marriott/src/test/java/features/MarriottHomePageByMobin.feature:4"
+          },
+          {
+            "duration": 5.020234,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Marriott/src/test/java/features/MarriottHomePageByMobin.feature:4"
+          },
+          {
+            "duration": 4.385784,
             "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Marriott/src/test/java/features/MarriottHomePageByMobin.feature:4"
           }
         ]
@@ -27,16 +59,16 @@
       {
         "name": "User clicks on language tab",
         "aggregatedDurations": {
-          "median": 0.0010965,
-          "average": 0.0010965
+          "median": 0.00445,
+          "average": 0.00445
         },
         "durations": [
           {
-            "duration": 0.001427,
+            "duration": 0.007669,
             "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Marriott/src/test/java/features/MarriottHomePageByMobin.feature:9"
           },
           {
-            "duration": 7.66E-4,
+            "duration": 0.001231,
             "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Marriott/src/test/java/features/MarriottHomePageByMobin.feature:16"
           }
         ]
@@ -49,12 +81,12 @@
       {
         "name": "Deutsch tab",
         "aggregatedDurations": {
-          "median": 5.186045,
-          "average": 5.186045
+          "median": 9.387265,
+          "average": 9.387265
         },
         "durations": [
           {
-            "duration": 5.186045,
+            "duration": 9.387265,
             "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Marriott/src/test/java/features/MarriottHomePageByMobin.feature:10"
           }
         ]
@@ -67,12 +99,12 @@
       {
         "name": "User is directed to the German language page",
         "aggregatedDurations": {
-          "median": 0.616147,
-          "average": 0.616147
+          "median": 3.30361,
+          "average": 3.30361
         },
         "durations": [
           {
-            "duration": 0.616147,
+            "duration": 3.30361,
             "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Marriott/src/test/java/features/MarriottHomePageByMobin.feature:11"
           }
         ]
@@ -85,12 +117,12 @@
       {
         "name": "Espanol tab",
         "aggregatedDurations": {
-          "median": 6.529413,
-          "average": 6.529413
+          "median": 18.046948,
+          "average": 18.046948
         },
         "durations": [
           {
-            "duration": 6.529413,
+            "duration": 18.046948,
             "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Marriott/src/test/java/features/MarriottHomePageByMobin.feature:17"
           }
         ]
@@ -103,13 +135,409 @@
       {
         "name": "User is directed to the Spanish language page",
         "aggregatedDurations": {
-          "median": 0.027679,
-          "average": 0.027679
+          "median": 0.564378,
+          "average": 0.564378
         },
         "durations": [
           {
-            "duration": 0.027679,
+            "duration": 0.564378,
             "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Marriott/src/test/java/features/MarriottHomePageByMobin.feature:18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on destination search box",
+    "steps": [
+      {
+        "name": "User clicks on destination search box",
+        "aggregatedDurations": {
+          "median": 11.319356,
+          "average": 11.319356
+        },
+        "durations": [
+          {
+            "duration": 11.319356,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Marriott/src/test/java/features/MarriottHomePageByMobin.feature:23"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "types the destination name",
+    "steps": [
+      {
+        "name": "types the destination name",
+        "aggregatedDurations": {
+          "median": 3.49E-4,
+          "average": 3.49E-4
+        },
+        "durations": [
+          {
+            "duration": 3.49E-4,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Marriott/src/test/java/features/MarriottHomePageByMobin.feature:24"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User varivies the name visible on the search box",
+    "steps": [
+      {
+        "name": "User varivies the name visible on the search box",
+        "aggregatedDurations": {
+          "median": 5.06E-4,
+          "average": 5.06E-4
+        },
+        "durations": [
+          {
+            "duration": 5.06E-4,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Marriott/src/test/java/features/MarriottHomePageByMobin.feature:25"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on Calendar",
+    "steps": [
+      {
+        "name": "User clicks on Calendar",
+        "aggregatedDurations": {
+          "median": 7.514599,
+          "average": 7.514599
+        },
+        "durations": [
+          {
+            "duration": 7.514599,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Marriott/src/test/java/features/MarriottHomePageByMobin.feature:30"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inserts travel date",
+    "steps": [
+      {
+        "name": "inserts travel date",
+        "aggregatedDurations": {
+          "median": 3.3E-4,
+          "average": 3.3E-4
+        },
+        "durations": [
+          {
+            "duration": 3.3E-4,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Marriott/src/test/java/features/MarriottHomePageByMobin.feature:31"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User varivies the travel date visible on the Calendar",
+    "steps": [
+      {
+        "name": "User varivies the travel date visible on the Calendar",
+        "aggregatedDurations": {
+          "median": 3.2E-4,
+          "average": 3.2E-4
+        },
+        "durations": [
+          {
+            "duration": 3.2E-4,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Marriott/src/test/java/features/MarriottHomePageByMobin.feature:32"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on number of room box",
+    "steps": [
+      {
+        "name": "User clicks on number of room box",
+        "aggregatedDurations": {
+          "median": 7.186871,
+          "average": 7.186871
+        },
+        "durations": [
+          {
+            "duration": 7.186871,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Marriott/src/test/java/features/MarriottHomePageByMobin.feature:37"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inserts number of rooms by clicking plus sign",
+    "steps": [
+      {
+        "name": "inserts number of rooms by clicking plus sign",
+        "aggregatedDurations": {
+          "median": 7.32E-4,
+          "average": 7.32E-4
+        },
+        "durations": [
+          {
+            "duration": 7.32E-4,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Marriott/src/test/java/features/MarriottHomePageByMobin.feature:38"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User varivies the number of rooms on the desired box",
+    "steps": [
+      {
+        "name": "User varivies the number of rooms on the desired box",
+        "aggregatedDurations": {
+          "median": 2.98E-4,
+          "average": 2.98E-4
+        },
+        "durations": [
+          {
+            "duration": 2.98E-4,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Marriott/src/test/java/features/MarriottHomePageByMobin.feature:39"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on Adult Guest Number box",
+    "steps": [
+      {
+        "name": "User clicks on Adult Guest Number box",
+        "aggregatedDurations": {
+          "median": 2.273412,
+          "average": 2.273412
+        },
+        "durations": [
+          {
+            "duration": 2.273412,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Marriott/src/test/java/features/MarriottHomePageByMobin.feature:44"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inserts number of Adult Guests by clicking plus sign",
+    "steps": [
+      {
+        "name": "inserts number of Adult Guests by clicking plus sign",
+        "aggregatedDurations": {
+          "median": 4.13E-4,
+          "average": 4.13E-4
+        },
+        "durations": [
+          {
+            "duration": 4.13E-4,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Marriott/src/test/java/features/MarriottHomePageByMobin.feature:45"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User varivies the number of Adult Guest on the desired box",
+    "steps": [
+      {
+        "name": "User varivies the number of Adult Guest on the desired box",
+        "aggregatedDurations": {
+          "median": 2.79E-4,
+          "average": 2.79E-4
+        },
+        "durations": [
+          {
+            "duration": 2.79E-4,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Marriott/src/test/java/features/MarriottHomePageByMobin.feature:46"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on Child Guest Number box",
+    "steps": [
+      {
+        "name": "User clicks on Child Guest Number box",
+        "aggregatedDurations": {
+          "median": 5.991531,
+          "average": 5.991531
+        },
+        "durations": [
+          {
+            "duration": 5.991531,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Marriott/src/test/java/features/MarriottHomePageByMobin.feature:51"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inserts number of Child Guests by clicking plus sign",
+    "steps": [
+      {
+        "name": "inserts number of Child Guests by clicking plus sign",
+        "aggregatedDurations": {
+          "median": 2.52E-4,
+          "average": 2.52E-4
+        },
+        "durations": [
+          {
+            "duration": 2.52E-4,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Marriott/src/test/java/features/MarriottHomePageByMobin.feature:52"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User varivies the number of Child Guest on the desired box",
+    "steps": [
+      {
+        "name": "User varivies the number of Child Guest on the desired box",
+        "aggregatedDurations": {
+          "median": 2.14E-4,
+          "average": 2.14E-4
+        },
+        "durations": [
+          {
+            "duration": 2.14E-4,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Marriott/src/test/java/features/MarriottHomePageByMobin.feature:53"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on Special Rate checkbox",
+    "steps": [
+      {
+        "name": "User clicks on Special Rate checkbox",
+        "aggregatedDurations": {
+          "median": 5.177595,
+          "average": 5.177595
+        },
+        "durations": [
+          {
+            "duration": 5.177595,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Marriott/src/test/java/features/MarriottHomePageByMobin.feature:58"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User varivies check mark on Special Rate checkbox",
+    "steps": [
+      {
+        "name": "User varivies check mark on Special Rate checkbox",
+        "aggregatedDurations": {
+          "median": 2.9E-4,
+          "average": 2.9E-4
+        },
+        "durations": [
+          {
+            "duration": 2.9E-4,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Marriott/src/test/java/features/MarriottHomePageByMobin.feature:59"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on Use Point checkbox",
+    "steps": [
+      {
+        "name": "User clicks on Use Point checkbox",
+        "aggregatedDurations": {
+          "median": 7.612559,
+          "average": 7.612559
+        },
+        "durations": [
+          {
+            "duration": 7.612559,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Marriott/src/test/java/features/MarriottHomePageByMobin.feature:64"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User varivies check mark on Use Point checkbox",
+    "steps": [
+      {
+        "name": "User varivies check mark on Use Point checkbox",
+        "aggregatedDurations": {
+          "median": 7.08E-4,
+          "average": 7.08E-4
+        },
+        "durations": [
+          {
+            "duration": 7.08E-4,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Marriott/src/test/java/features/MarriottHomePageByMobin.feature:65"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User inserts information in required sections",
+    "steps": [
+      {
+        "name": "User inserts information in required sections",
+        "aggregatedDurations": {
+          "median": 27.203298,
+          "average": 27.203298
+        },
+        "durations": [
+          {
+            "duration": 27.203298,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Marriott/src/test/java/features/MarriottHomePageByMobin.feature:70"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "clicks Find Hotel tab",
+    "steps": [
+      {
+        "name": "clicks Find Hotel tab",
+        "aggregatedDurations": {
+          "median": 2.4E-4,
+          "average": 2.4E-4
+        },
+        "durations": [
+          {
+            "duration": 2.4E-4,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Marriott/src/test/java/features/MarriottHomePageByMobin.feature:71"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User varivies the",
+    "steps": [
+      {
+        "name": "User varivies the",
+        "aggregatedDurations": {
+          "median": 0.03495,
+          "average": 0.03495
+        },
+        "durations": [
+          {
+            "duration": 0.03495,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Marriott/src/test/java/features/MarriottHomePageByMobin.feature:72"
           }
         ]
       }

@@ -5,13 +5,101 @@
       {
         "name": "User is in TMobile homepage",
         "aggregatedDurations": {
-          "median": 6.457681,
-          "average": 6.457681
+          "median": 6.33636,
+          "average": 6.684642
         },
         "durations": [
           {
-            "duration": 6.457681,
+            "duration": 7.547771,
             "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TMobile/src/test/java/features/TMobHomePageByMobin.feature:4"
+          },
+          {
+            "duration": 6.253891,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TMobile/src/test/java/features/TMobHomePageByMobin.feature:4"
+          },
+          {
+            "duration": 5.689078,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TMobile/src/test/java/features/TMobHomePageByMobin.feature:4"
+          },
+          {
+            "duration": 7.59611,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TMobile/src/test/java/features/TMobHomePageByMobin.feature:4"
+          },
+          {
+            "duration": 6.33636,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TMobile/src/test/java/features/TMobHomePageByMobin.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on Wireless tab",
+    "steps": [
+      {
+        "name": "User clicks on Wireless tab",
+        "aggregatedDurations": {
+          "median": 3.865966,
+          "average": 3.865966
+        },
+        "durations": [
+          {
+            "duration": 3.865966,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TMobile/src/test/java/features/TMobHomePageByMobin.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to Wireless page",
+    "steps": [
+      {
+        "name": "User is directed to Wireless page",
+        "aggregatedDurations": {
+          "median": 3.701834,
+          "average": 3.701834
+        },
+        "durations": [
+          {
+            "duration": 3.701834,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TMobile/src/test/java/features/TMobHomePageByMobin.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on Business tab",
+    "steps": [
+      {
+        "name": "User clicks on Business tab",
+        "aggregatedDurations": {
+          "median": 2.312289,
+          "average": 2.312289
+        },
+        "durations": [
+          {
+            "duration": 2.312289,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TMobile/src/test/java/features/TMobHomePageByMobin.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to Business page",
+    "steps": [
+      {
+        "name": "User is directed to Business page",
+        "aggregatedDurations": {
+          "median": 1.122325,
+          "average": 1.122325
+        },
+        "durations": [
+          {
+            "duration": 1.122325,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TMobile/src/test/java/features/TMobHomePageByMobin.feature:16"
           }
         ]
       }
@@ -23,12 +111,12 @@
       {
         "name": "User clicks on Prepaid tab",
         "aggregatedDurations": {
-          "median": 2.301443,
-          "average": 2.301443
+          "median": 2.460144,
+          "average": 2.460144
         },
         "durations": [
           {
-            "duration": 2.301443,
+            "duration": 2.460144,
             "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TMobile/src/test/java/features/TMobHomePageByMobin.feature:21"
           }
         ]
@@ -41,13 +129,85 @@
       {
         "name": "User is directed to Prepaid page",
         "aggregatedDurations": {
-          "median": 4.579625,
-          "average": 4.579625
+          "median": 7.456131,
+          "average": 7.456131
         },
         "durations": [
           {
-            "duration": 4.579625,
+            "duration": 7.456131,
             "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TMobile/src/test/java/features/TMobHomePageByMobin.feature:22"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on Tv tab",
+    "steps": [
+      {
+        "name": "User clicks on Tv tab",
+        "aggregatedDurations": {
+          "median": 0.789264,
+          "average": 0.789264
+        },
+        "durations": [
+          {
+            "duration": 0.789264,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TMobile/src/test/java/features/TMobHomePageByMobin.feature:27"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to Tv page",
+    "steps": [
+      {
+        "name": "User is directed to Tv page",
+        "aggregatedDurations": {
+          "median": 1.682014,
+          "average": 1.682014
+        },
+        "durations": [
+          {
+            "duration": 1.682014,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TMobile/src/test/java/features/TMobHomePageByMobin.feature:28"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on Banking tab",
+    "steps": [
+      {
+        "name": "User clicks on Banking tab",
+        "aggregatedDurations": {
+          "median": 1.389483,
+          "average": 1.389483
+        },
+        "durations": [
+          {
+            "duration": 1.389483,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TMobile/src/test/java/features/TMobHomePageByMobin.feature:33"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to Banking page",
+    "steps": [
+      {
+        "name": "User is directed to Banking page",
+        "aggregatedDurations": {
+          "median": 6.180067,
+          "average": 6.180067
+        },
+        "durations": [
+          {
+            "duration": 6.180067,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TMobile/src/test/java/features/TMobHomePageByMobin.feature:34"
           }
         ]
       }

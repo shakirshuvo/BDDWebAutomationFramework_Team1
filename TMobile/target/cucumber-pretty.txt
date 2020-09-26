@@ -1,6 +1,30 @@
 
 @SmokeTest
+Scenario: Successful redirecting after clicking Wireless tab # src/test/java/features/TMobHomePageByMobin.feature:8
+  Given User is in TMobile homepage                          # stepDefinitions.TMobHomePageByMobinStepDefination.user_is_in_t_mobile_homepage()
+  When User clicks on Wireless tab                           # stepDefinitions.TMobHomePageByMobinStepDefination.user_clicks_on_wireless_tab()
+  Then User is directed to Wireless page                     # stepDefinitions.TMobHomePageByMobinStepDefination.user_is_directed_to_wireless_page()
+
+@SmokeTest
+Scenario: Successful redirecting after clicking Business tab # src/test/java/features/TMobHomePageByMobin.feature:14
+  Given User is in TMobile homepage                          # stepDefinitions.TMobHomePageByMobinStepDefination.user_is_in_t_mobile_homepage()
+  When User clicks on Business tab                           # stepDefinitions.TMobHomePageByMobinStepDefination.userClicksOnBusinessTab()
+  Then User is directed to Business page                     # stepDefinitions.TMobHomePageByMobinStepDefination.userIsDirectedToBusinessPage()
+
+@SmokeTest
 Scenario: Successful redirecting after clicking Prepaid tab # src/test/java/features/TMobHomePageByMobin.feature:20
   Given User is in TMobile homepage                         # stepDefinitions.TMobHomePageByMobinStepDefination.user_is_in_t_mobile_homepage()
   When User clicks on Prepaid tab                           # stepDefinitions.TMobHomePageByMobinStepDefination.userClicksOnPrepaidTab()
   Then User is directed to Prepaid page                     # stepDefinitions.TMobHomePageByMobinStepDefination.userIsDirectedToPrepaidPage()
+
+@SmokeTest
+Scenario: Successful redirecting after clicking Tv tab # src/test/java/features/TMobHomePageByMobin.feature:26
+  Given User is in TMobile homepage                    # stepDefinitions.TMobHomePageByMobinStepDefination.user_is_in_t_mobile_homepage()
+  When User clicks on Tv tab                           # stepDefinitions.TMobHomePageByMobinStepDefination.userClicksOnTvTab()
+  Then User is directed to Tv page                     # stepDefinitions.TMobHomePageByMobinStepDefination.userIsDirectedToTvPage()
+
+@SmokeTest
+Scenario: Successful redirecting after clicking Banking tab # src/test/java/features/TMobHomePageByMobin.feature:32
+  Given User is in TMobile homepage                         # stepDefinitions.TMobHomePageByMobinStepDefination.user_is_in_t_mobile_homepage()
+  When User clicks on Banking tab                           # stepDefinitions.TMobHomePageByMobinStepDefination.userClicksOnBankingTab()
+  Then User is directed to Banking page                     # stepDefinitions.TMobHomePageByMobinStepDefination.userIsDirectedToBankingPage()

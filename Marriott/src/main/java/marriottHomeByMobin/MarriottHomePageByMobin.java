@@ -164,9 +164,6 @@ public class MarriottHomePageByMobin extends CommonAPI {
 
     // Action Method
     public void checkHotelFindingProcess() throws InterruptedException {
-
-
-
         //destinationInputBox.submit();
         dateFromBox.click();
         calendarNext.click();
@@ -176,7 +173,7 @@ public class MarriottHomePageByMobin extends CommonAPI {
         roomsAndGues.click();
         roomPlus.click();
         guestPlus.click();
-        childPlus.click();
+//        childPlus.click();
         specialRate.click();
         corporatePromo.click();
         usePointCheckBox.click();
@@ -189,7 +186,9 @@ public class MarriottHomePageByMobin extends CommonAPI {
 
     // Validation Method
     public void validateHotelFindingProcess(){
-
+        String actualResult = getCurrentPageUrl();
+        String expectedResult = "https://www.marriott.com/search/findHotels.mi";
+        Assert.assertEquals(actualResult,expectedResult,"Test failed");
     }
     //*********************************************
 }

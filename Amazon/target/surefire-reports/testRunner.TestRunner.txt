@@ -1,4 +1,32 @@
 -------------------------------------------------------------------------------
 Test set: testRunner.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.681 s - in testRunner.TestRunner
+Tests run: 30, Failures: 5, Errors: 2, Skipped: 0, Time elapsed: 340.872 s <<< FAILURE! - in testRunner.TestRunner
+Amazon homepage tab functionality tests.Amazon homepage search box functionality check  Time elapsed: 11.965 s  <<< ERROR!
+java.lang.NullPointerException
+
+Amazon homepage tab functionality tests.Successful redirecting after clicking MoversAndShakers tab  Time elapsed: 7.186 s  <<< FAILURE!
+java.lang.AssertionError: Test failed expected [] but found [Amazon.com Best Sellers: The most popular items on Amazon]
+
+Amazon homepage tab functionality tests.Successful redirecting after clicking GiftIdeas tab  Time elapsed: 12.926 s  <<< FAILURE!
+java.lang.AssertionError: Test failed expected [Amazon.com Gift Ideas: The most popular items ordered as gifts at Amazon] but found []
+
+Amazon homepage tab functionality tests.Successful redirecting after clicking NewPCGames tab  Time elapsed: 11.548 s  <<< FAILURE!
+java.lang.AssertionError: Test failed expected [Amazon.com New Releases: The best-selling new & future releases in PC Games & Accessories] but found [Amazon.com New Releases: The best-selling new & future releases in Video Games]
+
+Amazon homepage tab functionality tests.Successful redirecting after clicking NewWiiU tab  Time elapsed: 10.525 s  <<< FAILURE!
+java.lang.AssertionError: Test failed expected [] but found [Amazon.com New Releases: The best-selling new & future releases in Wii U Games, Consoles & Accessories]
+
+Amazon homepage tab functionality tests.Successful redirecting after clicking NewPlayStation4 tab  Time elapsed: 9.566 s  <<< FAILURE!
+java.lang.AssertionError: Test failed expected [Amazon.com New Releases: The best-selling new & future releases in PlayStation 4 Games, Consoles & Accessories] but found [Amazon.com New Releases: The best-selling new & future releases in Video Games]
+
+Amazon homepage tab functionality tests.Successful redirecting after clicking FindAGift tab  Time elapsed: 19.036 s  <<< ERROR!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Farjanas-Air', ip: '2604:2000:1700:1c:aca7:63da:436f:f5a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '11.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/27/nmfyzmzj1c7...}, goog:chromeOptions: {debuggerAddress: localhost:49225}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a890e6ade66791fca80877a8693d468b
+

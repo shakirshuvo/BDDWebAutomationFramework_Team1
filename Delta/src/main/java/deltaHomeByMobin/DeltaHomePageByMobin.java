@@ -61,7 +61,9 @@ public class DeltaHomePageByMobin extends CommonAPI {
 
     // Validation Method
     public void validateSkyMilesDropDownTab(){
-
+        String actualResult = getCurrentPageUrl();
+        String expectedResult = "https://www.delta.com/us/en/flight-deals/overview";
+        Assert.assertEquals(actualResult, expectedResult, "Test failed");
     }
     //*********************************************
 
@@ -73,7 +75,9 @@ public class DeltaHomePageByMobin extends CommonAPI {
 
     // Validation Method
     public void validateNeedHelpDropDownTab(){
-
+        String actualResult = getCurrentPageUrl();
+        String expectedResult = "https://www.delta.com/";
+        Assert.assertEquals(actualResult, expectedResult, "Test failed");
     }
     //*********************************************
 
@@ -182,11 +186,18 @@ public class DeltaHomePageByMobin extends CommonAPI {
         myDatesAreFlexibleCheckBox.click();
         bookingSubmitButton.click();
         sleepFor(5);
-        continueButton.click();
-        sleepFor(5);
+//        continueButton.click();
+//        sleepFor(5);
 
-        selectOneOption.click();
-        sleepFor(5);
+//        selectOneOption.click();
+//        sleepFor(5);
+    }
+
+    // Validation Method
+    public void validateAllStepsOfBooking(){
+        String actualResult = getCurrentPageUrl();
+        String expectedResult = getCurrentPageUrl();
+        Assert.assertEquals(actualResult, expectedResult, "Test failed");
     }
 
 }

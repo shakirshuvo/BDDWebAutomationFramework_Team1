@@ -11,13 +11,13 @@
         "steps": [
           {
             "result": {
-              "duration": 6250250000,
+              "duration": 8281671000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 50971000,
+                  "duration": 47376000,
                   "status": "passed"
                 },
                 "match": {
@@ -35,7 +35,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-25T00:22:44.562Z",
+        "start_timestamp": "2020-09-26T07:10:03.925Z",
         "line": 8,
         "name": "Successful redirecting after clicking aircraft tab",
         "description": "",
@@ -43,7 +43,7 @@
         "after": [
           {
             "result": {
-              "duration": 166653000,
+              "duration": 126559000,
               "status": "passed"
             },
             "match": {
@@ -56,14 +56,14 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@id\u003d\u0027secondary-static-link-11\u0027]\"}\n  (Session info: chrome\u003d85.0.4183.121)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Farjanas-Air\u0027, ip: \u00272604:2000:1700:1c:1b2:5547:e4c8:25b4%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.13.6\u0027, java.version: \u002711.0.6\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/27/nmfyzmzj1c7...}, goog:chromeOptions: {debuggerAddress: localhost:58298}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 77a7def331149c13d0f392e28434a8cc\n*** Element info: {Using\u003dxpath, value\u003d//a[@id\u003d\u0027secondary-static-link-11\u0027]}\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy25.click(Unknown Source)\n\tat deltaHomeByMobin.DeltaHomePageByMobin.checkTravleInfoDropDownTab(DeltaHomePageByMobin.java:44)\n\tat stepDefinitions.DeltaHomePageByMobinStepDefinition.user_hover_over_travel_info_tab(DeltaHomePageByMobinStepDefinition.java:35)\n\tat ✽.User hover over travel info tab(file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/DeltaHomePageByMobin.feature:9)\n",
-              "duration": 16175964000,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@id\u003d\u0027secondary-static-link-11\u0027]\"}\n  (Session info: chrome\u003d85.0.4183.121)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Farjanas-Air\u0027, ip: \u00272604:2000:1700:1c:aca7:63da:436f:f5a%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.13.6\u0027, java.version: \u002711.0.6\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/27/nmfyzmzj1c7...}, goog:chromeOptions: {debuggerAddress: localhost:52563}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: d0c9b7fa87f6e319ca3b2792b9c9d9ca\n*** Element info: {Using\u003dxpath, value\u003d//a[@id\u003d\u0027secondary-static-link-11\u0027]}\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy25.click(Unknown Source)\n\tat deltaHomeByMobin.DeltaHomePageByMobin.checkTravleInfoDropDownTab(DeltaHomePageByMobin.java:44)\n\tat stepDefinitions.DeltaHomePageByMobinStepDefinition.user_hover_over_travel_info_tab(DeltaHomePageByMobinStepDefinition.java:35)\n\tat ✽.User hover over travel info tab(file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/DeltaHomePageByMobin.feature:9)\n",
+              "duration": 16212412000,
               "status": "failed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 3407000,
+                  "duration": 2922000,
                   "status": "passed"
                 },
                 "match": {
@@ -80,13 +80,13 @@
           },
           {
             "result": {
-              "duration": 264000,
+              "duration": 232000,
               "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 395000,
+                  "duration": 477000,
                   "status": "skipped"
                 },
                 "match": {
@@ -103,13 +103,13 @@
           },
           {
             "result": {
-              "duration": 1017000,
+              "duration": 1191000,
               "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 299000,
+                  "duration": 253000,
                   "status": "skipped"
                 },
                 "match": {
@@ -118,9 +118,1162 @@
               }
             ],
             "line": 11,
-            "name": "User is directed to *** page",
+            "name": "User is directed to aircraft page",
             "match": {
-              "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.user_is_directed_to_page()"
+              "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.userIsDirectedToAircraftPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4439871000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 3132000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in Delta homepage",
+            "match": {
+              "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.user_is_in_delta_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T07:10:28.825Z",
+        "line": 15,
+        "name": "Successful redirecting after clicking Sky Miles Cruises tab",
+        "description": "",
+        "id": "delta-homepage-tab-functionality-tests;successful-redirecting-after-clicking-sky-miles-cruises-tab",
+        "after": [
+          {
+            "result": {
+              "duration": 181158000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1906949000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2453000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 16,
+            "name": "User hover over Sky Miles tab",
+            "match": {
+              "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.userHoverOverSkyMilesTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 461000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2018000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 17,
+            "name": "clicks on Sky Miles Cruises tab",
+            "match": {
+              "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.clicksOnSkyMilesCruisesTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 258680000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2288000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 18,
+            "name": "User is directed to Sky Miles Cruises page",
+            "match": {
+              "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.userIsDirectedToSkyMilesCruisesPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4115043000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 3760000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in Delta homepage",
+            "match": {
+              "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.user_is_in_delta_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T07:10:35.649Z",
+        "line": 22,
+        "name": "Successful redirecting after clicking Pet Travle tab",
+        "description": "",
+        "id": "delta-homepage-tab-functionality-tests;successful-redirecting-after-clicking-pet-travle-tab",
+        "after": [
+          {
+            "result": {
+              "duration": 220970000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1659100000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1601000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 23,
+            "name": "User hover over Need Help tab",
+            "match": {
+              "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.userHoverOverNeedHelpTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 432000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1903000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 24,
+            "name": "clicks on Pet Travle tab",
+            "match": {
+              "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.clicksOnPetTravleTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 162051000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1669000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 25,
+            "name": "User is directed to Pet Travle page",
+            "match": {
+              "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.userIsDirectedToPetTravlePage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4817878000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1525000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in Delta homepage",
+            "match": {
+              "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.user_is_in_delta_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T07:10:41.856Z",
+        "line": 29,
+        "name": "Checking functionality of travle from search box",
+        "description": "",
+        "id": "delta-homepage-tab-functionality-tests;checking-functionality-of-travle-from-search-box",
+        "after": [
+          {
+            "result": {
+              "duration": 171616000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2941390000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1101000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 30,
+            "name": "User clicks on travle from search box",
+            "match": {
+              "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.userClicksOnTravleFromSearchBox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 306000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1371000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 31,
+            "name": "types the travle from name",
+            "match": {
+              "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.typesTheTravleFromName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 546000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2211000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 32,
+            "name": "User varivies the name visible on the search box",
+            "match": {
+              "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.userVariviesTheNameVisibleOnTheSearchBox()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4705359000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1433000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in Delta homepage",
+            "match": {
+              "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.user_is_in_delta_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T07:10:49.851Z",
+        "line": 36,
+        "name": "Checking functionality of travle to search box",
+        "description": "",
+        "id": "delta-homepage-tab-functionality-tests;checking-functionality-of-travle-to-search-box",
+        "after": [
+          {
+            "result": {
+              "duration": 148081000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2499748000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2792000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 37,
+            "name": "User clicks on travle to search box",
+            "match": {
+              "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.userClicksOnTravleToSearchBox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 136000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 606000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 38,
+            "name": "types the travle to name",
+            "match": {
+              "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.typesTheTravleToName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 341000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 466000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 39,
+            "name": "User varivies the destination name visible on the search box",
+            "match": {
+              "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.userVariviesTheDestinationNameVisibleOnTheSearchBox()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4674586000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 843000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in Delta homepage",
+            "match": {
+              "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.user_is_in_delta_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T07:10:57.246Z",
+        "line": 43,
+        "name": "Checking functionality of trip type",
+        "description": "",
+        "id": "delta-homepage-tab-functionality-tests;checking-functionality-of-trip-type",
+        "after": [
+          {
+            "result": {
+              "duration": 116674000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1916162000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1056000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 44,
+            "name": "User clicks on round trip to search box",
+            "match": {
+              "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.userClicksOnRoundTripToSearchBox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 278000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1560000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 45,
+            "name": "clicks on one way",
+            "match": {
+              "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.clicksOnOneWay()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 458000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1057000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 46,
+            "name": "User varivies the trip type from the option",
+            "match": {
+              "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.userVariviesTheTripTypeFromTheOption()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4779094000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 885000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in Delta homepage",
+            "match": {
+              "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.user_is_in_delta_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T07:11:03.992Z",
+        "line": 50,
+        "name": "Checking functionality of Calendar",
+        "description": "",
+        "id": "delta-homepage-tab-functionality-tests;checking-functionality-of-calendar",
+        "after": [
+          {
+            "result": {
+              "duration": 227391000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10849837000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 14850000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 51,
+            "name": "User clicks on Delta Calendar",
+            "match": {
+              "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.userClicksOnDeltaCalendar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30453000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 3971000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 52,
+            "name": "inserts travel dates",
+            "match": {
+              "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.insertsTravelDates()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3655000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 636000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 53,
+            "name": "User varivies the travel dates visible on the Calendar",
+            "match": {
+              "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.userVariviesTheTravelDatesVisibleOnTheCalendar()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7579240000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1169000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in Delta homepage",
+            "match": {
+              "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.user_is_in_delta_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T07:11:20.006Z",
+        "line": 57,
+        "name": "Checking functionality of Traveler Number box",
+        "description": "",
+        "id": "delta-homepage-tab-functionality-tests;checking-functionality-of-traveler-number-box",
+        "after": [
+          {
+            "result": {
+              "duration": 188934000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8802737000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 5388000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 58,
+            "name": "User clicks on Traveler Number box",
+            "match": {
+              "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.userClicksOnTravelerNumberBox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7916000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 3376000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 59,
+            "name": "inserts number of Traveler by clicking plus sign",
+            "match": {
+              "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.insertsNumberOfTravelerByClickingPlusSign()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 459000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 818000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 60,
+            "name": "User varivies the number of Traveler on the desired box",
+            "match": {
+              "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.userVariviesTheNumberOfTravelerOnTheDesiredBox()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7395497000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 561000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in Delta homepage",
+            "match": {
+              "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.user_is_in_delta_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T07:11:36.665Z",
+        "line": 64,
+        "name": "Checking functionality of Delta homepage chech boxes by checking and un-checking",
+        "description": "",
+        "id": "delta-homepage-tab-functionality-tests;checking-functionality-of-delta-homepage-chech-boxes-by-checking-and-un-checking",
+        "after": [
+          {
+            "result": {
+              "duration": 181248000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7952179000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 5537000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 65,
+            "name": "User checks all check boxes",
+            "match": {
+              "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.userChecksAllCheckBoxes()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8212000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 3298000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 66,
+            "name": "unchecks all again",
+            "match": {
+              "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.unchecksAllAgain()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 827000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1002000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 67,
+            "name": "User varivies the checked and unchecked boxes",
+            "match": {
+              "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.userVariviesTheCheckedAndUncheckedBoxes()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11180978000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 487000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in Delta homepage",
+            "match": {
+              "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.user_is_in_delta_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T07:11:52.313Z",
+        "line": 71,
+        "name": "Checking full functionality of flight search",
+        "description": "",
+        "id": "delta-homepage-tab-functionality-tests;checking-full-functionality-of-flight-search",
+        "after": [
+          {
+            "result": {
+              "duration": 304341000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element \u003cspan class\u003d\"airport-code d-block\"\u003e...\u003c/span\u003e is not clickable at point (302, 140). Other element would receive the click: \u003cdiv class\u003d\"airport-lookup-container search-dialog\" tabindex\u003d\"0\"\u003e...\u003c/div\u003e\n  (Session info: chrome\u003d85.0.4183.121)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Farjanas-Air\u0027, ip: \u00272604:2000:1700:1c:aca7:63da:436f:f5a%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.13.6\u0027, java.version: \u002711.0.6\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/27/nmfyzmzj1c7...}, goog:chromeOptions: {debuggerAddress: localhost:53608}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: c7bc86b19f905112122aa9575753da39\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\n\tat jdk.internal.reflect.GeneratedMethodAccessor105.invoke(Unknown Source)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\n\tat com.sun.proxy.$Proxy25.click(Unknown Source)\n\tat deltaHomeByMobin.DeltaHomePageByMobin.testAllStepsOfBooking(DeltaHomePageByMobin.java:173)\n\tat stepDefinitions.DeltaHomePageByMobinStepDefinition.userInsertsInformationInRequiredSectionsOfDelta(DeltaHomePageByMobinStepDefinition.java:172)\n\tat ✽.User inserts information in required sections of Delta(file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/DeltaHomePageByMobin.feature:72)\n",
+              "duration": 3440951000,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 8793000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 72,
+            "name": "User inserts information in required sections of Delta",
+            "match": {
+              "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.userInsertsInformationInRequiredSectionsOfDelta()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 126000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 157000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 73,
+            "name": "clicks Next tab",
+            "match": {
+              "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.clicksNextTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 121000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 151000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 74,
+            "name": "User varivies the",
+            "match": {
+              "location": "stepDefinitions.DeltaHomePageByMobinStepDefinition.userVariviesThe()"
             },
             "keyword": "Then "
           }

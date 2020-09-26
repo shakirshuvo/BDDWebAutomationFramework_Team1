@@ -1,31 +1,128 @@
 
 @SmokeTest
-Scenario: Successful redirecting after clicking Checking tab # src/test/java/features/BOAHomePageByMobin.feature:8
-  Given User is in Bank of America homepage                  # stepDefinitions.BOAHomePageByMobinStepDefinition.user_is_in_bank_of_america_homepage()
-  When User clicks on Checking tab                           # stepDefinitions.BOAHomePageByMobinStepDefinition.user_clicks_on_checking_tab()
-  Then User is directed to Checking page                     # stepDefinitions.BOAHomePageByMobinStepDefinition.user_is_directed_to_checking_page()
+Scenario: Successful redirecting after clicking PrepAndFilling tab # src/test/java/features/BOAHomePageByMobin.feature:39
+  Given User is in Bank of America homepage                        # stepDefinitions.BOAHomePageByMobinStepDefinition.user_is_in_bank_of_america_homepage()
+  When User hover over in different places                         # stepDefinitions.BOAHomePageByMobinStepDefinition.userHoverOverInDifferentPlaces()
+  And clicks on PrepAndFilling tab                                 # stepDefinitions.BOAHomePageByMobinStepDefinition.clicksOnPrepAndFillingTab()
+      org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="https://bettermoneyhabits.bankofamerica.com/en/taxes-income?subTopicId=prep-and-filing" data-cat-uri="/content/bmh/en/taxes-income" class="js-nav-topics-rollover__link t-track-nav-in" id="SubNavSubTopic_taxes-income_prep-and-filing">...</a> is not clickable at point (659, 178). Other element would receive the click: <div class="topic-masthead" data-action="topicMasthead">...</div>
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Farjanas-Air', ip: '2604:2000:1700:1c:aca7:63da:436f:f5a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '11.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/27/nmfyzmzj1c7...}, goog:chromeOptions: {debuggerAddress: localhost:49750}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c11e9d5d9a436fec8587dbf9346e04eb
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at boaHomeByMobin.BOAHomePageByMobin.checkPrepAndFillingTab(BOAHomePageByMobin.java:184)
+	at stepDefinitions.BOAHomePageByMobinStepDefinition.clicksOnPrepAndFillingTab(BOAHomePageByMobinStepDefinition.java:90)
+	at ✽.clicks on PrepAndFilling tab(file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/BOAHomePageByMobin.feature:41)
+
+  Then User is directed to PrepAndFilling page                     # stepDefinitions.BOAHomePageByMobinStepDefinition.userIsDirectedToPrepAndFillingPage()
 
 @SmokeTest
-Scenario: Successful redirecting after clicking Savings tab # src/test/java/features/BOAHomePageByMobin.feature:14
-  Given User is in Bank of America homepage                 # stepDefinitions.BOAHomePageByMobinStepDefinition.user_is_in_bank_of_america_homepage()
-  When User clicks on Savings tab                           # stepDefinitions.BOAHomePageByMobinStepDefinition.userClicksOnSavingsTab()
-  Then User is directed to Savings page                     # stepDefinitions.BOAHomePageByMobinStepDefinition.userIsDirectedToSavingsPage()
+Scenario: Successful redirecting after clicking WorkPayAndBenifits tab # src/test/java/features/BOAHomePageByMobin.feature:46
+  Given User is in Bank of America homepage                            # stepDefinitions.BOAHomePageByMobinStepDefinition.user_is_in_bank_of_america_homepage()
+  When User hover over in different places                             # stepDefinitions.BOAHomePageByMobinStepDefinition.userHoverOverInDifferentPlaces()
+  And clicks on WorkPayAndBenifits tab                                 # stepDefinitions.BOAHomePageByMobinStepDefinition.clicksOnWorkPayAndBenifitsTab()
+      org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Farjanas-Air', ip: '2604:2000:1700:1c:aca7:63da:436f:f5a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '11.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/27/nmfyzmzj1c7...}, goog:chromeOptions: {debuggerAddress: localhost:50047}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 8ac5f26fd7d986caa42e805f0752c9f7
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at boaHomeByMobin.BOAHomePageByMobin.checkWorkPayAndBenifitsTab(BOAHomePageByMobin.java:222)
+	at stepDefinitions.BOAHomePageByMobinStepDefinition.clicksOnWorkPayAndBenifitsTab(BOAHomePageByMobinStepDefinition.java:100)
+	at ✽.clicks on WorkPayAndBenifits tab(file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/BOAHomePageByMobin.feature:48)
+
+  Then User is directed to WorkPayAndBenifits page                     # stepDefinitions.BOAHomePageByMobinStepDefinition.userIsDirectedToWorkPayAndBenifitsPage()
 
 @SmokeTest
-Scenario: Successful redirecting after clicking Credit Card tab # src/test/java/features/BOAHomePageByMobin.feature:20
+Scenario: Successful redirecting after clicking HowBanksWork tab # src/test/java/features/BOAHomePageByMobin.feature:53
+  Given User is in Bank of America homepage                      # stepDefinitions.BOAHomePageByMobinStepDefinition.user_is_in_bank_of_america_homepage()
+  When User hover over in different places                       # stepDefinitions.BOAHomePageByMobinStepDefinition.userHoverOverInDifferentPlaces()
+  And clicks on HowBanksWork tab                                 # stepDefinitions.BOAHomePageByMobinStepDefinition.clicksOnHowBanksWorkTab()
+  Then User is directed to HowBanksWork page                     # stepDefinitions.BOAHomePageByMobinStepDefinition.userIsDirectedToHowBanksWorkPage()
+
+@SmokeTest
+Scenario: Successful redirecting after clicking ManagingBankAccounts tab # src/test/java/features/BOAHomePageByMobin.feature:60
+  Given User is in Bank of America homepage                              # stepDefinitions.BOAHomePageByMobinStepDefinition.user_is_in_bank_of_america_homepage()
+  When User hover over in different places                               # stepDefinitions.BOAHomePageByMobinStepDefinition.userHoverOverInDifferentPlaces()
+  And clicks on ManagingBankAccounts tab                                 # stepDefinitions.BOAHomePageByMobinStepDefinition.clicksOnManagingBankAccountsTab()
+  Then User is directed to ManagingBankAccounts page                     # stepDefinitions.BOAHomePageByMobinStepDefinition.userIsDirectedToManagingBankAccountsPage()
+
+@SmokeTest
+Scenario: Successful redirecting after clicking TeachingKidsAboutMoney tab # src/test/java/features/BOAHomePageByMobin.feature:67
+  Given User is in Bank of America homepage                                # stepDefinitions.BOAHomePageByMobinStepDefinition.user_is_in_bank_of_america_homepage()
+  When User hover over in different places                                 # stepDefinitions.BOAHomePageByMobinStepDefinition.userHoverOverInDifferentPlaces()
+  And clicks on TeachingKidsAboutMoney tab                                 # stepDefinitions.BOAHomePageByMobinStepDefinition.clicksOnTeachingKidsAboutMoneyTab()
+  Then User is directed to TeachingKidsAboutMoney page                     # stepDefinitions.BOAHomePageByMobinStepDefinition.userIsDirectedToTeachingKidsAboutMoneyPage()
+
+@SmokeTest
+Scenario: Successful redirecting after clicking ChoosingACreditCard tab # src/test/java/features/BOAHomePageByMobin.feature:74
+  Given User is in Bank of America homepage                             # stepDefinitions.BOAHomePageByMobinStepDefinition.user_is_in_bank_of_america_homepage()
+  When User hover over in different places                              # stepDefinitions.BOAHomePageByMobinStepDefinition.userHoverOverInDifferentPlaces()
+  And clicks on ChoosingACreditCard tab                                 # stepDefinitions.BOAHomePageByMobinStepDefinition.clicksOnChoosingACreditCardTab()
+  Then User is directed to ChoosingACreditCard page                     # stepDefinitions.BOAHomePageByMobinStepDefinition.userIsDirectedToChoosingACreditCardPage()
+
+@SmokeTest
+Scenario: Successful redirecting after clicking CreditReport tab # src/test/java/features/BOAHomePageByMobin.feature:81
+  Given User is in Bank of America homepage                      # stepDefinitions.BOAHomePageByMobinStepDefinition.user_is_in_bank_of_america_homepage()
+  When User hover over in different places                       # stepDefinitions.BOAHomePageByMobinStepDefinition.userHoverOverInDifferentPlaces()
+  And clicks on CreditReport tab                                 # stepDefinitions.BOAHomePageByMobinStepDefinition.clicksOnCreditReportTab()
+  Then User is directed to creditReport page                     # stepDefinitions.BOAHomePageByMobinStepDefinition.userIsDirectedToCreditReportPage()
+
+@SmokeTest
+Scenario: Successful redirecting after clicking CreditScore tab # src/test/java/features/BOAHomePageByMobin.feature:88
   Given User is in Bank of America homepage                     # stepDefinitions.BOAHomePageByMobinStepDefinition.user_is_in_bank_of_america_homepage()
-  When User clicks on Credit Card tab                           # stepDefinitions.BOAHomePageByMobinStepDefinition.userClicksOnCreditCardTab()
-  Then User is directed to Credit Card page                     # stepDefinitions.BOAHomePageByMobinStepDefinition.userIsDirectedToCreditCardPage()
+  When User hover over in different places                      # stepDefinitions.BOAHomePageByMobinStepDefinition.userHoverOverInDifferentPlaces()
+  And clicks on CreditScore tab                                 # stepDefinitions.BOAHomePageByMobinStepDefinition.clicksOnCreditScoreTab()
+  Then User is directed to CreditScore page                     # stepDefinitions.BOAHomePageByMobinStepDefinition.userIsDirectedToCreditScorePage()
 
 @SmokeTest
-Scenario: Successful redirecting after clicking Investing tab # src/test/java/features/BOAHomePageByMobin.feature:26
-  Given User is in Bank of America homepage                   # stepDefinitions.BOAHomePageByMobinStepDefinition.user_is_in_bank_of_america_homepage()
-  When User clicks on Investing tab                           # stepDefinitions.BOAHomePageByMobinStepDefinition.userClicksOnInvestingTab()
-  Then User is directed to Investing page                     # stepDefinitions.BOAHomePageByMobinStepDefinition.userIsDirectedToInvestingPage()
+Scenario: Successful redirecting after clicking HowCreditCardWorks tab # src/test/java/features/BOAHomePageByMobin.feature:95
+  Given User is in Bank of America homepage                            # stepDefinitions.BOAHomePageByMobinStepDefinition.user_is_in_bank_of_america_homepage()
+  When User hover over in different places                             # stepDefinitions.BOAHomePageByMobinStepDefinition.userHoverOverInDifferentPlaces()
+  And clicks on HowCreditCardWorks tab                                 # stepDefinitions.BOAHomePageByMobinStepDefinition.clicksOnHowCreditCardWorksTab()
+  Then User is directed to HowCreditCardWorks page                     # stepDefinitions.BOAHomePageByMobinStepDefinition.userIsDirectedToHowCreditCardWorksPage()
 
 @SmokeTest
-Scenario: Successful redirecting after clicking Planning tab # src/test/java/features/BOAHomePageByMobin.feature:32
-  Given User is in Bank of America homepage                  # stepDefinitions.BOAHomePageByMobinStepDefinition.user_is_in_bank_of_america_homepage()
-  When User hover over in different places                   # stepDefinitions.BOAHomePageByMobinStepDefinition.userHoverOverInDifferentPlaces()
-  And clicks on Planning tab                                 # stepDefinitions.BOAHomePageByMobinStepDefinition.clicksOnPlanningTab()
-  Then User is directed to Planning page                     # stepDefinitions.BOAHomePageByMobinStepDefinition.userIsDirectedToPlanningPage()
+Scenario: Successful redirecting after clicking ManageingCreditCards tab # src/test/java/features/BOAHomePageByMobin.feature:102
+  Given User is in Bank of America homepage                              # stepDefinitions.BOAHomePageByMobinStepDefinition.user_is_in_bank_of_america_homepage()
+  When User hover over in different places                               # stepDefinitions.BOAHomePageByMobinStepDefinition.userHoverOverInDifferentPlaces()
+  And clicks on ManageingCreditCards tab                                 # stepDefinitions.BOAHomePageByMobinStepDefinition.clicksOnManageingCreditCardsTab()
+  Then User is directed to ManageingCreditCards page                     # stepDefinitions.BOAHomePageByMobinStepDefinition.userIsDirectedToManageingCreditCardsPage()

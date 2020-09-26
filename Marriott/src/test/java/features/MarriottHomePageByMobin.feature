@@ -56,4 +56,17 @@ Feature: Marriott homepage tab functionality tests
   @SmokeTest
   Scenario: Checking functionality of Special Rate
     When User clicks on Special Rate checkbox
-    Then User varivies the travel date visible on the Calendar
+    Then User varivies check mark on Special Rate checkbox
+
+    #9
+  @SmokeTest
+  Scenario: Checking functionality of Use Point
+    When User clicks on Use Point checkbox
+    Then User varivies check mark on Use Point checkbox
+
+     #10
+  @SmokeTest
+  Scenario: Checking full functionality of Hotel Finding
+    When User inserts information in required sections
+    And clicks Find Hotel tab
+    Then User varivies the

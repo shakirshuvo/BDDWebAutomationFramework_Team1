@@ -1,10 +1,42 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="14.622">
-    <testcase classname="TMobile homepage tab functionality tests" name="Successful redirecting after clicking Prepaid tab" time="13.959">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="66.677">
+    <testcase classname="TMobile homepage tab functionality tests" name="Successful redirecting after clicking Wireless tab" time="15.564">
+        <system-out>
+            <![CDATA[Given User is in TMobile homepage...........................................passed
+When User clicks on Wireless tab............................................passed
+Then User is directed to Wireless page......................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="TMobile homepage tab functionality tests" name="Successful redirecting after clicking Business tab" time="9.996">
+        <system-out>
+            <![CDATA[Given User is in TMobile homepage...........................................passed
+When User clicks on Business tab............................................passed
+Then User is directed to Business page......................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="TMobile homepage tab functionality tests" name="Successful redirecting after clicking Prepaid tab" time="15.934">
         <system-out>
             <![CDATA[Given User is in TMobile homepage...........................................passed
 When User clicks on Prepaid tab.............................................passed
 Then User is directed to Prepaid page.......................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="TMobile homepage tab functionality tests" name="Successful redirecting after clicking Tv tab" time="10.371">
+        <system-out>
+            <![CDATA[Given User is in TMobile homepage...........................................passed
+When User clicks on Tv tab..................................................passed
+Then User is directed to Tv page............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="TMobile homepage tab functionality tests" name="Successful redirecting after clicking Banking tab" time="14.217">
+        <system-out>
+            <![CDATA[Given User is in TMobile homepage...........................................passed
+When User clicks on Banking tab.............................................passed
+Then User is directed to Banking page.......................................passed
 ]]>
         </system-out>
     </testcase>

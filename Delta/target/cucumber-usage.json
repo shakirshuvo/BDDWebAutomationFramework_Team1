@@ -5,13 +5,481 @@
       {
         "name": "User is in Delta homepage",
         "aggregatedDurations": {
-          "median": 6.25025,
-          "average": 6.25025
+          "median": 4.798486,
+          "average": 6.1969217
         },
         "durations": [
           {
-            "duration": 6.25025,
+            "duration": 8.281671,
             "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/DeltaHomePageByMobin.feature:4"
+          },
+          {
+            "duration": 4.439871,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/DeltaHomePageByMobin.feature:4"
+          },
+          {
+            "duration": 4.115043,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/DeltaHomePageByMobin.feature:4"
+          },
+          {
+            "duration": 4.817878,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/DeltaHomePageByMobin.feature:4"
+          },
+          {
+            "duration": 4.705359,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/DeltaHomePageByMobin.feature:4"
+          },
+          {
+            "duration": 4.674586,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/DeltaHomePageByMobin.feature:4"
+          },
+          {
+            "duration": 4.779094,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/DeltaHomePageByMobin.feature:4"
+          },
+          {
+            "duration": 7.57924,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/DeltaHomePageByMobin.feature:4"
+          },
+          {
+            "duration": 7.395497,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/DeltaHomePageByMobin.feature:4"
+          },
+          {
+            "duration": 11.180978,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/DeltaHomePageByMobin.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User hover over Sky Miles tab",
+    "steps": [
+      {
+        "name": "User hover over Sky Miles tab",
+        "aggregatedDurations": {
+          "median": 1.906949,
+          "average": 1.906949
+        },
+        "durations": [
+          {
+            "duration": 1.906949,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/DeltaHomePageByMobin.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "clicks on Sky Miles Cruises tab",
+    "steps": [
+      {
+        "name": "clicks on Sky Miles Cruises tab",
+        "aggregatedDurations": {
+          "median": 4.61E-4,
+          "average": 4.61E-4
+        },
+        "durations": [
+          {
+            "duration": 4.61E-4,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/DeltaHomePageByMobin.feature:17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to Sky Miles Cruises page",
+    "steps": [
+      {
+        "name": "User is directed to Sky Miles Cruises page",
+        "aggregatedDurations": {
+          "median": 0.25868,
+          "average": 0.25868
+        },
+        "durations": [
+          {
+            "duration": 0.25868,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/DeltaHomePageByMobin.feature:18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User hover over Need Help tab",
+    "steps": [
+      {
+        "name": "User hover over Need Help tab",
+        "aggregatedDurations": {
+          "median": 1.6591,
+          "average": 1.6591
+        },
+        "durations": [
+          {
+            "duration": 1.6591,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/DeltaHomePageByMobin.feature:23"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "clicks on Pet Travle tab",
+    "steps": [
+      {
+        "name": "clicks on Pet Travle tab",
+        "aggregatedDurations": {
+          "median": 4.32E-4,
+          "average": 4.32E-4
+        },
+        "durations": [
+          {
+            "duration": 4.32E-4,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/DeltaHomePageByMobin.feature:24"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to Pet Travle page",
+    "steps": [
+      {
+        "name": "User is directed to Pet Travle page",
+        "aggregatedDurations": {
+          "median": 0.162051,
+          "average": 0.162051
+        },
+        "durations": [
+          {
+            "duration": 0.162051,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/DeltaHomePageByMobin.feature:25"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on travle from search box",
+    "steps": [
+      {
+        "name": "User clicks on travle from search box",
+        "aggregatedDurations": {
+          "median": 2.94139,
+          "average": 2.94139
+        },
+        "durations": [
+          {
+            "duration": 2.94139,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/DeltaHomePageByMobin.feature:30"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "types the travle from name",
+    "steps": [
+      {
+        "name": "types the travle from name",
+        "aggregatedDurations": {
+          "median": 3.06E-4,
+          "average": 3.06E-4
+        },
+        "durations": [
+          {
+            "duration": 3.06E-4,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/DeltaHomePageByMobin.feature:31"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User varivies the name visible on the search box",
+    "steps": [
+      {
+        "name": "User varivies the name visible on the search box",
+        "aggregatedDurations": {
+          "median": 5.46E-4,
+          "average": 5.46E-4
+        },
+        "durations": [
+          {
+            "duration": 5.46E-4,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/DeltaHomePageByMobin.feature:32"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on travle to search box",
+    "steps": [
+      {
+        "name": "User clicks on travle to search box",
+        "aggregatedDurations": {
+          "median": 2.499748,
+          "average": 2.499748
+        },
+        "durations": [
+          {
+            "duration": 2.499748,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/DeltaHomePageByMobin.feature:37"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "types the travle to name",
+    "steps": [
+      {
+        "name": "types the travle to name",
+        "aggregatedDurations": {
+          "median": 1.36E-4,
+          "average": 1.36E-4
+        },
+        "durations": [
+          {
+            "duration": 1.36E-4,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/DeltaHomePageByMobin.feature:38"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User varivies the destination name visible on the search box",
+    "steps": [
+      {
+        "name": "User varivies the destination name visible on the search box",
+        "aggregatedDurations": {
+          "median": 3.41E-4,
+          "average": 3.41E-4
+        },
+        "durations": [
+          {
+            "duration": 3.41E-4,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/DeltaHomePageByMobin.feature:39"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on round trip to search box",
+    "steps": [
+      {
+        "name": "User clicks on round trip to search box",
+        "aggregatedDurations": {
+          "median": 1.916162,
+          "average": 1.916162
+        },
+        "durations": [
+          {
+            "duration": 1.916162,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/DeltaHomePageByMobin.feature:44"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "clicks on one way",
+    "steps": [
+      {
+        "name": "clicks on one way",
+        "aggregatedDurations": {
+          "median": 2.78E-4,
+          "average": 2.78E-4
+        },
+        "durations": [
+          {
+            "duration": 2.78E-4,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/DeltaHomePageByMobin.feature:45"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User varivies the trip type from the option",
+    "steps": [
+      {
+        "name": "User varivies the trip type from the option",
+        "aggregatedDurations": {
+          "median": 4.58E-4,
+          "average": 4.58E-4
+        },
+        "durations": [
+          {
+            "duration": 4.58E-4,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/DeltaHomePageByMobin.feature:46"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on Delta Calendar",
+    "steps": [
+      {
+        "name": "User clicks on Delta Calendar",
+        "aggregatedDurations": {
+          "median": 10.849837,
+          "average": 10.849837
+        },
+        "durations": [
+          {
+            "duration": 10.849837,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/DeltaHomePageByMobin.feature:51"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inserts travel dates",
+    "steps": [
+      {
+        "name": "inserts travel dates",
+        "aggregatedDurations": {
+          "median": 0.030453,
+          "average": 0.030453
+        },
+        "durations": [
+          {
+            "duration": 0.030453,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/DeltaHomePageByMobin.feature:52"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User varivies the travel dates visible on the Calendar",
+    "steps": [
+      {
+        "name": "User varivies the travel dates visible on the Calendar",
+        "aggregatedDurations": {
+          "median": 0.003655,
+          "average": 0.003655
+        },
+        "durations": [
+          {
+            "duration": 0.003655,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/DeltaHomePageByMobin.feature:53"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on Traveler Number box",
+    "steps": [
+      {
+        "name": "User clicks on Traveler Number box",
+        "aggregatedDurations": {
+          "median": 8.802737,
+          "average": 8.802737
+        },
+        "durations": [
+          {
+            "duration": 8.802737,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/DeltaHomePageByMobin.feature:58"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inserts number of Traveler by clicking plus sign",
+    "steps": [
+      {
+        "name": "inserts number of Traveler by clicking plus sign",
+        "aggregatedDurations": {
+          "median": 0.007916,
+          "average": 0.007916
+        },
+        "durations": [
+          {
+            "duration": 0.007916,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/DeltaHomePageByMobin.feature:59"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User varivies the number of Traveler on the desired box",
+    "steps": [
+      {
+        "name": "User varivies the number of Traveler on the desired box",
+        "aggregatedDurations": {
+          "median": 4.59E-4,
+          "average": 4.59E-4
+        },
+        "durations": [
+          {
+            "duration": 4.59E-4,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/DeltaHomePageByMobin.feature:60"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User checks all check boxes",
+    "steps": [
+      {
+        "name": "User checks all check boxes",
+        "aggregatedDurations": {
+          "median": 7.952179,
+          "average": 7.952179
+        },
+        "durations": [
+          {
+            "duration": 7.952179,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/DeltaHomePageByMobin.feature:65"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "unchecks all again",
+    "steps": [
+      {
+        "name": "unchecks all again",
+        "aggregatedDurations": {
+          "median": 0.008212,
+          "average": 0.008212
+        },
+        "durations": [
+          {
+            "duration": 0.008212,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/DeltaHomePageByMobin.feature:66"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User varivies the checked and unchecked boxes",
+    "steps": [
+      {
+        "name": "User varivies the checked and unchecked boxes",
+        "aggregatedDurations": {
+          "median": 8.27E-4,
+          "average": 8.27E-4
+        },
+        "durations": [
+          {
+            "duration": 8.27E-4,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Delta/src/test/java/features/DeltaHomePageByMobin.feature:67"
           }
         ]
       }

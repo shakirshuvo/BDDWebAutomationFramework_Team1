@@ -5,12 +5,12 @@
       {
         "name": "User is in United Health Care homepage",
         "aggregatedDurations": {
-          "median": 6.290279,
-          "average": 6.290279
+          "median": 6.905813,
+          "average": 6.905813
         },
         "durations": [
           {
-            "duration": 6.290279,
+            "duration": 6.905813,
             "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/UHCHomePageByMobin.feature:4"
           }
         ]
@@ -23,12 +23,12 @@
       {
         "name": "User goes to myuhc page from signin tab",
         "aggregatedDurations": {
-          "median": 5.3428,
-          "average": 5.3428
+          "median": 5.341571,
+          "average": 5.341571
         },
         "durations": [
           {
-            "duration": 5.3428,
+            "duration": 5.341571,
             "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/UHCHomePageByMobin.feature:121"
           }
         ]
@@ -41,12 +41,12 @@
       {
         "name": "User clicks on registernow tab",
         "aggregatedDurations": {
-          "median": 5.383175,
-          "average": 5.383175
+          "median": 5.52815,
+          "average": 5.52815
         },
         "durations": [
           {
-            "duration": 5.383175,
+            "duration": 5.52815,
             "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/UnitedHealthCare/src/test/java/features/UHCHomePageByMobin.feature:122"
           }
         ]

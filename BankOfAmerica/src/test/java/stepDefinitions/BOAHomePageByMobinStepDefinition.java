@@ -72,16 +72,116 @@ public class BOAHomePageByMobinStepDefinition extends CommonAPI{
 
     @When("User hover over in different places")
     public void userHoverOverInDifferentPlaces() throws InterruptedException {
-        home.checkPlanningTab();
+        
     }
 
     @And("clicks on Planning tab")
-    public void clicksOnPlanningTab() {
-
+    public void clicksOnPlanningTab() throws InterruptedException {
+        home.checkPlanningTab();
     }
 
     @Then("User is directed to Planning page")
     public void userIsDirectedToPlanningPage() {
         home.validatePlanningTab();
+    }
+
+    @And("clicks on PrepAndFilling tab")
+    public void clicksOnPrepAndFillingTab() throws InterruptedException {
+        home.checkPrepAndFillingTab();
+    }
+
+    @Then("User is directed to PrepAndFilling page")
+    public void userIsDirectedToPrepAndFillingPage() {
+        home.validatePrepAndFillingTab();
+    }
+
+    @And("clicks on WorkPayAndBenifits tab")
+    public void clicksOnWorkPayAndBenifitsTab() throws InterruptedException {
+        home.checkWorkPayAndBenifitsTab();
+    }
+
+    @Then("User is directed to WorkPayAndBenifits page")
+    public void userIsDirectedToWorkPayAndBenifitsPage() {
+        home.validateWorkPayAndBenifitsTab();
+    }
+
+    @And("clicks on HowBanksWork tab")
+    public void clicksOnHowBanksWorkTab() throws InterruptedException {
+        home.checkHowBanksWorkTab();
+    }
+
+    @Then("User is directed to HowBanksWork page")
+    public void userIsDirectedToHowBanksWorkPage() {
+        home.validateHowBanksWorkTab();
+    }
+
+    @And("clicks on ManagingBankAccounts tab")
+    public void clicksOnManagingBankAccountsTab() throws InterruptedException {
+        home.checkManagingBankAccountsTab();
+    }
+
+    @Then("User is directed to ManagingBankAccounts page")
+    public void userIsDirectedToManagingBankAccountsPage() {
+        home.validateManagingBankAccountsTab();
+    }
+
+    @And("clicks on TeachingKidsAboutMoney tab")
+    public void clicksOnTeachingKidsAboutMoneyTab() throws InterruptedException {
+        home.checkTeachingKidsAboutMoneyTab();
+    }
+
+    @Then("User is directed to TeachingKidsAboutMoney page")
+    public void userIsDirectedToTeachingKidsAboutMoneyPage() {
+        home.validateTeachingKidsAboutMoneyTab();
+    }
+
+    @And("clicks on ChoosingACreditCard tab")
+    public void clicksOnChoosingACreditCardTab() throws InterruptedException {
+        home.checkChoosingACreditCardTab();
+    }
+
+    @Then("User is directed to ChoosingACreditCard page")
+    public void userIsDirectedToChoosingACreditCardPage() {
+        home.validateChoosingACreditCardTab();
+    }
+
+    @And("clicks on CreditReport tab")
+    public void clicksOnCreditReportTab() throws InterruptedException {
+        home.checkCreditReportTab();
+    }
+
+    @Then("User is directed to creditReport page")
+    public void userIsDirectedToCreditReportPage() {
+        home.validateCreditReportTab();
+    }
+
+    @And("clicks on CreditScore tab")
+    public void clicksOnCreditScoreTab() throws InterruptedException {
+        home.checkCreditScoreTab();
+    }
+
+    @Then("User is directed to CreditScore page")
+    public void userIsDirectedToCreditScorePage() {
+        home.validateCreditScoreTab();
+    }
+
+    @And("clicks on HowCreditCardWorks tab")
+    public void clicksOnHowCreditCardWorksTab() throws InterruptedException {
+        home.checkHowCreditCardWorksTab();
+    }
+
+    @Then("User is directed to HowCreditCardWorks page")
+    public void userIsDirectedToHowCreditCardWorksPage() {
+        home.validateHowCreditCardWorksTab();
+    }
+
+    @And("clicks on ManageingCreditCards tab")
+    public void clicksOnManageingCreditCardsTab() throws InterruptedException {
+        home.checkManageingCreditCardsTab();
+    }
+
+    @Then("User is directed to ManageingCreditCards page")
+    public void userIsDirectedToManageingCreditCardsPage() {
+        home.validateManageingCreditCardsTab();
     }
 }

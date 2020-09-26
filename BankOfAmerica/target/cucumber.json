@@ -11,13 +11,13 @@
         "steps": [
           {
             "result": {
-              "duration": 6275183000,
+              "duration": 13298381000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 67269000,
+                  "duration": 54978000,
                   "status": "passed"
                 },
                 "match": {
@@ -35,15 +35,15 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-25T03:20:54.185Z",
-        "line": 8,
-        "name": "Successful redirecting after clicking Checking tab",
+        "start_timestamp": "2020-09-26T07:01:56.563Z",
+        "line": 39,
+        "name": "Successful redirecting after clicking PrepAndFilling tab",
         "description": "",
-        "id": "bank-of-america-homepage-tab-functionality-tests;successful-redirecting-after-clicking-checking-tab",
+        "id": "bank-of-america-homepage-tab-functionality-tests;successful-redirecting-after-clicking-prepandfilling-tab",
         "after": [
           {
             "result": {
-              "duration": 227396000,
+              "duration": 270108000,
               "status": "passed"
             },
             "match": {
@@ -56,13 +56,13 @@
         "steps": [
           {
             "result": {
-              "duration": 5403512000,
+              "duration": 3555000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1691000,
+                  "duration": 3948000,
                   "status": "passed"
                 },
                 "match": {
@@ -70,427 +70,7 @@
                 }
               }
             ],
-            "line": 9,
-            "name": "User clicks on Checking tab",
-            "match": {
-              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.user_clicks_on_checking_tab()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 143074000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 1689000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 10,
-            "name": "User is directed to Checking page",
-            "match": {
-              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.user_is_directed_to_checking_page()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@SmokeTest"
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 2860858000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 1781000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 4,
-            "name": "User is in Bank of America homepage",
-            "match": {
-              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.user_is_in_bank_of_america_homepage()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-09-25T03:21:06.480Z",
-        "line": 14,
-        "name": "Successful redirecting after clicking Savings tab",
-        "description": "",
-        "id": "bank-of-america-homepage-tab-functionality-tests;successful-redirecting-after-clicking-savings-tab",
-        "after": [
-          {
-            "result": {
-              "duration": 216306000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.closeBrowser()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 2952697000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 1680000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 15,
-            "name": "User clicks on Savings tab",
-            "match": {
-              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.userClicksOnSavingsTab()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 18172000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 1665000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 16,
-            "name": "User is directed to Savings page",
-            "match": {
-              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.userIsDirectedToSavingsPage()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@SmokeTest"
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 3569419000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 1005000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 4,
-            "name": "User is in Bank of America homepage",
-            "match": {
-              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.user_is_in_bank_of_america_homepage()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-09-25T03:21:12.558Z",
-        "line": 20,
-        "name": "Successful redirecting after clicking Credit Card tab",
-        "description": "",
-        "id": "bank-of-america-homepage-tab-functionality-tests;successful-redirecting-after-clicking-credit-card-tab",
-        "after": [
-          {
-            "result": {
-              "duration": 168820000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.closeBrowser()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 2552228000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 1554000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 21,
-            "name": "User clicks on Credit Card tab",
-            "match": {
-              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.userClicksOnCreditCardTab()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 157620000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 1842000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 22,
-            "name": "User is directed to Credit Card page",
-            "match": {
-              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.userIsDirectedToCreditCardPage()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@SmokeTest"
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 2980216000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 1302000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 4,
-            "name": "User is in Bank of America homepage",
-            "match": {
-              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.user_is_in_bank_of_america_homepage()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-09-25T03:21:19.034Z",
-        "line": 26,
-        "name": "Successful redirecting after clicking Investing tab",
-        "description": "",
-        "id": "bank-of-america-homepage-tab-functionality-tests;successful-redirecting-after-clicking-investing-tab",
-        "after": [
-          {
-            "result": {
-              "duration": 215184000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.closeBrowser()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 5586629000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 1256000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 27,
-            "name": "User clicks on Investing tab",
-            "match": {
-              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.userClicksOnInvestingTab()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 650043000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 1486000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 28,
-            "name": "User is directed to Investing page",
-            "match": {
-              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.userIsDirectedToInvestingPage()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@SmokeTest"
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 3295889000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 1519000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 4,
-            "name": "User is in Bank of America homepage",
-            "match": {
-              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.user_is_in_bank_of_america_homepage()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-09-25T03:21:28.498Z",
-        "line": 32,
-        "name": "Successful redirecting after clicking Planning tab",
-        "description": "",
-        "id": "bank-of-america-homepage-tab-functionality-tests;successful-redirecting-after-clicking-planning-tab",
-        "after": [
-          {
-            "result": {
-              "duration": 251607000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.closeBrowser()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 37752720000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 1233000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 33,
+            "line": 40,
             "name": "User hover over in different places",
             "match": {
               "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.userHoverOverInDifferentPlaces()"
@@ -499,13 +79,14 @@
           },
           {
             "result": {
-              "duration": 242000,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element \u003ca href\u003d\"https://bettermoneyhabits.bankofamerica.com/en/taxes-income?subTopicId\u003dprep-and-filing\" data-cat-uri\u003d\"/content/bmh/en/taxes-income\" class\u003d\"js-nav-topics-rollover__link t-track-nav-in\" id\u003d\"SubNavSubTopic_taxes-income_prep-and-filing\"\u003e...\u003c/a\u003e is not clickable at point (659, 178). Other element would receive the click: \u003cdiv class\u003d\"topic-masthead\" data-action\u003d\"topicMasthead\"\u003e...\u003c/div\u003e\n  (Session info: chrome\u003d85.0.4183.121)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Farjanas-Air\u0027, ip: \u00272604:2000:1700:1c:aca7:63da:436f:f5a%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.13.6\u0027, java.version: \u002711.0.6\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/27/nmfyzmzj1c7...}, goog:chromeOptions: {debuggerAddress: localhost:49750}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: c11e9d5d9a436fec8587dbf9346e04eb\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\n\tat com.sun.proxy.$Proxy25.click(Unknown Source)\n\tat boaHomeByMobin.BOAHomePageByMobin.checkPrepAndFillingTab(BOAHomePageByMobin.java:184)\n\tat stepDefinitions.BOAHomePageByMobinStepDefinition.clicksOnPrepAndFillingTab(BOAHomePageByMobinStepDefinition.java:90)\n\tat ✽.clicks on PrepAndFilling tab(file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/BOAHomePageByMobin.feature:41)\n",
+              "duration": 43802821000,
+              "status": "failed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 917000,
+                  "duration": 3681000,
                   "status": "passed"
                 },
                 "match": {
@@ -513,22 +94,59 @@
                 }
               }
             ],
-            "line": 34,
-            "name": "clicks on Planning tab",
+            "line": 41,
+            "name": "clicks on PrepAndFilling tab",
             "match": {
-              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.clicksOnPlanningTab()"
+              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.clicksOnPrepAndFillingTab()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 7600000,
+              "duration": 4139000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 978000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 42,
+            "name": "User is directed to PrepAndFilling page",
+            "match": {
+              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.userIsDirectedToPrepAndFillingPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5176636000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1154000,
+                  "duration": 5019000,
                   "status": "passed"
                 },
                 "match": {
@@ -536,10 +154,1126 @@
                 }
               }
             ],
-            "line": 35,
-            "name": "User is directed to Planning page",
+            "line": 4,
+            "name": "User is in Bank of America homepage",
             "match": {
-              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.userIsDirectedToPlanningPage()"
+              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.user_is_in_bank_of_america_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T07:02:54.625Z",
+        "line": 46,
+        "name": "Successful redirecting after clicking WorkPayAndBenifits tab",
+        "description": "",
+        "id": "bank-of-america-homepage-tab-functionality-tests;successful-redirecting-after-clicking-workpayandbenifits-tab",
+        "after": [
+          {
+            "result": {
+              "duration": 149177000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 564000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2368000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 47,
+            "name": "User hover over in different places",
+            "match": {
+              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.userHoverOverInDifferentPlaces()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d85.0.4183.121)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Farjanas-Air\u0027, ip: \u00272604:2000:1700:1c:aca7:63da:436f:f5a%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.13.6\u0027, java.version: \u002711.0.6\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/27/nmfyzmzj1c7...}, goog:chromeOptions: {debuggerAddress: localhost:50047}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 8ac5f26fd7d986caa42e805f0752c9f7\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\n\tat com.sun.proxy.$Proxy25.click(Unknown Source)\n\tat boaHomeByMobin.BOAHomePageByMobin.checkWorkPayAndBenifitsTab(BOAHomePageByMobin.java:222)\n\tat stepDefinitions.BOAHomePageByMobinStepDefinition.clicksOnWorkPayAndBenifitsTab(BOAHomePageByMobinStepDefinition.java:100)\n\tat ✽.clicks on WorkPayAndBenifits tab(file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/BOAHomePageByMobin.feature:48)\n",
+              "duration": 48087054000,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 3192000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 48,
+            "name": "clicks on WorkPayAndBenifits tab",
+            "match": {
+              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.clicksOnWorkPayAndBenifitsTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 543000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 616000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 49,
+            "name": "User is directed to WorkPayAndBenifits page",
+            "match": {
+              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.userIsDirectedToWorkPayAndBenifitsPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3581870000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 11947000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in Bank of America homepage",
+            "match": {
+              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.user_is_in_bank_of_america_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T07:03:48.185Z",
+        "line": 53,
+        "name": "Successful redirecting after clicking HowBanksWork tab",
+        "description": "",
+        "id": "bank-of-america-homepage-tab-functionality-tests;successful-redirecting-after-clicking-howbankswork-tab",
+        "after": [
+          {
+            "result": {
+              "duration": 178812000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 249000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 3618000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 54,
+            "name": "User hover over in different places",
+            "match": {
+              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.userHoverOverInDifferentPlaces()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 35944243000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1789000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 55,
+            "name": "clicks on HowBanksWork tab",
+            "match": {
+              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.clicksOnHowBanksWorkTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24951000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1109000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 56,
+            "name": "User is directed to HowBanksWork page",
+            "match": {
+              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.userIsDirectedToHowBanksWorkPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3082174000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1228000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in Bank of America homepage",
+            "match": {
+              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.user_is_in_bank_of_america_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T07:04:28.008Z",
+        "line": 60,
+        "name": "Successful redirecting after clicking ManagingBankAccounts tab",
+        "description": "",
+        "id": "bank-of-america-homepage-tab-functionality-tests;successful-redirecting-after-clicking-managingbankaccounts-tab",
+        "after": [
+          {
+            "result": {
+              "duration": 175786000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 255000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1944000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 61,
+            "name": "User hover over in different places",
+            "match": {
+              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.userHoverOverInDifferentPlaces()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 35731183000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2133000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 62,
+            "name": "clicks on ManagingBankAccounts tab",
+            "match": {
+              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.clicksOnManagingBankAccountsTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12161000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 833000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 63,
+            "name": "User is directed to ManagingBankAccounts page",
+            "match": {
+              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.userIsDirectedToManagingBankAccountsPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3199998000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1119000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in Bank of America homepage",
+            "match": {
+              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.user_is_in_bank_of_america_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T07:05:07.097Z",
+        "line": 67,
+        "name": "Successful redirecting after clicking TeachingKidsAboutMoney tab",
+        "description": "",
+        "id": "bank-of-america-homepage-tab-functionality-tests;successful-redirecting-after-clicking-teachingkidsaboutmoney-tab",
+        "after": [
+          {
+            "result": {
+              "duration": 194829000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 351000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1819000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 68,
+            "name": "User hover over in different places",
+            "match": {
+              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.userHoverOverInDifferentPlaces()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 39434359000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1454000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 69,
+            "name": "clicks on TeachingKidsAboutMoney tab",
+            "match": {
+              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.clicksOnTeachingKidsAboutMoneyTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28419000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 4097000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 70,
+            "name": "User is directed to TeachingKidsAboutMoney page",
+            "match": {
+              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.userIsDirectedToTeachingKidsAboutMoneyPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3860653000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2469000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in Bank of America homepage",
+            "match": {
+              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.user_is_in_bank_of_america_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T07:05:50.048Z",
+        "line": 74,
+        "name": "Successful redirecting after clicking ChoosingACreditCard tab",
+        "description": "",
+        "id": "bank-of-america-homepage-tab-functionality-tests;successful-redirecting-after-clicking-choosingacreditcard-tab",
+        "after": [
+          {
+            "result": {
+              "duration": 193189000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 897000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 918000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 75,
+            "name": "User hover over in different places",
+            "match": {
+              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.userHoverOverInDifferentPlaces()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 49459500000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 825000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 76,
+            "name": "clicks on ChoosingACreditCard tab",
+            "match": {
+              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.clicksOnChoosingACreditCardTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5908000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 3529000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 77,
+            "name": "User is directed to ChoosingACreditCard page",
+            "match": {
+              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.userIsDirectedToChoosingACreditCardPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3901766000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 873000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in Bank of America homepage",
+            "match": {
+              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.user_is_in_bank_of_america_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T07:06:43.624Z",
+        "line": 81,
+        "name": "Successful redirecting after clicking CreditReport tab",
+        "description": "",
+        "id": "bank-of-america-homepage-tab-functionality-tests;successful-redirecting-after-clicking-creditreport-tab",
+        "after": [
+          {
+            "result": {
+              "duration": 171154000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 320000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 836000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 82,
+            "name": "User hover over in different places",
+            "match": {
+              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.userHoverOverInDifferentPlaces()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 42875906000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2571000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 83,
+            "name": "clicks on CreditReport tab",
+            "match": {
+              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.clicksOnCreditReportTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5207000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 939000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 84,
+            "name": "User is directed to creditReport page",
+            "match": {
+              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.userIsDirectedToCreditReportPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3923206000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 854000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in Bank of America homepage",
+            "match": {
+              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.user_is_in_bank_of_america_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T07:07:30.655Z",
+        "line": 88,
+        "name": "Successful redirecting after clicking CreditScore tab",
+        "description": "",
+        "id": "bank-of-america-homepage-tab-functionality-tests;successful-redirecting-after-clicking-creditscore-tab",
+        "after": [
+          {
+            "result": {
+              "duration": 197141000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 103000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 468000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 89,
+            "name": "User hover over in different places",
+            "match": {
+              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.userHoverOverInDifferentPlaces()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 44295766000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 482000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 90,
+            "name": "clicks on CreditScore tab",
+            "match": {
+              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.clicksOnCreditScoreTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9070000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2800000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 91,
+            "name": "User is directed to CreditScore page",
+            "match": {
+              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.userIsDirectedToCreditScorePage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4131144000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2912000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in Bank of America homepage",
+            "match": {
+              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.user_is_in_bank_of_america_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T07:08:19.143Z",
+        "line": 95,
+        "name": "Successful redirecting after clicking HowCreditCardWorks tab",
+        "description": "",
+        "id": "bank-of-america-homepage-tab-functionality-tests;successful-redirecting-after-clicking-howcreditcardworks-tab",
+        "after": [
+          {
+            "result": {
+              "duration": 136764000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 191000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 732000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 96,
+            "name": "User hover over in different places",
+            "match": {
+              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.userHoverOverInDifferentPlaces()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 42228532000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 646000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 97,
+            "name": "clicks on HowCreditCardWorks tab",
+            "match": {
+              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.clicksOnHowCreditCardWorksTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47296000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 549000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 98,
+            "name": "User is directed to HowCreditCardWorks page",
+            "match": {
+              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.userIsDirectedToHowCreditCardWorksPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3179879000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 4947000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in Bank of America homepage",
+            "match": {
+              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.user_is_in_bank_of_america_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T07:09:05.728Z",
+        "line": 102,
+        "name": "Successful redirecting after clicking ManageingCreditCards tab",
+        "description": "",
+        "id": "bank-of-america-homepage-tab-functionality-tests;successful-redirecting-after-clicking-manageingcreditcards-tab",
+        "after": [
+          {
+            "result": {
+              "duration": 171132000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 179000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 802000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 103,
+            "name": "User hover over in different places",
+            "match": {
+              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.userHoverOverInDifferentPlaces()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 45375376000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 642000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 104,
+            "name": "clicks on ManageingCreditCards tab",
+            "match": {
+              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.clicksOnManageingCreditCardsTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5883000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2915000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 105,
+            "name": "User is directed to ManageingCreditCards page",
+            "match": {
+              "location": "stepDefinitions.BOAHomePageByMobinStepDefinition.userIsDirectedToManageingCreditCardsPage()"
             },
             "keyword": "Then "
           }

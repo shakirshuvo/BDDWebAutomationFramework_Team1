@@ -25,6 +25,16 @@ public class BOAHomePageWebElementsByMobin {
     public static final String taxAndIncomeBMHTXPath = "//*[@id=\"page--retirement\"]/div[5]/div[2]/nav/ul/li[10]/a/span";
     public static final String planningBMHTXPath = "//*[@id=\"SubNavSubTopic_taxes-income_planning\"]";
 
+    public static final String prepAndFillingBMHTXPath = "//a[@id='SubNavSubTopic_taxes-income_prep-and-filing']";
+    public static final String workPayAndBenifitsBMHTXPath = "//a[@id='SubNavSubTopic_taxes-income_work-pay-benefits']";
+    public static final String howBanksWorkBMHTXPath = "//a[@id='SubNavSubTopic_personal-banking_how-banks-work']";
+    public static final String managingBankAccountsBMHTXPath = "//a[@id='SubNavSubTopic_personal-banking_managing-bank-accounts']";
+    public static final String teachingKidsAboutMoneyBMHTXPath = "//a[@id='SubNavSubTopic_personal-banking_teaching-kids-about-money']";
+    public static final String choosingACreditCardBMHTXPath = "//a[@id='SubNavSubTopic_credit_choosing-a-credit-card']";
+    public static final String creditReportBMHTXPath = "//a[@id='SubNavSubTopic_credit_credit-report']";
+    public static final String creditScoreBMHTXPath = "//a[@id='SubNavSubTopic_credit_credit-score']";
+    public static final String howCreditCardWorksBMHTXPath = "//a[@id='SubNavSubTopic_credit_how-credit-cards-work']";
+    public static final String manageingCreditCardsBMHTXPath = "//a[@id='SubNavSubTopic_credit_managing-credit-cards']";
 
 
 

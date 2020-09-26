@@ -5,12 +5,128 @@
       {
         "name": "User is in Amazon homepage",
         "aggregatedDurations": {
-          "median": 8.391892,
-          "average": 8.391892
+          "median": 4.51781,
+          "average": 5.370719366
         },
         "durations": [
           {
-            "duration": 8.391892,
+            "duration": 11.152375,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:4"
+          },
+          {
+            "duration": 7.692462,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:4"
+          },
+          {
+            "duration": 5.586082,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:4"
+          },
+          {
+            "duration": 4.027694,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:4"
+          },
+          {
+            "duration": 4.467314,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:4"
+          },
+          {
+            "duration": 8.904014,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:4"
+          },
+          {
+            "duration": 5.197179,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:4"
+          },
+          {
+            "duration": 4.15494,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:4"
+          },
+          {
+            "duration": 4.046293,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:4"
+          },
+          {
+            "duration": 4.568306,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:4"
+          },
+          {
+            "duration": 3.161176,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:4"
+          },
+          {
+            "duration": 4.734857,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:4"
+          },
+          {
+            "duration": 9.805731,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:4"
+          },
+          {
+            "duration": 3.196651,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:4"
+          },
+          {
+            "duration": 8.661847,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:4"
+          },
+          {
+            "duration": 4.293517,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:4"
+          },
+          {
+            "duration": 5.346258,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:4"
+          },
+          {
+            "duration": 6.781683,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:4"
+          },
+          {
+            "duration": 3.992222,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:4"
+          },
+          {
+            "duration": 3.390548,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:4"
+          },
+          {
+            "duration": 4.664452,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:4"
+          },
+          {
+            "duration": 3.819401,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:4"
+          },
+          {
+            "duration": 3.796169,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:4"
+          },
+          {
+            "duration": 4.012285,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:4"
+          },
+          {
+            "duration": 3.382586,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:4"
+          },
+          {
+            "duration": 4.696639,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:4"
+          },
+          {
+            "duration": 7.602811,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:4"
+          },
+          {
+            "duration": 8.126049,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:4"
+          },
+          {
+            "duration": 3.639507,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:4"
+          },
+          {
+            "duration": 4.220533,
             "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:4"
           }
         ]
@@ -23,13 +139,13 @@
       {
         "name": "User clicks on BestSeller tab",
         "aggregatedDurations": {
-          "median": 3.010163,
-          "average": 3.010163
+          "median": 4.228564,
+          "average": 4.228564
         },
         "durations": [
           {
-            "duration": 3.010163,
-            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:9"
+            "duration": 4.228564,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:16"
           }
         ]
       }
@@ -41,13 +157,895 @@
       {
         "name": "User is directed to BestSeller page",
         "aggregatedDurations": {
-          "median": 0.071931,
-          "average": 0.071931
+          "median": 0.028331,
+          "average": 0.028331
         },
         "durations": [
           {
-            "duration": 0.071931,
-            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:10"
+            "duration": 0.028331,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on NewReleases tab",
+    "steps": [
+      {
+        "name": "User clicks on NewReleases tab",
+        "aggregatedDurations": {
+          "median": 4.068035,
+          "average": 4.068035
+        },
+        "durations": [
+          {
+            "duration": 4.068035,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:22"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to NewReleases page",
+    "steps": [
+      {
+        "name": "User is directed to NewReleases page",
+        "aggregatedDurations": {
+          "median": 0.023955,
+          "average": 0.023955
+        },
+        "durations": [
+          {
+            "duration": 0.023955,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:23"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on MoversAndShakers tab",
+    "steps": [
+      {
+        "name": "User clicks on MoversAndShakers tab",
+        "aggregatedDurations": {
+          "median": 2.727797,
+          "average": 2.727797
+        },
+        "durations": [
+          {
+            "duration": 2.727797,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:28"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on MostWishedFor tab",
+    "steps": [
+      {
+        "name": "User clicks on MostWishedFor tab",
+        "aggregatedDurations": {
+          "median": 6.84684,
+          "average": 6.84684
+        },
+        "durations": [
+          {
+            "duration": 6.84684,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:34"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to MostWishedFor page",
+    "steps": [
+      {
+        "name": "User is directed to MostWishedFor page",
+        "aggregatedDurations": {
+          "median": 0.013838,
+          "average": 0.013838
+        },
+        "durations": [
+          {
+            "duration": 0.013838,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:35"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on GiftIdeas tab",
+    "steps": [
+      {
+        "name": "User clicks on GiftIdeas tab",
+        "aggregatedDurations": {
+          "median": 3.568923,
+          "average": 3.568923
+        },
+        "durations": [
+          {
+            "duration": 3.568923,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:40"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on CustomerService tab",
+    "steps": [
+      {
+        "name": "User clicks on CustomerService tab",
+        "aggregatedDurations": {
+          "median": 2.044757,
+          "average": 2.044757
+        },
+        "durations": [
+          {
+            "duration": 2.044757,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:46"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to CustomerService page",
+    "steps": [
+      {
+        "name": "User is directed to CustomerService page",
+        "aggregatedDurations": {
+          "median": 0.007674,
+          "average": 0.007674
+        },
+        "durations": [
+          {
+            "duration": 0.007674,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:47"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on TodaysDeal tab",
+    "steps": [
+      {
+        "name": "User clicks on TodaysDeal tab",
+        "aggregatedDurations": {
+          "median": 3.473326,
+          "average": 3.473326
+        },
+        "durations": [
+          {
+            "duration": 3.473326,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:52"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to TodaysDeal page",
+    "steps": [
+      {
+        "name": "User is directed to TodaysDeal page",
+        "aggregatedDurations": {
+          "median": 0.064844,
+          "average": 0.064844
+        },
+        "durations": [
+          {
+            "duration": 0.064844,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:53"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on NewReleasesA tab",
+    "steps": [
+      {
+        "name": "User clicks on NewReleasesA tab",
+        "aggregatedDurations": {
+          "median": 3.844228,
+          "average": 3.844228
+        },
+        "durations": [
+          {
+            "duration": 3.844228,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:58"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to NewReleasesA page",
+    "steps": [
+      {
+        "name": "User is directed to NewReleasesA page",
+        "aggregatedDurations": {
+          "median": 0.016083,
+          "average": 0.016083
+        },
+        "durations": [
+          {
+            "duration": 0.016083,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:59"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on NewGames tab",
+    "steps": [
+      {
+        "name": "User clicks on NewGames tab",
+        "aggregatedDurations": {
+          "median": 3.706755,
+          "average": 3.706755
+        },
+        "durations": [
+          {
+            "duration": 3.706755,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:64"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to NewGames page",
+    "steps": [
+      {
+        "name": "User is directed to NewGames page",
+        "aggregatedDurations": {
+          "median": 0.035797,
+          "average": 0.035797
+        },
+        "durations": [
+          {
+            "duration": 0.035797,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:65"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on NewPCGames tab",
+    "steps": [
+      {
+        "name": "User clicks on NewPCGames tab",
+        "aggregatedDurations": {
+          "median": 8.146023,
+          "average": 8.146023
+        },
+        "durations": [
+          {
+            "duration": 8.146023,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:70"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on NewVideoGames tab",
+    "steps": [
+      {
+        "name": "User clicks on NewVideoGames tab",
+        "aggregatedDurations": {
+          "median": 6.208495,
+          "average": 6.208495
+        },
+        "durations": [
+          {
+            "duration": 6.208495,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:76"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to NewVideoGames page",
+    "steps": [
+      {
+        "name": "User is directed to NewVideoGames page",
+        "aggregatedDurations": {
+          "median": 0.010419,
+          "average": 0.010419
+        },
+        "durations": [
+          {
+            "duration": 0.010419,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:77"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on NewPlayStationThree tab",
+    "steps": [
+      {
+        "name": "User clicks on NewPlayStationThree tab",
+        "aggregatedDurations": {
+          "median": 6.357246,
+          "average": 6.357246
+        },
+        "durations": [
+          {
+            "duration": 6.357246,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:82"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to NewPlayStationThree page",
+    "steps": [
+      {
+        "name": "User is directed to NewPlayStationThree page",
+        "aggregatedDurations": {
+          "median": 0.004719,
+          "average": 0.004719
+        },
+        "durations": [
+          {
+            "duration": 0.004719,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:83"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on NewXboxThreeSixty tab",
+    "steps": [
+      {
+        "name": "User clicks on NewXboxThreeSixty tab",
+        "aggregatedDurations": {
+          "median": 5.5579,
+          "average": 5.5579
+        },
+        "durations": [
+          {
+            "duration": 5.5579,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:88"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to NewXboxThreeSixty page",
+    "steps": [
+      {
+        "name": "User is directed to NewXboxThreeSixty page",
+        "aggregatedDurations": {
+          "median": 0.019836,
+          "average": 0.019836
+        },
+        "durations": [
+          {
+            "duration": 0.019836,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:89"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on NewNintendoDS tab",
+    "steps": [
+      {
+        "name": "User clicks on NewNintendoDS tab",
+        "aggregatedDurations": {
+          "median": 6.46448,
+          "average": 6.46448
+        },
+        "durations": [
+          {
+            "duration": 6.46448,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:94"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to NewNintendoDS page",
+    "steps": [
+      {
+        "name": "User is directed to NewNintendoDS page",
+        "aggregatedDurations": {
+          "median": 0.020537,
+          "average": 0.020537
+        },
+        "durations": [
+          {
+            "duration": 0.020537,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:95"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on NewWii tab",
+    "steps": [
+      {
+        "name": "User clicks on NewWii tab",
+        "aggregatedDurations": {
+          "median": 6.808793,
+          "average": 6.808793
+        },
+        "durations": [
+          {
+            "duration": 6.808793,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:100"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to NewWii page",
+    "steps": [
+      {
+        "name": "User is directed to NewWii page",
+        "aggregatedDurations": {
+          "median": 0.065138,
+          "average": 0.065138
+        },
+        "durations": [
+          {
+            "duration": 0.065138,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:101"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on NewWiiU tab",
+    "steps": [
+      {
+        "name": "User clicks on NewWiiU tab",
+        "aggregatedDurations": {
+          "median": 4.747244,
+          "average": 4.747244
+        },
+        "durations": [
+          {
+            "duration": 4.747244,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:106"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on NewPlayStationVista tab",
+    "steps": [
+      {
+        "name": "User clicks on NewPlayStationVista tab",
+        "aggregatedDurations": {
+          "median": 6.059863,
+          "average": 6.059863
+        },
+        "durations": [
+          {
+            "duration": 6.059863,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:112"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to NewPlayStationVista page",
+    "steps": [
+      {
+        "name": "User is directed to NewPlayStationVista page",
+        "aggregatedDurations": {
+          "median": 0.121041,
+          "average": 0.121041
+        },
+        "durations": [
+          {
+            "duration": 0.121041,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:113"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on NewNintendoThreeDS tab",
+    "steps": [
+      {
+        "name": "User clicks on NewNintendoThreeDS tab",
+        "aggregatedDurations": {
+          "median": 4.91787,
+          "average": 4.91787
+        },
+        "durations": [
+          {
+            "duration": 4.91787,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:118"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to NewNintendoThreeDS page",
+    "steps": [
+      {
+        "name": "User is directed to NewNintendoThreeDS page",
+        "aggregatedDurations": {
+          "median": 0.031393,
+          "average": 0.031393
+        },
+        "durations": [
+          {
+            "duration": 0.031393,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:119"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on NewXboxOne tab",
+    "steps": [
+      {
+        "name": "User clicks on NewXboxOne tab",
+        "aggregatedDurations": {
+          "median": 6.39339,
+          "average": 6.39339
+        },
+        "durations": [
+          {
+            "duration": 6.39339,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:124"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to NewXboxOne page",
+    "steps": [
+      {
+        "name": "User is directed to NewXboxOne page",
+        "aggregatedDurations": {
+          "median": 0.005184,
+          "average": 0.005184
+        },
+        "durations": [
+          {
+            "duration": 0.005184,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:125"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on NewPlayStationFour tab",
+    "steps": [
+      {
+        "name": "User clicks on NewPlayStationFour tab",
+        "aggregatedDurations": {
+          "median": 4.666748,
+          "average": 4.666748
+        },
+        "durations": [
+          {
+            "duration": 4.666748,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:130"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on NewSonyPSP tab",
+    "steps": [
+      {
+        "name": "User clicks on NewSonyPSP tab",
+        "aggregatedDurations": {
+          "median": 4.867605,
+          "average": 4.867605
+        },
+        "durations": [
+          {
+            "duration": 4.867605,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:136"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to NewSonyPSP page",
+    "steps": [
+      {
+        "name": "User is directed to NewSonyPSP page",
+        "aggregatedDurations": {
+          "median": 0.020024,
+          "average": 0.020024
+        },
+        "durations": [
+          {
+            "duration": 0.020024,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:137"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on MacGames tab",
+    "steps": [
+      {
+        "name": "User clicks on MacGames tab",
+        "aggregatedDurations": {
+          "median": 10.213923,
+          "average": 10.213923
+        },
+        "durations": [
+          {
+            "duration": 10.213923,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:142"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to MacGames page",
+    "steps": [
+      {
+        "name": "User is directed to MacGames page",
+        "aggregatedDurations": {
+          "median": 0.724705,
+          "average": 0.724705
+        },
+        "durations": [
+          {
+            "duration": 0.724705,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:143"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on NewNintendoSwitch tab",
+    "steps": [
+      {
+        "name": "User clicks on NewNintendoSwitch tab",
+        "aggregatedDurations": {
+          "median": 4.75768,
+          "average": 4.75768
+        },
+        "durations": [
+          {
+            "duration": 4.75768,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:148"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to NewNintendoSwitch page",
+    "steps": [
+      {
+        "name": "User is directed to NewNintendoSwitch page",
+        "aggregatedDurations": {
+          "median": 0.00808,
+          "average": 0.00808
+        },
+        "durations": [
+          {
+            "duration": 0.00808,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:149"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on MoreSystems tab",
+    "steps": [
+      {
+        "name": "User clicks on MoreSystems tab",
+        "aggregatedDurations": {
+          "median": 6.640078,
+          "average": 6.640078
+        },
+        "durations": [
+          {
+            "duration": 6.640078,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:154"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to MoreSystems page",
+    "steps": [
+      {
+        "name": "User is directed to MoreSystems page",
+        "aggregatedDurations": {
+          "median": 0.008742,
+          "average": 0.008742
+        },
+        "durations": [
+          {
+            "duration": 0.008742,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:155"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on Microconsoles tab",
+    "steps": [
+      {
+        "name": "User clicks on Microconsoles tab",
+        "aggregatedDurations": {
+          "median": 8.852242,
+          "average": 8.852242
+        },
+        "durations": [
+          {
+            "duration": 8.852242,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:160"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to Microconsoles page",
+    "steps": [
+      {
+        "name": "User is directed to Microconsoles page",
+        "aggregatedDurations": {
+          "median": 0.061885,
+          "average": 0.061885
+        },
+        "durations": [
+          {
+            "duration": 0.061885,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:161"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on WholeFood tab",
+    "steps": [
+      {
+        "name": "User clicks on WholeFood tab",
+        "aggregatedDurations": {
+          "median": 3.383715,
+          "average": 3.383715
+        },
+        "durations": [
+          {
+            "duration": 3.383715,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:172"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to WholeFood page",
+    "steps": [
+      {
+        "name": "User is directed to WholeFood page",
+        "aggregatedDurations": {
+          "median": 0.020406,
+          "average": 0.020406
+        },
+        "durations": [
+          {
+            "duration": 0.020406,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:173"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on WholeFoodBeverages tab",
+    "steps": [
+      {
+        "name": "User clicks on WholeFoodBeverages tab",
+        "aggregatedDurations": {
+          "median": 8.218358,
+          "average": 8.218358
+        },
+        "durations": [
+          {
+            "duration": 8.218358,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:178"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to WholeFoodBeverages page",
+    "steps": [
+      {
+        "name": "User is directed to WholeFoodBeverages page",
+        "aggregatedDurations": {
+          "median": 0.00688,
+          "average": 0.00688
+        },
+        "durations": [
+          {
+            "duration": 0.00688,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:179"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on GiftCards tab",
+    "steps": [
+      {
+        "name": "User clicks on GiftCards tab",
+        "aggregatedDurations": {
+          "median": 4.372105,
+          "average": 4.372105
+        },
+        "durations": [
+          {
+            "duration": 4.372105,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:184"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is directed to GiftCards page",
+    "steps": [
+      {
+        "name": "User is directed to GiftCards page",
+        "aggregatedDurations": {
+          "median": 0.012343,
+          "average": 0.012343
+        },
+        "durations": [
+          {
+            "duration": 0.012343,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:185"
           }
         ]
       }

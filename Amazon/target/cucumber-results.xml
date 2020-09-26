@@ -1,10 +1,328 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="12.279">
-    <testcase classname="Amazon homepage tab functionality tests" name="Successful redirecting after clicking BestSeller tab" time="11.88">
+<testsuite errors="0" failures="7" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="30" time="336.992">
+    <testcase classname="Amazon homepage tab functionality tests" name="Amazon homepage search box functionality check" time="11.592">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given User is in Amazon homepage............................................passed
+When User inserts "hat" in search box.......................................failed
+And enters submit button....................................................skipped
+Then User varifies "hat" from the search page...............................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at amazonHomeByMobin.AmazonHomePageByMobin.checkSearchBox(AmazonHomePageByMobin.java:69)
+	at stepDefinitions.AmazonHomePageByMobinStepDefinition.userInsertsInSearchBox(AmazonHomePageByMobinStepDefinition.java:45)
+	at ✽.User inserts "hat" in search box(file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:9)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Amazon homepage tab functionality tests" name="Successful redirecting after clicking BestSeller tab" time="12.166">
         <system-out>
             <![CDATA[Given User is in Amazon homepage............................................passed
 When User clicks on BestSeller tab..........................................passed
 Then User is directed to BestSeller page....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Amazon homepage tab functionality tests" name="Successful redirecting after clicking NewReleases tab" time="9.932">
+        <system-out>
+            <![CDATA[Given User is in Amazon homepage............................................passed
+When User clicks on NewReleases tab.........................................passed
+Then User is directed to NewReleases page...................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Amazon homepage tab functionality tests" name="Successful redirecting after clicking MoversAndShakers tab" time="6.988">
+        <failure message="Test failed expected [] but found [Amazon.com Best Sellers: The most popular items on Amazon]" type="java.lang.AssertionError">
+            <![CDATA[Given User is in Amazon homepage............................................passed
+When User clicks on MoversAndShakers tab....................................passed
+Then User is directed to MoversAndShakers page..............................failed
+
+StackTrace:
+java.lang.AssertionError: Test failed expected [] but found [Amazon.com Best Sellers: The most popular items on Amazon]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at amazonHomeByMobin.AmazonHomePageByMobin.validateMoversAndShakers(AmazonHomePageByMobin.java:129)
+	at stepDefinitions.AmazonHomePageByMobinStepDefinition.userIsDirectedToMoversAndShakersPage(AmazonHomePageByMobinStepDefinition.java:76)
+	at ✽.User is directed to MoversAndShakers page(file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:29)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Amazon homepage tab functionality tests" name="Successful redirecting after clicking MostWishedFor tab" time="11.607">
+        <system-out>
+            <![CDATA[Given User is in Amazon homepage............................................passed
+When User clicks on MostWishedFor tab.......................................passed
+Then User is directed to MostWishedFor page.................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Amazon homepage tab functionality tests" name="Successful redirecting after clicking GiftIdeas tab" time="12.759">
+        <failure message="Test failed expected [Amazon.com Gift Ideas: The most popular items ordered as gifts at Amazon] but found []" type="java.lang.AssertionError">
+            <![CDATA[Given User is in Amazon homepage............................................passed
+When User clicks on GiftIdeas tab...........................................passed
+Then User is directed to GiftIdeas page.....................................failed
+
+StackTrace:
+java.lang.AssertionError: Test failed expected [Amazon.com Gift Ideas: The most popular items ordered as gifts at Amazon] but found []
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at amazonHomeByMobin.AmazonHomePageByMobin.validateGiftIdeas(AmazonHomePageByMobin.java:161)
+	at stepDefinitions.AmazonHomePageByMobinStepDefinition.userIsDirectedToGiftIdeasPage(AmazonHomePageByMobinStepDefinition.java:96)
+	at ✽.User is directed to GiftIdeas page(file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:41)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Amazon homepage tab functionality tests" name="Successful redirecting after clicking CustomerService tab" time="7.482">
+        <system-out>
+            <![CDATA[Given User is in Amazon homepage............................................passed
+When User clicks on CustomerService tab.....................................passed
+Then User is directed to CustomerService page...............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Amazon homepage tab functionality tests" name="Successful redirecting after clicking TodaysDeal tab" time="8.046">
+        <system-out>
+            <![CDATA[Given User is in Amazon homepage............................................passed
+When User clicks on TodaysDeal tab..........................................passed
+Then User is directed to TodaysDeal page....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Amazon homepage tab functionality tests" name="Successful redirecting after clicking NewReleasesA tab" time="8.285">
+        <system-out>
+            <![CDATA[Given User is in Amazon homepage............................................passed
+When User clicks on NewReleasesA tab........................................passed
+Then User is directed to NewReleasesA page..................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Amazon homepage tab functionality tests" name="Successful redirecting after clicking NewGames tab" time="8.541">
+        <system-out>
+            <![CDATA[Given User is in Amazon homepage............................................passed
+When User clicks on NewGames tab............................................passed
+Then User is directed to NewGames page......................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Amazon homepage tab functionality tests" name="Successful redirecting after clicking NewPCGames tab" time="11.492">
+        <failure message="Test failed expected [Amazon.com New Releases: The best-selling new &amp; future releases in PC Games &amp; Accessories] but found [Amazon.com New Releases: The best-selling new &amp; future releases in Video Games]" type="java.lang.AssertionError">
+            <![CDATA[Given User is in Amazon homepage............................................passed
+When User clicks on NewPCGames tab..........................................passed
+Then User is directed to NewPCGames page....................................failed
+
+StackTrace:
+java.lang.AssertionError: Test failed expected [Amazon.com New Releases: The best-selling new & future releases in PC Games & Accessories] but found [Amazon.com New Releases: The best-selling new & future releases in Video Games]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at amazonHomeByMobin.AmazonHomePageByMobin.validateNewPCGames(AmazonHomePageByMobin.java:239)
+	at stepDefinitions.AmazonHomePageByMobinStepDefinition.userIsDirectedToNewPCGamesPage(AmazonHomePageByMobinStepDefinition.java:147)
+	at ✽.User is directed to NewPCGames page(file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:71)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Amazon homepage tab functionality tests" name="Successful redirecting after clicking NewVideoGames tab" time="11.26">
+        <system-out>
+            <![CDATA[Given User is in Amazon homepage............................................passed
+When User clicks on NewVideoGames tab.......................................passed
+Then User is directed to NewVideoGames page.................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Amazon homepage tab functionality tests" name="Successful redirecting after clicking NewPlayStationThree tab" time="16.366">
+        <system-out>
+            <![CDATA[Given User is in Amazon homepage............................................passed
+When User clicks on NewPlayStationThree tab.................................passed
+Then User is directed to NewPlayStationThree page...........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Amazon homepage tab functionality tests" name="Successful redirecting after clicking NewXbox360 tab" time="9.043">
+        <system-out>
+            <![CDATA[Given User is in Amazon homepage............................................passed
+When User clicks on NewXboxThreeSixty tab...................................passed
+Then User is directed to NewXboxThreeSixty page.............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Amazon homepage tab functionality tests" name="Successful redirecting after clicking NewNintendoDS tab" time="15.41">
+        <system-out>
+            <![CDATA[Given User is in Amazon homepage............................................passed
+When User clicks on NewNintendoDS tab.......................................passed
+Then User is directed to NewNintendoDS page.................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Amazon homepage tab functionality tests" name="Successful redirecting after clicking NewWii tab" time="11.647">
+        <system-out>
+            <![CDATA[Given User is in Amazon homepage............................................passed
+When User clicks on NewWii tab..............................................passed
+Then User is directed to NewWii page........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Amazon homepage tab functionality tests" name="Successful redirecting after clicking NewWiiU tab" time="10.342">
+        <failure message="Test failed expected [] but found [Amazon.com New Releases: The best-selling new &amp; future releases in Wii U Games, Consoles &amp; Accessories]" type="java.lang.AssertionError">
+            <![CDATA[Given User is in Amazon homepage............................................passed
+When User clicks on NewWiiU tab.............................................passed
+Then User is directed to NewWiiU page.......................................failed
+
+StackTrace:
+java.lang.AssertionError: Test failed expected [] but found [Amazon.com New Releases: The best-selling new & future releases in Wii U Games, Consoles & Accessories]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at amazonHomeByMobin.AmazonHomePageByMobin.validateNewWiiU(AmazonHomePageByMobin.java:341)
+	at stepDefinitions.AmazonHomePageByMobinStepDefinition.userIsDirectedToNewWiiUPage(AmazonHomePageByMobinStepDefinition.java:209)
+	at ✽.User is directed to NewWiiU page(file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:107)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Amazon homepage tab functionality tests" name="Successful redirecting after clicking NewPlayStationVista tab" time="13.2">
+        <system-out>
+            <![CDATA[Given User is in Amazon homepage............................................passed
+When User clicks on NewPlayStationVista tab.................................passed
+Then User is directed to NewPlayStationVista page...........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Amazon homepage tab functionality tests" name="Successful redirecting after clicking NewNintendo3DS tab" time="9.177">
+        <system-out>
+            <![CDATA[Given User is in Amazon homepage............................................passed
+When User clicks on NewNintendoThreeDS tab..................................passed
+Then User is directed to NewNintendoThreeDS page............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Amazon homepage tab functionality tests" name="Successful redirecting after clicking NewXboxOne tab" time="9.975">
+        <system-out>
+            <![CDATA[Given User is in Amazon homepage............................................passed
+When User clicks on NewXboxOne tab..........................................passed
+Then User is directed to NewXboxOne page....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Amazon homepage tab functionality tests" name="Successful redirecting after clicking NewPlayStation4 tab" time="9.512">
+        <failure message="Test failed expected [Amazon.com New Releases: The best-selling new &amp; future releases in PlayStation 4 Games, Consoles &amp; Accessories] but found [Amazon.com New Releases: The best-selling new &amp; future releases in Video Games]" type="java.lang.AssertionError">
+            <![CDATA[Given User is in Amazon homepage............................................passed
+When User clicks on NewPlayStationFour tab..................................passed
+Then User is directed to NewPlayStationFour page............................failed
+
+StackTrace:
+java.lang.AssertionError: Test failed expected [Amazon.com New Releases: The best-selling new & future releases in PlayStation 4 Games, Consoles & Accessories] but found [Amazon.com New Releases: The best-selling new & future releases in Video Games]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at amazonHomeByMobin.AmazonHomePageByMobin.validateNewPlayStation4(AmazonHomePageByMobin.java:409)
+	at stepDefinitions.AmazonHomePageByMobinStepDefinition.userIsDirectedToNewPlayStationFourPage(AmazonHomePageByMobinStepDefinition.java:249)
+	at ✽.User is directed to NewPlayStationFour page(file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:131)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Amazon homepage tab functionality tests" name="Successful redirecting after clicking NewSonyPSP tab" time="8.883">
+        <system-out>
+            <![CDATA[Given User is in Amazon homepage............................................passed
+When User clicks on NewSonyPSP tab..........................................passed
+Then User is directed to NewSonyPSP page....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Amazon homepage tab functionality tests" name="Successful redirecting after clicking MacGames tab" time="15.021">
+        <system-out>
+            <![CDATA[Given User is in Amazon homepage............................................passed
+When User clicks on MacGames tab............................................passed
+Then User is directed to MacGames page......................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Amazon homepage tab functionality tests" name="Successful redirecting after clicking NewNintendoSwitch tab" time="8.981">
+        <system-out>
+            <![CDATA[Given User is in Amazon homepage............................................passed
+When User clicks on NewNintendoSwitch tab...................................passed
+Then User is directed to NewNintendoSwitch page.............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Amazon homepage tab functionality tests" name="Successful redirecting after clicking MoreSystems tab" time="10.258">
+        <system-out>
+            <![CDATA[Given User is in Amazon homepage............................................passed
+When User clicks on MoreSystems tab.........................................passed
+Then User is directed to MoreSystems page...................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Amazon homepage tab functionality tests" name="Successful redirecting after clicking Microconsoles tab" time="14.067">
+        <system-out>
+            <![CDATA[Given User is in Amazon homepage............................................passed
+When User clicks on Microconsoles tab.......................................passed
+Then User is directed to Microconsoles page.................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Amazon homepage tab functionality tests" name="Successful redirecting after clicking FindAGift tab" time="18.93">
+        <failure message="element not interactable&#10;  (Session info: chrome=85.0.4183.121)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Farjanas-Air', ip: '2604:2000:1700:1c:aca7:63da:436f:f5a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '11.0.6'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/27/nmfyzmzj1c7...}, goog:chromeOptions: {debuggerAddress: localhost:49225}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: a890e6ade66791fca80877a8693d468b" type="org.openqa.selenium.ElementNotInteractableException">
+            <![CDATA[Given User is in Amazon homepage............................................passed
+When User clicks on FindAGift tab...........................................failed
+Then User is directed to FindAGift page.....................................skipped
+
+StackTrace:
+org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Farjanas-Air', ip: '2604:2000:1700:1c:aca7:63da:436f:f5a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '11.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/27/nmfyzmzj1c7...}, goog:chromeOptions: {debuggerAddress: localhost:49225}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a890e6ade66791fca80877a8693d468b
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor114.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at amazonHomeByMobin.AmazonHomePageByMobin.checkFindAGift(AmazonHomePageByMobin.java:500)
+	at stepDefinitions.AmazonHomePageByMobinStepDefinition.userClicksOnFindAGiftTab(AmazonHomePageByMobinStepDefinition.java:304)
+	at ✽.User clicks on FindAGift tab(file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:166)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Amazon homepage tab functionality tests" name="Successful redirecting after clicking WholeFood tab" time="11.845">
+        <system-out>
+            <![CDATA[Given User is in Amazon homepage............................................passed
+When User clicks on WholeFood tab...........................................passed
+Then User is directed to WholeFood page.....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Amazon homepage tab functionality tests" name="Successful redirecting after clicking WholeFoodBeverages tab" time="12.064">
+        <system-out>
+            <![CDATA[Given User is in Amazon homepage............................................passed
+When User clicks on WholeFoodBeverages tab..................................passed
+Then User is directed to WholeFoodBeverages page............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Amazon homepage tab functionality tests" name="Successful redirecting after clicking GiftCards tab" time="8.757">
+        <system-out>
+            <![CDATA[Given User is in Amazon homepage............................................passed
+When User clicks on GiftCards tab...........................................passed
+Then User is directed to GiftCards page.....................................passed
 ]]>
         </system-out>
     </testcase>

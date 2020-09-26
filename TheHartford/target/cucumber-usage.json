@@ -5,28 +5,28 @@
       {
         "name": "User is in The Hartford homepage",
         "aggregatedDurations": {
-          "median": 3.320498,
-          "average": 3.8729054
+          "median": 3.482894,
+          "average": 3.6403142
         },
         "durations": [
           {
-            "duration": 7.002758,
+            "duration": 4.509017,
             "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HFHomePageByMobin.feature:4"
           },
           {
-            "duration": 3.320498,
+            "duration": 3.117157,
             "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HFHomePageByMobin.feature:4"
           },
           {
-            "duration": 2.863348,
+            "duration": 3.958056,
             "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HFHomePageByMobin.feature:4"
           },
           {
-            "duration": 2.745958,
+            "duration": 3.482894,
             "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HFHomePageByMobin.feature:4"
           },
           {
-            "duration": 3.431965,
+            "duration": 3.134447,
             "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HFHomePageByMobin.feature:4"
           }
         ]
@@ -39,49 +39,13 @@
       {
         "name": "User hover over auto tab",
         "aggregatedDurations": {
-          "median": 5.3E-4,
-          "average": 5.3E-4
+          "median": 2.97E-4,
+          "average": 2.97E-4
         },
         "durations": [
           {
-            "duration": 5.3E-4,
+            "duration": 2.97E-4,
             "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HFHomePageByMobin.feature:9"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "clicks on Car Insurance tab",
-    "steps": [
-      {
-        "name": "clicks on Car Insurance tab",
-        "aggregatedDurations": {
-          "median": 3.957427,
-          "average": 3.957427
-        },
-        "durations": [
-          {
-            "duration": 3.957427,
-            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HFHomePageByMobin.feature:10"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "User is directed to Car Insurance page",
-    "steps": [
-      {
-        "name": "User is directed to Car Insurance page",
-        "aggregatedDurations": {
-          "median": 0.198507,
-          "average": 0.198507
-        },
-        "durations": [
-          {
-            "duration": 0.198507,
-            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HFHomePageByMobin.feature:11"
           }
         ]
       }
@@ -93,49 +57,13 @@
       {
         "name": "User hover over Home tab",
         "aggregatedDurations": {
-          "median": 3.43E-4,
-          "average": 3.43E-4
+          "median": 2.99E-4,
+          "average": 2.99E-4
         },
         "durations": [
           {
-            "duration": 3.43E-4,
+            "duration": 2.99E-4,
             "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HFHomePageByMobin.feature:16"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "clicks on Condo Insurance tab",
-    "steps": [
-      {
-        "name": "clicks on Condo Insurance tab",
-        "aggregatedDurations": {
-          "median": 3.407342,
-          "average": 3.407342
-        },
-        "durations": [
-          {
-            "duration": 3.407342,
-            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HFHomePageByMobin.feature:17"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "User is directed to Condo Insurance page",
-    "steps": [
-      {
-        "name": "User is directed to Condo Insurance page",
-        "aggregatedDurations": {
-          "median": 0.038241,
-          "average": 0.038241
-        },
-        "durations": [
-          {
-            "duration": 0.038241,
-            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HFHomePageByMobin.feature:18"
           }
         ]
       }
@@ -147,12 +75,12 @@
       {
         "name": "User hover over Business tab",
         "aggregatedDurations": {
-          "median": 3.1E-4,
-          "average": 3.1E-4
+          "median": 4.61E-4,
+          "average": 4.61E-4
         },
         "durations": [
           {
-            "duration": 3.1E-4,
+            "duration": 4.61E-4,
             "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HFHomePageByMobin.feature:23"
           }
         ]
@@ -165,12 +93,12 @@
       {
         "name": "clicks on Business Insurance tab",
         "aggregatedDurations": {
-          "median": 3.64057,
-          "average": 3.64057
+          "median": 3.93235,
+          "average": 3.93235
         },
         "durations": [
           {
-            "duration": 3.64057,
+            "duration": 3.93235,
             "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HFHomePageByMobin.feature:24"
           }
         ]
@@ -183,12 +111,12 @@
       {
         "name": "User is directed to Business Insurance page",
         "aggregatedDurations": {
-          "median": 0.130105,
-          "average": 0.130105
+          "median": 0.122591,
+          "average": 0.122591
         },
         "durations": [
           {
-            "duration": 0.130105,
+            "duration": 0.122591,
             "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HFHomePageByMobin.feature:25"
           }
         ]
@@ -201,12 +129,12 @@
       {
         "name": "User hover over Employee Benifits tab",
         "aggregatedDurations": {
-          "median": 3.33E-4,
-          "average": 3.33E-4
+          "median": 1.9E-4,
+          "average": 1.9E-4
         },
         "durations": [
           {
-            "duration": 3.33E-4,
+            "duration": 1.9E-4,
             "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HFHomePageByMobin.feature:30"
           }
         ]
@@ -219,12 +147,12 @@
       {
         "name": "clicks on for Employers tab",
         "aggregatedDurations": {
-          "median": 5.608662,
-          "average": 5.608662
+          "median": 3.586861,
+          "average": 3.586861
         },
         "durations": [
           {
-            "duration": 5.608662,
+            "duration": 3.586861,
             "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HFHomePageByMobin.feature:31"
           }
         ]
@@ -237,12 +165,12 @@
       {
         "name": "User is directed to for Employers page",
         "aggregatedDurations": {
-          "median": 0.005526,
-          "average": 0.005526
+          "median": 0.158644,
+          "average": 0.158644
         },
         "durations": [
           {
-            "duration": 0.005526,
+            "duration": 0.158644,
             "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HFHomePageByMobin.feature:32"
           }
         ]
@@ -255,12 +183,12 @@
       {
         "name": "User hover over About tab",
         "aggregatedDurations": {
-          "median": 1.71E-4,
-          "average": 1.71E-4
+          "median": 1.58E-4,
+          "average": 1.58E-4
         },
         "durations": [
           {
-            "duration": 1.71E-4,
+            "duration": 1.58E-4,
             "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HFHomePageByMobin.feature:37"
           }
         ]
@@ -273,12 +201,12 @@
       {
         "name": "clicks on Newsroom tab",
         "aggregatedDurations": {
-          "median": 2.948835,
-          "average": 2.948835
+          "median": 3.247626,
+          "average": 3.247626
         },
         "durations": [
           {
-            "duration": 2.948835,
+            "duration": 3.247626,
             "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HFHomePageByMobin.feature:38"
           }
         ]
@@ -291,13 +219,567 @@
       {
         "name": "User is directed to Newsroom page",
         "aggregatedDurations": {
-          "median": 1.242255,
-          "average": 1.242255
+          "median": 1.303588,
+          "average": 1.303588
         },
         "durations": [
           {
-            "duration": 1.242255,
+            "duration": 1.303588,
             "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HFHomePageByMobin.feature:39"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I on The Heart Fort Homepage",
+    "steps": [
+      {
+        "name": "I on The Heart Fort Homepage",
+        "aggregatedDurations": {
+          "median": 3.021272,
+          "average": 3.101728833
+        },
+        "durations": [
+          {
+            "duration": 3.395657,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 3.605995,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 3.1988,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 3.121517,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 2.950633,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 3.063054,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 2.930542,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 3.398377,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 2.957572,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 2.843047,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 2.97949,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 2.889825,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 3.389335,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 2.707138,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 2.773062,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 2.95213,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 3.137262,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 3.537683,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Click on Find Agent Web Element",
+    "steps": [
+      {
+        "name": "I Click on Find Agent Web Element",
+        "aggregatedDurations": {
+          "median": 1.520742,
+          "average": 1.520742
+        },
+        "durations": [
+          {
+            "duration": 1.520742,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Verify Find Agent page title",
+    "steps": [
+      {
+        "name": "I Verify Find Agent page title",
+        "aggregatedDurations": {
+          "median": 2.274071,
+          "average": 2.274071
+        },
+        "durations": [
+          {
+            "duration": 2.274071,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:21"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Click on Home Web Element",
+    "steps": [
+      {
+        "name": "I Click on Home Web Element",
+        "aggregatedDurations": {
+          "median": 1.643537,
+          "average": 1.643537
+        },
+        "durations": [
+          {
+            "duration": 1.643537,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:25"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Click on Business Web Element",
+    "steps": [
+      {
+        "name": "I Click on Business Web Element",
+        "aggregatedDurations": {
+          "median": 1.168787,
+          "average": 1.168787
+        },
+        "durations": [
+          {
+            "duration": 1.168787,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:30"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Click on The HartFord Home Image Web Element",
+    "steps": [
+      {
+        "name": "I Click on The HartFord Home Image Web Element",
+        "aggregatedDurations": {
+          "median": 1.213224,
+          "average": 1.213224
+        },
+        "durations": [
+          {
+            "duration": 1.213224,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:40"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Click on Agent and Producers Web Element",
+    "steps": [
+      {
+        "name": "I Click on Agent and Producers Web Element",
+        "aggregatedDurations": {
+          "median": 1.037657,
+          "average": 1.037657
+        },
+        "durations": [
+          {
+            "duration": 1.037657,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:50"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Verify Agent and Producers page title",
+    "steps": [
+      {
+        "name": "I Verify Agent and Producers page title",
+        "aggregatedDurations": {
+          "median": 0.458355,
+          "average": 0.458355
+        },
+        "durations": [
+          {
+            "duration": 0.458355,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:51"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Click on Contact Us Web Element",
+    "steps": [
+      {
+        "name": "I Click on Contact Us Web Element",
+        "aggregatedDurations": {
+          "median": 1.10977,
+          "average": 1.10977
+        },
+        "durations": [
+          {
+            "duration": 1.10977,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:55"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Verify Contact Us page title",
+    "steps": [
+      {
+        "name": "I Verify Contact Us page title",
+        "aggregatedDurations": {
+          "median": 0.566999,
+          "average": 0.566999
+        },
+        "durations": [
+          {
+            "duration": 0.566999,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:56"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Click on Mobile App Web Element",
+    "steps": [
+      {
+        "name": "I Click on Mobile App Web Element",
+        "aggregatedDurations": {
+          "median": 1.526606,
+          "average": 1.526606
+        },
+        "durations": [
+          {
+            "duration": 1.526606,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:60"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Verify Mobile App page title",
+    "steps": [
+      {
+        "name": "I Verify Mobile App page title",
+        "aggregatedDurations": {
+          "median": 0.074658,
+          "average": 0.074658
+        },
+        "durations": [
+          {
+            "duration": 0.074658,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:61"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Click on Small Business Web Element",
+    "steps": [
+      {
+        "name": "I Click on Small Business Web Element",
+        "aggregatedDurations": {
+          "median": 0.986208,
+          "average": 0.986208
+        },
+        "durations": [
+          {
+            "duration": 0.986208,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:65"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Verify MSmall Business page title",
+    "steps": [
+      {
+        "name": "I Verify MSmall Business page title",
+        "aggregatedDurations": {
+          "median": 0.037301,
+          "average": 0.037301
+        },
+        "durations": [
+          {
+            "duration": 0.037301,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:66"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Click on Privacy Policy Web Element",
+    "steps": [
+      {
+        "name": "I Click on Privacy Policy Web Element",
+        "aggregatedDurations": {
+          "median": 1.692609,
+          "average": 1.692609
+        },
+        "durations": [
+          {
+            "duration": 1.692609,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:70"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Verify Privacy Policy page title",
+    "steps": [
+      {
+        "name": "I Verify Privacy Policy page title",
+        "aggregatedDurations": {
+          "median": 0.073466,
+          "average": 0.073466
+        },
+        "durations": [
+          {
+            "duration": 0.073466,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:71"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Click on Legal Notice Web Element",
+    "steps": [
+      {
+        "name": "I Click on Legal Notice Web Element",
+        "aggregatedDurations": {
+          "median": 1.310855,
+          "average": 1.310855
+        },
+        "durations": [
+          {
+            "duration": 1.310855,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:75"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Verify Legal Notice page title",
+    "steps": [
+      {
+        "name": "I Verify Legal Notice page title",
+        "aggregatedDurations": {
+          "median": 0.077941,
+          "average": 0.077941
+        },
+        "durations": [
+          {
+            "duration": 0.077941,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:76"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Click on Accessibility Statement Web Element",
+    "steps": [
+      {
+        "name": "I Click on Accessibility Statement Web Element",
+        "aggregatedDurations": {
+          "median": 1.335217,
+          "average": 1.335217
+        },
+        "durations": [
+          {
+            "duration": 1.335217,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:80"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Verify Accessibility Statement page title",
+    "steps": [
+      {
+        "name": "I Verify Accessibility Statement page title",
+        "aggregatedDurations": {
+          "median": 0.069168,
+          "average": 0.069168
+        },
+        "durations": [
+          {
+            "duration": 0.069168,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:81"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Click on Producers Compensations Web Element",
+    "steps": [
+      {
+        "name": "I Click on Producers Compensations Web Element",
+        "aggregatedDurations": {
+          "median": 1.298045,
+          "average": 1.298045
+        },
+        "durations": [
+          {
+            "duration": 1.298045,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:85"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Verify Producers Compensations page title",
+    "steps": [
+      {
+        "name": "I Verify Producers Compensations page title",
+        "aggregatedDurations": {
+          "median": 0.507602,
+          "average": 0.507602
+        },
+        "durations": [
+          {
+            "duration": 0.507602,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:86"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Click on EEO Web Element",
+    "steps": [
+      {
+        "name": "I Click on EEO Web Element",
+        "aggregatedDurations": {
+          "median": 1.178253,
+          "average": 1.178253
+        },
+        "durations": [
+          {
+            "duration": 1.178253,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:90"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Verify EEO page title",
+    "steps": [
+      {
+        "name": "I Verify EEO page title",
+        "aggregatedDurations": {
+          "median": 0.06985,
+          "average": 0.06985
+        },
+        "durations": [
+          {
+            "duration": 0.06985,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:91"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Click on FeedBack Web Element",
+    "steps": [
+      {
+        "name": "I Click on FeedBack Web Element",
+        "aggregatedDurations": {
+          "median": 2.378671,
+          "average": 2.378671
+        },
+        "durations": [
+          {
+            "duration": 2.378671,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:95"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Click on Home Insurance Web Element",
+    "steps": [
+      {
+        "name": "I Click on Home Insurance Web Element",
+        "aggregatedDurations": {
+          "median": 1.162729,
+          "average": 1.162729
+        },
+        "durations": [
+          {
+            "duration": 1.162729,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:110"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Verify Home Insurance page title",
+    "steps": [
+      {
+        "name": "I Verify Home Insurance page title",
+        "aggregatedDurations": {
+          "median": 0.316786,
+          "average": 0.316786
+        },
+        "durations": [
+          {
+            "duration": 0.316786,
+            "location": "file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/TheHartford/src/test/java/features/HomePage.feature:111"
           }
         ]
       }

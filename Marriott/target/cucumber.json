@@ -11,13 +11,13 @@
         "steps": [
           {
             "result": {
-              "duration": 9908903000,
+              "duration": 19636327000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 74546000,
+                  "duration": 56343000,
                   "status": "passed"
                 },
                 "match": {
@@ -35,7 +35,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-25T14:39:39.250Z",
+        "start_timestamp": "2020-09-26T07:12:20.990Z",
         "line": 8,
         "name": "Successful redirecting after clicking Deutsch tab",
         "description": "",
@@ -43,7 +43,7 @@
         "after": [
           {
             "result": {
-              "duration": 253288000,
+              "duration": 407750000,
               "status": "passed"
             },
             "match": {
@@ -56,13 +56,13 @@
         "steps": [
           {
             "result": {
-              "duration": 1427000,
+              "duration": 7669000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 2870000,
+                  "duration": 27336000,
                   "status": "passed"
                 },
                 "match": {
@@ -79,13 +79,13 @@
           },
           {
             "result": {
-              "duration": 5186045000,
+              "duration": 9387265000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1749000,
+                  "duration": 6666000,
                   "status": "passed"
                 },
                 "match": {
@@ -102,13 +102,13 @@
           },
           {
             "result": {
-              "duration": 616147000,
+              "duration": 3303610000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1847000,
+                  "duration": 9212000,
                   "status": "passed"
                 },
                 "match": {
@@ -139,13 +139,13 @@
         "steps": [
           {
             "result": {
-              "duration": 10040174000,
+              "duration": 10480032000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1729000,
+                  "duration": 1634000,
                   "status": "passed"
                 },
                 "match": {
@@ -163,7 +163,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-25T14:39:55.564Z",
+        "start_timestamp": "2020-09-26T07:12:54.281Z",
         "line": 15,
         "name": "Successful redirecting after clicking Espanol tab",
         "description": "",
@@ -171,7 +171,7 @@
         "after": [
           {
             "result": {
-              "duration": 324145000,
+              "duration": 224636000,
               "status": "passed"
             },
             "match": {
@@ -184,13 +184,13 @@
         "steps": [
           {
             "result": {
-              "duration": 766000,
+              "duration": 1231000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 2258000,
+                  "duration": 11602000,
                   "status": "passed"
                 },
                 "match": {
@@ -207,13 +207,13 @@
           },
           {
             "result": {
-              "duration": 6529413000,
+              "duration": 18046948000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1700000,
+                  "duration": 2469000,
                   "status": "passed"
                 },
                 "match": {
@@ -230,13 +230,13 @@
           },
           {
             "result": {
-              "duration": 27679000,
+              "duration": 564378000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 5821000,
+                  "duration": 6939000,
                   "status": "passed"
                 },
                 "match": {
@@ -248,6 +248,984 @@
             "name": "User is directed to the Spanish language page",
             "match": {
               "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.userIsDirectedToTheSpanishLanguagePage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7791415000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1685000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in Marriott homepage",
+            "match": {
+              "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.user_is_in_marriott_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T07:13:23.729Z",
+        "line": 22,
+        "name": "Checking functionality of destination search box",
+        "description": "",
+        "id": "marriott-homepage-tab-functionality-tests;checking-functionality-of-destination-search-box",
+        "after": [
+          {
+            "result": {
+              "duration": 296550000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11319356000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 11099000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 23,
+            "name": "User clicks on destination search box",
+            "match": {
+              "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.userClicksOnDestinationSearchBox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 349000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 3069000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 24,
+            "name": "types the destination name",
+            "match": {
+              "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.typesTheDestinationName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 506000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1075000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 25,
+            "name": "User varivies the name visible on the search box",
+            "match": {
+              "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.userVariviesTheNameVisibleOnTheSearchBox()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4839403000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2075000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in Marriott homepage",
+            "match": {
+              "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.user_is_in_marriott_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T07:13:43.273Z",
+        "line": 29,
+        "name": "Checking functionality of Calendar",
+        "description": "",
+        "id": "marriott-homepage-tab-functionality-tests;checking-functionality-of-calendar",
+        "after": [
+          {
+            "result": {
+              "duration": 222729000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7514599000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1396000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 30,
+            "name": "User clicks on Calendar",
+            "match": {
+              "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.userClicksOnCalendar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 330000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 924000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 31,
+            "name": "inserts travel date",
+            "match": {
+              "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.insertsTravelDate()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 320000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1754000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 32,
+            "name": "User varivies the travel date visible on the Calendar",
+            "match": {
+              "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.userVariviesTheTravelDateVisibleOnTheCalendar()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4701125000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1110000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in Marriott homepage",
+            "match": {
+              "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.user_is_in_marriott_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T07:13:55.917Z",
+        "line": 36,
+        "name": "Checking functionality of number of room box",
+        "description": "",
+        "id": "marriott-homepage-tab-functionality-tests;checking-functionality-of-number-of-room-box",
+        "after": [
+          {
+            "result": {
+              "duration": 289355000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7186871000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 892000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 37,
+            "name": "User clicks on number of room box",
+            "match": {
+              "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.userClicksOnNumberOfRoomBox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 732000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1292000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 38,
+            "name": "inserts number of rooms by clicking plus sign",
+            "match": {
+              "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.insertsNumberOfRoomsByClickingPlusSign()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 298000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1080000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 39,
+            "name": "User varivies the number of rooms on the desired box",
+            "match": {
+              "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.userVariviesTheNumberOfRoomsOnTheDesiredBox()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4075283000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 6180000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in Marriott homepage",
+            "match": {
+              "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.user_is_in_marriott_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T07:14:08.149Z",
+        "line": 43,
+        "name": "Checking functionality of Adult Guest Number",
+        "description": "",
+        "id": "marriott-homepage-tab-functionality-tests;checking-functionality-of-adult-guest-number",
+        "after": [
+          {
+            "result": {
+              "duration": 208077000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2273412000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 894000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 44,
+            "name": "User clicks on Adult Guest Number box",
+            "match": {
+              "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.userClicksOnAdultGuestNumberBox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 413000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 4566000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 45,
+            "name": "inserts number of Adult Guests by clicking plus sign",
+            "match": {
+              "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.insertsNumberOfAdultGuestsByClickingPlusSign()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 279000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1095000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 46,
+            "name": "User varivies the number of Adult Guest on the desired box",
+            "match": {
+              "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.userVariviesTheNumberOfAdultGuestOnTheDesiredBox()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6520055000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 6245000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in Marriott homepage",
+            "match": {
+              "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.user_is_in_marriott_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T07:14:14.765Z",
+        "line": 50,
+        "name": "Checking functionality of Child Guest Number",
+        "description": "",
+        "id": "marriott-homepage-tab-functionality-tests;checking-functionality-of-child-guest-number",
+        "after": [
+          {
+            "result": {
+              "duration": 221553000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5991531000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 895000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 51,
+            "name": "User clicks on Child Guest Number box",
+            "match": {
+              "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.userClicksOnChildGuestNumberBox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 252000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 948000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 52,
+            "name": "inserts number of Child Guests by clicking plus sign",
+            "match": {
+              "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.insertsNumberOfChildGuestsByClickingPlusSign()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 214000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 645000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 53,
+            "name": "User varivies the number of Child Guest on the desired box",
+            "match": {
+              "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.userVariviesTheNumberOfChildGuestOnTheDesiredBox()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4649711000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 855000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in Marriott homepage",
+            "match": {
+              "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.user_is_in_marriott_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T07:14:27.556Z",
+        "line": 57,
+        "name": "Checking functionality of Special Rate",
+        "description": "",
+        "id": "marriott-homepage-tab-functionality-tests;checking-functionality-of-special-rate",
+        "after": [
+          {
+            "result": {
+              "duration": 255185000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5177595000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 829000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 58,
+            "name": "User clicks on Special Rate checkbox",
+            "match": {
+              "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.userClicksOnSpecialRateCheckbox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 290000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 904000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 59,
+            "name": "User varivies check mark on Special Rate checkbox",
+            "match": {
+              "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.userVariviesCheckMarkOnSpecialRateCheckbox()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5020234000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2038000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in Marriott homepage",
+            "match": {
+              "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.user_is_in_marriott_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T07:14:37.679Z",
+        "line": 63,
+        "name": "Checking functionality of Use Point",
+        "description": "",
+        "id": "marriott-homepage-tab-functionality-tests;checking-functionality-of-use-point",
+        "after": [
+          {
+            "result": {
+              "duration": 299861000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7612559000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1038000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 64,
+            "name": "User clicks on Use Point checkbox",
+            "match": {
+              "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.userClicksOnUsePointCheckbox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 708000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1838000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 65,
+            "name": "User varivies check mark on Use Point checkbox",
+            "match": {
+              "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.userVariviesCheckMarkOnUsePointCheckbox()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4385784000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 710000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is in Marriott homepage",
+            "match": {
+              "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.user_is_in_marriott_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T07:14:50.642Z",
+        "line": 69,
+        "name": "Checking full functionality of Hotel Finding",
+        "description": "",
+        "id": "marriott-homepage-tab-functionality-tests;checking-full-functionality-of-hotel-finding",
+        "after": [
+          {
+            "result": {
+              "duration": 326162000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 27203298000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 710000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 70,
+            "name": "User inserts information in required sections",
+            "match": {
+              "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.userInsertsInformationInRequiredSections()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 240000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1451000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 71,
+            "name": "clicks Find Hotel tab",
+            "match": {
+              "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.clicksFindHotelTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34950000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 773000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 72,
+            "name": "User varivies the",
+            "match": {
+              "location": "stepDefinitions.MarriottHomePageByMobinStepDefinition.userVariviesThe()"
             },
             "keyword": "Then "
           }

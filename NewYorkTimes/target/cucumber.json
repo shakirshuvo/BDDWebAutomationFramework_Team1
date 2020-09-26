@@ -11,13 +11,13 @@
         "steps": [
           {
             "result": {
-              "duration": 6967751000,
+              "duration": 9090342000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 56229000,
+                  "duration": 45182000,
                   "status": "passed"
                 },
                 "match": {
@@ -35,7 +35,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-25T03:12:20.091Z",
+        "start_timestamp": "2020-09-26T07:15:32.344Z",
         "line": 8,
         "name": "Successful redirecting after clicking World tab",
         "description": "",
@@ -43,7 +43,7 @@
         "after": [
           {
             "result": {
-              "duration": 261698000,
+              "duration": 282096000,
               "status": "passed"
             },
             "match": {
@@ -56,13 +56,13 @@
         "steps": [
           {
             "result": {
-              "duration": 3917884000,
+              "duration": 4763416000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 3241000,
+                  "duration": 2137000,
                   "status": "passed"
                 },
                 "match": {
@@ -79,13 +79,13 @@
           },
           {
             "result": {
-              "duration": 407846000,
+              "duration": 16697000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1148000,
+                  "duration": 903000,
                   "status": "passed"
                 },
                 "match": {
@@ -116,13 +116,13 @@
         "steps": [
           {
             "result": {
-              "duration": 2918479000,
+              "duration": 9245215000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 2193000,
+                  "duration": 3177000,
                   "status": "passed"
                 },
                 "match": {
@@ -140,7 +140,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-25T03:12:31.930Z",
+        "start_timestamp": "2020-09-26T07:15:46.787Z",
         "line": 14,
         "name": "Successful redirecting after clicking US tab",
         "description": "",
@@ -148,7 +148,7 @@
         "after": [
           {
             "result": {
-              "duration": 236316000,
+              "duration": 282970000,
               "status": "passed"
             },
             "match": {
@@ -161,13 +161,13 @@
         "steps": [
           {
             "result": {
-              "duration": 4329359000,
+              "duration": 5654748000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1218000,
+                  "duration": 9738000,
                   "status": "passed"
                 },
                 "match": {
@@ -184,13 +184,13 @@
           },
           {
             "result": {
-              "duration": 405095000,
+              "duration": 37794000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1733000,
+                  "duration": 1189000,
                   "status": "passed"
                 },
                 "match": {
@@ -221,13 +221,13 @@
         "steps": [
           {
             "result": {
-              "duration": 2673941000,
+              "duration": 5567075000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 540000,
+                  "duration": 1819000,
                   "status": "passed"
                 },
                 "match": {
@@ -245,7 +245,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-25T03:12:39.854Z",
+        "start_timestamp": "2020-09-26T07:16:02.121Z",
         "line": 20,
         "name": "Successful redirecting after clicking Politics tab",
         "description": "",
@@ -253,7 +253,7 @@
         "after": [
           {
             "result": {
-              "duration": 228489000,
+              "duration": 255498000,
               "status": "passed"
             },
             "match": {
@@ -266,13 +266,13 @@
         "steps": [
           {
             "result": {
-              "duration": 3556442000,
+              "duration": 4749043000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 712000,
+                  "duration": 1134000,
                   "status": "passed"
                 },
                 "match": {
@@ -289,13 +289,13 @@
           },
           {
             "result": {
-              "duration": 704153000,
+              "duration": 1122040000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 799000,
+                  "duration": 754000,
                   "status": "passed"
                 },
                 "match": {
@@ -326,13 +326,13 @@
         "steps": [
           {
             "result": {
-              "duration": 2637757000,
+              "duration": 4504712000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 744000,
+                  "duration": 803000,
                   "status": "passed"
                 },
                 "match": {
@@ -350,7 +350,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-25T03:12:47.040Z",
+        "start_timestamp": "2020-09-26T07:16:13.858Z",
         "line": 26,
         "name": "Successful redirecting after clicking NY tab",
         "description": "",
@@ -358,7 +358,7 @@
         "after": [
           {
             "result": {
-              "duration": 221040000,
+              "duration": 205512000,
               "status": "passed"
             },
             "match": {
@@ -371,13 +371,13 @@
         "steps": [
           {
             "result": {
-              "duration": 3455519000,
+              "duration": 7195897000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 796000,
+                  "duration": 849000,
                   "status": "passed"
                 },
                 "match": {
@@ -394,13 +394,13 @@
           },
           {
             "result": {
-              "duration": 624966000,
+              "duration": 446034000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 633000,
+                  "duration": 1159000,
                   "status": "passed"
                 },
                 "match": {
@@ -431,13 +431,13 @@
         "steps": [
           {
             "result": {
-              "duration": 2676248000,
+              "duration": 3111156000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 707000,
+                  "duration": 1467000,
                   "status": "passed"
                 },
                 "match": {
@@ -455,7 +455,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-25T03:12:54.040Z",
+        "start_timestamp": "2020-09-26T07:16:26.238Z",
         "line": 32,
         "name": "Successful redirecting after clicking Business tab",
         "description": "",
@@ -463,7 +463,7 @@
         "after": [
           {
             "result": {
-              "duration": 234880000,
+              "duration": 242392000,
               "status": "passed"
             },
             "match": {
@@ -476,13 +476,13 @@
         "steps": [
           {
             "result": {
-              "duration": 4316251000,
+              "duration": 5179850000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 843000,
+                  "duration": 718000,
                   "status": "passed"
                 },
                 "match": {
@@ -499,13 +499,13 @@
           },
           {
             "result": {
-              "duration": 152426000,
+              "duration": 245734000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 643000,
+                  "duration": 843000,
                   "status": "passed"
                 },
                 "match": {

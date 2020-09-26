@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="41.832">
-    <testcase classname="New York Times homepage tab functionality tests" name="Successful redirecting after clicking World tab" time="11.804">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="63.161">
+    <testcase classname="New York Times homepage tab functionality tests" name="Successful redirecting after clicking World tab" time="14.391">
         <system-out>
             <![CDATA[Given User is in New York Times homepage....................................passed
 When User clicks on World tab...............................................passed
@@ -8,7 +8,7 @@ Then User is directed to World page.........................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="New York Times homepage tab functionality tests" name="Successful redirecting after clicking US tab" time="7.906">
+    <testcase classname="New York Times homepage tab functionality tests" name="Successful redirecting after clicking US tab" time="15.262">
         <system-out>
             <![CDATA[Given User is in New York Times homepage....................................passed
 When User clicks on US tab..................................................passed
@@ -16,7 +16,7 @@ Then User is directed to US page............................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="New York Times homepage tab functionality tests" name="Successful redirecting after clicking Politics tab" time="7.172">
+    <testcase classname="New York Times homepage tab functionality tests" name="Successful redirecting after clicking Politics tab" time="11.717">
         <system-out>
             <![CDATA[Given User is in New York Times homepage....................................passed
 When User clicks on Politics tab............................................passed
@@ -24,7 +24,7 @@ Then User is directed to Politics page......................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="New York Times homepage tab functionality tests" name="Successful redirecting after clicking NY tab" time="6.947">
+    <testcase classname="New York Times homepage tab functionality tests" name="Successful redirecting after clicking NY tab" time="12.362">
         <system-out>
             <![CDATA[Given User is in New York Times homepage....................................passed
 When User clicks on NY tab..................................................passed
@@ -32,7 +32,7 @@ Then User is directed to NY page............................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="New York Times homepage tab functionality tests" name="Successful redirecting after clicking Business tab" time="7.386">
+    <testcase classname="New York Times homepage tab functionality tests" name="Successful redirecting after clicking Business tab" time="8.79">
         <system-out>
             <![CDATA[Given User is in New York Times homepage....................................passed
 When User clicks on Business tab............................................passed

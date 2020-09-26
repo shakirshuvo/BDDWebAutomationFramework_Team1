@@ -1,6 +1,259 @@
 
 @SmokeTest
-Scenario: Successful redirecting after clicking BestSeller tab # src/test/java/features/AmazonHomePageByMobin.feature:8
+Scenario: Amazon homepage search box functionality check # src/test/java/features/AmazonHomePageByMobin.feature:8
+  Given User is in Amazon homepage                       # stepDefinitions.AmazonHomePageByMobinStepDefinition.user_is_in_amazon_homepage()
+  When User inserts "hat" in search box                  # stepDefinitions.AmazonHomePageByMobinStepDefinition.userInsertsInSearchBox(java.lang.String)
+      java.lang.NullPointerException
+	at amazonHomeByMobin.AmazonHomePageByMobin.checkSearchBox(AmazonHomePageByMobin.java:69)
+	at stepDefinitions.AmazonHomePageByMobinStepDefinition.userInsertsInSearchBox(AmazonHomePageByMobinStepDefinition.java:45)
+	at ✽.User inserts "hat" in search box(file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:9)
+
+  And enters submit button                               # stepDefinitions.AmazonHomePageByMobinStepDefinition.entersSubmitButton()
+  Then User varifies "hat" from the search page          # stepDefinitions.AmazonHomePageByMobinStepDefinition.userVarifiesFromTheSearchPage(java.lang.String)
+
+@SmokeTest
+Scenario: Successful redirecting after clicking BestSeller tab # src/test/java/features/AmazonHomePageByMobin.feature:15
   Given User is in Amazon homepage                             # stepDefinitions.AmazonHomePageByMobinStepDefinition.user_is_in_amazon_homepage()
   When User clicks on BestSeller tab                           # stepDefinitions.AmazonHomePageByMobinStepDefinition.user_clicks_on_best_seller_tab()
   Then User is directed to BestSeller page                     # stepDefinitions.AmazonHomePageByMobinStepDefinition.user_is_directed_to_best_seller_page()
+
+@SmokeTest
+Scenario: Successful redirecting after clicking NewReleases tab # src/test/java/features/AmazonHomePageByMobin.feature:21
+  Given User is in Amazon homepage                              # stepDefinitions.AmazonHomePageByMobinStepDefinition.user_is_in_amazon_homepage()
+  When User clicks on NewReleases tab                           # stepDefinitions.AmazonHomePageByMobinStepDefinition.userClicksOnNewReleasesTab()
+  Then User is directed to NewReleases page                     # stepDefinitions.AmazonHomePageByMobinStepDefinition.userIsDirectedToNewReleasesPage()
+
+@SmokeTest
+Scenario: Successful redirecting after clicking MoversAndShakers tab # src/test/java/features/AmazonHomePageByMobin.feature:27
+  Given User is in Amazon homepage                                   # stepDefinitions.AmazonHomePageByMobinStepDefinition.user_is_in_amazon_homepage()
+  When User clicks on MoversAndShakers tab                           # stepDefinitions.AmazonHomePageByMobinStepDefinition.userClicksOnMoversAndShakersTab()
+  Then User is directed to MoversAndShakers page                     # stepDefinitions.AmazonHomePageByMobinStepDefinition.userIsDirectedToMoversAndShakersPage()
+      java.lang.AssertionError: Test failed expected [] but found [Amazon.com Best Sellers: The most popular items on Amazon]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at amazonHomeByMobin.AmazonHomePageByMobin.validateMoversAndShakers(AmazonHomePageByMobin.java:129)
+	at stepDefinitions.AmazonHomePageByMobinStepDefinition.userIsDirectedToMoversAndShakersPage(AmazonHomePageByMobinStepDefinition.java:76)
+	at ✽.User is directed to MoversAndShakers page(file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:29)
+
+
+@SmokeTest
+Scenario: Successful redirecting after clicking MostWishedFor tab # src/test/java/features/AmazonHomePageByMobin.feature:33
+  Given User is in Amazon homepage                                # stepDefinitions.AmazonHomePageByMobinStepDefinition.user_is_in_amazon_homepage()
+  When User clicks on MostWishedFor tab                           # stepDefinitions.AmazonHomePageByMobinStepDefinition.userClicksOnMostWishedForTab()
+  Then User is directed to MostWishedFor page                     # stepDefinitions.AmazonHomePageByMobinStepDefinition.userIsDirectedToMostWishedForPage()
+
+@SmokeTest
+Scenario: Successful redirecting after clicking GiftIdeas tab # src/test/java/features/AmazonHomePageByMobin.feature:39
+  Given User is in Amazon homepage                            # stepDefinitions.AmazonHomePageByMobinStepDefinition.user_is_in_amazon_homepage()
+  When User clicks on GiftIdeas tab                           # stepDefinitions.AmazonHomePageByMobinStepDefinition.userClicksOnGiftIdeasTab()
+  Then User is directed to GiftIdeas page                     # stepDefinitions.AmazonHomePageByMobinStepDefinition.userIsDirectedToGiftIdeasPage()
+      java.lang.AssertionError: Test failed expected [Amazon.com Gift Ideas: The most popular items ordered as gifts at Amazon] but found []
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at amazonHomeByMobin.AmazonHomePageByMobin.validateGiftIdeas(AmazonHomePageByMobin.java:161)
+	at stepDefinitions.AmazonHomePageByMobinStepDefinition.userIsDirectedToGiftIdeasPage(AmazonHomePageByMobinStepDefinition.java:96)
+	at ✽.User is directed to GiftIdeas page(file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:41)
+
+
+@SmokeTest
+Scenario: Successful redirecting after clicking CustomerService tab # src/test/java/features/AmazonHomePageByMobin.feature:45
+  Given User is in Amazon homepage                                  # stepDefinitions.AmazonHomePageByMobinStepDefinition.user_is_in_amazon_homepage()
+  When User clicks on CustomerService tab                           # stepDefinitions.AmazonHomePageByMobinStepDefinition.userClicksOnCustomerServiceTab()
+  Then User is directed to CustomerService page                     # stepDefinitions.AmazonHomePageByMobinStepDefinition.userIsDirectedToCustomerServicePage()
+
+@SmokeTest
+Scenario: Successful redirecting after clicking TodaysDeal tab # src/test/java/features/AmazonHomePageByMobin.feature:51
+  Given User is in Amazon homepage                             # stepDefinitions.AmazonHomePageByMobinStepDefinition.user_is_in_amazon_homepage()
+  When User clicks on TodaysDeal tab                           # stepDefinitions.AmazonHomePageByMobinStepDefinition.userClicksOnTodaysDealTab()
+  Then User is directed to TodaysDeal page                     # stepDefinitions.AmazonHomePageByMobinStepDefinition.userIsDirectedToTodaysDealPage()
+
+@SmokeTest
+Scenario: Successful redirecting after clicking NewReleasesA tab # src/test/java/features/AmazonHomePageByMobin.feature:57
+  Given User is in Amazon homepage                               # stepDefinitions.AmazonHomePageByMobinStepDefinition.user_is_in_amazon_homepage()
+  When User clicks on NewReleasesA tab                           # stepDefinitions.AmazonHomePageByMobinStepDefinition.userClicksOnNewReleasesATab()
+  Then User is directed to NewReleasesA page                     # stepDefinitions.AmazonHomePageByMobinStepDefinition.userIsDirectedToNewReleasesAPage()
+
+@SmokeTest
+Scenario: Successful redirecting after clicking NewGames tab # src/test/java/features/AmazonHomePageByMobin.feature:63
+  Given User is in Amazon homepage                           # stepDefinitions.AmazonHomePageByMobinStepDefinition.user_is_in_amazon_homepage()
+  When User clicks on NewGames tab                           # stepDefinitions.AmazonHomePageByMobinStepDefinition.userClicksOnNewGamesTab()
+  Then User is directed to NewGames page                     # stepDefinitions.AmazonHomePageByMobinStepDefinition.userIsDirectedToNewGamesPage()
+
+@SmokeTest
+Scenario: Successful redirecting after clicking NewPCGames tab # src/test/java/features/AmazonHomePageByMobin.feature:69
+  Given User is in Amazon homepage                             # stepDefinitions.AmazonHomePageByMobinStepDefinition.user_is_in_amazon_homepage()
+  When User clicks on NewPCGames tab                           # stepDefinitions.AmazonHomePageByMobinStepDefinition.userClicksOnNewPCGamesTab()
+  Then User is directed to NewPCGames page                     # stepDefinitions.AmazonHomePageByMobinStepDefinition.userIsDirectedToNewPCGamesPage()
+      java.lang.AssertionError: Test failed expected [Amazon.com New Releases: The best-selling new & future releases in PC Games & Accessories] but found [Amazon.com New Releases: The best-selling new & future releases in Video Games]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at amazonHomeByMobin.AmazonHomePageByMobin.validateNewPCGames(AmazonHomePageByMobin.java:239)
+	at stepDefinitions.AmazonHomePageByMobinStepDefinition.userIsDirectedToNewPCGamesPage(AmazonHomePageByMobinStepDefinition.java:147)
+	at ✽.User is directed to NewPCGames page(file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:71)
+
+
+@SmokeTest
+Scenario: Successful redirecting after clicking NewVideoGames tab # src/test/java/features/AmazonHomePageByMobin.feature:75
+  Given User is in Amazon homepage                                # stepDefinitions.AmazonHomePageByMobinStepDefinition.user_is_in_amazon_homepage()
+  When User clicks on NewVideoGames tab                           # stepDefinitions.AmazonHomePageByMobinStepDefinition.userClicksOnNewVideoGamesTab()
+  Then User is directed to NewVideoGames page                     # stepDefinitions.AmazonHomePageByMobinStepDefinition.userIsDirectedToNewVideoGamesPage()
+
+@SmokeTest
+Scenario: Successful redirecting after clicking NewPlayStationThree tab # src/test/java/features/AmazonHomePageByMobin.feature:81
+  Given User is in Amazon homepage                                      # stepDefinitions.AmazonHomePageByMobinStepDefinition.user_is_in_amazon_homepage()
+  When User clicks on NewPlayStationThree tab                           # stepDefinitions.AmazonHomePageByMobinStepDefinition.userClicksOnNewPlayStationThreeTab()
+  Then User is directed to NewPlayStationThree page                     # stepDefinitions.AmazonHomePageByMobinStepDefinition.userIsDirectedToNewPlayStationThreePage()
+
+@SmokeTest
+Scenario: Successful redirecting after clicking NewXbox360 tab # src/test/java/features/AmazonHomePageByMobin.feature:87
+  Given User is in Amazon homepage                             # stepDefinitions.AmazonHomePageByMobinStepDefinition.user_is_in_amazon_homepage()
+  When User clicks on NewXboxThreeSixty tab                    # stepDefinitions.AmazonHomePageByMobinStepDefinition.userClicksOnNewXboxThreeSixtyTab()
+  Then User is directed to NewXboxThreeSixty page              # stepDefinitions.AmazonHomePageByMobinStepDefinition.userIsDirectedToNewXboxThreeSixtyPage()
+
+@SmokeTest
+Scenario: Successful redirecting after clicking NewNintendoDS tab # src/test/java/features/AmazonHomePageByMobin.feature:93
+  Given User is in Amazon homepage                                # stepDefinitions.AmazonHomePageByMobinStepDefinition.user_is_in_amazon_homepage()
+  When User clicks on NewNintendoDS tab                           # stepDefinitions.AmazonHomePageByMobinStepDefinition.userClicksOnNewNintendoDSTab()
+  Then User is directed to NewNintendoDS page                     # stepDefinitions.AmazonHomePageByMobinStepDefinition.userIsDirectedToNewNintendoDSPage()
+
+@SmokeTest
+Scenario: Successful redirecting after clicking NewWii tab # src/test/java/features/AmazonHomePageByMobin.feature:99
+  Given User is in Amazon homepage                         # stepDefinitions.AmazonHomePageByMobinStepDefinition.user_is_in_amazon_homepage()
+  When User clicks on NewWii tab                           # stepDefinitions.AmazonHomePageByMobinStepDefinition.userClicksOnNewWiiTab()
+  Then User is directed to NewWii page                     # stepDefinitions.AmazonHomePageByMobinStepDefinition.userIsDirectedToNewWiiPage()
+
+@SmokeTest
+Scenario: Successful redirecting after clicking NewWiiU tab # src/test/java/features/AmazonHomePageByMobin.feature:105
+  Given User is in Amazon homepage                          # stepDefinitions.AmazonHomePageByMobinStepDefinition.user_is_in_amazon_homepage()
+  When User clicks on NewWiiU tab                           # stepDefinitions.AmazonHomePageByMobinStepDefinition.userClicksOnNewWiiUTab()
+  Then User is directed to NewWiiU page                     # stepDefinitions.AmazonHomePageByMobinStepDefinition.userIsDirectedToNewWiiUPage()
+      java.lang.AssertionError: Test failed expected [] but found [Amazon.com New Releases: The best-selling new & future releases in Wii U Games, Consoles & Accessories]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at amazonHomeByMobin.AmazonHomePageByMobin.validateNewWiiU(AmazonHomePageByMobin.java:341)
+	at stepDefinitions.AmazonHomePageByMobinStepDefinition.userIsDirectedToNewWiiUPage(AmazonHomePageByMobinStepDefinition.java:209)
+	at ✽.User is directed to NewWiiU page(file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:107)
+
+
+@SmokeTest
+Scenario: Successful redirecting after clicking NewPlayStationVista tab # src/test/java/features/AmazonHomePageByMobin.feature:111
+  Given User is in Amazon homepage                                      # stepDefinitions.AmazonHomePageByMobinStepDefinition.user_is_in_amazon_homepage()
+  When User clicks on NewPlayStationVista tab                           # stepDefinitions.AmazonHomePageByMobinStepDefinition.userClicksOnNewPlayStationVistaTab()
+  Then User is directed to NewPlayStationVista page                     # stepDefinitions.AmazonHomePageByMobinStepDefinition.userIsDirectedToNewPlayStationVistaPage()
+
+@SmokeTest
+Scenario: Successful redirecting after clicking NewNintendo3DS tab # src/test/java/features/AmazonHomePageByMobin.feature:117
+  Given User is in Amazon homepage                                 # stepDefinitions.AmazonHomePageByMobinStepDefinition.user_is_in_amazon_homepage()
+  When User clicks on NewNintendoThreeDS tab                       # stepDefinitions.AmazonHomePageByMobinStepDefinition.userClicksOnNewNintendoThreeDSTab()
+  Then User is directed to NewNintendoThreeDS page                 # stepDefinitions.AmazonHomePageByMobinStepDefinition.userIsDirectedToNewNintendoThreeDSPage()
+
+@SmokeTest
+Scenario: Successful redirecting after clicking NewXboxOne tab # src/test/java/features/AmazonHomePageByMobin.feature:123
+  Given User is in Amazon homepage                             # stepDefinitions.AmazonHomePageByMobinStepDefinition.user_is_in_amazon_homepage()
+  When User clicks on NewXboxOne tab                           # stepDefinitions.AmazonHomePageByMobinStepDefinition.userClicksOnNewXboxOneTab()
+  Then User is directed to NewXboxOne page                     # stepDefinitions.AmazonHomePageByMobinStepDefinition.userIsDirectedToNewXboxOnePage()
+
+@SmokeTest
+Scenario: Successful redirecting after clicking NewPlayStation4 tab # src/test/java/features/AmazonHomePageByMobin.feature:129
+  Given User is in Amazon homepage                                  # stepDefinitions.AmazonHomePageByMobinStepDefinition.user_is_in_amazon_homepage()
+  When User clicks on NewPlayStationFour tab                        # stepDefinitions.AmazonHomePageByMobinStepDefinition.userClicksOnNewPlayStationFourTab()
+  Then User is directed to NewPlayStationFour page                  # stepDefinitions.AmazonHomePageByMobinStepDefinition.userIsDirectedToNewPlayStationFourPage()
+      java.lang.AssertionError: Test failed expected [Amazon.com New Releases: The best-selling new & future releases in PlayStation 4 Games, Consoles & Accessories] but found [Amazon.com New Releases: The best-selling new & future releases in Video Games]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at amazonHomeByMobin.AmazonHomePageByMobin.validateNewPlayStation4(AmazonHomePageByMobin.java:409)
+	at stepDefinitions.AmazonHomePageByMobinStepDefinition.userIsDirectedToNewPlayStationFourPage(AmazonHomePageByMobinStepDefinition.java:249)
+	at ✽.User is directed to NewPlayStationFour page(file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:131)
+
+
+@SmokeTest
+Scenario: Successful redirecting after clicking NewSonyPSP tab # src/test/java/features/AmazonHomePageByMobin.feature:135
+  Given User is in Amazon homepage                             # stepDefinitions.AmazonHomePageByMobinStepDefinition.user_is_in_amazon_homepage()
+  When User clicks on NewSonyPSP tab                           # stepDefinitions.AmazonHomePageByMobinStepDefinition.userClicksOnNewSonyPSPTab()
+  Then User is directed to NewSonyPSP page                     # stepDefinitions.AmazonHomePageByMobinStepDefinition.userIsDirectedToNewSonyPSPPage()
+
+@SmokeTest
+Scenario: Successful redirecting after clicking MacGames tab # src/test/java/features/AmazonHomePageByMobin.feature:141
+  Given User is in Amazon homepage                           # stepDefinitions.AmazonHomePageByMobinStepDefinition.user_is_in_amazon_homepage()
+  When User clicks on MacGames tab                           # stepDefinitions.AmazonHomePageByMobinStepDefinition.userClicksOnMacGamesTab()
+  Then User is directed to MacGames page                     # stepDefinitions.AmazonHomePageByMobinStepDefinition.userIsDirectedToMacGamesPage()
+
+@SmokeTest
+Scenario: Successful redirecting after clicking NewNintendoSwitch tab # src/test/java/features/AmazonHomePageByMobin.feature:147
+  Given User is in Amazon homepage                                    # stepDefinitions.AmazonHomePageByMobinStepDefinition.user_is_in_amazon_homepage()
+  When User clicks on NewNintendoSwitch tab                           # stepDefinitions.AmazonHomePageByMobinStepDefinition.userClicksOnNewNintendoSwitchTab()
+  Then User is directed to NewNintendoSwitch page                     # stepDefinitions.AmazonHomePageByMobinStepDefinition.userIsDirectedToNewNintendoSwitchPage()
+
+@SmokeTest
+Scenario: Successful redirecting after clicking MoreSystems tab # src/test/java/features/AmazonHomePageByMobin.feature:153
+  Given User is in Amazon homepage                              # stepDefinitions.AmazonHomePageByMobinStepDefinition.user_is_in_amazon_homepage()
+  When User clicks on MoreSystems tab                           # stepDefinitions.AmazonHomePageByMobinStepDefinition.userClicksOnMoreSystemsTab()
+  Then User is directed to MoreSystems page                     # stepDefinitions.AmazonHomePageByMobinStepDefinition.userIsDirectedToMoreSystemsPage()
+
+@SmokeTest
+Scenario: Successful redirecting after clicking Microconsoles tab # src/test/java/features/AmazonHomePageByMobin.feature:159
+  Given User is in Amazon homepage                                # stepDefinitions.AmazonHomePageByMobinStepDefinition.user_is_in_amazon_homepage()
+  When User clicks on Microconsoles tab                           # stepDefinitions.AmazonHomePageByMobinStepDefinition.userClicksOnMicroconsolesTab()
+  Then User is directed to Microconsoles page                     # stepDefinitions.AmazonHomePageByMobinStepDefinition.userIsDirectedToMicroconsolesPage()
+
+@SmokeTest
+Scenario: Successful redirecting after clicking FindAGift tab # src/test/java/features/AmazonHomePageByMobin.feature:165
+  Given User is in Amazon homepage                            # stepDefinitions.AmazonHomePageByMobinStepDefinition.user_is_in_amazon_homepage()
+  When User clicks on FindAGift tab                           # stepDefinitions.AmazonHomePageByMobinStepDefinition.userClicksOnFindAGiftTab()
+      org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Farjanas-Air', ip: '2604:2000:1700:1c:aca7:63da:436f:f5a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '11.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/27/nmfyzmzj1c7...}, goog:chromeOptions: {debuggerAddress: localhost:49225}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a890e6ade66791fca80877a8693d468b
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor114.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at amazonHomeByMobin.AmazonHomePageByMobin.checkFindAGift(AmazonHomePageByMobin.java:500)
+	at stepDefinitions.AmazonHomePageByMobinStepDefinition.userClicksOnFindAGiftTab(AmazonHomePageByMobinStepDefinition.java:304)
+	at ✽.User clicks on FindAGift tab(file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/Amazon/src/test/java/features/AmazonHomePageByMobin.feature:166)
+
+  Then User is directed to FindAGift page                     # stepDefinitions.AmazonHomePageByMobinStepDefinition.userIsDirectedToFindAGiftPage()
+
+@SmokeTest
+Scenario: Successful redirecting after clicking WholeFood tab # src/test/java/features/AmazonHomePageByMobin.feature:171
+  Given User is in Amazon homepage                            # stepDefinitions.AmazonHomePageByMobinStepDefinition.user_is_in_amazon_homepage()
+  When User clicks on WholeFood tab                           # stepDefinitions.AmazonHomePageByMobinStepDefinition.userClicksOnWholeFoodTab()
+  Then User is directed to WholeFood page                     # stepDefinitions.AmazonHomePageByMobinStepDefinition.userIsDirectedToWholeFoodPage()
+
+@SmokeTest
+Scenario: Successful redirecting after clicking WholeFoodBeverages tab # src/test/java/features/AmazonHomePageByMobin.feature:177
+  Given User is in Amazon homepage                                     # stepDefinitions.AmazonHomePageByMobinStepDefinition.user_is_in_amazon_homepage()
+  When User clicks on WholeFoodBeverages tab                           # stepDefinitions.AmazonHomePageByMobinStepDefinition.userClicksOnWholeFoodBeveragesTab()
+  Then User is directed to WholeFoodBeverages page                     # stepDefinitions.AmazonHomePageByMobinStepDefinition.userIsDirectedToWholeFoodBeveragesPage()
+
+@SmokeTest
+Scenario: Successful redirecting after clicking GiftCards tab # src/test/java/features/AmazonHomePageByMobin.feature:183
+  Given User is in Amazon homepage                            # stepDefinitions.AmazonHomePageByMobinStepDefinition.user_is_in_amazon_homepage()
+  When User clicks on GiftCards tab                           # stepDefinitions.AmazonHomePageByMobinStepDefinition.userClicksOnGiftCardsTab()
+  Then User is directed to GiftCards page                     # stepDefinitions.AmazonHomePageByMobinStepDefinition.userIsDirectedToGiftCardsPage()

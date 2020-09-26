@@ -129,4 +129,41 @@ public class MarriottHomePageByMobinStepDefinition extends CommonAPI{
     public void userVariviesTheNumberOfChildGuestOnTheDesiredBox() {
         home.validateChildGuest();
     }
+
+    @When("User clicks on Special Rate checkbox")
+    public void userClicksOnSpecialRateCheckbox() {
+        home.checkSpecialRate();
+    }
+
+    @Then("User varivies check mark on Special Rate checkbox")
+    public void userVariviesCheckMarkOnSpecialRateCheckbox() {
+        home.validateSpecialRate();
+    }
+
+    @When("User clicks on Use Point checkbox")
+    public void userClicksOnUsePointCheckbox() {
+        home.checkUsePointCheckBox();
+    }
+
+    @Then("User varivies check mark on Use Point checkbox")
+    public void userVariviesCheckMarkOnUsePointCheckbox() {
+        home.validateUsePointCheckBox();
+    }
+
+    @When("User inserts information in required sections")
+    public void userInsertsInformationInRequiredSections() throws InterruptedException {
+        home.checkHotelFindingProcess();
+    }
+
+    @And("clicks Find Hotel tab")
+    public void clicksFindHotelTab() {
+        
+    }
+
+    @Then("User varivies the")
+    public void userVariviesThe() {
+        home.validateHotelFindingProcess();
+    }
+
+
 }

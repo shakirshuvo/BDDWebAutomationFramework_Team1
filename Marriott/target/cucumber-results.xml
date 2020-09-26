@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="33.719">
-    <testcase classname="Marriott homepage tab functionality tests" name="Successful redirecting after clicking Deutsch tab" time="16.273">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="10" time="182.246">
+    <testcase classname="Marriott homepage tab functionality tests" name="Successful redirecting after clicking Deutsch tab" time="33.097">
         <system-out>
             <![CDATA[Given User is in Marriott homepage..........................................passed
 When User clicks on language tab............................................passed
@@ -9,12 +9,82 @@ Then User is directed to the German language page...........................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Marriott homepage tab functionality tests" name="Successful redirecting after clicking Espanol tab" time="16.959">
+    <testcase classname="Marriott homepage tab functionality tests" name="Successful redirecting after clicking Espanol tab" time="29.382">
         <system-out>
             <![CDATA[Given User is in Marriott homepage..........................................passed
 When User clicks on language tab............................................passed
 And Espanol tab.............................................................passed
 Then User is directed to the Spanish language page..........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Marriott homepage tab functionality tests" name="Checking functionality of destination search box" time="19.481">
+        <system-out>
+            <![CDATA[Given User is in Marriott homepage..........................................passed
+When User clicks on destination search box..................................passed
+And types the destination name..............................................passed
+Then User varivies the name visible on the search box.......................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Marriott homepage tab functionality tests" name="Checking functionality of Calendar" time="12.598">
+        <system-out>
+            <![CDATA[Given User is in Marriott homepage..........................................passed
+When User clicks on Calendar................................................passed
+And inserts travel date.....................................................passed
+Then User varivies the travel date visible on the Calendar..................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Marriott homepage tab functionality tests" name="Checking functionality of number of room box" time="12.192">
+        <system-out>
+            <![CDATA[Given User is in Marriott homepage..........................................passed
+When User clicks on number of room box......................................passed
+And inserts number of rooms by clicking plus sign...........................passed
+Then User varivies the number of rooms on the desired box...................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Marriott homepage tab functionality tests" name="Checking functionality of Adult Guest Number" time="6.579">
+        <system-out>
+            <![CDATA[Given User is in Marriott homepage..........................................passed
+When User clicks on Adult Guest Number box..................................passed
+And inserts number of Adult Guests by clicking plus sign....................passed
+Then User varivies the number of Adult Guest on the desired box.............passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Marriott homepage tab functionality tests" name="Checking functionality of Child Guest Number" time="12.749">
+        <system-out>
+            <![CDATA[Given User is in Marriott homepage..........................................passed
+When User clicks on Child Guest Number box..................................passed
+And inserts number of Child Guests by clicking plus sign....................passed
+Then User varivies the number of Child Guest on the desired box.............passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Marriott homepage tab functionality tests" name="Checking functionality of Special Rate" time="10.098">
+        <system-out>
+            <![CDATA[Given User is in Marriott homepage..........................................passed
+When User clicks on Special Rate checkbox...................................passed
+Then User varivies check mark on Special Rate checkbox......................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Marriott homepage tab functionality tests" name="Checking functionality of Use Point" time="12.945">
+        <system-out>
+            <![CDATA[Given User is in Marriott homepage..........................................passed
+When User clicks on Use Point checkbox......................................passed
+Then User varivies check mark on Use Point checkbox.........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Marriott homepage tab functionality tests" name="Checking full functionality of Hotel Finding" time="31.963">
+        <system-out>
+            <![CDATA[Given User is in Marriott homepage..........................................passed
+When User inserts information in required sections..........................passed
+And clicks Find Hotel tab...................................................passed
+Then User varivies the......................................................passed
 ]]>
         </system-out>
     </testcase>

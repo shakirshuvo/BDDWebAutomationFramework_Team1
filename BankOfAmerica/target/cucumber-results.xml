@@ -1,43 +1,152 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="76.112">
-    <testcase classname="Bank of America homepage tab functionality tests" name="Successful redirecting after clicking Checking tab" time="12.261">
-        <system-out>
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="10" time="478.565">
+    <testcase classname="Bank of America homepage tab functionality tests" name="Successful redirecting after clicking PrepAndFilling tab" time="57.881">
+        <failure message="element click intercepted: Element &lt;a href=&quot;https://bettermoneyhabits.bankofamerica.com/en/taxes-income?subTopicId=prep-and-filing&quot; data-cat-uri=&quot;/content/bmh/en/taxes-income&quot; class=&quot;js-nav-topics-rollover__link t-track-nav-in&quot; id=&quot;SubNavSubTopic_taxes-income_prep-and-filing&quot;&gt;...&lt;/a&gt; is not clickable at point (659, 178). Other element would receive the click: &lt;div class=&quot;topic-masthead&quot; data-action=&quot;topicMasthead&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=85.0.4183.121)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Farjanas-Air', ip: '2604:2000:1700:1c:aca7:63da:436f:f5a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '11.0.6'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/27/nmfyzmzj1c7...}, goog:chromeOptions: {debuggerAddress: localhost:49750}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: c11e9d5d9a436fec8587dbf9346e04eb" type="org.openqa.selenium.ElementClickInterceptedException">
             <![CDATA[Given User is in Bank of America homepage...................................passed
-When User clicks on Checking tab............................................passed
-Then User is directed to Checking page......................................passed
+When User hover over in different places....................................passed
+And clicks on PrepAndFilling tab............................................failed
+Then User is directed to PrepAndFilling page................................skipped
+
+StackTrace:
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="https://bettermoneyhabits.bankofamerica.com/en/taxes-income?subTopicId=prep-and-filing" data-cat-uri="/content/bmh/en/taxes-income" class="js-nav-topics-rollover__link t-track-nav-in" id="SubNavSubTopic_taxes-income_prep-and-filing">...</a> is not clickable at point (659, 178). Other element would receive the click: <div class="topic-masthead" data-action="topicMasthead">...</div>
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Farjanas-Air', ip: '2604:2000:1700:1c:aca7:63da:436f:f5a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '11.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/27/nmfyzmzj1c7...}, goog:chromeOptions: {debuggerAddress: localhost:49750}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c11e9d5d9a436fec8587dbf9346e04eb
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at boaHomeByMobin.BOAHomePageByMobin.checkPrepAndFillingTab(BOAHomePageByMobin.java:184)
+	at stepDefinitions.BOAHomePageByMobinStepDefinition.clicksOnPrepAndFillingTab(BOAHomePageByMobinStepDefinition.java:90)
+	at ✽.clicks on PrepAndFilling tab(file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/BOAHomePageByMobin.feature:41)
 ]]>
-        </system-out>
+        </failure>
     </testcase>
-    <testcase classname="Bank of America homepage tab functionality tests" name="Successful redirecting after clicking Savings tab" time="6.062">
-        <system-out>
+    <testcase classname="Bank of America homepage tab functionality tests" name="Successful redirecting after clicking WorkPayAndBenifits tab" time="53.458">
+        <failure message="element not interactable&#10;  (Session info: chrome=85.0.4183.121)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Farjanas-Air', ip: '2604:2000:1700:1c:aca7:63da:436f:f5a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '11.0.6'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/27/nmfyzmzj1c7...}, goog:chromeOptions: {debuggerAddress: localhost:50047}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 8ac5f26fd7d986caa42e805f0752c9f7" type="org.openqa.selenium.ElementNotInteractableException">
             <![CDATA[Given User is in Bank of America homepage...................................passed
-When User clicks on Savings tab.............................................passed
-Then User is directed to Savings page.......................................passed
+When User hover over in different places....................................passed
+And clicks on WorkPayAndBenifits tab........................................failed
+Then User is directed to WorkPayAndBenifits page............................skipped
+
+StackTrace:
+org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Farjanas-Air', ip: '2604:2000:1700:1c:aca7:63da:436f:f5a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '11.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/27/nmfyzmzj1c7...}, goog:chromeOptions: {debuggerAddress: localhost:50047}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 8ac5f26fd7d986caa42e805f0752c9f7
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at boaHomeByMobin.BOAHomePageByMobin.checkWorkPayAndBenifitsTab(BOAHomePageByMobin.java:222)
+	at stepDefinitions.BOAHomePageByMobinStepDefinition.clicksOnWorkPayAndBenifitsTab(BOAHomePageByMobinStepDefinition.java:100)
+	at ✽.clicks on WorkPayAndBenifits tab(file:///Users/farjanamobin/IdeaProjects/BDDWebAutomationFramework_Team1/BankOfAmerica/src/test/java/features/BOAHomePageByMobin.feature:48)
 ]]>
-        </system-out>
+        </failure>
     </testcase>
-    <testcase classname="Bank of America homepage tab functionality tests" name="Successful redirecting after clicking Credit Card tab" time="6.46">
-        <system-out>
-            <![CDATA[Given User is in Bank of America homepage...................................passed
-When User clicks on Credit Card tab.........................................passed
-Then User is directed to Credit Card page...................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="Bank of America homepage tab functionality tests" name="Successful redirecting after clicking Investing tab" time="9.447">
-        <system-out>
-            <![CDATA[Given User is in Bank of America homepage...................................passed
-When User clicks on Investing tab...........................................passed
-Then User is directed to Investing page.....................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="Bank of America homepage tab functionality tests" name="Successful redirecting after clicking Planning tab" time="41.319">
+    <testcase classname="Bank of America homepage tab functionality tests" name="Successful redirecting after clicking HowBanksWork tab" time="39.775">
         <system-out>
             <![CDATA[Given User is in Bank of America homepage...................................passed
 When User hover over in different places....................................passed
-And clicks on Planning tab..................................................passed
-Then User is directed to Planning page......................................passed
+And clicks on HowBanksWork tab..............................................passed
+Then User is directed to HowBanksWork page..................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Bank of America homepage tab functionality tests" name="Successful redirecting after clicking ManagingBankAccounts tab" time="39.021">
+        <system-out>
+            <![CDATA[Given User is in Bank of America homepage...................................passed
+When User hover over in different places....................................passed
+And clicks on ManagingBankAccounts tab......................................passed
+Then User is directed to ManagingBankAccounts page..........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Bank of America homepage tab functionality tests" name="Successful redirecting after clicking TeachingKidsAboutMoney tab" time="42.878">
+        <system-out>
+            <![CDATA[Given User is in Bank of America homepage...................................passed
+When User hover over in different places....................................passed
+And clicks on TeachingKidsAboutMoney tab....................................passed
+Then User is directed to TeachingKidsAboutMoney page........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Bank of America homepage tab functionality tests" name="Successful redirecting after clicking ChoosingACreditCard tab" time="53.543">
+        <system-out>
+            <![CDATA[Given User is in Bank of America homepage...................................passed
+When User hover over in different places....................................passed
+And clicks on ChoosingACreditCard tab.......................................passed
+Then User is directed to ChoosingACreditCard page...........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Bank of America homepage tab functionality tests" name="Successful redirecting after clicking CreditReport tab" time="46.976">
+        <system-out>
+            <![CDATA[Given User is in Bank of America homepage...................................passed
+When User hover over in different places....................................passed
+And clicks on CreditReport tab..............................................passed
+Then User is directed to creditReport page..................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Bank of America homepage tab functionality tests" name="Successful redirecting after clicking CreditScore tab" time="48.447">
+        <system-out>
+            <![CDATA[Given User is in Bank of America homepage...................................passed
+When User hover over in different places....................................passed
+And clicks on CreditScore tab...............................................passed
+Then User is directed to CreditScore page...................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Bank of America homepage tab functionality tests" name="Successful redirecting after clicking HowCreditCardWorks tab" time="46.56">
+        <system-out>
+            <![CDATA[Given User is in Bank of America homepage...................................passed
+When User hover over in different places....................................passed
+And clicks on HowCreditCardWorks tab........................................passed
+Then User is directed to HowCreditCardWorks page............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Bank of America homepage tab functionality tests" name="Successful redirecting after clicking ManageingCreditCards tab" time="48.763">
+        <system-out>
+            <![CDATA[Given User is in Bank of America homepage...................................passed
+When User hover over in different places....................................passed
+And clicks on ManageingCreditCards tab......................................passed
+Then User is directed to ManageingCreditCards page..........................passed
 ]]>
         </system-out>
     </testcase>

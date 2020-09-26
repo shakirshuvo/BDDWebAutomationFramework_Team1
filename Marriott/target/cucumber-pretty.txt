@@ -12,3 +12,57 @@ Scenario: Successful redirecting after clicking Espanol tab # src/test/java/feat
   When User clicks on language tab                          # stepDefinitions.MarriottHomePageByMobinStepDefinition.user_clicks_on_language_tab()
   And Espanol tab                                           # stepDefinitions.MarriottHomePageByMobinStepDefinition.espanolTab()
   Then User is directed to the Spanish language page        # stepDefinitions.MarriottHomePageByMobinStepDefinition.userIsDirectedToTheSpanishLanguagePage()
+
+@SmokeTest
+Scenario: Checking functionality of destination search box # src/test/java/features/MarriottHomePageByMobin.feature:22
+  Given User is in Marriott homepage                       # stepDefinitions.MarriottHomePageByMobinStepDefinition.user_is_in_marriott_homepage()
+  When User clicks on destination search box               # stepDefinitions.MarriottHomePageByMobinStepDefinition.userClicksOnDestinationSearchBox()
+  And types the destination name                           # stepDefinitions.MarriottHomePageByMobinStepDefinition.typesTheDestinationName()
+  Then User varivies the name visible on the search box    # stepDefinitions.MarriottHomePageByMobinStepDefinition.userVariviesTheNameVisibleOnTheSearchBox()
+
+@SmokeTest
+Scenario: Checking functionality of Calendar                 # src/test/java/features/MarriottHomePageByMobin.feature:29
+  Given User is in Marriott homepage                         # stepDefinitions.MarriottHomePageByMobinStepDefinition.user_is_in_marriott_homepage()
+  When User clicks on Calendar                               # stepDefinitions.MarriottHomePageByMobinStepDefinition.userClicksOnCalendar()
+  And inserts travel date                                    # stepDefinitions.MarriottHomePageByMobinStepDefinition.insertsTravelDate()
+  Then User varivies the travel date visible on the Calendar # stepDefinitions.MarriottHomePageByMobinStepDefinition.userVariviesTheTravelDateVisibleOnTheCalendar()
+
+@SmokeTest
+Scenario: Checking functionality of number of room box      # src/test/java/features/MarriottHomePageByMobin.feature:36
+  Given User is in Marriott homepage                        # stepDefinitions.MarriottHomePageByMobinStepDefinition.user_is_in_marriott_homepage()
+  When User clicks on number of room box                    # stepDefinitions.MarriottHomePageByMobinStepDefinition.userClicksOnNumberOfRoomBox()
+  And inserts number of rooms by clicking plus sign         # stepDefinitions.MarriottHomePageByMobinStepDefinition.insertsNumberOfRoomsByClickingPlusSign()
+  Then User varivies the number of rooms on the desired box # stepDefinitions.MarriottHomePageByMobinStepDefinition.userVariviesTheNumberOfRoomsOnTheDesiredBox()
+
+@SmokeTest
+Scenario: Checking functionality of Adult Guest Number            # src/test/java/features/MarriottHomePageByMobin.feature:43
+  Given User is in Marriott homepage                              # stepDefinitions.MarriottHomePageByMobinStepDefinition.user_is_in_marriott_homepage()
+  When User clicks on Adult Guest Number box                      # stepDefinitions.MarriottHomePageByMobinStepDefinition.userClicksOnAdultGuestNumberBox()
+  And inserts number of Adult Guests by clicking plus sign        # stepDefinitions.MarriottHomePageByMobinStepDefinition.insertsNumberOfAdultGuestsByClickingPlusSign()
+  Then User varivies the number of Adult Guest on the desired box # stepDefinitions.MarriottHomePageByMobinStepDefinition.userVariviesTheNumberOfAdultGuestOnTheDesiredBox()
+
+@SmokeTest
+Scenario: Checking functionality of Child Guest Number            # src/test/java/features/MarriottHomePageByMobin.feature:50
+  Given User is in Marriott homepage                              # stepDefinitions.MarriottHomePageByMobinStepDefinition.user_is_in_marriott_homepage()
+  When User clicks on Child Guest Number box                      # stepDefinitions.MarriottHomePageByMobinStepDefinition.userClicksOnChildGuestNumberBox()
+  And inserts number of Child Guests by clicking plus sign        # stepDefinitions.MarriottHomePageByMobinStepDefinition.insertsNumberOfChildGuestsByClickingPlusSign()
+  Then User varivies the number of Child Guest on the desired box # stepDefinitions.MarriottHomePageByMobinStepDefinition.userVariviesTheNumberOfChildGuestOnTheDesiredBox()
+
+@SmokeTest
+Scenario: Checking functionality of Special Rate         # src/test/java/features/MarriottHomePageByMobin.feature:57
+  Given User is in Marriott homepage                     # stepDefinitions.MarriottHomePageByMobinStepDefinition.user_is_in_marriott_homepage()
+  When User clicks on Special Rate checkbox              # stepDefinitions.MarriottHomePageByMobinStepDefinition.userClicksOnSpecialRateCheckbox()
+  Then User varivies check mark on Special Rate checkbox # stepDefinitions.MarriottHomePageByMobinStepDefinition.userVariviesCheckMarkOnSpecialRateCheckbox()
+
+@SmokeTest
+Scenario: Checking functionality of Use Point         # src/test/java/features/MarriottHomePageByMobin.feature:63
+  Given User is in Marriott homepage                  # stepDefinitions.MarriottHomePageByMobinStepDefinition.user_is_in_marriott_homepage()
+  When User clicks on Use Point checkbox              # stepDefinitions.MarriottHomePageByMobinStepDefinition.userClicksOnUsePointCheckbox()
+  Then User varivies check mark on Use Point checkbox # stepDefinitions.MarriottHomePageByMobinStepDefinition.userVariviesCheckMarkOnUsePointCheckbox()
+
+@SmokeTest
+Scenario: Checking full functionality of Hotel Finding # src/test/java/features/MarriottHomePageByMobin.feature:69
+  Given User is in Marriott homepage                   # stepDefinitions.MarriottHomePageByMobinStepDefinition.user_is_in_marriott_homepage()
+  When User inserts information in required sections   # stepDefinitions.MarriottHomePageByMobinStepDefinition.userInsertsInformationInRequiredSections()
+  And clicks Find Hotel tab                            # stepDefinitions.MarriottHomePageByMobinStepDefinition.clicksFindHotelTab()
+  Then User varivies the                               # stepDefinitions.MarriottHomePageByMobinStepDefinition.userVariviesThe()
