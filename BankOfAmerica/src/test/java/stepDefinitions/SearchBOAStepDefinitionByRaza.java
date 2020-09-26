@@ -44,8 +44,8 @@ public class SearchBOAStepDefinitionByRaza extends CommonAPI {
          expectedResult = item;
     }
 
-    @Then("I verify items with {string}.")
-    public void iVerifyItemsWith(String item) throws InterruptedException {
+    @Then("I verify items with ProductName Displayed.")
+    public void iVerifyItemsWithProductNameDisplayed() throws InterruptedException {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         validateSearchItems(expectedResult);
 
