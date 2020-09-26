@@ -103,19 +103,19 @@ Feature: United Health Care homepage tab functionality tests
 #    When User clicks on Privacy tab
 #    Then User is directed to Privacy page
 
-    #  21
-  @SmokeTest
-  Scenario: Negetiv testing for myuhc sign in with invalid user name and password
-    And User clicks on sign in tab
-    And selects Plan Through You Employer?
-    And clicks signin button
-    When User enters "Donald Trump" in user name box
-    And enters "nancyPelosi" in password box
-    And User clicks on remember me check box
-    And finally clicks Signin button
-    Then User validae signin error message
+#      21
+#  @SmokeTest
+#  Scenario: Negetiv testing for myuhc sign in with invalid user name and password
+#    And User clicks on sign in tab
+#    And selects Plan Through You Employer?
+#    And clicks signin button
+#    When User enters "Donald Trump" in user name box
+#    And enters "nancyPelosi" in password box
+#    And User clicks on remember me check box
+#    And finally clicks Signin button
+#    Then User validae signin error message
 
-#      22
+##      22
 #  @SmokeTest
 #  Scenario Outline: Negetiv testing for myuhc registration with invalid information
 #    And User clicks on registernow tab
