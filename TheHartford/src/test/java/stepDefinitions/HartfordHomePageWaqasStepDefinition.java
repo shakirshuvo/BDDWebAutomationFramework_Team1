@@ -10,6 +10,7 @@ import io.cucumber.java.en.When;
 import org.openqa.selenium.support.PageFactory;
 
 import java.io.IOException;
+import java.util.concurrent.TimeUnit;
 
 public class HartfordHomePageWaqasStepDefinition extends CommonAPI {
 
@@ -29,67 +30,73 @@ public class HartfordHomePageWaqasStepDefinition extends CommonAPI {
     @Given("I am on Hartford Homepage")
     public void iAmOnHartfordHomepage() throws IOException {
         openBrowser("https://www.thehartford.com/");
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     }
 
-
-    @When("I click on Auto Tab  ")
-    public void i_click_on_auto_tab() {
+    @When("I click on Auto Tab")
+    public void iClickOnAutoTab() {
         hartfordHomePageWaqas.clickOnAutoTab();
     }
 
-    @Then("I will validate the auto tab by Waqas")
-    public void i_will_validate_the_auto_tab() {
+    @Then("I will validate the auto tab")
+    public void iWillValidateTheAutoTab() {
         hartfordHomePageWaqas.validateClickOnAuto();
     }
 
-
-    @When("I Click on Home Web Element Tab by Waqas ")
+    @When("I Click on Home Web Element Tab")
     public void iClickOnHomeWebElementTab() {
         hartfordHomePageWaqas.clickOnHomeTab();
     }
 
-    @Then("I will validate the Home tabby by Waqas")
+    @Then("I will validate the Home tab")
     public void iWillValidateTheHomeTab() {
         hartfordHomePageWaqas.validateClickOnHomeTab();
     }
 
-    @When("I Click on Business Web Element Tabby Waqas")
+    @When("I Click on Business Web Element Tab")
     public void iClickOnBusinessWebElementTab() {
         hartfordHomePageWaqas.clickOnBusinessTab();
     }
 
-    @Then("I will validate the business element tab by Waqas")
+    @Then("I will validate the business element tab")
     public void iWillValidateTheBusinessElementTab() {
         hartfordHomePageWaqas.validateClickOnBusinessTab();
     }
 
-    @When("I Click on Business Web Element Tab by Waqas")
-    public void iClickOnEmployeeBenefitsWebElementTab() {
+    @When("I Click on Employee Benefits Web Element")
+    public void iClickOnEmployeeBenefitsWebElement() {
         hartfordHomePageWaqas.clickOnEmployeeBenefits();
     }
 
-    @Then("I will validate the Employee tab by Waqas")
+    @Then("I will validate the Employee benefits tab")
     public void iWillValidateTheEmployeeBenefitsTab() {
         hartfordHomePageWaqas.validateClickOnEmployeeBenefits();
     }
 
-    @When("I Click on About Us Web Element Waqas")
-    public void iClickOnAboutUsWebElement(){
+    @When("I Click on About Us Web Element")
+    public void iClickOnAboutUsWebElement() {
         hartfordHomePageWaqas.clickOnAboutUsTab();
     }
 
-    @Then("I will validate the About Us element by Waqas")
+    @Then("I will validate the About Us element")
     public void iWillValidateTheAboutUsElement() {
+        hartfordHomePageWaqas.validateClickOnAboutUsTab();
     }
 
-
-    @When("I Mouseover on Home Web Element by Waqas")
+    @When("I Mouseover on Home Web Element")
     public void iMouseoverOnHomeWebElement() {
+        hartfordHomePageWaqas.homeTabMouseOver();
     }
 
-    @Then("I will validate the Hometab mouseover Waqas ")
+    @Then("I will validate the Hometab mouseover")
     public void iWillValidateTheHometabMouseover() {
+        hartfordHomePageWaqas.validateHomeTabMouseOver();
     }
+
+
+
+
 
     @When("I Click on Renters Insurance Web Element")
     public void iClickOnRentersInsuranceWebElement() {
@@ -300,4 +307,6 @@ public class HartfordHomePageWaqasStepDefinition extends CommonAPI {
     public void iWillValidateTheBenefitTechnologyPartnersElement() {
         hartfordHomePageWaqas.validateClickOnBenefitsTechnology();
     }
+
+
 }

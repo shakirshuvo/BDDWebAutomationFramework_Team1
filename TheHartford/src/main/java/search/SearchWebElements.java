@@ -31,6 +31,7 @@ public class SearchWebElements {
     public static final String findFeedBack = "//span//div[text()='Feedback']";
     public static final String findCarInsurance = "//article//a[text()='Car Insurance']";
     public static final String findHomeInsurance = "//article//a[text()='Home Insurance']";
+    public static final String findHomeInsurance11111 = "//article//a[text()='Home Insurance']";
     public static final String validateFeedBackXpath="//*[@id=\"liveForm\"]/div/div[2]/div[1]/div/div/div[2]/div/div/p/p/span/span/strong";
 
 }

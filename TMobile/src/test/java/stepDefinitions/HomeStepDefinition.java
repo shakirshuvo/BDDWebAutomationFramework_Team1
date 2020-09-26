@@ -1,6 +1,6 @@
-package stepDefinitions;
-
-import base.CommonAPI;
-
-public class HomeStepDefinition extends CommonAPI {
-}
+//package stepDefinitions;
+//
+//import base.CommonAPI;
+//
+//public class HomeStepDefinition extends CommonAPI {
+//}
