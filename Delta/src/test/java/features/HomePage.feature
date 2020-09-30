@@ -118,8 +118,19 @@ Feature: Delta homepage functionality check
           @MyTest
           Scenario: To make sure user can use On Airline Partners  module
             When I first clicked on to the travel info module
-            And I then  click
+            And I click on Air line partners module
+            Then I verify Airline partners by title
 
+            @MyTest
+            Scenario: To make sure user can use On ShopHotels module
+              When I just first clicked on to the travel info module
+              And I click on ShopHotels module
+              Then I verify ShopHotels by title
+          @MyTest
+          Scenario: To make sure user can use On ShopHotels module
+            When I just first clicked on to the travel info module
+            And I click on ShopHotels module
+            Then I verify ShopHotels by title
 
 
 

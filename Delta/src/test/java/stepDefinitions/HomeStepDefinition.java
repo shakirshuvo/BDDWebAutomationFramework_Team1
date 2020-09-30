@@ -3,13 +3,15 @@ package stepDefinitions;
 import base.CommonAPI;
 import home.Home;
 import io.cucumber.java.After;
-import io.cucumber.java.en.*;
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 import org.openqa.selenium.support.PageFactory;
 
 import java.io.IOException;
 
 import static home.HomePageWebElements.*;
-import static home.Home.*;
 
 public class HomeStepDefinition extends CommonAPI {
 
@@ -301,6 +303,39 @@ public class HomeStepDefinition extends CommonAPI {
     public void iVerifyBaggageByTitle() {
         validateByTitle(validateBaggageByTitle);
     }
+
+    @When("I first clicked on to the travel info module")
+    public void iFirstClickedOnToTheTravelInfoModule() {
+        clickOnElementByID(travelInfoByID);
+        
+    }
+
+    @And("I click on Air line partners module")
+    public void iClickOnAirLinePartnersModule() {
+      clickOnElementByXpath(airlinePartnersByXpath);
+    }
+
+    @Then("I verify Airline partners by title")
+    public void iVerifyAirlinePartnersByTitle() {
+        validateByTitle(validateAirlinePartnersByTitle);
+    }
+
+    @When("I just first clicked on to the travel info module")
+    public void iJustFirstClickedOnToTheTravelInfoModule() {
+        clickOnElementByID(travelInfoByID);
+
+    }
+
+    @And("I click on ShopHotels module")
+    public void iClickOnShopHotelsModule() {
+       clickOnElementByXpath(shopHotelsByXpath);
+    }
+
+    @Then("I verify ShopHotels by title")
+    public void iVerifyShopHotelsByTitle() {
+        validateByTitle(validateShopHotelsByTitle);
+    }
+
 
 //    @When("I first click on my trips")
 //    public void iFirstClickOnMyTrips() {

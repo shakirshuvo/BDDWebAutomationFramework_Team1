@@ -1,6 +1,6 @@
 package home;
 
-public class HomePageWebElements<LocationsXpath> {
+public class HomePageWebElements<LocationsXpath, rentACarByXpath> {
     public static final String loginXpathWebElement = "//button[text()='Log in']";
     public static final String webelementSignUpXPATH = "/html/body/app-root/app-home/ngc-global-nav/header/div/nav/div/div[2]/ngc-login/div/div[1]/div/a";
     public static final String webelementLoginXpath = "/html/body/app-root/app-home/ngc-global-nav/header/div/nav/div/div[2]/ngc-login/div/div[2]/div/form/button";
@@ -71,7 +71,7 @@ public class HomePageWebElements<LocationsXpath> {
     public static final String validateBaggageByTitle="Baggage Policy and Fees | Delta Air Lines";
     public static final String airlinePartnersByXpath="//*[@id=\"secPanel1\"]/ngc-app-sec-links-content/div/div/div[2]/div[3]/ul/li[2]";
     public static final String validateAirlinePartnersByTitle="Overview";
-
-
+    public static final String shopHotelsByXpath="//*[@id=\"secPanel1\"]/ngc-app-sec-links-content/div/div/div[2]/div[3]/ul/li[15]";
+    public static final String validateShopHotelsByTitle="Delta - Deals & Discounts for Hotel Reservations from Luxury Hotels to Budget Accommodations";
 
 }
